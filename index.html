@@ -295,17 +295,43 @@ async function loadBriefingData() {
   try {
     const resp = await fetch('data/current-briefing.json');
     if (!resp.ok) throw new Error('current-briefing not found');
-    currentData = await resp.json();
+    const raw = await resp.json();
+    currentData = normalizeBriefing(raw);
   } catch(e) {
     // Fallback: try sample data
     try {
       const resp2 = await fetch('data/sample-briefing.json');
-      currentData = await resp2.json();
+      const raw2 = await resp2.json();
+      currentData = normalizeBriefing(raw2);
     } catch(e2) {
       currentData = getFallbackData();
     }
   }
   render();
+}
+
+// Normalize both flat format (from generate script) and nested format (sample)
+function normalizeBriefing(raw) {
+  // Already in expected format
+  if (raw.briefings) return raw;
+  // Flat format: { date, period, items: [...] }
+  const period = raw.period || 'morning';
+  const items = (raw.items || []).map((item, i) => ({
+    id: item.id || (period[0] + (i + 1)),
+    section: item.section || 'seo',
+    headline: item.headline || item.title || 'Untitled',
+    summary: item.summary || '',
+    url: item.url || '#',
+    source: item.source || 'Unknown',
+    timestamp: item.timestamp || raw.generated || new Date().toISOString(),
+    tags: item.tags || []
+  }));
+  const label = period === 'morning' ? "Today's Briefing" : 'Afternoon Update';
+  const time = period === 'morning' ? '7:00 AM' : '3:00 PM';
+  return {
+    meta: { date: raw.date || new Date().toISOString().slice(0, 10) },
+    briefings: { [period]: { label, time, items } }
+  };
 }
 
 function getFallbackData() {
