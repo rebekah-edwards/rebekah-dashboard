@@ -2189,7 +2189,10 @@ async function pushChanges() {
   note.innerHTML = `
     <div style="font-weight:700;color:var(--accent2);margin-bottom:0.5rem;">📋 Changes copied to clipboard!</div>
     <div style="color:var(--text-muted);font-size:0.85rem;">Paste in <strong>#lion</strong> on Discord. Opening Discord now...</div>
-    <button onclick="this.parentElement.remove()" style="margin-top:0.75rem;background:var(--surface2);border:1px solid var(--border);color:var(--text-muted);padding:0.3rem 1rem;border-radius:6px;cursor:pointer;font-size:0.8rem;">Got it</button>
+    <div style="display:flex;gap:0.5rem;justify-content:center;margin-top:0.75rem;">
+      <button onclick="this.closest('div[style]').parentElement.remove()" style="background:var(--surface2);border:1px solid var(--border);color:var(--text-muted);padding:0.3rem 1rem;border-radius:6px;cursor:pointer;font-size:0.8rem;">Got it</button>
+      <button onclick="clearAllEdits();this.closest('div[style]').parentElement.remove()" style="background:var(--accent);border:none;color:#fff;padding:0.3rem 1rem;border-radius:6px;cursor:pointer;font-size:0.8rem;font-weight:600;">✅ Clear All Local Edits</button>
+    </div>
   `;
   document.body.appendChild(note);
 
@@ -2202,6 +2205,12 @@ async function pushChanges() {
     btn.textContent = '📤 Push Changes to Clanker';
     btn.classList.remove('sent');
   }, 5000);
+}
+
+function clearAllEdits() {
+  edits = {};
+  localStorage.setItem('lion_edits_v1', '{}');
+  render();
 }
 
 // Override render to also update push button
