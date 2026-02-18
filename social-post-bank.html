@@ -1207,6 +1207,536 @@ const POSTS = [
     talent: [],
     assign: "",
     refs: []
+  },
+
+  // ============================================
+  // BATCH 2 — Industry Commentary, Storytelling & Craft, Book Culture
+  // ============================================
+
+  // --- INDUSTRY COMMENTARY (Spicy) ---
+  {
+    id: 200, title: "The Big 5 Don't Want You to Read This",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "Breakdown of how the Big 5 publishers actually work — consolidation, shrinking midlist, risk-averse acquisitions, the death of the debut author advance. Not conspiratorial, just factual. End with: 'This is why publishers like Lion exist.' Blog for SEO depth, carousel for social.",
+    types: ["blog", "carousel", "thread"],
+    talent: ["Rebekah"],
+    assign: "",
+    refs: [{ label: "Publishing Perspectives 2025 recap", url: "https://publishingperspectives.com/2025/12/publishings-defining-conversations-in-2025-and-what-comes-next/" }]
+  },
+  {
+    id: 201, title: "Why Every Book Looks the Same Now",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "The homogenization of book covers — pastel illustrated covers, the 'BookTok aesthetic,' and how trend-chasing has made browsing bookstores feel like looking at the same book 50 times. Visual comparison carousel showing the sameness. Ties to Lion's commitment to distinctive cover design.",
+    types: ["carousel", "reel", "blog"],
+    talent: ["Seth"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 202, title: "BookTok Is Killing Long-Form Storytelling",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "Hot take: the BookTok recommendation cycle rewards fast reads with high 'trope density' over deep, layered narratives. Publishers are now acquiring based on TikTok marketability instead of literary merit. Not anti-BookTok — it's a symptom, not the cause. Discuss what readers lose when algorithms pick winners.",
+    types: ["video", "reel", "blog", "thread"],
+    talent: ["Rebekah", "Seth"],
+    assign: "",
+    refs: [{ label: "Rolling Stone: BookTok 2026", url: "https://www.rollingstone.com/culture/culture-features/booktok-trends-predictions-tiktok-1235487896/" }]
+  },
+  {
+    id: 203, title: "The 'Sensitivity Reader' Industrial Complex",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "Honest look at how sensitivity reading has evolved from a useful tool into a gatekeeping mechanism. Where's the line between thoughtful representation and creative censorship? Interview format or essay-style blog. Keep it nuanced — acknowledge both sides, then plant Lion's flag.",
+    types: ["blog", "video", "thread"],
+    talent: ["Rebekah"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 204, title: "Why Debut Authors Are Disappearing",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "Data-driven piece: shrinking advances, fewer debut slots, trad publishers only betting on proven names or celebrity memoirs. The debut author pipeline is broken. Position crowdfunding and indie publishing as the new path. Infographic carousel + blog.",
+    types: ["blog", "carousel", "thread"],
+    talent: ["Rebekah"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 205, title: "The Quiet Death of the Midlist Author",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "Trad publishing only invests in megahits or prestige literary fiction. The 'midlist' — solid books that sell respectably — gets no marketing, no love, and eventually gets dropped. These are the books Lion is built to champion.",
+    types: ["blog", "long", "thread"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 206, title: "Are Award-Winning Books Actually Good?",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "Compare recent Hugo/Nebula winners with what readers actually love. Disconnect between award committees and reader tastes. Not 'awards are bad' but 'who are these awards for?' Very shareable hot take format.",
+    types: ["reel", "video", "carousel", "blog"],
+    talent: ["Seth"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 207, title: "The Problem with 'Representation' as a Marketing Hook",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "When 'diverse' becomes the primary selling point instead of 'good story,' everyone loses — including the communities being represented. The difference between authentic representation and performative checkboxes. Nuanced, not inflammatory.",
+    types: ["blog", "video", "thread"],
+    talent: ["Rebekah"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 208, title: "Why Your Favorite Author's New Book Sucks",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "The trad publishing machine pressures authors to write faster, stick to what sold before, and never take risks. Contractual obligations kill creativity. Short-form video rant format — Seth or Rebekah on camera, passionate but not mean.",
+    types: ["reel", "video"],
+    talent: ["Seth"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 209, title: "The Real Reason Books Cost $30 Now",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "Walk through the supply chain: paper costs, printing consolidation, distributor margins, retailer discounts, publisher overhead. Show where the money actually goes. Then compare to the crowdfunding model where backers get more value. Infographic carousel is perfect.",
+    types: ["carousel", "blog", "reel"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 210, title: "Agents Are the New Gatekeepers (And That's a Problem)",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "Literary agents now decide what gets published more than editors do. Their taste shapes the entire market. Explore how this bottleneck affects what readers can access. Position direct-to-reader as the escape valve.",
+    types: ["blog", "thread", "video"],
+    talent: ["Rebekah"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 211, title: "When Did 'Fantasy' Start Meaning 'Romance With Magic'?",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "The genre label 'fantasy' has been co-opted by romantasy to the point where readers looking for epic/high/dark fantasy can't find it. Not anti-romance — just calling out the mislabeling. Fantasy readers will rally hard around this one.",
+    types: ["reel", "carousel", "blog", "text"],
+    talent: ["Seth", "Rebekah"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 212, title: "The TikTok Ban and What It Means for Book Marketing",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "Publishers built their marketing strategy on BookTok. What happens if it disappears? Explore alternative platforms, the fragility of building on rented land, and why email lists and direct communities matter more than ever.",
+    types: ["blog", "carousel", "thread"],
+    talent: ["Rebekah"],
+    assign: "",
+    refs: [{ label: "NYT: Can anything replace BookTok?", url: "https://www.nytimes.com/2025/01/17/books/booktok-publishing.html" }]
+  },
+  {
+    id: 213, title: "Self-Published ≠ Bad (And Trad Published ≠ Good)",
+    category: "Industry Commentary",
+    source: "clanker",
+    desc: "Debunk the stigma. Some of the best-selling fantasy series started self-published. Some trad-published books are unedited garbage. Quality is about the team and the process, not the label. Lion sits in the sweet spot.",
+    types: ["carousel", "reel", "blog"],
+    talent: ["Seth"],
+    assign: "",
+    refs: []
+  },
+
+  // --- STORYTELLING & CRAFT (Kindlepreneur-style) ---
+  {
+    id: 300, title: "How to Build a Magic System That Actually Works",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Deep-dive into hard vs. soft magic systems, Sanderson's Laws, and the spectrum between them. Examples from popular series. Blog post with carousel summary. Include a 'magic system design checklist' as a lead magnet tie-in.",
+    types: ["blog", "carousel", "thread"],
+    talent: [],
+    assign: "",
+    refs: [{ label: "Kindlepreneur: World Building", url: "https://kindlepreneur.com/world-building/" }]
+  },
+  {
+    id: 301, title: "Static vs. Dynamic Characters — And Why It Matters",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Explain the difference with clear examples (Sherlock Holmes = static, Zuko = dynamic). When to use each, why both are valid, and the common mistake of confusing 'static' with 'flat.' Carousel with character examples + blog.",
+    types: ["blog", "carousel", "reel"],
+    talent: [],
+    assign: "",
+    refs: [{ label: "Kindlepreneur: Character Development", url: "https://kindlepreneur.com/character-development/" }]
+  },
+  {
+    id: 302, title: "Round vs. Flat Characters — A Writer's Guide",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "The companion to static/dynamic. Round characters have depth and complexity; flat characters serve a function. Great villains need roundness. Great side characters can be flat and still lovable. Examples from fantasy specifically.",
+    types: ["blog", "carousel"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 303, title: "The Hero's Journey Is Not the Only Story Structure",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Monomyth fatigue is real. Cover alternatives: Kishotenketsu, the Heroine's Journey, Harmon's Story Circle, the Fichtean Curve, In Medias Res structures. Visual diagrams for each. Fantasy examples throughout. Blog + infographic carousel.",
+    types: ["blog", "carousel", "thread"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 304, title: "How to Write a Morally Gray Character (Without Making Them Unlikeable)",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "The internet's favorite character type, explained properly. The difference between morally gray and 'just a bad person the author likes.' Specific techniques: competing loyalties, impossible choices, sympathetic motivations. Blog + carousel of examples (Jaime Lannister, Kaz Brekker, Dalinar).",
+    types: ["blog", "carousel", "reel"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 305, title: "World-Building Iceberg: What to Show vs. What to Know",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Tolkien built languages readers never saw. Sanderson builds economic systems. The iceberg principle: 90% of your world exists below the surface to make the 10% feel real. Visual iceberg graphic. Blog post with framework + examples.",
+    types: ["blog", "carousel", "image"],
+    talent: [],
+    assign: "",
+    refs: [{ label: "Kindlepreneur: Worldbuilding Template", url: "https://kindlepreneur.com/worldbuilding-template/" }]
+  },
+  {
+    id: 306, title: "Dialogue Tags: 'Said' Is Not Dead",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Debunk the creative writing teacher myth that you need 50 synonyms for 'said.' When 'said' disappears on the page (invisible tags), when to use action beats instead, and when a fancy tag actually works. Before/after examples. Blog + carousel.",
+    types: ["blog", "carousel", "short"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 307, title: "How to Write Fight Scenes That Don't Bore People",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Most written fight scenes are either blow-by-blow snoozefests or confusing chaos. Cover: emotional stakes > choreography, pacing tricks, the 'camera angle' technique, sensory detail. Blog post with before/after rewrites. Fantasy-specific examples.",
+    types: ["blog", "carousel", "video"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 308, title: "Foreshadowing: The Art of Hiding Things in Plain Sight",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Types of foreshadowing (direct, abstract, symbolic, via red herring). Famous examples readers might have missed. The 'promise and payoff' framework. Blog + carousel of 'Did you catch this?' moments from popular fantasy.",
+    types: ["blog", "carousel", "reel"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 309, title: "Show Don't Tell — But Actually, Sometimes Tell",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "The most misunderstood writing advice. When showing is essential (emotion, character reveals), when telling is efficient (transitions, time jumps, exposition). Specific examples of each done well. Blog post that becomes a carousel of do's and don'ts.",
+    types: ["blog", "carousel"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 310, title: "How to Write a Satisfying Ending",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "The difference between a happy ending, a satisfying ending, and a cheap ending. Cover: promise fulfillment, earned vs. unearned resolutions, the bittersweet sweet spot, why GoT's ending failed. Blog + video discussion.",
+    types: ["blog", "video", "carousel"],
+    talent: ["Seth", "Rebekah"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 311, title: "Pacing 101: Why Some 300-Page Books Feel Longer Than 800-Page Ones",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Scene vs. sequel rhythm, tension management, the 'try-fail cycle,' chapter length psychology. Why Sanderson's 1000-page books fly by and some literary debuts drag at 250. Practical framework for writers, interesting analysis for readers.",
+    types: ["blog", "carousel", "thread"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 312, title: "The Villain Problem: Why Modern Antagonists Are Forgettable",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Too many villains are either mustache-twirling evil or 'misunderstood and actually right.' What makes a great villain memorable? Explore: ideological opposition to the hero, personal stakes, competence, screen presence. Rank great vs. terrible fantasy villains.",
+    types: ["blog", "carousel", "reel", "video"],
+    talent: ["Seth"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 313, title: "How to Write Exposition Without Info-Dumping",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "The 'As you know, Bob' problem and how to fix it. Techniques: conflict-driven exposition, the 'fish out of water' character, environmental storytelling, dialogue that reveals naturally. Before/after examples. Blog + carousel.",
+    types: ["blog", "carousel"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 314, title: "Unreliable Narrators: How to Lie to Your Reader (And Have Them Love It)",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Types of unreliable narrators (liar, innocent, insane, self-deceiving). How to plant clues without giving it away. Examples: Gone Girl, Name of the Wind, Piranesi. Blog deep-dive + carousel of famous unreliable narrators ranked.",
+    types: ["blog", "carousel", "thread"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 315, title: "Writing Multiple POVs Without Losing Your Reader",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Distinct voice per character, when to switch, how many is too many, the 'meanwhile' trap. Examples from ASOIAF, Stormlight, Wheel of Time. Blog post with practical tips + carousel summary.",
+    types: ["blog", "carousel"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 316, title: "Subtext: What Your Characters Don't Say Matters More",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "How to write dialogue where the real conversation happens beneath the words. Techniques: conflicting body language, avoidance, loaded silence, saying one thing and meaning another. Scene examples rewritten with and without subtext.",
+    types: ["blog", "carousel"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 317, title: "How to Name Characters (Without Sounding Like a Fantasy Name Generator)",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Phonetic principles, cultural consistency, readability vs. uniqueness, the 'can your reader pronounce it?' test. Common mistakes: too many apostrophes, all names starting with the same letter, names that sound alike. Fun + practical. Blog + carousel.",
+    types: ["blog", "carousel", "reel"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 318, title: "Tropes Are Tools, Not Crutches",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Defend tropes against the 'everything is derivative' crowd while calling out lazy execution. The difference between using a trope skillfully (subversion, combination, deepening) and just checking a marketing box. Carousel: trope + great execution vs. lazy execution side by side.",
+    types: ["blog", "carousel", "reel"],
+    talent: ["Seth"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 319, title: "The Three Types of Conflict (And You Need All of Them)",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "Internal, interpersonal, and external conflict explained with fantasy examples. Why books that only have one type feel thin. How to layer all three in a single scene. Blog + visual diagram carousel.",
+    types: ["blog", "carousel"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 320, title: "Writing Religion in Fantasy Without Making It Weird",
+    category: "Storytelling & Craft",
+    source: "clanker",
+    desc: "How to build believable religious systems in fantasy worlds. Common pitfalls: religion as set dressing, 'religion bad' as default theme, one-dimensional clergy. Good examples (Stormlight, Earthsea, Lions of Al-Rassan). Especially relevant for Lion's audience. Blog + carousel.",
+    types: ["blog", "carousel", "thread"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+
+  // --- BOOK CULTURE ---
+  {
+    id: 400, title: "Books That Made Men out of Boys",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Expanded series companion to 'Books for Young Men.' Personal stories from the Lion team about which books shaped them. What did Hatchet, Ender's Game, Lord of the Rings, or The Count of Monte Cristo teach you? Emotional, authentic, fills a massive BookTok gap.",
+    types: ["video", "reel", "carousel", "blog"],
+    talent: ["Seth", "Nathan"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 401, title: "The Books Your English Teacher Ruined",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Great books people hate because of how they were taught. Forced reading, over-analysis, 'what did the blue curtains mean?' Carousel of commonly ruined books + why they're actually worth revisiting. Nostalgia engagement goldmine.",
+    types: ["carousel", "reel", "short"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 402, title: "Books People Lie About Having Read",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Moby Dick, War and Peace, Ulysses, Infinite Jest, Silmarillion. Team video: confess which 'classics' you've actually read vs. just pretended to. Extremely relatable and shareable. Comment section will go wild.",
+    types: ["reel", "video", "carousel"],
+    talent: ["Rebekah", "Seth", "Rachael"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 403, title: "The Lost Art of Reading a Series in Order",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "BookTok made it normal to start a series at book 3 because that's the viral one. Defend the experience of reading in order — buildup, payoff, character development you can't get from jumping in mid-series. Light and funny, not gatekeep-y.",
+    types: ["reel", "short", "text"],
+    talent: ["Seth"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 404, title: "Physical Books vs. E-Readers: The Real Answer",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Not a hot take — a balanced 'both are great, here's when each one wins.' Travel, collecting, reading in bed, annotating. Carousel format: scenario → winner. Comment engagement driver.",
+    types: ["carousel", "reel", "short"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 405, title: "Books Every Fantasy Fan Should Read Before They Die",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Curated essential reading list — not just the obvious choices. Mix foundational (Tolkien, Le Guin) with underappreciated (Gormenghast, Book of the New Sun, Tigana). Carousel series or a blog post with Lion's take on each. Ongoing series potential.",
+    types: ["blog", "carousel", "thread"],
+    talent: ["Seth", "Rebekah"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 406, title: "Why Nobody Reads Poetry Anymore (And Why That's a Loss for Fiction)",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Poetry sharpens prose. Authors who read poetry write better — richer language, better rhythm, more precise imagery. Recommend approachable poets for fiction readers. Unexpected angle that stands out from typical BookTok content.",
+    types: ["blog", "carousel", "video"],
+    talent: ["Chelsea"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 407, title: "The 'Guilty Pleasure' Read Is a Lie",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Stop apologizing for what you read. There's no guilt in pleasure reading. But also — you can enjoy something AND acknowledge its flaws. Nuanced take that both validates readers and encourages critical thinking. Short-form video rant.",
+    types: ["reel", "short", "text"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 408, title: "Annotating Books: Sacrilege or Superior?",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "The great book annotation debate. Show annotated vs. pristine copies. Team members take sides. Fun, visual, drives passionate comments. Reel or TikTok format with split opinions.",
+    types: ["reel", "carousel", "short"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 409, title: "The DNF Dilemma: When Is It Okay to Quit a Book?",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Some people power through everything; others drop at chapter 3. Team discussion on personal DNF rules. How far do you give a book? Is it disrespectful to the author? What if it's a classic? Hot take territory.",
+    types: ["reel", "video", "short"],
+    talent: ["Rebekah", "Seth"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 410, title: "Books That Hit Different as an Adult",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Reread childhood favorites and discover new layers. Narnia, Redwall, Harry Potter, A Wrinkle in Time, The Giver. What changes when you bring adult perspective? Carousel of titles + 'then vs. now' reactions. Nostalgia + depth.",
+    types: ["carousel", "reel", "blog"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 411, title: "The Case for Rereading",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "In a world of infinite TBRs, make the case for rereading favorites instead of always chasing the new. What you notice the second time, how it deepens the experience, comfort reading as self-care. Blog + carousel.",
+    types: ["blog", "carousel", "short"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 412, title: "Overrated vs. Underrated Fantasy Books",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Team members each pick one overrated and one underrated fantasy book. Explain why. This WILL generate engagement — people love defending their favorites and discovering new ones. Video roundtable or carousel with hot takes.",
+    types: ["video", "reel", "carousel"],
+    talent: ["Rebekah", "Seth", "Rachael"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 413, title: "The Bookstore Haul Is Dead (Long Live the Bookstore Haul)",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Commentary on performative book buying culture — buying for aesthetics vs. reading. But also: bookstores matter, and buying physical books supports the ecosystem. Both/and, not either/or. Reel or discussion video.",
+    types: ["reel", "video", "text"],
+    talent: [],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 414, title: "Fantasy Subgenre Explainer Series",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Ongoing series: one post per subgenre. LitRPG, progression fantasy, grimdark, cozy fantasy, epic fantasy, urban fantasy, mythic fantasy, New Weird, YA fantasy, portal fantasy. Define each, give 3 recs, say who it's for. Massive SEO value as blog posts. Carousel summaries for social.",
+    types: ["blog", "carousel", "thread"],
+    talent: ["Seth"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 415, title: "What Happened to Adventure in Fantasy?",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Modern fantasy trends toward political intrigue, trauma processing, and relationship drama. Where's the pure adventure? The quest? The sense of wonder? Make the case for old-school adventure storytelling updated for modern readers. Very on-brand for Lion.",
+    types: ["blog", "reel", "video"],
+    talent: ["Seth", "Rebekah"],
+    assign: "",
+    refs: []
+  },
+  {
+    id: 416, title: "Building a Reading Habit That Sticks",
+    category: "Book Culture",
+    source: "clanker",
+    desc: "Practical tips beyond 'just read more.' Cover: reading sprints, environment design, audiobook pairing, the 'two book' rule, quitting books faster, tracking without pressure. Blog for depth, carousel for quick tips.",
+    types: ["blog", "carousel", "short"],
+    talent: [],
+    assign: "",
+    refs: []
   }
 ];
 
