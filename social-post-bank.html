@@ -25,6 +25,9 @@
     --tag-thread: #4f46e5;
     --tag-reel: #c026d3;
     --tag-podcast: #059669;
+    --tag-blog: #b45309;
+    --tag-text: #6b7280;
+    --tag-image: #10b981;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -51,7 +54,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     align-items: center;
   }
 
@@ -85,6 +88,23 @@
     border-color: var(--accent);
   }
 
+  .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  .filter-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    margin-right: 0.25rem;
+  }
+
   .toggle-done {
     margin-left: auto;
     display: flex;
@@ -104,6 +124,7 @@
     margin-bottom: 1.5rem;
     font-size: 0.85rem;
     color: var(--text-muted);
+    flex-wrap: wrap;
   }
 
   .stats span { font-weight: 600; color: var(--accent2); }
@@ -124,7 +145,6 @@
   }
 
   .card:hover { border-color: var(--accent); transform: translateY(-2px); }
-
   .card.done { opacity: 0.45; }
   .card.done .card-title { text-decoration: line-through; }
 
@@ -136,11 +156,7 @@
     margin-bottom: 0.75rem;
   }
 
-  .card-title {
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.3;
-  }
+  .card-title { font-size: 1rem; font-weight: 600; line-height: 1.3; }
 
   .card-check {
     flex-shrink: 0;
@@ -187,13 +203,41 @@
   .tag-thread { background: var(--tag-thread); color: #fff; }
   .tag-reel { background: var(--tag-reel); color: #fff; }
   .tag-podcast { background: var(--tag-podcast); color: #fff; }
+  .tag-blog { background: var(--tag-blog); color: #fff; }
+  .tag-text { background: var(--tag-text); color: #fff; }
+  .tag-image { background: var(--tag-image); color: #fff; }
 
   .card-category {
     font-size: 0.75rem;
     color: var(--accent2);
     font-weight: 500;
     margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  .source-badge {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .source-notion { background: #2d2d2d; color: #e0e0e0; }
+  .source-clanker { background: #1e3a5f; color: #7cb3e0; }
+
+  .card-meta {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .card-meta .talent { color: var(--green); }
 
   .card-links {
     margin-top: 0.5rem;
@@ -225,20 +269,46 @@
 <body>
 
 <h1>🦁 Lion Publishing — Social Post Bank</h1>
-<p class="subtitle">Content ideas for pre-BackerKit launch (Oct 5, 2026) and beyond</p>
+<p class="subtitle">Content ideas for pre-BackerKit launch (Oct 5, 2026) and beyond — <span id="totalIdeas">0</span> ideas</p>
 
 <div class="controls">
   <input type="text" id="search" placeholder="Search posts..." oninput="render()">
-  <button class="filter-btn active" data-filter="all" onclick="setFilter('all', this)">All</button>
-  <button class="filter-btn" data-filter="short" onclick="setFilter('short', this)">Short Post</button>
-  <button class="filter-btn" data-filter="long" onclick="setFilter('long', this)">Long Post</button>
-  <button class="filter-btn" data-filter="video" onclick="setFilter('video', this)">Video</button>
-  <button class="filter-btn" data-filter="reel" onclick="setFilter('reel', this)">Reel/TikTok</button>
-  <button class="filter-btn" data-filter="carousel" onclick="setFilter('carousel', this)">Carousel</button>
-  <button class="filter-btn" data-filter="story" onclick="setFilter('story', this)">Story</button>
-  <button class="filter-btn" data-filter="thread" onclick="setFilter('thread', this)">Thread</button>
-  <button class="filter-btn" data-filter="podcast" onclick="setFilter('podcast', this)">Podcast Clip</button>
   <label class="toggle-done"><input type="checkbox" id="hideDone" onchange="render()"> Hide completed</label>
+</div>
+
+<div class="filter-row">
+  <span class="filter-label">Type:</span>
+  <button class="filter-btn active" data-filter="all" onclick="setFilter('type','all', this)">All</button>
+  <button class="filter-btn" onclick="setFilter('type','short', this)">Short Post</button>
+  <button class="filter-btn" onclick="setFilter('type','long', this)">Long Post</button>
+  <button class="filter-btn" onclick="setFilter('type','video', this)">Video</button>
+  <button class="filter-btn" onclick="setFilter('type','reel', this)">Reel/TikTok</button>
+  <button class="filter-btn" onclick="setFilter('type','carousel', this)">Carousel</button>
+  <button class="filter-btn" onclick="setFilter('type','story', this)">Story</button>
+  <button class="filter-btn" onclick="setFilter('type','thread', this)">Thread</button>
+  <button class="filter-btn" onclick="setFilter('type','blog', this)">Blog</button>
+  <button class="filter-btn" onclick="setFilter('type','image', this)">Image</button>
+  <button class="filter-btn" onclick="setFilter('type','text', this)">Text</button>
+  <button class="filter-btn" onclick="setFilter('type','podcast', this)">Podcast Clip</button>
+</div>
+
+<div class="filter-row">
+  <span class="filter-label">Source:</span>
+  <button class="filter-btn active" onclick="setFilter('source','all', this)">All</button>
+  <button class="filter-btn" onclick="setFilter('source','notion', this)">📋 Notion</button>
+  <button class="filter-btn" onclick="setFilter('source','clanker', this)">🔧 Clanker</button>
+</div>
+
+<div class="filter-row">
+  <span class="filter-label">Talent:</span>
+  <button class="filter-btn active" onclick="setFilter('talent','all', this)">All</button>
+  <button class="filter-btn" onclick="setFilter('talent','Rebekah', this)">Rebekah</button>
+  <button class="filter-btn" onclick="setFilter('talent','Seth', this)">Seth</button>
+  <button class="filter-btn" onclick="setFilter('talent','Rachael', this)">Rachael</button>
+  <button class="filter-btn" onclick="setFilter('talent','Nathan', this)">Nathan</button>
+  <button class="filter-btn" onclick="setFilter('talent','Chelsea', this)">Chelsea</button>
+  <button class="filter-btn" onclick="setFilter('talent','Hayla', this)">Hayla</button>
+  <button class="filter-btn" onclick="setFilter('talent','Team', this)">Full Team</button>
 </div>
 
 <div class="stats">
@@ -251,460 +321,900 @@
 
 <script>
 const POSTS = [
-  // === BRAND IDENTITY ===
+  // ============================================
+  // NOTION IMPORTS (Rebekah's existing ideas)
+  // ============================================
+  {
+    id: 101, title: "Choose Your Weapon",
+    category: "Engagement & Fun",
+    source: "notion",
+    desc: "Interactive post asking followers to choose their fantasy weapon. Great visual opportunity — show illustrated weapons or real props. Ask 'which one are you taking into battle?'",
+    types: ["carousel"],
+    talent: [],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo post", url: "https://www.instagram.com/p/DTDwiBoDb5b/" }
+    ]
+  },
+  {
+    id: 102, title: "What Your Favorite __ Says About You",
+    category: "Engagement & Fun",
+    source: "notion",
+    desc: "Repeatable format — 'What your favorite magic system / weapon / genre / book says about you.' Funny, shareable, drives comments. Works as carousel slides or short-form video with text overlays.",
+    types: ["carousel", "reel"],
+    talent: [],
+    assign: "Hayla",
+    refs: []
+  },
+  {
+    id: 103, title: "National Appreciate a Dragon Day",
+    category: "Seasonal & Timely",
+    source: "notion",
+    desc: "Celebrate with dragon book recs, dragon art, or a fun 'best dragons in fantasy' ranking. Simple image post or carousel of top dragon books.",
+    types: ["image"],
+    talent: [],
+    assign: "",
+    refs: [
+      { label: "Inspo post", url: "https://www.instagram.com/p/DTku-Xbkjlx/" }
+    ]
+  },
+  {
+    id: 104, title: "Ridiculous Holidays Calendar",
+    category: "Seasonal & Timely",
+    source: "notion",
+    desc: "Mine fun/weird holidays for book-related content. Feb 27 — No Brainer Day: 'Staff no-brainer book recs.' Feb 26 — Tell a Fairytale Day: 'We haven't outgrown fairytales, they've just gotten longer.' Mar 18 — Awkward Moment Day: 'Book moments that gave you secondhand embarrassment.' Mar 20 — World Storytelling Day. Mar 25 — Tolkien Reading Day: pure Tolkien appreciation. Apr 4 — Tell a Lie Day: interview style, 'What do you love to see in a book?' (sarcastic). Feb 14 — Library Lover Day. Mar 8 — Proofreading Day: 'When you reread what you wrote at 1am and reconsider your career.'",
+    types: ["image", "reel", "text"],
+    talent: [],
+    assign: "Hayla",
+    refs: [
+      { label: "Fun holiday calendar", url: "https://www.timeanddate.com/holidays/fun/" }
+    ]
+  },
+  {
+    id: 105, title: "The Surge of CRT in Literature",
+    category: "Industry Commentary",
+    source: "notion",
+    desc: "Thoughtful, well-researched piece on ideological trends in mainstream publishing. Blog post that gets repurposed into carousel highlights and a long-form video discussion. Lead with data and examples, not outrage.",
+    types: ["blog", "carousel", "video"],
+    talent: ["Rebekah"],
+    assign: "Rebekah",
+    refs: []
+  },
+  {
+    id: 106, title: "The Lack of Balance in Literature in Universities",
+    category: "Industry Commentary",
+    source: "notion",
+    desc: "Explore how university reading lists have shifted and what that means for the publishing pipeline. Can tie into Lion's mission of publishing stories that don't fit the current mold. Data-driven approach.",
+    types: ["carousel", "video", "reel"],
+    talent: [],
+    assign: "Rebekah",
+    refs: []
+  },
+  {
+    id: 107, title: "Why Bookstores Are Less Fun Now",
+    category: "Industry Commentary",
+    source: "notion",
+    desc: "Tap into the shared experience of walking into a bookstore and feeling like the selection has gotten homogeneous. Nostalgia + cultural commentary. Seth on camera works well here.",
+    types: ["blog", "video", "reel"],
+    talent: ["Seth"],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo tweet", url: "https://x.com/christianheiens/status/2012275280451162145" }
+    ]
+  },
+  {
+    id: 108, title: "Character Growth vs. Starting as Grown",
+    category: "Storytelling & Craft",
+    source: "notion",
+    desc: "Discussion on the trend of characters who start 'fully formed' vs. characters who grow through the story. Which makes better fiction? Tie to Lion's storytelling-first philosophy. Great debate format.",
+    types: ["carousel", "video", "reel", "text"],
+    talent: ["Rebekah", "Seth"],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo tweet", url: "https://x.com/the_kyle_mann/status/2013666478118314118" }
+    ]
+  },
+  {
+    id: 109, title: "Better Book Disclaimers",
+    category: "Engagement & Fun",
+    source: "notion",
+    desc: "Funny/honest book disclaimers that should exist. 'Warning: this book will make you miss your bus stop.' 'Side effects include staying up until 3am.' Relatable, shareable, lightweight.",
+    types: ["carousel", "reel", "text"],
+    talent: ["Rebekah"],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo tweet", url: "https://x.com/oceanbreeze473/status/2013793111034503237" }
+    ]
+  },
+  {
+    id: 110, title: "Genre Charts",
+    category: "Storytelling & Craft",
+    source: "notion",
+    desc: "Visual genre breakdowns — Venn diagrams, flowcharts ('What fantasy subgenre should you read?'), or spectrum charts. Educational + shareable. Seth's deep genre knowledge shines here. Blog + carousel repurpose.",
+    types: ["blog", "carousel", "image"],
+    talent: ["Seth"],
+    assign: "Hayla",
+    refs: []
+  },
+  {
+    id: 111, title: "Reading New Books Isn't Worth It",
+    category: "Industry Commentary",
+    source: "notion",
+    desc: "Provocative hot take to drive engagement. The argument that new releases have declined in quality, so readers stick to backlist. Then pivot to: 'That's exactly why Lion exists.' Seth delivers the take on camera.",
+    types: ["video", "reel", "text"],
+    talent: ["Seth"],
+    assign: "Hayla",
+    refs: []
+  },
+  {
+    id: 112, title: "Books You Didn't Know Were Written by Christians",
+    category: "Book Culture",
+    source: "notion",
+    desc: "Surprising reveals — classic and popular books with Christian authors that aren't 'Christian fiction.' Tolkien, Lewis (obviously), but also lesser-known examples. Educational, non-preachy tone.",
+    types: ["carousel", "reel"],
+    talent: [],
+    assign: "",
+    refs: [
+      { label: "Inspo reel", url: "https://www.instagram.com/reel/DTYFc9ekmOt/" }
+    ]
+  },
+  {
+    id: 113, title: "Staff Book Swaps",
+    category: "Behind the Scenes",
+    source: "notion",
+    desc: "Each team member picks a book for someone else on the team. Film reactions when they see what they got. Fun, personal, shows team chemistry. Short-form video format.",
+    types: ["reel"],
+    talent: ["Chelsea", "Hayla", "Nathan", "Rachael", "Rebekah", "Seth"],
+    assign: "",
+    refs: [
+      { label: "Inspo reel", url: "https://www.instagram.com/reel/DTWykbDkZcc/" }
+    ]
+  },
+  {
+    id: 114, title: "Weird Genre Recs",
+    category: "Book Culture",
+    source: "notion",
+    desc: "Recommend books from unexpected or niche subgenres — weird westerns, solarpunk, mythic fiction, New Weird. Shows Lion's range and genre literacy. Carousel or team video format.",
+    types: ["carousel", "reel"],
+    talent: ["Rachael", "Rebekah", "Seth"],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo post", url: "https://www.instagram.com/p/DTY4Vi9jcOw/" }
+    ]
+  },
+  {
+    id: 115, title: "Stop Reading Smutty Books",
+    category: "Industry Commentary",
+    source: "notion",
+    desc: "Commentary on the smut saturation in modern fantasy/romance publishing. Position as pro-great-storytelling rather than anti-anything. Speak to readers who are tired of it. Reel format for maximum reach.",
+    types: ["reel"],
+    talent: [],
+    assign: "",
+    refs: [
+      { label: "Inspo reel", url: "https://www.instagram.com/reel/DTmfvv1jXSz/" }
+    ]
+  },
+  {
+    id: 116, title: "Literary vs. Commercial Fiction",
+    category: "Storytelling & Craft",
+    source: "notion",
+    desc: "Break down the distinction (and false dichotomy) between literary and commercial fiction. Where does Lion sit? Can genre fiction be literary? Chelsea leads this one. Blog for depth, carousel/video for reach.",
+    types: ["blog", "carousel", "video", "reel"],
+    talent: ["Chelsea"],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo reel", url: "https://www.instagram.com/reel/DTl_Y61lNfd/" }
+    ]
+  },
+  {
+    id: 117, title: "Staff Ages",
+    category: "Behind the Scenes",
+    source: "notion",
+    desc: "Fun, lightweight 'guess our ages' or age reveal video. Humanizes the team quickly. Easy to film, high engagement potential.",
+    types: ["reel"],
+    talent: ["Chelsea", "Hayla", "Nathan", "Rachael", "Rebekah", "Seth"],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo reel", url: "https://www.instagram.com/reel/DTgVn4fEpuH/" }
+    ]
+  },
+  {
+    id: 118, title: "If Famous Authors Wrote the First Sentence of Our Books",
+    category: "Engagement & Fun",
+    source: "notion",
+    desc: "Hilarious concept — rewrite your books' opening lines in the style of famous authors (Tolkien, Hemingway, Stephen King, etc.). Video format with team members reading them dramatically. High share potential.",
+    types: ["reel"],
+    talent: ["Chelsea", "Rachael", "Rebekah", "Seth"],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo reel", url: "https://www.instagram.com/reel/DTdPXjeE_81/" }
+    ]
+  },
+  {
+    id: 119, title: "The Traditional Publishing Landscape vs…",
+    category: "Industry Commentary",
+    source: "notion",
+    desc: "Compare the traditional publishing model to emerging alternatives (crowdfunding, direct-to-reader, indie publishers like Lion). Short-form video exploring why the old model isn't the only option anymore.",
+    types: ["reel"],
+    talent: [],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo reel", url: "https://www.instagram.com/reel/DTqHBUfEf_8/" }
+    ]
+  },
+  {
+    id: 120, title: "Bad Book Awards",
+    category: "Engagement & Fun",
+    source: "notion",
+    desc: "Tongue-in-cheek awards for books — 'Most Overhyped,' 'Best Book With a Terrible Cover,' 'Award for the Longest Fantasy Name.' Carousel slides designed like actual award certificates. Very shareable.",
+    types: ["carousel"],
+    talent: [],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo post", url: "https://www.instagram.com/p/DTypAKqknQU/" }
+    ]
+  },
+  {
+    id: 121, title: "I Could Start Doing Crack",
+    category: "Engagement & Fun",
+    source: "notion",
+    desc: "Trending audio/meme format applied to books or publishing. Seth on camera. Ride the meme wave with a bookish spin. Check the trending audio at time of filming.",
+    types: ["reel"],
+    talent: ["Seth"],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo reel", url: "https://www.instagram.com/reel/DPPXI09EopP/" }
+    ]
+  },
+  {
+    id: 122, title: "Wavelength Bookish Takes",
+    category: "Engagement & Fun",
+    source: "notion",
+    desc: "Use the 'Wavelength' game format — team members rate bookish opinions on a spectrum. 'Hardcover vs paperback,' 'Series vs standalone,' etc. Film reactions and disagreements. Fun team chemistry content.",
+    types: ["reel"],
+    talent: ["Nathan", "Rachael", "Rebekah", "Seth"],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo reel", url: "https://www.instagram.com/reel/DTPG-O-Dobs/" }
+    ]
+  },
+  {
+    id: 123, title: "Books for Young Men",
+    category: "Book Culture",
+    source: "notion",
+    desc: "Curated series — 3-7 books per carousel with 1-2 sentence descriptions of how each book informs masculinity and growth. Thoughtful, not preachy. Fills a real gap in the BookTok/Bookstagram space. Blog for depth, carousel for reach.",
+    types: ["blog", "carousel", "video"],
+    talent: [],
+    assign: "Hayla",
+    refs: []
+  },
+  {
+    id: 124, title: "Dressing Like Our Favorite Book",
+    category: "Engagement & Fun",
+    source: "notion",
+    desc: "Team members dress up as or inspired by a favorite book character/aesthetic. Film a transition Reel (casual → character look). Fun, visual, very shareable on Reels and TikTok.",
+    types: ["reel"],
+    talent: ["Hayla", "Nathan", "Rachael", "Rebekah", "Seth"],
+    assign: "Hayla",
+    refs: [
+      { label: "Inspo reel", url: "https://www.instagram.com/reel/DPcD1THjrw6/" }
+    ]
+  },
+
+  // ============================================
+  // CLANKER ORIGINALS
+  // ============================================
+
+  // --- Brand Identity ---
   {
     id: 1, title: "Why We Started Lion Publishing",
     category: "Brand Identity",
+    source: "clanker",
     desc: "Origin story post. Why Rebekah & Josh started Lion — frustration with the current publishing landscape, belief in storytelling-first, what makes Lion different. Personal, authentic, no corporate fluff. End with a CTA to follow for launch updates.",
     types: ["long", "video", "carousel"],
-    refs: [
-      { label: "Baen Books origin story", url: "https://www.baen.com/about" }
-    ]
+    talent: ["Rebekah"],
+    assign: "",
+    refs: [{ label: "Baen Books origin story", url: "https://www.baen.com/about" }]
   },
   {
     id: 2, title: "Meet the Team",
     category: "Brand Identity",
+    source: "clanker",
     desc: "Introduce each team member (Rebekah, Josh, Seth, Rachael) with a photo/short video and their role. What they bring, what they're excited about. Post as a carousel (one person per slide) or a series of Stories.",
     types: ["carousel", "story", "short"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 3, title: "What 'Storytelling-First' Actually Means",
     category: "Brand Identity",
+    source: "clanker",
     desc: "Define Lion's positioning without naming competitors or going negative. Talk about what you look for in manuscripts: compelling characters, immersive worlds, stories that respect readers' intelligence. Use specific examples of books (not yours) that embody this.",
     types: ["long", "thread", "carousel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 4, title: "Lion Logo / Brand Reveal",
     category: "Brand Identity",
+    source: "clanker",
     desc: "Tease the branding — show the logo, color palette, typography. Works great as a Reel with a dramatic reveal or a carousel showing the design evolution. If you have a brand story behind the lion symbol, share it.",
     types: ["reel", "carousel", "short"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 5, title: "Publisher Values: What We Won't Publish",
     category: "Brand Identity",
+    source: "clanker",
     desc: "Without being preachy or combative, outline Lion's editorial stance. Focus on what you DO want (adventure, heart, wonder, great prose) rather than what you're against. This signals to your audience without alienating potential backers.",
     types: ["long", "thread"],
+    talent: [],
+    assign: "",
     refs: []
   },
 
-  // === BOOK TEASERS ===
+  // --- Book Teasers ---
   {
     id: 6, title: "Cover Reveal — Book 1",
     category: "Book Teasers",
+    source: "clanker",
     desc: "The ultimate engagement post for any book launch. Tease for 3-5 days beforehand ('something's coming'), then a dramatic reveal. Carousel: close-up details → full cover → back cover → blurb. Video: slow reveal with music. Pin this post.",
     types: ["carousel", "reel", "video", "short"],
-    refs: [
-      { label: "Tor cover reveal strategy", url: "https://www.tor.com/tag/cover-reveal/" }
-    ]
+    talent: [],
+    assign: "",
+    refs: [{ label: "Tor cover reveal strategy", url: "https://www.tor.com/tag/cover-reveal/" }]
   },
   {
     id: 7, title: "Cover Reveal — Book 2",
     category: "Book Teasers",
+    source: "clanker",
     desc: "Same format as Book 1 reveal but stagger timing by 1-2 weeks. Cross-reference the first cover reveal to drive followers to both.",
     types: ["carousel", "reel", "video", "short"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 8, title: "Cover Reveal — Book 3",
     category: "Book Teasers",
+    source: "clanker",
     desc: "Final cover reveal. Consider a 'the full lineup' post showing all three covers together after individual reveals.",
     types: ["carousel", "reel", "video", "short"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 9, title: "First Line / Opening Hook",
     category: "Book Teasers",
+    source: "clanker",
     desc: "Share the opening line(s) of each launch book as a graphic. Bold typography over a moody background that matches the cover palette. Ask followers to guess the genre or what happens next.",
     types: ["short", "carousel", "story"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 10, title: "Trope Bingo Card",
     category: "Book Teasers",
+    source: "clanker",
     desc: "Create a bingo card of tropes featured in your launch books (found family, reluctant hero, morally gray villain, chosen one subverted, etc.). BookTok LOVES trope content. Ask followers to guess which book matches which tropes.",
     types: ["short", "carousel", "reel"],
-    refs: [
-      { label: "BookTok trope bingo examples", url: "https://www.tiktok.com/tag/tropebingo" }
-    ]
+    talent: [],
+    assign: "",
+    refs: [{ label: "BookTok trope bingo examples", url: "https://www.tiktok.com/tag/tropebingo" }]
   },
   {
     id: 11, title: "'If You Like X, You'll Love Y'",
     category: "Book Teasers",
+    source: "clanker",
     desc: "Comparison posts: 'If you loved [popular book], our [title] has the same energy.' Use split-screen graphics or carousel. Pick comps your audience actually reads — Sanderson, Abercrombie, Novik, Sullivan, etc.",
     types: ["short", "carousel", "reel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 12, title: "Character Introduction Cards",
     category: "Book Teasers",
+    source: "clanker",
     desc: "One character per post/slide. Name, a one-line description, a quote from the book, and maybe a mood board or AI art concept (clearly labeled). Series over multiple days builds anticipation.",
     types: ["carousel", "story", "short"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 13, title: "Aesthetic / Mood Board",
     category: "Book Teasers",
+    source: "clanker",
     desc: "Visual mood board for each book — colors, textures, landscapes, vibes. Pinterest-style collage. Works especially well on Instagram. Caption with a short teaser blurb.",
     types: ["carousel", "short", "story"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 14, title: "Map Reveal / World-Building Tease",
     category: "Book Teasers",
+    source: "clanker",
     desc: "If any launch books have maps, reveal them. Fantasy readers go feral for maps. Even a 'work in progress' map sketch generates engagement. Add lore tidbits in the caption.",
     types: ["short", "carousel", "video"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 15, title: "Excerpt / Sample Chapter Drop",
     category: "Book Teasers",
+    source: "clanker",
     desc: "Post a gripping excerpt (500-800 words) as a carousel (page-style) or link to a blog/landing page. Pick a scene that hooks without spoiling. End on a cliffhanger. CTA: 'Want the rest? Back us Oct 5.'",
     types: ["carousel", "long", "thread"],
+    talent: [],
+    assign: "",
     refs: []
   },
 
-  // === BEHIND THE SCENES ===
+  // --- Behind the Scenes ---
   {
     id: 16, title: "Day in the Life of an Indie Publisher",
     category: "Behind the Scenes",
+    source: "clanker",
     desc: "Casual Reel/TikTok showing what building a publisher from scratch actually looks like. Editing, meetings, cover design reviews, packaging mockups, the messy desk. Authenticity > polish here.",
     types: ["reel", "video", "story"],
-    refs: [
-      { label: "Indie publisher BTS trend", url: "https://www.tiktok.com/tag/indiepublisher" }
-    ]
+    talent: [],
+    assign: "",
+    refs: [{ label: "Indie publisher BTS trend", url: "https://www.tiktok.com/tag/indiepublisher" }]
   },
   {
     id: 17, title: "The Editing Process — Before & After",
     category: "Behind the Scenes",
+    source: "clanker",
     desc: "Show a redlined page vs. the final version. Talk about what good editing looks like. Establishes Lion's quality commitment. Works as carousel (before/after slides) or short video.",
     types: ["carousel", "short", "reel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 18, title: "Book Production Deep-Dive",
     category: "Behind the Scenes",
+    source: "clanker",
     desc: "Walk through how a book goes from manuscript to printed copy: editing → cover design → interior layout → printing → binding. Josh's production expertise is a huge differentiator. Multi-part series potential.",
     types: ["video", "carousel", "thread", "long"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 19, title: "Cover Design Process",
     category: "Behind the Scenes",
+    source: "clanker",
     desc: "Time-lapse or step-by-step of cover design evolution. Sketches → concepts → color comps → final. Tag the cover artist. Readers love seeing the creative process.",
     types: ["reel", "carousel", "video"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 20, title: "Unboxing the First Proof Copies",
     category: "Behind the Scenes",
+    source: "clanker",
     desc: "When proofs arrive, film the unboxing. Raw, genuine reactions. This is peak content for book lovers. Repost from each team member's perspective if possible.",
     types: ["reel", "video", "story"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 21, title: "What We're Reading Right Now",
     category: "Behind the Scenes",
+    source: "clanker",
     desc: "Monthly or biweekly 'team TBR' post. What each team member is reading — shows Lion's taste, builds trust, creates discussion. Tag authors when possible.",
     types: ["short", "carousel", "story"],
+    talent: [],
+    assign: "",
     refs: []
   },
 
-  // === CROWDFUNDING / BACKERKIT ===
+  // --- Crowdfunding ---
   {
     id: 22, title: "BackerKit Announcement Post",
     category: "Crowdfunding",
+    source: "clanker",
     desc: "The big reveal that Lion is launching on BackerKit Oct 5. Clear, exciting, shareable. Include the date, what backers get, and how to follow for updates. Pin across all platforms.",
     types: ["short", "video", "carousel"],
-    refs: [
-      { label: "BackerKit launch best practices", url: "https://www.backerkit.com/blog/how-to-launch-a-successful-crowdfunding-campaign" }
-    ]
+    talent: [],
+    assign: "",
+    refs: [{ label: "BackerKit launch best practices", url: "https://www.backerkit.com/blog/how-to-launch-a-successful-crowdfunding-campaign" }]
   },
   {
     id: 23, title: "Countdown Series (30/14/7/3/1 Days)",
     category: "Crowdfunding",
+    source: "clanker",
     desc: "Scheduled countdown posts with increasing urgency. Each one reveals something new — a tier detail, a stretch goal, an exclusive, an endorsement. Creates FOMO and habit of checking in.",
     types: ["short", "story", "reel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 24, title: "Tier Breakdown Explainer",
     category: "Crowdfunding",
+    source: "clanker",
     desc: "Visual breakdown of each backer tier and what's included. Make it dead simple. Carousel with one tier per slide, or a comparison graphic. People need to know exactly what they're getting.",
     types: ["carousel", "long", "short"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 25, title: "Stretch Goal Preview",
     category: "Crowdfunding",
+    source: "clanker",
     desc: "Tease stretch goals without revealing all of them. 'At $X, we unlock ____.' Creates excitement and gives people a reason to share the campaign. Silhouette graphics work great for mystery reveals.",
     types: ["short", "carousel", "story"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 26, title: "Early Bird / Launch Day Incentive",
     category: "Crowdfunding",
+    source: "clanker",
     desc: "Announce any early-bird pricing or launch-day exclusives. Urgency is key. '48-hour early bird pricing' or 'first 100 backers get ___.' Drive day-one volume hard.",
     types: ["short", "story", "reel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 27, title: "How BackerKit Works (For Newbies)",
     category: "Crowdfunding",
+    source: "clanker",
     desc: "Not everyone knows crowdfunding. Simple explainer: what BackerKit is, how backing works, when they pay, when they get the books. Remove friction for people new to the platform.",
     types: ["carousel", "video", "thread"],
-    refs: [
-      { label: "BackerKit backer FAQ", url: "https://www.backerkit.com/faq" }
-    ]
+    talent: [],
+    assign: "",
+    refs: [{ label: "BackerKit backer FAQ", url: "https://www.backerkit.com/faq" }]
   },
   {
     id: 28, title: "Social Proof: Testimonials / Endorsements",
     category: "Crowdfunding",
+    source: "clanker",
     desc: "Quotes from beta readers, author peers, or industry contacts. Text overlaid on book imagery. Collect these early and deploy during launch week. Even 'beta reader reactions' work if you don't have big names yet.",
     types: ["short", "carousel", "story"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 29, title: "Campaign Milestone Celebrations",
     category: "Crowdfunding",
+    source: "clanker",
     desc: "Post every time you hit a funding milestone — 25%, 50%, funded, each stretch goal. Keeps momentum visible. Thank backers by name if possible. Urgency + gratitude.",
     types: ["short", "story", "reel"],
+    talent: [],
+    assign: "",
     refs: []
   },
 
-  // === COMMUNITY & ENGAGEMENT ===
+  // --- Community & Engagement ---
   {
     id: 30, title: "This or That: Fantasy Edition",
-    category: "Community & Engagement",
+    category: "Engagement & Fun",
+    source: "clanker",
     desc: "Interactive Story/post: 'Dragons or phoenixes? Hard magic or soft magic? Morally gray or pure villain?' Quick engagement driver. Use polls on Stories, or ask in comments on feed posts.",
     types: ["story", "short", "reel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 31, title: "Unpopular Book Opinions",
-    category: "Community & Engagement",
+    category: "Engagement & Fun",
+    source: "clanker",
     desc: "Share a genuinely unpopular book opinion from the Lion team. BookTok/Bookstagram loves controversy (friendly kind). 'I think [popular book] is overrated because...' Gets shares and quote-tweets.",
     types: ["short", "reel", "video"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 32, title: "TBR Recommendations by Mood",
-    category: "Community & Engagement",
+    category: "Book Culture",
+    source: "clanker",
     desc: "'Feeling cozy? Read this. Want your heart ripped out? Try this. Need a palate cleanser? Here.' Reframe genre recommendations around emotions. Include a Lion title in each mood category once books are announced.",
     types: ["carousel", "thread", "short"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 33, title: "Reader Q&A / AMA",
-    category: "Community & Engagement",
+    category: "Engagement & Fun",
+    source: "clanker",
     desc: "Open a Q&A box on Stories or do a live AMA. Answer questions about Lion, the books, publishing in general. Saves as highlight. Do one pre-launch and one during the campaign.",
     types: ["story", "video"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 34, title: "'What Are You Reading?' Poll",
-    category: "Community & Engagement",
+    category: "Engagement & Fun",
+    source: "clanker",
     desc: "Simple engagement post asking followers what they're currently reading. Respond to answers. Builds community and shows you're a reader, not just a seller.",
     types: ["short", "story"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 35, title: "Book Stack / Shelfie Challenge",
-    category: "Community & Engagement",
+    category: "Engagement & Fun",
+    source: "clanker",
     desc: "Show your bookshelf, ask followers to show theirs. Use a branded hashtag (#LionReads or similar). UGC goldmine. Repost the best ones to Stories.",
     types: ["short", "story", "reel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 36, title: "Fantasy World-Building Discussion",
-    category: "Community & Engagement",
+    category: "Storytelling & Craft",
+    source: "clanker",
     desc: "Start a conversation about world-building in fantasy. 'What's the most underused setting in fantasy?' or 'Best magic system you've ever read?' Positions Lion as part of the community, not just selling to it.",
     types: ["short", "thread"],
+    talent: [],
+    assign: "",
     refs: []
   },
 
-  // === INDUSTRY / AUTHORITY ===
+  // --- Industry & Authority ---
   {
     id: 37, title: "State of Indie Publishing in 2026",
-    category: "Industry & Authority",
+    category: "Industry Commentary",
+    source: "clanker",
     desc: "Thought leadership piece on where indie publishing is headed. Crowdfunding boom, direct-to-reader models, the fall of traditional gatekeeping. Rebekah's SEO/content background gives her unique credibility here.",
     types: ["long", "thread", "video"],
-    refs: [
-      { label: "Joanna Penn 2026 predictions", url: "https://www.thecreativepenn.com/2026/01/05/2026-trends-and-predictions-for-indie-authors-and-the-book-publishing-industry-with-joanna-penn/" }
-    ]
+    talent: ["Rebekah"],
+    assign: "",
+    refs: [{ label: "Joanna Penn 2026 predictions", url: "https://www.thecreativepenn.com/2026/01/05/2026-trends-and-predictions-for-indie-authors-and-the-book-publishing-industry-with-joanna-penn/" }]
   },
   {
     id: 38, title: "Why Crowdfunding > Traditional Publishing",
-    category: "Industry & Authority",
+    category: "Industry Commentary",
+    source: "clanker",
     desc: "Make the case for the crowdfunding model — direct reader relationship, creative control, better margins, no gatekeepers. Not anti-trad, just pro-innovation. Data helps: cite successful book Kickstarters.",
     types: ["long", "thread", "carousel"],
-    refs: [
-      { label: "Kickstarter vs BackerKit comparison", url: "https://www.launchboom.com/crowdfunding-guides/kickstarter-vs-gamefound-vs-backerkit" }
-    ]
+    talent: [],
+    assign: "",
+    refs: [{ label: "Kickstarter vs BackerKit comparison", url: "https://www.launchboom.com/crowdfunding-guides/kickstarter-vs-gamefound-vs-backerkit" }]
   },
   {
     id: 39, title: "How We Choose What to Publish",
-    category: "Industry & Authority",
+    category: "Industry Commentary",
+    source: "clanker",
     desc: "Pull back the curtain on Lion's acquisition process. What makes a manuscript stand out? What's an instant pass? Valuable for aspiring authors (huge audience) and signals quality to readers.",
     types: ["long", "thread", "video"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 40, title: "The Economics of a Book",
-    category: "Industry & Authority",
+    category: "Industry Commentary",
+    source: "clanker",
     desc: "Breakdown of where the money goes: printing, editing, cover art, marketing, author royalties. Helps backers understand the value of what they're funding. Infographic carousel is ideal.",
     types: ["carousel", "thread", "long"],
+    talent: [],
+    assign: "",
     refs: []
   },
 
-  // === AUTHOR SPOTLIGHT ===
+  // --- Author Spotlight ---
   {
     id: 41, title: "Author Interview — Launch Author 1",
     category: "Author Spotlight",
+    source: "clanker",
     desc: "5-8 question written or video interview with a launch author. Their inspiration, writing process, what excites them about Lion. Cross-post to the author's audience. Repeat for each launch author.",
     types: ["long", "video", "carousel", "podcast"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 42, title: "Author Interview — Launch Author 2",
     category: "Author Spotlight",
+    source: "clanker",
     desc: "Same format as Author 1 — tailor questions to their specific book/genre. Stagger these across your content calendar for consistent new content.",
     types: ["long", "video", "carousel", "podcast"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 43, title: "Author's Writing Playlist / Inspiration",
     category: "Author Spotlight",
+    source: "clanker",
     desc: "Share what music/media/places inspired each book. Spotify playlist embed, mood board, or short video of the author talking about it. Readers eat this up.",
     types: ["short", "reel", "story", "carousel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 44, title: "Author Writing Process — Pantser vs Plotter",
     category: "Author Spotlight",
+    source: "clanker",
     desc: "Each author shares whether they outline or discover as they write. Include their actual tools (Scrivener, notebooks, sticky notes). Writing community engagement gold.",
     types: ["short", "reel", "carousel"],
+    talent: [],
+    assign: "",
     refs: []
   },
 
-  // === SEASONAL / TIMELY ===
+  // --- Seasonal ---
   {
     id: 45, title: "Summer Reading List ft. Lion Picks",
     category: "Seasonal & Timely",
+    source: "clanker",
     desc: "Curated summer reading list mixing Lion titles with existing favorites in the same genres. 'Beach reads but make it epic fantasy.' Positions Lion books alongside established titles.",
     types: ["carousel", "short", "thread"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 46, title: "Spooky Season / Halloween Fantasy Recs",
     category: "Seasonal & Timely",
+    source: "clanker",
     desc: "October timing aligns perfectly with your BackerKit launch. Dark fantasy, horror-adjacent, creepy world-building. 'Our launch books that'll keep you up at night.' Double duty: seasonal content + campaign promo.",
     types: ["carousel", "reel", "short"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 47, title: "National Read a Book Day (Sep 6)",
     category: "Seasonal & Timely",
+    source: "clanker",
     desc: "Easy engagement post. 'What are you reading today?' + tease upcoming Lion titles. Low effort, high reach on a trending hashtag day.",
     types: ["short", "story"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 48, title: "BookTok/Bookstagram Trend Hijack",
     category: "Seasonal & Timely",
+    source: "clanker",
     desc: "Keep an eye on trending audio/formats on TikTok and IG Reels. Adapt them with a book/publishing spin. Examples: 'POV you just got your first proof copies' set to trending audio. Ride algorithm waves.",
     types: ["reel", "story"],
-    refs: [
-      { label: "BookTok trend examples", url: "https://www.tiktok.com/tag/booktok" }
-    ]
+    talent: [],
+    assign: "",
+    refs: [{ label: "BookTok trend examples", url: "https://www.tiktok.com/tag/booktok" }]
   },
 
-  // === LION PODCAST ===
+  // --- Lion Podcast ---
   {
     id: 49, title: "Podcast Launch Announcement",
     category: "Lion Podcast",
+    source: "clanker",
     desc: "Announce the Lion podcast (Seth & Rebekah). What it'll cover, why listeners should care, where to find it. Teaser clip of banter if possible. Cross-promote across all channels.",
     types: ["short", "video", "reel"],
+    talent: ["Rebekah", "Seth"],
+    assign: "",
     refs: []
   },
   {
     id: 50, title: "Podcast Episode Clips — Hot Takes",
     category: "Lion Podcast",
+    source: "clanker",
     desc: "Pull 30-60 second clips of the best moments from each episode. Controversial take, funny moment, insightful observation. Vertical video for Reels/TikTok. Link to full episode in bio/caption.",
     types: ["reel", "podcast", "short"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 51, title: "Podcast Behind the Scenes",
     category: "Lion Podcast",
+    source: "clanker",
     desc: "Quick Story/Reel of the podcast setup, pre-recording banter, bloopers. Humanizes the brand and makes the podcast feel accessible.",
     types: ["story", "reel"],
+    talent: [],
+    assign: "",
     refs: []
   },
 
-  // === TTRPG / STRETCH GOAL ===
+  // --- TTRPG ---
   {
     id: 52, title: "TTRPG Rule Book Tease",
     category: "TTRPG Content",
+    source: "clanker",
     desc: "If the TTRPG is a stretch goal, start planting seeds early. 'We've been working on something for the tabletop crowd...' Show a page spread, a character class preview, or a dice mechanic snippet. TTRPG + fantasy fiction crossover audience is huge.",
     types: ["short", "carousel", "reel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 53, title: "D&D / TTRPG Memes & Culture Posts",
     category: "TTRPG Content",
+    source: "clanker",
     desc: "Share relatable TTRPG content — 'when the bard tries to seduce the BBEG' memes, session horror stories, dice superstitions. Establishes Lion in the TTRPG community organically before the rule book reveal.",
     types: ["short", "reel"],
+    talent: [],
+    assign: "",
     refs: []
   },
 
-  // === EMAIL LIST ===
+  // --- Email Growth ---
   {
     id: 54, title: "Email List CTA — 'Be First to Know'",
     category: "Email Growth",
+    source: "clanker",
     desc: "Dedicated post driving email signups. Offer a compelling lead magnet: exclusive excerpt, printable bookmark, first chapter PDF, or 'insider pricing' for subscribers. Kit (ConvertKit) landing page link.",
     types: ["short", "story", "carousel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 55, title: "Lead Magnet Drop — Free Chapter / Art Print",
     category: "Email Growth",
+    source: "clanker",
     desc: "Post the lead magnet itself as content, then gate the full version behind email signup. 'Loved this excerpt? Get the full first chapter free — link in bio.' Dual purpose: content + list building.",
     types: ["carousel", "short", "long"],
+    talent: [],
+    assign: "",
     refs: []
   },
 
-  // === SOCIAL PROOF / UGC ===
+  // --- Social Proof ---
   {
     id: 56, title: "Repost / Quote Reader Reactions",
     category: "Social Proof",
+    source: "clanker",
     desc: "Once ARCs or excerpts are out, screenshot and repost reader reactions. 'Real readers, real reactions.' Nothing sells books like visible enthusiasm from other readers.",
     types: ["short", "story", "carousel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 57, title: "Fan Art Feature",
     category: "Social Proof",
+    source: "clanker",
     desc: "If fans create art of your characters/worlds, feature it prominently. Credit the artist, share their pages. Encourages more UGC and builds superfan loyalty.",
     types: ["short", "story", "carousel"],
+    talent: [],
+    assign: "",
     refs: []
   },
   {
     id: 58, title: "Influencer / BookToker Review Roundup",
     category: "Social Proof",
+    source: "clanker",
     desc: "Compile positive reviews from BookTok/Bookstagram influencers into a carousel or highlight reel. Tag everyone. Social proof at scale.",
     types: ["carousel", "reel", "short"],
+    talent: [],
+    assign: "",
     refs: []
   }
 ];
 
-let currentFilter = 'all';
-let doneSet = new Set(JSON.parse(localStorage.getItem('lion_done') || '[]'));
+let filters = { type: 'all', source: 'all', talent: 'all' };
+let doneSet = new Set(JSON.parse(localStorage.getItem('lion_done_v2') || '[]'));
 
 function saveDone() {
-  localStorage.setItem('lion_done', JSON.stringify([...doneSet]));
+  localStorage.setItem('lion_done_v2', JSON.stringify([...doneSet]));
 }
 
 function toggleDone(id) {
@@ -713,9 +1223,9 @@ function toggleDone(id) {
   render();
 }
 
-function setFilter(f, btn) {
-  currentFilter = f;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+function setFilter(group, value, btn) {
+  filters[group] = value;
+  btn.closest('.filter-row, .controls').querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   render();
 }
@@ -726,15 +1236,30 @@ function render() {
   const grid = document.getElementById('grid');
 
   let filtered = POSTS.filter(p => {
-    if (currentFilter !== 'all' && !p.types.includes(currentFilter)) return false;
+    if (filters.type !== 'all' && !p.types.includes(filters.type)) return false;
+    if (filters.source !== 'all' && p.source !== filters.source) return false;
+    if (filters.talent !== 'all') {
+      if (filters.talent === 'Team') {
+        if (p.talent.length < 3) return false;
+      } else {
+        if (!p.talent.includes(filters.talent)) return false;
+      }
+    }
     if (hideDone && doneSet.has(p.id)) return false;
-    if (q && !(p.title.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q) || p.category.toLowerCase().includes(q))) return false;
+    if (q && !(p.title.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q) || p.category.toLowerCase().includes(q) || (p.assign && p.assign.toLowerCase().includes(q)) || p.talent.join(' ').toLowerCase().includes(q))) return false;
     return true;
   });
 
   document.getElementById('totalCount').textContent = POSTS.length;
+  document.getElementById('totalIdeas').textContent = POSTS.length;
   document.getElementById('showCount').textContent = filtered.length;
   document.getElementById('doneCount').textContent = doneSet.size;
+
+  const tagMap = {
+    short: 'Short Post', long: 'Long Post', video: 'Video', story: 'Story',
+    carousel: 'Carousel', thread: 'Thread', reel: 'Reel/TikTok', podcast: 'Podcast Clip',
+    blog: 'Blog', text: 'Text Post', image: 'Image'
+  };
 
   if (!filtered.length) {
     grid.innerHTML = '<div class="empty">No posts match your filters.</div>';
@@ -743,19 +1268,24 @@ function render() {
 
   grid.innerHTML = filtered.map(p => {
     const done = doneSet.has(p.id);
-    const tagMap = {
-      short: 'Short Post', long: 'Long Post', video: 'Video', story: 'Story',
-      carousel: 'Carousel', thread: 'Thread', reel: 'Reel/TikTok', podcast: 'Podcast Clip'
-    };
+    const srcClass = p.source === 'notion' ? 'source-notion' : 'source-clanker';
+    const srcLabel = p.source === 'notion' ? '📋 Notion' : '🔧 Clanker';
+    const talentStr = p.talent.length ? p.talent.join(', ') : '';
+    const assignStr = p.assign || '';
+
     return `
       <div class="card ${done ? 'done' : ''}">
-        <div class="card-category">${p.category}</div>
+        <div class="card-category">
+          ${p.category}
+          <span class="source-badge ${srcClass}">${srcLabel}</span>
+        </div>
         <div class="card-header">
           <div class="card-title">${p.title}</div>
           <div class="card-check ${done ? 'checked' : ''}" onclick="toggleDone(${p.id})">${done ? '✓' : ''}</div>
         </div>
         <div class="card-desc">${p.desc}</div>
         <div class="card-tags">${p.types.map(t => `<span class="tag tag-${t}">${tagMap[t] || t}</span>`).join('')}</div>
+        ${talentStr || assignStr ? `<div class="card-meta">${talentStr ? `<span>🎬 <span class="talent">${talentStr}</span></span>` : ''}${assignStr ? `<span>📌 ${assignStr}</span>` : ''}</div>` : ''}
         ${p.refs.length ? `<div class="card-links">${p.refs.map(r => `<a href="${r.url}" target="_blank">📎 ${r.label}</a>`).join('')}</div>` : ''}
       </div>`;
   }).join('');
