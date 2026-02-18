@@ -260,9 +260,169 @@
     color: var(--text-muted);
   }
 
+  .card-actions {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+  }
+
+  .edit-btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.72rem;
+    transition: all 0.2s;
+  }
+
+  .edit-btn:hover { border-color: var(--accent); color: var(--text); }
+
+  .edit-indicator {
+    font-size: 0.65rem;
+    color: var(--accent2);
+    margin-left: auto;
+    padding: 0.25rem 0.5rem;
+    opacity: 0.7;
+  }
+
+  /* Modal */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    overflow-y: auto;
+  }
+
+  .modal-overlay.open { display: flex; }
+
+  .modal {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 640px;
+    margin-top: 2rem;
+  }
+
+  .modal h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--accent2);
+  }
+
+  .modal label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 0.3rem;
+    margin-top: 0.8rem;
+  }
+
+  .modal textarea, .modal input[type="text"] {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    resize: vertical;
+  }
+
+  .modal textarea { min-height: 100px; line-height: 1.5; }
+  .modal textarea:focus, .modal input:focus { outline: none; border-color: var(--accent); }
+
+  .modal-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+  }
+
+  .modal-tag {
+    padding: 0.3rem 0.7rem;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: all 0.15s;
+    user-select: none;
+  }
+
+  .modal-tag.selected { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .modal-tag:hover { border-color: var(--accent); }
+
+  .ref-row {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.4rem;
+    align-items: center;
+  }
+
+  .ref-row input { flex: 1; }
+
+  .ref-remove {
+    background: none;
+    border: none;
+    color: var(--accent);
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+
+  .add-ref-btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 0.3rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.78rem;
+    margin-top: 0.5rem;
+  }
+
+  .add-ref-btn:hover { border-color: var(--accent); color: var(--text); }
+
+  .modal-footer {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+    justify-content: flex-end;
+  }
+
+  .modal-btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+
+  .modal-btn-save { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .modal-btn-save:hover { opacity: 0.9; }
+  .modal-btn-cancel { background: var(--surface2); color: var(--text-muted); }
+  .modal-btn-cancel:hover { color: var(--text); }
+  .modal-btn-reset { background: none; color: var(--text-muted); border: none; font-size: 0.75rem; margin-right: auto; }
+  .modal-btn-reset:hover { color: var(--accent); }
+
   @media (max-width: 500px) {
     body { padding: 1rem; }
     .grid { grid-template-columns: 1fr; }
+    .modal { margin-top: 1rem; }
   }
 </style>
 </head>
@@ -318,6 +478,40 @@
 </div>
 
 <div class="grid" id="grid"></div>
+
+<div class="modal-overlay" id="modalOverlay" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <h3 id="modalTitle">Edit Post</h3>
+
+    <label>Title</label>
+    <input type="text" id="editTitle">
+
+    <label>Description</label>
+    <textarea id="editDesc"></textarea>
+
+    <label>Category</label>
+    <input type="text" id="editCategory">
+
+    <label>Post Types</label>
+    <div class="modal-tags" id="editTypes"></div>
+
+    <label>On-Camera Talent (comma-separated)</label>
+    <input type="text" id="editTalent" placeholder="e.g. Rebekah, Seth">
+
+    <label>Assigned To</label>
+    <input type="text" id="editAssign" placeholder="e.g. Hayla">
+
+    <label>Reference Links</label>
+    <div id="editRefs"></div>
+    <button class="add-ref-btn" onclick="addRefRow()">+ Add Reference</button>
+
+    <div class="modal-footer">
+      <button class="modal-btn modal-btn-reset" onclick="resetEdits()">Reset to Original</button>
+      <button class="modal-btn modal-btn-cancel" onclick="closeModal()">Cancel</button>
+      <button class="modal-btn modal-btn-save" onclick="saveEdits()">Save</button>
+    </div>
+  </div>
+</div>
 
 <script>
 const POSTS = [
@@ -1740,11 +1934,100 @@ const POSTS = [
   }
 ];
 
+const ALL_TYPES = ['short','long','video','reel','carousel','story','thread','blog','image','text','podcast'];
+const TAG_MAP = {
+  short: 'Short Post', long: 'Long Post', video: 'Video', story: 'Story',
+  carousel: 'Carousel', thread: 'Thread', reel: 'Reel/TikTok', podcast: 'Podcast Clip',
+  blog: 'Blog', text: 'Text Post', image: 'Image'
+};
+
 let filters = { type: 'all', source: 'all', talent: 'all' };
 let doneSet = new Set(JSON.parse(localStorage.getItem('lion_done_v2') || '[]'));
+let edits = JSON.parse(localStorage.getItem('lion_edits_v1') || '{}');
+let editingId = null;
 
-function saveDone() {
-  localStorage.setItem('lion_done_v2', JSON.stringify([...doneSet]));
+function saveDone() { localStorage.setItem('lion_done_v2', JSON.stringify([...doneSet])); }
+function saveEdits() {
+  const id = editingId;
+  if (!id) return;
+  const p = POSTS.find(x => x.id === id);
+  if (!p) return;
+
+  const title = document.getElementById('editTitle').value.trim();
+  const desc = document.getElementById('editDesc').value.trim();
+  const category = document.getElementById('editCategory').value.trim();
+  const types = [...document.querySelectorAll('#editTypes .modal-tag.selected')].map(t => t.dataset.type);
+  const talent = document.getElementById('editTalent').value.split(',').map(s => s.trim()).filter(Boolean);
+  const assign = document.getElementById('editAssign').value.trim();
+  const refs = [];
+  document.querySelectorAll('.ref-row').forEach(row => {
+    const label = row.querySelector('.ref-label').value.trim();
+    const url = row.querySelector('.ref-url').value.trim();
+    if (label && url) refs.push({ label, url });
+  });
+
+  edits[id] = { title, desc, category, types, talent, assign, refs };
+  localStorage.setItem('lion_edits_v1', JSON.stringify(edits));
+  closeModal();
+  render();
+}
+
+function getPost(p) {
+  const e = edits[p.id];
+  if (!e) return p;
+  return { ...p, ...e };
+}
+
+function hasEdits(id) { return !!edits[id]; }
+
+function openEdit(id) {
+  editingId = id;
+  const p = getPost(POSTS.find(x => x.id === id));
+  document.getElementById('modalTitle').textContent = '✏️ Edit: ' + (p.title || '');
+  document.getElementById('editTitle').value = p.title || '';
+  document.getElementById('editDesc').value = p.desc || '';
+  document.getElementById('editCategory').value = p.category || '';
+  document.getElementById('editTalent').value = (p.talent || []).join(', ');
+  document.getElementById('editAssign').value = p.assign || '';
+
+  // Types
+  const typesDiv = document.getElementById('editTypes');
+  typesDiv.innerHTML = ALL_TYPES.map(t => {
+    const sel = (p.types || []).includes(t) ? ' selected' : '';
+    return `<span class="modal-tag${sel}" data-type="${t}" onclick="this.classList.toggle('selected')">${TAG_MAP[t] || t}</span>`;
+  }).join('');
+
+  // Refs
+  const refsDiv = document.getElementById('editRefs');
+  refsDiv.innerHTML = '';
+  (p.refs || []).forEach(r => addRefRow(r.label, r.url));
+
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function closeModal() {
+  editingId = null;
+  document.getElementById('modalOverlay').classList.remove('open');
+}
+
+function resetEdits() {
+  if (!editingId) return;
+  delete edits[editingId];
+  localStorage.setItem('lion_edits_v1', JSON.stringify(edits));
+  closeModal();
+  render();
+}
+
+function addRefRow(label, url) {
+  const div = document.getElementById('editRefs');
+  const row = document.createElement('div');
+  row.className = 'ref-row';
+  row.innerHTML = `
+    <input type="text" class="ref-label" placeholder="Label" value="${label || ''}">
+    <input type="text" class="ref-url" placeholder="https://..." value="${url || ''}">
+    <button class="ref-remove" onclick="this.parentElement.remove()">✕</button>
+  `;
+  div.appendChild(row);
 }
 
 function toggleDone(id) {
@@ -1765,7 +2048,7 @@ function render() {
   const hideDone = document.getElementById('hideDone').checked;
   const grid = document.getElementById('grid');
 
-  let filtered = POSTS.filter(p => {
+  let filtered = POSTS.map(getPost).filter(p => {
     if (filters.type !== 'all' && !p.types.includes(filters.type)) return false;
     if (filters.source !== 'all' && p.source !== filters.source) return false;
     if (filters.talent !== 'all') {
@@ -1785,12 +2068,6 @@ function render() {
   document.getElementById('showCount').textContent = filtered.length;
   document.getElementById('doneCount').textContent = doneSet.size;
 
-  const tagMap = {
-    short: 'Short Post', long: 'Long Post', video: 'Video', story: 'Story',
-    carousel: 'Carousel', thread: 'Thread', reel: 'Reel/TikTok', podcast: 'Podcast Clip',
-    blog: 'Blog', text: 'Text Post', image: 'Image'
-  };
-
   if (!filtered.length) {
     grid.innerHTML = '<div class="empty">No posts match your filters.</div>';
     return;
@@ -1798,6 +2075,7 @@ function render() {
 
   grid.innerHTML = filtered.map(p => {
     const done = doneSet.has(p.id);
+    const edited = hasEdits(p.id);
     const srcClass = p.source === 'notion' ? 'source-notion' : 'source-clanker';
     const srcLabel = p.source === 'notion' ? '📋 Notion' : '🔧 Clanker';
     const talentStr = p.talent.length ? p.talent.join(', ') : '';
@@ -1814,12 +2092,19 @@ function render() {
           <div class="card-check ${done ? 'checked' : ''}" onclick="toggleDone(${p.id})">${done ? '✓' : ''}</div>
         </div>
         <div class="card-desc">${p.desc}</div>
-        <div class="card-tags">${p.types.map(t => `<span class="tag tag-${t}">${tagMap[t] || t}</span>`).join('')}</div>
+        <div class="card-tags">${p.types.map(t => `<span class="tag tag-${t}">${TAG_MAP[t] || t}</span>`).join('')}</div>
         ${talentStr || assignStr ? `<div class="card-meta">${talentStr ? `<span>🎬 <span class="talent">${talentStr}</span></span>` : ''}${assignStr ? `<span>📌 ${assignStr}</span>` : ''}</div>` : ''}
         ${p.refs.length ? `<div class="card-links">${p.refs.map(r => `<a href="${r.url}" target="_blank">📎 ${r.label}</a>`).join('')}</div>` : ''}
+        <div class="card-actions">
+          <button class="edit-btn" onclick="openEdit(${p.id})">✏️ Edit</button>
+          ${edited ? '<span class="edit-indicator">✦ edited</span>' : ''}
+        </div>
       </div>`;
   }).join('');
 }
+
+// Keyboard shortcut: Escape closes modal
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
 render();
 </script>
