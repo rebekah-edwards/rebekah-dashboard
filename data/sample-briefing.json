@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "date": "2026-02-17",
+    "generatedAt": "2026-02-17T07:00:00-05:00",
+    "version": "1.0"
+  },
+  "briefings": {
+    "morning": {
+      "label": "Today's Briefing",
+      "time": "7:00 AM",
+      "items": [
+        {
+          "id": "m1",
+          "section": "seo",
+          "headline": "Google's February 2026 Core Update Rolling Out",
+          "summary": "Google has confirmed its first core algorithm update of 2026, with early data showing significant ranking volatility across content-heavy sites. SEO tools are reporting 30-40% fluctuation in SERP positions. Experts recommend holding off on major changes until the rollout completes in 2-3 weeks.",
+          "url": "https://searchengineland.com/example",
+          "source": "Search Engine Land",
+          "timestamp": "2026-02-17T06:30:00-05:00",
+          "tags": ["google", "algorithm", "core-update"]
+        },
+        {
+          "id": "m2",
+          "section": "seo",
+          "headline": "AI Overviews Now Appear in 45% of All Searches",
+          "summary": "New data from BrightEdge shows AI Overviews have expanded dramatically, now appearing in nearly half of all Google searches. This is reshaping click-through rates significantly, with organic CTR dropping 18% for affected queries. Content strategists are pivoting toward long-tail, experience-based content.",
+          "url": "https://www.brightedge.com/example",
+          "source": "BrightEdge Research",
+          "timestamp": "2026-02-17T06:15:00-05:00",
+          "tags": ["ai-overviews", "seo", "ctr"]
+        },
+        {
+          "id": "m3",
+          "section": "seo",
+          "headline": "Semrush Launches Content Decay Detection Tool",
+          "summary": "Semrush's new feature automatically identifies pages losing traffic over time and suggests refresh strategies. Early users report recovering 15-25% of lost organic traffic within 60 days. The tool is available on Guru plans and above.",
+          "url": "https://www.semrush.com/example",
+          "source": "Semrush Blog",
+          "timestamp": "2026-02-17T05:45:00-05:00",
+          "tags": ["semrush", "tools", "content-strategy"]
+        },
+        {
+          "id": "m4",
+          "section": "publishing",
+          "headline": "Kickstarter Books Category Hits $50M in 2026 Already",
+          "summary": "The books category on Kickstarter has already surpassed $50M in pledges for 2026, on pace to shatter last year's record. Indie fantasy and sci-fi continue to dominate, with several debut authors raising six figures. The trend toward direct-to-reader funding shows no signs of slowing.",
+          "url": "https://www.kickstarter.com/example",
+          "source": "Kickstarter Blog",
+          "timestamp": "2026-02-17T06:00:00-05:00",
+          "tags": ["kickstarter", "crowdfunding", "indie-publishing"]
+        },
+        {
+          "id": "m5",
+          "section": "publishing",
+          "headline": "BookTok's 'Dark Academia Renaissance' Drives Backlist Sales",
+          "summary": "A viral TikTok trend celebrating dark academia aesthetics has driven a 300% increase in backlist sales for classic gothic fiction. Publishers are rushing to create special editions with aesthetic covers. The hashtag #DarkAcademiaReads has over 2 billion views.",
+          "url": "https://www.publishersweekly.com/example",
+          "source": "Publishers Weekly",
+          "timestamp": "2026-02-17T06:20:00-05:00",
+          "tags": ["booktok", "trends", "dark-academia"]
+        },
+        {
+          "id": "m6",
+          "section": "publishing",
+          "headline": "Viral Thread: Readers Demanding 'Just Good Stories' Goes Mega",
+          "summary": "A Twitter/X thread titled 'I just want books that tell good stories without lecturing me' has gone massively viral with 45K retweets. The thread sparked a broader conversation about reader fatigue with heavy-handed messaging in fiction. Several indie publishers are positioning themselves to serve this growing market segment.",
+          "url": "https://x.com/example/status/123",
+          "source": "X (Twitter)",
+          "timestamp": "2026-02-17T05:30:00-05:00",
+          "tags": ["reader-sentiment", "indie-publishing", "viral"]
+        },
+        {
+          "id": "m7",
+          "section": "publishing",
+          "headline": "Backlash After Fantasy Author's Political Posts Lead to Convention Disinvite",
+          "summary": "A bestselling fantasy author was disinvited from a major convention after political social media posts drew organized backlash. The situation has reignited debates about author platforms and reader expectations. Several other authors have spoken out in support, calling it a free speech issue.",
+          "url": "https://www.thebookseller.com/example",
+          "source": "The Bookseller",
+          "timestamp": "2026-02-17T06:45:00-05:00",
+          "tags": ["controversy", "cancel-culture", "conventions"]
+        },
+        {
+          "id": "m8",
+          "section": "popculture",
+          "headline": "Netflix Greenlights Mistborn Series Adaptation",
+          "summary": "Netflix has officially greenlit a series adaptation of Brandon Sanderson's Mistborn, with production set to begin in late 2026. Sanderson will serve as executive producer with significant creative control. The announcement sent Mistborn book sales up 400% overnight.",
+          "url": "https://variety.com/example",
+          "source": "Variety",
+          "timestamp": "2026-02-17T06:10:00-05:00",
+          "tags": ["adaptation", "netflix", "fantasy"]
+        },
+        {
+          "id": "m9",
+          "section": "popculture",
+          "headline": "Wheel of Time Season 4 Trailer Drops, Fans Divided",
+          "summary": "Amazon released the first full trailer for Wheel of Time Season 4, showcasing major divergences from the source material. Fan reaction is split, with book purists criticizing changes while show-only viewers are excited. Viewership predictions remain strong despite the controversy.",
+          "url": "https://deadline.com/example",
+          "source": "Deadline",
+          "timestamp": "2026-02-17T05:50:00-05:00",
+          "tags": ["wheel-of-time", "amazon", "adaptation"]
+        },
+        {
+          "id": "m10",
+          "section": "business",
+          "headline": "Small Business AI Adoption Hits 60% — Here's What's Working",
+          "summary": "A new SBA report shows 60% of small businesses now use AI tools in some capacity, up from 35% a year ago. The most common uses are content creation, customer service chatbots, and bookkeeping automation. Businesses reporting ROI-positive AI implementations cite starting with one specific workflow rather than broad adoption.",
+          "url": "https://www.sba.gov/example",
+          "source": "SBA.gov",
+          "timestamp": "2026-02-17T06:25:00-05:00",
+          "tags": ["ai", "small-business", "trends"]
+        },
+        {
+          "id": "m11",
+          "section": "business",
+          "headline": "Substack Introduces Storefront Features for Writers",
+          "summary": "Substack is rolling out integrated storefront features allowing writers to sell digital products, merch, and courses directly from their publication pages. The move positions Substack as a more complete creator economy platform. Early beta users report 20-30% revenue increases from bundled offerings.",
+          "url": "https://on.substack.com/example",
+          "source": "Substack Blog",
+          "timestamp": "2026-02-17T06:35:00-05:00",
+          "tags": ["substack", "creator-economy", "monetization"]
+        }
+      ]
+    },
+    "afternoon": {
+      "label": "Afternoon Update",
+      "time": "3:00 PM",
+      "items": [
+        {
+          "id": "a1",
+          "section": "seo",
+          "headline": "Bing Webmaster Tools Adds AI Content Quality Scoring",
+          "summary": "Microsoft's Bing Webmaster Tools now includes an AI content quality score for indexed pages. The metric evaluates originality, depth, and E-E-A-T signals. Early testing suggests Bing's scoring correlates loosely with Google rankings, making it a useful cross-reference tool.",
+          "url": "https://blogs.bing.com/example",
+          "source": "Bing Blogs",
+          "timestamp": "2026-02-17T14:30:00-05:00",
+          "tags": ["bing", "tools", "ai-content"]
+        },
+        {
+          "id": "a2",
+          "section": "publishing",
+          "headline": "New Publisher 'Hearthfire Press' Raises $2M Seed Round",
+          "summary": "Hearthfire Press, a new indie publisher focused on 'adventure-forward fantasy without agenda,' has raised a $2M seed round led by creator economy investors. They're planning to launch with 12 titles in Q3 2026 using a hybrid crowdfunding/traditional model. Their pitch deck explicitly targets the underserved 'fun fantasy' reader market.",
+          "url": "https://www.publishersweekly.com/example2",
+          "source": "Publishers Weekly",
+          "timestamp": "2026-02-17T13:15:00-05:00",
+          "tags": ["indie-publishing", "startup", "fantasy"]
+        },
+        {
+          "id": "a3",
+          "section": "publishing",
+          "headline": "Bookstagram Trend: Annotated Editions Going Viral",
+          "summary": "Bookstagram creators are driving massive demand for annotated and illustrated special editions. Posts showing side-by-side comparisons of standard vs. annotated editions are generating huge engagement. Publishers report annotated editions outselling standard hardcovers 3-to-1 on some titles.",
+          "url": "https://www.instagram.com/example",
+          "source": "Instagram / Bookstagram",
+          "timestamp": "2026-02-17T14:00:00-05:00",
+          "tags": ["bookstagram", "special-editions", "trends"]
+        },
+        {
+          "id": "a4",
+          "section": "popculture",
+          "headline": "Percy Jackson Season 3 Confirmed with Expanded Episode Order",
+          "summary": "Disney+ has renewed Percy Jackson for a third season adapting The Titan's Curse, with an expanded 10-episode order (up from 8). Rick Riordan confirmed deeper involvement in the writers' room. The show has become Disney+'s most-watched family fantasy series.",
+          "url": "https://deadline.com/example2",
+          "source": "Deadline",
+          "timestamp": "2026-02-17T13:45:00-05:00",
+          "tags": ["percy-jackson", "disney", "adaptation"]
+        },
+        {
+          "id": "a5",
+          "section": "business",
+          "headline": "Google Business Profiles Now Support AI-Generated Q&A",
+          "summary": "Google is testing AI-generated Q&A sections on Business Profiles, auto-creating and answering common customer questions from reviews and website content. Business owners can edit or remove AI answers. Early feedback is mixed — helpful for coverage but requires monitoring for accuracy.",
+          "url": "https://blog.google/example",
+          "source": "Google Blog",
+          "timestamp": "2026-02-17T14:15:00-05:00",
+          "tags": ["google", "local-seo", "ai"]
+        },
+        {
+          "id": "a6",
+          "section": "seo",
+          "headline": "Long-Form Content Making a Comeback in SERPs",
+          "summary": "Analysis of 10,000 top-ranking pages shows a reversal of the short-content trend, with pages over 2,000 words regaining ranking advantages in informational queries. The shift appears connected to Google's efforts to counter thin AI-generated content. Quality depth signals are being weighted more heavily.",
+          "url": "https://ahrefs.com/example",
+          "source": "Ahrefs Blog",
+          "timestamp": "2026-02-17T13:30:00-05:00",
+          "tags": ["seo", "content-length", "rankings"]
+        }
+      ]
+    }
+  }
+}

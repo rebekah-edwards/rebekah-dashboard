@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rebekah's Daily Briefing</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+:root {
+  --bg: #323232;
+  --bg-card: #3a3a3a;
+  --bg-card-hover: #444444;
+  --border: #4a4a4a;
+  --text: #ffffff;
+  --text-muted: #a0a8b0;
+  --accent: #56FF36;
+  --accent-dim: rgba(86,255,54,0.15);
+  --accent-hover: #6eff56;
+  --tag-bg: rgba(86,255,54,0.12);
+  --tag-text: #56FF36;
+  --section-seo: #2295E6;
+  --section-publishing: #7000DF;
+  --section-popculture: #FF3E89;
+  --section-business: #56FF36;
+  --saved-bg: rgba(86,255,54,0.08);
+  --radius: 8px;
+  --shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+[data-theme="light"] {
+  --bg: #f8f7f4;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f0efec;
+  --border: #e0ddd8;
+  --text: #323232;
+  --text-muted: #6b7280;
+  --accent: #46d92e;
+  --accent-dim: rgba(70,217,46,0.12);
+  --accent-hover: #3bc225;
+  --tag-bg: rgba(70,217,46,0.1);
+  --tag-text: #3aad24;
+  --section-seo: #1e82cc;
+  --section-publishing: #6200c4;
+  --section-popculture: #e5356f;
+  --section-business: #3aad24;
+  --saved-bg: rgba(70,217,46,0.06);
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+/* Header */
+.header {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  padding: 16px 24px;
+  position: sticky; top: 0; z-index: 100;
+}
+.header-inner {
+  max-width: 960px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+}
+.header h1 {
+  font-size: 1.3rem; font-weight: 700; color: var(--accent);
+  display: flex; align-items: center; gap: 8px;
+}
+.header h1 span { font-size: 1.4rem; }
+.header-controls { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.date-nav { display: flex; align-items: center; gap: 8px; }
+.date-nav input[type="date"] {
+  background: var(--bg); color: var(--text); border: 1px solid var(--border);
+  border-radius: 6px; padding: 6px 10px; font-size: 0.85rem; cursor: pointer;
+}
+.date-nav input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(0.7); cursor: pointer; }
+[data-theme="light"] .date-nav input[type="date"]::-webkit-calendar-picker-indicator { filter: none; }
+.btn {
+  background: var(--accent-dim); color: var(--accent); border: 1px solid transparent;
+  border-radius: 6px; padding: 6px 14px; font-size: 0.85rem; cursor: pointer;
+  transition: all 0.15s; font-weight: 500;
+}
+.btn:hover { background: var(--accent); color: var(--bg); }
+.btn.active { background: var(--accent); color: var(--bg); font-weight: 600; }
+.theme-toggle {
+  background: none; border: 1px solid var(--border); border-radius: 6px;
+  padding: 6px 10px; cursor: pointer; font-size: 1rem; color: var(--text);
+  transition: all 0.15s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Tabs */
+.tabs {
+  max-width: 960px; margin: 20px auto 0; padding: 0 24px;
+  display: flex; gap: 4px; border-bottom: 1px solid var(--border);
+}
+.tab {
+  background: none; border: none; color: var(--text-muted); padding: 10px 18px;
+  font-size: 0.9rem; cursor: pointer; border-bottom: 2px solid transparent;
+  transition: all 0.15s; font-weight: 500;
+}
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+.tab .count {
+  background: var(--accent-dim); color: var(--accent); border-radius: 10px;
+  padding: 1px 7px; font-size: 0.75rem; margin-left: 6px;
+}
+
+/* Main */
+.main { max-width: 960px; margin: 0 auto; padding: 20px 24px 60px; }
+.view { display: none; }
+.view.active { display: block; }
+
+/* Briefing period header */
+.period-header {
+  display: flex; align-items: center; gap: 10px;
+  margin: 24px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border);
+}
+.period-header:first-child { margin-top: 0; }
+.period-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
+.period-header h2 { font-size: 1.1rem; font-weight: 600; }
+.period-header .period-time { color: var(--text-muted); font-size: 0.85rem; }
+
+/* Section headers */
+.section-header {
+  display: flex; align-items: center; gap: 8px; margin: 20px 0 10px;
+  cursor: pointer; user-select: none; padding: 8px 12px;
+  background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border);
+  transition: all 0.15s;
+}
+.section-header:hover { background: var(--bg-card-hover); }
+.section-indicator {
+  width: 4px; height: 24px; border-radius: 2px; flex-shrink: 0;
+}
+.section-indicator.seo { background: var(--section-seo); }
+.section-indicator.publishing { background: var(--section-publishing); }
+.section-indicator.popculture { background: var(--section-popculture); }
+.section-indicator.business { background: var(--section-business); }
+.section-header h3 { font-size: 0.95rem; font-weight: 600; flex: 1; }
+.section-count { color: var(--text-muted); font-size: 0.8rem; }
+.section-chevron {
+  color: var(--text-muted); transition: transform 0.2s; font-size: 0.8rem;
+}
+.section-header.collapsed .section-chevron { transform: rotate(-90deg); }
+.section-items { overflow: hidden; transition: max-height 0.3s ease; }
+.section-header.collapsed + .section-items { max-height: 0 !important; }
+
+/* Cards */
+.card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px; margin-bottom: 8px; transition: all 0.15s; position: relative;
+}
+.card:hover { background: var(--bg-card-hover); box-shadow: var(--shadow); }
+.card-top { display: flex; align-items: flex-start; gap: 12px; }
+.card-section-dot {
+  width: 8px; height: 8px; border-radius: 50%; margin-top: 7px; flex-shrink: 0;
+}
+.card-section-dot.seo { background: var(--section-seo); }
+.card-section-dot.publishing { background: var(--section-publishing); }
+.card-section-dot.popculture { background: var(--section-popculture); }
+.card-section-dot.business { background: var(--section-business); }
+.card-content { flex: 1; min-width: 0; }
+.card h4 { font-size: 0.95rem; font-weight: 600; margin-bottom: 6px; line-height: 1.4; }
+.card p { color: var(--text-muted); font-size: 0.85rem; line-height: 1.55; margin-bottom: 10px; }
+.card-meta {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 0.78rem;
+}
+.card-source { color: var(--accent); font-weight: 500; }
+.card-time { color: var(--text-muted); }
+.card-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag {
+  background: var(--tag-bg); color: var(--tag-text); padding: 2px 8px;
+  border-radius: 4px; font-size: 0.72rem; font-weight: 500;
+}
+.bookmark-btn {
+  background: none; border: none; cursor: pointer; font-size: 1.2rem;
+  color: var(--text-muted); transition: all 0.15s; padding: 4px; flex-shrink: 0;
+  line-height: 1;
+}
+.bookmark-btn:hover { color: var(--accent); transform: scale(1.15); }
+.bookmark-btn.saved { color: var(--accent); }
+
+/* Saved view */
+.saved-empty {
+  text-align: center; padding: 60px 20px; color: var(--text-muted);
+}
+.saved-empty .icon { font-size: 2.5rem; margin-bottom: 12px; }
+.saved-empty p { font-size: 0.95rem; }
+
+/* Filter bar */
+.filter-bar {
+  display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap;
+}
+.filter-chip {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 20px;
+  padding: 5px 14px; font-size: 0.8rem; cursor: pointer; color: var(--text-muted);
+  transition: all 0.15s;
+}
+.filter-chip:hover { border-color: var(--accent); color: var(--text); }
+.filter-chip.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .header { padding: 12px 16px; }
+  .header h1 { font-size: 1.1rem; }
+  .tabs { padding: 0 16px; }
+  .tab { padding: 8px 12px; font-size: 0.85rem; }
+  .main { padding: 16px; }
+  .card { padding: 14px; }
+  .header-controls { width: 100%; justify-content: space-between; }
+}
+
+/* Empty state */
+.empty-state { text-align: center; padding: 40px; color: var(--text-muted); }
+
+/* Scroll to top */
+.scroll-top {
+  position: fixed; bottom: 24px; right: 24px; width: 40px; height: 40px;
+  border-radius: 50%; background: var(--accent); color: var(--bg); border: none;
+  cursor: pointer; font-size: 1.2rem; display: none; align-items: center;
+  justify-content: center; box-shadow: var(--shadow); transition: all 0.15s; z-index: 50;
+}
+.scroll-top.visible { display: flex; }
+.scroll-top:hover { transform: scale(1.1); }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <h1><span>📋</span> Rebekah's Briefing</h1>
+    <div class="header-controls">
+      <div class="date-nav">
+        <button class="btn" onclick="changeDate(-1)">◂</button>
+        <input type="date" id="datePicker" onchange="loadDate(this.value)">
+        <button class="btn" onclick="changeDate(1)">▸</button>
+        <button class="btn" onclick="goToday()">Today</button>
+      </div>
+      <button class="btn" id="savedTab" onclick="switchView('saved')">★ Saved <span id="savedCount" class="count" style="display:none"></span></button>
+      <button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">🌓</button>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab active" data-tab="all" onclick="filterSection('all')">All</button>
+  <button class="tab" data-tab="seo" onclick="filterSection('seo')">SEO & Content</button>
+  <button class="tab" data-tab="publishing" onclick="filterSection('publishing')">Publishing</button>
+  <button class="tab" data-tab="popculture" onclick="filterSection('popculture')">Pop Culture</button>
+  <button class="tab" data-tab="business" onclick="filterSection('business')">Business & AI</button>
+</nav>
+
+<main class="main">
+  <div class="view active" id="briefingView"></div>
+  <div class="view" id="savedView"></div>
+</main>
+
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+// ── State ──
+let currentData = null;
+let savedItems = JSON.parse(localStorage.getItem('rb-saved') || '{}');
+let currentFilter = 'all';
+let currentView = 'briefing';
+let collapsedSections = JSON.parse(localStorage.getItem('rb-collapsed') || '{}');
+
+const SECTION_LABELS = {
+  seo: 'SEO & Content Marketing',
+  publishing: 'Publishing & Books',
+  popculture: 'Pop Culture & Entertainment',
+  business: 'General Business & AI'
+};
+const SECTION_ICONS = { seo: '🔍', publishing: '📚', popculture: '🎬', business: '💼' };
+const SECTION_ORDER = ['seo', 'publishing', 'popculture', 'business'];
+
+// ── Init ──
+function init() {
+  const theme = localStorage.getItem('rb-theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', theme);
+  document.getElementById('datePicker').value = '2026-02-17';
+  loadSampleData();
+  updateSavedCount();
+  window.addEventListener('scroll', () => {
+    document.getElementById('scrollTop').classList.toggle('visible', window.scrollY > 400);
+  });
+}
+
+async function loadSampleData() {
+  try {
+    const resp = await fetch('data/sample-briefing.json');
+    currentData = await resp.json();
+  } catch(e) {
+    // Fallback: inline sample
+    currentData = getFallbackData();
+  }
+  render();
+}
+
+function getFallbackData() {
+  return { meta: { date: '2026-02-17' }, briefings: { morning: { label: "Today's Briefing", time: '7:00 AM', items: [] }, afternoon: { label: 'Afternoon Update', time: '3:00 PM', items: [] } } };
+}
+
+// ── Render ──
+function render() {
+  if (currentView === 'briefing') renderBriefing();
+  else renderSaved();
+}
+
+function renderBriefing() {
+  const el = document.getElementById('briefingView');
+  if (!currentData || !currentData.briefings) {
+    el.innerHTML = '<div class="empty-state"><p>No briefing data for this date.</p></div>';
+    return;
+  }
+  let html = '';
+  for (const [period, data] of Object.entries(currentData.briefings)) {
+    const items = data.items.filter(i => currentFilter === 'all' || i.section === currentFilter);
+    if (items.length === 0 && currentFilter !== 'all') continue;
+    html += `<div class="period-header"><div class="period-dot"></div><h2>${data.label}</h2><span class="period-time">${data.time}</span></div>`;
+    const grouped = {};
+    SECTION_ORDER.forEach(s => { grouped[s] = []; });
+    items.forEach(i => { if (grouped[i.section]) grouped[i.section].push(i); });
+    for (const sec of SECTION_ORDER) {
+      if (grouped[sec].length === 0) continue;
+      if (currentFilter !== 'all' && sec !== currentFilter) continue;
+      const key = period + '-' + sec;
+      const collapsed = collapsedSections[key] ? 'collapsed' : '';
+      html += `<div class="section-header ${collapsed}" onclick="toggleSection('${key}', this)">
+        <div class="section-indicator ${sec}"></div>
+        <h3>${SECTION_ICONS[sec]} ${SECTION_LABELS[sec]}</h3>
+        <span class="section-count">${grouped[sec].length}</span>
+        <span class="section-chevron">▼</span>
+      </div>`;
+      html += `<div class="section-items" ${collapsed ? 'style="max-height:0"' : ''}>`;
+      for (const item of grouped[sec]) {
+        html += renderCard(item);
+      }
+      html += '</div>';
+    }
+  }
+  el.innerHTML = html || '<div class="empty-state"><p>No items match this filter.</p></div>';
+  // Set max-heights for open sections
+  el.querySelectorAll('.section-items').forEach(si => {
+    if (si.style.maxHeight !== '0px') si.style.maxHeight = si.scrollHeight + 'px';
+  });
+}
+
+function renderCard(item) {
+  const isSaved = savedItems[item.id];
+  const time = new Date(item.timestamp).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  const tags = (item.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
+  return `<div class="card">
+    <div class="card-top">
+      <div class="card-section-dot ${item.section}"></div>
+      <div class="card-content">
+        <h4>${item.headline}</h4>
+        <p>${item.summary}</p>
+        <div class="card-meta">
+          <a href="${item.url}" target="_blank" rel="noopener" class="card-source">${item.source} ↗</a>
+          <span class="card-time">${time}</span>
+          <div class="card-tags">${tags}</div>
+        </div>
+      </div>
+      <button class="bookmark-btn ${isSaved ? 'saved' : ''}" onclick="toggleSave('${item.id}')" title="${isSaved ? 'Remove from saved' : 'Save item'}">
+        ${isSaved ? '★' : '☆'}
+      </button>
+    </div>
+  </div>`;
+}
+
+function renderSaved() {
+  const el = document.getElementById('savedView');
+  const ids = Object.keys(savedItems);
+  if (ids.length === 0) {
+    el.innerHTML = '<div class="saved-empty"><div class="icon">★</div><p>No saved items yet.<br>Click the ☆ on any item to save it here.</p></div>';
+    return;
+  }
+  // Gather all items from current data
+  const allItems = getAllItems();
+  const saved = allItems.filter(i => savedItems[i.id]);
+  let html = '<div class="period-header"><div class="period-dot"></div><h2>Saved Items</h2><span class="period-time">' + saved.length + ' items</span></div>';
+  if (saved.length === 0) {
+    html += '<div class="empty-state"><p>Saved items from this briefing will appear here.</p></div>';
+  }
+  saved.forEach(item => { html += renderCard(item); });
+  el.innerHTML = html;
+}
+
+function getAllItems() {
+  if (!currentData || !currentData.briefings) return [];
+  const items = [];
+  for (const period of Object.values(currentData.briefings)) {
+    items.push(...(period.items || []));
+  }
+  return items;
+}
+
+// ── Actions ──
+function toggleSection(key, el) {
+  el.classList.toggle('collapsed');
+  collapsedSections[key] = el.classList.contains('collapsed');
+  localStorage.setItem('rb-collapsed', JSON.stringify(collapsedSections));
+  const items = el.nextElementSibling;
+  if (el.classList.contains('collapsed')) {
+    items.style.maxHeight = '0';
+  } else {
+    items.style.maxHeight = items.scrollHeight + 'px';
+  }
+}
+
+function toggleSave(id) {
+  if (savedItems[id]) delete savedItems[id];
+  else {
+    const item = getAllItems().find(i => i.id === id);
+    if (item) savedItems[id] = { savedAt: new Date().toISOString(), headline: item.headline };
+  }
+  localStorage.setItem('rb-saved', JSON.stringify(savedItems));
+  updateSavedCount();
+  render();
+}
+
+function updateSavedCount() {
+  const count = Object.keys(savedItems).length;
+  const el = document.getElementById('savedCount');
+  if (count > 0) { el.textContent = count; el.style.display = 'inline'; }
+  else { el.style.display = 'none'; }
+}
+
+function filterSection(section) {
+  currentFilter = section;
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === section));
+  if (currentView !== 'briefing') switchView('briefing');
+  else render();
+}
+
+function switchView(view) {
+  currentView = view;
+  document.getElementById('briefingView').classList.toggle('active', view === 'briefing');
+  document.getElementById('savedView').classList.toggle('active', view === 'saved');
+  document.getElementById('savedTab').classList.toggle('active', view === 'saved');
+  document.getElementById('tabs').style.display = view === 'saved' ? 'none' : 'flex';
+  if (view === 'briefing') {
+    document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === currentFilter));
+  }
+  render();
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('rb-theme', next);
+}
+
+function changeDate(delta) {
+  const picker = document.getElementById('datePicker');
+  const d = new Date(picker.value + 'T12:00:00');
+  d.setDate(d.getDate() + delta);
+  picker.value = d.toISOString().split('T')[0];
+  loadDate(picker.value);
+}
+
+function goToday() {
+  document.getElementById('datePicker').value = '2026-02-17'; // Demo date
+  loadSampleData();
+}
+
+function loadDate(dateStr) {
+  // In v1, only sample date has data
+  if (dateStr === '2026-02-17') { loadSampleData(); return; }
+  currentData = getFallbackData();
+  render();
+}
+
+init();
+</script>
+</body>
+</html>
