@@ -284,20 +284,26 @@ function init() {
   const theme = localStorage.getItem('rb-theme') || 'dark';
   document.documentElement.setAttribute('data-theme', theme);
   document.getElementById('datePicker').value = '2026-02-17';
-  loadSampleData();
+  loadBriefingData();
   updateSavedCount();
   window.addEventListener('scroll', () => {
     document.getElementById('scrollTop').classList.toggle('visible', window.scrollY > 400);
   });
 }
 
-async function loadSampleData() {
+async function loadBriefingData() {
   try {
-    const resp = await fetch('data/sample-briefing.json');
+    const resp = await fetch('data/current-briefing.json');
+    if (!resp.ok) throw new Error('current-briefing not found');
     currentData = await resp.json();
   } catch(e) {
-    // Fallback: inline sample
-    currentData = getFallbackData();
+    // Fallback: try sample data
+    try {
+      const resp2 = await fetch('data/sample-briefing.json');
+      currentData = await resp2.json();
+    } catch(e2) {
+      currentData = getFallbackData();
+    }
   }
   render();
 }
@@ -468,12 +474,12 @@ function changeDate(delta) {
 
 function goToday() {
   document.getElementById('datePicker').value = '2026-02-17'; // Demo date
-  loadSampleData();
+  loadBriefingData();
 }
 
 function loadDate(dateStr) {
   // In v1, only sample date has data
-  if (dateStr === '2026-02-17') { loadSampleData(); return; }
+  if (dateStr === '2026-02-17') { loadBriefingData(); return; }
   currentData = getFallbackData();
   render();
 }
