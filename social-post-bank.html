@@ -266,6 +266,23 @@
     margin-top: 0.5rem;
   }
 
+  .push-btn {
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-left: auto;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .push-btn:hover { opacity: 0.9; transform: scale(1.02); }
+  .push-btn.sent { background: var(--green); pointer-events: none; }
+
   .edit-btn {
     background: var(--surface2);
     border: 1px solid var(--border);
@@ -434,6 +451,7 @@
 <div class="controls">
   <input type="text" id="search" placeholder="Search posts..." oninput="render()">
   <label class="toggle-done"><input type="checkbox" id="hideDone" onchange="render()"> Hide completed</label>
+  <button class="push-btn" id="pushBtn" onclick="pushChanges()" style="display:none;">📤 Push Changes to Clanker</button>
 </div>
 
 <div class="filter-row">
@@ -2105,6 +2123,90 @@ function render() {
 
 // Keyboard shortcut: Escape closes modal
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+// Push changes button visibility
+function updatePushBtn() {
+  const btn = document.getElementById('pushBtn');
+  const hasAnyEdits = Object.keys(edits).length > 0 || doneSet.size > 0;
+  btn.style.display = hasAnyEdits ? '' : 'none';
+}
+
+// Push changes to Clanker via Discord
+async function pushChanges() {
+  const btn = document.getElementById('pushBtn');
+  btn.textContent = '⏳ Preparing...';
+
+  // Build change summary
+  const lines = [];
+  lines.push('**📤 Social Post Bank — Changes from Rebekah**\n');
+
+  // Edits
+  const editKeys = Object.keys(edits);
+  if (editKeys.length) {
+    lines.push(`**✏️ ${editKeys.length} post(s) edited:**`);
+    editKeys.forEach(id => {
+      const orig = POSTS.find(p => p.id === parseInt(id));
+      const e = edits[id];
+      if (!orig) return;
+      lines.push(`\n> **#${id}: ${e.title || orig.title}**`);
+      if (e.title && e.title !== orig.title) lines.push(`> Title: ~~${orig.title}~~ → ${e.title}`);
+      if (e.desc && e.desc !== orig.desc) lines.push(`> Description updated`);
+      if (e.category && e.category !== orig.category) lines.push(`> Category: ~~${orig.category}~~ → ${e.category}`);
+      if (e.types && JSON.stringify(e.types) !== JSON.stringify(orig.types)) lines.push(`> Types: ${e.types.join(', ')}`);
+      if (e.talent && JSON.stringify(e.talent) !== JSON.stringify(orig.talent)) lines.push(`> Talent: ${e.talent.join(', ') || '(none)'}`);
+      if (e.assign !== undefined && e.assign !== orig.assign) lines.push(`> Assigned: ${e.assign || '(none)'}`);
+      if (e.refs && JSON.stringify(e.refs) !== JSON.stringify(orig.refs)) {
+        e.refs.forEach(r => lines.push(`> Ref: [${r.label}](${r.url})`));
+      }
+      if (e.desc && e.desc !== orig.desc) lines.push(`> New description: ${e.desc.substring(0, 300)}${e.desc.length > 300 ? '...' : ''}`);
+    });
+  }
+
+  // Done items
+  if (doneSet.size) {
+    lines.push(`\n**✅ ${doneSet.size} post(s) marked done:**`);
+    [...doneSet].forEach(id => {
+      const p = POSTS.find(x => x.id === id);
+      if (p) lines.push(`> #${id}: ${p.title}`);
+    });
+  }
+
+  lines.push('\n`@Clanker please bake these into the source file.`');
+
+  const message = lines.join('\n');
+
+  // Copy to clipboard as fallback
+  try { await navigator.clipboard.writeText(message); } catch(e) {}
+
+  // Open Discord with pre-filled message to #lion channel
+  // Discord doesn't support pre-filled messages easily, so we'll copy and prompt
+  btn.textContent = '📋 Copied to clipboard!';
+  btn.classList.add('sent');
+
+  // Show toast + open Discord
+  const note = document.createElement('div');
+  note.style.cssText = 'position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:var(--surface);border:1px solid var(--accent);border-radius:12px;padding:1.25rem 2rem;z-index:999;text-align:center;font-size:0.9rem;max-width:500px;box-shadow:0 8px 32px rgba(0,0,0,0.5);';
+  note.innerHTML = `
+    <div style="font-weight:700;color:var(--accent2);margin-bottom:0.5rem;">📋 Changes copied to clipboard!</div>
+    <div style="color:var(--text-muted);font-size:0.85rem;">Paste in <strong>#lion</strong> on Discord. Opening Discord now...</div>
+    <button onclick="this.parentElement.remove()" style="margin-top:0.75rem;background:var(--surface2);border:1px solid var(--border);color:var(--text-muted);padding:0.3rem 1rem;border-radius:6px;cursor:pointer;font-size:0.8rem;">Got it</button>
+  `;
+  document.body.appendChild(note);
+
+  // Open Discord to the #lion channel
+  setTimeout(() => {
+    window.open('https://discord.com/channels/1471228175580397791/1471930842346553557', '_blank');
+  }, 500);
+
+  setTimeout(() => {
+    btn.textContent = '📤 Push Changes to Clanker';
+    btn.classList.remove('sent');
+  }, 5000);
+}
+
+// Override render to also update push button
+const _origRender = render;
+render = function() { _origRender(); updatePushBtn(); };
 
 render();
 </script>
