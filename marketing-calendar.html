@@ -1,0 +1,1886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lion Publishing — BackerKit Campaign Marketing Calendar</title>
+<style>
+:root {
+  --gold: #c9a84c;
+  --gold-dim: #a08030;
+  --gold-bright: #e8c96a;
+  --bg: #0e0e12;
+  --bg2: #16161d;
+  --bg3: #1e1e28;
+  --bg4: #282834;
+  --text: #e0ddd4;
+  --text-dim: #8a8780;
+  --red: #e05555;
+  --orange: #e0943a;
+  --green: #5ab87a;
+  --blue: #5a8ab8;
+  --purple: #9a6abf;
+  --pink: #c06a8a;
+  --cyan: #4ab8b0;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:'Segoe UI',system-ui,-apple-system,sans-serif; line-height:1.5; }
+a { color:var(--gold); }
+
+/* Header */
+.header { background:linear-gradient(135deg, #12121a 0%, #1a1520 100%); border-bottom:2px solid var(--gold); padding:2rem; text-align:center; }
+.header h1 { font-size:2.2rem; color:var(--gold); letter-spacing:2px; text-transform:uppercase; }
+.header .subtitle { color:var(--text-dim); margin-top:.3rem; font-size:1rem; }
+.header .launch-date { margin-top:.8rem; font-size:1.3rem; color:var(--gold-bright); font-weight:700; }
+
+/* Phase bar */
+.phase-bar { display:flex; overflow-x:auto; background:var(--bg2); border-bottom:1px solid var(--bg4); }
+.phase-item { flex:1; min-width:140px; padding:.8rem .5rem; text-align:center; cursor:pointer; border-bottom:3px solid transparent; transition:.2s; font-size:.82rem; }
+.phase-item:hover, .phase-item.active { border-bottom-color:var(--gold); background:var(--bg3); }
+.phase-item .phase-name { font-weight:700; color:var(--gold); font-size:.9rem; }
+.phase-item .phase-dates { color:var(--text-dim); font-size:.75rem; }
+.phase-item .phase-kpi { color:var(--text-dim); font-size:.7rem; margin-top:.2rem; }
+
+/* Filters */
+.filters { padding:1rem 2rem; background:var(--bg2); border-bottom:1px solid var(--bg4); display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; }
+.filters label { font-size:.8rem; color:var(--text-dim); margin-right:.5rem; }
+.filter-btn { background:var(--bg4); border:1px solid #333; color:var(--text); padding:.3rem .7rem; border-radius:4px; cursor:pointer; font-size:.78rem; transition:.15s; }
+.filter-btn:hover { border-color:var(--gold-dim); }
+.filter-btn.active { background:var(--gold-dim); border-color:var(--gold); color:#fff; }
+.search-box { background:var(--bg3); border:1px solid #333; color:var(--text); padding:.35rem .7rem; border-radius:4px; font-size:.8rem; width:200px; margin-left:auto; }
+.search-box::placeholder { color:var(--text-dim); }
+.search-box:focus { outline:none; border-color:var(--gold); }
+
+/* KPI Dashboard */
+.kpi-dashboard { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1rem; padding:1.5rem 2rem; background:var(--bg); }
+.kpi-card { background:var(--bg3); border:1px solid var(--bg4); border-radius:8px; padding:1rem; text-align:center; }
+.kpi-card .kpi-label { font-size:.7rem; color:var(--text-dim); text-transform:uppercase; letter-spacing:1px; }
+.kpi-card .kpi-value { font-size:1.5rem; font-weight:700; color:var(--gold); margin:.3rem 0; }
+.kpi-card .kpi-sub { font-size:.72rem; color:var(--text-dim); }
+
+/* Week cards */
+.weeks-container { padding:1rem 2rem 3rem; }
+.week-card { background:var(--bg2); border:1px solid var(--bg4); border-radius:8px; margin-bottom:1.2rem; overflow:hidden; transition:.2s; }
+.week-card.milestone { border-color:var(--gold-dim); }
+.week-card.hidden { display:none; }
+.week-header { padding:1rem 1.2rem; cursor:pointer; display:flex; justify-content:space-between; align-items:center; background:var(--bg3); }
+.week-header:hover { background:var(--bg4); }
+.week-title { font-weight:700; font-size:1rem; }
+.week-title .week-num { color:var(--gold); margin-right:.5rem; }
+.week-title .week-dates { color:var(--text-dim); font-size:.85rem; font-weight:400; }
+.week-phase-badge { font-size:.65rem; padding:.15rem .5rem; border-radius:3px; text-transform:uppercase; letter-spacing:.5px; font-weight:600; }
+.week-chevron { color:var(--text-dim); transition:.2s; font-size:1.2rem; }
+.week-card.open .week-chevron { transform:rotate(180deg); }
+.week-body { display:none; padding:0 1.2rem 1.2rem; }
+.week-card.open .week-body { display:block; }
+
+.week-priorities { background:var(--bg); border-left:3px solid var(--gold); padding:.8rem 1rem; margin:.8rem 0; border-radius:0 6px 6px 0; }
+.week-priorities h4 { color:var(--gold); font-size:.8rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:.4rem; }
+.week-priorities ul { list-style:none; padding:0; }
+.week-priorities li { font-size:.85rem; padding:.15rem 0; padding-left:1rem; position:relative; }
+.week-priorities li::before { content:'→'; position:absolute; left:0; color:var(--gold); }
+
+.channel-section { margin-top:.8rem; }
+.channel-label { font-size:.72rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; padding:.4rem .6rem; border-radius:4px 4px 0 0; display:inline-block; }
+.channel-tasks { background:var(--bg); border:1px solid var(--bg4); border-radius:0 6px 6px 6px; padding:.6rem .8rem; }
+.task-item { font-size:.83rem; padding:.3rem 0; border-bottom:1px solid var(--bg4); display:flex; align-items:flex-start; gap:.5rem; }
+.task-item:last-child { border-bottom:none; }
+.task-owner { font-size:.65rem; background:var(--bg4); padding:.1rem .4rem; border-radius:3px; white-space:nowrap; color:var(--text-dim); flex-shrink:0; margin-top:.1rem; }
+.task-text { flex:1; }
+.task-urgency { width:6px; height:6px; border-radius:50%; flex-shrink:0; margin-top:.45rem; }
+.urgency-high { background:var(--red); }
+.urgency-medium { background:var(--orange); }
+.urgency-low { background:var(--green); }
+
+/* Channel colors */
+.ch-social .channel-label { background:#2a3545; color:var(--blue); }
+.ch-email .channel-label { background:#2a3535; color:var(--cyan); }
+.ch-youtube .channel-label { background:#3a2535; color:var(--pink); }
+.ch-ads .channel-label { background:#352a35; color:var(--purple); }
+.ch-outreach .channel-label { background:#353525; color:var(--orange); }
+.ch-content .channel-label { background:#253530; color:var(--green); }
+.ch-milestone .channel-label { background:#35351a; color:var(--gold); }
+
+/* Milestone marker */
+.milestone-marker { display:inline-block; background:var(--gold); color:#000; font-size:.65rem; font-weight:700; padding:.1rem .4rem; border-radius:3px; margin-left:.5rem; text-transform:uppercase; }
+
+/* Content cadence */
+.cadence-section { padding:2rem; background:var(--bg2); border-top:2px solid var(--gold); margin-top:2rem; }
+.cadence-section h2 { color:var(--gold); margin-bottom:1rem; }
+.cadence-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1rem; }
+.cadence-card { background:var(--bg3); border:1px solid var(--bg4); border-radius:8px; padding:1rem; }
+.cadence-card h3 { color:var(--gold-bright); font-size:.9rem; margin-bottom:.5rem; }
+.cadence-card table { width:100%; font-size:.78rem; border-collapse:collapse; }
+.cadence-card th, .cadence-card td { padding:.3rem .5rem; border-bottom:1px solid var(--bg4); text-align:left; }
+.cadence-card th { color:var(--text-dim); font-weight:600; }
+
+/* Expand/collapse all */
+.controls { padding:.5rem 2rem; display:flex; gap:.5rem; }
+.ctrl-btn { background:var(--bg3); border:1px solid var(--bg4); color:var(--text-dim); padding:.3rem .8rem; border-radius:4px; cursor:pointer; font-size:.75rem; }
+.ctrl-btn:hover { border-color:var(--gold-dim); color:var(--text); }
+
+/* Responsive */
+@media(max-width:768px) {
+  .header h1 { font-size:1.4rem; }
+  .filters { padding:.8rem 1rem; }
+  .weeks-container { padding:1rem; }
+  .kpi-dashboard { padding:1rem; }
+  .cadence-section { padding:1rem; }
+  .phase-bar { flex-wrap:wrap; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🦁 Lion Publishing</h1>
+  <div class="subtitle">BackerKit Campaign Marketing Calendar & Execution Playbook</div>
+  <div class="launch-date">🚀 LAUNCH DAY: October 5, 2026</div>
+</div>
+
+<div class="phase-bar" id="phaseBar">
+  <div class="phase-item active" data-phase="foundation">
+    <div class="phase-name">① Foundation</div>
+    <div class="phase-dates">Feb 17 – Feb 28</div>
+    <div class="phase-kpi">Kit setup · Brand finalized · Lead magnets drafted</div>
+  </div>
+  <div class="phase-item" data-phase="growth">
+    <div class="phase-name">② Growth</div>
+    <div class="phase-dates">Mar 1 – Apr 30</div>
+    <div class="phase-kpi">0→1K subs · Podcast live · Ads running · Covers ready</div>
+  </div>
+  <div class="phase-item" data-phase="acceleration">
+    <div class="phase-name">③ Acceleration</div>
+    <div class="phase-dates">May 1 – Jun 30</div>
+    <div class="phase-kpi">1K→4K subs · 10K social · Influencers signed · Video prod</div>
+  </div>
+  <div class="phase-item" data-phase="prelaunch">
+    <div class="phase-name">④ Pre-Launch</div>
+    <div class="phase-dates">Jul 1 – Sep 30</div>
+    <div class="phase-kpi">5K-10K subs · 20K+ social · 5K pre-saves · ARCs out</div>
+  </div>
+  <div class="phase-item" data-phase="launch">
+    <div class="phase-name">⑤ Launch</div>
+    <div class="phase-dates">Oct 5 – Oct 8</div>
+    <div class="phase-kpi">$100K first 48h · 2K backers day 1</div>
+  </div>
+  <div class="phase-item" data-phase="campaign">
+    <div class="phase-name">⑥ Campaign Active</div>
+    <div class="phase-dates">Oct 5 – Oct 31+</div>
+    <div class="phase-kpi">$300K-$500K · 6K-10K backers · Stretch goals unlocked</div>
+  </div>
+</div>
+
+<div class="kpi-dashboard">
+  <div class="kpi-card"><div class="kpi-label">Email Subscribers</div><div class="kpi-value">5K–10K</div><div class="kpi-sub">by launch day</div></div>
+  <div class="kpi-card"><div class="kpi-label">Social Warm Leads</div><div class="kpi-value">20K–40K</div><div class="kpi-sub">across all platforms</div></div>
+  <div class="kpi-card"><div class="kpi-label">BackerKit Pre-Saves</div><div class="kpi-value">5,000+</div><div class="kpi-sub">pre-save page live July</div></div>
+  <div class="kpi-card"><div class="kpi-label">Campaign Goal</div><div class="kpi-value">$300K–$500K</div><div class="kpi-sub">6,000–10,000 backers</div></div>
+  <div class="kpi-card"><div class="kpi-label">Ad Budget</div><div class="kpi-value">$10K–$13K</div><div class="kpi-sub">Mar–Oct total spend</div></div>
+  <div class="kpi-card"><div class="kpi-label">Podcast Guests</div><div class="kpi-value">30 shows</div><div class="kpi-sub">target list to book</div></div>
+</div>
+
+<div class="filters">
+  <label>Filter by channel:</label>
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="social">Social</button>
+  <button class="filter-btn" data-filter="email">Email</button>
+  <button class="filter-btn" data-filter="youtube">YouTube/Podcast</button>
+  <button class="filter-btn" data-filter="ads">Paid Ads</button>
+  <button class="filter-btn" data-filter="outreach">Outreach</button>
+  <button class="filter-btn" data-filter="content">Content Creation</button>
+  <button class="filter-btn" data-filter="milestone">Milestones</button>
+  <input type="text" class="search-box" id="searchBox" placeholder="Search tasks...">
+</div>
+
+<div class="controls">
+  <button class="ctrl-btn" id="expandAll">Expand All</button>
+  <button class="ctrl-btn" id="collapseAll">Collapse All</button>
+  <button class="ctrl-btn" id="showCurrent">Jump to Current Week</button>
+</div>
+
+<div class="weeks-container" id="weeksContainer"></div>
+
+<div class="cadence-section">
+  <h2>📅 Content Cadence Schedule</h2>
+  <div class="cadence-grid">
+    <div class="cadence-card">
+      <h3>Phase 1-2: Foundation & Growth (Feb–Apr)</h3>
+      <table>
+        <tr><th>Channel</th><th>Frequency</th><th>Content Types</th></tr>
+        <tr><td>X / Threads</td><td>2-3x/week each</td><td>Thread essays, hot takes, polls, book recs</td></tr>
+        <tr><td>Instagram</td><td>2-3x/week</td><td>Carousels, Reels, Stories daily</td></tr>
+        <tr><td>TikTok</td><td>2-3x/week</td><td>BookTok hooks, BTS, talking head</td></tr>
+        <tr><td>YouTube Shorts</td><td>2x/week</td><td>Repurposed TikToks/Reels</td></tr>
+        <tr><td>YouTube Long</td><td>1x/week (podcast)</td><td>The Lion Podcast video episodes</td></tr>
+        <tr><td>Facebook</td><td>2x/week</td><td>Link posts, group engagement</td></tr>
+        <tr><td>Email</td><td>1x/week</td><td>Newsletter: value-first, lead nurture</td></tr>
+        <tr><td>Blog/SEO</td><td>1x/week</td><td>Long-form articles on lionpublish.com</td></tr>
+        <tr><td>Podcast</td><td>1x/week</td><td>The Lion Podcast launches March</td></tr>
+      </table>
+    </div>
+    <div class="cadence-card">
+      <h3>Phase 3: Acceleration (May–Jun)</h3>
+      <table>
+        <tr><th>Channel</th><th>Frequency</th><th>Content Types</th></tr>
+        <tr><td>X / Threads</td><td>3-5x/week each</td><td>+ author spotlights, cover reveals</td></tr>
+        <tr><td>Instagram</td><td>3-5x/week</td><td>+ Collab posts w/ influencers</td></tr>
+        <tr><td>TikTok</td><td>3-5x/week</td><td>+ duets, trends, series content</td></tr>
+        <tr><td>YouTube Shorts</td><td>3x/week</td><td>+ standalone short concepts</td></tr>
+        <tr><td>YouTube Long</td><td>3-4x/week total</td><td>Podcast + reviews + thought leadership</td></tr>
+        <tr><td>Email</td><td>1x/week</td><td>+ segmented content by interest</td></tr>
+        <tr><td>Podcast Guest</td><td>2-3 bookings/week</td><td>Appear on target list shows</td></tr>
+      </table>
+    </div>
+    <div class="cadence-card">
+      <h3>Phase 4: Pre-Launch (Jul–Sep)</h3>
+      <table>
+        <tr><th>Channel</th><th>Frequency</th><th>Content Types</th></tr>
+        <tr><td>All Social</td><td>Daily (5-7x/week)</td><td>Countdown content, UGC, hype</td></tr>
+        <tr><td>Email</td><td>2x/week</td><td>Countdown sequence, exclusive drops</td></tr>
+        <tr><td>YouTube</td><td>4x/week</td><td>Author deep dives, world-building, Q&As</td></tr>
+        <tr><td>Paid Ads</td><td>Retargeting active</td><td>Campaign video ads, testimonial ads</td></tr>
+        <tr><td>Influencers</td><td>Coordinated posts</td><td>Scheduled reveals, reviews, unboxings</td></tr>
+      </table>
+    </div>
+    <div class="cadence-card">
+      <h3>Phase 5-6: Launch & Campaign (Oct)</h3>
+      <table>
+        <tr><th>Channel</th><th>Frequency</th><th>Content Types</th></tr>
+        <tr><td>All Social</td><td>2-3x/day</td><td>Updates, stretch goals, milestones, UGC</td></tr>
+        <tr><td>Email</td><td>Daily first 3 days, then 3x/week</td><td>Launch, updates, last-chance</td></tr>
+        <tr><td>YouTube</td><td>Daily shorts + 2x long</td><td>Campaign updates, stretch goal reveals</td></tr>
+        <tr><td>Paid Ads</td><td>Full retargeting</td><td>Social proof ads, urgency ads</td></tr>
+        <tr><td>Influencers</td><td>Ongoing</td><td>Review drops, reading vlogs</td></tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div style="text-align:center;padding:2rem;color:var(--text-dim);font-size:.75rem;">
+  Lion Publishing © 2026 · Marketing Calendar v1.0 · Built for the team by the team
+</div>
+
+<script>
+const WEEKS = [
+// ============ PHASE 1: FOUNDATION (Feb 17 – Feb 28) ============
+{
+  num: 1, dates: "Feb 17–21, 2026", phase: "foundation", phaseColor: "#c9a84c",
+  milestone: "KICKOFF WEEK",
+  priorities: [
+    "Finalize Lion Publishing brand identity (logo, colors, typography, tone guide)",
+    "Set up Kit (ConvertKit) account with welcome sequence",
+    "Create first lead magnet: Chapter 1 sampler PDF (all 3 books)",
+    "Claim & optimize all social handles"
+  ],
+  channels: {
+    milestone: [
+      { text: "🎯 FOUNDATION PHASE BEGINS — All systems setup this week", owner: "All", urgency: "high" },
+    ],
+    content: [
+      { text: "Design Lion Publishing logo variations (full, icon, wordmark) — finalize with team by Wed", owner: "Rebekah", urgency: "high" },
+      { text: "Create brand style guide: colors (#c9a84c gold primary), fonts, photo/video style, tone of voice doc", owner: "Rebekah", urgency: "high" },
+      { text: "Write & format Chapter 1 sampler PDF — include all 3 books with cover placeholders & author bios", owner: "Rebekah", urgency: "high" },
+      { text: "Draft 'About Lion Publishing' boilerplate copy (100-word, 250-word, 500-word versions)", owner: "Rebekah", urgency: "medium" },
+      { text: "Outline prequel short story concept for lead magnet #2 (assign to author, deadline: March 7)", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Create Kit account → set up domain authentication for lionpublish.com", owner: "Rebekah", urgency: "high" },
+      { text: "Build landing page in Kit: 'Get exclusive first chapters from 3 debut fantasy novels'", owner: "Rebekah", urgency: "high" },
+      { text: "Write 3-email welcome sequence: (1) Deliver lead magnet + our story, (2) Meet the books, (3) Meet the authors", owner: "Rebekah", urgency: "high" },
+      { text: "Set up subscriber tags: litRPG-interest, epic-fantasy-interest, YA-interest, general", owner: "Rebekah", urgency: "medium" },
+    ],
+    social: [
+      { text: "Claim/unify handles on X, Threads, Instagram, TikTok, Facebook, YouTube — use @lionpublish everywhere", owner: "Seth", urgency: "high" },
+      { text: "Design profile photos, banners, and bio copy for all platforms (consistent branding)", owner: "Josh", urgency: "high" },
+      { text: "Post announcement #1 on all Seth's existing accounts: 'We're building something. 🦁' — teaser with no details", owner: "Seth", urgency: "medium" },
+      { text: "Post announcement #2: 'What if a publisher actually put authors first?' — thought-provoking thread/caption", owner: "Seth", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Set up Lion Publishing YouTube channel — branding, about section, channel trailer placeholder", owner: "Josh", urgency: "high" },
+      { text: "Plan first 4 Lion Podcast episodes (topics: Why we started Lion, State of publishing, Why these 3 genres, Author interviews)", owner: "Seth", urgency: "medium" },
+      { text: "Order/test podcast recording setup — lighting, mics, backdrop with Lion branding", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Schedule intro call with Justin & Chaunna Brooke (AdSkills) — discuss ad strategy for list building", owner: "Seth", urgency: "medium" },
+      { text: "Set up Meta Business Manager, ad account, and Facebook pixel on lionpublish.com", owner: "Seth", urgency: "medium" },
+      { text: "Install Google Analytics 4 + Google Ads tag on lionpublish.com", owner: "Rebekah", urgency: "low" },
+    ],
+    outreach: [
+      { text: "Compile master influencer target list: 50 BookTok/Bookstagram creators (10K-100K followers in fantasy/litRPG/YA)", owner: "Rachael", urgency: "medium" },
+      { text: "Draft podcast guesting pitch email template — personalized hook + Lion story + what we bring to their audience", owner: "Seth", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 2, dates: "Feb 23–28, 2026", phase: "foundation", phaseColor: "#c9a84c",
+  priorities: [
+    "Finish all lead magnets in draft form",
+    "lionpublish.com website live with email capture",
+    "Record first Lion Podcast episode",
+    "Begin SEO content strategy"
+  ],
+  channels: {
+    content: [
+      { text: "Finish Chapter 1 sampler PDF design — professional layout with placeholder covers, author headshots, and CTAs", owner: "Josh", urgency: "high" },
+      { text: "Write BTS blog post #1: 'Why Two Marketers Decided to Start a Publishing House' (2,000 words, SEO-optimized)", owner: "Rebekah", urgency: "high" },
+      { text: "Create content bank spreadsheet: 50 social post ideas across all 3 books (hooks, angles, formats)", owner: "Rebekah", urgency: "high" },
+      { text: "Film BTS video #1: 'Day 1 of Building a Publishing House' — raw, authentic, 3-5 min for YouTube + cut to 60s for socials", owner: "Josh", urgency: "medium" },
+      { text: "Draft prequel short story outline (coordinate with author) — target 5,000-8,000 words, delivery March 14", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Test full welcome sequence flow — signup → delivery → email 2 (day 2) → email 3 (day 4)", owner: "Rebekah", urgency: "high" },
+      { text: "Create Kit signup form embeds for lionpublish.com (header, footer, popup with 10s delay)", owner: "Rebekah", urgency: "high" },
+      { text: "Design email template in Kit: Lion branding, gold accent, clean layout, mobile-optimized", owner: "Rebekah", urgency: "medium" },
+    ],
+    social: [
+      { text: "Post #3: Instagram carousel — 'The 3 books we're publishing and why we chose them' (slide-by-slide breakdown)", owner: "Seth", urgency: "medium" },
+      { text: "Post #4: TikTok/Reel — Seth talking to camera: 'We quit our jobs to start a publishing house. Here's why.' (60s, hook-first)", owner: "Seth", urgency: "medium" },
+      { text: "Post #5: X thread — '10 things wrong with traditional publishing (and how we're fixing them)' — thought leadership", owner: "Seth", urgency: "medium" },
+      { text: "Create Goodreads author pages for all 3 book authors + add books as 'upcoming'", owner: "Rachael", urgency: "medium" },
+      { text: "Create Storygraph and Fable profiles for Lion Publishing + add upcoming titles", owner: "Rachael", urgency: "low" },
+    ],
+    youtube: [
+      { text: "Record Lion Podcast Ep 1: 'Why We're Starting Lion Publishing' — Seth & Rebekah, 30-45 min", owner: "Seth", urgency: "high" },
+      { text: "Josh begins editing Ep 1 — target publish date: March 3", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Complete AdSkills strategy call — get recommendations on audience targeting, creative formats, budget pacing", owner: "Seth", urgency: "medium" },
+      { text: "Design 3 lead magnet ad creatives: (A) book mockup + 'Read Ch.1 Free', (B) Seth/Rebekah talking head still, (C) genre-specific hook", owner: "Josh", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Send first 5 podcast guesting pitches to highest-priority shows on target list", owner: "Seth", urgency: "medium" },
+      { text: "Research and join 10 Facebook groups for fantasy/litRPG/YA readers — begin lurking & engaging authentically", owner: "Rachael", urgency: "low" },
+    ],
+  }
+},
+// ============ PHASE 2: GROWTH (Mar 1 – Apr 30) ============
+{
+  num: 3, dates: "Mar 2–7, 2026", phase: "growth", phaseColor: "#5ab87a",
+  milestone: "PODCAST LAUNCH WEEK",
+  priorities: [
+    "Launch The Lion Podcast (Ep 1 goes live)",
+    "Turn on first paid ads for list building",
+    "Publish first SEO blog post",
+    "Begin 2-3 posts/week social cadence"
+  ],
+  channels: {
+    milestone: [
+      { text: "🎙️ THE LION PODCAST LAUNCHES — Ep 1 goes live on all platforms (Apple, Spotify, YouTube)", owner: "All", urgency: "high" },
+      { text: "💰 PAID ADS GO LIVE — First list-building campaigns on Meta", owner: "Seth", urgency: "high" },
+    ],
+    social: [
+      { text: "Post podcast launch announcement on all platforms — audiogram clip + 'We have a podcast!' + link to listen", owner: "Seth", urgency: "high" },
+      { text: "Post Instagram Reel: 'POV: You just found out two marketers are starting a fantasy publisher' — trending audio", owner: "Seth", urgency: "medium" },
+      { text: "Post X thread: 'We just launched a podcast about building a publishing house from scratch. Here's what Ep 1 covers 🧵'", owner: "Seth", urgency: "medium" },
+      { text: "Cross-promote on The Book Is Better podcast: 30-second ad read for Lion Publishing + link in show notes", owner: "Seth", urgency: "high" },
+      { text: "Share BTS video clip on TikTok: setting up the podcast studio, messy first take moments", owner: "Josh", urgency: "low" },
+    ],
+    email: [
+      { text: "Send Newsletter #1: 'The Lion Roars — We're officially live' — podcast link, lead magnet reminder, what's coming", owner: "Rebekah", urgency: "high" },
+      { text: "Add podcast CTA to welcome sequence email #3: 'Want more? Listen to The Lion Podcast'", owner: "Rebekah", urgency: "low" },
+    ],
+    youtube: [
+      { text: "Publish Lion Podcast Ep 1 as video on YouTube — optimized title, thumbnail, description with timestamps", owner: "Josh", urgency: "high" },
+      { text: "Record Ep 2: 'The State of Publishing in 2026 — Why It's Broken and What's Next' — hot takes, data, vision", owner: "Seth", urgency: "medium" },
+      { text: "Cut 3 YouTube Shorts from Ep 1: best soundbites, controversial takes, funny moments", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Launch Meta ad campaign #1: Lead magnet (Chapter 1 sampler) — $500/month budget — interests: fantasy books, Brandon Sanderson, litRPG, BookTok", owner: "Seth", urgency: "high" },
+      { text: "Set up 3 ad sets: (A) litRPG readers, (B) epic fantasy readers, (C) YA fantasy readers — test each creative", owner: "Seth", urgency: "high" },
+      { text: "Set up conversion tracking: Kit signup as conversion event, track cost per subscriber", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Publish blog post #1 on lionpublish.com: 'Why We're Starting Lion Publishing' — 2,000+ words, SEO-optimized for 'new fantasy publisher 2026'", owner: "Rebekah", urgency: "high" },
+      { text: "Research & outline blog post #2: 'Best LitRPG Books of 2026' — SEO play for genre traffic (publish next week)", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Send next batch of 5 podcast guesting pitches (shows #6-10 on target list)", owner: "Seth", urgency: "medium" },
+      { text: "Begin engaging in Facebook fantasy reader groups: answer questions, share reading recs, be genuinely helpful (no self-promo yet)", owner: "Rachael", urgency: "low" },
+    ],
+  }
+},
+{
+  num: 4, dates: "Mar 9–14, 2026", phase: "growth", phaseColor: "#5ab87a",
+  priorities: [
+    "Review first week of ad performance — optimize or kill underperformers",
+    "Publish podcast Ep 2",
+    "Begin building social proof with reader engagement"
+  ],
+  channels: {
+    social: [
+      { text: "Post carousel: 'Top 5 fantasy tropes we love (and one we're reinventing)' — each slide a trope with our twist", owner: "Seth", urgency: "medium" },
+      { text: "Post TikTok: 'Books I'd sell my soul to read for the first time again' — bookshelf pointing trend + pivot to 'we're publishing books that feel like that'", owner: "Seth", urgency: "medium" },
+      { text: "Post X poll: 'Which fantasy subgenre needs more love? LitRPG / Epic Fantasy / YA Western Fantasy / Other' — engagement bait + market research", owner: "Seth", urgency: "low" },
+      { text: "Instagram Story series: 'Ask us anything about starting a publishing house' — AMA with saved highlights", owner: "Rebekah", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter #2: 'What makes a great litRPG?' — educational content + subtle book teaser + podcast ep 2 link", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish Ep 2: 'The State of Publishing in 2026' — Josh edits, adds B-roll of bookstores, industry data graphics", owner: "Josh", urgency: "high" },
+      { text: "Record Ep 3: 'What is LitRPG? A Deep Dive for Fantasy Readers' — educational + positions our litRPG book", owner: "Seth", urgency: "medium" },
+      { text: "Upload 2 Shorts from Ep 2 clips", owner: "Josh", urgency: "low" },
+    ],
+    ads: [
+      { text: "Week 1 ad review: Check cost per subscriber (target: <$2.00 CPL), CTR, and creative performance. Kill worst ad set, scale best.", owner: "Seth", urgency: "high" },
+      { text: "Brief Justin/Chaunna on initial results, get optimization recommendations", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Publish blog post #2: 'Best LitRPG Books of 2026 (And One You Haven't Heard Of Yet)' — include our book at #1 with 'coming soon'", owner: "Rebekah", urgency: "medium" },
+      { text: "Film talking-head video: Seth reviews a popular fantasy book (genuine review, not promotional — build credibility)", owner: "Josh", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Follow up on podcast guesting pitches sent last week — personalized follow-ups to non-responders", owner: "Seth", urgency: "medium" },
+      { text: "Identify 5 mid-tier Bookstagrammers (5K-20K) who review fantasy — Rachael begins warm engagement (commenting, sharing their content)", owner: "Rachael", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 5, dates: "Mar 16–21, 2026", phase: "growth", phaseColor: "#5ab87a",
+  priorities: [
+    "Prequel short story complete — new lead magnet ready",
+    "Second round of ad creative tests",
+    "Establish weekly content rhythm"
+  ],
+  channels: {
+    social: [
+      { text: "Post Reel/TikTok: 'Day in the life of building a publishing house' — B-roll of meetings, design reviews, manuscript reading", owner: "Josh", urgency: "medium" },
+      { text: "Post carousel: 'How we pick which books to publish' — behind the scenes of our editorial process", owner: "Rebekah", urgency: "medium" },
+      { text: "Post X thread: 'I've spent 10 years in marketing. Here's why I think most book marketing is terrible 🧵' — thought leadership from Rebekah", owner: "Rebekah", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter #3: 'A free short story set in one of our worlds' — deliver prequel short story lead magnet + announce it on socials", owner: "Rebekah", urgency: "high" },
+      { text: "Create new Kit landing page for prequel short story — separate from Chapter 1 sampler for A/B testing", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish Ep 3: 'What is LitRPG?' — include gameplay footage overlays, animated examples", owner: "Josh", urgency: "high" },
+      { text: "Publish Seth's book review video as standalone (not podcast) — first non-podcast YouTube content", owner: "Josh", urgency: "medium" },
+      { text: "Record Ep 4: 'The Epic Fantasy Renaissance — Why 2026 Is the Year' — tie to our epic fantasy book", owner: "Seth", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Launch ad creative round 2: Test video ad (Seth 30s talking head) vs. static image ads — same audiences", owner: "Seth", urgency: "medium" },
+      { text: "Test prequel short story as alternate lead magnet in ads — may convert differently than Chapter 1 sampler", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Publish blog post #3: 'Western Fantasy: The Genre You Didn't Know You Needed' — SEO play for YA book positioning", owner: "Rebekah", urgency: "medium" },
+      { text: "Prequel short story final draft due from author — Rebekah edits & formats as PDF lead magnet", owner: "Rebekah", urgency: "high" },
+    ],
+    outreach: [
+      { text: "Confirm first 2-3 podcast guest appearances — prep talking points and Lion Publishing plugs", owner: "Seth", urgency: "medium" },
+      { text: "Send 5 more podcast guesting pitches (shows #11-15)", owner: "Seth", urgency: "low" },
+    ],
+  }
+},
+{
+  num: 6, dates: "Mar 23–28, 2026", phase: "growth", phaseColor: "#5ab87a",
+  priorities: [
+    "First podcast guest appearance airs",
+    "Hit 250 email subscribers milestone",
+    "A/B test which lead magnet performs better in ads"
+  ],
+  channels: {
+    social: [
+      { text: "Post TikTok: 'Fantasy books coming in 2026 that nobody is talking about' — position our 3 books naturally in a larger listicle", owner: "Seth", urgency: "medium" },
+      { text: "Post IG carousel: 'Meet Author [Name] — the mind behind [LitRPG title]' — personal story, inspirations, fun facts", owner: "Rebekah", urgency: "medium" },
+      { text: "Post X: Share a spicy publishing industry take → drive conversation in replies → end with 'we're doing it differently at @lionpublish'", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter #4: 'Meet our authors' — short profiles of all 3 authors, what inspires them, sneak peeks at their worlds", owner: "Rebekah", urgency: "medium" },
+      { text: "Review subscriber growth: Target 250 by end of March. If below, increase ad spend or test new creative.", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish Ep 4: 'The Epic Fantasy Renaissance'", owner: "Josh", urgency: "high" },
+      { text: "Film talking-head: 'Why YA Fantasy Needs More Westerns' — Rebekah on camera, passionate pitch for the genre", owner: "Josh", urgency: "medium" },
+      { text: "Record Ep 5: Interview with one of Lion's authors — origin story, writing process, what readers can expect", owner: "Seth", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Mid-month ad review: Compare Chapter 1 sampler vs. prequel short story CPL. Shift 70% of budget to winner.", owner: "Seth", urgency: "high" },
+      { text: "Test Google search ads: Target 'best new fantasy books 2026', 'litRPG books coming soon' — $200/month test", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Publish blog post #4: 'How to Build a Publishing House from Scratch (Month 1 Update)' — BTS content, numbers, learnings", owner: "Rebekah", urgency: "medium" },
+      { text: "Begin planning cover reveal content strategy — what formats, what platforms, what sequence (covers due early April)", owner: "Seth", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "First podcast guest appearance airs — promote across all socials, tag the host, share clips", owner: "Seth", urgency: "high" },
+      { text: "DM 3 Bookstagrammers Rachael has been engaging with — soft intro, no ask yet, just 'love your content'", owner: "Rachael", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 7, dates: "Mar 30 – Apr 4, 2026", phase: "growth", phaseColor: "#5ab87a",
+  priorities: [
+    "Prepare cover reveal strategy — covers arriving this week or next",
+    "Monthly ad budget review and April planning",
+    "500 subscribers target check"
+  ],
+  channels: {
+    social: [
+      { text: "Post teaser: 'Something big is coming to Lion Publishing next week... 🦁👀' — all platforms, mysterious, build anticipation", owner: "Seth", urgency: "high" },
+      { text: "Post Reel/TikTok: 'What goes into designing a fantasy book cover' — educational content teasing upcoming reveals", owner: "Josh", urgency: "medium" },
+      { text: "Post carousel: 'Our favorite fantasy book covers of all time (and what makes them work)' — design appreciation + sets stage for our reveals", owner: "Rebekah", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter #5: 'Covers are coming...' — tease cover reveals, exclusive early look for subscribers", owner: "Rebekah", urgency: "high" },
+      { text: "Set up 'Cover Reveal VIP' tag in Kit — subscribers who click get the reveals 24h before social media", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish Ep 5: Author interview #1", owner: "Josh", urgency: "high" },
+      { text: "Record Ep 6: 'The Art of the Book Cover — Why Covers Matter More Than Ever' — educational + sets up reveal", owner: "Seth", urgency: "medium" },
+      { text: "Film BTS video: 'The cover design process' — show mood boards, artist communication, iterations (if available)", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "March ad spend review: Total spend, total subscribers, CPL, best audiences. Prepare April budget allocation ($800-1,000).", owner: "Seth", urgency: "high" },
+      { text: "Pause worst-performing ad sets from March. Prepare cover reveal ad creative (to launch day of reveal).", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Write blog post #5: 'The Art of Fantasy Book Covers' — long-form SEO piece, include examples from famous books", owner: "Rebekah", urgency: "medium" },
+      { text: "Create cover reveal content package: Instagram grid posts, X announcement, TikTok reaction video plan, email blast, blog post", owner: "Seth", urgency: "high" },
+    ],
+    outreach: [
+      { text: "Brief 5 influencers on upcoming cover reveal — offer them exclusive access to share covers simultaneously for max impact", owner: "Rachael", urgency: "high" },
+      { text: "Pitch 5 more podcast appearances (shows #16-20)", owner: "Seth", urgency: "low" },
+    ],
+  }
+},
+{
+  num: 8, dates: "Apr 6–11, 2026", phase: "growth", phaseColor: "#5ab87a",
+  milestone: "COVER REVEAL WEEK #1",
+  priorities: [
+    "🎨 COVER REVEAL: LitRPG book — coordinated across all channels",
+    "Maximize email signups from cover reveal buzz",
+    "Drive Goodreads 'want to read' adds"
+  ],
+  channels: {
+    milestone: [
+      { text: "🎨 COVER REVEAL #1 — LitRPG book cover goes live (coordinate Tuesday launch across all channels simultaneously)", owner: "All", urgency: "high" },
+    ],
+    social: [
+      { text: "TUESDAY: Simultaneous cover reveal — IG post (high-res cover), X reveal thread, TikTok reaction video (Seth sees cover for 'first time'), Facebook post", owner: "Seth", urgency: "high" },
+      { text: "Post IG Stories: Behind the cover — artist mood board, rejected concepts, final reveal progression", owner: "Josh", urgency: "high" },
+      { text: "Post X thread: 'The story behind this cover 🧵' — symbolism breakdown, artist credit, genre conventions we kept/broke", owner: "Seth", urgency: "high" },
+      { text: "Coordinate with 5 influencers posting cover simultaneously with their reactions", owner: "Rachael", urgency: "high" },
+      { text: "Post 'Add to Goodreads' CTA across all platforms with direct link — 'It's real. It has a cover. Add it to your TBR 📚'", owner: "Rebekah", urgency: "high" },
+    ],
+    email: [
+      { text: "MONDAY (24h early): Send cover reveal to VIP subscribers — 'You're seeing this before anyone else'", owner: "Rebekah", urgency: "high" },
+      { text: "TUESDAY: Send to full list — cover image, book description, Goodreads link, 'Share this with a friend who loves litRPG'", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish cover reveal video: Seth & Rebekah react to final cover live (even if staged, make it feel authentic)", owner: "Josh", urgency: "high" },
+      { text: "Cut 3-5 Shorts from cover reveal reactions — different angles, zooms, sound bites", owner: "Josh", urgency: "medium" },
+      { text: "Publish Ep 6: 'The Art of the Book Cover' — timed to release same week as cover", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Launch cover reveal ad: Carousel ad showing cover + 'Read Chapter 1 Free' CTA — boost during reveal week ($200 extra budget)", owner: "Seth", urgency: "high" },
+      { text: "Retarget website visitors from past 30 days with cover reveal ad", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Publish blog post: 'Revealing the Cover of [LitRPG Title]' — full cover, description, artist interview, first chapter excerpt", owner: "Rebekah", urgency: "high" },
+      { text: "Update Goodreads listing with final cover image + full description", owner: "Rachael", urgency: "high" },
+      { text: "Update Storygraph + Fable listings with cover", owner: "Rachael", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Send cover reveal press release to fantasy book blogs and newsletters (prepared list of 20)", owner: "Rachael", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 9, dates: "Apr 13–18, 2026", phase: "growth", phaseColor: "#5ab87a",
+  milestone: "COVER REVEAL WEEK #2",
+  priorities: [
+    "🎨 COVER REVEAL: Epic Fantasy book",
+    "Ride momentum from last week's reveal",
+    "Push toward 750 email subscribers"
+  ],
+  channels: {
+    milestone: [
+      { text: "🎨 COVER REVEAL #2 — Epic Fantasy Trilogy Book 1 cover goes live", owner: "All", urgency: "high" },
+    ],
+    social: [
+      { text: "TUESDAY: Epic Fantasy cover reveal — same coordinated strategy as last week. Different hook: 'The first book in an epic trilogy that will consume you'", owner: "Seth", urgency: "high" },
+      { text: "Post side-by-side of both revealed covers: 'Two down, one to go. Which one are you reading first? 🗳️' — poll engagement", owner: "Seth", urgency: "medium" },
+      { text: "Post TikTok: Seth holding both books (mockups) — 'I get to publish THESE' — genuine excitement, short and punchy", owner: "Seth", urgency: "medium" },
+      { text: "Post IG Reel: Time-lapse of cover design evolution — sketches to final (work with cover artist for assets)", owner: "Josh", urgency: "medium" },
+    ],
+    email: [
+      { text: "MONDAY: VIP early reveal email for Epic Fantasy cover", owner: "Rebekah", urgency: "high" },
+      { text: "TUESDAY: Full list email — both covers shown, 'The world is expanding' narrative", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish cover reveal #2 reaction video", owner: "Josh", urgency: "high" },
+      { text: "Record Ep 7: Deep dive into the Epic Fantasy world — lore, magic system teaser, why this story matters to us", owner: "Seth", urgency: "medium" },
+      { text: "Publish talking-head: 'Why epic fantasy trilogies are the best investment in reading' — book rec listicle format", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Launch Epic Fantasy cover ad — target epic fantasy interest audiences (Sanderson, Rothfuss, Abercrombie fans)", owner: "Seth", urgency: "high" },
+      { text: "A/B test: Single cover creative vs. 'Two books revealed, one to go' curiosity hook", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Publish blog post: Epic Fantasy cover reveal + detailed book description + world-building teaser", owner: "Rebekah", urgency: "high" },
+      { text: "Update all Goodreads/Storygraph/Fable listings", owner: "Rachael", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Share cover reveal with engaged podcast hosts — 'We just revealed this, thought your audience would love it'", owner: "Seth", urgency: "medium" },
+      { text: "Begin DM conversations with 5 BookTok creators about potential partnerships (May launch)", owner: "Rachael", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 10, dates: "Apr 20–25, 2026", phase: "growth", phaseColor: "#5ab87a",
+  milestone: "COVER REVEAL WEEK #3",
+  priorities: [
+    "🎨 COVER REVEAL: YA Western Fantasy — complete the trifecta",
+    "All 3 covers live = major content moment",
+    "Hit 1,000 email subscribers milestone"
+  ],
+  channels: {
+    milestone: [
+      { text: "🎨 COVER REVEAL #3 — YA Western Fantasy cover completes the collection", owner: "All", urgency: "high" },
+      { text: "📧 TARGET: 1,000 email subscribers milestone", owner: "Rebekah", urgency: "high" },
+    ],
+    social: [
+      { text: "TUESDAY: Final cover reveal — biggest push yet. 'The trilogy is complete. Three covers. Three worlds. One publisher. 🦁'", owner: "Seth", urgency: "high" },
+      { text: "Post all 3 covers together: IG grid-worthy post, banner image for all platforms — this becomes the new visual identity", owner: "Josh", urgency: "high" },
+      { text: "Post TikTok: 'Revealing the last cover in our debut lineup' — genuine reaction + 'Which one are YOU most excited about? Comment below'", owner: "Seth", urgency: "high" },
+      { text: "Launch 'Vote for your most anticipated' poll across all platforms — massive engagement driver", owner: "Seth", urgency: "medium" },
+      { text: "Update all profile banners to show all 3 covers", owner: "Josh", urgency: "medium" },
+    ],
+    email: [
+      { text: "VIP Monday reveal → Full list Tuesday blast: 'All three covers, revealed. Tell us your favorite.'", owner: "Rebekah", urgency: "high" },
+      { text: "If at/near 1,000 subs: Celebrate in email — 'We hit 1K. You're part of something special. Here's what's next.'", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish cover reveal #3 + 'All 3 Covers' compilation video — definitive version", owner: "Josh", urgency: "high" },
+      { text: "Publish Ep 7: Epic Fantasy world deep dive", owner: "Josh", urgency: "medium" },
+      { text: "Record Ep 8: 'Why Western Fantasy? The Untapped Genre' — Seth & Rebekah discuss YA western fantasy", owner: "Seth", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Launch 'All 3 Covers' creative — carousel showing all books with 'Read the first chapters free' CTA", owner: "Seth", urgency: "high" },
+      { text: "This becomes the hero ad creative going forward — test aggressively", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Publish blog: Final cover reveal + 'Meet All 3 Books of Lion Publishing's Debut' — comprehensive overview", owner: "Rebekah", urgency: "high" },
+      { text: "Create shareable graphics: each cover as phone wallpaper, quote cards from each book, side-by-side comparison", owner: "Josh", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Send all 3 covers to full influencer list (50 people) — 'Our books have faces now. Partnership details coming in May.'", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 11, dates: "Apr 27 – May 2, 2026", phase: "growth", phaseColor: "#5ab87a",
+  priorities: [
+    "April wrap-up — assess Phase 2 KPIs",
+    "Prepare for Phase 3 Acceleration",
+    "Ramp social to 3-5x/week starting next week",
+    "Finalize influencer partnership terms"
+  ],
+  channels: {
+    social: [
+      { text: "Post carousel: 'Month 2 update — building a publishing house from nothing' — transparent numbers, learnings, wins", owner: "Seth", urgency: "medium" },
+      { text: "Post TikTok: 'Things I've learned about the book industry that blew my mind' — listicle format, punchy edits", owner: "Seth", urgency: "medium" },
+      { text: "Post IG Reel: Rebekah talks SEO for authors — 'Most authors ignore this and it's killing their discoverability' — educational + authority", owner: "Rebekah", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter: April recap — covers revealed, subscriber milestone, what's coming in May (influencers, more content, big announcements)", owner: "Rebekah", urgency: "medium" },
+      { text: "Segment analysis: Which lead magnet converts best? Which tag has highest open rates? Optimize welcome sequence based on data.", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish Ep 8: Western Fantasy episode", owner: "Josh", urgency: "medium" },
+      { text: "Record Ep 9: 'Our Publishing Process — How a Book Goes from Manuscript to Your Shelf' — educational behind-the-scenes", owner: "Seth", urgency: "medium" },
+      { text: "Publish 2 additional YouTube videos this week (book reviews or thought leadership) — ramping up output", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "April ad report: Total spend, subscribers gained, CPL by audience, CPL by creative, CPL by lead magnet. Prepare May plan.", owner: "Seth", urgency: "high" },
+      { text: "May budget allocation: Increase to $1,200-$1,500/month. Begin planning YouTube pre-roll ads.", owner: "Seth", urgency: "high" },
+      { text: "Consult Justin/Chaunna on scaling strategy for May push", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Publish blog: Monthly publishing house update (metrics-driven, transparent)", owner: "Rebekah", urgency: "medium" },
+      { text: "Create influencer partnership package: What we offer (ARCs, exclusives, affiliate %), what we ask (posts, reviews, stories), timeline", owner: "Rachael", urgency: "high" },
+    ],
+    outreach: [
+      { text: "Finalize influencer partnership terms — create standardized agreement, rate card, and content guidelines", owner: "Rachael", urgency: "high" },
+      { text: "Confirm 3-5 podcast appearances for May", owner: "Seth", urgency: "medium" },
+    ],
+  }
+},
+// ============ PHASE 3: ACCELERATION (May 1 – Jun 30) ============
+{
+  num: 12, dates: "May 4–9, 2026", phase: "acceleration", phaseColor: "#5a8ab8",
+  milestone: "ACCELERATION PHASE BEGINS",
+  priorities: [
+    "Full ad budget activated — scale winning campaigns",
+    "Social cadence jumps to 3-5x/week per channel",
+    "First influencer partnerships go live",
+    "YouTube ramps to 3+ additional videos/week"
+  ],
+  channels: {
+    milestone: [
+      { text: "🚀 ACCELERATION PHASE BEGINS — Full cadence, full budget, full speed", owner: "All", urgency: "high" },
+      { text: "🤝 First influencer partnerships activated", owner: "Rachael", urgency: "high" },
+    ],
+    social: [
+      { text: "Post Reel/TikTok: 'Fantasy book recommendations from a publisher' — credibility play, include 1 of our books naturally among 5 recs", owner: "Seth", urgency: "medium" },
+      { text: "Post carousel: 'What makes LitRPG different from regular fantasy?' — educational explainer with our book as the example", owner: "Rebekah", urgency: "medium" },
+      { text: "Post X thread: '7 debut fantasy authors to watch in 2026 🧵' — include our 3 + 4 others for credibility", owner: "Seth", urgency: "medium" },
+      { text: "Post TikTok: 'POV: You work at a publishing house and the first ARCs just arrived' — aspirational BTS (even with mockups)", owner: "Josh", urgency: "medium" },
+      { text: "Post IG collab post with first influencer partner — their review/reaction to Chapter 1", owner: "Rachael", urgency: "high" },
+    ],
+    email: [
+      { text: "Send Newsletter: 'Things are accelerating — here's what's new' — influencer partnerships, increased content, subscriber-exclusive excerpt", owner: "Rebekah", urgency: "medium" },
+      { text: "Begin A/B testing subject lines systematically — track open rates by style (curiosity vs. direct vs. emoji vs. plain)", owner: "Rebekah", urgency: "low" },
+    ],
+    youtube: [
+      { text: "Publish Ep 9: Publishing Process episode", owner: "Josh", urgency: "high" },
+      { text: "Publish 3 additional videos: (1) Fantasy book tier list, (2) 'Books that changed how I think about storytelling', (3) Author interview #2", owner: "Josh", urgency: "high" },
+      { text: "Record Ep 10: Interview with first influencer partner — cross-promotional episode", owner: "Seth", urgency: "medium" },
+      { text: "Upload 3-4 Shorts throughout the week", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Scale winning ad sets to $1,200-$1,500/month total. Begin testing YouTube pre-roll ads (15-second non-skippable).", owner: "Seth", urgency: "high" },
+      { text: "Create YouTube pre-roll ad: 15 seconds — Seth: 'We're publishing 3 fantasy books this fall. Read chapter one free. [link]'", owner: "Josh", urgency: "high" },
+      { text: "Add Google Display Network ads targeting fantasy/litRPG/YA interest audiences — test with $150/month", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Publish blog: 'The Lion Publishing Approach: Storytelling-First Publishing' — manifesto/about page upgrade", owner: "Rebekah", urgency: "medium" },
+      { text: "Create author-specific lead magnets: Each author writes a '5 books that inspired my novel' list with personal commentary", owner: "Seth", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Send formal partnership offers to top 10 influencers on Rachael's list — ARCs + exclusive content + affiliate commission", owner: "Rachael", urgency: "high" },
+      { text: "First podcast guest appearance of May airs — full social promotion", owner: "Seth", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 13, dates: "May 11–16, 2026", phase: "acceleration", phaseColor: "#5a8ab8",
+  priorities: [
+    "Push toward 1,500 subscribers",
+    "Get 5 influencer partnerships confirmed",
+    "2nd podcast guest appearance"
+  ],
+  channels: {
+    social: [
+      { text: "Post carousel: 'Writing systems in fantasy — from soft magic to hard magic and everything between' — educational, use our books as examples", owner: "Rebekah", urgency: "medium" },
+      { text: "Post TikTok: 'The book I'm most excited to publish and why 📚' — Seth picks one, genuine enthusiasm, personal story", owner: "Seth", urgency: "medium" },
+      { text: "Post Reel: 'Fantasy tropes as [trending format]' — jump on current trend with bookish twist", owner: "Josh", urgency: "medium" },
+      { text: "Post X: Share a passage from one of the books (with author permission) — 'This paragraph made us say YES to publishing this book'", owner: "Seth", urgency: "medium" },
+      { text: "Facebook: Share blog post in 3 relevant fantasy reader groups with personalized commentary", owner: "Rachael", urgency: "low" },
+    ],
+    email: [
+      { text: "Send Newsletter: 'Inside the author's mind' — feature one author's writing process, inspiration board, playlist while writing", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish Ep 10: Influencer interview episode", owner: "Josh", urgency: "medium" },
+      { text: "Publish 3 videos: (1) 'Underrated fantasy series nobody talks about', (2) Rebekah: 'SEO for Authors 101', (3) BTS vlog", owner: "Josh", urgency: "high" },
+      { text: "Record Ep 11: 'Building a Fantasy World from Scratch' — world-building deep dive featuring one of our authors", owner: "Seth", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Review YouTube pre-roll performance — view rate, click-through, cost per subscriber. Optimize or pivot.", owner: "Seth", urgency: "medium" },
+      { text: "Test lookalike audience based on current subscribers — may significantly reduce CPL", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Publish blog: 'World-Building 101: How Our Authors Create Immersive Worlds' — SEO + authority + book promotion", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Follow up on influencer offers — target 5 confirmed partnerships by end of week", owner: "Rachael", urgency: "high" },
+      { text: "2nd podcast appearance airs — share clips, tag host, engage with their audience", owner: "Seth", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 14, dates: "May 18–23, 2026", phase: "acceleration", phaseColor: "#5a8ab8",
+  priorities: [
+    "Content machine in full swing — all channels active",
+    "Begin planning campaign video",
+    "Goodreads ratings/reviews strategy"
+  ],
+  channels: {
+    social: [
+      { text: "Post TikTok: 'Rating every fantasy book I've read this year' — rapid-fire book ratings, include 'and the ones I'M publishing' at the end", owner: "Seth", urgency: "medium" },
+      { text: "Post carousel: 'The Lion Publishing reading list — 10 books every fantasy fan should read before our books come out' — curated rec list", owner: "Rebekah", urgency: "medium" },
+      { text: "Post Reel: Author Q&A rapid-fire — 'Describe your book in 3 words / Who's your dream reader / Coffee or tea while writing'", owner: "Josh", urgency: "medium" },
+      { text: "Post X thread: Rebekah's thread on 'How SEO changed my entire approach to book marketing' — drive lionpublish.com traffic", owner: "Rebekah", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter: 'Summer reading preview' — all 3 books with updated descriptions, links to Goodreads, 'add to TBR' CTA", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish Ep 11: World-building deep dive", owner: "Josh", urgency: "medium" },
+      { text: "Publish 3 videos: (1) 'Fantasy book haul + what I'm reading', (2) 'Why I left marketing to publish books', (3) Author writing vlog", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Test Goodreads advertising — 'Want to Read' button ads for each of the 3 books (if budget allows, $100 test)", owner: "Seth", urgency: "low" },
+    ],
+    content: [
+      { text: "Begin campaign video pre-production: Write script outline, shot list, location scout, b-roll needs", owner: "Seth", urgency: "high" },
+      { text: "Publish blog: 'Why We Chose These 3 Books — A Publisher's Perspective'", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Add books to Goodreads giveaway queue (plan August giveaways now — some require 3-month lead time)", owner: "Rachael", urgency: "medium" },
+      { text: "Pitch 5 more podcast appearances (shows #21-25)", owner: "Seth", urgency: "low" },
+    ],
+  }
+},
+{
+  num: 15, dates: "May 25–30, 2026", phase: "acceleration", phaseColor: "#5a8ab8",
+  priorities: [
+    "Hit 2,000 email subscribers",
+    "May ad spend review",
+    "Campaign video script draft"
+  ],
+  channels: {
+    social: [
+      { text: "Post TikTok: 'Fantasy books I'd recommend based on your favorite movie' — Bridging film fans to readers (overlap with Book Is Better audience)", owner: "Seth", urgency: "medium" },
+      { text: "Post carousel: 'Month 4 update: Building Lion Publishing by the numbers' — transparent growth metrics", owner: "Seth", urgency: "medium" },
+      { text: "Post Reel: BTS of campaign video pre-production — 'We're making a MOVIE (sort of) for our book launch'", owner: "Josh", urgency: "medium" },
+      { text: "Cross-promote Book Is Better episode in Lion channels — 'Our other podcast just dropped a banger'", owner: "Seth", urgency: "low" },
+    ],
+    email: [
+      { text: "Send Newsletter: Subscriber milestone celebration (if at 2K) — exclusive announcement or content drop for subscribers only", owner: "Rebekah", urgency: "medium" },
+      { text: "May subscriber analysis: Growth rate, unsubscribe rate, engagement rate by segment. Project trajectory to October.", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish 4 videos: Ep 12 (podcast) + 3 additional (fantasy debates, book reviews, author content)", owner: "Josh", urgency: "high" },
+      { text: "Record Ep 12: '2,000 People Want to Read Our Books — What We've Learned About Building an Audience'", owner: "Seth", urgency: "medium" },
+    ],
+    ads: [
+      { text: "May ad review: Full analysis. CPL trends, best audiences, creative fatigue signals. Plan June budget ($1,500-$2,000).", owner: "Seth", urgency: "high" },
+      { text: "Prepare summer creative refresh — new ad images/videos to combat fatigue", owner: "Josh", urgency: "medium" },
+    ],
+    content: [
+      { text: "Campaign video script V1 complete — Seth & Rebekah on camera, books featured, emotional arc, clear CTA", owner: "Seth", urgency: "high" },
+      { text: "Publish blog: Monthly update + 'What I've learned about publishing so far' reflection piece", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Confirm all influencer partnership timelines — who posts when, what content, what they need from us", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 16, dates: "Jun 1–6, 2026", phase: "acceleration", phaseColor: "#5a8ab8",
+  priorities: [
+    "Campaign video production begins",
+    "Tier & stretch goal strategy finalization",
+    "Beta reader recruitment"
+  ],
+  channels: {
+    milestone: [
+      { text: "🎬 Campaign video production begins this month", owner: "Josh", urgency: "high" },
+      { text: "📋 BackerKit tier structure & stretch goals must be finalized by end of June", owner: "Seth", urgency: "high" },
+    ],
+    social: [
+      { text: "Post carousel: 'What are BackerKit campaigns and why we chose it over Kickstarter' — educational content for audience not familiar with crowdfunding", owner: "Rebekah", urgency: "high" },
+      { text: "Post TikTok: 'I'm about to film the most important video of my career' — pre-campaign-video hype", owner: "Seth", urgency: "medium" },
+      { text: "Post IG: 'We're looking for beta readers! 📖 Want to read our books before anyone else?' — CTA to sign up via email", owner: "Seth", urgency: "high" },
+      { text: "Post X: Thread explaining BackerKit for those unfamiliar — position it as a way to get exclusive editions/deals", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter: 'Want to be a beta reader?' — recruit from subscriber list, select 20-30 readers across all 3 books", owner: "Rebekah", urgency: "high" },
+      { text: "Create beta reader application form (Google Form or Typeform) — collect genre preferences, reading speed, feedback style", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish Ep 13: 'What is BackerKit? Everything You Need to Know About Our Book Launch' — educational, CTA to follow", owner: "Josh", urgency: "high" },
+      { text: "Publish 3 videos: (1) Fantasy debate: 'Is litRPG real fantasy?', (2) Book review, (3) 'How we're funding our publisher'", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Refresh ad creatives for June — new images with all 3 covers, summer reading angle", owner: "Josh", urgency: "medium" },
+      { text: "Launch June campaigns with increased budget ($1,500-$2,000). Test 'become a beta reader' angle.", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Finalize campaign video script V2 — incorporate feedback, practice run-throughs with Seth & Rebekah", owner: "Seth", urgency: "high" },
+      { text: "Begin stretch goal brainstorm: Signed editions, art prints, exclusive short stories, hardcover upgrades, character art", owner: "Seth", urgency: "high" },
+      { text: "Research BackerKit tier structures from successful book campaigns ($25K-$500K range) — model our tiers after best practices", owner: "Seth", urgency: "high" },
+    ],
+    outreach: [
+      { text: "Brief all confirmed influencers on BackerKit launch date (Oct 5) and what we'll need from them in September", owner: "Rachael", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 17, dates: "Jun 8–13, 2026", phase: "acceleration", phaseColor: "#5a8ab8",
+  priorities: [
+    "Film campaign video (primary shoot days)",
+    "Select beta readers and send manuscripts",
+    "Finalize tier structure V1"
+  ],
+  channels: {
+    social: [
+      { text: "Post BTS of campaign video filming: Behind-the-scenes Reel/TikTok — lighting setup, outtakes, 'we're making this real'", owner: "Josh", urgency: "high" },
+      { text: "Post carousel: '5 reasons to back a book on BackerKit (even if you've never backed anything before)'", owner: "Rebekah", urgency: "medium" },
+      { text: "Post TikTok: 'POV: The publishers are also the talent' — comedy take on Seth & Rebekah being on camera", owner: "Josh", urgency: "medium" },
+      { text: "Post X: 'Beta reader applications are closed — we got [X] applications for [Y] spots 🤯' — social proof", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter: 'Behind the scenes of our campaign video' — exclusive stills, behind-the-scenes stories", owner: "Rebekah", urgency: "medium" },
+      { text: "Send beta reader acceptance emails with NDAs and reading timeline (feedback due July 15)", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish BTS vlog of campaign video shoot — long-form, raw, day-in-the-life", owner: "Josh", urgency: "medium" },
+      { text: "Record Ep 14: 'What We're Offering Backers — Exclusive Editions, Stretch Goals & More' — preview tier structure", owner: "Seth", urgency: "medium" },
+      { text: "Publish 2 additional videos", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Continue June campaigns — monitor and optimize weekly", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "FILM CAMPAIGN VIDEO — 2-3 day shoot: Seth & Rebekah pitching Lion Publishing, book teasers, stretch goal previews, emotional arc", owner: "Josh", urgency: "high" },
+      { text: "Draft tier structure V1: (1) Digital only $15, (2) Single paperback $25, (3) All 3 paperbacks $60, (4) Collector's hardcover $99, (5) Ultimate fan bundle $150+", owner: "Seth", urgency: "high" },
+    ],
+    outreach: [
+      { text: "Send manuscripts to beta readers (20-30 people across 3 books)", owner: "Seth", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 18, dates: "Jun 15–20, 2026", phase: "acceleration", phaseColor: "#5a8ab8",
+  priorities: [
+    "Campaign video in post-production",
+    "Hit 2,500 email subscribers",
+    "Stretch goals finalized"
+  ],
+  channels: {
+    social: [
+      { text: "Post TikTok: '3 books, 3 genres, 1 mission — storytelling first 🦁' — cinematic montage using cover art and book excerpts", owner: "Josh", urgency: "medium" },
+      { text: "Post carousel: 'What are stretch goals? (And why they make BackerKit campaigns amazing)' — educational", owner: "Rebekah", urgency: "medium" },
+      { text: "Post Reel: Quick-fire author Q&A #2 — different questions, deeper answers", owner: "Josh", urgency: "medium" },
+      { text: "Post X thread: 'I've run hundreds of marketing campaigns. Here's why I think crowdfunding is the best model for new publishers 🧵'", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter: 'Stretch goals revealed' — preview what happens when the campaign hits milestones", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish Ep 14: Tier preview episode", owner: "Josh", urgency: "medium" },
+      { text: "Publish 3 videos: (1) 'Fantasy book unpopular opinions', (2) 'How much does it cost to publish a book?', (3) Author writing advice video", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Mid-June review. Test 'stretch goal' teaser creative — 'Help us unlock special editions'", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Campaign video post-production: Josh editing — color grade, music, graphics, captions, multiple cut versions (2min, 5min, 30s)", owner: "Josh", urgency: "high" },
+      { text: "Finalize stretch goals: $50K → art prints, $100K → hardcovers, $150K → sprayed edges, $200K → bonus novella, $300K → audiobook, $500K → illustrated edition", owner: "Seth", urgency: "high" },
+      { text: "Publish blog: 'What Are Stretch Goals? Our Plans for the Lion Publishing Campaign'", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Pitch remaining podcast appearances (shows #26-30) — focus on shows with audiences most aligned to our genres", owner: "Seth", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 19, dates: "Jun 22–27, 2026", phase: "acceleration", phaseColor: "#5a8ab8",
+  priorities: [
+    "Campaign video final review",
+    "June ad performance review",
+    "3,000 subscriber push"
+  ],
+  channels: {
+    social: [
+      { text: "Post TikTok: 'Sneak peek at our campaign video 👀' — 10-second teaser clip, mysterious, 'October 5th. Mark your calendars.'", owner: "Josh", urgency: "high" },
+      { text: "Post carousel: 'If you like [popular book], you'll love [our book]' — comp title carousel for all 3 books", owner: "Rebekah", urgency: "medium" },
+      { text: "Post Reel: 'Publishers react to popular BookTok trends' — Seth & Rebekah watching and reacting, fun and relatable", owner: "Josh", urgency: "medium" },
+      { text: "Post X: Campaign video teaser still image — 'The video is almost ready. 🦁🎬' — build anticipation", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter: June wrap-up — what's been accomplished, what's coming in July (BackerKit page, pre-saves, ARCs)", owner: "Rebekah", urgency: "medium" },
+      { text: "June subscriber analysis: We should be at 2,500-3,000. If behind, plan July ad spend increase.", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish 4 videos total (podcast + 3 additional)", owner: "Josh", urgency: "medium" },
+      { text: "Record Ep 16: Mid-year check-in — 'Half a Year of Building Lion Publishing: By the Numbers'", owner: "Seth", urgency: "medium" },
+    ],
+    ads: [
+      { text: "June ad report: Full analysis. We should be spending $1,500-2,000/month at this point. CPL should be <$1.50.", owner: "Seth", urgency: "high" },
+      { text: "Plan July ad strategy: Begin transitioning from list-building to pre-save campaigns as BackerKit page approaches", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Campaign video FINAL CUT approved — prepare multiple versions: full (5min), medium (2min), short (30s), 15s pre-roll", owner: "Josh", urgency: "high" },
+      { text: "Publish blog: Monthly update + 'The Countdown Begins' — position October 5 as the big event", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Check in with all beta readers — 'How's the reading going? Quick pulse check on each book'", owner: "Rachael", urgency: "medium" },
+    ],
+  }
+},
+// ============ PHASE 4: PRE-LAUNCH (Jul 1 – Sep 30) ============
+{
+  num: 20, dates: "Jun 29 – Jul 4, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  milestone: "PRE-LAUNCH PHASE BEGINS",
+  priorities: [
+    "BackerKit page build begins",
+    "Printing quotes locked in",
+    "Pre-save page goes live mid-July (prep now)",
+    "Hit 3,000 subscribers"
+  ],
+  channels: {
+    milestone: [
+      { text: "🏗️ PRE-LAUNCH PHASE BEGINS — Everything from here builds toward October 5", owner: "All", urgency: "high" },
+      { text: "🖨️ Printing quotes locked in — final production costs known", owner: "Seth", urgency: "high" },
+    ],
+    social: [
+      { text: "Post carousel: 'T-minus 3 months until launch day 🚀 Here's what you need to know' — overview of BackerKit, dates, what to expect", owner: "Seth", urgency: "high" },
+      { text: "Post TikTok: 'The next 3 months are going to be INSANE — here's everything we're doing before launch day' — hype video", owner: "Seth", urgency: "medium" },
+      { text: "Post Reel: 'Book production timeline — from manuscript to your shelf' — educational with our books as examples", owner: "Josh", urgency: "medium" },
+      { text: "Post X: 'October 5, 2026. Three books. One launch. Save the date. 🦁' — simple, direct, shareable", owner: "Seth", urgency: "high" },
+    ],
+    email: [
+      { text: "Send Newsletter: 'The countdown is ON — 3 months until launch' — timeline preview, exclusive insider status for subscribers", owner: "Rebekah", urgency: "high" },
+      { text: "Create 'Launch Insider' tag in Kit — subscribers who engage with countdown content get VIP treatment", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish Ep 16: Mid-year check-in", owner: "Josh", urgency: "medium" },
+      { text: "Publish campaign video teaser (30s version) — 'Full video coming soon. Pre-save link in July.'", owner: "Josh", urgency: "high" },
+      { text: "Publish 3 additional videos", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "July budget: $1,500-$2,000/month. Begin testing campaign video as ad creative (30s version).", owner: "Seth", urgency: "high" },
+      { text: "Set up Google Ads for 'new fantasy books 2026', 'litRPG new releases', 'YA fantasy books' — capture search intent", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Begin building BackerKit page: Hero image, campaign video embed, tier descriptions, stretch goal graphics, FAQ section", owner: "Seth", urgency: "high" },
+      { text: "Request printing quotes from 3 printers — need final costs to set tier pricing accurately", owner: "Seth", urgency: "high" },
+      { text: "Publish blog: 'T-Minus 3 Months: Our Publishing Journey So Far'", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Send influencer content calendar for August-September — when they should post, what content we'll provide", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 21, dates: "Jul 6–11, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  priorities: [
+    "BackerKit page refinement",
+    "Pre-save page preparation",
+    "Beta reader feedback collection begins (deadline Jul 15)"
+  ],
+  channels: {
+    social: [
+      { text: "Post TikTok: 'Things only small publishers understand' — relatable humor, community building", owner: "Seth", urgency: "medium" },
+      { text: "Post carousel: 'What does your $25 pledge actually get you?' — break down the value proposition of backing", owner: "Rebekah", urgency: "high" },
+      { text: "Post Reel: Reading an emotional passage from one of the books — atmospheric, moody lighting, let the writing speak", owner: "Seth", urgency: "medium" },
+      { text: "Post X: Share beta reader reaction quotes (anonymized) — 'Early readers are saying...' — social proof thread", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter: 'What is BackerKit and how does it work?' — educational email for subscribers who may not know crowdfunding", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish 4 videos total including podcast", owner: "Josh", urgency: "medium" },
+      { text: "Record Ep 18: 'How to Support an Indie Publisher (Even If You're Broke)' — beyond just backing, shares, reviews, etc.", owner: "Seth", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Continue July campaigns. Begin building custom audiences for retargeting: website visitors, video viewers, email engagers.", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "BackerKit page draft review with team — all tiers priced, descriptions written, images placed", owner: "Seth", urgency: "high" },
+      { text: "Create stretch goal graphics — professional design for each unlock tier", owner: "Josh", urgency: "medium" },
+      { text: "Send beta reader reminder: 'Feedback due July 15 — here's our feedback form'", owner: "Rachael", urgency: "high" },
+    ],
+    outreach: [
+      { text: "Confirm all August influencer posts — content briefs sent, deadlines confirmed", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 22, dates: "Jul 13–18, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  milestone: "BETA READER FEEDBACK + PRE-SAVE PAGE LIVE",
+  priorities: [
+    "Beta reader feedback deadline (July 15) — collect and analyze",
+    "BackerKit pre-save page goes LIVE",
+    "Begin driving pre-save traffic"
+  ],
+  channels: {
+    milestone: [
+      { text: "📖 Beta reader feedback deadline — July 15", owner: "Seth", urgency: "high" },
+      { text: "🔖 BACKERKIT PRE-SAVE PAGE GOES LIVE — begin collecting pre-saves", owner: "All", urgency: "high" },
+    ],
+    social: [
+      { text: "Post ALL platforms: 'PRE-SAVE IS LIVE 🚀 Be the first to know when we launch → [link]' — coordinated push across every channel", owner: "Seth", urgency: "high" },
+      { text: "Post carousel: 'How to pre-save on BackerKit (step-by-step)' — remove friction, make it dead simple", owner: "Rebekah", urgency: "high" },
+      { text: "Post TikTok: Seth clicking 'publish' on the pre-save page in real-time — authentic, exciting moment", owner: "Josh", urgency: "high" },
+      { text: "Pin pre-save CTA tweet on X, pin post on Facebook, add link to all IG/TikTok bios", owner: "Seth", urgency: "high" },
+      { text: "Daily IG Stories this week: Pre-save counter updates — 'We just hit [X] pre-saves! 🎉'", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send SPECIAL EMAIL: 'Pre-save is LIVE — you're first in line' — direct link, explain what pre-saving means, why it matters", owner: "Rebekah", urgency: "high" },
+      { text: "Add pre-save CTA to welcome sequence as permanent addition", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish pre-save announcement video: 'Our BackerKit Pre-Save Is LIVE — Everything You Need to Know'", owner: "Josh", urgency: "high" },
+      { text: "Add pre-save link to ALL video descriptions going forward + pinned comment on recent videos", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Launch pre-save ad campaign: Switch primary CTA from 'get free chapters' to 'pre-save now' — test both", owner: "Seth", urgency: "high" },
+      { text: "Run campaign video (30s) as pre-roll ad with pre-save CTA", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Compile beta reader feedback — create summary document for each book: strengths, weaknesses, quotable praise", owner: "Seth", urgency: "high" },
+      { text: "Publish blog: 'Our Pre-Save Is Live! Here's What We're Crowdfunding and Why'", owner: "Rebekah", urgency: "high" },
+      { text: "Pull best beta reader quotes for use in marketing: 'I couldn't put it down' type testimonials", owner: "Rebekah", urgency: "high" },
+    ],
+    outreach: [
+      { text: "Share pre-save link with all influencer partners — 'Share this with your audience? We launch in less than 3 months'", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 23, dates: "Jul 20–25, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  priorities: [
+    "Drive pre-saves hard — target 1,000 in first 2 weeks",
+    "BackerKit page finalization",
+    "Hit 4,000 email subscribers"
+  ],
+  channels: {
+    social: [
+      { text: "Post TikTok: 'Real beta reader reactions to our books 📖' — read anonymized feedback on camera, genuine reactions", owner: "Seth", urgency: "high" },
+      { text: "Post carousel: 'Why pre-saving matters (and what happens when you do it)' — show how it affects our launch algorithm", owner: "Rebekah", urgency: "medium" },
+      { text: "Post Reel: Time-lapse of building the BackerKit page — design, copy, images all coming together", owner: "Josh", urgency: "medium" },
+      { text: "Post X: 'We hit [X] pre-saves in [Y] days! 🤯 Thank you. Can we hit [X+500] by Friday?' — gamify it", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter: 'Beta readers loved it — here's what they said' — testimonial-heavy email + pre-save reminder CTA", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish 4 videos including podcast", owner: "Josh", urgency: "medium" },
+      { text: "Record Ep: 'What Our Beta Readers Said (The Good, The Bad, and The Surprising)'", owner: "Seth", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Test beta reader testimonial ad creative — 'Early readers are calling this the best debut litRPG of 2026'", owner: "Seth", urgency: "high" },
+      { text: "Increase retargeting budget — hit website visitors, video watchers, email openers who haven't pre-saved", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "BackerKit page FINAL REVIEW — all copy, images, tiers, stretch goals, FAQ, shipping info must be complete", owner: "Seth", urgency: "high" },
+      { text: "Publish blog: 'Early Reader Reviews Are In' — testimonials + pre-save CTA", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "3rd-4th podcast guest appearances air — full social promotion, pre-save CTA in every appearance", owner: "Seth", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 24, dates: "Jul 27 – Aug 1, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  priorities: [
+    "July wrap-up and August planning",
+    "ARCs finalized for August distribution",
+    "Pre-save push continues — target 2,000"
+  ],
+  channels: {
+    social: [
+      { text: "Post carousel: 'July by the numbers — our journey to launch' — monthly update with pre-save count, subscriber growth, content output", owner: "Seth", urgency: "medium" },
+      { text: "Post TikTok: 'Things about publishing that keep me up at night' — vulnerable, relatable, builds connection", owner: "Seth", urgency: "medium" },
+      { text: "Post Reel: 'POV: The ARCs just arrived 📚' — unboxing ARC copies (or mockup unboxing if not yet printed)", owner: "Josh", urgency: "medium" },
+      { text: "Post X: Thread about indie publishing vs. traditional — position Lion as best of both worlds", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Send Newsletter: July recap + 'August is going to be HUGE — here's what's coming'", owner: "Rebekah", urgency: "medium" },
+      { text: "July metrics review: Subscriber count, pre-save count, open/click rates. Adjust August strategy if behind targets.", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish 4 videos", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "July ad report. Total spend to date, total subscribers, total pre-saves. August budget: $2,000-$2,500.", owner: "Seth", urgency: "high" },
+      { text: "Prepare August creative blitz: ARC unboxing, Goodreads giveaway, testimonial ads, countdown creative", owner: "Josh", urgency: "high" },
+    ],
+    content: [
+      { text: "Finalize ARC copies — digital ARCs formatted and ready for distribution in August", owner: "Seth", urgency: "high" },
+      { text: "Prepare Goodreads giveaway listings — all 3 books (to launch first week of August)", owner: "Rachael", urgency: "high" },
+      { text: "Prepare Storygraph giveaway listings", owner: "Rachael", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Send ARC copies to all confirmed influencer partners with reading timeline and review guidelines", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 25, dates: "Aug 3–8, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  milestone: "ARCs SHIP + GOODREADS GIVEAWAYS LAUNCH",
+  priorities: [
+    "ARCs sent to influencers and reviewers",
+    "Goodreads + Storygraph giveaways go live",
+    "Social shifts to daily posting",
+    "Email shifts to 2x/week"
+  ],
+  channels: {
+    milestone: [
+      { text: "📚 ARCs distributed to influencers and reviewers", owner: "Rachael", urgency: "high" },
+      { text: "🎁 Goodreads + Storygraph giveaways LIVE", owner: "Rachael", urgency: "high" },
+      { text: "📈 Content cadence peaks: Daily social posts, 2x/week email", owner: "All", urgency: "high" },
+    ],
+    social: [
+      { text: "Post ALL platforms: 'GOODREADS GIVEAWAY 🎁 Enter to win a free copy of [book]!' — promote each giveaway separately across 3 days", owner: "Seth", urgency: "high" },
+      { text: "Post TikTok: ARC unboxing — real copies arriving, holding them for the first time, emotional reaction", owner: "Josh", urgency: "high" },
+      { text: "Post carousel: 'How to enter our Goodreads giveaway (it takes 10 seconds)' — step-by-step tutorial", owner: "Rebekah", urgency: "high" },
+      { text: "Post Reel: 'Packing ARCs for reviewers' — satisfying, book-lovers-dream content", owner: "Josh", urgency: "medium" },
+      { text: "Post X: 'ARCs are in the hands of readers. The reviews are coming. I am TERRIFIED. 😅' — honest, relatable", owner: "Seth", urgency: "medium" },
+      { text: "Daily IG Stories from now through launch: Countdown, BTS, polls, Q&As, pre-save reminders", owner: "Seth", urgency: "high" },
+    ],
+    email: [
+      { text: "Email #1 this week: 'Goodreads giveaway is LIVE + ARCs are shipping!' — links to enter, pre-save reminder", owner: "Rebekah", urgency: "high" },
+      { text: "Email #2 this week: 'A personal note from Seth' — heartfelt email about why these books matter, what's at stake", owner: "Seth", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish ARC unboxing video (full-length) — emotional, personal, share the journey", owner: "Josh", urgency: "high" },
+      { text: "Publish podcast + 3 additional videos — ramp to peak output", owner: "Josh", urgency: "high" },
+      { text: "Daily Shorts from now through launch", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Launch Goodreads giveaway promotional ads — drive entries from targeted fantasy readers", owner: "Seth", urgency: "high" },
+      { text: "Launch 'ARC reviews coming soon' anticipation ads — build social proof", owner: "Seth", urgency: "medium" },
+      { text: "August budget: $2,000-$2,500. Heavy retargeting on pre-save non-converters.", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Publish blog: 'Our Goodreads Giveaways Are Live!' — SEO-optimized, all 3 books linked", owner: "Rebekah", urgency: "high" },
+      { text: "Create TBR(a) app listing and engage with bookish app communities", owner: "Rachael", urgency: "medium" },
+      { text: "Join and post in Fable reading groups related to our genres", owner: "Rachael", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Confirm influencer review posting schedule: stagger across August-September for sustained coverage", owner: "Rachael", urgency: "high" },
+      { text: "5th-6th podcast appearances — mention Goodreads giveaway and pre-save in every appearance", owner: "Seth", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 26, dates: "Aug 10–15, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  priorities: [
+    "First influencer reviews/posts start dropping",
+    "Push pre-saves toward 3,000",
+    "5,000 email subscriber push"
+  ],
+  channels: {
+    social: [
+      { text: "Reshare/repost first influencer reviews as they drop — IG Stories, RT on X, duet on TikTok with genuine reaction", owner: "Seth", urgency: "high" },
+      { text: "Post TikTok: 'People are reading our books and actually LIKING them?!' — reaction to first reviews, joyful disbelief", owner: "Seth", urgency: "high" },
+      { text: "Post carousel: Testimonial collage — 3-5 best review quotes on branded backgrounds", owner: "Josh", urgency: "high" },
+      { text: "Post Reel: 'Which Lion Publishing book should you read first?' — interactive quiz format", owner: "Rebekah", urgency: "medium" },
+      { text: "Post X: Individual review quote threads — one per book, tag the reviewer, thank them", owner: "Seth", urgency: "medium" },
+      { text: "Daily content across all platforms (7x/week from here on)", owner: "All", urgency: "high" },
+    ],
+    email: [
+      { text: "Email #1: 'The reviews are in 📖' — curated best quotes from influencers + pre-save CTA", owner: "Rebekah", urgency: "high" },
+      { text: "Email #2: 'Meet the illustrator behind our covers' — behind-the-scenes content + share on social CTA", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish podcast: 'Our Books Are Being Reviewed — Here's How We Feel About It'", owner: "Josh", urgency: "medium" },
+      { text: "Publish 3 additional videos — mix of reviews, thought leadership, and campaign hype", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Launch testimonial ad creative — 'Early reviewers are saying [best quotes]' + pre-save CTA", owner: "Seth", urgency: "high" },
+      { text: "Retarget Goodreads giveaway entrants who haven't pre-saved", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Publish blog: 'Early Reviews for Lion Publishing's Debut Books' — SEO for book title + 'review' searches", owner: "Rebekah", urgency: "medium" },
+      { text: "Create social media graphics for each positive review — branded quote cards", owner: "Josh", urgency: "high" },
+    ],
+    outreach: [
+      { text: "Thank every influencer who posts — personal DM + public comment + reshare to Stories", owner: "Rachael", urgency: "high" },
+      { text: "Send thank-you gifts or bonus exclusive content to top-performing influencers", owner: "Rachael", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 27, dates: "Aug 17–22, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  priorities: [
+    "Sustained review wave from influencers",
+    "Hit 3,500 pre-saves",
+    "Begin email countdown sequence planning"
+  ],
+  channels: {
+    social: [
+      { text: "Post carousel: 'What 10 early reviewers said about [LitRPG title]' — dedicated per-book review roundup", owner: "Rebekah", urgency: "high" },
+      { text: "Post TikTok: 'Day in the life as a publisher 6 weeks before launch' — chaotic, fun, real", owner: "Josh", urgency: "medium" },
+      { text: "Post Reel: 'The most underrated fantasy subgenre and it's not even close' — make case for western fantasy", owner: "Seth", urgency: "medium" },
+      { text: "Post X: '6 weeks until launch. [X] pre-saves. [X] reviews. I still can't believe this is real.' — milestone post", owner: "Seth", urgency: "medium" },
+      { text: "Post TikTok: Side-by-side of 'Month 1 of Lion Publishing' vs. 'Now' — transformation content", owner: "Josh", urgency: "medium" },
+    ],
+    email: [
+      { text: "Email #1: Per-book spotlight — deep dive into one book with excerpt, author interview snippets, review quotes", owner: "Rebekah", urgency: "medium" },
+      { text: "Email #2: 'Preparing for launch: What you need to know' — FAQs about BackerKit, what happens on Oct 5, how to be ready", owner: "Rebekah", urgency: "high" },
+      { text: "Begin drafting the 14-day email countdown sequence (to run Sep 21 – Oct 5)", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish 4 videos including podcast", owner: "Josh", urgency: "high" },
+      { text: "Record: '6 Weeks to Launch — Are We Ready?' — honest assessment, to-do list, stakes", owner: "Seth", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Rotate in fresh creative — combat ad fatigue with new testimonials, new angles, video variations", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Draft 14-day email countdown sequence: Day 14 (overview), Day 10 (book spotlights), Day 7 (stretch goals), Day 3 (final push), Day 1 (launch day), Day 0 (LIVE)", owner: "Rebekah", urgency: "high" },
+      { text: "Publish blog: Book-specific SEO pages — one per book, optimized for title searches", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Schedule September influencer posts: Coordinate specific dates for maximum staggered coverage", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 28, dates: "Aug 24–29, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  priorities: [
+    "Hit 5,000 email subscribers (minimum target)",
+    "4,000+ pre-saves",
+    "August ad review — final budget push planning"
+  ],
+  channels: {
+    social: [
+      { text: "Post ALL platforms: '5,000 of you are waiting for these books 🦁 Thank you.' — milestone celebration", owner: "Seth", urgency: "high" },
+      { text: "Post carousel: 'Review roundup — what early readers are saying about ALL 3 Lion Publishing books'", owner: "Josh", urgency: "high" },
+      { text: "Post TikTok: 'Rating our own books honestly' — fun, self-aware, each person rates each book, playful disagreements", owner: "Seth", urgency: "medium" },
+      { text: "Post Reel: 'If our 3 books were cocktails/meals/movies/songs' — fun crossover content", owner: "Josh", urgency: "medium" },
+    ],
+    email: [
+      { text: "Email #1: Subscriber milestone — '5K strong! Here's an exclusive excerpt only you are seeing'", owner: "Rebekah", urgency: "high" },
+      { text: "Email #2: 'September is going to be intense — here's your calendar' — preview what's coming, build anticipation", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish 4 videos", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "August ad report: Total spend to date should be ~$8K-$9K. CPL trends. Pre-save conversion rate. September budget: $2,500-$3,000 (final push).", owner: "Seth", urgency: "high" },
+      { text: "Prepare retargeting campaign for September: Everyone who visited BackerKit page but didn't pre-save", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Finalize email countdown sequence — all 6-8 emails written, scheduled, tested", owner: "Rebekah", urgency: "high" },
+      { text: "Create launch day content package: Social posts, email blast, YouTube video — all pre-written and pre-scheduled", owner: "Seth", urgency: "high" },
+    ],
+    outreach: [
+      { text: "Final influencer coordination: Confirm all September posts, provide final assets, answer any questions", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+// ============ SEPTEMBER: FINAL PRE-LAUNCH PUSH ============
+{
+  num: 29, dates: "Aug 31 – Sep 5, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  milestone: "FINAL MONTH BEFORE LAUNCH",
+  priorities: [
+    "🔥 Final pre-launch month begins",
+    "Retargeting ads go full blast",
+    "Daily content, 2x/week email, all influencer posts coordinated",
+    "Target: 5,000+ pre-saves by month end"
+  ],
+  channels: {
+    milestone: [
+      { text: "🔥 FINAL MONTH BEFORE LAUNCH — Maximum intensity from here", owner: "All", urgency: "high" },
+    ],
+    social: [
+      { text: "Post ALL platforms: '30 DAYS UNTIL LAUNCH 🚀🦁' — countdown begins. Use countdown sticker on IG Stories.", owner: "Seth", urgency: "high" },
+      { text: "Post TikTok: 'One month until we find out if our publishing house was a good idea or a terrible one 😅' — honest, vulnerable", owner: "Seth", urgency: "high" },
+      { text: "Post carousel: 'Everything you need to know about our October 5 BackerKit launch' — comprehensive overview", owner: "Rebekah", urgency: "high" },
+      { text: "Post Reel: Cinematic book montage — covers, pages turning, atmospheric lighting, epic music", owner: "Josh", urgency: "medium" },
+      { text: "Post X: 'In 30 days, we launch 3 debut fantasy novels on BackerKit. Here's why you should care 🧵' — thread", owner: "Seth", urgency: "high" },
+      { text: "Daily countdown posts start: 'T-30', 'T-29', etc. on IG Stories + X", owner: "Seth", urgency: "high" },
+    ],
+    email: [
+      { text: "Email #1: '30 days out — the final countdown begins' — overview of what's coming, pre-save reminder", owner: "Rebekah", urgency: "high" },
+      { text: "Email #2: 'The making of [Epic Fantasy title]' — deep-dive content piece, author interview, world-building", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish: '30 Days to Launch: Can We Hit Our Goals?' — transparent episode about targets, what success looks like", owner: "Josh", urgency: "high" },
+      { text: "Publish 3 additional videos + daily Shorts (countdown clips)", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "September ad budget: $2,500-$3,000 (final push). Launch full retargeting campaign.", owner: "Seth", urgency: "high" },
+      { text: "Create urgency-based ad creative: '30 days until launch — pre-save now to get notified first'", owner: "Josh", urgency: "high" },
+      { text: "Run campaign video as YouTube pre-roll ad (15s version) — maximum reach", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Schedule all launch day content: Oct 5 email, social posts (every platform, multiple per day), YouTube video, blog post", owner: "Rebekah", urgency: "high" },
+      { text: "Publish blog: '30 Days to Launch: The Lion Publishing Story So Far'", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Coordinate influencer posting wave #1 for this week — 3-5 influencer posts across Bookstagram/BookTok", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 30, dates: "Sep 7–12, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  priorities: [
+    "Sustain daily content momentum",
+    "Influencer reviews continue posting",
+    "Push email list toward 7,000-8,000"
+  ],
+  channels: {
+    social: [
+      { text: "Post carousel: 'The ultimate guide to our BackerKit tiers' — which tier is right for you? Decision tree format", owner: "Rebekah", urgency: "high" },
+      { text: "Post TikTok: 'POV: You're a publisher 3 weeks before your first launch and everything is chaos' — funny, relatable", owner: "Seth", urgency: "medium" },
+      { text: "Post Reel: Author reads favorite passage from their book — atmospheric, emotional", owner: "Josh", urgency: "medium" },
+      { text: "Post X: 'The stretch goals we're most excited about (ranked) 🧵' — thread previewing what happens at each funding level", owner: "Seth", urgency: "medium" },
+      { text: "Continue daily countdown posts", owner: "Seth", urgency: "medium" },
+      { text: "UGC resharing: Repost every reader/influencer who talks about Lion Publishing books — Stories, quotes, reactions", owner: "Rachael", urgency: "high" },
+    ],
+    email: [
+      { text: "Email #1: Tier breakdown — 'Which pledge level is right for you?' — visual guide", owner: "Rebekah", urgency: "high" },
+      { text: "Email #2: Stretch goal deep dive — 'Here's what we unlock together'", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish podcast + 3 videos including: 'BackerKit Tier Guide' explainer video", owner: "Josh", urgency: "high" },
+      { text: "Daily Shorts: countdown clips, book teasers, behind-the-scenes", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Run tier-focused ads: 'The $25 pledge gets you...' — value proposition creative", owner: "Seth", urgency: "medium" },
+      { text: "Retarget all email subscribers who haven't pre-saved", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Publish blog: Tier guide + stretch goal overview", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Influencer wave #2: 3-5 more posts/reviews across platforms this week", owner: "Rachael", urgency: "high" },
+      { text: "Podcast appearances #7-8 air this week", owner: "Seth", urgency: "medium" },
+    ],
+  }
+},
+{
+  num: 31, dates: "Sep 14–19, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  priorities: [
+    "3 weeks to launch — maximum hype",
+    "Email countdown sequence starts Sep 21",
+    "Finalize all launch day logistics"
+  ],
+  channels: {
+    social: [
+      { text: "Post TikTok: 'Things I wish I knew before starting a publishing house' — reflective, wisdom-sharing, emotionally resonant", owner: "Seth", urgency: "medium" },
+      { text: "Post carousel: 'Meet ALL 3 Lion Publishing debut books' — final overview with reviews, covers, descriptions, pre-save link", owner: "Josh", urgency: "high" },
+      { text: "Post Reel: 'Fan art / reader reactions compilation' — if any fans have created content, compile it lovingly", owner: "Josh", urgency: "medium" },
+      { text: "Post X: 'Two weeks from today, everything changes. 🦁 October 5th.' — simple, powerful", owner: "Seth", urgency: "high" },
+      { text: "Continue daily countdown — escalate energy each day", owner: "Seth", urgency: "medium" },
+    ],
+    email: [
+      { text: "Email #1: 'Countdown begins next week' — preview the email countdown sequence, build excitement", owner: "Rebekah", urgency: "high" },
+      { text: "Email #2: 'The books behind Lion Publishing' — one final deep dive before countdown takes over", owner: "Rebekah", urgency: "medium" },
+      { text: "QA test entire countdown email sequence one more time — check links, images, timing", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish: '2 Weeks to Launch — Final Preparations' — vlog style, raw, emotional", owner: "Josh", urgency: "medium" },
+      { text: "Publish 3 additional videos + daily Shorts", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Peak ad spend: Run all top-performing creatives simultaneously. Last-chance retargeting on all warm audiences.", owner: "Seth", urgency: "high" },
+      { text: "Test 'launching in 2 weeks' urgency creative", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Prepare launch day war room plan: Who posts what, when, on which platform. Hour-by-hour schedule for Oct 5.", owner: "Seth", urgency: "high" },
+      { text: "Pre-write all social posts for launch week (Oct 5-11) — have everything queued and ready to go", owner: "Rebekah", urgency: "high" },
+    ],
+    outreach: [
+      { text: "Influencer wave #3: Final round of reviews/posts this week — maximum coverage", owner: "Rachael", urgency: "high" },
+      { text: "Confirm all launch day influencer posts — who is posting what and when on Oct 5", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 32, dates: "Sep 21–26, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  milestone: "EMAIL COUNTDOWN SEQUENCE BEGINS",
+  priorities: [
+    "📧 14-day email countdown sequence starts",
+    "Maximum social frequency — multiple posts/day",
+    "Final pre-save push — target 5,000+",
+    "All systems ready for launch"
+  ],
+  channels: {
+    milestone: [
+      { text: "📧 EMAIL COUNTDOWN SEQUENCE BEGINS — automated 14-day series starts today (Sep 21)", owner: "Rebekah", urgency: "high" },
+    ],
+    social: [
+      { text: "Post ALL platforms: '14 DAYS 🔥 In two weeks, our BackerKit goes live. Pre-save NOW → [link]'", owner: "Seth", urgency: "high" },
+      { text: "Post TikTok: '14 things you don't know about our books' — one per day countdown series starts", owner: "Seth", urgency: "high" },
+      { text: "Post carousel: 'Pre-save checklist: Everything you need to do before October 5' — step-by-step", owner: "Rebekah", urgency: "high" },
+      { text: "Post Reel: Quick montage of the entire journey — Feb to now in 30 seconds", owner: "Josh", urgency: "high" },
+      { text: "Post X: 'In 14 days we'll know. 🦁' — simple, dramatic", owner: "Seth", urgency: "medium" },
+      { text: "2-3 posts/day across all channels from here through launch", owner: "All", urgency: "high" },
+    ],
+    email: [
+      { text: "Countdown Day 14: 'Two weeks to launch: Everything you need to know' — comprehensive overview", owner: "Rebekah", urgency: "high" },
+      { text: "Countdown Day 12: 'Meet the LitRPG that's redefining the genre' — book spotlight #1", owner: "Rebekah", urgency: "high" },
+      { text: "Countdown Day 10: 'An epic fantasy trilogy begins' — book spotlight #2", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish: 'The Final Countdown — 14 Days to Launch' — emotional, summary of journey, what's at stake", owner: "Josh", urgency: "high" },
+      { text: "Daily Shorts: Countdown clips with increasing energy and urgency", owner: "Josh", urgency: "high" },
+      { text: "Publish 3 additional videos", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Final ad push: All remaining budget on retargeting warm audiences. Urgency creative: 'Launching in 14 days'", owner: "Seth", urgency: "high" },
+      { text: "Run campaign video as YouTube pre-roll for final 2 weeks — max impressions", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Publish blog: 'The Lion Publishing BackerKit Launches October 5 — Everything You Need to Know'", owner: "Rebekah", urgency: "high" },
+    ],
+    outreach: [
+      { text: "All remaining influencer posts scheduled for this week and next — maximum coverage leading into launch", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 33, dates: "Sep 28 – Oct 3, 2026", phase: "prelaunch", phaseColor: "#9a6abf",
+  milestone: "FINAL WEEK BEFORE LAUNCH",
+  priorities: [
+    "🚨 FINAL WEEK — All hands on deck",
+    "Countdown emails Day 7 through Day 2",
+    "Everything pre-loaded and ready for Oct 5",
+    "Team rest day Oct 4 — recharge before launch"
+  ],
+  channels: {
+    milestone: [
+      { text: "🚨 FINAL WEEK BEFORE LAUNCH — This is it", owner: "All", urgency: "high" },
+      { text: "💤 Oct 4: Team rest day — sleep, recharge, prepare mentally for launch", owner: "All", urgency: "high" },
+    ],
+    social: [
+      { text: "Post daily: T-7, T-6, T-5, T-4, T-3, T-2, T-1 countdown posts — escalating energy, each with unique content", owner: "Seth", urgency: "high" },
+      { text: "T-7: 'One week. 🦁' — dramatic, minimal", owner: "Seth", urgency: "high" },
+      { text: "T-5: Post TikTok: 'Things I've sacrificed to build this publisher' — emotional, real, builds sympathy/support", owner: "Seth", urgency: "high" },
+      { text: "T-3: Post carousel: 'FINAL REMINDER — How to back us on October 5' — step-by-step, link, timing", owner: "Rebekah", urgency: "high" },
+      { text: "T-1 (Oct 4): 'Tomorrow. Everything changes. 🦁🚀' — simple, powerful, shared everywhere", owner: "Seth", urgency: "high" },
+      { text: "Multiple posts per day — all platforms — with increasing urgency and emotion", owner: "All", urgency: "high" },
+    ],
+    email: [
+      { text: "Countdown Day 7: 'One week! Here are our stretch goals' — overview of what unlocks at each level", owner: "Rebekah", urgency: "high" },
+      { text: "Countdown Day 5: 'Western Fantasy is coming' — book spotlight #3", owner: "Rebekah", urgency: "high" },
+      { text: "Countdown Day 3: 'The final push — here's how to back us' — tactical, clear, link-heavy", owner: "Rebekah", urgency: "high" },
+      { text: "Countdown Day 1 (Oct 4): 'Tomorrow is the day ❤️' — personal note from Seth & Rebekah, emotional, grateful", owner: "Seth", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish: 'T-7 — One Week to Launch' — raw vlog, preparation chaos, emotional buildup", owner: "Josh", urgency: "high" },
+      { text: "Publish: 'T-3 — Everything Is Ready' — final preparations video", owner: "Josh", urgency: "high" },
+      { text: "Daily Shorts throughout the week", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Final 7 days: Maximum urgency creative. 'Launches in [X] days' dynamic countdown ads if possible.", owner: "Seth", urgency: "high" },
+      { text: "Exhaust remaining ad budget — every dollar should be spent by Oct 5", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Triple-check launch day content: All emails, social posts, YouTube video queued and ready to publish", owner: "Rebekah", urgency: "high" },
+      { text: "Prepare launch day live-stream setup — Seth & Rebekah watching BackerKit counter in real-time", owner: "Josh", urgency: "high" },
+      { text: "Brief entire team on launch day schedule: Hour-by-hour roles and responsibilities", owner: "Seth", urgency: "high" },
+    ],
+    outreach: [
+      { text: "Final influencer posts this week — launch day coordinated posts ready to go", owner: "Rachael", urgency: "high" },
+      { text: "Reach out to Book Is Better audience one final time with personal appeal", owner: "Seth", urgency: "medium" },
+    ],
+  }
+},
+// ============ PHASE 5: LAUNCH (Oct 5-8) ============
+{
+  num: 34, dates: "Oct 5–10, 2026", phase: "launch", phaseColor: "#e05555",
+  milestone: "🚀 LAUNCH DAY — OCTOBER 5",
+  priorities: [
+    "🚀🚀🚀 LAUNCH DAY IS HERE — October 5, 2026",
+    "First 48 hours are critical — target $100K and 2,000 backers",
+    "All hands posting, sharing, engaging — this is the moment",
+    "Launch day livestream on YouTube"
+  ],
+  channels: {
+    milestone: [
+      { text: "🚀🚀🚀 LAUNCH DAY — OCTOBER 5, 2026 — The BackerKit campaign is LIVE", owner: "All", urgency: "high" },
+      { text: "🎯 First 48h target: $100K raised, 2,000 backers", owner: "All", urgency: "high" },
+      { text: "📺 Launch day LIVESTREAM on YouTube — watch the backer count with us", owner: "All", urgency: "high" },
+    ],
+    social: [
+      { text: "6:00 AM: 'It's live. 🦁🚀 Back us now → [LINK]' — all platforms simultaneously, pinned", owner: "Seth", urgency: "high" },
+      { text: "8:00 AM: First milestone update — '$[X] raised in [Y] hours! Thank you!' — screenshot of backer count", owner: "Seth", urgency: "high" },
+      { text: "12:00 PM: Post TikTok: Seth & Rebekah reacting to backer count in real-time — raw, emotional, joyful", owner: "Josh", urgency: "high" },
+      { text: "3:00 PM: Milestone post — 'We just hit $[X]! 🎉' — update with stretch goal progress", owner: "Seth", urgency: "high" },
+      { text: "6:00 PM: Post carousel: Real-time campaign recap of day 1 — numbers, reactions, screenshots", owner: "Josh", urgency: "high" },
+      { text: "9:00 PM: End of day 1 recap — 'Day 1: $[X] raised, [Y] backers. We are OVERWHELMED. 🙏🦁'", owner: "Seth", urgency: "high" },
+      { text: "All week: 2-3 posts/day on every platform — milestone updates, stretch goal announcements, UGC reshares, thank-yous", owner: "All", urgency: "high" },
+      { text: "Oct 6-10: Daily update posts — funding progress, new stretch goals unlocked, backer shoutouts", owner: "Seth", urgency: "high" },
+    ],
+    email: [
+      { text: "Oct 5 6:00 AM: 'WE'RE LIVE! 🚀 Back Lion Publishing now → [LINK]' — direct, urgent, emotional", owner: "Rebekah", urgency: "high" },
+      { text: "Oct 5 evening: 'Day 1 update: $[X] raised — here's what we've unlocked' — stretch goal update", owner: "Rebekah", urgency: "high" },
+      { text: "Oct 6: '48-hour update — we can't believe this' — recap + push for more backers", owner: "Rebekah", urgency: "high" },
+      { text: "Oct 8: 'First week recap + new stretch goal unlocked!' — keep momentum going after initial surge", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Oct 5: LAUNCH DAY LIVESTREAM — Seth & Rebekah watching backer count live, reacting to milestones, reading comments", owner: "Josh", urgency: "high" },
+      { text: "Oct 5 evening: Upload launch day highlight reel — best moments from livestream, condensed to 10 min", owner: "Josh", urgency: "high" },
+      { text: "Oct 6-10: Daily short update videos + Shorts", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Switch all ads to campaign-live creative: 'LIVE NOW — Back Lion Publishing on BackerKit → [LINK]'", owner: "Seth", urgency: "high" },
+      { text: "Run social proof ads: '$[X] raised in [Y] hours — join [Z] backers'", owner: "Seth", urgency: "high" },
+      { text: "Retarget every warm audience: email subscribers, website visitors, video viewers, pre-savers, social engagers", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Publish blog: 'Lion Publishing Is LIVE on BackerKit! Here's How to Back Us'", owner: "Rebekah", urgency: "high" },
+      { text: "Update lionpublish.com homepage with campaign banner + direct link", owner: "Rebekah", urgency: "high" },
+    ],
+    outreach: [
+      { text: "All coordinated influencer posts go live on Oct 5 — maximum reach on launch day", owner: "Rachael", urgency: "high" },
+      { text: "Personal outreach: Text/DM every friend, family member, colleague — 'We launched today! Share the link?'", owner: "All", urgency: "high" },
+      { text: "Cross-promote on Book Is Better podcast — special episode or ad read", owner: "Seth", urgency: "high" },
+    ],
+  }
+},
+// ============ PHASE 6: CAMPAIGN ACTIVE (Oct 5-31+) ============
+{
+  num: 35, dates: "Oct 12–17, 2026", phase: "campaign", phaseColor: "#e0943a",
+  priorities: [
+    "Maintain campaign momentum after initial surge",
+    "Stretch goal reveals keep interest alive",
+    "Address the 'mid-campaign dip' — content must stay fresh and urgent"
+  ],
+  channels: {
+    social: [
+      { text: "Post carousel: 'Campaign update — here's where we are and what's next' — funding bar visual, stretch goals unlocked/remaining", owner: "Seth", urgency: "high" },
+      { text: "Post TikTok: 'Reading your backer comments and I'm NOT crying 😭' — emotional reaction to backer messages", owner: "Seth", urgency: "medium" },
+      { text: "Post Reel: 'New stretch goal UNLOCKED 🔓' — celebration video for each new milestone", owner: "Josh", urgency: "high" },
+      { text: "Post X: Backer spotlight — 'Shoutout to backer #[X] who left this incredible comment...' — community building", owner: "Seth", urgency: "medium" },
+      { text: "Post TikTok: 'What a [tier name] pledge gets you' — unboxing-style preview of each tier's contents", owner: "Josh", urgency: "medium" },
+      { text: "Daily updates across all platforms — fresh angles each day to combat mid-campaign dip", owner: "All", urgency: "high" },
+    ],
+    email: [
+      { text: "Email: 'Week 2 update — stretch goals, new backers, and what's coming' — keep subscribers informed", owner: "Rebekah", urgency: "high" },
+      { text: "Email: 'Behind the scenes of the campaign' — what it's been like, real numbers, personal reflections", owner: "Seth", urgency: "medium" },
+      { text: "3x/week email cadence during active campaign", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish: 'Week 2 Campaign Update — We Hit $[X]!' — weekly update video becomes the norm", owner: "Josh", urgency: "high" },
+      { text: "Publish: 'Answering Backer Questions LIVE' — Q&A stream", owner: "Josh", urgency: "medium" },
+      { text: "Daily Shorts: Stretch goal reveals, backer milestones, thank-yous", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Continue retargeting with updated social proof: '$[X] raised by [Y] backers — join them'", owner: "Seth", urgency: "high" },
+      { text: "Test urgency creative: 'Campaign ends [date] — don't miss out'", owner: "Seth", urgency: "medium" },
+    ],
+    content: [
+      { text: "Publish blog: 'Campaign Update: Week 2' — SEO for people searching for our campaign", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Reach out to press/blogs about campaign success: 'New publisher raises $[X] in first week on BackerKit'", owner: "Rachael", urgency: "medium" },
+      { text: "Ask satisfied backers to share campaign link — word-of-mouth is now the highest-ROI channel", owner: "Seth", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 36, dates: "Oct 19–24, 2026", phase: "campaign", phaseColor: "#e0943a",
+  priorities: [
+    "Combat mid-campaign slowdown with fresh content",
+    "Stretch goal reveals maintain excitement",
+    "Begin 'last chance' messaging if campaign has end date"
+  ],
+  channels: {
+    social: [
+      { text: "Post carousel: 'Stretch goals we've unlocked so far vs. what's still ahead' — progress visualization", owner: "Josh", urgency: "high" },
+      { text: "Post TikTok: 'Things backers have said that made us cry' — emotional compilation", owner: "Seth", urgency: "medium" },
+      { text: "Post Reel: 'What happens after the campaign — our timeline from funded to books in your hands' — transparency", owner: "Rebekah", urgency: "high" },
+      { text: "Post X: 'We're [X]% of the way to our next stretch goal. [Y] more backers and we unlock [stretch goal]. LET'S GO 🚀'", owner: "Seth", urgency: "high" },
+      { text: "Post: UGC compilation — share every backer who's posted about backing Lion Publishing", owner: "Rachael", urgency: "medium" },
+    ],
+    email: [
+      { text: "Email: 'Inside our stretch goals — what each unlock means for you' — detailed breakdown of remaining goals", owner: "Rebekah", urgency: "high" },
+      { text: "Email: 'Share with a friend who loves fantasy' — referral ask with easy-share links", owner: "Rebekah", urgency: "medium" },
+    ],
+    youtube: [
+      { text: "Publish weekly update video", owner: "Josh", urgency: "high" },
+      { text: "Publish: 'What Happens After the Campaign — Our Timeline' — transparency video", owner: "Josh", urgency: "medium" },
+      { text: "Daily Shorts", owner: "Josh", urgency: "medium" },
+    ],
+    ads: [
+      { text: "Refresh ad creative with current numbers — social proof ads with real backer count and funding amount", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Publish blog update", owner: "Rebekah", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Personal outreach to anyone who pre-saved but hasn't backed — direct message/email asking if they have questions", owner: "Rachael", urgency: "high" },
+    ],
+  }
+},
+{
+  num: 37, dates: "Oct 26–31, 2026", phase: "campaign", phaseColor: "#e0943a",
+  milestone: "FINAL PUSH / CAMPAIGN CLOSING",
+  priorities: [
+    "🏁 Final campaign push — last-chance energy",
+    "Hit $300K minimum goal, push toward $500K",
+    "Last 48 hours are second-biggest surge — capitalize with urgency",
+    "Post-campaign planning begins"
+  ],
+  channels: {
+    milestone: [
+      { text: "🏁 FINAL CAMPAIGN PUSH — Last chance energy, maximum urgency", owner: "All", urgency: "high" },
+      { text: "🎯 Push for final stretch goals — '$[X] more and we unlock [big goal]!'", owner: "All", urgency: "high" },
+    ],
+    social: [
+      { text: "Post ALL platforms: 'FINAL WEEK — Campaign closes [date]. Last chance to back Lion Publishing at these prices!'", owner: "Seth", urgency: "high" },
+      { text: "Post TikTok: 'This is your LAST CHANCE to get these exclusive editions' — urgency, FOMO, limited-time", owner: "Seth", urgency: "high" },
+      { text: "Post carousel: 'What you'll miss if you don't back by [date]' — everything exclusive to backers", owner: "Rebekah", urgency: "high" },
+      { text: "Final 48h: Multiple posts per day — countdown, urgency, gratitude, stretch goal chasing", owner: "All", urgency: "high" },
+      { text: "LAST DAY: 'Hours left. 🦁 Back now or miss out forever → [LINK]' — posted multiple times", owner: "Seth", urgency: "high" },
+      { text: "CAMPAIGN ENDS: 'We did it. $[FINAL AMOUNT]. [X] backers. Thank you. 🙏🦁❤️' — celebration post everywhere", owner: "Seth", urgency: "high" },
+    ],
+    email: [
+      { text: "72h warning: 'Campaign closes in 3 days — back now before it's too late'", owner: "Rebekah", urgency: "high" },
+      { text: "24h warning: 'FINAL 24 HOURS — This is your last chance'", owner: "Rebekah", urgency: "high" },
+      { text: "6h warning: 'Hours left...'", owner: "Rebekah", urgency: "high" },
+      { text: "Campaign closed: 'THANK YOU — here's what happens next' — gratitude + fulfillment timeline", owner: "Rebekah", urgency: "high" },
+    ],
+    youtube: [
+      { text: "Publish: 'Final Week — Can We Hit $[X]?' — last push video", owner: "Josh", urgency: "high" },
+      { text: "FINAL DAY LIVESTREAM: Watch the counter hit the final number — celebration, tears, gratitude", owner: "Josh", urgency: "high" },
+      { text: "Post-campaign: 'We Raised $[X] — What Happens Now' — fulfillment timeline, next steps, thank you", owner: "Josh", urgency: "high" },
+    ],
+    ads: [
+      { text: "Final ad push: 'LAST CHANCE — Campaign ends [date]' — urgency creative on all platforms", owner: "Seth", urgency: "high" },
+      { text: "Final 48h: Increase spend on best-performing retargeting audiences — last dollar, last backer", owner: "Seth", urgency: "high" },
+      { text: "Campaign ends: Pause all campaign ads. Exhale.", owner: "Seth", urgency: "high" },
+    ],
+    content: [
+      { text: "Publish blog: 'Campaign Results — Lion Publishing Raised $[X]' — celebratory recap with full story", owner: "Rebekah", urgency: "high" },
+      { text: "Begin post-campaign content plan: fulfillment updates, production progress, community building", owner: "Seth", urgency: "medium" },
+    ],
+    outreach: [
+      { text: "Final influencer push: 'Campaign closes [date] — one last share?'", owner: "Rachael", urgency: "high" },
+      { text: "Thank every influencer partner personally — send gifts, handwritten notes, or future partnership invitations", owner: "Rachael", urgency: "medium" },
+      { text: "Thank the team. You built something incredible. 🦁", owner: "Seth", urgency: "high" },
+    ],
+  }
+},
+];
+
+// ======= RENDERING ENGINE =======
+const container = document.getElementById('weeksContainer');
+const phaseColors = { foundation:'#c9a84c', growth:'#5ab87a', acceleration:'#5a8ab8', prelaunch:'#9a6abf', launch:'#e05555', campaign:'#e0943a' };
+const phaseNames = { foundation:'Foundation', growth:'Growth', acceleration:'Acceleration', prelaunch:'Pre-Launch', launch:'Launch', campaign:'Campaign Active' };
+const channelNames = { milestone:'Milestones', social:'Social', email:'Email', youtube:'YouTube / Podcast', ads:'Paid Ads', content:'Content Creation', outreach:'Outreach' };
+const channelClasses = { milestone:'ch-milestone', social:'ch-social', email:'ch-email', youtube:'ch-youtube', ads:'ch-ads', content:'ch-content', outreach:'ch-outreach' };
+
+function renderWeeks(weeks) {
+  container.innerHTML = '';
+  weeks.forEach(w => {
+    const card = document.createElement('div');
+    card.className = 'week-card' + (w.milestone ? ' milestone' : '');
+    card.dataset.phase = w.phase;
+    
+    const header = document.createElement('div');
+    header.className = 'week-header';
+    header.innerHTML = `
+      <div class="week-title">
+        <span class="week-num">Week ${w.num}</span>
+        <span class="week-dates">${w.dates}</span>
+        ${w.milestone ? '<span class="milestone-marker">'+w.milestone+'</span>' : ''}
+      </div>
+      <div style="display:flex;align-items:center;gap:.8rem;">
+        <span class="week-phase-badge" style="background:${phaseColors[w.phase]}22;color:${phaseColors[w.phase]}">${phaseNames[w.phase]}</span>
+        <span class="week-chevron">▼</span>
+      </div>
+    `;
+    header.onclick = () => card.classList.toggle('open');
+    
+    const body = document.createElement('div');
+    body.className = 'week-body';
+    
+    // Priorities
+    if (w.priorities && w.priorities.length) {
+      const pDiv = document.createElement('div');
+      pDiv.className = 'week-priorities';
+      pDiv.innerHTML = '<h4>🎯 This Week\'s Priorities</h4><ul>' + w.priorities.map(p => '<li>'+p+'</li>').join('') + '</ul>';
+      body.appendChild(pDiv);
+    }
+    
+    // Channel sections
+    const channelOrder = ['milestone','social','email','youtube','ads','content','outreach'];
+    channelOrder.forEach(ch => {
+      if (!w.channels[ch] || !w.channels[ch].length) return;
+      const sec = document.createElement('div');
+      sec.className = 'channel-section ' + (channelClasses[ch]||'');
+      sec.dataset.channel = ch === 'youtube' ? 'youtube' : ch;
+      sec.innerHTML = '<span class="channel-label">' + (channelNames[ch]||ch) + '</span>';
+      const tasks = document.createElement('div');
+      tasks.className = 'channel-tasks';
+      w.channels[ch].forEach(t => {
+        tasks.innerHTML += `<div class="task-item">
+          <span class="task-urgency urgency-${t.urgency||'medium'}"></span>
+          <span class="task-text">${t.text}</span>
+          <span class="task-owner">${t.owner||''}</span>
+        </div>`;
+      });
+      sec.appendChild(tasks);
+      body.appendChild(sec);
+    });
+    
+    card.appendChild(header);
+    card.appendChild(body);
+    container.appendChild(card);
+  });
+}
+
+renderWeeks(WEEKS);
+
+// Filters
+let activeFilter = 'all';
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.filter;
+    applyFilters();
+  });
+});
+
+function applyFilters() {
+  const search = document.getElementById('searchBox').value.toLowerCase();
+  document.querySelectorAll('.week-card').forEach(card => {
+    let show = false;
+    const sections = card.querySelectorAll('.channel-section');
+    sections.forEach(sec => {
+      const ch = sec.dataset.channel;
+      const matchesFilter = activeFilter === 'all' || ch === activeFilter;
+      const tasks = sec.querySelectorAll('.task-item');
+      let sectionHasMatch = false;
+      tasks.forEach(t => {
+        const text = t.textContent.toLowerCase();
+        const matchesSearch = !search || text.includes(search);
+        t.style.display = (matchesFilter && matchesSearch) ? '' : 'none';
+        if (matchesFilter && matchesSearch) sectionHasMatch = true;
+      });
+      sec.style.display = sectionHasMatch ? '' : 'none';
+      if (sectionHasMatch) show = true;
+    });
+    // Always show priorities
+    const priorities = card.querySelector('.week-priorities');
+    if (priorities && activeFilter === 'all' && !search) show = true;
+    card.style.display = show ? '' : 'none';
+  });
+}
+
+document.getElementById('searchBox').addEventListener('input', applyFilters);
+
+// Expand/collapse
+document.getElementById('expandAll').onclick = () => document.querySelectorAll('.week-card').forEach(c => c.classList.add('open'));
+document.getElementById('collapseAll').onclick = () => document.querySelectorAll('.week-card').forEach(c => c.classList.remove('open'));
+
+// Jump to current week
+document.getElementById('showCurrent').onclick = () => {
+  const now = new Date();
+  const cards = document.querySelectorAll('.week-card');
+  // Open the first card that hasn't passed yet (or the last one)
+  let target = cards[cards.length - 1];
+  cards.forEach(c => {
+    const weekNum = parseInt(c.querySelector('.week-num').textContent.replace('Week ', ''));
+    const w = WEEKS.find(w => w.num === weekNum);
+    if (w) {
+      const endDate = w.dates.split('–').pop().split(',')[0];
+      // Simple heuristic — just open the first few weeks for now
+    }
+  });
+  // Open first week and scroll to it
+  cards[0].classList.add('open');
+  cards[0].scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
+
+// Phase bar click
+document.querySelectorAll('.phase-item').forEach(item => {
+  item.addEventListener('click', () => {
+    document.querySelectorAll('.phase-item').forEach(i => i.classList.remove('active'));
+    item.classList.add('active');
+    const phase = item.dataset.phase;
+    const firstCard = document.querySelector(`.week-card[data-phase="${phase}"]`);
+    if (firstCard) {
+      firstCard.classList.add('open');
+      firstCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
+</body>
+</html>
