@@ -283,7 +283,6 @@ const SECTION_ORDER = ['seo', 'publishing', 'popculture', 'business'];
 function init() {
   const theme = localStorage.getItem('rb-theme') || 'dark';
   document.documentElement.setAttribute('data-theme', theme);
-  document.getElementById('datePicker').value = '2026-02-17';
   loadBriefingData();
   updateSavedCount();
   window.addEventListener('scroll', () => {
@@ -307,6 +306,9 @@ async function loadBriefingData() {
       currentData = getFallbackData();
     }
   }
+  // Set date picker to match the loaded data
+  const briefingDate = currentData.meta?.date || new Date().toISOString().split('T')[0];
+  document.getElementById('datePicker').value = briefingDate;
   render();
 }
 
@@ -499,15 +501,38 @@ function changeDate(delta) {
 }
 
 function goToday() {
-  document.getElementById('datePicker').value = '2026-02-17'; // Demo date
   loadBriefingData();
 }
 
 function loadDate(dateStr) {
-  // In v1, only sample date has data
-  if (dateStr === '2026-02-17') { loadBriefingData(); return; }
-  currentData = getFallbackData();
-  render();
+  // Try loading a date-specific briefing file, fall back to current
+  fetch(`data/briefing-${dateStr}-morning.json`)
+    .then(r => r.ok ? r.json() : Promise.reject())
+    .then(raw => {
+      currentData = normalizeBriefing(raw);
+      // Also try to merge afternoon data
+      return fetch(`data/briefing-${dateStr}-afternoon.json`)
+        .then(r => r.ok ? r.json() : null)
+        .then(afternoon => {
+          if (afternoon) {
+            const norm = normalizeBriefing(afternoon);
+            if (norm.briefings?.afternoon) {
+              currentData.briefings.afternoon = norm.briefings.afternoon;
+            }
+          }
+        })
+        .catch(() => {});
+    })
+    .then(() => {
+      document.getElementById('datePicker').value = dateStr;
+      render();
+    })
+    .catch(() => {
+      // No data for this date
+      currentData = { meta: { date: dateStr }, briefings: {} };
+      document.getElementById('datePicker').value = dateStr;
+      render();
+    });
 }
 
 init();
