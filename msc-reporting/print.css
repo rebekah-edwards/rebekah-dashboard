@@ -1,0 +1,39 @@
+/* Print / PDF layout */
+@media print {
+  :root{
+    --bg:#ffffff;
+    --text:#111111;
+    --muted:#333333;
+    --line:rgba(0,0,0,.12);
+  }
+
+  body{
+    background:#ffffff !important;
+    color:#111111 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .topbar{
+    position: static;
+    border-bottom:1px solid var(--line);
+    background: #ffffff !important;
+  }
+
+  .pill, .pill-btn{ display:none !important; }
+
+  .card{
+    box-shadow:none !important;
+    border:1px solid var(--line) !important;
+    background:#ffffff !important;
+  }
+
+  a{ color:#111111 !important; text-decoration: underline; }
+
+  .tablewrap{ overflow: visible !important; border: none !important; }
+  table{ min-width: 0 !important; width:100% !important; background:#ffffff !important; }
+  th, td{ border-bottom:1px solid var(--line) !important; color:#111111 !important; }
+
+  /* Avoid awkward page breaks */
+  section, .card{ break-inside: avoid; page-break-inside: avoid; }
+}
