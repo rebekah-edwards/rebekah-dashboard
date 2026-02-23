@@ -22,6 +22,8 @@ body{
               radial-gradient(900px 650px at 85% 10%, rgba(34,149,230,.18), transparent 55%),
               radial-gradient(850px 600px at 55% 100%, rgba(255,62,137,.16), transparent 60%),
               var(--bg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
   color:var(--text);
 }
 
