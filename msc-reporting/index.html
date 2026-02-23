@@ -37,14 +37,15 @@
 
     <section class="grid">
       <section class="card">
-        <h2>Executive summary (draft)</h2>
+        <h2>Executive summary</h2>
         <ul>
-          <li><strong>Overall sentiment:</strong> TBD</li>
-          <li><strong>Trust/legitimacy:</strong> TBD</li>
-          <li><strong>Cite-ability:</strong> TBD</li>
-          <li><strong>Competitive posture:</strong> TBD vs Shemmassian, BeMo, MedEdits, MedSchoolInsiders, AAMC, Kaplan</li>
+          <li><strong>Overall sentiment:</strong> <span class="score s2">Positive</span> across ChatGPT, Claude, Gemini; <span class="score s1">Mixed-neutral</span> in Grok.</li>
+          <li><strong>Trust / legitimacy:</strong> Generally <span class="score s2">legit / established</span>, with repeated advice to verify advisor fit, refund terms, and third‑party reviews.</li>
+          <li><strong>Cite‑ability:</strong> <span class="score s1">Citable with caveats</span>. LLMs treat MSC as fine for process/strategy guidance, but prefer AAMC/primary sources for stats.</li>
+          <li><strong>Primary positioning:</strong> “<strong>Physician-led, full‑cycle, structured packages</strong>” and a large review footprint.</li>
+          <li><strong>Primary weakness in-model:</strong> <strong>Outcome proof is mostly self‑reported</strong> (acceptance-rate claims) → models hedge and recommend verification.</li>
         </ul>
-        <p class="muted">This will be replaced once we score outputs.</p>
+        <p class="muted">Scope: US-focused; MedSchoolCoach brand + medschoolcoach.com. Prompts #1–#7 run on ChatGPT, Claude, Gemini, Grok.</p>
       </section>
 
       <section class="card">
@@ -59,33 +60,67 @@
     </section>
 
     <section class="card">
-      <h2>Scorecard (placeholder)</h2>
+      <h2>Scorecard (summary)</h2>
+      <p class="muted">0–2 per theme. This is a human-scored snapshot from the captured model outputs (PDF OCR). Not a statistically significant study.</p>
       <div class="tablewrap">
         <table>
           <thead>
             <tr>
               <th>Model</th>
-              <th>Prompt</th>
               <th>Overall</th>
               <th>Trust</th>
-              <th>Cite-ability</th>
+              <th>Cite‑ability</th>
               <th>Outcomes</th>
               <th>Value</th>
-              <th>Diff vs competitors</th>
-              <th>Notes</th>
+              <th>Differentiation</th>
+              <th>How MSC is described</th>
+              <th>Primary hedge / watch‑out</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td class="muted">(waiting for outputs)</td>
-              <td class="muted">—</td>
-              <td class="muted">—</td>
-              <td class="muted">—</td>
-              <td class="muted">—</td>
-              <td class="muted">—</td>
-              <td class="muted">—</td>
-              <td class="muted">—</td>
-              <td class="muted">—</td>
+              <td>ChatGPT</td>
+              <td><span class="score s2">2</span></td>
+              <td><span class="score s2">2</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s2">2</span></td>
+              <td>“strong default pick”, full‑service, structured tiers, physician advising + writing support</td>
+              <td>price climbs quickly; advisor fit can vary; verify terms</td>
+            </tr>
+            <tr>
+              <td>Claude</td>
+              <td><span class="score s2">2</span></td>
+              <td><span class="score s2">2</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s2">2</span></td>
+              <td>physician + writing advisor; full pre‑med to residency support</td>
+              <td>verify refund/guarantee policy; compare alternatives</td>
+            </tr>
+            <tr>
+              <td>Gemini</td>
+              <td><span class="score s2">2</span></td>
+              <td><span class="score s2">2</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s2">2</span></td>
+              <td>top‑tier, “physician insider perspective”; team‑based approach</td>
+              <td>not guarantee‑first; cost/policies depend on tier</td>
+            </tr>
+            <tr>
+              <td>Grok</td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s1">1</span></td>
+              <td><span class="score s1">1</span></td>
+              <td>legit; includes MSC in shortlists, but not consistently top-ranked</td>
+              <td>raises generic industry skepticism; mentions rumors/changes → “worth confirming”</td>
             </tr>
           </tbody>
         </table>
@@ -93,15 +128,22 @@
     </section>
 
     <section class="card">
-      <h2>Next actions to improve LLM visibility (starter list)</h2>
+      <h2>Recommended actions to increase LLM mentions & trust</h2>
       <ol>
-        <li><strong>Entity clarity:</strong> tighten brand/entity signals (About page, leadership, services, locations, structured data).</li>
-        <li><strong>Third‑party corroboration:</strong> earn/refresh mentions from credible premed/education sites and forums.</li>
-        <li><strong>“Citable” content:</strong> publish genuinely informational pages with references, dates, and author credentials.</li>
-        <li><strong>Review footprint:</strong> improve review volume + consistency across major platforms.</li>
-        <li><strong>Comparison pages:</strong> fair, non-spammy comparisons vs Shemmassian/BeMo/MedEdits/Kaplan with clear positioning.</li>
+        <li><strong>Make the “physician-led + writing advisor + structured plan” story unmissable.</strong><br/>
+          Add a single canonical “How it works” page + tier comparison that’s easy for models to summarize.</li>
+        <li><strong>Strengthen independent corroboration beyond Trustpilot.</strong><br/>
+          Prioritize credible third‑party mentions (premed communities, podcasts, university orgs, scholarships, education publications). LLMs hedge when proof is mostly self‑reported.</li>
+        <li><strong>Upgrade “cite-ability” for informational queries.</strong><br/>
+          Publish evergreen guides with: (a) named authors + credentials, (b) last-updated dates, (c) references to AAMC/primary sources, (d) editorial standards page.</li>
+        <li><strong>Reduce the “advisor fit may vary” hedge.</strong><br/>
+          Showcase coach vetting, matching, QA, and what happens if a student needs a rematch.</li>
+        <li><strong>Own comparisons without being spammy.</strong><br/>
+          Create fair pages: MSC vs Shemmassian / BeMo / MedEdits / Kaplan (criteria, best-for, pricing transparency, what each does well). This aligns with how LLMs already structure answers.</li>
+        <li><strong>Entity/Schema hygiene.</strong><br/>
+          Organization/Person schema for leadership & advisors, Review schema where allowed, consistent NAP/contact, clear service taxonomy, and a robust About page.</li>
       </ol>
-      <p class="muted">We’ll refine this after we see what each model is actually saying.</p>
+      <p class="muted">These actions target the exact hedges seen in-model: price escalation, self-reported outcome stats, and advisor-fit variance.</p>
     </section>
 
     <footer class="footer">
