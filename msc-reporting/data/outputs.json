@@ -1,0 +1,14 @@
+{
+  "client": "MedSchoolCoach",
+  "generatedAt": "",
+  "models": [
+    {
+      "model": "ChatGPT",
+      "version": "",
+      "promptId": "P2",
+      "prompt": "Is MedSchoolCoach the best medical school admissions consulting company?...",
+      "answer": "",
+      "sources": []
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LLM Sentiment Snapshot — MedSchoolCoach</title>
+  <meta name="description" content="How major LLMs perceive the MedSchoolCoach brand: sentiment by theme, competitor comparisons, and visibility recommendations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/clara-logo.png" class="logo" alt="Clara" />
+      <div class="brandtext">
+        <div class="kicker">Clara • LLM Brand Sentiment</div>
+        <h1>MedSchoolCoach — Snapshot</h1>
+      </div>
+    </div>
+    <div class="meta">
+      <div class="pill">US-focused</div>
+      <div class="pill">Themes: trust • cite-ability • outcomes • value • differentiation</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>What this is</h2>
+      <p>
+        A rapid sentiment read of how major LLMs talk about <strong>MedSchoolCoach</strong> (brand + <a href="https://www.medschoolcoach.com" target="_blank" rel="noreferrer">medschoolcoach.com</a>)
+        across recommendation, comparison, and legitimacy prompts.
+      </p>
+      <p class="muted">Paste model outputs into <code>data/outputs.json</code> (or send them to Clanker) and we’ll populate the tables below.</p>
+    </section>
+
+    <section class="grid">
+      <section class="card">
+        <h2>Executive summary (draft)</h2>
+        <ul>
+          <li><strong>Overall sentiment:</strong> TBD</li>
+          <li><strong>Trust/legitimacy:</strong> TBD</li>
+          <li><strong>Cite-ability:</strong> TBD</li>
+          <li><strong>Competitive posture:</strong> TBD vs Shemmassian, BeMo, MedEdits, MedSchoolInsiders, AAMC, Kaplan</li>
+        </ul>
+        <p class="muted">This will be replaced once we score outputs.</p>
+      </section>
+
+      <section class="card">
+        <h2>Scoring rubric</h2>
+        <p class="muted">Each model answer gets a 0–2 score per theme.</p>
+        <div class="rubric">
+          <div><span class="dot g"></span><strong>2</strong> positive / clear support</div>
+          <div><span class="dot b"></span><strong>1</strong> mixed / neutral / hedged</div>
+          <div><span class="dot p"></span><strong>0</strong> negative / avoidance / red flags</div>
+        </div>
+      </section>
+    </section>
+
+    <section class="card">
+      <h2>Scorecard (placeholder)</h2>
+      <div class="tablewrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Model</th>
+              <th>Prompt</th>
+              <th>Overall</th>
+              <th>Trust</th>
+              <th>Cite-ability</th>
+              <th>Outcomes</th>
+              <th>Value</th>
+              <th>Diff vs competitors</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="muted">(waiting for outputs)</td>
+              <td class="muted">—</td>
+              <td class="muted">—</td>
+              <td class="muted">—</td>
+              <td class="muted">—</td>
+              <td class="muted">—</td>
+              <td class="muted">—</td>
+              <td class="muted">—</td>
+              <td class="muted">—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Next actions to improve LLM visibility (starter list)</h2>
+      <ol>
+        <li><strong>Entity clarity:</strong> tighten brand/entity signals (About page, leadership, services, locations, structured data).</li>
+        <li><strong>Third‑party corroboration:</strong> earn/refresh mentions from credible premed/education sites and forums.</li>
+        <li><strong>“Citable” content:</strong> publish genuinely informational pages with references, dates, and author credentials.</li>
+        <li><strong>Review footprint:</strong> improve review volume + consistency across major platforms.</li>
+        <li><strong>Comparison pages:</strong> fair, non-spammy comparisons vs Shemmassian/BeMo/MedEdits/Kaplan with clear positioning.</li>
+      </ol>
+      <p class="muted">We’ll refine this after we see what each model is actually saying.</p>
+    </section>
+
+    <footer class="footer">
+      <div>Prepared for: MedSchoolCoach leadership</div>
+      <div class="muted">Built with Clara branding • League Spartan + system fallback</div>
+    </footer>
+  </main>
+</body>
+</html>

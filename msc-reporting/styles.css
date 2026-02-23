@@ -1,0 +1,81 @@
+:root{
+  --pink:#ff3e89;
+  --purple:#7000df;
+  --blue:#2295e6;
+  --green:#56ff36;
+  --black:#323232;
+  --bg:#070707;
+  --card:#0f0f12;
+  --text:#f2f2f4;
+  --muted:#b8b8c4;
+  --line:rgba(255,255,255,.10);
+  --shadow: 0 20px 60px rgba(0,0,0,.45);
+  --radius:18px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:"League Spartan", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  background: radial-gradient(1200px 800px at 15% 0%, rgba(112,0,223,.20), transparent 60%),
+              radial-gradient(900px 650px at 85% 10%, rgba(34,149,230,.18), transparent 55%),
+              radial-gradient(850px 600px at 55% 100%, rgba(255,62,137,.16), transparent 60%),
+              var(--bg);
+  color:var(--text);
+}
+
+a{color:var(--blue)}
+code{background:rgba(255,255,255,.06); padding:.15rem .35rem; border-radius:8px; border:1px solid var(--line)}
+
+.topbar{
+  padding:28px 22px;
+  border-bottom:1px solid var(--line);
+  background: linear-gradient(180deg, rgba(0,0,0,.55), rgba(0,0,0,0));
+}
+
+.brand{display:flex; gap:18px; align-items:center; flex-wrap:wrap}
+.logo{height:54px; width:auto; border-radius:12px; box-shadow: var(--shadow)}
+.kicker{color:var(--muted); letter-spacing:.08em; text-transform:uppercase; font-size:.9rem}
+h1{margin:.15rem 0 0; font-size:2.1rem; letter-spacing:-.02em}
+
+.meta{margin-top:14px; display:flex; gap:10px; flex-wrap:wrap}
+.pill{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.04);
+  padding:8px 10px;
+  border-radius:999px;
+  color:var(--muted);
+  font-size:.95rem;
+}
+
+.container{max-width:1100px; margin:0 auto; padding:22px}
+
+.card{
+  background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:18px 18px;
+  box-shadow: 0 16px 55px rgba(0,0,0,.35);
+}
+.card h2{margin:0 0 10px; font-size:1.4rem}
+.card p{margin:10px 0; line-height:1.35}
+.muted{color:var(--muted)}
+
+.grid{display:grid; grid-template-columns:1.2fr .8fr; gap:16px; margin:16px 0}
+@media (max-width: 920px){.grid{grid-template-columns:1fr}}
+
+.rubric{display:grid; gap:10px; margin-top:8px}
+.dot{display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:8px; vertical-align:middle}
+.dot.g{background:var(--green)}
+.dot.b{background:var(--blue)}
+.dot.p{background:var(--pink)}
+
+.tablewrap{overflow:auto; border-radius:14px; border:1px solid var(--line)}
+table{width:100%; border-collapse:collapse; min-width:900px; background:rgba(0,0,0,.25)}
+th,td{padding:12px 10px; border-bottom:1px solid var(--line); vertical-align:top}
+th{text-align:left; font-size:.95rem; color:rgba(255,255,255,.85)}
+td{color:rgba(255,255,255,.92)}
+
+.footer{display:flex; justify-content:space-between; gap:10px; padding:16px 2px; color:rgba(255,255,255,.75)}
+@media (max-width: 720px){.footer{flex-direction:column}}
