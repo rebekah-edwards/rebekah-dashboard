@@ -147,6 +147,7 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <div class="nav-divider"></div>
 <a href="#" data-page="encounters"><span class="icon">🎲</span> Random Encounters</a>
 <a href="#" data-page="timeline"><span class="icon">🗺️</span> Campaign Timeline</a>
+<a href="#" data-page="campaign-structure"><span class="icon">🧱</span> Campaign Structure</a>
 <!-- DM Screen removed -->
 <a href="#" data-page="initiative"><span class="icon">⏱️</span> Initiative Tracker</a>
 <a href="#" data-page="dice"><span class="icon">🎲</span> Dice Roller</a>
@@ -157,6 +158,7 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <button onclick="window.print()">🖨️ Print</button>
 <button onclick="expandAll()">📂 Expand All</button>
 <button onclick="collapseAll()">📁 Collapse All</button>
+<button onclick="findInPage()">🔎 Find</button>
 </div>
 </div>
 
@@ -1379,6 +1381,37 @@ tr:hover td{background:rgba(57,255,20,.04)}
 
 <!-- DM Screen removed per request -->
 
+
+
+<!-- ==================== CAMPAIGN STRUCTURE ==================== -->
+<div class="page" id="page-campaign-structure">
+<h2>🧱 Campaign Structure</h2>
+<div class="card">
+<h4>High-level arc (so far)</h4>
+<ul>
+<li><strong>Chapter 1 — Rescuing the Townsfolk (Neverwinter)</strong>: party forms, rescues captives, disrupts multiversal ritual → retain “before” memories.</li>
+<li><strong>Chapter 1 — The Undoing of the Multiverse</strong>: cast through a <em>Crevice of Dusk</em> to Evernight (Shadowfell mirror); return to a corrupted world: the <strong>Doomed Forgotten Realms</strong>. Key reveal: Aldar still rules (lich path).</li>
+<li><strong>Chapter 2 — The Wizards Three (Sigil Sanctum)</strong>: meet Mordenkainen, Alustriel, Tasha (+ Kaelen). Quest: <strong>Rod of Seven Parts</strong>; research to undo Vecna’s changes.</li>
+<li><strong>Chapter 2 — Web’s Edge (Underdark)</strong>: Rod piece #1; Kas appears; Ehud cuts off Kas’ left arm; Mordenkainen tension (“sticks incident”).</li>
+<li><strong>Chapter 3 — Lambent Zenith (Astral Sea)</strong>: death slaad Ilren; Akilles plane-shifted away → Cyre 1313.</li>
+<li><strong>Side quest — Cyre 1313 (Eberron)</strong>: Akilles learns about the Mourning Rail; meets Starrin d’Cannith; exits via Hall of Concordance (Sigil).</li>
+<li><strong>Chapter 3 — Lambent Zenith (Parts 2–3)</strong>: Rod piece #2; Akilles notices reality disruption → later becomes the Lady of Pain maze hook.</li>
+<li><strong>Chapter 4 — Ruined Colossus (Eberron)</strong>: Rod piece #3 from Landro; Kalyth & Mercy stay behind; Landro’s explosion triggered.</li>
+<li><strong>Chapter 5 — Death House (Barovia)</strong>: Rod piece #4; Ulmist Inquisition (Sarusanda); Priests of Osybus serve Kas; Jimothy gets Mist Talisman.</li>
+<li><strong>Side quest — Lady of Pain’s Maze (Sigil)</strong>: Jimothy receives Crown of Lies; Ehud sacrifices himself to free the Lady; ripple effects begin.</li>
+</ul>
+</div>
+<div class="card highlight">
+<h4>Current status</h4>
+<ul>
+<li><strong>Rod of Seven Parts:</strong> 4/7 pieces</li>
+<li><strong>Obelisks:</strong> 1 attuned (Ythryn)</li>
+<li><strong>Next likely path:</strong> Waterdeep (Market → Castle → Aldar) then Silverymoon</li>
+</ul>
+</div>
+<p style="font-size:.82rem;color:var(--text2)">Source: campaign summary PDFs + session notes. This page is meant to be a quick refresher, not exhaustive.</p>
+</div>
+
 <!-- ==================== INITIATIVE TRACKER ==================== -->
 <div class="page" id="page-initiative">
 <h2>⏱️ Initiative Tracker</h2>
@@ -1636,6 +1669,47 @@ function exportNotes(){
 const blob=new Blob([notesArea.value],{type:'text/plain'});
 const a=document.createElement('a');a.href=URL.createObjectURL(blob);
 a.download='session-notes-'+new Date().toISOString().slice(0,10)+'.txt';a.click();
+}
+
+function findInPage(){
+  const q=prompt('Find in current page (case-insensitive):');
+  if(!q) return;
+  const page=document.querySelector('.page.active');
+  if(!page) return;
+  // clear previous highlights
+  page.querySelectorAll('mark.oc-find').forEach(m=>{
+    const t=document.createTextNode(m.textContent);
+    m.replaceWith(t);
+  });
+  const re=new RegExp(q.replace(/[.*+?^${}()|[\]\]/g,'\\$&'),'gi');
+  const walker=document.createTreeWalker(page, NodeFilter.SHOW_TEXT, {
+    acceptNode(node){
+      if(!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+      if(node.parentElement && ['SCRIPT','STYLE','MARK'].includes(node.parentElement.tagName)) return NodeFilter.FILTER_REJECT;
+      return re.test(node.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+    }
+  });
+  const nodes=[];
+  while(walker.nextNode()) nodes.push(walker.currentNode);
+  nodes.forEach(n=>{
+    const frag=document.createDocumentFragment();
+    let s=n.nodeValue; let last=0;
+    s.replace(re,(match,offset)=>{
+      frag.appendChild(document.createTextNode(s.slice(last,offset)));
+      const mark=document.createElement('mark');
+      mark.className='oc-find';
+      mark.style.background='rgba(255,62,137,.25)';
+      mark.style.color='inherit';
+      mark.textContent=match;
+      frag.appendChild(mark);
+      last=offset+match.length;
+      return match;
+    });
+    frag.appendChild(document.createTextNode(s.slice(last)));
+    n.parentNode.replaceChild(frag,n);
+  });
+  const first=page.querySelector('mark.oc-find');
+  if(first) first.scrollIntoView({behavior:'smooth',block:'center'});
 }
 
 // ==================== KEYBOARD SHORTCUTS ====================
