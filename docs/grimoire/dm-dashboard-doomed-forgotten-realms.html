@@ -1850,7 +1850,7 @@ function findInPage(){
     const t=document.createTextNode(m.textContent);
     m.replaceWith(t);
   });
-  const re=new RegExp(q.replace(/[.*+?^${}()|[\]\]/g,'\\$&'),'gi');
+  const re=new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi');
   const walker=document.createTreeWalker(page, NodeFilter.SHOW_TEXT, {
     acceptNode(node){
       if(!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
