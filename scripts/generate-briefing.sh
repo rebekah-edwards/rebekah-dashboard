@@ -34,12 +34,11 @@ echo "Generating $PERIOD briefing for $DATE_LOCAL…"
 xai_responses() {
   local query="$1"
   local payload
-  payload=$(python3 - <<PY
-import json
-query = ${query@Q}
+  payload=$(QUERY="$query" python3 - <<'PY'
+import json, os
 payload = {
   "model": "grok-4-1-fast-reasoning",
-  "input": [{"role": "user", "content": query}],
+  "input": [{"role": "user", "content": os.environ.get("QUERY", "")}],
   "tools": [{"type": "web_search"}, {"type": "x_search"}],
 }
 print(json.dumps(payload))
@@ -157,7 +156,7 @@ PY
 cd "$DASHBOARD_DIR"
 git add data scripts/generate-briefing.sh
 
-git commit -m "Briefing: fix generator + no-repeat seen ledger" 2>/dev/null || true
+git commit -m "Briefing: fix xai payload generation" 2>/dev/null || true
 
 git push origin main 2>/dev/null || echo "Push failed (check git credentials)"
 
