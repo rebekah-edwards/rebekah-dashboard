@@ -1,6 +1,443 @@
 {
   "date": "2026-03-02",
   "period": "morning",
-  "generated": "2026-03-02T15:38:41Z",
-  "items": []
+  "generated": "2026-03-02T15:52:44Z",
+  "items": [
+    {
+      "title": "Google's Discover Core Update Finishes Rolling Out",
+      "summary": "Google's February Discover core update, the first publicly labeled as such, completed its 22-day rollout on February 27, 2026, after starting on February 5, aiming to boost locally relevant content, reduce clickbait, and prioritize in-depth original material from expert sites. Early data indicates increased regional personalization, fewer domains in top placements (e.g., US unique domains dropped from 172 to 158), and more topic variety amid shrinking publisher diversity, with X.com institutional posts rising in US top 100. Site owners should compare Search Console data post-update after at least a week and monitor for ongoing expansions to all countries/languages.",
+      "url": "https://www.searchenginejournal.com/googles-discover-core-update-finishes-rolling-out/568413",
+      "source": "Search Engine Journal",
+      "tags": [
+        "Google Discover",
+        "Core Update",
+        "SEO",
+        "Content Quality"
+      ],
+      "x_urls": [
+        "https://x.com/digimrktr1/status/2027655314372210793",
+        "https://x.com/digimrktr1/status/2027655312690266120"
+      ],
+      "id": "6b68419afd9c2c60",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:49:50Z"
+    },
+    {
+      "title": "Google AI Overviews Surges Across 9 Industries",
+      "summary": "BrightEdge research indicates a 58% growth in AI Overviews (AIO) coverage over the past year, now triggering on nearly half of all queries across industries like healthcare (88%), education (83%), and restaurants (78%), while classic organic search results still dominate 52% of queries. AIO visually dominates search pages by occupying over 1,200 pixels and citing sources that overlap only 17% with top 10 organic rankings. Site owners should focus on conversational content to address gaps in high-growth sectors and ensure visibility beyond traditional rankings.",
+      "url": "https://www.searchenginejournal.com/google-ai-overviews-surges-across-9-industries/568448",
+      "source": "Search Engine Journal",
+      "tags": [
+        "AI Overviews",
+        "AI Search",
+        "SEO",
+        "GEO"
+      ],
+      "x_urls": [
+        "https://x.com/OSDDigital/status/2027307900683649151",
+        "https://x.com/CharlesNobleSEO/status/2027048244719784025",
+        "https://x.com/SeCoFlowAI/status/2027670126233797105"
+      ],
+      "id": "1bf59585e89a736c",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:49:50Z"
+    },
+    {
+      "title": "March 2026 Google Webmaster Report: Google Discover Update, Listicles, Serving Bug & More",
+      "summary": "This report recaps major Google updates from February 2026, including the first Google Discover core update that rolled out over three weeks and finished last Friday, alongside ongoing search ranking volatility with no official insights from Google. It highlights potential hits on self-promotional listicles sites, a brief serving bug, and updates to file size limits causing confusion, all impacting SEO by emphasizing content quality and crawl efficiency. Site owners should monitor Search Console's new AI-powered configuration tool and avoid forcing page indexing or serving 'not available' via JavaScript.",
+      "url": "https://www.seroundtable.com/march-2026-google-webmaster-report-41012.html",
+      "source": "Search Engine Roundtable",
+      "tags": [
+        "Google Updates",
+        "Discover",
+        "SEO Tools",
+        "Webmaster Report"
+      ],
+      "x_urls": [
+        "https://x.com/CharlesNobleSEO/status/2025992944910782802"
+      ],
+      "id": "52f450c14b417bf6",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:49:50Z"
+    },
+    {
+      "title": "4 strategic paid search pivots to survive Google\u2019s AI Overviews",
+      "summary": "Google\u2019s AI Overviews are reducing paid CTR by up to 68% and increasing CPCs through inventory compression, while compressing buyer journeys and shrinking retargeting pools, impacting SEO by lowering organic traffic and content marketing by diminishing brand awareness. Key impacts include higher conversion rates in some industries due to pre-qualification of high-intent users, but severe declines in non-branded informational queries. Advice includes monitoring informational intent performance, prioritizing feed quality for Shopping campaigns, crafting differentiating ad creatives, and embracing first-party audience data.",
+      "url": "https://searchengineland.com/paid-search-pivots-google-ai-overviews-470193",
+      "source": "Search Engine Land",
+      "tags": [
+        "AI Overviews",
+        "Paid Search",
+        "SEO",
+        "Content Marketing"
+      ],
+      "x_urls": [
+        "https://x.com/OSDDigital/status/2027307900683649151"
+      ],
+      "id": "b5e1ab36c708af6a",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:49:50Z"
+    },
+    {
+      "title": "Measuring Content Marketing in the AI Age, Part 1: The Audience Trust Index",
+      "summary": "This article argues that AI has devalued attention as a content marketing metric by collapsing information scarcity, shifting measurement from attention-based metrics to the Audience Trust Index (ATI), evaluating audience relationships through empathy, value, and trust. It emphasizes that trust now drives B2B success, with research showing relational health explains 54% of long-term performance, urging site owners to treat audiences as financial assets. The series will cover operationalizing ATI, replacing the traditional funnel, and using agentic CRM for real-time measurement.",
+      "url": "https://contentmarketinginstitute.com/measurement-optimization/audience-trust-index",
+      "source": "Content Marketing Institute",
+      "tags": [
+        "Content Marketing",
+        "AI Search",
+        "Trust Metrics",
+        "AEO"
+      ],
+      "x_urls": [
+        "https://x.com/SkuzaAI/status/2025990670201114704"
+      ],
+      "id": "e72de07e42431aff",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:49:50Z"
+    },
+    {
+      "title": "Google Search Ranking Volatility Heated Into March",
+      "summary": "Google Search rankings have continued to experience high volatility into March 2026, with daily updates likely consisting of smaller core updates that Google does not comment on, impacting SEO by causing ongoing fluctuations in search positions. This follows the February 2026 Google Discover Core Update, which started on February 5 and completed on February 27, yet volatility persisted without significant cooling. Site owners should monitor tools like Semrush, Mozcast for ranking changes and prepare for potential traffic shifts.",
+      "url": "https://www.seroundtable.com/google-search-ranking-volatility-heat-march-41014.html",
+      "source": "Search Engine Roundtable",
+      "tags": [
+        "Google Updates",
+        "Search Volatility",
+        "SEO"
+      ],
+      "x_urls": [
+        "https://x.com/PerspectivezAI/status/2027074953242091542"
+      ],
+      "id": "945d9222a060a210",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:49:50Z"
+    },
+    {
+      "title": "Book Deals: Week of March 2, 2026",
+      "summary": "Publishers Weekly reports several notable book acquisitions, including Little, Brown securing North American rights to Chad Harbach's sophomore novel The Brightness for an October release. Random House won a two-book deal at auction for Chantal V. Johnson's Jackie Loves Boom-Boom, while Podium acquired five books in Heather Gay's Bad Mormons thriller series. Other deals feature debuts and established authors like Harlan Coben and Taylor Sheridan.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/book-deals/article/99792-book-deals-week-of-march-2-2026.html",
+      "source": "Publishers Weekly",
+      "tags": [
+        "major contracts",
+        "publishing deals"
+      ],
+      "x_urls": [
+        "https://x.com/gomanga/status/2028255092109906135"
+      ],
+      "id": "87c11d5866195be1",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:50:56Z"
+    },
+    {
+      "title": "International Booker Prize Reveals 2026 Longlist",
+      "summary": "The 2026 International Booker Prize longlist includes 13 translated fiction works from 11 languages and 14 nationalities, selected from 128 submissions. Notable titles feature The Nights Are Quiet in Tehran by Shida Bazyar, The Duke by Matteo Melchiorre, and She Who Remains by Rene Karabash, exploring themes of history, gender, and power. The shortlist will be announced in April, with the winner receiving \u00a350,000.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/99767-international-booker-prize-reveals-2026-longlist.html",
+      "source": "Publishers Weekly",
+      "tags": [
+        "awards",
+        "international publishing",
+        "translated fiction"
+      ],
+      "x_urls": [],
+      "id": "09629b7af75b10ee",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:50:56Z"
+    },
+    {
+      "title": "Will AI Help or Hinder Scientific Publishing?",
+      "summary": "Artificial intelligence aids scientific publishing by assisting non-native English speakers with writing, editing, and peer review, improving efficiency and accessibility. However, concerns include AI hallucinations, plagiarism risks, biases favoring prominent institutions, and potential data fabrication. Journals now require AI disclosure, human oversight, and bans on AI co-authorship or image manipulation.",
+      "url": "https://undark.org/2026/02/25/ai-scientific-publishing",
+      "source": "Undark Magazine",
+      "tags": [
+        "AI",
+        "controversy",
+        "scientific publishing",
+        "ethics"
+      ],
+      "x_urls": [
+        "https://x.com/lukOlejnik/status/2025622180105777338"
+      ],
+      "id": "8e67f44333e1a3df",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:50:56Z"
+    },
+    {
+      "title": "Theft, feedback loops and ecological red flags: Capital Region writers face a new reality with AI",
+      "summary": "Capital Region writers confront AI training on their works without permission, as in lawsuits against Anthropic for scraping books, devaluing human creativity. AI hallucinations and feedback loops flood markets with low-quality self-published content, challenging journalists and authors. Data centers' high water use adds environmental concerns to publishing disruptions.",
+      "url": "https://sacramento.newsreview.com/2026/03/02/theft-feedback-loops-and-ecological-red-flags-capital-region-writers-face-a-new-reality-with-ai",
+      "source": "Sacramento News & Review",
+      "tags": [
+        "AI",
+        "controversy",
+        "writing",
+        "publishing",
+        "copyright"
+      ],
+      "x_urls": [
+        "https://x.com/BelleMarsT/status/2028257383906972059"
+      ],
+      "id": "d44d328d09ded8fb",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:50:56Z"
+    },
+    {
+      "title": "This Week\u2019s Bestsellers: March 2, 2026",
+      "summary": "Kate Quinn\u2019s historical novel with magical realism debuts at #2 on hardcover fiction, while Heather Fawcett\u2019s cozy fantasy hits the list. YA romantasy by Rachel Griffin charts on children\u2019s fiction, and Mel Robbins\u2019s self-help endures strong sales. Gis\u00e8le Pelicot\u2019s memoir A Hymn to Life enters nonfiction amid notable debuts.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/99805-this-week-s-bestsellers-march-2-2026.html",
+      "source": "Publishers Weekly",
+      "tags": [
+        "bestsellers",
+        "major releases"
+      ],
+      "x_urls": [],
+      "id": "08395a54bc244f50",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:50:56Z"
+    },
+    {
+      "title": "Editors suspect that reviewers are using artificial intelligence",
+      "summary": "Editors note a rise in AI-generated peer reviews that are detailed yet inaccurate, citing non-existent manuscript issues and detected over 80% AI content. This violates policies allowing only minor AI use with disclosure, causing delays as reviewers deny usage. Publishing ethics demand clearer guidelines, disclosure, and reliance on human expertise.",
+      "url": "https://publicationethics.org/guidance/case/editors-suspect-reviewers-are-using-artificial-intelligence",
+      "source": "Committee on Publication Ethics (COPE)",
+      "tags": [
+        "AI",
+        "controversy",
+        "peer review",
+        "editing ethics"
+      ],
+      "x_urls": [],
+      "id": "891c1eb29a5f2de4",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:50:56Z"
+    },
+    {
+      "title": "WI2026: Booksellers Rally, Authors Stick the Landing",
+      "summary": "At Winter Institute 2026, authors Xochitl Gonzalez, Marlon James, Min Jin Lee, and Colson Whitehead discussed historical novels set pre-2008, emphasizing research into Jamaica, Korea, and Brooklyn. Booksellers criticized ABA's virtual town hall shift and media access limits to safety sessions. Keynotes highlighted character-driven stories amid industry discussions.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/99779-wi2026-booksellers-rally-authors-stick-the-landing.html",
+      "source": "Publishers Weekly",
+      "tags": [
+        "publishing event",
+        "authors",
+        "booksellers",
+        "traditional storytelling"
+      ],
+      "x_urls": [
+        "https://x.com/PublishersWkly/status/2026688653972382132"
+      ],
+      "id": "fb9329b84f8e535e",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:50:56Z"
+    },
+    {
+      "title": "Woke Disney under fire for divisive 'Captain Durag' cartoon character",
+      "summary": "Disney Jr.'s 'Hey AJ!' introduced Captain Durag, a Black superhero whose durag serves as both cape and mask, prompting backlash from viewers who deemed it stereotypical, tone-deaf, and offensive amid Black History Month. Social media users expressed outrage, leading Disney to remove related clips from YouTube. The Black creator defended the character as a celebration of Black culture and imagination.",
+      "url": "https://nypost.com/2026/02/21/us-news/woke-disney-under-fire-for-divisive-captain-durag-cartoon-character/",
+      "source": "New York Post",
+      "tags": [
+        "Disney",
+        "cartoon",
+        "backlash",
+        "stereotypes"
+      ],
+      "x_urls": [
+        "https://x.com/nypost/status/2025208252749770968"
+      ],
+      "id": "1aeec31baacdba46",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:51:54Z"
+    },
+    {
+      "title": "BAFTA Says a \u2018Comprehensive Review Is Underway\u2019 Over Film Awards N-Word Incident",
+      "summary": "During the BAFTA Film Awards, Tourette\u2019s syndrome activist John Davidson involuntarily shouted the N-word and other slurs while Michael B. Jordan and Delroy Lindo presented, with the incident aired on BBC. BAFTA issued an apology to affected parties, including the presenters, and announced a comprehensive review to address the harm caused despite efforts to inform the audience. The controversy has sparked debates on inclusion, broadcasting ethics, and support for those with the condition.",
+      "url": "https://variety.com/2026/film/awards/bafta-comprehensive-review-awards-n-word-incident-1236671404/",
+      "source": "Variety",
+      "tags": [
+        "BAFTA",
+        "film awards",
+        "controversy",
+        "N-word",
+        "Tourette's"
+      ],
+      "x_urls": [
+        "https://x.com/WingsScotland/status/2028404929098924474",
+        "https://x.com/Shopgirl1776/status/2028487645756809371"
+      ],
+      "id": "23e65069783fcd8e",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:51:54Z"
+    },
+    {
+      "title": "Protesters Gather at 'Scream 7' Premiere After Melissa Barrera Fired",
+      "summary": "Pro-Palestinian activists protested outside the Scream 7 premiere, calling for a boycott in support of fired star Melissa Barrera over her pro-Palestine social media posts. The demonstration highlighted ongoing fan divisions and demands to skip the film. Tensions escalated with cast member Anna Camp facing backlash for mocking the boycotters online.",
+      "url": "https://variety.com/2026/film/news/protest-scream-7-premiere-melissa-barrera-paramount-1236673201",
+      "source": "Variety",
+      "tags": [
+        "Scream 7",
+        "boycott",
+        "protests",
+        "film controversy"
+      ],
+      "x_urls": [
+        "https://x.com/BuzzFeed/status/2028489002945331264",
+        "https://x.com/BuzzFeedOz/status/2028498091335119347"
+      ],
+      "id": "70ccaaac83387e14",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:51:54Z"
+    },
+    {
+      "title": "'Star Trek: Starfleet Academy' Fan Backlash Explained",
+      "summary": "Star Trek: Starfleet Academy has faced significant fan backlash, with accusations of being 'woke' due to casting choices, storyline alterations, and perceived emphasis on modern political themes. Critics have review-bombed the series, claiming it deviates from franchise traditions. Defenders argue it aligns with Star Trek's history of progressive storytelling.",
+      "url": "https://www.themarysue.com/star-trek-starfleet-academy-fan-backlash-explained",
+      "source": "The Mary Sue",
+      "tags": [
+        "Star Trek",
+        "TV series",
+        "backlash",
+        "woke"
+      ],
+      "x_urls": [
+        "https://x.com/bobbyr75/status/2028044414640173165",
+        "https://x.com/jimUnwoke/status/2028493928769450145"
+      ],
+      "id": "60ad3df3eaffacd0",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:51:54Z"
+    },
+    {
+      "title": "Anna Camp Faces Backlash for Mocking 'Scream 7' Boycott",
+      "summary": "Scream 7 actress Anna Camp drew criticism for sharing an Instagram post ridiculing boycotters protesting Melissa Barrera's firing, with fans calling it distasteful and insensitive. She later apologized, but her response intensified the backlash. The incident underscores the persistent controversy surrounding the film's production decisions.",
+      "url": "https://www.buzzfeed.com/stephaniesoteriou/anna-camp-backlash-scream-7-boycott-melissa-barrera",
+      "source": "BuzzFeed",
+      "tags": [
+        "Scream 7",
+        "actress backlash",
+        "boycott",
+        "social media"
+      ],
+      "x_urls": [
+        "https://x.com/BuzzFeedCeleb/status/2028490267360133364",
+        "https://x.com/BuzzFeedLGBTQ/status/2028490521857990985"
+      ],
+      "id": "4671f25ea24119e8",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:51:54Z"
+    },
+    {
+      "title": "Wunmi Mosaku slams BBC at Actor Awards after BAFTA N-word controversy",
+      "summary": "At the Actor Awards, Sinners star Wunmi Mosaku condemned the BBC for broadcasting a Tourette's-induced N-word outburst from the BAFTAs, describing it as painful and exploitative for Black audiences worldwide. She has no ill will toward the individual involved but called for BAFTA to improve handling of such incidents. The Sinners cast, including affected presenters, won awards amid the ongoing fallout.",
+      "url": "https://ew.com/wunmi-mosaku-slams-bbc-bafta-n-word-controversy-11916207",
+      "source": "Entertainment Weekly",
+      "tags": [
+        "BAFTA",
+        "Actor Awards",
+        "N-word controversy",
+        "BBC"
+      ],
+      "x_urls": [],
+      "id": "43db1aa6f0927e79",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:51:54Z"
+    },
+    {
+      "title": "AI Agents For Business Are Creating A Gap Few Companies See Coming",
+      "summary": "AI agents are accelerating businesses by automating tasks, speeding up processes, and enabling innovation, with 64% of surveyed businesses reporting enhanced innovation and 39% noting measurable revenue gains. Small businesses like a family-owned tea shop are using tools such as OpenClaw to manage inventory, ordering, and vendor communications, saving an estimated $50,000 annually. However, risks including data leakage exist, requiring safeguards like human oversight.",
+      "url": "https://www.forbes.com/sites/annegriffin/2026/02/25/4-businesses-adopting-ai-agents-to-transform-how-they-operate",
+      "source": "Forbes",
+      "tags": [
+        "AI agents",
+        "small business",
+        "automation"
+      ],
+      "x_urls": [],
+      "id": "a3726842fcdbd9ba",
+      "section": "business",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:52:44Z"
+    },
+    {
+      "title": "Read AI launches an email-based 'digital twin' to help you with schedules and answers",
+      "summary": "Read AI has launched Ada, an AI-powered email-based digital twin that manages schedules by finding meeting times and responding to availability without revealing calendar details. It answers questions using company knowledge bases, prior meetings, and web searches, automating routine tasks like out-of-office replies. This tool helps businesses save time on administrative work while maintaining privacy.",
+      "url": "https://techcrunch.com/2026/02/26/read-ai-launches-an-email-based-digital-twin-to-help-you-with-schedules-and-answers",
+      "source": "TechCrunch",
+      "tags": [
+        "digital twin",
+        "AI assistant",
+        "productivity"
+      ],
+      "x_urls": [],
+      "id": "4d966e919ebd6cca",
+      "section": "business",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:52:44Z"
+    },
+    {
+      "title": "Perplexity's new Computer is another bet that users need many AI models",
+      "summary": "Perplexity Computer is a new agentic tool for subscribers that executes complex workflows using 19 AI models, creating subagents for tasks like data collection, analysis, and generating websites or visualizations. It automatically selects the best model for coding, visuals, or research, aiding enterprise deep research and decision-making. This multi-model orchestration represents a meaningful advance in AI platforms for business users.",
+      "url": "https://techcrunch.com/2026/02/27/perplexitys-new-computer-is-another-bet-that-users-need-many-ai-models",
+      "source": "TechCrunch",
+      "tags": [
+        "AI agent",
+        "multi-model",
+        "platform update"
+      ],
+      "x_urls": [],
+      "id": "f0160ebb38afe2b9",
+      "section": "business",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:52:44Z"
+    },
+    {
+      "title": "How Agentic AI Will Transform Consumer-Driven Companies in 2026",
+      "summary": "Agentic AI is shifting to autonomous systems executing multi-step actions across shopping journeys, adopted by retailers like Walmart and beneficial for small businesses with nearly 60% usage leading to sales growth. Small businesses embracing AI outpace competitors, but must optimize for answer engine optimization with AI-friendly product descriptions. This represents a key platform shift impacting small and consumer businesses.",
+      "url": "https://www.uschamber.com/co/good-company/launch-pad/agentic-ai-impact-consumer-business-2026",
+      "source": "US Chamber of Commerce",
+      "tags": [
+        "agentic AI",
+        "consumer business",
+        "small business impact"
+      ],
+      "x_urls": [],
+      "id": "874ba1c2b0696e13",
+      "section": "business",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:52:44Z"
+    },
+    {
+      "title": "Everyone Is Freaking Out About AI Taking Jobs, But Mark Cuban Says Humans Still Win Because of This One Key Advantage",
+      "summary": "Mark Cuban argues AI won't fully replace jobs soon due to higher costs and lack of human foresight in context and consequences. He urges learning to implement AI for small businesses as a critical skill to stay competitive. This highlights AI's practical impact and opportunities for small business owners.",
+      "url": "https://finance.yahoo.com/news/everyone-freaking-ai-taking-jobs-030105007.html",
+      "source": "Yahoo Finance",
+      "tags": [
+        "AI skills",
+        "small business",
+        "job impact"
+      ],
+      "x_urls": [],
+      "id": "67631c54192e8e93",
+      "section": "business",
+      "period": "morning",
+      "timestamp": "2026-03-02T15:52:44Z"
+    }
+  ]
 }
