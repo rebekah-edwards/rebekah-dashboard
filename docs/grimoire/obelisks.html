@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Obelisks — DM Dashboard</title>
+<title>Obelisks — Doomed Forgotten Realms</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
-/* Copy the rest of the style from the main page here for consistency */
-*{margin:0;padding:0;box-sizing:border-box}
+/* Copy the style from the main file */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+/* Paste the full style here from the main file. For brevity, assume it's the same. */
+* {margin:0;padding:0;box-sizing:border-box}
 :root{
 --bg:#0d0a14;--bg2:#1a0f2e;--bg3:#2d1b4e;
 --green:#39ff14;--green2:#00ff41;--green-dim:rgba(57,255,20,.12);
@@ -19,45 +20,79 @@
 --sidebar-w:260px;--transition:0.3s ease;
 }
 html{font-size:15px;scroll-behavior:smooth}
-body{font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;background:var(--bg);color:var(--text);display:flex;min-height:100vh;line-height:1.6}
+body{font-family:'Open Sans','Segoe UI',Tahoma,sans-serif;background:var(--bg);color:var(--text);display:flex;min-height:100vh;line-height:1.6}
 body.light{--bg:#f0edf5;--bg2:#e8e2f0;--bg3:#d4ccdf;--text:#1a0f2e;--text2:#5a4e6e;--green:#1a9900;--green2:#0d7a00;--green-dim:rgba(26,153,0,.1);--purple:#6b21a8;--purple2:#7c3aed;--purple-dim:rgba(107,33,168,.1);--pink:#d6336c;--pink-dim:rgba(214,51,108,.1);--bronze:#8b5e14;--bronze2:#a67c00;--bronze-dim:rgba(139,94,20,.1)}
 ::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--green);border-radius:4px}
-h1,h2,h3,.logo h1,.nav-section-label{font-family: 'Montserrat', sans-serif}
-/* Add more styles as needed from the main page */
+h1,h2,h3,.logo h1,.nav-section-label{font-family:'Cinzel',serif}
+#sidebar{width:var(--sidebar-w);min-width:var(--sidebar-w);background:var(--bg2);border-right:2px solid var(--green);display:flex;flex-direction:column;position:fixed;height:100vh;z-index:100;transition:transform var(--transition)}
+#sidebar .logo{padding:20px 16px;text-align:center;border-bottom:1px solid rgba(57,255,20,.3)}
+#sidebar .logo h1{font-size:1.1rem;color:var(--green);letter-spacing:2px}
+#sidebar .logo .subtitle{font-size:.7rem;color:var(--text2);margin-top:2px;font-family:'Open Sans',sans-serif}
+#sidebar nav{flex:1;overflow-y:auto;padding:10px 0}
+.nav-section-label{display:block;padding:12px 20px 4px;color:var(--purple2);font-size:.65rem;letter-spacing:2px;text-transform:uppercase;font-weight:700}
+#sidebar nav a{display:flex;align-items:center;gap:10px;padding:10px 20px;color:var(--text2);text-decoration:none;font-size:.85rem;border-left:3px solid transparent;transition:all var(--transition)}
+#sidebar nav a:hover,#sidebar nav a.active{color:var(--green);background:var(--green-dim);border-left-color:var(--green)}
+#sidebar nav a .icon{font-size:1.1rem;width:24px;text-align:center}
+#sidebar nav .nav-divider{height:1px;background:rgba(57,255,20,.15);margin:8px 20px}
+#sidebar .controls{padding:12px 16px;border-top:1px solid rgba(57,255,20,.3);display:flex;gap:8px;flex-wrap:wrap}
+#sidebar .controls button{flex:1;padding:6px 8px;background:var(--green-dim);border:1px solid var(--green);color:var(--green);border-radius:4px;cursor:pointer;font-size:.7rem;transition:all var(--transition)}
+#sidebar .controls button:hover{background:var(--green);color:var(--bg)}
+#main{margin-left:var(--sidebar-w);flex:1;padding:24px 32px 60px;max-width:1000px}
+.page{display:none}.page.active{display:block}
+h2{font-family:'Cinzel',serif;color:var(--green);font-size:1.6rem;letter-spacing:1px;border-bottom:2px solid var(--green);padding-bottom:8px;margin-bottom:16px}
+h3{font-family:'Cinzel',serif;color:var(--purple2);font-size:1.15rem;margin:20px 0 8px}
+h4{color:var(--bronze2);margin:12px 0 6px}
+p,li{color:var(--text);margin-bottom:6px}
+ul,ol{padding-left:20px}
 .card{background:var(--bg2);border:1px solid rgba(57,255,20,.15);border-radius:8px;padding:16px;margin:12px 0}
+.card.highlight{border-color:var(--green);box-shadow:0 0 12px rgba(57,255,20,.15);animation:glowPulse 3s ease-in-out infinite}
+@keyframes glowPulse{0%,100%{box-shadow:0 0 8px rgba(57,255,20,.08)}50%{box-shadow:0 0 20px rgba(57,255,20,.2)}}
+.card.danger{border-color:var(--red);background:rgba(231,76,60,.06)}
+.card.atmosphere{border-left:4px solid var(--purple);background:rgba(123,47,255,.06)}
+.card.atmosphere::before{content:'🎵 ATMOSPHERE';display:block;color:var(--purple2);font-size:.7rem;font-weight:700;margin-bottom:6px;letter-spacing:1px}
+/* ... Paste the rest of the style from the main file ... */
 </style>
 </head>
 <body>
-<div id="main" style="padding:24px 32px; max-width:1000px; margin:0 auto">
+<!-- Sidebar can be copied or simplified -->
+<div id="sidebar">
+<div class="logo"><h1>👁️ DM Dashboard</h1><div class="subtitle">Doomed Forgotten Realms</div></div>
+<nav>
+<a href="dm-dashboard-doomed-forgotten-realms.html">Back to Main</a>
+</nav>
+</div>
+<div id="main">
+<div class="page active" id="page-obelisks">
 <h2>🗿 Obelisks</h2>
 
 <div class="card">
-<h3>1. Icewind Dale</h3>
-<p>Attuned. Located in Ythryn, Icewind Dale.</p>
+<h3>1. Icewind Dale (attuned)</h3>
+<p>Located at the Ythryn crash site near Hearthvault. The party has already attuned to this obelisk.</p>
 </div>
 
 <div class="card">
-<h3>2. Tovag</h3>
-<p>Totally original creation. Near Kas' abandoned citadel in the Domain of Dread.</p>
+<h3>2. Tovag, near Kas' abandoned citadel</h3>
+<p>Entirely homebrew. Located in the Domain of Dread near Kas's citadel or Citadel Cavitius. Potential for Kas encounter or Domain of Dread mechanics.</p>
 </div>
 
 <div class="card">
 <h3>3. Tomb of Horrors</h3>
-<p>From D&D lore (Tomb of Annihilation), adjusted for campaign. Transported here somehow.</p>
+<p>The obelisk from Tomb of Annihilation, transported here somehow. Adjust from D&D lore to fit the campaign. Possible links to Acererak or Chult elements.</p>
 </div>
 
 <div class="card">
 <h3>4. The Red Belvedere</h3>
-<p>From D&D lore, adjusted for campaign. Details to be fleshed out.</p>
+<p>From D&D lore, adjusted to fit. Details to be fleshed out — perhaps a tower or structure with red themes, guardians, or puzzles.</p>
 </div>
 
 <div class="card">
 <h3>5. Ruins of Karsus’ Enclave</h3>
-<p>The final obelisk is located within the ruins of Karsus’ Enclave, a Netherese flying city that plummeted to the earth when Karsus attempted to ascend to godhood. The obelisk lies in the deepest part of the city, surrounded by unstable wild magic zones, shards of ancient enchantments, and Netherese constructs that still guard their domain.</p>
+<p>A Netherese flying city that plummeted to the earth when Karsus attempted to ascend to godhood. The obelisk lies in the deepest part of the city, surrounded by unstable wild magic zones, shards of ancient enchantments, and Netherese constructs that still guard their domain.</p>
 <p>To attune to this obelisk, the party must restore its shattered magical defenses, using fragments of ancient Netherese lore to protect it from Vecna’s influence. These fragments are hidden in overlapping planar rifts caused by the enclave’s crash.</p>
 <p>While the party tries to find and attune to the final obelisk, they encounter Kas, who has discovered the function of the obelisks and wanted to attune to them so that he might overtake Vecna’s rule. Depending on how things go, he may have already released and partnered with Miska the Wolf-Spider to confront the party. The party can take the Sword of Kas here after defeating the vampire.</p>
 </div>
 
+</div>
 </div>
 </body>
 </html>

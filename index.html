@@ -389,15 +389,19 @@ function renderBriefing() {
 function renderCard(item) {
   const isSaved = savedItems[item.id];
   const time = new Date(item.timestamp).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  const headline = item.headline || item.title || '(untitled)';
+  const summary = item.summary || '';
   const tags = (item.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
+  const xLinks = (item.x_urls || []).slice(0,3).map((u, idx) => ` <a href="${u}" target="_blank" rel="noopener" class="card-source" style="font-weight:500">X${idx+1} ↗</a>`).join('');
   return `<div class="card">
     <div class="card-top">
       <div class="card-section-dot ${item.section}"></div>
       <div class="card-content">
-        <h4>${item.headline}</h4>
-        <p>${item.summary}</p>
+        <h4>${headline}</h4>
+        <p>${summary}</p>
         <div class="card-meta">
           <a href="${item.url}" target="_blank" rel="noopener" class="card-source">${item.source} ↗</a>
+          ${xLinks ? `<span class="card-time">|</span>${xLinks}` : ``}
           <span class="card-time">${time}</span>
           <div class="card-tags">${tags}</div>
         </div>
