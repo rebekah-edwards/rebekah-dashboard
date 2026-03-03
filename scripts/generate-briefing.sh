@@ -123,3 +123,9 @@ SEEN_FILE.write_text(json.dumps({'seenIds': sorted(seen_ids)}, indent=2))
 
 print(f"Wrote {len(items)} new items → {out}")
 PY
+
+# Commit and push data to GitHub so the dashboard updates
+cd "$DASHBOARD_DIR"
+git add data/current-briefing.json data/seen.json "data/briefing-$(date +%Y-%m-%d)-${PERIOD}.json" 2>/dev/null || true
+git commit -m "briefing: $(date +%Y-%m-%d) ${PERIOD} (auto)" --allow-empty 2>/dev/null || true
+git push 2>/dev/null || true
