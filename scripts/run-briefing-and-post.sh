@@ -10,6 +10,7 @@ DATA_DIR="$DASHBOARD_DIR/data"
 ENV_FILE="/Users/clankeredwards/.openclaw/.env"
 DISCORD_TARGET="channel:1471228309797998805"
 OPENCLAW="/opt/homebrew/bin/openclaw"
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
 if [ -f "$ENV_FILE" ]; then
   set -a
