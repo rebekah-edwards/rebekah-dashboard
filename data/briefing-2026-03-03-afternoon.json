@@ -1,296 +1,223 @@
 {
   "date": "2026-03-03",
   "period": "afternoon",
-  "generated": "2026-03-03T20:03:20Z",
+  "generated": "2026-03-03T20:17:55Z",
   "items": [
     {
       "title": "Straight From the (AI) Source: Is AEO/GEO different than SEO?",
-      "summary": "Insights from Google, Microsoft, and AI platforms show AEO/GEO builds directly on SEO foundations, emphasizing useful, original, crawlable content without spammy tactics. No major differences; strong SEO ensures visibility in AI Overviews and Copilot via retrieval-augmented generation. Focus remains on user-first practices rather than AI-specific hacks.",
+      "summary": "Google, Microsoft, and Perplexity state that AEO/GEO optimization mirrors traditional SEO: high-quality content, structured data, no spam. AI uses RAG grounded in search indexes, so good SEO covers AI visibility. Avoid shortcuts like content chunking to prevent penalties.",
       "url": "https://www.gsqi.com/marketing-blog/straight-from-the-ai-source-is-aeo-geo-different-than-seo",
-      "source": "GSQI",
+      "source": "GSQi",
       "tags": [
         "AEO",
         "GEO",
-        "SEO",
-        "AI Search"
+        "AI Search",
+        "SEO Best Practices"
       ],
-      "x_urls": [
-        "https://x.com/SEO/status/example-from-web12"
-      ],
-      "id": "b4ee9b042f5b462d",
+      "x_urls": [],
+      "id": "505bde0d69071874",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-03T20:00:43Z"
+      "timestamp": "2026-03-03T20:15:39Z"
     },
     {
-      "title": "Media Do Agrees to Buy Seven Seas Entertainment",
-      "summary": "Japan's Media Do International has agreed to acquire Seven Seas Entertainment, one of the largest independently owned manga publishers in North America. The deal, announced recently, aims to strengthen Media Do's position in the English-language manga market amid growing demand. This acquisition reflects ongoing consolidation in the publishing industry.",
-      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/industry-deals/article/99812-media-do-agrees-to-buy-seven-seas-entertainment.html",
-      "source": "Publishers Weekly",
+      "title": "Literary agents ban use of AI in book submissions",
+      "summary": "Several literary agencies, including Greene & Heaton, the Bright Agency, the Eve White Literary Agency, and Janklow & Nesbit, have updated their submission guidelines to ban the use of generative AI in cover letters, synopses, proposals, and manuscripts, rejecting such submissions due to the increasing prevalence of AI-generated content. The reasons cited include the risk of suppressing an author's unique voice and the ethical concerns surrounding AI's potential 'theft' of copyrighted material from writers to train models, as highlighted by lawsuits against companies like Anthropic, OpenAI, Meta, and Microsoft. This ban implies that authors must submit original work to be considered, potentially limiting access to assistance tools and emphasizing the industry's commitment to authentic human creativity.",
+      "url": "https://www.thetimes.com/article/literary-agents-ban-use-of-ai-in-book-submissions-t8mbrvz0l",
+      "source": "The Times",
       "tags": [
-        "major contracts",
-        "publishing acquisition",
-        "manga"
+        "AI controversy",
+        "publishing",
+        "literary agents"
       ],
       "x_urls": [],
-      "id": "db6bc18fafa7b170",
+      "id": "0577971c8d30256e",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-03T20:01:49Z"
+      "timestamp": "2026-03-03T20:16:39Z"
     },
     {
-      "title": "Rights Report: Week of February 23, 2026",
-      "summary": "Publishers Weekly details several new book acquisition deals from the week, including children's titles with North American rights sold to major houses like Macmillan. Agents brokered deals for publication in 2027 and later. The report showcases active deal-making in children's and young adult publishing.",
-      "url": "https://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/99761-rights-report-week-of-february-23-2026.html",
-      "source": "Publishers Weekly",
+      "title": "HATER FRIDAY | Mass-Generating Literary Slop: AI-Written Books",
+      "summary": "The opinion strongly opposes the influx of AI-written books in publishing, particularly in the romance genre, as exemplified by author Coral Hart who used AI to produce over 200 novels in 2025, many completed in just 45 minutes. Key arguments against AI books include their inability to capture human emotions, resulting in shallow and soulless content that relies on overused tropes and clich\u00e9s. Additionally, AI writing lacks subtlety, forces interpretations through blunt phrasing, plagiarizes common expressions, and produces trivial conflicts with no meaningful character development or depth.",
+      "url": "https://www.cornellsun.com/article/2026/02/hater-friday-mass-generating-literary-slop-ai-written-books",
+      "source": "Cornell Sun",
       "tags": [
-        "major contracts",
-        "children's books"
+        "AI controversy",
+        "AI-written books",
+        "publishing"
       ],
       "x_urls": [],
-      "id": "98a6a35d1ae0a02f",
+      "id": "8c84d6d4707427d3",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-03T20:01:49Z"
+      "timestamp": "2026-03-03T20:16:39Z"
     },
     {
-      "title": "JW Radford Signs Three-Book Publishing Deal with Poppy Grace Publishing",
-      "summary": "Author JW Radford has inked a three-book deal with Poppy Grace Publishing, marking a key milestone in their career. The first book under the agreement is slated for release by the end of the year. This contract highlights opportunities for emerging authors in niche publishing.",
-      "url": "https://www.freep.com/press-release/story/158864/jw-radford-signs-three-book-publishing-deal-with-poppy-grace-publishing",
-      "source": "Freep.com",
-      "tags": [
-        "major contracts"
-      ],
-      "x_urls": [],
-      "id": "7b1905425d08af32",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-03T20:01:49Z"
-    },
-    {
-      "title": "Romantasy & The Downfall Of BookTok",
-      "summary": "A Her Campus article argues that the romantasy boom, fueled by BookTok, is leading to the platform's decline due to oversaturation and quality concerns. It critiques popular titles like Fourth Wing amid community debates. The piece reflects tensions between viral trends and literary standards on BookTok.",
-      "url": "https://www.hercampus.com/school/u-conn/romantasy-and-the-downfall-of-booktok",
-      "source": "Her Campus",
+      "title": "BookTok Gets a Bad Rap",
+      "summary": "BookTok has received criticism for promoting derivative and trashy content, but it also features high-quality books like 'One of Us Is Lying' by Karen M. McManus, a thriller blending elements of 'The Breakfast Club' and 'Sherlock Holmes,' and 'All the Bright Places' by Jennifer Niven, which maturely explores teenage trauma. The platform has driven trends such as the rise of Romantasy, estimated to have earned $610 million, and boosted authors like Colleen Hoover to bestseller status through social media buzz. Despite controversies over unoriginal works, BookTok's recommendations have led to discoveries of engaging young adult stories, encouraging deeper exploration beyond surface-level judgments.",
+      "url": "https://nyctastemakers.com/booktok-gets-a-bad-rap",
+      "source": "NYCTastemakers",
       "tags": [
         "BookTok",
-        "romantasy",
-        "controversy"
+        "publishing trends",
+        "romantasy"
       ],
       "x_urls": [],
-      "id": "819bc6efdd57437a",
+      "id": "7e1a45ac892e25e7",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-03T20:01:49Z"
-    },
-    {
-      "title": "New Self-Publishing Podcast Examines Controversy Surrounding AI-Generated Romance Novels",
-      "summary": "Alliance of Independent Authors (ALLi) releases a podcast where Dan Holloway analyzes a New York Times report on AI-generated romance novels dominating self-publishing platforms. The discussion covers the explosion of low-effort AI books and their threat to human authors. It sparks wider debate on AI's role in writing and publishing.",
-      "url": "https://www.facebook.com/AllianceIndieAuthors/posts/1358208396351115",
-      "source": "Alliance of Independent Authors",
-      "tags": [
-        "AI controversies",
-        "self-publishing",
-        "romance",
-        "writing"
-      ],
-      "x_urls": [
-        "https://x.com/Ura_Jae/status/2028470807249248342"
-      ],
-      "id": "4f5736f4af46b4d4",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-03T20:01:49Z"
-    },
-    {
-      "title": "Publisher Terminates $45 Million Contract with Donald Trump",
-      "summary": "Simon & Schuster has terminated Donald Trump's $45 million book deal after years of missed deadlines and no manuscript delivery. Warren Buffett speaks out on the high-profile publishing fallout. The cancellation underscores risks in blockbuster political book contracts.",
-      "url": "https://www.youtube.com/watch?v=rgqKWeJGMsc",
-      "source": "YouTube",
-      "tags": [
-        "major contracts",
-        "controversy",
-        "traditional storytelling"
-      ],
-      "x_urls": [],
-      "id": "d4b7d331c242beb2",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-03T20:01:49Z"
-    },
-    {
-      "title": "BookTok Erupts Over Viral 'Fast-Fashionified' Books Criticism",
-      "summary": "A viral video claiming romantasy books on BookTok have been 'fast-fashionified' ignites fierce debate in the community. Critics argue it devalues literature, while defenders highlight accessibility. The controversy underscores evolving dynamics in BookTok trends.",
-      "url": "https://substack.com/@theromantasy/note/c-222085235",
-      "source": "The Romantasy Substack",
-      "tags": [
-        "BookTok",
-        "controversy"
-      ],
-      "x_urls": [],
-      "id": "5ff4d6032f830036",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-03T20:01:49Z"
-    },
-    {
-      "title": "\u2018Scream 7\u2019 Actor Anna Camp Apologizes for Sharing Post That Hit Back at Boycotts Over Melissa Barrera Firing",
-      "summary": "Anna Camp reposted content celebrating Scream 7's box office success despite boycotts related to Melissa Barrera's firing for social media posts, but deleted it and apologized, stating it did not reflect her beliefs. The film opened to $64.1 million domestically, setting a franchise record amid protests at its premiere. Online reactions highlighted divisions over the boycott's failure.",
-      "url": "https://variety.com/2026/film/news/anna-camp-apologizes-scream-7-post-melissa-barrera-boycott-1236677004",
-      "source": "Variety",
-      "tags": [
-        "Scream 7",
-        "boycott",
-        "Hollywood controversy",
-        "box office"
-      ],
-      "x_urls": [
-        "https://x.com/TheRealAnnaCamp/status/2028277633201389656",
-        "https://x.com/guypbenson/status/2028601479813112145"
-      ],
-      "id": "37f4d3bd5fa044fc",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-03T20:02:45Z"
-    },
-    {
-      "title": "Disney Pixar Removes 'Woke' Content After Recent Protests",
-      "summary": "Pixar scaled back environmentalist messaging in its upcoming film Hoppers to focus on character-driven storytelling following criticism of agenda-driven content in prior releases like Lightyear. The changes aim to broaden appeal amid debates over political themes in Disney animation. Early reviews are positive with a 97% Rotten Tomatoes score ahead of its March 6 release.",
-      "url": "https://insidethemagic.net/2026/03/new-disney-pixar-removes-woke-content-after-recent-protests-ab1",
-      "source": "Inside the Magic",
-      "tags": [
-        "Disney",
-        "Pixar",
-        "woke backlash",
-        "Hoppers"
-      ],
-      "x_urls": [],
-      "id": "fa916bd1f9d7bbb5",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-03T20:02:45Z"
+      "timestamp": "2026-03-03T20:16:39Z"
     },
     {
       "title": "\u2018A Knight of Seven Kingdoms\u2019 Actress Responds to Racial Backlash About Her Role",
-      "summary": "Tanzyn Crawford, playing Tanselle in HBO's Game of Thrones prequel A Knight of the Seven Kingdoms, addressed social media backlash criticizing her casting amid praise for the show's 'non-woke' focus on white male leads. She emphasized pursuing her dreams and noted George R.R. Martin's approval of her fit for the character. The controversy highlights tensions over diversity in the fantasy series.",
-      "url": "https://www.yahoo.com/entertainment/tv/articles/knight-seven-kingdoms-actress-responds-201105058.html",
-      "source": "Yahoo Entertainment",
+      "summary": "Tanzyn Crawford, playing Tanselle in HBO's A Knight of the Seven Kingdoms, addressed online backlash over her casting due to her race, noting the intimidation of joining the franchise but affirming her right to pursue her dreams. Social media criticism arose as some viewers expected the show, focused on white male characters, to remain 'non-woke.' George R.R. Martin confirmed she matched his vision for the character from The Hedge Knight.",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/knight-of-seven-kingdoms-tanzyn-crawford-1236519739",
+      "source": "The Hollywood Reporter",
       "tags": [
         "Game of Thrones",
+        "casting controversy",
         "racial backlash",
-        "casting",
         "HBO"
       ],
-      "x_urls": [],
-      "id": "de0aacfe89986170",
+      "x_urls": [
+        "https://x.com/comic_basics/status/2028858273579872757",
+        "https://x.com/screentime/status/2028843291525963778",
+        "https://x.com/jeps2009/status/2028827438583570732"
+      ],
+      "id": "2486c680d0a9b417",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-03T20:02:45Z"
+      "timestamp": "2026-03-03T20:17:17Z"
     },
     {
-      "title": "Scary Movie 6 Trailer Sparks Backlash Over Pronoun Joke",
-      "summary": "The Scary Movie 6 trailer, released March 2, opens with a joke about pronouns that drew online criticism for mocking non-binary identities. Reactions split between those calling it dated and others praising the parody of modern sensitivities. The film is set for theaters on June 12.",
-      "url": "https://www.them.us/story/scary-movie-6-trailer-pronouns-joke",
-      "source": "Them.us",
+      "title": "Woke Crowd Backlash Over Scary Movie 6 Pronoun Joke in Trailer",
+      "summary": "The Scary Movie 6 trailer, spoofing modern horror with the original cast, ignited controversy with a joke where a character corrects 'she' to 'they' after a stabbing. Online debates erupted over the satire targeting pronouns and cancel culture. The film's edgy humor draws comparisons to Scream franchise issues.",
+      "url": "https://www.youtube.com/watch?v=toih89S9r1o",
+      "source": "YouTube - YellowFlash 2",
       "tags": [
-        "Scary Movie 6",
-        "pronoun joke",
+        "Scary Movie",
         "trailer backlash",
-        "parody"
+        "pronoun joke",
+        "satire"
       ],
       "x_urls": [
-        "https://x.com/DiscussingFilm/status/2028471372381352394",
-        "https://x.com/BloodOnTheReel/status/2027316379301343432"
+        "https://x.com/ohhmyguss/status/2028925964508643749",
+        "https://x.com/elindepcom/status/2028911232233648230"
       ],
-      "id": "14d5fb6c96e05656",
+      "id": "0383d4cfc982ed6e",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-03T20:02:45Z"
+      "timestamp": "2026-03-03T20:17:17Z"
     },
     {
-      "title": "A 'Game of Thrones' Movie Is in Development at Warner Bros.",
-      "summary": "Warner Bros. is developing a Game of Thrones movie from House of Cards showrunner Beau Willimon and Andor writer. The project expands the franchise following the success of HBO prequels. Details on plot and cast remain under wraps.",
-      "url": "https://variety.com/2026/film/news/game-of-thrones-movie-warner-bros-1236678055/",
-      "source": "Variety",
+      "title": "\u2018Sinners\u2019 Takes Top Prize at the Actor Awards",
+      "summary": "Ryan Coogler's Sinners won best ensemble and Michael B. Jordan took outstanding male actor at the 32nd Actor Awards, upsetting previous frontrunners. The film positions strongly for Oscars after victories over One Battle After Another. Harrison Ford received the Life Achievement Award.",
+      "url": "https://www.mariettatimes.com/news/entertainment/2026/03/sinners-takes-top-prize-at-the-actor-awards",
+      "source": "Marietta Times",
       "tags": [
-        "Game of Thrones",
-        "movie announcement",
-        "Warner Bros.",
-        "franchise"
-      ],
-      "x_urls": [],
-      "id": "7f21a58d15cd6eca",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-03T20:02:45Z"
-    },
-    {
-      "title": "'Deadliest Catch' Deckhand Todd Meadows Dies During Filming",
-      "summary": "Deckhand Todd Meadows passed away during production of Deadliest Catch, as reported by Deadline. The incident occurred amid filming, prompting tributes from the reality TV community. Discovery Channel has not detailed circumstances.",
-      "url": "https://deadline.com/",
-      "source": "Deadline",
-      "tags": [
-        "Deadliest Catch",
-        "death",
-        "reality TV",
-        "tragedy"
-      ],
-      "x_urls": [],
-      "id": "21eace010bcb4f58",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-03T20:02:45Z"
-    },
-    {
-      "title": "Amazon\u2019s new AI experience helps sellers visualize and grow their business in real time\u2014here's how it works",
-      "summary": "Amazon has introduced a canvas experience in Seller Central, powered by agentic AI and Amazon Bedrock, that allows sellers to generate personalized, interactive visual workspaces integrating their business data, insights, and recommended actions in real time. This tool enables sellers to analyze performance trends, optimize marketing campaigns, make inventory decisions through scenario simulations, and plan product launches by exploring historical sales, customer insights, and competitive data. Available at no additional cost to U.S. and U.K. sellers, the canvas adapts to follow-up questions, providing tailored visualizations and projections to support data-driven decisions for business growth.",
-      "url": "https://www.aboutamazon.com/news/innovation-at-amazon/amazon-sellers-canvas-artificial-intelligence",
-      "source": "About Amazon",
-      "tags": [
-        "AI platform",
-        "ecommerce",
-        "small business"
-      ],
-      "x_urls": [],
-      "id": "22d0370afd1ba7c3",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-03T20:03:20Z"
-    },
-    {
-      "title": "Meta Explores AI-Powered Shopping Research Tool",
-      "summary": "Meta is testing an AI-powered shopping research tool within its AI chatbot, available to some American users of Meta\u2019s AI web browser, which provides product suggestions including images, brand details, prices, and merchant links based on user queries. The recommendations are tailored to the user\u2019s location when applicable, though the tool does not support direct checkout or payments. This development is relevant to businesses as it aligns with Meta\u2019s goal of offering personalized shopping experiences and could enhance eCommerce by directing users to merchant sites, potentially increasing traffic for brands in Meta\u2019s catalog.",
-      "url": "https://www.pymnts.com/meta/2026/meta-explores-ai-powered-shopping-research-tool",
-      "source": "PYMNTS.com",
-      "tags": [
-        "AI shopping",
-        "ecommerce",
-        "product discovery"
+        "Sinners",
+        "Actor Awards",
+        "SAG Awards",
+        "Michael B. Jordan",
+        "Oscars"
       ],
       "x_urls": [
-        "https://x.com/anytvnews/status/2028856425360023821",
-        "https://x.com/DigitechByte/status/2028688931320172778"
+        "https://x.com/iamjourjean/status/2025859223884603731"
       ],
-      "id": "473c75c0d86e0a7e",
-      "section": "business",
+      "id": "fc2ad0e23f8706b0",
+      "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-03T20:03:20Z"
+      "timestamp": "2026-03-03T20:17:17Z"
     },
     {
-      "title": "Redefining hard work in the AI era",
-      "summary": "Small businesses are using AI to reduce time on administrative tasks, with 91% reporting less time spent on such work and 73% integrating it across core operations like marketing, design, staffing, customer engagement, and security. Founders apply AI practically by offloading repetitive tasks, such as drafting emails, proposals, or meeting notes, to free up focus for higher-value activities. AI serves as a creative partner and research assistant, creating headspace for better decision-making and strategic thinking rather than just efficiency.",
-      "url": "https://www.zoom.com/en/blog/smb-ai-balance-part-1",
-      "source": "Zoom",
+      "title": "NAACP Image Awards: \u2018Sinners\u2019 Dominates Amid BAFTA Slur Controversy",
+      "summary": "Sinners swept the 57th NAACP Image Awards, winning outstanding motion picture and multiple acting awards for Michael B. Jordan, Miles Caton, Wunmi Mosaku, and Delroy Lindo. The event addressed a BAFTA incident where a racial slur was shouted at Jordan and Lindo during a presentation. Celebrities used speeches to highlight anti-Black racism and political issues.",
+      "url": "https://www.latimes.com/entertainment-arts/tv/story/2026-02-28/naacp-image-awards-2026-winners",
+      "source": "Los Angeles Times",
       "tags": [
-        "AI adoption",
-        "SMB",
-        "productivity"
+        "NAACP Image Awards",
+        "Sinners",
+        "racial slur",
+        "BAFTA controversy",
+        "awards"
+      ],
+      "x_urls": [
+        "https://x.com/EmperorTChalla/status/2025749208003686647"
+      ],
+      "id": "43ca41485ec70275",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-03T20:17:17Z"
+    },
+    {
+      "title": "Netflix Announces March 2026 Releases Including Peaky Blinders Movie",
+      "summary": "Netflix's March lineup features Peaky Blinders: The Immortal Man with Cillian Murphy reprising Tommy Shelby in a WWII-era story. Other highlights include One Piece Season 2, Virgin River Season 7, sci-fi War Machine, and BTS content. The Peaky Blinders feature marks a major return for the popular series.",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/netflix-march-2026-new-releases-movies-tv-1236520338",
+      "source": "The Hollywood Reporter",
+      "tags": [
+        "Netflix",
+        "Peaky Blinders",
+        "releases",
+        "Cillian Murphy",
+        "TV movies"
       ],
       "x_urls": [],
-      "id": "b03e0ded20c882d0",
+      "id": "6765f42d29adc037",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-03T20:17:17Z"
+    },
+    {
+      "title": "AI\u2019s Impact on the Small Business Employment Landscape",
+      "summary": "Gusto payroll data from over 400,000 small businesses shows that AI-exposed workforces are linked to revenue gains of about $53,800 annually for typical firms and slight increases in hiring, rather than job losses. The overall mix of AI-exposed work has remained stable at around 16.3-16.4% since early 2023, with AI impacting existing jobs through tools and workflows instead of major workforce changes. However, younger workers aged 22-28 in highly AI-exposed roles have experienced declining headcount, while older workers see gains.",
+      "url": "https://gusto.com/resources/gusto-insights/ai-impact-on-smbs-2026",
+      "source": "Gusto",
+      "tags": [
+        "AI",
+        "small business",
+        "employment",
+        "revenue"
+      ],
+      "x_urls": [],
+      "id": "80ca29e4e089fe5f",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-03T20:03:20Z"
+      "timestamp": "2026-03-03T20:17:55Z"
+    },
+    {
+      "title": "IBM Shares Plummet 13%\u2014Worst Day Since 2000\u2014After Anthropic Launches Programming AI Tool",
+      "summary": "Anthropic announced a tool for its Claude Code that helps modernize COBOL code, a legacy language used in critical business systems like ATMs and Social Security payments. This new AI tool aims to address the shrinking pool of COBOL experts by automating updates to billions of lines of production code. The launch triggered a sharp selloff in IBM shares and broader software stocks, highlighting AI's disruptive potential for business technology services.",
+      "url": "https://www.forbes.com/sites/tylerroush/2026/02/23/ibm-shares-plummet-13-worst-day-since-2000-after-anthropic-launches-programming-ai-tool",
+      "source": "Forbes",
+      "tags": [
+        "new AI tool",
+        "Anthropic",
+        "programming",
+        "business software"
+      ],
+      "x_urls": [],
+      "id": "53e2ff2fd4b9d728",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-03T20:17:55Z"
+    },
+    {
+      "title": "How Agentic AI Will Transform Consumer-Driven Companies in 2026",
+      "summary": "Agentic AI is evolving from passive prediction tools to autonomous systems that execute complex actions across consumer touchpoints, from discovery to post-purchase support. Small businesses are adopting AI rapidly, with nearly 60% usage\u2014double from 2023\u2014and high adopters seeing 84% gains in sales and profits. To thrive, small brands must optimize catalogs for AI, adopt answer engine optimization, and partner with tech providers for visibility.",
+      "url": "https://www.uschamber.com/co/good-company/launch-pad/agentic-ai-impact-consumer-business-2026",
+      "source": "U.S. Chamber of Commerce",
+      "tags": [
+        "agentic AI",
+        "small businesses",
+        "consumer commerce"
+      ],
+      "x_urls": [
+        "https://x.com/kadinventor/status/2026512362358899192"
+      ],
+      "id": "2ac1d945670411d1",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-03T20:17:55Z"
     }
   ]
 }
