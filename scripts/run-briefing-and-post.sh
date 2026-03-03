@@ -34,34 +34,11 @@ export DATA_DIR
 msg=$(python3 - <<'PY'
 import json
 from pathlib import Path
+import os
 b=json.loads(Path('/Users/clankeredwards/.openclaw/workspace/rebekah-dashboard/data/current-briefing.json').read_text())
-items=b.get('items',[])
-by={}
-for it in items:
-  by.setdefault(it.get('section','other'),[]).append(it)
-
-def fmt_section(key, title, n=3):
-  arr=by.get(key,[])
-  if not arr:
-    return f"**{title}:** (no new items)"
-  lines=[f"**{title} ({len(arr)}):**"]
-  for it in arr[:n]:
-    lines.append(f"- {it.get('title')} — {it.get('url')}")
-    x=it.get('x_urls') or []
-    if x:
-      lines.append(f"  X: {x[0]}")
-  if len(arr)>n:
-    lines.append(f"  …and {len(arr)-n} more")
-  return "\n".join(lines)
-
-text = "\n\n".join([
-  f"**Rebekah Briefing — {b.get('date')} ({b.get('period')})**\nNew items: **{len(items)}**\nDashboard: https://rebekah-edwards.github.io/rebekah-dashboard/",
-  fmt_section('seo','SEO & Content'),
-  fmt_section('publishing','Publishing & Books'),
-  fmt_section('popculture','Pop Culture'),
-  fmt_section('business','Biz & AI'),
-])
-print(text)
+period=b.get('period','morning')
+label="7am" if period=="morning" else "3pm"
+print(f"Your {label} briefing is ready! https://rebekah-edwards.github.io/rebekah-dashboard/")
 PY
 )
 
