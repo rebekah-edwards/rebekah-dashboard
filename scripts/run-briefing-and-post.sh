@@ -9,12 +9,22 @@ DASHBOARD_DIR="/Users/clankeredwards/.openclaw/workspace/rebekah-dashboard"
 DATA_DIR="$DASHBOARD_DIR/data"
 ENV_FILE="/Users/clankeredwards/.openclaw/.env"
 DISCORD_TARGET="channel:1471228309797998805"
+OPENCLAW="/opt/homebrew/bin/openclaw"
 
 if [ -f "$ENV_FILE" ]; then
   set -a
   source "$ENV_FILE"
   set +a
 fi
+
+# Alert Discord on any unhandled error and exit
+_on_error() {
+  local exit_code=$?
+  local line=$1
+  "$OPENCLAW" message send --channel discord --target "$DISCORD_TARGET" \
+    --message "⚠️ **Briefing failed** (${PERIOD}) — script error on line ${line} (exit ${exit_code}). Check logs: \`rebekah-dashboard/.logs/briefing-${PERIOD}.err.log\`" 2>/dev/null || true
+}
+trap '_on_error $LINENO' ERR
 
 export PERIOD
 export DATA_DIR
@@ -55,4 +65,4 @@ print(text)
 PY
 )
 
-openclaw message send --channel discord --target "$DISCORD_TARGET" --message "$msg" || true
+"$OPENCLAW" message send --channel discord --target "$DISCORD_TARGET" --message "$msg" || true

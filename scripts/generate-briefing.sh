@@ -56,6 +56,10 @@ def call(prompt:str):
         '-d',json.dumps(payload)
     ], capture_output=True, text=True, check=True)
     data=json.loads(r.stdout)
+    # Surface API-level errors (e.g. credits exhausted, auth failures)
+    if 'error' in data or 'code' in data:
+        err_msg = data.get('error') or data.get('code','unknown error')
+        raise RuntimeError(f"xAI API error: {err_msg}")
     out=''
     for item in data.get('output',[]):
         if item.get('type')=='message':
