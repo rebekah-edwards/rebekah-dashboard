@@ -1,313 +1,332 @@
 {
   "date": "2026-03-04",
   "period": "afternoon",
-  "generated": "2026-03-04T21:43:41Z",
+  "generated": "2026-03-04T21:46:04Z",
   "items": [
     {
-      "title": "Google\u2019s spam update vs. AI affiliate sites: An SEO experiment",
-      "summary": "An SEO experiment created three low-trust AI-generated affiliate sites targeting commercial queries like \"best welding schools,\" which initially ranked and generated clicks but collapsed to zero traffic during Google's December spam update due to programmatic content and lack of trust signals. The update confirms Google's spam policies effectively target manipulative tactics, rendering affiliate marketing viable only when paired with helpful, people-first content rather than as a standalone growth engine. Looking ahead to 2026, content strategies should prioritize fewer replicable pages, deeper insights, community discourse, and multi-channel distribution over SEO volume alone.",
-      "url": "https://searchengineland.com/google-spam-update-ai-affiliate-sites-seo-experiment-470168",
-      "source": "Search Engine Land",
+      "title": "March 2026 Google Webmaster Report: Google Discover Update, Listicles, Serving Bug & More",
+      "summary": "This webmaster report highlights SEO implications from the first-ever Google Discover core update, which rolled out over three weeks and may have impacted local rankings, alongside potential hits on self-promotional listicles sites amid ongoing search volatility. Recent Google updates include changes to file size limits causing confusion, an AI-powered Search Console configuration tool going live, new link styles in AI Mode and AI Overviews, and updated business profile review policies leading to review removals.",
+      "url": "https://www.seroundtable.com/march-2026-google-webmaster-report-41012.html",
+      "source": "Search Engine Roundtable",
       "tags": [
-        "spam update",
-        "AI content",
-        "affiliate SEO",
-        "Google algorithm",
-        "SEO experiment"
-      ],
-      "x_urls": [
-        "https://x.com/pistakkiomktg/status/2027007338444452018"
-      ],
-      "id": "48f6c367d0eec925",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-04T21:40:53Z"
-    },
-    {
-      "title": "How to revise your old content for AI search optimization",
-      "summary": "The article outlines strategies for revising old content to optimize for AI search engine optimization (AEO), emphasizing reformatting for topical breadth and depth via hub-and-spoke models, chunk-level retrieval with self-contained passages, and answer synthesis through clear summaries and structured takeaways. It discusses prioritizing content with expertise or proprietary insights that align with business growth, and adapting metadata like title tags, headings, and meta descriptions to serve as context anchors for AI systems rather than traditional ranking levers. Key impacts on SEO/content marketing include shifting from SEO's focus on traffic and keyword stuffing to AEO's emphasis on explicit, query-mapped answers and clarity for both AI models and human readers.",
-      "url": "https://searchengineland.com/revise-old-content-ai-search-optimization-470434",
-      "source": "Search Engine Land",
-      "tags": [
-        "AEO",
-        "AI search",
-        "content optimization",
-        "SEO evolution"
+        "Google Webmaster Report",
+        "Discover Update",
+        "Core Update",
+        "SEO"
       ],
       "x_urls": [],
-      "id": "57a7a355f095519e",
+      "id": "52f450c14b417bf6",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-04T21:40:53Z"
+      "timestamp": "2026-03-04T21:43:11Z"
     },
     {
-      "title": "Google's Discover Core Update Finishes Rolling Out",
-      "summary": "Google's February Discover core update, the first publicly labeled as such, finished rolling out on February 27 after approximately 22 days, starting February 5, with goals to enhance local relevance, reduce clickbait, and promote in-depth original content. Early data indicates increased regional personalization, fewer domains in top placements, and greater topic variety amid reduced publisher diversity. This update matters as Discover's traffic share for publishers has grown significantly, requiring prioritization of regional relevance, topic expertise, and original content.",
-      "url": "https://www.searchenginejournal.com/googles-discover-core-update-finishes-rolling-out/568413/",
+      "title": "Google Tests Bold Site Names In Search Results",
+      "summary": "Google is testing bolding site names in search results, a change spotted by Sachin Patel on X, which may enhance visibility of branded links but is unlikely to significantly impact click-through rates or SEO strategies. This follows Google's history of testing visual tweaks in snippets, similar to Bing's hover effects, potentially influencing how site owners optimize for result prominence.",
+      "url": "https://www.seroundtable.com/google-bold-site-names-40983.html",
+      "source": "Search Engine Roundtable",
+      "tags": [
+        "Google Search",
+        "UI Changes",
+        "SEO"
+      ],
+      "x_urls": [
+        "https://x.com/SachuPatel53124/status/2026218616413413786"
+      ],
+      "id": "08044baf0dcf0d3a",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-04T21:43:11Z"
+    },
+    {
+      "title": "Google Updates AI Mode Recipe Sites Results In Response To Backlash",
+      "summary": "Google has updated AI Mode to display more links to recipe creators in response to feedback about synthesized recipes, allowing users to tap on dishes for side panels with overviews and direct site links. This change addresses backlash by improving connections to original sources for searches like \u201ceasy dinners for two.\u201d Robby Stein announced the update via X, emphasizing future improvements like adding cook times.",
+      "url": "https://www.searchenginejournal.com/google-updates-ai-mode-recipe-sites-results-in-response-to-backlash/568798",
       "source": "Search Engine Journal",
       "tags": [
-        "Google update",
-        "Discover",
-        "core update",
-        "local SEO"
+        "AI Mode",
+        "Recipes",
+        "Google Update",
+        "SEO"
       ],
       "x_urls": [
-        "https://x.com/rustybrick/status/2027413037469048850",
-        "https://x.com/SimpleSEOTools/status/2028794763118252074"
+        "https://x.com/inspiredtaste/status/2029303042869428708"
       ],
-      "id": "1a4ee1a30d9b0c34",
+      "id": "6f772a77ad7141f6",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-04T21:40:53Z"
+      "timestamp": "2026-03-04T21:43:11Z"
     },
     {
-      "title": "February 2026 Google Discover Core Update Done Rolling Out",
-      "summary": "Google's February 2026 Discover Core Update has finished rolling out after three weeks, starting on February 5 and completing on February 27, 2026, aiming to enhance Discover by prioritizing locally relevant content, reducing clickbait and sensational material, and promoting in-depth, original, and timely content from expert sites. This change may reduce traffic for non-US publishers targeting US audiences but could boost their visibility in local regions over time, with no impact on ongoing Google Search volatility.",
-      "url": "https://www.seroundtable.com/february-2026-google-discover-core-update-done-41006.html",
-      "source": "SERoundtable",
+      "title": "Book Deals: Week of March 2, 2026",
+      "summary": "Little, Brown acquired North American rights to Chad Harbach\u2019s sophomore novel The Brightness, returning to Westish College 15 years after his debut The Art of Fielding. Park Row preempted world English rights to Erica Bauermeister\u2019s thriller Jayne, following a disenchanted academic turned barista who rises to fame and entanglement. Podium secured a five-book deal for Heather Gay\u2019s debut thriller Eternal Glow, the first in her Bad Mormons series.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/book-deals/article/99792-book-deals-week-of-march-2-2026.html",
+      "source": "Publishers Weekly",
       "tags": [
-        "Google update",
-        "Discover",
-        "core update",
-        "content quality"
-      ],
-      "x_urls": [
-        "https://x.com/Ejudicator/status/2028170212223176966"
-      ],
-      "id": "2364902d756153ed",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-04T21:40:53Z"
-    },
-    {
-      "title": "Literary agents urge writers to avoid AI as they see 'change in nature of submissions'",
-      "summary": "Several literary agencies are updating their submission guidelines to explicitly warn against using generative AI for cover letters and manuscripts, as agents increasingly detect AI-generated content altering the nature of submissions. Agencies like Greene & Heaton have added notes stating they will reject AI-assisted work. This move highlights growing concerns in publishing over authenticity and human creativity.",
-      "url": "https://www.thebookseller.com/news/literary-agents-urge-writers-to-avoid-ai-as-they-see-change-in-nature-of-submissions",
-      "source": "The Bookseller",
-      "tags": [
-        "AI controversy",
-        "publishing",
-        "editing"
-      ],
-      "x_urls": [
-        "https://x.com/ksandler1/status/2028279082643771524",
-        "https://x.com/CIoJournalist/status/2026426604428087785"
-      ],
-      "id": "fea0275fb3b8aa15",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-04T21:41:51Z"
-    },
-    {
-      "title": "From Workshop to St. Martin's Press: How a WritingWorkshops.com Seminar Led to a Major Book Deal",
-      "summary": "Stephen Harrison landed a nonfiction book deal with St. Martin's Press for 'The Power of Print: The Case for Paper & Ink in the Age of Technology' after attending agent Mark Gottlieb's seminar on crafting proposals. The book argues for the cognitive benefits of analog reading amid digital and AI dominance, pitched to fans of 'The Anxious Generation'. Editor Peter Wolverton acquired it, showcasing workshop success in traditional publishing.",
-      "url": "https://writingworkshops.com/blogs/news/stephen-harrison-st-martins-press-book-deal",
-      "source": "WritingWorkshops.com",
-      "tags": [
-        "major contract",
-        "publishing"
-      ],
-      "x_urls": [
-        "https://x.com/WritingWorkshps/status/2018716389825970627"
-      ],
-      "id": "68f3717815a68e77",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-04T21:41:51Z"
-    },
-    {
-      "title": "Can You Legally Publish An AI-Generated Book? Exploring How OpenAI Can Write A Story And What You Need To Know",
-      "summary": "Purely AI-generated books may not qualify for copyright in many places due to lacking human authorship, entering public domain. Human-edited or curated AI content allows copyright claims by the person. Transparency on AI use is advised to avoid ethical issues and ensure trust in publishing.",
-      "url": "https://brainpod.ai/can-you-legally-publish-an-ai-generated-book-exploring-how-openai-can-write-a-story-and-what-you-need-to-know/",
-      "source": "Brain Pod AI",
-      "tags": [
-        "AI controversy",
-        "publishing",
-        "writing"
-      ],
-      "x_urls": [
-        "https://x.com/Ura_Jae/status/2028470807249248342"
-      ],
-      "id": "75d55d6621bd554d",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-04T21:41:51Z"
-    },
-    {
-      "title": "AI Models from Major Companies Can Reproduce Entire Copyrighted Novels",
-      "summary": "Researchers extracted up to 95.8% of Harry Potter verbatim from Claude, with other models like Gemini and Grok also reproducing books without heavy jailbreaking. This challenges claims that AIs only learn patterns, not memorize, raising copyright infringement risks. A German court ruled similar actions infringing, amid Anthropic's settlements.",
-      "url": "https://arxiv.org/abs/2601.02671",
-      "source": "arXiv",
-      "tags": [
-        "AI controversy",
-        "publishing",
-        "copyright"
-      ],
-      "x_urls": [
-        "https://x.com/lukOlejnik/status/2025622180105777338"
-      ],
-      "id": "0921dafdc1a42246",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-04T21:41:51Z"
-    },
-    {
-      "title": "Censorship in the US: Book Bans in Texas Public Schools",
-      "summary": "Conservative school districts in Texas are banning hundreds of books deemed inappropriate, following lists from figures like Ron DeSantis. Over 850 titles targeted, sparking debates on censorship versus content protection. The trend spreads across conservative areas, affecting public school libraries.",
-      "url": "https://www.france24.com/en/tv-shows/focus/20260302-censorship-in-the-us-bookbans-in-texas-public-schools",
-      "source": "France 24",
-      "tags": [
-        "publishing",
-        "traditional storytelling",
-        "Bookstagram"
+        "major contracts",
+        "book deals"
       ],
       "x_urls": [],
-      "id": "f120fd088e291728",
+      "id": "87c11d5866195be1",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-04T21:41:51Z"
+      "timestamp": "2026-03-04T21:44:23Z"
     },
     {
-      "title": "'Yellowstone' spinoff 'Marshals' shocks fans by killing off major Dutton family member in premiere",
-      "summary": "The 'Yellowstone' spinoff 'Marshals' premiered by killing off Monica Dutton, played by Kelsey Asbille, who died from cancer possibly caused by toxic pollution on the Indian reservation. Luke Grimes, who plays Kayce Dutton, shared his heartbreak over the plot decision and how the character's presence lingers through grave visits. Fans expressed shock and sadness, with some vowing not to continue watching, while others rejoiced at the development.",
-      "url": "https://www.foxnews.com/entertainment/yellowstone-spinoff-marshals-shocks-fans-killing-off-major-dutton-family-member-premiere",
-      "source": "Fox News",
+      "title": "Sarah Barley Books Launches at Simon & Schuster Books for Young Readers",
+      "summary": "Veteran editor Sarah Barley launched her eponymous imprint at Simon & Schuster Books for Young Readers, debuting with two YA bestsellers: Beth Is Dead by Katie Bernet and Love Me Tomorrow by Emiko Jean. Upcoming titles include Heiress of Nowhere by Stacey Lee and Local Gods by Melinda Salisbury. The imprint will release about 10 books per year, focusing on YA and middle grade fiction.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/99806-sarah-barley-books-launches-with-simon-schuster-books-for-young-readers.html",
+      "source": "Publishers Weekly",
       "tags": [
-        "TV",
-        "Yellowstone",
-        "fan reaction",
-        "shock"
+        "new imprint",
+        "major releases",
+        "YA publishing"
       ],
-      "x_urls": [
-        "https://x.com/WhiskeyRiff/status/2028932780441084021"
-      ],
-      "id": "9e9cd3a2d8139cfb",
-      "section": "popculture",
+      "x_urls": [],
+      "id": "b61bb73423e274dc",
+      "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-04T21:42:42Z"
+      "timestamp": "2026-03-04T21:44:23Z"
     },
     {
-      "title": "How the BAFTAs Bungled Its Response to a Racial Slur",
-      "summary": "During the BAFTAs ceremony on February 28, a preshow announcement warned that attendee John Davidson with Tourette\u2019s syndrome might make involuntary noises but omitted the possibility of racist slurs. Davidson shouted a racial slur as Michael B. Jordan and Delroy Lindo presented an award, which aired to a global audience despite some editing. The event's handling has sparked criticism for insensitivity and poor preparation.",
-      "url": "https://www.nytimes.com/2026/02/28/movies/baftas-bbc-racial-slur-tourettes.html",
-      "source": "The New York Times",
+      "title": "BookTok Controversy: Viral Video Claims Books Have Been 'Fast-Fashionified'",
+      "summary": "BookTok is buzzing over a viral video accusing books, particularly romantasy, of being 'fast-fashionified' by the platform's algorithm. The critique targets social media trends more than the genre itself, sparking widespread reactions. This highlights tensions in BookTok's influence on reading habits.",
+      "url": "https://substack.com/@theromantasy/note/c-222085235",
+      "source": "The Romantasy Substack",
       "tags": [
-        "awards",
-        "controversy",
-        "Tourette\u2019s",
-        "racial slur"
+        "BookTok",
+        "romantasy",
+        "controversy"
+      ],
+      "x_urls": [],
+      "id": "d9fb1dbdde242916",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-04T21:44:23Z"
+    },
+    {
+      "title": "The Writer Whose AOL Email Fictions Became Sacred Texts of Anti-Woke Literature",
+      "summary": "Rex Adler's 1990s email-distributed 'Rex Files' stories, featuring a narrator killing women altered by aliens symbolizing moral decay, have gained cult status in anti-woke indie lit circles. The philosophical tales critique consumer culture and feminism. Adler faced arrest for using real names, adding to their contrarian lore.",
+      "url": "https://stephenpiccarella.substack.com/p/the-writer-whose-aol-email-fictions",
+      "source": "Stephen Piccarella Substack",
+      "tags": [
+        "anti-woke",
+        "indie literature",
+        "traditional storytelling"
+      ],
+      "x_urls": [],
+      "id": "1331a300c90e7a8e",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-04T21:44:23Z"
+    },
+    {
+      "title": "Why Conservative & Christian Fiction Fails (And How to Fix It)",
+      "summary": "Conservative and Christian fiction often prioritizes messaging over character-driven stories, mirroring issues in woke fiction and leading to reader preference for sermons over craft. Successful works like those of Tolkien and C.S. Lewis focus on characters working out salvation through struggles. Christian publishers have adopted woke agendas, limiting true conservative voices.",
+      "url": "https://www.youtube.com/watch?v=OzkHRF8kCvc",
+      "source": "Author Update YouTube",
+      "tags": [
+        "conservative fiction",
+        "Christian publishing",
+        "traditional storytelling"
+      ],
+      "x_urls": [],
+      "id": "9b0cd144d335d0a1",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-04T21:44:23Z"
+    },
+    {
+      "title": "NEW: Disney Pixar Removes \"Woke\" Content After Recent Protests",
+      "summary": "Pixar has scaled back environmentalist messaging in its upcoming film Hoppers to emphasize character-driven storytelling, following criticism of previous agenda-focused releases like Lightyear and Elio. Early reviews praise the film with a 97% Rotten Tomatoes score, though audience response awaits its March 6 release. The changes come amid fan protests over perceived woke content in Disney projects.",
+      "url": "https://insidethemagic.net/2026/03/new-disney-pixar-removes-woke-content-after-recent-protests-ab1/",
+      "source": "Inside the Magic",
+      "tags": [
+        "Disney",
+        "Pixar",
+        "backlash",
+        "woke"
       ],
       "x_urls": [
-        "https://x.com/ParadeMagazine/status/2029303438006190411",
-        "https://x.com/sweetanita/status/2029258625286291489"
+        "https://x.com/DiscussingFilm/status/Y12iERDPhI"
       ],
-      "id": "b7655a1a860ede0b",
+      "id": "1d2208b190d34c1b",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-04T21:42:42Z"
+      "timestamp": "2026-03-04T21:45:22Z"
     },
     {
       "title": "Carrie Underwood remains unapologetic as \u2018American Idol\u2019 backlash turns into MAGA battleground",
-      "summary": "Carrie Underwood faced boos from the 'American Idol' audience while delivering critiques, responding defiantly by embracing the reaction and posting on X that she doesn't care. Speculation linked the boos to her conservative stance and performance at President Trump's inauguration. Social media divided, with supporters hailing her resilience and critics attributing backlash to her politics.",
+      "summary": "Carrie Underwood received boos from the American Idol audience during contestant critiques, sparking online debate linked to her conservative image and inauguration performance. She responded defiantly on the show and social media, refusing to engage in politics. The incident divided fans, with supporters hailing her strength and detractors criticizing her views.",
       "url": "https://www.foxnews.com/entertainment/carrie-underwood-remains-unapologetic-american-idol-backlash-turns-maga-battleground",
       "source": "Fox News",
       "tags": [
         "American Idol",
-        "backlash",
-        "politics",
-        "singing"
+        "Carrie Underwood",
+        "backlash"
       ],
-      "x_urls": [],
+      "x_urls": [
+        "https://x.com/carrieunderwood/status/2028643682799518184"
+      ],
       "id": "9e7fc448aa650ff3",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-04T21:42:42Z"
+      "timestamp": "2026-03-04T21:45:22Z"
     },
     {
-      "title": "Valerie Bertinelli speaks for first time about being sexually abused at 11: \u2018Nobody deserves that\u2019",
-      "summary": "Valerie Bertinelli revealed in an interview for her memoir 'Getting Naked' that she was sexually abused at age 11, sharing after years of therapy to release shame and express anger. She included the story to honor her younger self, shifting the book's focus from self-love. Bertinelli called for more voices to speak out against ongoing abuse.",
-      "url": "https://pagesix.com/2026/03/04/celebrity-news/valerie-bertinelli-speaks-for-first-time-about-being-sexually-abused-at-11/",
-      "source": "Page Six",
+      "title": "Backlash mounts to Bafta N-word controversy as Jamie Foxx and Wendell Pierce criticise outburst",
+      "summary": "During the BAFTAs, Tourette syndrome activist John Davidson shouted the N-word involuntarily, leading to celebrity backlash including criticism from Jamie Foxx and Wendell Pierce over the response. BAFTA apologized, citing the complexity of the situation, but some called for stronger accountability. The event fueled discussions on disability, race, and awards show protocols.",
+      "url": "https://www.theguardian.com/film/2026/feb/23/backlash-bafta-n-word-controversy-jamie-foxx-wendell-pierce-tourette-activist-john-davidson",
+      "source": "The Guardian",
       "tags": [
-        "celebrity",
-        "personal story",
-        "abuse"
-      ],
-      "x_urls": [],
-      "id": "8e30ab3947ab7714",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-04T21:42:42Z"
-    },
-    {
-      "title": "Oscars organizers \u2018scramble\u2019 for red carpet backup plan amid Iran war: sources",
-      "summary": "Oscars producers are preparing contingency plans, including potentially canceling the red carpet, due to the Iran conflict and Operation Epic Fury in the Middle East. The planned setup with Japanese maple trees for peace remains, but optics are under review amid sensitivities. Three Iranian nominees heighten concerns over potential protest questions on the carpet.",
-      "url": "https://pagesix.com/2026/03/04/hollywood/oscars-scramble-for-red-carpet-backup-plan-amid-iran-war-sources/",
-      "source": "Page Six",
-      "tags": [
-        "Oscars",
-        "awards",
-        "controversy"
-      ],
-      "x_urls": [],
-      "id": "09e5f53a1c4c65d0",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-04T21:42:42Z"
-    },
-    {
-      "title": "Barbra Streisand could make an Oscars appearance for a tribute to an old friend",
-      "summary": "Barbra Streisand may appear at the Oscars to honor a longtime friend in a special tribute segment. Reports indicate discussions are ongoing for her participation amid awards season buzz. The potential moment adds excitement to the ceremony preparations.",
-      "url": "https://pagesix.com/2026/03/04/hollywood/barbra-streisand-could-make-an-oscars-appearance-for-a-tribute-to-an-old-friend/",
-      "source": "Page Six",
-      "tags": [
-        "Oscars",
-        "celebrity",
-        "awards"
-      ],
-      "x_urls": [],
-      "id": "4d159ad0a5ace746",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-04T21:42:42Z"
-    },
-    {
-      "title": "Notion 3.3: Custom Agents",
-      "summary": "Notion launched Custom Agents, autonomous AI that automates tasks like Q&A, task routing, and reports by integrating with Slack, Figma, and more, without coding\u2014just describe workflows in plain language. Small businesses save hours weekly on repetitive work, enabling focus on growth, with easy setup via templates and free access until May 3, 2026 for Business plans. Multiplayer agents run 24/7, benefiting teams of any size.",
-      "url": "https://www.notion.com/releases/2026-02-24",
-      "source": "Notion",
-      "tags": [
-        "AI",
-        "product launch",
-        "automation",
-        "Notion"
+        "BAFTA",
+        "controversy",
+        "backlash"
       ],
       "x_urls": [
-        "https://x.com/ivanhzhao/status/2026347354333295105"
+        "https://x.com/jemelehill/status/2025736966361473076",
+        "https://x.com/WendellPierce/status/2025784650677768256",
+        "https://x.com/HannahEBeachler/status/2025804405950628048"
       ],
-      "id": "2e2f737b5b1594d1",
-      "section": "business",
+      "id": "1aa9a2ad2bf04381",
+      "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-04T21:43:41Z"
+      "timestamp": "2026-03-04T21:45:22Z"
     },
     {
-      "title": "Anthropic updates Claude Cowork tool built to give the average office worker a productivity boost",
-      "summary": "Anthropic enhanced Claude Cowork with connectors to Google Drive, Gmail, DocuSign, and FactSet, plus customizable plugins for HR, finance, and engineering to embed workflows. This turns it into an enterprise-grade AI coworker, integrating real-time context to boost individual and team productivity without silos. Businesses gain admin controls and seamless tool access, making AI practical for daily office tasks.",
-      "url": "https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html",
-      "source": "CNBC",
+      "title": "Outrage over anti-woke 'Scary Movie 6' trailer",
+      "summary": "The Scary Movie 6 trailer, released March 2, features a pronoun correction joke amid a stabbing scene, prompting backlash from some viewers labeling it dated and offensive. Marlon Wayans defended the content as equal-opportunity comedy to revive pre-cancel culture humor. Reactions on social media highlight divisions over the film's anti-woke tone.",
+      "url": "https://sandrarose.com/2026/03/outrage-over-anti-woke-scary-movie-6-trailer",
+      "source": "Sandra Rose",
       "tags": [
-        "AI",
-        "platform update",
-        "productivity"
+        "Scary Movie",
+        "backlash",
+        "pronouns",
+        "woke"
       ],
       "x_urls": [
-        "https://x.com/StockMKTNewz/status/2026306856511996347",
-        "https://x.com/mikefutia/status/2027076867069759761"
+        "https://x.com/PinkNews/status/2028913398444875807"
       ],
-      "id": "4001af669ce42c0e",
+      "id": "1000cb1136642dee",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-04T21:45:22Z"
+    },
+    {
+      "title": "The Bear to End with Season 5, Jamie Lee Curtis Says",
+      "summary": "Jamie Lee Curtis revealed that FX's The Bear will wrap up after its fifth season. The series has earned widespread acclaim for its intense portrayal of the restaurant industry. Fans and critics anticipate the finale following its growing success.",
+      "url": "https://variety.com/2026/tv/news/the-bear-ending-season-5-jamie-lee-curtis-1236679672/",
+      "source": "Variety",
+      "tags": [
+        "The Bear",
+        "TV series",
+        "finale"
+      ],
+      "x_urls": [],
+      "id": "58b1fc648ba6e659",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-04T21:45:22Z"
+    },
+    {
+      "title": "Barbra Streisand in Talks for Oscars Performance to Honor Robert Redford",
+      "summary": "Barbra Streisand is negotiating to perform at the Oscars in tribute to Robert Redford, commemorating their collaboration in The Way We Were. The potential appearance marks a highlight for the awards ceremony. Industry anticipation builds around the legendary singer's involvement.",
+      "url": "https://variety.com/2026/awards/news/barbra-streisand-oscars-performance-honor-robert-redford-1236679351/",
+      "source": "Variety",
+      "tags": [
+        "Oscars",
+        "Barbra Streisand",
+        "tribute"
+      ],
+      "x_urls": [],
+      "id": "c68ca7017bdea7a3",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-04T21:45:22Z"
+    },
+    {
+      "title": "Launch Commerce Rebrands from Launch Cart, Unveils AI-Powered Business Platform for Small Businesses",
+      "summary": "Launch Commerce, previously known as Launch Cart, has rebranded and launched a comprehensive AI-powered platform tailored for small businesses to streamline e-commerce operations. The new platform integrates AI features for inventory management, customer personalization, and marketing automation. This product move aims to empower SMBs to scale efficiently without complex setups.",
+      "url": "https://www.blufftontoday.com/press-release/story/56386/launch-commerce-rebrands-from-launch-cart-unveils-ai-powered-business-platform-for-small-businesses",
+      "source": "Bluffton Today",
+      "tags": [
+        "AI platform",
+        "small business",
+        "ecommerce",
+        "product launch"
+      ],
+      "x_urls": [],
+      "id": "bd386cb2dc848173",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-04T21:43:41Z"
+      "timestamp": "2026-03-04T21:46:04Z"
+    },
+    {
+      "title": "Rowan Launches AI-Powered Platform to Address Small Business Succession Challenges",
+      "summary": "Rowan has publicly launched an AI-driven succession planning platform designed to connect small business buyers and sellers, facilitating smoother ownership transitions. The tool uses AI to match opportunities, assess valuations, and manage due diligence processes. It targets the growing need for SMB succession amid retiring baby boomers.",
+      "url": "https://finance.yahoo.com/news/rowan-launches-ai-powered-platform-130000968.html",
+      "source": "Yahoo Finance",
+      "tags": [
+        "AI succession",
+        "small business",
+        "platform launch",
+        "business transition"
+      ],
+      "x_urls": [],
+      "id": "2d9d582be8e98c98",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-04T21:46:04Z"
+    },
+    {
+      "title": "PosterMyWall AI Enables Prompt-Driven Marketing Campaigns for Small Businesses",
+      "summary": "PosterMyWall has introduced a groundbreaking AI tool that allows small businesses to generate complete marketing campaigns\u2014from ideas to published posts\u2014using simple text prompts in one app. It combines image/video generation with scheduling capabilities, making professional marketing accessible without design expertise. This innovation significantly reduces time and cost for SMB marketing efforts.",
+      "url": "https://www.cincinnati.com/press-release/story/33532/postermywall-ai-brings-prompt-driven-marketing-campaigns-to-small-businesses",
+      "source": "Cincinnati.com",
+      "tags": [
+        "AI marketing",
+        "small business tool",
+        "new AI tool"
+      ],
+      "x_urls": [],
+      "id": "c640556f9a762545",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-04T21:46:04Z"
+    },
+    {
+      "title": "Synthreo Secures SAFE Funding to Advance AI Platform for MSPs Serving SMBs",
+      "summary": "Synthreo announced a SAFE funding round led by Vince Kent to accelerate its AI operating system for Managed Service Providers, enabling scalable AI delivery to small and medium businesses. The platform features a no-code agent builder, white-label portal, and multi-tenant management to bridge the AI adoption gap in SMBs. This funding supports expansion amid surging demand for affordable enterprise-grade AI.",
+      "url": "https://www.pressconnects.com/press-release/story/38386/synthreo-announces-safe-funding-round-led-by-vince-kent-to-advance-ai-platform-for-managed-service-providers",
+      "source": "PressConnects",
+      "tags": [
+        "AI funding",
+        "MSP platform",
+        "SMB AI",
+        "product development"
+      ],
+      "x_urls": [],
+      "id": "c5cab2cec94a4a0f",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-04T21:46:04Z"
+    },
+    {
+      "title": "Addepar Launches Addison AI for Natural Language Portfolio Analysis",
+      "summary": "Addepar debuted Addison AI, an innovative tool that enables wealth managers to query and analyze portfolio data using everyday language on its platform. This AI enhances decision-making speed and accuracy for financial advisory firms, many of which are small businesses. The launch represents a meaningful step in AI integration for business analytics.",
+      "url": "https://www.wealthmanagement.com/artificial-intelligence/addepar-launches-addison-ai-for-natural-language-portfolio-analysis",
+      "source": "WealthManagement.com",
+      "tags": [
+        "AI analytics",
+        "finance tool",
+        "wealth management",
+        "product launch"
+      ],
+      "x_urls": [],
+      "id": "01f70360966bd3ec",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-04T21:46:04Z"
     }
   ]
 }
