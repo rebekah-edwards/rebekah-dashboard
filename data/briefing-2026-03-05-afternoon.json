@@ -1,357 +1,377 @@
 {
   "date": "2026-03-05",
   "period": "afternoon",
-  "generated": "2026-03-05T20:04:23Z",
+  "generated": "2026-03-05T20:05:02Z",
   "items": [
     {
-      "title": "Google Removes JavaScript SEO Warning, Says It's Outdated",
-      "summary": "Google has removed its outdated JavaScript SEO warning, which previously cautioned about designing for non-JavaScript environments, indicating that Search has rendered JavaScript effectively for years and that assistive technologies now support it. This change reduces concerns for SEO professionals relying on JavaScript for content loading, as Google emphasizes specific technical guidance over former broad advisories. However, site owners should still monitor JavaScript-heavy pages using tools like Search Console's URL Inspection, since other crawlers may not render JavaScript the same way.",
-      "url": "https://www.searchenginejournal.com/google-removes-javascript-seo-warning-says-its-outdated/568829",
-      "source": "Search Engine Journal",
-      "tags": [
-        "JavaScript SEO",
-        "Google Guidance",
-        "Technical SEO"
-      ],
-      "x_urls": [],
-      "id": "2c736697461d55cc",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-05T20:00:51Z"
-    },
-    {
-      "title": "New Google help document says frequent crawling is a good sign",
-      "summary": "Google's new help document emphasizes that frequent crawling signals fresh, relevant content, which is crucial for SEO as it helps sites achieve better visibility in search results by meeting user demand. This reinforces the importance of maintaining up-to-date content, such as in ecommerce, to encourage more crawls and improve indexing. Site owners can leverage this by ensuring crawlability through tools and controls outlined in the document to enhance overall search performance.",
-      "url": "https://searchengineland.com/new-google-help-document-says-frequent-crawling-is-a-good-sign-470717",
+      "title": "200+ AI audits reveal why some industries struggle in AI search",
+      "summary": "Over 200 AI visibility audits across 10 industries, including travel booking, job boards, and legal directories, show that most sites face challenges in being cited by AI systems due to access failures, weak evidence, and low utility. The audits revealed high error rates in industries like travel booking (33.3%) and job boards (40%), with most sites scoring in the inconsistent visibility range and lacking machine-readable freshness or proof. Key insights include the dominance of trust failure, where content is readable but not defensible, and the vulnerability of informational traffic-dependent sectors.",
+      "url": "https://searchengineland.com/ai-search-audit-findings-470888",
       "source": "Search Engine Land",
       "tags": [
-        "Crawling",
-        "Google Guidance",
-        "SEO Best Practices"
-      ],
-      "x_urls": [
-        "https://x.com/glenngabe/status/2029184531874422938",
-        "https://x.com/Marie_Haynes/status/2029193239626993769"
-      ],
-      "id": "18cd2c76bfa8929f",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-05T20:00:51Z"
-    },
-    {
-      "title": "Google AI Mode updates recipe results to better connect people with recipe creators",
-      "summary": "Google's update to AI Mode enhances recipe search results by incorporating direct links to recipe sites and additional details like cook times, which could drive more referral traffic to content creators' websites from AI-generated overviews. This addresses ongoing issues where AI experiences previously failed to send sufficient traffic compared to traditional search results, potentially improving SEO for recipe bloggers through better visibility and click-through opportunities. However, the effectiveness in reducing 'AI slop' and boosting overall traffic remains uncertain pending further updates.",
-      "url": "https://searchengineland.com/google-ai-mode-updates-recipe-results-to-better-connect-people-with-recipe-creators-470811",
-      "source": "Search Engine Land",
-      "tags": [
-        "AI Mode",
         "AI Search",
         "AEO",
-        "Content Marketing"
+        "GEO"
       ],
-      "x_urls": [
-        "https://x.com/rmstein/status/2029266609119084644"
-      ],
-      "id": "804b5a08069a052c",
+      "x_urls": [],
+      "id": "d93a2fc53155712d",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-05T20:00:51Z"
+      "timestamp": "2026-03-05T20:01:34Z"
     },
     {
-      "title": "How the DOM affects crawling, rendering, and indexing",
-      "summary": "The DOM significantly impacts SEO because Googlebot relies on the rendered DOM for crawling, rendering, and indexing, meaning JavaScript-dependent content must be present in the initial DOM to be visible and indexable, avoiding issues like crawl dead ends from non-standard links. Optimizing the DOM with semantic structures, proper link tags, and lean node counts enhances crawlability and performance metrics such as Core Web Vitals, while tools like URL Inspection help diagnose indexing problems. As AI agents increasingly interact with websites, a well-structured DOM will be crucial for future SEO and task completion.",
-      "url": "https://searchengineland.com/dom-crawling-rendering-indexing-470756",
+      "title": "Google removes accessibility section from JavaScript SEO section",
+      "summary": "Google has removed the \u201cdesign for accessibility\u201d section from its JavaScript SEO basics documentation because the advice was out of date and not as helpful as it used to be. The old text suggested that using JavaScript for page content may be hard for Google to see, but Google now states this has not been true for many years since it has been rendering JavaScript for multiple years. Google also noted that most assistive technologies are able to work with JavaScript now as well.",
+      "url": "https://searchengineland.com/google-removes-accessibility-section-from-javascript-seo-section-470805",
       "source": "Search Engine Land",
       "tags": [
         "Technical SEO",
-        "DOM",
-        "Crawling",
-        "Rendering"
+        "JavaScript SEO",
+        "Google Documentation"
       ],
       "x_urls": [],
-      "id": "e136c50926f10f95",
+      "id": "2fbbeb5b685e8b39",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-05T20:00:51Z"
+      "timestamp": "2026-03-05T20:01:34Z"
     },
     {
-      "title": "Publishers Association says AI copyright exception calls are redundant",
-      "summary": "The UK Publishers Association's study concludes that a growing licensing market for generative AI makes calls for a broad copyright exception unnecessary. Publishers have been actively licensing content for AI training, fostering a robust market. The report highlights the sector's adaptation to AI technologies through commercial agreements.",
-      "url": "https://www.booksandpublishing.com.au/articles/2026/03/05/325268/publishers-association-says-ai-copyright-exception-calls-are-redundant",
-      "source": "Books+Publishing",
-      "tags": [
-        "AI",
-        "copyright",
-        "publishing"
-      ],
-      "x_urls": [
-        "https://x.com/booksandpublishing"
-      ],
-      "id": "dc0ef80d14afd7c9",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-05T20:01:55Z"
-    },
-    {
-      "title": "Publishing Ethics Clash With AI Book Flood On Kindle",
-      "summary": "AI-generated books are flooding Amazon's Kindle store with low-cost, repetitive titles in genres like herbal remedies and romance, with 82% flagged as AI by detection tools. This influx raises ethical issues around originality, misinformation, and impersonation, while impacting authors' royalties and visibility. Amazon's policies require AI disclosure but lack consumer-facing labels, sparking calls for better transparency.",
-      "url": "https://www.aicerts.ai/news/publishing-ethics-clash-with-ai-book-flood-on-kindle",
-      "source": "AI CERTs",
-      "tags": [
-        "AI",
-        "publishing",
-        "ethics",
-        "Kindle"
-      ],
-      "x_urls": [],
-      "id": "4c0a609f3215d119",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-05T20:01:55Z"
-    },
-    {
-      "title": "Sarah J Maas\u2019s Past Controversy Resurfaces Amid New Book Buzz",
-      "summary": "Sarah J. Maas announced two new ACOTAR books for late 2026 and early 2027 on the Call Her Daddy podcast, exciting BookTok and romantasy fans awaiting sequels since 2021. The buzz has reignited past criticisms over representation of marginalized characters and a 2020 promotional post amid Breonna Taylor discussions. Online debates continue on platforms like Threads regarding these issues and Maas's mental health disclosures.",
-      "url": "https://www.newsweek.com/entertainment/sarah-j-maas-new-book-announcement-resurfaces-past-controversy-11624419",
-      "source": "Newsweek",
-      "tags": [
-        "BookTok",
-        "controversy",
-        "major releases"
-      ],
-      "x_urls": [],
-      "id": "472e027e58a4375b",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-05T20:01:55Z"
-    },
-    {
-      "title": "JW Radford Signs Three-Book Publishing Deal with Poppy Grace Publishing",
-      "summary": "Author JW Radford has signed a three-book deal with Poppy Grace Publishing, expanding on his themes of personal development, leadership, resilience, and purpose-driven success. The books will cover discipline, mindset, legacy, and overcoming adversity, drawing from his experiences as a business leader. The first title is slated for late February release, with more to follow.",
-      "url": "https://www.the-daily-record.com/press-release/story/35674/jw-radford-signs-three-book-publishing-deal-with-poppy-grace-publishing",
-      "source": "The Daily Record",
-      "tags": [
-        "publishing contract",
-        "traditional storytelling"
-      ],
-      "x_urls": [],
-      "id": "a015969bf1e21401",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-05T20:01:55Z"
-    },
-    {
-      "title": "PHC supporters David Shedd and Don Hodel release new books",
-      "summary": "Patrick Henry College supporters David Shedd and Don Hodel have released new books: Shedd's 'The Great Heist' details China's espionage against Western tech and defense. Hodel's autobiography 'Called to Serve' recounts his Reagan Cabinet roles and public service alongside his late wife. Both works highlight national security and conservative leadership perspectives.",
-      "url": "https://www.phc.edu/news/david-shedd-and-donald-hodel-release-new-books",
-      "source": "Patrick Henry College",
+      "title": "Two New Maas Books Boost Bloomsbury\u2019s Financial Expectations",
+      "summary": "Bloomsbury announced the publication of the next two novels in Sarah J. Maas\u2019s A Court of Thorns and Roses series on October 27, 2026, and January 12, 2027, prompting the company to raise its profit projections for the fiscal year ending February 2027. The series sold over nine million copies in the U.S. in 2024. Bloomsbury now expects pre-tax profit materially ahead of the prior consensus.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/99848-two-new-maas-books-boost-bloomsbury-s-financial-expectations.html",
+      "source": "Publishers Weekly",
       "tags": [
         "major releases",
-        "conservative",
-        "traditional storytelling"
+        "Sarah J. Maas",
+        "Bloomsbury",
+        "BookTok"
       ],
       "x_urls": [],
-      "id": "874eec6be4befb08",
+      "id": "d018dfb5ce5c3026",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-05T20:01:55Z"
+      "timestamp": "2026-03-05T20:02:41Z"
     },
     {
-      "title": "Paramount/Skydance to Acquire Warner Bros. Discovery",
-      "summary": "David Ellison's Skydance and Paramount have agreed to buy Warner Bros. Discovery in a sweeping deal that promises to reinvent the studio's business. The acquisition includes commitments to keep CNN editorially independent. This merger marks a significant consolidation in the entertainment industry.",
-      "url": "https://variety.com/2026/tv/news/david-ellison-cnn-independent-paramount-buys-warner-bros-discovery-1236680397/",
-      "source": "Variety",
+      "title": "Dan Houser Expands Absurd Ventures Book Imprint",
+      "summary": "Dan Houser has expanded Absurd Ventures into a full publishing imprint after releasing his debut novel in 2025. The imprint seeks submissions in fiction, nonfiction, memoirs, plays, and short stories, partnering with Midas Group and distributed by Simon & Schuster in the U.S. It aims for an eclectic list inspired by authors like James Baldwin and William Gibson.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/99837-dan-houser-expands-absurd-ventures-into-full-publishing-imprint.html",
+      "source": "Publishers Weekly",
       "tags": [
-        "Warner Bros.",
-        "merger",
-        "streaming",
-        "Hollywood"
+        "publishing expansion",
+        "imprint",
+        "major contracts",
+        "Dan Houser"
       ],
       "x_urls": [],
-      "id": "32afdde3bfbe779c",
-      "section": "popculture",
+      "id": "7c5459f1ba109993",
+      "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-05T20:03:18Z"
+      "timestamp": "2026-03-05T20:02:41Z"
     },
     {
-      "title": "Netflix Acquires Ben Affleck's AI Filmmaking Startup",
-      "summary": "Netflix has acquired InterPositive, an AI-powered filmmaking tools startup founded by Ben Affleck, who will advise the streamer. The deal underscores the increasing role of artificial intelligence in content creation. Financial terms were not disclosed.",
-      "url": "https://variety.com/2026/film/news/netflix-acquires-ben-affleck-ai-filmmaking-startup-interpositive-1236679498/",
-      "source": "Variety",
+      "title": "Steerforth Becomes Pushkin Press US Imprint",
+      "summary": "Two years after acquisition by Pushkin Press, Steerforth Press is transitioning into Pushkin Press US imprint. Senior editor Chip Fleischer will acquire around 10 nonfiction titles annually to preserve editorial identity. The acquisition boosted Pushkin\u2019s North American sales by 119% in 2025, with further U.S. expansion planned.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/99845-steerforth-becomes-pushkin-press-us-imprint.html",
+      "source": "Publishers Weekly",
       "tags": [
-        "Netflix",
+        "imprint transition",
+        "acquisition",
+        "nonfiction publishing"
+      ],
+      "x_urls": [],
+      "id": "09a2b84e85bb65ab",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-05T20:02:41Z"
+    },
+    {
+      "title": "Meet Amelia: The AI Book Reviewer Who Tells You What She Is -- Then Breaks Down Over a Good Ending",
+      "summary": "Amelia, an AI by Vuxtra LLC, launched a YouTube channel in February 2026 reviewing sci-fi and fantasy books with spoiler-free, emotionally honest feedback processed chapter-by-chapter. She emphasizes transparency about being AI, countering controversies over undisclosed AI on BookTube. Reviews focus on character, emotional truth, and reality-exploring stories.",
+      "url": "https://finance.yahoo.com/news/meet-amelia-ai-book-reviewer-133900816.html",
+      "source": "PR Newswire via Yahoo Finance",
+      "tags": [
         "AI",
-        "Ben Affleck",
-        "technology"
+        "BookTube",
+        "reviewing",
+        "transparency"
       ],
-      "x_urls": [],
-      "id": "22c483ec556f0a1f",
-      "section": "popculture",
+      "x_urls": [
+        "https://x.com/ksandler1/status/2028279082643771524"
+      ],
+      "id": "0123519968679788",
+      "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-05T20:03:18Z"
+      "timestamp": "2026-03-05T20:02:41Z"
     },
     {
-      "title": "Oscars 2026 Announces Star-Studded Presenters Lineup",
-      "summary": "Anne Hathaway, Paul Mescal, Robert Downey Jr., and more have been named as presenters for the 2026 Academy Awards. The lineup adds glamour to the ceremony. Further announcements are anticipated.",
-      "url": "https://variety.com/2026/film/awards/oscars-2026-presenters-anne-hathaway-paul-mescal-1236680437/",
-      "source": "Variety",
+      "title": "Literary agents urge writers to avoid AI as they see 'change in nature of submissions'",
+      "summary": "Several literary agencies are updating submission guidelines to reject cover letters and manuscripts suspected of AI generation, citing changes in submission quality. Agents note increasing AI use altering the nature of pitches received. This move aims to preserve authentic human creativity in publishing.",
+      "url": "https://www.thebookseller.com/news/literary-agents-urge-writers-to-avoid-ai-as-they-see-change-in-nature-of-submissions",
+      "source": "The Bookseller",
       "tags": [
-        "Oscars",
-        "awards",
-        "celebrities"
+        "AI",
+        "controversy",
+        "literary agents",
+        "submissions",
+        "editing"
       ],
-      "x_urls": [],
-      "id": "e37b9c6d0b219792",
-      "section": "popculture",
+      "x_urls": [
+        "https://x.com/ksandler1/status/2028279082643771524",
+        "https://x.com/t_trace/status/2026640375432228917"
+      ],
+      "id": "fea0275fb3b8aa15",
+      "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-05T20:03:18Z"
+      "timestamp": "2026-03-05T20:02:41Z"
     },
     {
-      "title": "Scary Movie Sequel Trailer Draws Backlash Over Pronoun Joke",
-      "summary": "The trailer for Scary Movie 6 features a joke about pronouns in its opening subway stabbing scene, sparking outrage from some viewers who deemed it offensive. Supporters argue it aligns with the series' tradition of irreverent satire. Reactions on social media are sharply divided.",
+      "title": "Why Conservative & Christian Fiction Fails (And How to Fix It)",
+      "summary": "Conservative and Christian fiction struggles due to prioritizing sermons over character-driven stories, resulting in static narratives unlike Tolkien and C.S. Lewis's classics. Successful works show characters grappling with faith through struggles. Christian publishers' adoption of messaging agendas limits true conservative voices.",
+      "url": "https://www.youtube.com/watch?v=OzkHRF8kCvc",
+      "source": "Author Update (YouTube)",
+      "tags": [
+        "conservative authors",
+        "Christian fiction",
+        "traditional storytelling",
+        "publishing critique"
+      ],
+      "x_urls": [],
+      "id": "8871228345084069",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-05T20:02:41Z"
+    },
+    {
+      "title": "Scary Movie sequel sparks outrage for mocking woke pronouns",
+      "summary": "The trailer for Scary Movie 6 was released this week, featuring a scene where a woman stabbed by Ghostface corrects bystanders by insisting on her pronouns: 'Not HER! My pronouns are they/them. He stabbed THEM!' This has sparked backlash online, with critics calling it transphobic and dated, while supporters hail it as a bold return to the franchise's anti-PC humor. The film reunites Anna Faris, Regina Hall, and the Wayans brothers for a June theatrical release.",
       "url": "https://www.dailymail.co.uk/tvshowbiz/article-15610727/scary-movie-sequel-woke-pronouns-joke.html",
       "source": "Daily Mail",
       "tags": [
         "Scary Movie",
+        "trailer",
         "backlash",
+        "pronouns",
         "comedy",
-        "pronouns"
+        "horror parody"
       ],
-      "x_urls": [],
-      "id": "3dc38135ca938215",
+      "x_urls": [
+        "https://x.com/DiscussingFilm/status/2028471372381352394",
+        "https://x.com/BloodOnTheReel/status/2027316379301343432",
+        "https://x.com/YellowFlashGuy/status/2028520477254135919"
+      ],
+      "id": "a9af42152ca223a2",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-05T20:03:18Z"
+      "timestamp": "2026-03-05T20:04:09Z"
     },
     {
-      "title": "Scream 7 Star Anna Camp Faces Backlash, Apologizes for Boycott Post",
-      "summary": "Anna Camp deleted an Instagram post celebrating Scream 7's box office prospects despite boycott calls from pro-Palestine activists and issued an apology. Critics accused her of insensitivity amid the film's controversies. The movie continues toward a potential franchise record opening.",
-      "url": "https://www.imdb.com/news/ni65731958/",
-      "source": "IMDb",
+      "title": "British TV Journalists Of Color Bemoan DEI \u201cBacklash\u201d & Describe \u201cApartheid Newsrooms\u201d",
+      "summary": "British television journalists of color are facing resentment and backlash from white colleagues over DEI initiatives implemented after the 2020 Black Lives Matter protests. A study by the Sir Lenny Henry Centre reveals that 63% experienced racism at work and 60% view diversity efforts as ineffective, resulting in segregated 'apartheid newsrooms' with limited advancement opportunities for minorities. The findings underscore persistent tensions in UK media workplaces.",
+      "url": "https://deadline.com/2026/03/british-tv-journalists-of-color-bemoan-dei-backlash-1236743396",
+      "source": "Deadline",
+      "tags": [
+        "TV",
+        "DEI",
+        "backlash",
+        "racism",
+        "UK media"
+      ],
+      "x_urls": [],
+      "id": "a8c0f962e3bcd2df",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-05T20:04:09Z"
+    },
+    {
+      "title": "Stars channel old Hollywood glamour at 2026 Actor Awards red carpet",
+      "summary": "Celebrities donned vintage-inspired looks channeling old Hollywood glamour at the 32nd annual Actor Awards, formerly the SAG Awards. Standouts included elegant gowns and suits from stars like Irina Shayk, Fran Drescher, and others on the red carpet. The event celebrated outstanding ensemble and individual acting achievements across film and TV.",
+      "url": "https://apnews.com/video/stars-channel-old-hollywood-glamour-at-actor-awards-4e91567622744e4abbda5d38af125b3c",
+      "source": "AP News",
+      "tags": [
+        "awards",
+        "red carpet",
+        "fashion",
+        "Actor Awards",
+        "SAG"
+      ],
+      "x_urls": [],
+      "id": "afd9232e229c1327",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-05T20:04:09Z"
+    },
+    {
+      "title": "Christian Bale expresses worry about Hollywood's future",
+      "summary": "At the premiere of his new film 'The Bride!', Christian Bale voiced concerns over Hollywood's direction amid potential mergers of major studios like Paramount and Warner Bros. He highlighted uncertainty from reduced theatrical windows but suggested it could spark innovation. Bale also shared thoughts on the upcoming 'American Psycho' remake.",
+      "url": "https://apnews.com/video/christian-bale-is-worried-about-hollywood-f9626a557e384e1b8991eb7fb190fdd9",
+      "source": "AP News",
+      "tags": [
+        "Christian Bale",
+        "Hollywood",
+        "mergers",
+        "The Bride",
+        "premiere"
+      ],
+      "x_urls": [],
+      "id": "90a8168c746076f5",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-05T20:04:09Z"
+    },
+    {
+      "title": "'A Knight of Seven Kingdoms' Actress Responds to Racial Backlash About Her Role",
+      "summary": "Actress Tanzyn Crawford addressed racial backlash regarding her casting in HBO's 'A Knight of the Seven Kingdoms', a 'Game of Thrones' prequel series. She clapped back at critics and received support from the original book's author George R.R. Martin. The controversy reflects ongoing debates over race-bending in fantasy adaptations.",
+      "url": "https://www.imdb.com/news/ni65732186",
+      "source": "IMDb News",
+      "tags": [
+        "Game of Thrones",
+        "casting",
+        "backlash",
+        "racial",
+        "HBO"
+      ],
+      "x_urls": [],
+      "id": "e893b2d2fb3b8771",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-05T20:04:09Z"
+    },
+    {
+      "title": "Scream 7 boycott backfires with strong box office performance",
+      "summary": "Pro-Palestine activists called for a boycott of 'Scream 7' over industry controversies, but the film achieved massive box office success in its opening weekend. Director Kevin Williamson and cast members reacted to protests at the premiere, while fans noted the backlash failed to impact attendance. The horror sequel continues the franchise's legacy despite the online uproar.",
+      "url": "https://www.youtube.com/watch?v=rpWXfxwxZsU",
+      "source": "YouTube",
       "tags": [
         "Scream 7",
         "boycott",
-        "backlash",
-        "Hollywood"
+        "box office",
+        "horror",
+        "protests"
       ],
       "x_urls": [
-        "https://x.com/guypbenson/status/2028601479813112145"
+        "https://x.com/joerussotweets/status/2027555378725347616"
       ],
-      "id": "22095848923d271f",
+      "id": "73e31a3e32cff90c",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-05T20:03:18Z"
+      "timestamp": "2026-03-05T20:04:09Z"
     },
     {
-      "title": "The White Lotus Season 4 Adds Vincent Cassel and More to Cast",
-      "summary": "French actors Vincent Cassel, Corentin Fila, and Nadia Tereszkiewicz join the cast of HBO's The White Lotus Season 4. The anthology series maintains its appeal with international talent. Production details are forthcoming.",
-      "url": "https://variety.com/2026/tv/news/the-white-lotus-season-4-vincent-cassel-corentin-fila-1236680447/",
-      "source": "Variety",
+      "title": "Demi Moore's Actor Awards look sparks health concerns",
+      "summary": "Demi Moore's razor-sharp bob haircut and noticeably thinner appearance at the Actor Awards ignited online debates about her health and Hollywood's beauty standards. Fans and observers expressed worry over her frail frame on the red carpet. The 63-year-old actress was among stars embracing dramatic transformations for the event.",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/demi-moores-actor-awards-look-sparks-health-concern/videoshow/128963799.cms",
+      "source": "Times of India",
       "tags": [
-        "The White Lotus",
-        "HBO",
-        "casting",
-        "TV"
+        "Demi Moore",
+        "Actor Awards",
+        "health",
+        "fashion",
+        "red carpet"
       ],
       "x_urls": [],
-      "id": "ab1020440a83f0d7",
+      "id": "0ac569d15f66668e",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-05T20:03:18Z"
+      "timestamp": "2026-03-05T20:04:09Z"
     },
     {
-      "title": "Launch Commerce Rebrands from Launch Cart, Unveils AI-Powered Business Platform for Small Businesses",
-      "summary": "Launch Commerce, formerly Launch Cart, has launched an AI-powered platform featuring seven integrated products like Launch AI Workforce for 24/7 lead qualification and booking, Launch CRM for automated follow-ups, and Launch Ads for managing ads across 11 platforms. Designed for small and mid-sized businesses such as HVAC firms and law offices, it consolidates tools into one system to automate operations, capture leads faster, and boost revenue. The platform was announced on March 4, 2026, as part of their 2026 growth strategy.",
-      "url": "https://www.montgomeryadvertiser.com/press-release/story/659527/launch-commerce-rebrands-from-launch-cart-unveils-ai-powered-business-platform-for-small-businesses",
-      "source": "Montgomery Advertiser",
-      "tags": [
-        "AI platform",
-        "small business",
-        "automation",
-        "product launch"
-      ],
-      "x_urls": [],
-      "id": "ba06d8bdd694dbcb",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-05T20:04:23Z"
-    },
-    {
-      "title": "How NYC Small Businesses Are Putting AI to Work for Them",
-      "summary": "NYC small businesses and nonprofits are using AI to boost efficiency without job cuts, via programs like Tech to Table and Decoded Futures. Examples include a Korean restaurant employing AI for menu checks, customer queries, and multilingual HR, while Welcome to Chinatown uses Claude for surveys and event management, slashing task times dramatically. Another startup, Cai.audio, aids musicians with AI for note adjustments and anti-theft tools, showing practical AI adoption.",
-      "url": "https://www.thecity.nyc/2026/03/04/artificial-intelligence-ai-small-business-nonprofits",
-      "source": "THE CITY",
+      "title": "Intuit Bets Its 40 Years of Small Business Data Can Outlast the SaaSpocalypse",
+      "summary": "Intuit is leveraging its 40 years of small business data, including first-party and third-party financial information from connections with over 24,000 banks and e-commerce sites, to maintain a competitive edge against AI agents that automate bookkeeping, tax filing, and accounting tasks. The company has partnered with Anthropic to integrate AI agents into its platforms like QuickBooks and TurboTax, enabling customized financial tools while emphasizing its deep understanding of small business challenges such as payroll and hiring. Marianna Tessel, EVP and GM for Intuit's small business group, stated, \u201cWe know what small businesses face,\u201d highlighting the durable advantages of this data moat.",
+      "url": "https://venturebeat.com/infrastructure/intuit-is-betting-its-40-years-of-small-business-data-can-outlast-the",
+      "source": "VentureBeat",
       "tags": [
         "small business",
-        "AI adoption",
-        "efficiency",
-        "real-world examples"
-      ],
-      "x_urls": [
-        "https://x.com/StokesPacifique/status/2029210811319894284"
-      ],
-      "id": "0064d4d9e0f4f580",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-05T20:04:23Z"
-    },
-    {
-      "title": "Why Claude Sonnet 4.6 Is A Major AI Upgrade For Small Businesses",
-      "summary": "Anthropic's Claude Sonnet 4.6 offers a 1M-token context window for handling large documents, superior instruction-following, and accuracy gains, available affordably via Amazon Bedrock and GitHub Copilot. It enables small businesses to automate workflows, generate code, and analyze data without AI teams, cutting costs and speeding product delivery. Published February 26, 2026, it promises ROI through efficiency in reports, decisions, and operations.",
-      "url": "https://www.forbes.com/sites/terdawn-deboe/2026/02/26/why-claude-sonnet-46-is-a-major-ai-upgrade-for-small-businesses",
-      "source": "Forbes",
-      "tags": [
-        "AI model",
-        "small business",
-        "upgrade",
-        "automation"
-      ],
-      "x_urls": [
-        "https://x.com/StokesPacifique/status/2027377098235748593"
-      ],
-      "id": "5c4e7bc40376ddfe",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-05T20:04:23Z"
-    },
-    {
-      "title": "Intuit Partners with Anthropic to Integrate Custom AI Agents for Businesses",
-      "summary": "Intuit and Anthropic have partnered to embed Claude Agent SDK into Intuit's platform, allowing mid-market businesses to create secure AI agents for tasks like accounting and payroll in industries such as construction and healthcare. It also brings Intuit's financial expertise to Claude users for seamless execution. Rollout starts spring 2026, as reported February 28.",
-      "url": "https://www.forbes.com/sites/quickerbettertech/2026/02/28/small-business-technology-news-a-chatgpt-smart-speaker",
-      "source": "Forbes",
-      "tags": [
-        "partnership",
         "AI agents",
-        "small business",
-        "financial tools"
+        "Intuit",
+        "QuickBooks",
+        "financial data"
       ],
       "x_urls": [
         "https://x.com/sasan_goodarzi/status/2026298652944445904",
-        "https://x.com/cpapracadvisor/status/2029214083635957830"
+        "https://x.com/smallbiztrends/status/2028518844814463135"
       ],
-      "id": "91018a2be9c80ec2",
+      "id": "f731112994da1326",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-05T20:04:23Z"
+      "timestamp": "2026-03-05T20:05:02Z"
     },
     {
-      "title": "How To Use Claude Cowork To Run Your Business With AI",
-      "summary": "Claude Cowork, an AI agent in the Claude app, automates business tasks like document analysis, research, and report building by accessing folders and running parallel threads. Founders can set it up on Pro plan to categorize data, compare options, or prototype, freeing time for strategy. Examples include podcast insights and supplier evaluation, dated February 24, 2026.",
-      "url": "https://www.forbes.com/sites/jodiecook/2026/02/24/how-to-use-claude-cowork-to-run-your-business-with-ai",
-      "source": "Forbes",
+      "title": "OpenAI Launches GPT-5.4 with Native Computer Use Mode and Financial Plugins",
+      "summary": "OpenAI launched GPT-5.4, available in Thinking and Pro variants through its API, Codex, and ChatGPT plans starting from free users with auto-routing to paid subscribers, featuring a native Computer Use mode for navigating users' computers like a human, direct integrations with Microsoft Excel and Google Sheets for financial modeling and analysis, and improved efficiency with 47% fewer tokens on some tasks. This release supports up to 1 million tokens of context, enhances tool orchestration and reliability by reducing hallucinations by 18-33%, and is priced at $2.50-$30 per million input tokens depending on the variant, potentially accelerating enterprise workflows but raising concerns about white-collar job displacement. It is relevant for small businesses as free and low-cost ChatGPT plans provide access to core features, enabling efficient spreadsheet automation and task completion.",
+      "url": "https://venturebeat.com/technology/openai-launches-gpt-5-4-with-native-computer-use-mode-financial-plugins-for",
+      "source": "VentureBeat",
       "tags": [
-        "AI agent",
-        "small business",
-        "automation",
-        "Claude"
+        "OpenAI",
+        "GPT-5.4",
+        "computer use",
+        "financial plugins",
+        "small business"
       ],
       "x_urls": [
-        "https://x.com/bloggersarvesh/status/2026710864452362483"
+        "https://x.com/iClarified/status/2029636981718683744",
+        "https://x.com/raje1711/status/2029633734371365301"
       ],
-      "id": "abb2ffad58cd6a7b",
+      "id": "96ecbd4533ef8a87",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-05T20:04:23Z"
+      "timestamp": "2026-03-05T20:05:02Z"
+    },
+    {
+      "title": "Perplexity Launches 'Computer' AI Agent That Coordinates 19 Models",
+      "summary": "Perplexity has launched 'Computer', an AI agent that orchestrates 19 specialized models to handle complex, background workflows like trip planning or research, treating models as interchangeable tools for optimal task delegation. Priced at $200 per month for Max subscribers, it offers businesses a unified system to leverage diverse AI capabilities without relying on a single model, potentially enhancing efficiency in marketing, engineering, and other tasks.",
+      "url": "https://venturebeat.com/technology/perplexity-launches-computer-ai-agent-that-coordinates-19-models-priced-at",
+      "source": "VentureBeat",
+      "tags": [
+        "Perplexity",
+        "AI agent",
+        "multi-model",
+        "workflows",
+        "business efficiency"
+      ],
+      "x_urls": [
+        "https://x.com/perplexity_ai/status/2026695550771540489",
+        "https://x.com/PawelHuryn/status/2026808127371317510"
+      ],
+      "id": "06c39a33fab8ba28",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-05T20:05:02Z"
+    },
+    {
+      "title": "Endor Labs Launches Free Tool AURI After Study Finds Only 10% of AI-Generated Code is Secure",
+      "summary": "Endor Labs launched AURI, a free tool that embeds real-time security intelligence into AI coding assistants like Cursor, Claude, and Augment, to address the finding that only 10% of AI-generated code is both functional and secure. AURI uses a code context graph to trace vulnerabilities at the function level, reducing false positives and integrating directly with IDEs such as VS Code for local scanning without data upload. This is highly relevant to small business development teams, as the free tier enables immediate access to secure AI-assisted coding, helping them mitigate risks in rapid software development without enterprise-level costs.",
+      "url": "https://venturebeat.com/technology/endor-labs-launches-free-tool-auri-after-study-finds-only-10-of-ai-generated",
+      "source": "VentureBeat",
+      "tags": [
+        "AI coding",
+        "security tool",
+        "free",
+        "small business dev",
+        "vulnerabilities"
+      ],
+      "x_urls": [],
+      "id": "88cd805b28031987",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-05T20:05:02Z"
+    },
+    {
+      "title": "Gushwork Bets on AI Search for Customer Leads with Emerging Results",
+      "summary": "Gushwork is an AI-powered platform that helps businesses generate and optimize content, build backlinks, and track leads to appear in AI-driven search results from tools like ChatGPT and Perplexity, targeting high-ticket B2B service providers and achieving $1.5 million in annualized recurring revenue with over 300 paying customers, mostly in the U.S. It is particularly good for small businesses, as it enables them to improve online visibility and capture higher-intent leads without large in-house marketing teams, with subscriptions starting at $800 per month.",
+      "url": "https://techcrunch.com/2026/02/25/gushwork-bets-on-ai-search-for-customer-leads-and-early-results-are-emerging",
+      "source": "TechCrunch",
+      "tags": [
+        "AI search",
+        "leads generation",
+        "B2B",
+        "small business marketing"
+      ],
+      "x_urls": [],
+      "id": "bd0bc8dd5dc66b50",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-05T20:05:02Z"
     }
   ]
 }
