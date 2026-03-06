@@ -32,22 +32,48 @@
 ## B) The mechanics of “sameness” (how tables converge)
 
 ### B1) Paid placement / co-op as a driver of what gets prime display space
-- **Claim:** “Co-op” historically functioned as publishers paying for special treatment/display space.
+- **Claim:** Prime display areas (endcaps/front-of-store/eye-level) are scarce and often treated as premium placement.
+  - Source: TCK Publishing (Jan 8, 2021) — *How Do Bookstores Promote Books? Bookstore Displays and Co-Op Explained*
+    - https://www.tckpublishing.com/how-do-bookstores-promote-books/
+    - Quote: “Typically, those are the **“endcaps”**… as well as special displays at the front of the store… Obviously, these are highly coveted spots… **Which usually means charging extra to display things there.**”
+
+- **Claim:** In publishing, this premium-placement system is often discussed under **co-op / cooperative advertising**.
+  - Source: TCK Publishing (Jan 8, 2021)
+    - https://www.tckpublishing.com/how-do-bookstores-promote-books/
+    - Quote: “In the book world, this is done through a process called **co-op**.”
+    - Quote: “Co-op is short for **“cooperative advertising,”** a technique in which stores and producers share the costs of advertising and promoting a product.”
+
+- **Claim (historical framing):** Co-op described as publishers/distributors paying for special in-store treatment.
   - Source (quote): Gone Publishing (2012) — *Co-op, Advertising Allowances, Free Freight, and other Examples of Discount Creep*
     - https://gonepublishing.wordpress.com/2012/04/16/co-op-advertizing--allowances-free-freight-and-other-examples-of-discount-creep/
     - Quote: “Co-op used to be a bookseller’s charge to a book publisher or distributor to purchase special treatment for a particular title. ‘Give me $3000 and I will put your title on the new and notable table in 300 stores.’”
 
-> Note: This is a secondary industry blog source. We should add at least 1–2 higher-authority sources (trade press / bookseller interviews / publishing org explainer) for co-op mechanics.
+> Note: we still want 1–2 *trade* sources (PW/BookBrowse/ABA/bookseller interviews) that describe co-op/placement in practice, but this is now supported by a clearer explainer source + a historical industry post.
 
 ### B2) Viral stacks becoming physical stacks (BookTok → tables)
-- **Claim:** Retailers have created dedicated BookTok tables/sections, which standardizes what’s visible.
-  - Candidate sources to validate with stronger citations:
-    - (Trade/marketing analysis) The Growth CMO — “#BookTok Changed the Way We Buy—Why You Should Be Paying Attention” (May 21, 2025)
-      - https://www.thegrowthcmo.co/p/booktok-changed-the-way-we-buywhy
-    - (Academic) Springer Nature (2025) — “Reading in the age of influence…”
-      - https://link.springer.com/article/10.1007/s13278-025-01542-8
+- **Claim:** Barnes & Noble explicitly merchandised #BookTok in-store (including a “#BookTok table”), contributing to standardized displays.
+  - Source: Retail TouchPoints (Aug 3, 2022) — *How Barnes & Noble is Leveraging the #BookTok Phenomenon (and Vice Versa)*
+    - https://www.retailtouchpoints.com/features/barnes-noble-leveraging-booktok-phenomenon-vice-versa-tiktok/113178/
+    - Quote: “B&N was the very first retailer to actually **merchandise #BookTok on a sign in a store**, and it legitimized #BookTok as a platform that publishers needed to pay attention to.”
+    - Quote (caption): “The **#BookTok table is front and center** at a Barnes & Noble in New Jersey.”
 
-> Next step: pull exact quotes from these sources about in-store BookTok tables/sections, and any numeric claims about sales lift or concentration.
+- **Claim:** #BookTok is also treated as a formal category in B&N’s online navigation (i.e., not a niche side thing).
+  - Source: Retail TouchPoints (Aug 3, 2022)
+    - https://www.retailtouchpoints.com/features/barnes-noble-leveraging-booktok-phenomenon-vice-versa-tiktok/113178/
+    - Quote: “The Hub links back to Barnes & Noble’s **#BookTok section**, now a dedicated category on the B&N homepage nestled alongside more familiar genres such as Sci-Fi, Romance, Thrillers and Picture Books.”
+
+- **Claim (reach/scale):** #BookTok is extremely large in views/videos (helps explain why retail merch follows it).
+  - Source: Retail TouchPoints (Aug 3, 2022)
+    - https://www.retailtouchpoints.com/features/barnes-noble-leveraging-booktok-phenomenon-vice-versa-tiktok/113178/
+    - Quote: “#BookTok… boasts nearly **11 million videos** and more than **65 billion views** to date.”
+
+- **Candidate sources (to still mine for additional numeric claims):**
+  - The Growth CMO — “#BookTok Changed the Way We Buy—Why You Should Be Paying Attention” (May 21, 2025)
+    - https://www.thegrowthcmo.co/p/booktok-changed-the-way-we-buywhy
+  - Springer Nature (2025) — “Reading in the age of influence…”
+    - https://link.springer.com/article/10.1007/s13278-025-01542-8
+
+> Next step: add at least one **trade/industry** citation for “BookTok helped sell X books” (Retail TouchPoints references NPD; we should cite the underlying NPD source directly if possible).
 
 ---
 
