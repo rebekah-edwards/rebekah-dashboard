@@ -7,6 +7,14 @@
 2) **Ideology-as-packaging is more visible**: not just themes in books, but how books are positioned (blurbs, copy, acknowledgements, warnings) increasingly signals a narrow moral frame.
 3) **Result**: bookstores feel less like discovery and more like a physical mirror of the same online funnels.
 
+## Mini-studies (so everything is findable in one spot)
+- **B3 — BookTok Best Sellers concentration (B&N pages 1–3)**
+  - Findings: see section **B3** below
+  - Dataset (JSON): `lion/research/data/booktok-bn-top60-pages1-3.json`
+    - https://github.com/rebekah-edwards/rebekah-dashboard/blob/main/lion/research/data/booktok-bn-top60-pages1-3.json
+
+> Planned next: **Paratext/packaging sampling** + **front-table overlap** (these will be added here as soon as the datasets exist).
+
 ---
 
 ## A) Bookstore landscape context (so we don’t oversimplify)
