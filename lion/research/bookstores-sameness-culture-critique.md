@@ -83,6 +83,28 @@
 
 ---
 
+## B3) Mini-study: What “BookTok Best Sellers” looks like (as a sameness proxy)
+
+**Why this matters:** If BookTok is a major discovery funnel and retailers merchandise it, then the *BookTok bestseller surface* becomes a driver of what many stores feel like (same stacks everywhere).
+
+- **Dataset:** Barnes & Noble “BookTok” category, sorted by **Best Sellers**, pages 1–3 (20 items per page; 60 total list entries)
+  - Listing page: https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f
+  - Captured dataset (JSON): `lion/research/data/booktok-bn-top60-pages1-3.json`
+    - https://github.com/rebekah-edwards/rebekah-dashboard/blob/main/lion/research/data/booktok-bn-top60-pages1-3.json
+
+- **Findings (simple concentration signals):**
+  - Top author by appearances in the top 60: **Sarah J. Maas (7/60 entries)**
+  - Next: **Rebecca Yarros (4/60)**
+  - Then: **Navessa Allen (3/60)**, **Emily Henry (3/60)**, **Callie Hart (3/60)**, **Ali Hazelwood (3/60)**
+
+- **Duplicate works (same underlying book appears multiple times due to editions):**
+  - Work id `1142297916` appears **2×** (Rebecca Yarros — *Fourth Wing* in multiple editions)
+  - Work id `1145866827` appears **2×** (Callie Hart — *Quicksilver* in multiple editions)
+
+> Interpretation (careful): this doesn’t “prove” bookstores are identical, but it does show how a **single discovery surface** can concentrate attention on a relatively small set of names/series—especially when multiple editions of the same work occupy slots.
+
+---
+
 ## C) The “ideology saturation” claim (Option 3: story themes + packaging)
 
 ### C1) How we will make this *measurable* (planned analysis)
