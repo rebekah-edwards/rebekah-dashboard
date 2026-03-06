@@ -13,7 +13,12 @@
   - Dataset (JSON): `lion/research/data/booktok-bn-top60-pages1-3.json`
     - https://github.com/rebekah-edwards/rebekah-dashboard/blob/main/lion/research/data/booktok-bn-top60-pages1-3.json
 
-> Planned next: **Paratext/packaging sampling** + **front-table overlap** (these will be added here as soon as the datasets exist).
+- **B4 — Packaging/paratext sampling (metadata proxy) on a fixed sample (BookTok top 20)**
+  - Findings: see section **B4** below
+  - Dataset (JSON): `lion/research/data/booktok-bn-top20-packaging-paratext-openlibrary.json`
+    - https://github.com/rebekah-edwards/rebekah-dashboard/blob/main/lion/research/data/booktok-bn-top20-packaging-paratext-openlibrary.json
+
+> Planned next: **front-table overlap** (this will be added here as soon as the dataset exists).
 
 ---
 
@@ -110,6 +115,47 @@
   - Work id `1145866827` appears **2×** (Callie Hart — *Quicksilver* in multiple editions)
 
 > Interpretation (careful): this doesn’t “prove” bookstores are identical, but it does show how a **single discovery surface** can concentrate attention on a relatively small set of names/series—especially when multiple editions of the same work occupy slots.
+
+---
+
+## B4) Mini-study: Packaging/paratext sampling (metadata proxy) on a fixed BookTok sample
+
+**Why this matters:** if the “same stacks everywhere” claim is partly about *how* titles are packaged (edition naming, deluxe/exclusive variants, series branding, format cues), we need a reproducible way to sample *paratext* (not plot) across a fixed list.
+
+**Sample (fixed):** top 20 entries from the Barnes & Noble **BookTok** category, sorted by **Best Sellers**, page 1.
+- Listing page: https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f
+- Sample derived from dataset in B3: `lion/research/data/booktok-bn-top60-pages1-3.json`
+  - https://github.com/rebekah-edwards/rebekah-dashboard/blob/main/lion/research/data/booktok-bn-top60-pages1-3.json
+
+**Dataset:** `lion/research/data/booktok-bn-top20-packaging-paratext-openlibrary.json`
+- https://github.com/rebekah-edwards/rebekah-dashboard/blob/main/lion/research/data/booktok-bn-top20-packaging-paratext-openlibrary.json
+
+**What we actually measured (current constraint):**
+- On 2026-03-06, automated fetching of individual B&N product pages returned **403 Forbidden**, so this mini-study uses:
+  - *B&N listing text* (edition cues present in the displayed title), plus
+  - *Open Library ISBN edition metadata* (publisher/imprint, format, page count, physical dimensions when present) as a **packaging/paratext proxy**.
+- Open Library API docs: https://openlibrary.org/dev/docs/api/books
+
+**Findings (top-20 sample, with the above constraint):**
+- **Special-edition signaling does appear, but not on most entries (from B&N listing titles):**
+  - “B&N Exclusive” appears in **1/20** displayed titles.
+  - “Deluxe”/“Limited” appears in **1/20** displayed titles (a “Deluxe Limited …” entry).
+  - Caveat: this almost certainly **undercounts** special-edition packaging because we couldn’t access product-page badges/callouts.
+
+- **Publisher/imprint concentration shows up even inside a top-20 list (from Open Library publishers field):**
+  - Most common publisher string in this sample: **Entangled: Red Tower Books (3 entries)**.
+  - Caveat: Open Library publisher strings are edition-level and not perfectly normalized.
+
+- **Format skew (where present in Open Library metadata) leans paperback:**
+  - Paperback: **8/20**
+  - Hardcover: **2/20**
+  - Missing/unspecified format in Open Library for **10/20** entries.
+
+- **Length (pages) varies widely among entries with page counts present (Open Library):**
+  - Page count present for **13/20** entries.
+  - Range: **208–672 pages** (median **400** among those 13).
+
+> Interpretation: this mini-study is an initial *methods anchor* more than a final claim. The key takeaway is that even a small fixed “viral funnel” list can be turned into a reproducible packaging dataset (edition cues + ISBN-level metadata). Next iteration should capture richer paratext (badges, blurbs, endorsements, content notes) once we have a compliant way to access product-page content or alternate public sources.
 
 ---
 

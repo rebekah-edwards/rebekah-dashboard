@@ -1,0 +1,714 @@
+{
+  "study": "Mini-study #2 — Packaging/paratext sampling (metadata proxy) on a fixed sample",
+  "captured_at": "2026-03-06",
+  "sample_definition": "Top 20 entries from Barnes & Noble BookTok category (sorted by Best Sellers), page 1 (Nrpp=20). Enriched with Open Library ISBN metadata (edition-level).",
+  "primary_sources": {
+    "bn_list": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+    "bn_list_dataset": "lion/research/data/booktok-bn-top60-pages1-3.json",
+    "openlibrary_isbn_api": "https://openlibrary.org/dev/docs/api/books"
+  },
+  "fields_note": "B&N product pages returned 403 during automated fetching on 2026-03-06; this study uses B&N listing + Open Library ISBN edition metadata as a paratext/packaging proxy.",
+  "items": [
+    {
+      "rank": 1,
+      "title_display": "The Housemaid",
+      "author_display": "Freida McFadden",
+      "bn_href": "https://www.barnesandnoble.com/w/the-housemaid-freida-mcfadden/1142009317?ean=9781538742570",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1142009317",
+      "isbn13_ean": "9781538742570",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781538742570.json",
+      "openlibrary": {
+        "title": "The Housemaid",
+        "publish_date": "April 26 2022",
+        "publishers": [
+          "Hatchette UK - Bookouture"
+        ],
+        "physical_format": "Both paperback and audible audio",
+        "physical_dimensions": "7.95 x .85 x 5.2 inches",
+        "weight": "11 ounces",
+        "number_of_pages": 336,
+        "covers": [
+          14653835
+        ],
+        "works": [
+          {
+            "key": "/works/OL27729743W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 2,
+      "title_display": "Atomic Habits: An Easy &…",
+      "author_display": "James Clear",
+      "bn_href": "https://www.barnesandnoble.com/w/atomic-habits-james-clear/1129201155?ean=9780735211292",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1129201155",
+      "isbn13_ean": "9780735211292",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9780735211292.json",
+      "openlibrary": {
+        "title": "Atomic Habits",
+        "publish_date": "2018",
+        "publishers": [
+          "Avery, an Imprint of Penguin Random House LLC"
+        ],
+        "physical_format": "Hardcover",
+        "physical_dimensions": "9 x 6 x  inches",
+        "weight": null,
+        "number_of_pages": 320,
+        "covers": [
+          12886417,
+          -1
+        ],
+        "works": [
+          {
+            "key": "/works/OL17930368W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 3,
+      "title_display": "Murdle: Volume 1: 100…",
+      "author_display": "G. T. Karber",
+      "bn_href": "https://www.barnesandnoble.com/w/murdle-g-t-karber/1141976523?ean=9781250892317",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1141976523",
+      "isbn13_ean": "9781250892317",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781250892317.json",
+      "openlibrary": {
+        "title": "Murdle : Volume 1",
+        "publish_date": "2023",
+        "publishers": [
+          "St. Martin's Press"
+        ],
+        "physical_format": null,
+        "physical_dimensions": null,
+        "weight": "0.455",
+        "number_of_pages": null,
+        "covers": [
+          15091621
+        ],
+        "works": [
+          {
+            "key": "/works/OL28864367W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 4,
+      "title_display": "Lights Out (Into Darkness…",
+      "author_display": "Navessa Allen",
+      "bn_href": "https://www.barnesandnoble.com/w/lights-out-navessa-allen/1148125807?ean=9781638932239",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1148125807",
+      "isbn13_ean": "9781638932239",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781638932239.json",
+      "openlibrary": {
+        "title": "Lights Out",
+        "publish_date": "2024",
+        "publishers": [
+          "Zando - Slowburn"
+        ],
+        "physical_format": "Paperback",
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": 416,
+        "covers": [
+          14840902
+        ],
+        "works": [
+          {
+            "key": "/works/OL38128674W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 5,
+      "title_display": "Game On (B&N Exclusive Edition…",
+      "author_display": "Navessa Allen",
+      "bn_href": "https://www.barnesandnoble.com/w/game-on-navessa-allen/1148120629?ean=9781638934561",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1148120629",
+      "isbn13_ean": "9781638934561",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": true,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781638934561.json",
+      "openlibrary": null,
+      "openlibrary_error": "HTTPError 404"
+    },
+    {
+      "rank": 6,
+      "title_display": "I Who Have Never Known Men",
+      "author_display": "Jacqueline Harpman",
+      "bn_href": "https://www.barnesandnoble.com/w/i-who-have-never-known-men-jacqueline-harpman/1101058519?ean=9781945492600",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1101058519",
+      "isbn13_ean": "9781945492600",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781945492600.json",
+      "openlibrary": {
+        "title": "I Who Have Never Known Men",
+        "publish_date": "2022",
+        "publishers": [
+          "Transit Books"
+        ],
+        "physical_format": null,
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": 208,
+        "covers": [
+          12406310
+        ],
+        "works": [
+          {
+            "key": "/works/OL102360W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 7,
+      "title_display": "The Silent Patient",
+      "author_display": "Alex Michaelides",
+      "bn_href": "https://www.barnesandnoble.com/w/the-silent-patient-alex-michaelides/1128638857?ean=9781250301703",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1128638857",
+      "isbn13_ean": "9781250301703",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781250301703.json",
+      "openlibrary": {
+        "title": "The Silent Patient",
+        "publish_date": "Jan 12, 2021",
+        "publishers": [
+          "Celadon Books"
+        ],
+        "physical_format": "paperback",
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": 352,
+        "covers": [
+          10152982
+        ],
+        "works": [
+          {
+            "key": "/works/OL19096402W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 8,
+      "title_display": "People We Meet on Vacation",
+      "author_display": "Emily Henry",
+      "bn_href": "https://www.barnesandnoble.com/w/people-we-meet-on-vacation-emily-henry/1137492137?ean=9781984806758",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1137492137",
+      "isbn13_ean": "9781984806758",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781984806758.json",
+      "openlibrary": {
+        "title": "People We Meet On Vacation",
+        "publish_date": "May 11, 2021",
+        "publishers": [
+          "Berkley Books",
+          "Berkley"
+        ],
+        "physical_format": "paperback",
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": 384,
+        "covers": [
+          10476782
+        ],
+        "works": [
+          {
+            "key": "/works/OL22563730W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 9,
+      "title_display": "Brimstone (Deluxe Limited…",
+      "author_display": "Callie Hart",
+      "bn_href": "https://www.barnesandnoble.com/w/brimstone-callie-hart/1146895617?ean=9781538774229",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1146895617",
+      "isbn13_ean": "9781538774229",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": true,
+        "limited": true,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781538774229.json",
+      "openlibrary": {
+        "title": "Brimstone",
+        "publish_date": "November 18, 2025",
+        "publishers": [
+          "Forever"
+        ],
+        "physical_format": "Hardcover",
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": 672,
+        "covers": [
+          15146255
+        ],
+        "works": [
+          {
+            "key": "/works/OL42445468W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 10,
+      "title_display": "Fourth Wing",
+      "author_display": "Rebecca Yarros",
+      "bn_href": "https://www.barnesandnoble.com/w/fourth-wing-rebecca-yarros/1142297916?ean=9781649377371",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1142297916",
+      "isbn13_ean": "9781649377371",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781649377371.json",
+      "openlibrary": {
+        "title": "Fourth WIng",
+        "publish_date": "2024",
+        "publishers": [
+          "Entangled Publishing, LLC"
+        ],
+        "physical_format": "Paperback",
+        "physical_dimensions": null,
+        "weight": "0.700 ",
+        "number_of_pages": 541,
+        "covers": null,
+        "works": [
+          {
+            "key": "/works/OL39213216W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 11,
+      "title_display": "Just Friends: A Novel",
+      "author_display": "Haley Pham",
+      "bn_href": "https://www.barnesandnoble.com/w/just-friends-haley-pham/1147724250?ean=9781668095188",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1147724250",
+      "isbn13_ean": "9781668095188",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781668095188.json",
+      "openlibrary": null,
+      "openlibrary_error": "HTTPError 404"
+    },
+    {
+      "rank": 12,
+      "title_display": "Onyx Storm (Wing and Claw…",
+      "author_display": "Rebecca Yarros",
+      "bn_href": "https://www.barnesandnoble.com/w/onyx-storm-rebecca-yarros/1145190835?ean=9781649374189",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1145190835",
+      "isbn13_ean": "9781649374189",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781649374189.json",
+      "openlibrary": {
+        "title": "Onyx Storm",
+        "publish_date": "January 21, 2025",
+        "publishers": [
+          "Entangled: Red Tower Books"
+        ],
+        "physical_format": null,
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": 544,
+        "covers": [
+          14826089
+        ],
+        "works": [
+          {
+            "key": "/works/OL41943074W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 13,
+      "title_display": "A Court of Thorns and Roses (A…",
+      "author_display": "Sarah J. Maas",
+      "bn_href": "https://www.barnesandnoble.com/w/a-court-of-thorns-and-roses-sarah-j-maas/1120160516?ean=9781635575569",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1120160516",
+      "isbn13_ean": "9781635575569",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781635575569.json",
+      "openlibrary": {
+        "title": "A Court of Thorns and Roses",
+        "publish_date": "2020",
+        "publishers": [
+          "Bloomsbury Publishing"
+        ],
+        "physical_format": "Paperback",
+        "physical_dimensions": "8 x 6 x  inches",
+        "weight": null,
+        "number_of_pages": 448,
+        "covers": [
+          14832049,
+          14429818
+        ],
+        "works": [
+          {
+            "key": "/works/OL17352669W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 14,
+      "title_display": "If He Had Been with Me",
+      "author_display": "Laura Nowlin",
+      "bn_href": "https://www.barnesandnoble.com/w/if-he-had-been-with-me-laura-nowlin/1112689781?ean=9781728205489",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1112689781",
+      "isbn13_ean": "9781728205489",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781728205489.json",
+      "openlibrary": {
+        "title": "If He Had Been with Me",
+        "publish_date": "2019",
+        "publishers": [
+          "Sourcebooks, Incorporated"
+        ],
+        "physical_format": null,
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": 400,
+        "covers": null,
+        "works": [
+          {
+            "key": "/works/OL19667762W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 15,
+      "title_display": "Caught Up (Into Darkness…",
+      "author_display": "Navessa Allen",
+      "bn_href": "https://www.barnesandnoble.com/w/caught-up-navessa-allen/1146397680?ean=9781638932253",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1146397680",
+      "isbn13_ean": "9781638932253",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781638932253.json",
+      "openlibrary": {
+        "title": "Caught Up",
+        "publish_date": "2025",
+        "publishers": [
+          "Slowburn / Zando"
+        ],
+        "physical_format": "Paperback",
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": 340,
+        "covers": [
+          15093928
+        ],
+        "works": [
+          {
+            "key": "/works/OL42544936W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 16,
+      "title_display": "The Body Keeps the Score:…",
+      "author_display": "Bessel van der Kolk M.D.",
+      "bn_href": "https://www.barnesandnoble.com/w/the-body-keeps-the-score-bessel-van-der-kolk-md/1117229987?ean=9780143127741",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1117229987",
+      "isbn13_ean": "9780143127741",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9780143127741.json",
+      "openlibrary": {
+        "title": "The Body Keeps the Score",
+        "publish_date": "Sep 08, 2015",
+        "publishers": [
+          "Penguin Books"
+        ],
+        "physical_format": "Paperback",
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": 464,
+        "covers": [
+          14849962,
+          8315367
+        ],
+        "works": [
+          {
+            "key": "/works/OL18147687W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 17,
+      "title_display": "Fourth Wing (Wing and Claw…",
+      "author_display": "Rebecca Yarros",
+      "bn_href": "https://www.barnesandnoble.com/w/fourth-wing-rebecca-yarros/1142297916?ean=9781649379290",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1142297916",
+      "isbn13_ean": "9781649379290",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781649379290.json",
+      "openlibrary": {
+        "title": "Fourth Wing (Wing and Claw Collection)",
+        "publish_date": "2025-09-30",
+        "publishers": [
+          "Entangled: Red Tower Books"
+        ],
+        "physical_format": null,
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": 0,
+        "covers": null,
+        "works": [
+          {
+            "key": "/works/OL43724891W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 18,
+      "title_display": "Better Than the Movies",
+      "author_display": "Lynn Painter",
+      "bn_href": "https://www.barnesandnoble.com/w/better-than-the-movies-lynn-painter/1137941902?ean=9781534467637",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1137941902",
+      "isbn13_ean": "9781534467637",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781534467637.json",
+      "openlibrary": {
+        "title": "Better Than the Movies",
+        "publish_date": "2022",
+        "publishers": [
+          "Simon & Schuster Books For Young Readers"
+        ],
+        "physical_format": null,
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": null,
+        "covers": [
+          14357862,
+          -1
+        ],
+        "works": [
+          {
+            "key": "/works/OL24542623W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 19,
+      "title_display": "Verity",
+      "author_display": "Colleen Hoover",
+      "bn_href": "https://www.barnesandnoble.com/w/verity-colleen-hoover/1130171830?ean=9781538724736",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1130171830",
+      "isbn13_ean": "9781538724736",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781538724736.json",
+      "openlibrary": {
+        "title": "Verity",
+        "publish_date": "December 7, 2018",
+        "publishers": [
+          "Grand Central Publishing"
+        ],
+        "physical_format": null,
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": null,
+        "covers": [
+          15128483
+        ],
+        "works": [
+          {
+            "key": "/works/OL20068530W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    },
+    {
+      "rank": 20,
+      "title_display": "Iron Flame (Wing and Claw…",
+      "author_display": "Rebecca Yarros",
+      "bn_href": "https://www.barnesandnoble.com/w/iron-flame-rebecca-yarros/1143445645?ean=9781649379399",
+      "bn_list_source_url": "https://www.barnesandnoble.com/b/booktok/_/N-2vdnZ1f",
+      "bn_work_id": "1143445645",
+      "isbn13_ean": "9781649379399",
+      "packaging_flags_from_bn_title": {
+        "bn_exclusive": false,
+        "deluxe": false,
+        "limited": false,
+        "standard": false,
+        "series_marked": false
+      },
+      "openlibrary_isbn_url": "https://openlibrary.org/isbn/9781649379399.json",
+      "openlibrary": {
+        "title": "Iron Flame (Wing and Claw Collection)",
+        "publish_date": "2025-09-30",
+        "publishers": [
+          "Entangled: Red Tower Books"
+        ],
+        "physical_format": null,
+        "physical_dimensions": null,
+        "weight": null,
+        "number_of_pages": 0,
+        "covers": null,
+        "works": [
+          {
+            "key": "/works/OL43724886W"
+          }
+        ]
+      },
+      "openlibrary_error": null
+    }
+  ]
+}
