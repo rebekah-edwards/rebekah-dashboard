@@ -1,254 +1,268 @@
 {
   "date": "2026-03-06",
   "period": "afternoon",
-  "generated": "2026-03-06T20:03:34Z",
+  "generated": "2026-03-06T20:04:05Z",
   "items": [
     {
       "title": "Google AI Mode Cites Itself More Often, With More Organic Links",
-      "summary": "Google's self-referencing in AI Mode has tripled over nine months, now accounting for 17% of all citations, with a shift where 59% of these point to organic search results rather than Google Business Profiles. SE Ranking's analysis shows Google as the top-cited domain in 19 of 20 niches, indicating broader relevance beyond local search. This underscores the ongoing importance of traditional SEO for visibility in AI-generated responses.",
+      "summary": "Google's AI Mode self-citations have tripled from 5% to 17% over nine months, with 59% now pointing to organic search results rather than Google Business Profiles, indicating a shift beyond local search relevance. This change positions Google as the top-cited domain in 19 of 20 niches analyzed, emphasizing the continued importance of organic rankings in AI-driven visibility. For SEO, focus on optimizing for organic performance as AI Mode matures, per the February 2024 SE Ranking data.",
       "url": "https://www.searchenginejournal.com/google-ai-mode-cites-itself-more-often-with-more-organic-links/568955",
       "source": "Search Engine Journal",
       "tags": [
-        "AI search",
-        "Google AI",
-        "organic links",
-        "citations"
+        "AI Search",
+        "Google AI Mode"
       ],
       "x_urls": [
-        "https://x.com/MCanarelli/status/2029201830136213639"
+        "https://x.com/pistakkiomktg/status/2029920370367553661"
       ],
       "id": "32503df8949e2a58",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-06T20:00:51Z"
+      "timestamp": "2026-03-06T20:01:12Z"
     },
     {
-      "title": "GEO & AEO: How to Get Cited by AI Search in 2026",
-      "summary": "AI engines like ChatGPT and Perplexity cite sources in synthesized answers, shifting from SEO to GEO/AEO for visibility without clicks. Tactics include citation triggers (up to 115% lift per Princeton research), checklists, templates, and tracking with Otterly.ai. Optimize structured content for authority and citations to combat zero-click searches.",
-      "url": "https://www.thevccorner.com/p/geo-aeo-how-to-rank-when-ai-answers",
-      "source": "The VC Corner",
+      "title": "How structured data supports local visibility across Google and AI",
+      "summary": "Structured data (schema) now serves as a critical trust signal in AI-driven search environments, enabling Google and other AI systems to verify business information, reduce conflicts across local packs, AI Overviews, and search results, and reinforce entity consistency for improved local visibility. Key impacts include increased confidence in accurate, aligned signals like on-page content, Google Business Profiles, and reviews, while contradictions or false positives (e.g., mismatched hours or unauthorized reviews) lead to ignored markup and reduced visibility. Advice emphasizes using specific schema types like LegalService, Organization, Person, OfferCatalog, and FAQPage for local businesses, maintaining them through quarterly audits and trigger-based updates to reflect changes, ensuring reliability across fragmented search interfaces.",
+      "url": "https://searchengineland.com/schema-local-visibility-google-ai-470906",
+      "source": "Search Engine Land",
       "tags": [
         "GEO",
         "AEO",
-        "AI Optimization"
-      ],
-      "x_urls": [
-        "https://x.com/tomas_corza/status/2028460430906032592",
-        "https://x.com/DanHaslam/status/2029603793118318813"
-      ],
-      "id": "3d351a68950d7225",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-06T20:00:51Z"
-    },
-    {
-      "title": "Authors Guild Expands AI-Free Certification Program to Publishers and Non-Members",
-      "summary": "The Authors Guild has broadened its Human Authored certification, launched in 2025, to include publishers and non-Guild members, enabling them to verify books as human-written with a trademarked seal. Over 3,000 authors have certified 5,000 titles, excluding minor AI aids like grammar checks. This responds to AI-generated content flooding the market and reader preferences for human-authored books.",
-      "url": "https://lithub.com/the-authors-guild-is-allowing-more-writers-to-certify-their-books-are-ai-free",
-      "source": "Literary Hub",
-      "tags": [
-        "AI",
-        "publishing",
-        "certification"
-      ],
-      "x_urls": [
-        "https://x.com/ksandler1/status/2028279082643771524"
-      ],
-      "id": "7fe8d9f7e8b6833f",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-06T20:01:43Z"
-    },
-    {
-      "title": "Publishers Weekly Book Deals: Harlan Coben Memoir and Taylor Sheridan Survival Guide Acquired",
-      "summary": "Grand Central acquired North American rights to Harlan Coben's 'Plot Twist: Life, Craft and the Messy First Draft,' a memoir on writing set for September release. Simon & Schuster secured 'How to Not Die in Prison' by Taylor Sheridan and Tom Nelson, a nonfiction survival guide for June publication. Other notable deals include thrillers like 'Eternal Glow' in a five-book series.",
-      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/book-deals/article/99792-book-deals-week-of-march-2-2026.html",
-      "source": "Publishers Weekly",
-      "tags": [
-        "major contracts",
-        "thriller",
-        "nonfiction"
+        "Structured Data"
       ],
       "x_urls": [],
-      "id": "a476ad0f496d5de1",
-      "section": "publishing",
+      "id": "b8da7d7af9525f98",
+      "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-06T20:01:43Z"
+      "timestamp": "2026-03-06T20:01:12Z"
     },
     {
-      "title": "Scholastic Lands Six-Figure Deal for Libba Bray's YA Romance 'Radio Free Texas'",
-      "summary": "Scholastic's David Levithan acquired North American rights in a six-figure deal to Libba Bray's 'Radio Free Texas,' a teen romance centered on an indie radio station, slated for fall 2026. Other children's deals include YA supernatural mysteries, cozy romances, and middle-grade fantasy series. These acquisitions highlight strong interest in YA genres popular on BookTok.",
+      "title": "How to use AI for SEO without losing your brand voice",
+      "summary": "AI excels at scaling SEO tasks like data analysis, keyword clustering, content outlining, and pattern detection, allowing teams to focus on strategy while reducing manual effort. However, without a defined brand voice, AI-generated content risks becoming generic and soulless, leading to diluted identity rather than penalties from Google, which penalizes low-quality content regardless of origin. To mitigate this, define brand voice clearly before using AI, train tools on existing content, use AI for structure and research while humans handle tone, storytelling, and editing, and prioritize human oversight on core pages for authenticity and trust-building.",
+      "url": "https://searchengineland.com/how-to-use-ai-for-seo-without-losing-your-brand-voice-470789",
+      "source": "Search Engine Land",
+      "tags": [
+        "AI SEO",
+        "Content Marketing"
+      ],
+      "x_urls": [],
+      "id": "f58a3e2fc9ba51e8",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:01:12Z"
+    },
+    {
+      "title": "How to revise your old content for AI search optimization",
+      "summary": "AI search optimization (AEO) rewards revising old content by reformatting it for topical breadth and depth using a hub-and-spoke model, chunk-level retrieval with self-contained passages, and answer synthesis through clear summaries and non-promotional tones, enabling better visibility in AI answers. Prioritize content with expertise, proprietary insights, or frequent questions, focusing on reports, tools, and evergreen guides that tie to business growth, while updating metadata like title tags, headings, and meta descriptions to serve as context anchors rather than ranking levers.",
+      "url": "https://searchengineland.com/revise-old-content-ai-search-optimization-470434",
+      "source": "Search Engine Land",
+      "tags": [
+        "AEO",
+        "Content Optimization"
+      ],
+      "x_urls": [],
+      "id": "57a7a355f095519e",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:01:12Z"
+    },
+    {
+      "title": "Literature is 'in peril' due to 'social censure', Adichie claims in BBC Reith lecture",
+      "summary": "Chimamanda Ngozi Adichie claimed in her BBC Reith Lecture that literature is endangered by social censure and excessive caution in publishing. She criticized the widespread use of sensitivity readers by publishers and disclosed that one of her novels may soon face bans in certain American schools. Adichie urged for more courageous narrative approaches amid rising cultural sensitivities.",
+      "url": "https://www.thebookseller.com/news/literature-is-in-peril-due-to-social-censure-adichie-claims-in-bbc-reith-lecture",
+      "source": "The Bookseller",
+      "tags": [
+        "publishing controversy",
+        "sensitivity readers",
+        "traditional storytelling"
+      ],
+      "x_urls": [],
+      "id": "3c6b4f5a51fe4584",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:02:25Z"
+    },
+    {
+      "title": "Media Do International to Acquire Seven Seas Entertainment",
+      "summary": "Media Do International announced its acquisition of Seven Seas Entertainment, a prominent publisher of manga, light novels, danmei, and international storytelling. The deal highlights surging global demand for these genres across print, digital, and audio formats. Seven Seas will continue its publishing operations following the acquisition.",
+      "url": "https://sevenseasentertainment.com/2026/03/01/media-do-international-to-acquire-seven-seas-entertainment",
+      "source": "Seven Seas Entertainment",
+      "tags": [
+        "major acquisition",
+        "publishing contracts",
+        "manga"
+      ],
+      "x_urls": [
+        "https://x.com/gomanga/status/2026404020797972816"
+      ],
+      "id": "4799422ebb7975ac",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:02:25Z"
+    },
+    {
+      "title": "HarperCollins Ireland seizes Barry's 'stunning' coming-of-age story of Ireland 3.0",
+      "summary": "HarperCollins Ireland acquired world rights to journalist Aoife Barry's debut novel Social Capital. The book is described as a coming-of-age tale capturing modern Ireland's evolution. Publication details will be announced soon.",
+      "url": "https://www.thebookseller.com/rights/harpercollins-ireland-seizes-barrys-stunning-coming-of-age-story-of-ireland-30",
+      "source": "The Bookseller",
+      "tags": [
+        "major contract"
+      ],
+      "x_urls": [],
+      "id": "12d71c65eb5e0704",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:02:25Z"
+    },
+    {
+      "title": "BookTok is already spiraling for ACOTAR 6 and 7",
+      "summary": "Sarah J. Maas announced two new books, ACOTAR 6 and 7, in her A Court of Thorns and Roses series on the Call Her Daddy podcast. BookTok erupted with excitement, driving viral discussions and speculation among fans. The reveals have intensified anticipation for future fantasy releases.",
+      "url": "https://mashable.com/article/acotar-sarah-j-maas-announces-two-new-books-call-her-daddy",
+      "source": "Mashable",
+      "tags": [
+        "BookTok",
+        "major releases",
+        "fantasy"
+      ],
+      "x_urls": [
+        "https://x.com/mashable/status/2029656895485612316"
+      ],
+      "id": "ae30b4ee1d3529ca",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:02:25Z"
+    },
+    {
+      "title": "Rights Report: Week of March 2, 2026",
+      "summary": "Publishers Weekly reported multiple significant rights deals, including world rights for a new children's book acquired by Lerner/Carolrhoda for summer 2027 publication. Deals negotiated by agents like Laura Rennert highlight ongoing activity across genres. The roundup showcases key acquisitions from the past week.",
       "url": "https://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/99826-rights-report-week-of-march-2-2026.html",
       "source": "Publishers Weekly",
       "tags": [
-        "YA",
-        "BookTok",
-        "major contracts"
-      ],
-      "x_urls": [],
-      "id": "f8dbee808a8afa99",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-06T20:01:43Z"
-    },
-    {
-      "title": "Vulture Analyzes Conservative-Coded Themes in New Books by Madeline Cash and Honor Levy",
-      "summary": "Vulture reviews Madeline Cash's debut 'Lost Lambs' and Honor Levy's 'My First Book,' noting their ironic provocations against wokeness and progressive culture through traditional family sagas and edgy satire. Cash's novel features QAnon-inspired plots and redemption arcs in an all-white suburban setting. The works employ shock value and reactionary politics to defend white identity.",
-      "url": "https://www.vulture.com/article/madeline-cash-lost-lambs-honor-levy-close-reads.html",
-      "source": "Vulture",
-      "tags": [
-        "traditional storytelling",
-        "conservative-coded",
-        "publishing"
-      ],
-      "x_urls": [],
-      "id": "df91c95a7b3eb576",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-06T20:01:43Z"
-    },
-    {
-      "title": "Literary Agents Update Guidelines to Ban AI-Generated Submissions",
-      "summary": "Multiple literary agencies now reject manuscripts and cover letters created using generative AI, as reported by The Times. This policy aims to preserve human creativity amid rising AI content in queries. Writers face automatic disqualification for AI use in submissions.",
-      "url": "https://www.thetimes.co.uk/article/literary-agents-ban-use-of-ai-in-book-submissions-dvkphzsck3y",
-      "source": "The Times",
-      "tags": [
-        "AI",
-        "publishing",
-        "submissions"
-      ],
-      "x_urls": [
-        "https://x.com/CIoJournalist/status/2026426604428087785",
-        "https://x.com/ksandler1/status/2028279082643771524"
-      ],
-      "id": "78d56a821a1b105c",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-06T20:01:43Z"
-    },
-    {
-      "title": "Grand Central Acquires George Saunders' New Novel and Writing Nonfiction in Major Two-Book Deal",
-      "summary": "Random House secured world rights to two books by acclaimed author George Saunders, including an untitled novel and nonfiction on writing akin to 'A Swim in a Pond in the Rain.' The deal underscores continued investment in literary heavyweights. Publication dates are forthcoming.",
-      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/book-deals/article/99743-book-deals-week-of-february-23-2026.html",
-      "source": "Publishers Weekly",
-      "tags": [
         "major contracts",
-        "literary fiction"
+        "rights deals"
       ],
       "x_urls": [],
-      "id": "1fe2dafbf216eb64",
+      "id": "decb3dfb0a46d1d8",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-06T20:01:43Z"
+      "timestamp": "2026-03-06T20:02:25Z"
     },
     {
-      "title": "Scary Movie 6: Is It Impossible To Make Comedies Without Woke Culture?",
-      "summary": "The trailer for Scary Movie 6 features a scene mocking woke culture by having a character correct their gender assumption during a stabbing, highlighting how comedies often target such elements for humor. Some viewers were able to enjoy the film as pure entertainment and overlook potential offenses, while others expressed upset over a racist joke and the pronoun-related mockery. The article questions whether this approach signals the end of iconic comedies in the current climate.",
-      "url": "https://www.mensxp.com/entertainment/movies/182449-scary-movie-6-impossible-make-comedies-without-woke-culture.html",
-      "source": "MensXP",
+      "title": "\u2018A Knight of the Seven Kingdoms\u2019 Star Reacts to Fan \u2018Negativity\u2019 About Her Race",
+      "summary": "Tanzyn Crawford, star of 'A Knight of the Seven Kingdoms,' addressed fan negativity regarding her race in portraying Tanselle Too-Tall, stating she faced such criticism but remains employed and focused on her dreams. She received reassurance from George R.R. Martin, who confirmed she matched his vision for the character. The series, a 'Game of Thrones' prequel, saw strong viewership with 9.5 million U.S. viewers in its first three days.",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/a-knight-of-the-seven-kingdoms-tanzyn-crawford-casting-racism/",
+      "source": "The Wrap",
       "tags": [
-        "Scary Movie",
-        "trailer",
-        "backlash",
-        "woke",
-        "comedy"
-      ],
-      "x_urls": [
-        "https://x.com/DiscussingFilm/status/2028471372381352394",
-        "https://x.com/minxxxgoth/status/2028496851830251530",
-        "https://x.com/EVILSCRE4M/status/2028495613604581870"
-      ],
-      "id": "ba65640b5e49aa9a",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-06T20:02:46Z"
-    },
-    {
-      "title": "Timoth\u00e9e Chalamet Faces Backlash After Saying 'No One Cares About' Ballet and Opera",
-      "summary": "Timoth\u00e9e Chalamet received criticism from opera singers and ballet dancers on social media for claiming that no one cares about ballet and opera anymore while advocating for movie theaters. Performers such as Isabelle Leonard expressed shock at his views, calling them ineloquent and narrow-minded, while others like Deepa Johnny and Victor Caixeta emphasized the enduring value and historical significance of these art forms. Chalamet acknowledged the potential misstep during the discussion, noting he 'lost 14 cents in viewership.'",
-      "url": "https://people.com/timothee-chalamet-faces-backlash-after-saying-no-one-cares-about-ballet-and-opera-11920142",
-      "source": "People",
-      "tags": [
-        "Timoth\u00e9e Chalamet",
-        "backlash",
-        "ballet",
-        "opera",
-        "pop culture"
-      ],
-      "x_urls": [
-        "https://x.com/NYMag/status/2029776714763760101",
-        "https://x.com/BroadwayWorld/status/2029997371392995328"
-      ],
-      "id": "923cd3a9a34d6a86",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-06T20:02:46Z"
-    },
-    {
-      "title": "'SNL' faces backlash for Tourette's sketch mocking BAFTAs racial slur incident",
-      "summary": "A Tourette's charity condemned SNL for a sketch that mocked the BAFTAs racial slur incident by having characters blame their controversies on Tourette's syndrome. The charity's CEO stated that mocking a disability is never acceptable and emphasized that Tourette's is a complex neurological condition, not a joke. The sketch, released online after being cut from the broadcast, received swift condemnation from viewers and has garnered nearly 1 million views on YouTube.",
-      "url": "https://ew.com/tourettes-charity-slams-snl-for-mocking-baftas-incident-with-cut-for-time-sketch-11917177",
-      "source": "Entertainment Weekly",
-      "tags": [
-        "SNL",
-        "backlash",
-        "Tourette's",
-        "sketch",
-        "BAFTAs"
-      ],
-      "x_urls": [
-        "https://x.com/BuzzingPop/status/2025679951966482504"
-      ],
-      "id": "0918c5bb0ab8c8b9",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-06T20:02:46Z"
-    },
-    {
-      "title": "God Of War Fans Pray For Ugly Sonic Fix After TV Actor Responds",
-      "summary": "Fans reacted negatively to the first promotional image of Ryan Hurst as Kratos in Amazon's God of War TV show, leading to widespread confusion and bemusement online. Hurst responded cryptically on Instagram, urging fans not to believe everything they see, which has prompted some to hope the image is a flawed representation akin to the initial CGI Sonic design that was later revised. This backlash has fans speculating on potential improvements to the final product.",
-      "url": "https://kotaku.com/god-war-tv-kratos-ryan-hurst-amazon-ugly-sonic-2000674861",
-      "source": "Kotaku",
-      "tags": [
-        "God of War",
-        "casting",
-        "backlash",
-        "Kratos",
+        "A Knight of the Seven Kingdoms",
+        "casting backlash",
+        "race",
         "TV"
       ],
       "x_urls": [],
-      "id": "0f433e4ab95673e3",
+      "id": "b34176a80aad5045",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-06T20:02:46Z"
+      "timestamp": "2026-03-06T20:03:13Z"
     },
     {
-      "title": "Box Office: 'Hoppers' To Spring $88M Global Opening, 'The Bride!' $40M",
-      "summary": "Pixar\u2019s Hoppers is projected to open to $88M globally across 41 markets, marking the best start for a Pixar original since Coco and the highest-reviewed since then at 97% on Rotten Tomatoes. In North America, it is expected to gross $36M-$38M at 4,000 theaters, with $45M-$50M from offshore markets. Warner Bros.\u2019 The Bride!, directed by Maggie Gyllenhaal, is anticipated to debut with $38M-$40M worldwide, including $16M-$18M domestic and $22M international.",
-      "url": "https://deadline.com/2026/03/box-office-hoppers-the-bride-opening-projection-1236743025",
-      "source": "Deadline",
+      "title": "Cardi B Allegedly Went Berserk at 'SNL' Rehearsal Over 'Weekend Update' Nicki Minaj Joke",
+      "summary": "Cardi B allegedly became upset during rehearsal for 'SNL's 1,000th episode on January 31 and destroyed equipment after overhearing a 'Weekend Update' joke about Nicki Minaj's recent affiliation with MAGA. The incident occurred because of Cardi's longstanding beef with Nicki and a prior social media feud where Nicki targeted Cardi's children, despite the joke not being about Cardi. Sources report Cardi threatened to leave, threw her phone at a TV monitor, punched a screen in the producers' office until it broke, and the joke was ultimately scrapped.",
+      "url": "https://www.tmz.com/2026/02/25/cardi-b-reportedly-threw-fit-snl-writers-proposed-nicki-minaj-joke/",
+      "source": "TMZ",
       "tags": [
-        "box office",
-        "Hoppers",
-        "The Bride",
-        "Pixar",
-        "opening weekend"
+        "Cardi B",
+        "SNL",
+        "Nicki Minaj"
       ],
-      "x_urls": [],
-      "id": "498111942bf8379d",
+      "x_urls": [
+        "https://x.com/TMZ/status/2026719618060984565",
+        "https://x.com/ThePopFlop/status/2026795751745953814"
+      ],
+      "id": "1625b9d95cc68776",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-06T20:02:46Z"
+      "timestamp": "2026-03-06T20:03:13Z"
+    },
+    {
+      "title": "Why Gen Z wants to buy and rent DVDs and Blu-rays in the age of streaming",
+      "summary": "Gen Z is increasingly embracing DVDs and Blu-rays due to frustrations with streaming services, including subscription fatigue and scattered content availability, viewing physical media as a form of nostalgia and cultural rebellion. Video rental stores like Vidiots, Vid\u00e9oth\u00e8que, and Cinefile report record rentals, purchases, and membership growth, with Vidiots doubling disc loans from 22,000 to 50,000 in a year and seeing over 1,000 weekly rentals in 2025. Physical media sales declined only 9% in 2025, down from over 20% drops in 2023 and 2024, while boutique companies like Criterion Collection experience significant year-over-year sales increases driven by young customers.",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-02-23/why-gen-z-wants-to-buy-rent-dvds-blu-rays-in-age-of-streaming",
+      "source": "Los Angeles Times",
+      "tags": [
+        "Gen Z",
+        "DVDs",
+        "Blu-rays",
+        "streaming"
+      ],
+      "x_urls": [
+        "https://x.com/latimes/status/2026407592948588968"
+      ],
+      "id": "00443622e08c6fb1",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:03:13Z"
+    },
+    {
+      "title": "Watch TWICE Revisit Vibrant Hit 'Strategy' on 'Fallon'",
+      "summary": "TWICE performed their song \u201cStrategy,\u201d featuring Megan Thee Stallion, on The Tonight Show to celebrate its inclusion in the Netflix animated film KPop Demon Hunters, which is nominated for Best Animated Feature at the Oscars. The track was originally released in 2024 as part of the group\u2019s EP of the same name. Group members Jihyo, Chaeyoung, and Jeongyeon also recorded a new song \u201cTakedown\u201d for the film\u2019s soundtrack.",
+      "url": "https://www.rollingstone.com/music/music-news/twice-strategy-performance-fallon-1235521507/",
+      "source": "Rolling Stone",
+      "tags": [
+        "TWICE",
+        "Tonight Show",
+        "K-pop"
+      ],
+      "x_urls": [
+        "https://x.com/RollingStone/status/2026216574177157381"
+      ],
+      "id": "714e00290bd11aab",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:03:13Z"
+    },
+    {
+      "title": "Death in Paradise icon slams \u2018woke\u2019 trigger warnings as he shares hard times for industry",
+      "summary": "Gary Wilmot, a recent addition to the cast of BBC's Death in Paradise, has criticised the increasing use of 'woke' trigger warnings on older TV programmes, stating there may be some harm in it going too far while acknowledging the need for guidance. He discussed the TV industry's challenges, including declining viewership for the BBC compared to platforms like YouTube, and described changes as evolution that makes him feel uncomfortable but not bitter. Wilmot, an advocate for theatre, is currently working on his stage play While They Were Waiting at London's Gatehouse Theatre.",
+      "url": "https://www.express.co.uk/showbiz/tv-radio/2176430/death-paradise-gary-wilmot-woke-warnings",
+      "source": "Express",
+      "tags": [
+        "Death in Paradise",
+        "woke",
+        "trigger warnings"
+      ],
+      "x_urls": [],
+      "id": "007d3e5b39772338",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:03:13Z"
+    },
+    {
+      "title": "\u2018First Time Caller\u2019 Movie in the Works From \u2018Tell Me Lies\u2019 Producer, A Cup of Happy Productions (EXCLUSIVE)",
+      "summary": "A movie adaptation based on B.K. Borison\u2019s 2025 romance novel \u201cFirst Time Caller,\u201d which follows a hopeless romantic meeting a jaded radio host in a \u201cSleepless in Seattle\u201d\u2013inspired love story, is in development. The film rights have been optioned by Daryl Steiger\u2019s A Cup of Happy Productions, with Laura Lewis set to produce through Rebelle Media and Amy Huckabay writing the screenplay. Borison is attached as an executive producer for the project, the first installment in her planned \u201cHeartstrings\u201d trilogy.",
+      "url": "https://variety.com/2026/film/news/first-time-caller-movie-1236671479/",
+      "source": "Variety",
+      "tags": [
+        "romance novel",
+        "movie adaptation"
+      ],
+      "x_urls": [
+        "https://x.com/FilmUpdates/status/2026359000904946122"
+      ],
+      "id": "40f35361d3f4b6cb",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:03:13Z"
     },
     {
       "title": "No AI Plan, No Loan. Small Business Lenders Force Main Street To Face The Future",
-      "summary": "Small business lenders are increasingly requiring applicants to demonstrate how they are addressing the disruptive impact of artificial intelligence on their operations, as AI tools could automate tasks in industries like professional services and real estate where many small firms operate. This shift in underwriting standards means bankers must assess long-term business survival amid AI advancements, with some rejecting loans if AI threatens the business model, while others seek plans for adaptation to maintain competitiveness. Failure to engage with AI discussions can signal risks like lack of oversight or obsolescence, influencing loan approvals and terms.",
+      "summary": "Small business lenders are increasingly requiring applicants to demonstrate an understanding of AI's disruptive impact on their operations, as AI tools can perform tasks in industries like professional services and real estate more efficiently. Failure to address AI in loan applications can raise concerns about a business's oversight or competitiveness, potentially affecting loan approvals. Handled properly, showing adaptation to AI can strengthen applications by addressing future risks and efficiency gains.",
       "url": "https://www.forbes.com/sites/brandonkochkodin/2026/03/06/no-ai-plan-no-loan-small-business-lenders-force-main-street-to-face-the-future/",
       "source": "Forbes",
       "tags": [
-        "AI",
+        "AI impact",
         "small business",
-        "lending"
+        "lending",
+        "finance"
       ],
       "x_urls": [
         "https://x.com/Forbes/status/2029941032478200137"
@@ -256,41 +270,75 @@
       "id": "f195e26250232259",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-06T20:03:34Z"
+      "timestamp": "2026-03-06T20:04:05Z"
     },
     {
-      "title": "AI tools and training for small businesses",
-      "summary": "Google announced free resources to help small businesses understand and use artificial intelligence, including a new AI Professional Certificate program to build practical skills for business owners and teams. AI tools are increasingly integrated into business platforms for marketing, customer service, operations, and data analysis, with the challenge being where to start and how to use them effectively. Small businesses can access free training to build foundational AI skills and a Google Business Profile resource hub with guides, tutorials, and tips to strengthen online visibility.",
-      "url": "https://www.michamber.com/news/ai-tools-and-training-for-small-businesses",
-      "source": "Michigan Chamber",
+      "title": "Origami launches chat-based AI tool for sales leads",
+      "summary": "Origami, a San Francisco-based startup, has launched a conversational AI prospecting product that generates sales lead lists from plain-English prompts and sells access via a flat monthly subscription. The tool offers a chat-style interface where users type requests for specific company and contact profiles and receive a ready-to-work lead list delivered within minutes. It provides better results for small and medium-sized companies and niche verticals with limited digital footprints.",
+      "url": "https://itbrief.news/story/origami-launches-chat-based-ai-tool-for-sales-leads",
+      "source": "IT Brief",
       "tags": [
+        "new AI tool",
+        "sales leads",
+        "SMB"
+      ],
+      "x_urls": [],
+      "id": "74df67a1ac5c8428",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:04:05Z"
+    },
+    {
+      "title": "wearemighty Launches SecretSauce, the AI Platform Delivering Always On-Brand Content at Scale",
+      "summary": "wearemighty announced the launch of SecretSauce, an AI platform that memorizes brand identity once and applies it automatically to all content productions, turning AI-generated outputs into cohesive, on-brand assets. Designed for solopreneurs, creators, lean teams, and growing SMEs, it enables fast creation of social media content, product packaging, advertising, and more. It scales production efficiently, reducing agency timelines from hours to minutes and costs significantly while maintaining quality.",
+      "url": "https://www.shelbystar.com/press-release/story/38518/wearemighty-launches-secretsauce-the-ai-platform-delivering-always-on-brand-content-at-scale",
+      "source": "Shelby Star",
+      "tags": [
+        "AI platform",
+        "brand content",
+        "SMB"
+      ],
+      "x_urls": [],
+      "id": "6aca2f93381460c5",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:04:05Z"
+    },
+    {
+      "title": "Smarsh unveils AI tool to cut compliance alert noise",
+      "summary": "Smarsh has launched the Noise Reduction Agent, an AI-based tool within Smarsh Professional Archive that filters out low-risk digital communications before they enter compliance review queues, achieving over 60% reduction in false positives. It targets smaller financial firms and mid-sized businesses lacking staff for monitoring high volumes of alerts. The tool applies AI at ingestion to suppress noise affordably, reducing alert fatigue and backlogs for SMBs.",
+      "url": "https://itbrief.co.uk/story/smarsh-unveils-ai-tool-to-cut-compliance-alert-noise",
+      "source": "IT Brief UK",
+      "tags": [
+        "compliance",
+        "AI tool",
+        "SMB",
+        "finance"
+      ],
+      "x_urls": [],
+      "id": "2404472a8259deb9",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-06T20:04:05Z"
+    },
+    {
+      "title": "MYOB unleashes new AI tools for SME cashflow",
+      "summary": "MYOB has introduced a suite of AI tools for SMEs in New Zealand and Australia, focusing on cashflow management, including smart invoice reminders that analyze late payer behavior and smart reconciliation using machine learning to auto-match transactions. AI business insights provide interactive charts and explanations to identify trends and performance drivers. The tools save time on repetitive tasks and address late payment issues without disrupting workflows.",
+      "url": "https://istart.co.nz/nz-news-items/myob-unleashes-new-ai-tools-for-sme-cashflow/",
+      "source": "iStart",
+      "tags": [
+        "cashflow",
+        "SME",
         "AI tools",
-        "small business",
-        "training",
-        "Google"
+        "accounting"
       ],
-      "x_urls": [],
-      "id": "78a3e32d34037aeb",
+      "x_urls": [
+        "https://x.com/iStartNews/status/2029515560372113546"
+      ],
+      "id": "d578b9ccaea283a8",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-06T20:03:34Z"
-    },
-    {
-      "title": "Smart AI Adoption: Lessons for Small Businesses",
-      "summary": "Small businesses adopting AI should prioritize governance by setting up data protections and avoiding unsecured tools before deployment to safeguard customer information. Leaders emphasize upskilling employees to use AI effectively, encouraging exploration while ensuring outputs align with business needs and fostering critical thinking. Building a culture of AI adoption involves commitment through internal discussions and practical experimentation to integrate tools like Microsoft Copilot into daily operations.",
-      "url": "https://www.cbia.com/news/small-business/smart-ai-adoption-lessons-small-businesses",
-      "source": "CBIA",
-      "tags": [
-        "AI adoption",
-        "small business",
-        "governance",
-        "upskilling"
-      ],
-      "x_urls": [],
-      "id": "84c366c812d4da5f",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-06T20:03:34Z"
+      "timestamp": "2026-03-06T20:04:05Z"
     }
   ]
 }
