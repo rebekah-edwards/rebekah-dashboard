@@ -147,8 +147,15 @@
         const md = await res.text();
 
         // Render + sanitize
-        const html = marked.parse(md, { mangle: false, headerIds: true });
+        marked.setOptions({ gfm: true, mangle: false, headerIds: true });
+        const html = marked.parse(md);
         contentEl.innerHTML = DOMPurify.sanitize(html);
+
+        // Ensure links are clickable + open in a new tab
+        contentEl.querySelectorAll('a').forEach(a => {
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+        });
 
         statusEl.textContent = 'Loaded.';
       } catch (err) {

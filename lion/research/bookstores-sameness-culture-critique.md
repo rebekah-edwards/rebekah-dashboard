@@ -73,7 +73,13 @@
   - Springer Nature (2025) — “Reading in the age of influence…”
     - https://link.springer.com/article/10.1007/s13278-025-01542-8
 
-> Next step: add at least one **trade/industry** citation for “BookTok helped sell X books” (Retail TouchPoints references NPD; we should cite the underlying NPD source directly if possible).
+- **Claim (units):** NPD BookScan analysis attributed large unit sales to BookTok-driven authors.
+  - Source: Publishers Weekly (July 7, 2022) — *NPD Gauges the Children's and YA Book Market*
+    - https://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/89778-we-are-bullish-on-stores-in-2022-npd-gauges-the-children-s-and-ya-book-market.html
+    - Quote: “**BookTok author sales reached 20 million units in 2021**, and grew six times faster than what we saw in the rest of the adult fiction market.”
+    - Quote: “**YA fiction made up 40% of BookTok sales in 2021**,”
+
+> Next step: add at least one *primary* NPD/BookScan reference if available publicly (PW is currently our most citable access point).
 
 ---
 
@@ -97,12 +103,24 @@
   - Industry surveys (publishing trade, bookseller associations)
   - Large-sample reader polls (with methodology)
 
+### C3) Quantitative signals inside publishing data (early anchors)
+- **Claim:** NPD BookScan analysis shows rapid growth in certain kids’ nonfiction subcategories tied to diversity/multicultural positioning.
+  - Source: Publishers Weekly (July 7, 2022) — *NPD Gauges the Children's and YA Book Market*
+    - https://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/89778-we-are-bullish-on-stores-in-2022-npd-gauges-the-children-s-and-ya-book-market.html
+    - Quote: “In Connor’s data, the kids’ nonfiction category **“diversity and multicultural” was up 993% from 2020 to 2021, and up 861% from 2021 to 2022.**”
+
+- **Claim (themes trending):** NPD’s commentary explicitly mentions demand for books on emotions/prejudice and nonfiction diversity/biography.
+  - Source: Publishers Weekly (July 7, 2022)
+    - https://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/89778-we-are-bullish-on-stores-in-2022-npd-gauges-the-children-s-and-ya-book-market.html
+    - Quote: “Among children’s books generally, people are buying fiction titles about **emotions and prejudice**, and nonfiction in the categories of **biography and diversity**.”
+
 ---
 
 ## D) What’s missing / priority source gaps
 1) 1–2 **higher-authority sources** on co-op and in-store placement economics.
-2) 1–2 **credible sources** explicitly stating retailers built BookTok sections/tables (preferably trade press or retailer statements).
-3) **Quantitative** evidence for the “ideology saturation” claim (or we explicitly label it as qualitative/observational + propose a study).
+2) **More primary/industry confirmation** of BookTok unit/sales impacts (ideally direct NPD/BookScan public materials; PW currently stands in as our accessible citation).
+3) **Reader sentiment** data specifically on “message-first / preachy / didactic” dissatisfaction (survey-quality).
+4) Our own **transparent mini-studies** (keyword/paratext sampling; front-table overlap), if we want to move beyond citations into demonstrable measurement.
 
 ---
 
