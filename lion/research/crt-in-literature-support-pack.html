@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lion — Research Dossier: The Surge of CRT in Literature</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    :root {
+      --bg: #1a1a2e;
+      --surface: #16213e;
+      --surface2: #0f3460;
+      --accent: #e94560;
+      --accent2: #f5a623;
+      --text: #eaeaea;
+      --text-muted: #8892a4;
+      --border: #2a2a4a;
+      --link: #7dd3fc;
+      --code-bg: rgba(255,255,255,0.06);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    .wrap { max-width: 980px; margin: 0 auto; }
+    header { margin-bottom: 1.25rem; }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.25rem;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.4;
+      margin-bottom: 0.75rem;
+    }
+    .bar {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 0.5rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 0.85rem;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.85rem;
+    }
+    .btn:hover { border-color: var(--accent); }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+    }
+    #content { line-height: 1.65; font-size: 1rem; }
+    #content h1, #content h2, #content h3 { margin-top: 1.4rem; margin-bottom: 0.6rem; }
+    #content h1 { font-size: 1.6rem; }
+    #content h2 { font-size: 1.25rem; color: #fff; }
+    #content h3 { font-size: 1.05rem; color: #fff; }
+    #content p { margin: 0.75rem 0; color: var(--text); }
+    #content ul, #content ol { margin: 0.75rem 0 0.75rem 1.25rem; }
+    #content li { margin: 0.25rem 0; color: var(--text); }
+    #content a { color: var(--link); }
+    #content a:hover { text-decoration: underline; }
+    #content blockquote {
+      border-left: 3px solid var(--accent);
+      padding-left: 0.9rem;
+      margin: 0.9rem 0;
+      color: var(--text-muted);
+    }
+    #content code {
+      background: var(--code-bg);
+      padding: 0.15rem 0.35rem;
+      border-radius: 6px;
+      font-size: 0.92em;
+    }
+    #content pre {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0.9rem;
+      overflow: auto;
+      margin: 1rem 0;
+    }
+    #content pre code { background: transparent; padding: 0; }
+    .status {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Research Dossier — The Surge of CRT in Literature</h1>
+      <div class="subtitle">Rendered from <code>lion/research/crt-in-literature-support-pack.md</code>. Every claim should link to its direct source.</div>
+      <div class="bar">
+        <a class="btn" href="../social-post-bank.html">← Back to Social Post Bank</a>
+        <a class="btn" href="crt-in-literature-support-pack.md">View raw Markdown</a>
+        <span class="status" id="status">Loading…</span>
+      </div>
+    </header>
+    <main class="card">
+      <div id="content"></div>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+  <script>
+    const statusEl = document.getElementById('status');
+    const contentEl = document.getElementById('content');
+    async function load() {
+      try {
+        const res = await fetch('crt-in-literature-support-pack.md', { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const md = await res.text();
+        marked.setOptions({ gfm: true, mangle: false, headerIds: true });
+        const html = marked.parse(md);
+        contentEl.innerHTML = DOMPurify.sanitize(html);
+        contentEl.querySelectorAll('a').forEach(a => {
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+        });
+        statusEl.textContent = 'Loaded.';
+      } catch (err) {
+        statusEl.textContent = 'Failed to load.';
+        contentEl.innerHTML = '<p>Could not load the markdown file. Error: ' + String(err) + '</p>';
+      }
+    }
+    load();
+  </script>
+</body>
+</html>
