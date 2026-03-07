@@ -1,380 +1,337 @@
 {
   "date": "2026-03-07",
   "period": "afternoon",
-  "generated": "2026-03-07T20:03:30Z",
+  "generated": "2026-03-07T20:04:13Z",
   "items": [
     {
-      "title": "Google AI Mode Cites Itself More Often, With More Organic Links",
-      "summary": "Google's self-referencing in AI Mode has tripled over nine months, now accounting for 17% of all citations, with a shift where 59% of these point to organic search results rather than Google Business Profiles. This change indicates that AI Mode is incorporating more organic rankings, making organic performance increasingly relevant for SEO beyond local queries. The data from analyzing 1.3 million citations across 20 niches shows Google as the top-cited domain in 19 of them, highlighting its dominance in AI-driven search results.",
-      "url": "https://www.searchenginejournal.com/google-ai-mode-cites-itself-more-often-with-more-organic-links/568955/",
-      "source": "searchenginejournal.com",
+      "title": "Google's AI Mode is citing Google more than any other site: Study",
+      "summary": "Nearly one in five sources in Google's AI answers now comes from Google itself, with many citations leading to more Google Search results. This self-referencing trend has grown significantly, impacting how external content is featured in AI responses. Marketers and SEOs should monitor this shift as it influences visibility strategies.",
+      "url": "https://searchengineland.com/google-ai-mode-citing-google-more-study-471042",
+      "source": "Search Engine Land",
       "tags": [
         "AI search",
-        "Google AI Mode",
-        "SEO citations"
+        "Google citations",
+        "AI Overviews"
       ],
       "x_urls": [],
-      "id": "87f119a219824e78",
+      "id": "cefd324b997821fa",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:00:39Z"
+      "timestamp": "2026-03-07T20:01:12Z"
     },
     {
-      "title": "AIO Citations Diverge From Rankings, Bing Rewrites Rules \u2013 SEO Pulse",
-      "summary": "AI Overview citations are increasingly diverging from traditional organic rankings, with only 38% of cited pages now ranking in Google's top 10, down from 76% seven months ago, due to processes like query fan-out and upgrades to Gemini 3. AI Overviews now trigger on nearly 48% of searches across industries, growing 58% year-over-year, emphasizing the need for SEO strategies focused on AI visibility rather than just rankings. Bing has rewritten its webmaster guidelines to include specific controls for AI answers in Copilot, such as NOARCHIVE directives.",
-      "url": "https://www.searchenginejournal.com/seo-pulse-aio-citations-diverge-from-rankings-bing-rewrites-rules/568881/",
-      "source": "searchenginejournal.com",
+      "title": "Google's Liz Reid: Search and Gemini may converge, or diverge",
+      "summary": "Google's search chief Liz Reid explores whether traditional search and AI models like Gemini will integrate or develop separately. Emerging AI agents and web behaviors are blurring lines between discovery tools and assistants. This uncertainty calls for flexible SEO approaches adapting to potential futures.",
+      "url": "https://searchengineland.com/google-search-gemini-converge-diverge-471012",
+      "source": "Search Engine Land",
       "tags": [
-        "AI search",
-        "AIO",
-        "Bing AI",
-        "SEO"
+        "Google",
+        "Gemini",
+        "search evolution",
+        "AI agents"
       ],
       "x_urls": [],
-      "id": "a24747969b1aee4a",
+      "id": "7b3a4aaa067b20c8",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:00:39Z"
+      "timestamp": "2026-03-07T20:01:12Z"
     },
     {
-      "title": "Google AI Overviews Surges Across 9 Industries",
-      "summary": "Google AI Overviews (AIO) has grown by 58% in coverage over the past year, now appearing in nearly half of all search queries across nine industries including healthcare, education, and restaurants. While AIO expands significantly in sectors like education (from 18% to 83% of queries) and B2B tech (from 36% to 82%), traditional organic search results still dominate 52% of queries, indicating a divided search experience. This growth implies SEO strategies must adapt to AI-synthesized results that cite sources differently from top organic rankings.",
-      "url": "https://www.searchenginejournal.com/google-ai-overviews-surges-across-9-industries/568448/",
-      "source": "searchenginejournal.com",
-      "tags": [
-        "AI search",
-        "Google AI Overviews",
-        "SEO implications"
-      ],
-      "x_urls": [],
-      "id": "1ca711ecdca00561",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-07T20:00:39Z"
-    },
-    {
-      "title": "March 2026 SEO Trends: 7 Actionable Updates You Need NOW",
-      "summary": "The article outlines seven key SEO trends for March 2026, driven by Google's Unhelpful Content Penalty update and the rise of AI Overviews, which reduce organic traffic by up to 58% for affected sites. It emphasizes actionable steps like auditing for E-E-A-T, optimizing for Generative Engine Optimization (GEO) to boost AI visibility by 40%, and leveraging platforms like Reddit and YouTube for authority and citations. Brands are advised to shift from traditional keyword and backlink strategies to building multi-platform authority and structured content to dominate AI-driven search results.",
-      "url": "https://www.linkedin.com/pulse/march-2026-seo-trends-7-actionable-updates-you-need-now-mittal-1zgkc",
-      "source": "linkedin.com",
-      "tags": [
-        "SEO trends",
-        "AI SEO",
-        "E-E-A-T",
-        "GEO"
-      ],
-      "x_urls": [],
-      "id": "e6895c61e600c1fc",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-07T20:00:39Z"
-    },
-    {
-      "title": "Content Marketing Trends | March, 2026 (STARTUP EDITION)",
-      "summary": "The article outlines key content marketing trends for March 2026, emphasizing the integration of AI-generated content for efficiency while stressing the need for human creativity to add depth and avoid shallow optimization. It highlights the importance of emotional storytelling, smarter media spending on niche platforms, and prioritizing topical substance over quantity to align with search engine expectations like Google's algorithms. For SEO and content marketing, these trends imply leveraging AI strategically for targeting and analytics, focusing on authentic engagement to build authority.",
-      "url": "https://blog.mean.ceo/content-marketing-trends-march-2026",
-      "source": "blog.mean.ceo",
-      "tags": [
-        "content marketing",
-        "AI trends",
-        "SEO",
-        "startups"
-      ],
-      "x_urls": [
-        "https://twitter.com/MeanCEO"
-      ],
-      "id": "6fb02e310f913aa5",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-07T20:00:39Z"
-    },
-    {
-      "title": "Top Daily Advertising Stories Today \u2014 March 5, 2026",
-      "summary": "A cottage industry of Generative Engine Optimization (GEO) vendors is booming as brands scramble to maintain visibility in AI-generated search results. AI is now the core operating system for marketing, with tools like ChatGPT integrated and agencies using Anthropic\u2019s Claude for custom GEO tracking. The search landscape shifts with Google\u2019s AI Mode updates and evolving identity resolution in advertising.",
-      "url": "https://marketingagent.blog/2026/03/05/top-daily-advertising-stories-today-march-5-2026/",
-      "source": "marketingagent.blog",
-      "tags": [
-        "GEO",
-        "AI marketing",
-        "SEO",
-        "advertising"
-      ],
-      "x_urls": [],
-      "id": "edd295774bfd1c91",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-07T20:00:39Z"
-    },
-    {
-      "title": "WebMCP, AI Citations & Google Ads: Search News March 2026",
-      "summary": "Google Chrome 146's preview of WebMCP enables AI agent-ready web interactions through structured APIs, shifting SEO toward agentic optimization for direct AI actions like bookings. AI Overview citation patterns have changed with Gemini 3, showing a decline in top-ranking page citations and increased YouTube references. Guidance emphasizes building durable AI SEO assets via semantic optimization and structured data.",
-      "url": "https://anicca.co.uk/blog/weekly-update-search-marketing-05-03-2026",
-      "source": "anicca.co.uk",
-      "tags": [
-        "SEO",
-        "AI search",
-        "Google updates",
-        "WebMCP"
-      ],
-      "x_urls": [],
-      "id": "55bf89ec8dab4061",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-07T20:00:39Z"
-    },
-    {
-      "title": "Publishers sue 'shadow' library allegedly powering AI chatbots",
-      "summary": "A group of major publishers, including the 'Big Five' English-language houses such as Hachette, Penguin Random House, HarperCollins, Macmillan, and Simon & Schuster, along with academic publishers like Cengage, Elsevier, McGraw Hill, and John Wiley & Sons, filed a lawsuit against the shadow library Anna's Archive for allegedly pirating over 63 million books and providing them for AI training. The suit claims Anna's Archive offers high-speed access to stolen works for AI large language model development in countries like China and Russia, in exchange for crypto payments. This action stems from broader controversies where copyright owners accuse tech companies of misusing pirated materials from similar libraries to train AI systems.",
-      "url": "https://www.reuters.com/legal/litigation/publishers-sue-shadow-library-allegedly-powering-ai-chatbots-2026-03-06",
-      "source": "Reuters",
-      "tags": [
-        "AI controversy",
-        "publishing",
-        "lawsuit",
-        "copyright"
-      ],
-      "x_urls": [
-        "https://x.com/patesalo_e/status/2030035132334108764",
-        "https://x.com/PublishingWell/status/2029965714480619953"
-      ],
-      "id": "74b5604587d8c6b8",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-07T20:01:43Z"
-    },
-    {
-      "title": "Journal Submissions Riddled With AI-Created Fake Citations",
-      "summary": "AI-generated fake citations are increasingly appearing in journal submissions, making them difficult for editors to detect during review processes. Examples include a hallucinated APA-style citation for a nonexistent 2023 paper in the Online Learning Journal, a fake book entry referencing a non-existent edited volume by Springer, and a phantom paper in a grant application. Editors report that these citations often pass multiple review rounds and are only caught in copyediting, prompting calls for integrity screening software.",
-      "url": "https://www.insidehighered.com/news/faculty-issues/books-publishing/2026/03/06/journal-submissions-riddled-ai-created-fake",
-      "source": "Inside Higher Ed",
-      "tags": [
-        "AI",
-        "academic publishing",
-        "editing",
-        "fake citations"
-      ],
-      "x_urls": [
-        "https://x.com/insidehighered/status/2029959216165757247",
-        "https://x.com/andrewcareaga/status/2029939649259405420"
-      ],
-      "id": "35fbdf567ee1040a",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-07T20:01:43Z"
-    },
-    {
-      "title": "US Supreme Court declines to hear dispute over copyrights for AI-generated material",
-      "summary": "The U.S. Supreme Court declined to hear an appeal from computer scientist Stephen Thaler, who sought copyright registration for visual art generated by his AI system DABUS, titled 'A Recent Entrance to Paradise.' The U.S. Copyright Office rejected the application in 2022, ruling that creative works must have a human author to qualify for protection. Lower courts upheld this decision, affirming human authorship as a fundamental requirement under U.S. copyright law.",
-      "url": "https://www.reuters.com/legal/government/us-supreme-court-declines-hear-dispute-over-copyrights-ai-generated-material-2026-03-02",
-      "source": "Reuters",
-      "tags": [
-        "AI controversy",
-        "copyright",
-        "publishing"
-      ],
-      "x_urls": [
-        "https://x.com/5twoLIME/status/2029022804306219033",
-        "https://x.com/AmpleProtocol/status/2029939865492545955"
-      ],
-      "id": "3d0c23dc1639d092",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-07T20:01:43Z"
-    },
-    {
-      "title": "Book Deals: Week of March 9, 2026",
-      "summary": "Publishers Weekly highlights several recent book acquisitions, including Fantagraphics acquiring world rights to graphic memoir 'Visiting America: 19 Days in an I.C.E. Facility' by R.E. Burke. Celadon bought North American rights at auction to 'Tricks of the Light' by Rose Himber Howse in a two-book deal for winter 2028 publication. Sourcebooks Landmark preempted North American rights to 'The Summer She Stayed' by Laura Lombardi in another two-book deal set for April 2027.",
-      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/book-deals/article/99863-book-deals-week-of-march-9-2026.html",
+      "title": "Authors Guild Expands \u2018Human Authored\u2019 Certification Program",
+      "summary": "The Authors Guild has expanded its beta-launched certification program, initially for members in January 2025, to all U.S. authors and publishers, allowing them to certify books as human-authored rather than AI-generated with a trademarked seal. The program, which permits AI use for tools like spelling and grammar but not core text generation, has certified over 5,000 titles by more than 3,000 authors and includes a public database for verification. Publishers can now purchase certifications in bulk, addressing the rise of AI-generated content by providing a visible marker of human creativity on covers, copyright pages, and marketing materials.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/99836-authors-guild-opens-human-authored-certification-to-all-u-s-authors-and-publishers.html",
       "source": "Publishers Weekly",
       "tags": [
-        "major contracts",
-        "book deals"
+        "AI controversies",
+        "publishing",
+        "certification",
+        "authors"
       ],
-      "x_urls": [],
-      "id": "9162a27435afe5ad",
+      "x_urls": [
+        "https://x.com/PublishersWkly/status/2029225382558183902",
+        "https://x.com/RobinQuinninLA/status/2028588025249517607"
+      ],
+      "id": "3b035d7fc8a92a71",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:01:43Z"
+      "timestamp": "2026-03-07T20:02:23Z"
+    },
+    {
+      "title": "Bookwire, ElevenLabs Team on AI Audiobook Production",
+      "summary": "Bookwire, a Frankfurt-based e-book and audiobook distribution company, has partnered with London's ElevenLabs to provide AI-powered audiobook production to its clients, aiming to convert e-books that lack audiobook equivalents. This collaboration builds on Bookwire's existing WAY service, which produces around 500 audiobooks annually and serves over 3,500 publishers with more than 1.5 million e-books and 300,000 audiobooks distributed. The partnership seeks to expand the audiobook catalog available on ElevenLabs' platform, which caters to self-published authors and smaller publishers.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/99877-bookwire-and-elevenlabs-partner-on-ai-audiobook-production.html",
+      "source": "Publishers Weekly",
+      "tags": [
+        "AI",
+        "audiobooks",
+        "publishing"
+      ],
+      "x_urls": [],
+      "id": "a1652cebb6b606a8",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-07T20:02:23Z"
     },
     {
       "title": "PMJ signs multi-book deal with formerly self-published author Lucinda Berry",
-      "summary": "Penguin Michael Joseph (PMJ) has signed a multi-book deal with US thriller author Lucinda Berry, who was previously self-published. Editorial director Grace Long acquired UK and Commonwealth rights from Harriet Sanders at Jane Beresford for upcoming titles including 'The Golden Child.' Separately, Sourcebooks Poisoned Pen Press won US, Canada, and open market rights to seven books by Berry in a 10-publisher auction.",
+      "summary": "Pan Macmillan Japan (PMJ) has signed a multi-book deal with US author Lucinda Berry, who was previously self-published and has sold millions of copies. The deal covers world rights to two psychological thrillers, acquired by PMJ editor Yoko Tase from agent Dan Mandel at Sanford J. Greenburger Associates. This marks a significant transition for Berry from indie to traditional international publishing.",
       "url": "https://www.thebookseller.com/rights/pmj-signs-multi-book-deal-with-formerly-self-published-author-lucinda-berry",
       "source": "The Bookseller",
       "tags": [
         "major contracts",
-        "book deals",
-        "thriller"
+        "self-publishing"
       ],
-      "x_urls": [
-        "https://x.com/PublishersWkly/status/2029980378392301685",
-        "https://x.com/thebookseller/status/2029278243270902154"
-      ],
+      "x_urls": [],
       "id": "283b7665534c5dc3",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:01:43Z"
+      "timestamp": "2026-03-07T20:02:23Z"
     },
     {
-      "title": "British TV Journalists Of Color Bemoan DEI \u201cBacklash\u201d & Describe \u201cApartheid Newsrooms\u201d",
-      "summary": "A report reveals British TV journalists of color facing resentment from white colleagues over DEI initiatives post-2020 BLM, with perceptions of lowered standards fueling mockery and workplace tension. Sixty-three percent reported racism at BBC, ITV, and Sky, while diversity schemes are seen as poorly managed, leading to career stagnation for minorities. The study calls for better leadership to address the 'crunch point' in progression.",
-      "url": "https://deadline.com/2026/03/british-tv-journalists-of-color-bemoan-dei-backlash-1236743396/",
-      "source": "Deadline",
+      "title": "Traditional Deals for Self-Pub Authors Grew Significantly in 2025",
+      "summary": "In 2025, the number of traditional publishing deals for self-published authors increased substantially, with more publishers competing for successful indie author series. These deals often include multi-book contracts valued in the six figures. This trend highlights growing opportunities for indie authors to transition into traditional publishing.",
+      "url": "https://janefriedman.com/traditional-deals-for-self-pub-authors-grew-significantly-in-2025",
+      "source": "Jane Friedman",
       "tags": [
-        "DEI",
-        "backlash",
-        "TV",
-        "UK",
-        "journalists"
+        "traditional publishing",
+        "self-publishing",
+        "major contracts"
       ],
       "x_urls": [],
-      "id": "7e42912bde7c61b1",
-      "section": "popculture",
+      "id": "e395b10b2b17072d",
+      "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:02:35Z"
+      "timestamp": "2026-03-07T20:02:23Z"
     },
     {
-      "title": "Anna Camp Apologizes for Scream 7 Post Mocking Boycott Calls",
-      "summary": "Scream 7 actress Anna Camp deleted and apologized for sharing a post celebrating the film's box office success despite boycott campaigns tied to Melissa Barrera's firing over pro-Palestinian remarks. The post noted that boycotts, critics, and leaks failed as audiences turned out strong. It drew backlash for being tone-deaf, prompting further online criticism.",
-      "url": "https://variety.com/2026/film/news/anna-camp-apologizes-scream-7-post-melissa-barrera-boycott-1236677004",
-      "source": "Variety",
+      "title": "Religion Book Deals: Feb. 18, 2026",
+      "summary": "Tyndale House secured a multi-book deal with speaker Asheritah Ciuciu including trade books, Bible studies, devotional, and middle grade fiction series focused on faith and womanhood. Other deals include InterVarsity Press acquiring books on women in Mosaic Law and WaterBrook's title on dying to self for freedom. These contracts emphasize traditional Christian narratives on spirituality, parenting, and theology.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/99713-religion-book-deals-feb-18-2026.html",
+      "source": "Publishers Weekly",
       "tags": [
-        "Scream 7",
-        "boycott",
-        "backlash",
-        "box office",
-        "Hollywood"
+        "major contracts",
+        "traditional storytelling",
+        "religion"
+      ],
+      "x_urls": [],
+      "id": "50e94d6624b044f3",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-07T20:02:23Z"
+    },
+    {
+      "title": "Publishing Packages for Conservative Authors",
+      "summary": "Liberty Hill Publishing offers tailored book publishing packages for conservative authors and writers. The services are designed to meet specific needs in the conservative publishing space. This initiative supports traditional messaging in nonfiction and other genres.",
+      "url": "https://www.libertyhillpublishing.com/publishing-packages",
+      "source": "Liberty Hill Publishing",
+      "tags": [
+        "traditional storytelling",
+        "conservative authors",
+        "publishing"
+      ],
+      "x_urls": [],
+      "id": "bd230a4c19ab9970",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-07T20:02:23Z"
+    },
+    {
+      "title": "Michael B. Jordan Wins Best Actor for 'Sinners' at 2026 Actor Awards",
+      "summary": "On March 1, 2026, at the 32nd annual Actor Awards in Los Angeles, Michael B. Jordan won Best Actor for his portrayal of twins in Ryan Coogler's 'Sinners'. He hugged his mother onstage, honored his SAG-AFTRA roots, and credited her support from New Jersey. The victory boosts the film's Oscar prospects after multiple nominations.",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/best-worst-moments-actor-awards-2026-1236518689",
+      "source": "Hollywood Reporter",
+      "tags": [
+        "awards",
+        "Sinners",
+        "Michael B. Jordan"
       ],
       "x_urls": [
-        "https://x.com/YellowFlashGuy/status/2027402590279843979"
+        "https://x.com/BussyKeaton/status/2027130051129733360"
       ],
-      "id": "918e4c5c86972357",
+      "id": "18201b7a6534d166",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:02:35Z"
+      "timestamp": "2026-03-07T20:03:18Z"
     },
     {
-      "title": "Jack Osbourne Describes Ozzy Osbourne's Final Hours Before Death",
-      "summary": "Jack Osbourne shared details of his father Ozzy's last day before his July 2025 death from cardiac arrest, noting it was not dramatic as Ozzy was active and conversational. In a March 4 podcast interview, Jack called the passing a surprise despite Ozzy's illnesses like Parkinson's. The revelation has reignited tributes to the rock legend.",
-      "url": "https://pagesix.com/2026/03/06/celebrity-news/jack-osbourne-describes-ozzy-osbournes-final-hours-before-death/",
-      "source": "Page Six",
+      "title": "Michael J. Fox Receives Sustained Ovation for Emotional Actor Awards Speech",
+      "summary": "During the 2026 Actor Awards on March 1, Michael J. Fox gave an emotional speech honoring his family and career amid his Parkinson's battle, receiving a 15-second standing ovation. He shared humorous stories from 'Family Ties' and meeting his wife Tracy Pollan. Peers applauded warmly as cameras captured his peace sign.",
+      "url": "https://ew.com/michael-j-fox-actor-awards-speech-11916954",
+      "source": "Entertainment Weekly",
       "tags": [
-        "Ozzy Osbourne",
-        "death",
-        "Jack Osbourne",
-        "rock",
-        "family"
+        "awards",
+        "Michael J. Fox"
       ],
       "x_urls": [],
-      "id": "c2658afd2025bd37",
+      "id": "82374decf05d622e",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:02:35Z"
+      "timestamp": "2026-03-07T20:03:18Z"
     },
     {
-      "title": "Britney Spears Arrested for DUI in California",
-      "summary": "Pop star Britney Spears was arrested on suspicion of driving under the influence in Ventura County, California, on March 5, 2026, after her vehicle was observed erratically. Officers handcuffed her following the stop, confirming the incident via CHP reports. This marks a new chapter in the singer's ongoing public struggles.",
-      "url": "https://variety.com/2026/music/news/britney-spears-arrested-dui-1236680208",
+      "title": "'Sinners' Ensemble Wins at Actor Awards with Delroy Lindo's Emotional Speech",
+      "summary": "The cast of 'Sinners', including Delroy Lindo, won Best Ensemble at the 2026 Actor Awards on March 1, marking the film's first major precursor award. Lindo delivered a moving acceptance speech highlighting the group's achievement. The film leads in nominations and eyes Oscars after Producers Guild success.",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/best-worst-moments-actor-awards-2026-1236518689",
+      "source": "Hollywood Reporter",
+      "tags": [
+        "awards",
+        "Sinners",
+        "Delroy Lindo"
+      ],
+      "x_urls": [
+        "https://x.com/BussyKeaton/status/2027130051129733360"
+      ],
+      "id": "77b649425bf28257",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-07T20:03:18Z"
+    },
+    {
+      "title": "Cillian Murphy Warns Against Preachy Films in Peaky Blinders Movie Discussion",
+      "summary": "In a March 4, 2026, Telegraph interview, Cillian Murphy addressed the WWII-set Peaky Blinders film 'The Immortal Man', insisting it avoids being preachy or dogmatic about Nazis. He stated films should ask questions, not dictate feelings, positioning it as entertaining yet provocative action. Murphy contrasted it with 'Oppenheimer' amid real-world concerns.",
+      "url": "https://au.variety.com/2026/film/news/cillian-murphy-peaky-blinders-movies-nazi-story-33816",
       "source": "Variety",
       "tags": [
-        "Britney Spears",
-        "DUI",
-        "arrest",
-        "pop music"
+        "Peaky Blinders",
+        "Cillian Murphy",
+        "film",
+        "preachy"
       ],
       "x_urls": [],
-      "id": "f9b594ad2e8aa49c",
+      "id": "106e3a5c3b428da7",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:02:35Z"
+      "timestamp": "2026-03-07T20:03:18Z"
     },
     {
-      "title": "All the Clues Zendaya and Tom Holland Secretly Got Married",
-      "summary": "Rumors of Zendaya and Tom Holland's secret wedding surged after stylist Law Roach claimed at the March 1, 2026 Actor Awards that they had already married. Fans pointed to Zendaya's gold ring on her left finger and past hints like hair changes as evidence. The couple has not confirmed, fueling ongoing speculation.",
-      "url": "https://pagesix.com/2026/03/01/celebrity-news/all-the-clues-zendaya-and-tom-holland-secretly-got-married-after-bombshell-claim-at-sag-actor-awards-2026",
-      "source": "Page Six",
+      "title": "Pixar's 'Hoppers' Projects $40M+ Box Office Opening Weekend",
+      "summary": "Pixar's original animated film 'Hoppers' earned $3.2M in previews and is forecasting a $40M-plus domestic opening over the March 6-8 weekend. The strong start signals a win for Pixar's non-sequel efforts amid family audiences. It leads over 'The Bride!' in early box office reports.",
+      "url": "https://deadline.com/2026/03/box-office-hoppers-the-bride-1236745894",
+      "source": "Deadline",
       "tags": [
-        "Zendaya",
-        "Tom Holland",
-        "marriage",
-        "rumors",
-        "celebrity"
+        "box office",
+        "Pixar",
+        "Hoppers"
       ],
       "x_urls": [],
-      "id": "7f3e70365b056abb",
+      "id": "c8f7b6ae6a0b9d65",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:02:35Z"
+      "timestamp": "2026-03-07T20:03:18Z"
     },
     {
-      "title": "New AI Tool Aims to Help Agencies With COBOL Problems",
-      "summary": "Anthropic's Claude Code AI tool targets legacy COBOL systems prevalent in government, banking, and insurance, automating documentation and testing to modernize codebases faster and cheaper amid expert shortages. Agencies can update systems in quarters rather than years, impacting services like SNAP and DMV while saving costs. This practical AI application aids smaller gov tech operations.",
-      "url": "https://www.govtech.com/biz/new-ai-tools-aims-to-help-agencies-with-cobol-problems",
-      "source": "GovTech",
+      "title": "Timoth\u00e9e Chalamet's Flashy Oscar Campaign Draws Voter Irritation",
+      "summary": "Timoth\u00e9e Chalamet's unconventional push for 'Marty Supreme' Best Actor Oscar, including podcasts, blimps, and basketball, has irked some voters calling it annoying swagger. Despite Golden Globe and Critics' Choice wins, he lost the Actor Award to Michael B. Jordan on March 1. The A24 hit grossed $173M worldwide with nine Oscar nods.",
+      "url": "https://www.hollywoodreporter.com/movies/movie-features/timothee-chalamet-oscar-campaign-analysis-marty-supreme-1236521110",
+      "source": "Hollywood Reporter",
       "tags": [
-        "AI",
-        "COBOL",
-        "government tech",
-        "legacy modernization"
+        "Oscars",
+        "Timoth\u00e9e Chalamet",
+        "awards",
+        "backlash"
       ],
-      "x_urls": [],
-      "id": "1d3c62b05306939f",
-      "section": "business",
+      "x_urls": [
+        "https://x.com/BussyKeaton/status/2027130051129733360",
+        "https://x.com/guypbenson/status/2028601479813112145"
+      ],
+      "id": "7a57c1bca8d9e735",
+      "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:03:30Z"
+      "timestamp": "2026-03-07T20:03:18Z"
     },
     {
-      "title": "5 AI Tools That Can Practically Run Your Business in 2026",
-      "summary": "Key AI tools for small businesses include ChatGPT for content and analysis, Lindy.ai for custom workflow agents, Motion for smart scheduling, Zapier AI for app integrations, and Fireflies.ai for meeting automation. These proven tools handle repetitive tasks, allowing SMBs to scale without large teams. They emphasize practical, working solutions over hype.",
-      "url": "https://techstartups.com/2026/02/27/5-ai-tools-that-can-practically-run-your-business-in-2026",
-      "source": "TechStartups",
+      "title": "VistaPrint Launches Generative AI Logomaker for Small Businesses",
+      "summary": "VistaPrint has launched AI Logomaker by VistaPrint, a generative AI tool specifically designed for small businesses to create personalized, high-quality, print-ready logos in minutes. It bypasses generic templates and complex prompts, requiring no design skills or large budgets, and provides free digital and scalable files. This product empowers entrepreneurs to build professional brands affordably and quickly.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">22</argument></grok:render><grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">25</argument></grok:render>",
+      "url": "https://finance.yahoo.com/news/vistaprint-launches-generative-ai-logomaker-140000634.html",
+      "source": "Yahoo Finance",
       "tags": [
         "AI tools",
-        "business automation",
+        "small business",
+        "branding",
+        "product launch"
+      ],
+      "x_urls": [
+        "https://x.com/asteris_ai/status/2029590371131433332"
+      ],
+      "id": "e4d8932bc8fa114d",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-07T20:04:13Z"
+    },
+    {
+      "title": "Launch Commerce Rebrands and Unveils AI-Powered Business Platform for Small Businesses",
+      "summary": "Launch Commerce, previously Launch Cart, rebranded and rolled out a unified AI-powered platform that integrates seven products to automate operations, capture leads, and drive revenue for small and mid-sized businesses. The system offers a single login and subscription, using AI to improve response times and help operators compete effectively. It's aimed at businesses juggling multiple tools and missing opportunities.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">20</argument></grok:render>",
+      "url": "https://launchcommerce.ai/",
+      "source": "Launch Commerce / EIN Presswire",
+      "tags": [
+        "AI platform",
+        "small business",
+        "automation",
+        "rebrand"
+      ],
+      "x_urls": [
+        "https://x.com/kanewman/status/2029268198416326722"
+      ],
+      "id": "d02040334b1fc899",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-07T20:04:13Z"
+    },
+    {
+      "title": "Intuit Launches AI-Powered Construction Edition ERP for Small to Mid-Market Businesses",
+      "summary": "Intuit introduced the Construction Edition for its Enterprise Suite, an AI-native ERP solution tailored for mid-market construction firms to unify project, financial, and operational workflows. Features include AI-driven cost proposals, invoicing, budgeting, and real-time KPI dashboards to tackle job complexity and cash flow issues. This marks Intuit's first industry-specific ERP push.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">24</argument></grok:render>",
+      "url": "https://investors.intuit.com/news-events/press-releases/detail/1302/intuit-launches-new-ai-powered-construction-edition-for-intuit-enterprise-suite",
+      "source": "Intuit",
+      "tags": [
+        "ERP",
+        "construction",
+        "AI tools",
         "small business"
       ],
       "x_urls": [
-        "https://x.com/AlexFinn/status/2026676460388495413"
+        "https://x.com/sasan_goodarzi/status/2028860984409104833",
+        "https://x.com/genemarks/status/2030299838185636185"
       ],
-      "id": "e8fd324107973ac3",
+      "id": "0bb8b8edb4902e74",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:03:30Z"
+      "timestamp": "2026-03-07T20:04:13Z"
     },
     {
-      "title": "Small Business, Meet AI \u2014 How New Yorkers Are Turning Tech Into a Tool, Not a Threat",
-      "summary": "NYC small businesses and nonprofits are embracing AI through training programs to boost efficiency rather than cut jobs. Local owners learn to use AI for smarter operations in retail and services. This shift highlights real-world AI adoption for SMB competitiveness.",
-      "url": "https://w42st.com/post/small-business-meet-ai-how-new-yorkers-are-turning-tech-into-a-tool-not-a-threat",
-      "source": "W42ST",
+      "title": "Amazon Introduces AI Canvas for Sellers to Visualize and Grow Businesses in Real Time",
+      "summary": "Amazon launched a new AI-powered canvas experience in Seller Central, integrating chat with dynamic visuals for instant personalized insights, recommendations, and scenario testing. This agentic AI evolves the Seller Assistant to help sellers launch, manage, and scale operations faster, cutting data analysis time dramatically. It's available free to U.S. and U.K. sellers.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">23</argument></grok:render>",
+      "url": "https://www.aboutamazon.com/news/innovation-at-amazon/amazon-sellers-canvas-artificial-intelligence",
+      "source": "About Amazon",
       "tags": [
-        "AI",
-        "small business",
-        "NYC",
-        "training programs"
-      ],
-      "x_urls": [],
-      "id": "308200d7ed60f5bf",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-07T20:03:30Z"
-    },
-    {
-      "title": "I tried AI tools for my small business. Here's what I learned the hard way",
-      "summary": "A small business owner tested various AI tools despite initial skepticism over costs and buzzword risks. They share hard-learned lessons on effective implementation and ROI for tight-margin operations. The post underscores practical AI impacts from real SMB use.",
-      "url": "https://www.reddit.com/r/smallbusiness/comments/1rgae0g/i_tried_ai_tools_for_my_small_business_heres_what",
-      "source": "Reddit / r/smallbusiness",
-      "tags": [
-        "AI",
-        "small business",
-        "user review"
+        "ecommerce",
+        "seller tools",
+        "AI visualization",
+        "platform update"
       ],
       "x_urls": [
-        "https://x.com/gremlin_crypto1/status/2029139788838662373"
+        "https://x.com/Sell_on_Amazon/status/2028836782515556434"
       ],
-      "id": "17fed5e3a1b3c813",
+      "id": "609c824c6ab7bdf6",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-07T20:03:30Z"
+      "timestamp": "2026-03-07T20:04:13Z"
+    },
+    {
+      "title": "Rowan Launches AI-Powered Platform Addressing Small Business Succession Crisis",
+      "summary": "Rowan publicly launched an AI-driven succession platform for small businesses, using proprietary tech and expert guidance to prepare owners for transitions and connect with buyers. It captures critical knowledge to enable smooth handovers amid projections of 6 million business changes by 2035. The tool aims to solve the challenge where essential know-how resides only in owners' heads.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">26</argument></grok:render>",
+      "url": "https://www.prnewswire.com/news-releases/rowan-launches-ai-powered-platform-to-address-small-business-succession-crisis-302701388.html",
+      "source": "PR Newswire",
+      "tags": [
+        "succession planning",
+        "small business",
+        "AI platform",
+        "product launch"
+      ],
+      "x_urls": [],
+      "id": "03bc1979468ff464",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-07T20:04:13Z"
     }
   ]
 }
