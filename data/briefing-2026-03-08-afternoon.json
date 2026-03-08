@@ -1,420 +1,286 @@
 {
   "date": "2026-03-08",
   "period": "afternoon",
-  "generated": "2026-03-08T19:03:27Z",
+  "generated": "2026-03-08T19:03:29Z",
   "items": [
     {
-      "title": "How to revise your old content for AI search optimization",
-      "summary": "AI rewards clear answers and structured, retrievable content, so reformatting old content involves optimizing for topical breadth and depth using a hub-and-spoke model, chunk-level retrieval with self-contained passages, and answer synthesis through concise summaries and key takeaways. Prioritize revision of content with clear expertise, proprietary insight, or frequent questions, focusing on reports, tools, and evergreen guides that can be made more explicit for AI citation. Approach metadata for AEO by making title tags descriptive of primary answers, headings map to specific questions, and meta descriptions serve as intent signals to enhance visibility in AI search.",
-      "url": "https://searchengineland.com/revise-old-content-ai-search-optimization-470434",
-      "source": "searchengineland.com",
-      "tags": [
-        "SEO",
-        "AEO",
-        "AI Search Optimization"
-      ],
-      "x_urls": [],
-      "id": "e4139fc74561ae9d",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:00:39Z"
-    },
-    {
-      "title": "Content marketing in an AI era: From SEO volume to brand fame",
-      "summary": "AI systems are collapsing informational SEO by providing direct answers in search results, commoditizing known information and shifting content's role toward building fame rather than traffic. Content marketing must focus on originality, distinctiveness, and distribution to achieve fame, feeling, and fluency as drivers of brand growth in an era of abundant production and scarce attention. Strategies include creating proprietary research, pushing content through partnerships and media, and measuring brand awareness over clicks.",
-      "url": "https://searchengineland.com/content-marketing-ai-era-seo-volume-to-brand-fame-470540",
-      "source": "searchengineland.com",
-      "tags": [
-        "Content Marketing",
-        "AI",
-        "SEO"
-      ],
-      "x_urls": [
-        "https://x.com/MCanarelli/status/2029201830136213639"
-      ],
-      "id": "5c6a1982ddf4ff53",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:00:39Z"
-    },
-    {
-      "title": "AEO vs GEO in 2026: Key Differences and Strategic Applications",
-      "summary": "The article compares Answer Engine Optimization (AEO), which targets featured snippets, answer boxes, and voice assistants for factual queries with concise content and schema markup, against Generative Engine Optimization (GEO), which optimizes for AI-generated summaries in tools like ChatGPT and Perplexity through in-depth, expert-driven content with entity signals and citations. It highlights key differences such as target platforms, content formats, and success metrics, emphasizing that AEO focuses on quick answers while GEO builds brand authority in exploratory searches. A future-proof SEO strategy integrates both to enhance visibility in an AI-first search landscape.",
-      "url": "https://gileaddigital.in/blogs/aeo-vs-geo-key-differences-and-strategic-applications",
-      "source": "gileaddigital.in",
-      "tags": [
-        "AEO",
-        "GEO",
-        "AI Search",
-        "SEO"
-      ],
-      "x_urls": [
-        "https://x.com/DanHaslam/status/2029603793118318813"
-      ],
-      "id": "9610f2e529c818fb",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:00:39Z"
-    },
-    {
-      "title": "AI and SEO: What AI means for the future of SEO [Expert Tips & Interview]",
-      "summary": "AI is transforming SEO by shifting consumer search behavior toward AI platforms like ChatGPT and voice assistants, with 31% of Gen Z preferring them and predictions that LLM traffic will surpass traditional Google search by 2027. Search engines have adopted AI-powered features such as Google's AI overviews, leading to increased zero-click searches (up to 69%) and reduced organic traffic, prompting marketers to focus on answer engine optimization (AEO) and generative engine optimization (GEO). Marketers are adapting by using AI tools for keyword research on conversational queries, enhancing content with E-E-A-T signals and structured data, and leveraging platforms like HubSpot's Breeze for optimization to improve visibility in AI-generated answers.",
-      "url": "https://blog.hubspot.com/marketing/how-ai-is-impacting-seo",
-      "source": "blog.hubspot.com",
-      "tags": [
-        "AI",
-        "SEO",
-        "AEO",
-        "GEO"
-      ],
-      "x_urls": [
-        "https://x.com/AnnaGreer3/status/2030036216528404972"
-      ],
-      "id": "736975733773dcc7",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:00:39Z"
-    },
-    {
-      "title": "AI Tools For SEO: The Complete 2026 Guide To Smarter Search Engine Rankings",
-      "summary": "In 2026, AI tools for SEO accelerate research, content briefs, on-page optimizations, and reporting to adapt to AI Overviews and stricter spam filters, emphasizing hybrid workflows where AI drafts are edited for accuracy and real value. Key benefits include intent mapping, structure improvements, and visibility through citations in generative search results, with tools like Surfer SEO and Semrush aiding SERP analysis and content suggestions. Selection should focus on workflow fit, measuring time saved and page lifts, as AI enhances efficiency but requires human oversight to avoid generic content.",
-      "url": "https://techeasify.com/best-ai-tools-for-seo",
-      "source": "techeasify.com",
-      "tags": [
-        "AI Tools",
-        "SEO",
-        "Generative Search"
-      ],
-      "x_urls": [],
-      "id": "86cd0052b387f6eb",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:00:39Z"
-    },
-    {
-      "title": "Google\u2019s recent algorithm shifts reinforce hybrid AI-human content",
-      "summary": "Google\u2019s recent algorithm shifts have reinforced that sites relying solely on AI-generated content risk significant ranking drops, while hybrid AI-human content consistently outperforms. Early analysis suggests pure AI content sees average ranking declines of 25\u201328 positions, whereas hybrid content gains 10\u201315 positions. The trend confirms AI alone is insufficient; human oversight is key for SEO success.",
-      "url": "https://x.com/noelcetaSEO/status/2030290088630923506",
-      "source": "X (Twitter)",
+      "title": "Google AI Mode updates recipe results to better connect people with recipe creators",
+      "summary": "Google updated AI Mode for recipe searches to include links to recipe sites and more details like cook time, addressing traffic concerns from creators. This aims to drive more clicks back to original content amid AI summaries. It signals a trend toward balancing AI answers with publisher traffic.",
+      "url": "https://searchengineland.com/google-ai-mode-updates-recipe-results-to-better-connect-people-with-recipe-creators-470811",
+      "source": "Search Engine Land",
       "tags": [
         "Google Update",
-        "AI Content",
-        "SEO"
+        "AI Overviews",
+        "Recipe SEO",
+        "Content Traffic"
       ],
       "x_urls": [
-        "https://x.com/noelcetaSEO/status/2030290088630923506",
-        "https://x.com/singlegrain/status/2030373867261468959"
+        "https://x.com/rmstein/status/2029266609119084644"
       ],
-      "id": "f57a5ef83cd226cf",
+      "id": "804b5a08069a052c",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-08T19:00:39Z"
+      "timestamp": "2026-03-08T19:01:13Z"
     },
     {
-      "title": "After 4 Years, BookTok's Most Controversial Book Ending Finally Explained By Netflix",
-      "summary": "One popular BookTok book ended on a controversial, confusing note, and four years later, the Netflix adaptation finally clears things up. The adaptation of Julia May Jonas' Vladimir resolves the ambiguous conclusion that divided BookTok readers. This development has reignited discussions on the platform.",
-      "url": "https://screenrant.com/netflix-vladimir-julia-may-jonas-ending-change",
-      "source": "ScreenRant",
+      "title": "Google\u2019s AI Mode is citing Google more than any other site: Study",
+      "summary": "Google\u2019s AI Mode cites Google.com 17.42% of the time, up significantly, often linking to its own search results. This self-preferencing may reduce external traffic, urging SEO alignment with Google's ecosystem. It underscores shifts in AI citation dynamics across industries.",
+      "url": "https://searchengineland.com/google-ai-mode-citing-google-more-study-471042",
+      "source": "Search Engine Land",
       "tags": [
-        "BookTok",
-        "controversy"
+        "AI Search",
+        "Google AI Mode",
+        "SEO Implications",
+        "Self-Preferencing"
       ],
       "x_urls": [],
-      "id": "90d707e31c522034",
-      "section": "publishing",
+      "id": "7969d4bd4a230fc7",
+      "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:06Z"
+      "timestamp": "2026-03-08T19:01:13Z"
     },
     {
-      "title": "Amazon accused of pushing AI books with fake reviews",
-      "summary": "Amazon is accused of promoting AI-generated books through fake reviews, deceiving customers and harming real authors. This practice allows low-quality AI content to rise in rankings. The community calls for stronger measures against AI slop on the platform.",
-      "url": "https://www.reddit.com/r/WritingWithAI/comments/1rnfaa7/amazon_accused_of_pushing_ai_books_with_fake",
-      "source": "Reddit r/WritingWithAI",
+      "title": "Penguin Michael Joseph Signs Multi-Book Deal with Self-Published Thriller Author Lucinda Berry",
+      "summary": "Penguin Michael Joseph has acquired world rights to a new thriller, The Golden Child, by formerly self-published author Lucinda Berry, marking her transition to traditional publishing in the UK and Commonwealth. Berry, known for her popular psychological thrillers, will continue her publishing journey with PMJ. This deal highlights the growing interest in self-pub success stories securing major contracts.",
+      "url": "https://www.thebookseller.com/rights/pmj-signs-multi-book-deal-with-formerly-self-published-author-lucinda-berry",
+      "source": "The Bookseller",
       "tags": [
-        "AI",
-        "controversy",
-        "publishing"
-      ],
-      "x_urls": [],
-      "id": "438c5348610a4e48",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:06Z"
-    },
-    {
-      "title": "Detection firm finds 82% of herbal remedy books on Amazon 'likely written by AI'",
-      "summary": "A detection firm discovered that 82% of herbal remedy books on Amazon are likely AI-generated. This reveals the extent of AI infiltration in niche publishing categories. Consumers are urged to verify content authenticity.",
-      "url": "https://www.theguardian.com/books/2025/oct/22/detection-firm-finds-82-of-herbal-remedy-books-on-amazon-likely-written-by-ai",
-      "source": "The Guardian",
-      "tags": [
-        "AI",
-        "controversy",
-        "publishing"
-      ],
-      "x_urls": [],
-      "id": "5ed5696adff06f32",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:06Z"
-    },
-    {
-      "title": "Amazon Is Filled with AI Book Slop",
-      "summary": "AI-generated knockoff books are flooding Amazon, mimicking popular titles in a legal grey area. This harms authors whose works are being copied or parodied by AI. The publishing industry faces challenges from this surge of low-quality content.",
-      "url": "https://www.rollingstone.com/culture/culture-features/amazon-ai-book-knockoffs-1235450690",
-      "source": "Rolling Stone",
-      "tags": [
-        "AI",
-        "controversy",
-        "publishing"
-      ],
-      "x_urls": [],
-      "id": "4b494664dcb08432",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:06Z"
-    },
-    {
-      "title": "Has the DEI Backlash Come for Publishing?",
-      "summary": "The publishing industry has seen an increase in books by nonwhite writers amid DEI efforts, but faces potential backlash. The article examines if conservative critiques are affecting hiring and publishing decisions. Representation remains below US demographics.",
-      "url": "https://bookriot.com/has-the-dei-backlash-come-for-publishing",
-      "source": "Book Riot",
-      "tags": [
-        "DEI",
-        "publishing",
-        "controversy"
-      ],
-      "x_urls": [],
-      "id": "1a7e97193f33f303",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:06Z"
-    },
-    {
-      "title": "NYT bestseller list: Yes, it's politically biased, says The Economist",
-      "summary": "The Economist analysis reveals the New York Times bestseller list is biased against conservative books. Conservative publishers' books are less likely to appear despite sales. This raises questions about fairness in literary recognition.",
-      "url": "https://janefriedman.com/nyt-bestseller-list-yes-its-politically-biased-says-the-economist",
-      "source": "Jane Friedman",
-      "tags": [
-        "bestseller",
-        "controversy",
-        "conservative"
-      ],
-      "x_urls": [],
-      "id": "be0c7cbda1a07d99",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:06Z"
-    },
-    {
-      "title": "'Sinners' Wins Best Ensemble Cast at 2026 Actor Awards, Boosting Oscar Buzz",
-      "summary": "The film 'Sinners' dominated the 2026 Actor Awards by winning the top prize for best ensemble cast, with Michael B. Jordan also securing best actor honors. Directed by Ryan Coogler, the genre-bending epic emerged as a major frontrunner ahead of the Oscars. The ceremony featured surprises like a posthumous award for Catherine O'Hara.",
-      "url": "https://www.yahoo.com/entertainment/movies/articles/sinners-cast-takes-top-gong-034329454.html",
-      "source": "Yahoo Entertainment",
-      "tags": [
-        "awards",
-        "film",
-        "Oscars",
-        "Michael B. Jordan"
-      ],
-      "x_urls": [],
-      "id": "a893b2a7f6055d77",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:58Z"
-    },
-    {
-      "title": "Timoth\u00e9e Chalamet Faces Backlash from Ballet and Opera Communities Over 'No One Cares' Remark",
-      "summary": "During a Variety town hall, Timoth\u00e9e Chalamet said he doesn't want cinema to fade like ballet and opera where 'no one cares' anymore, prompting swift backlash from arts communities. Institutions like the Royal Ballet and artists invited him to performances to prove him wrong. The controversy underscores debates on traditional arts' place in modern pop culture.",
-      "url": "https://variety.com/2026/film/news/timothee-chalamet-backlash-ballet-opera-town-hall-1236681592/",
-      "source": "Variety",
-      "tags": [
-        "backlash",
-        "celebrity",
-        "Timoth\u00e9e Chalamet",
-        "arts"
-      ],
-      "x_urls": [],
-      "id": "65b4e38a3597aefd",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:58Z"
-    },
-    {
-      "title": "Hollywood Celebrities Flee U.S. as Woke Movie Industry Reportedly Implodes",
-      "summary": "Celebrities including George Clooney, Ellen DeGeneres, and Rosie O'Donnell are relocating abroad amid claims of Hollywood's collapse due to audience rejection of woke content. Reports cite box office failures from preachy messaging leading to financial woes and fewer theatergoers. The exodus is framed as escape from a declining industry and political climate.",
-      "url": "https://www.zerohedge.com/political/hollywood-celebrities-flee-us-woke-movie-industry-implodes",
-      "source": "ZeroHedge",
-      "tags": [
-        "backlash",
-        "woke",
-        "Hollywood",
-        "celebrities"
+        "major contracts",
+        "thriller"
       ],
       "x_urls": [
-        "https://x.com/MysticVerlon/status/2029339407099011130",
-        "https://x.com/CrackBunnyLives/status/2029363598863036822"
+        "https://x.com/thebookseller/status/2029278243270902154",
+        "https://x.com/PublishersWkly/status/2029980378392301685"
       ],
-      "id": "3ef119d6f58e0cea",
-      "section": "popculture",
+      "id": "273cb2503a51dd97",
+      "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:58Z"
+      "timestamp": "2026-03-08T19:01:59Z"
     },
     {
-      "title": "15 TV Shows Critics Loved But Audiences Hated, Highlighting Preachy Content Backlash",
-      "summary": "An article lists shows like 'Rings of Power' where audiences slammed preachy, agenda-driven narratives despite critical acclaim. Viewers cited betrayal of source material and overt politics as reasons for rejection. The divide illustrates growing audience pushback against ideological messaging in entertainment.",
-      "url": "https://earlygame.com/guides/entertainment/15-tv-shows-critics-loved-that-audiences-openly-hated",
-      "source": "EarlyGame",
+      "title": "Humans Beat AI in Storytelling Contest Offering Publishing Contract Prize",
+      "summary": "A writing contest pitting human authors against AI-generated stories concluded with humans winning top prizes, including a publishing contract for first place. Judges preferred human entries for depth and originality despite AI's efficiency. The event underscores ongoing debates about AI's role in creative writing and publishing.",
+      "url": "https://annerallen.com/2026/02/writing-contest-pitting-human-against-ai-storytelling",
+      "source": "Anne R. Allen's Blog",
       "tags": [
-        "backlash",
-        "TV",
-        "critics vs audience",
-        "preachy"
+        "AI controversies",
+        "writing",
+        "publishing contract"
       ],
       "x_urls": [],
-      "id": "c6682b677bd42886",
-      "section": "popculture",
+      "id": "a3eeaf6cc63d8bb4",
+      "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:58Z"
+      "timestamp": "2026-03-08T19:01:59Z"
     },
     {
-      "title": "Hollywood Celebrities Remain Silent on Iran Tensions, Signaling End of Woke Activism Era",
-      "summary": "Unlike past protests, Hollywood stars are mostly quiet on recent Iran conflicts, possibly due to industry merger fears chilling activism. The article notes a pattern of declining celebrity protests amid audience fatigue with political entertainment. This shift is portrayed as the woke era in Hollywood winding down.",
-      "url": "https://thatparkplace.com/hollywood-celebrities-mostly-silent-on-iran-have-paramount-skydance-warner-bros-rumors-chilled-movie-star-protests",
-      "source": "That Park Place",
+      "title": "NYT Spotlights Generative AI Controversy in Indie Author Space",
+      "summary": "A New York Times article highlighted growing controversies around indie authors using generative AI for content creation, sparking debates on ethics and quality. Indie Author Magazine discusses agentic AI advancements and potential legal ripples affecting publishing practices. Authors are urged to adapt while building independent business foundations amid platform disruptions.",
+      "url": "https://indieauthormagazine.com/techs-ripple-effect-indie-publishing-news-from-this-week",
+      "source": "Indie Author Magazine",
       "tags": [
-        "backlash",
-        "celebrities",
-        "woke",
+        "AI controversies",
+        "indie publishing"
+      ],
+      "x_urls": [],
+      "id": "73a1eddb5b765a49",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-08T19:01:59Z"
+    },
+    {
+      "title": "Gaming Publication Network Fires Staff, Replaces with AI-Generated Writers",
+      "summary": "Clickout Media, owning sites like The Escapist and Videogamer, sacked up to 20 journalists and substituted them with fictitious AI writers complete with fake bios and photos. Staff trained the AI amid budget cuts, leading to controversies including removed fake reviews. This incident raises alarms about AI deception in content publishing.",
+      "url": "https://pressgazette.co.uk/news/staff-journalists-sacked-and-misleadingly-replaced-with-ai-writers",
+      "source": "Press Gazette",
+      "tags": [
+        "AI controversies",
+        "publishing",
+        "journalism"
+      ],
+      "x_urls": [],
+      "id": "cf48f4a862a13bb6",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-08T19:01:59Z"
+    },
+    {
+      "title": "Geological Society Issues Guidelines for Responsible AI Use in Scholarly Publishing",
+      "summary": "The Geological Society supports AI tools in research but mandates disclosure of AI use in writing, analysis, or images, prohibiting AI authorship. Reviewers must verify AI-assisted work without uploading confidential content to LLMs. The policy emphasizes human oversight and content integrity amid AI's rise.",
+      "url": "https://geoscientist.online/sections/news/ai-in-publishing-geological-society",
+      "source": "Geoscientist",
+      "tags": [
+        "AI in publishing",
+        "policy",
+        "scholarly publishing"
+      ],
+      "x_urls": [],
+      "id": "7d9310c6866deef1",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-08T19:01:59Z"
+    },
+    {
+      "title": "BookTok Trends Feature Emerald Fennell's Wuthering Heights, Reviving Canonical Classics",
+      "summary": "BookTok creators are buzzing about director Emerald Fennell's adaptation of Wuthering Heights, driving interest in the classic novel and prompting discussions on returning to traditional literature. The platform highlights trending genres and timeless titles amid viral content. This surge underscores BookTok's influence on reading canonical works.",
+      "url": "https://www.thebookseller.com/books/books-on-booktok-emerald-fennells-wuthering-heights-prompts-return-to-canonical-literature",
+      "source": "The Bookseller",
+      "tags": [
+        "BookTok",
+        "traditional storytelling",
+        "classics"
+      ],
+      "x_urls": [],
+      "id": "c89505386292fd0e",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-08T19:01:59Z"
+    },
+    {
+      "title": "Pixar's 'Hoppers' Dominates Box Office While Maggie Gyllenhaal's 'The Bride!' Struggles",
+      "summary": "Pixar's latest animated film 'Hoppers' led the global box office with an impressive $88 million opening weekend debut. In contrast, Maggie Gyllenhaal's 'The Bride!' underperformed, earning only $13 million worldwide amid reports of flatlining performance. The divergent results highlight varying audience reception to recent releases.",
+      "url": "https://variety.com/2026/film/box-office/pixar-hoppers-box-office-global-opening-weekend-win-the-bride-flatlines-1236681863/",
+      "source": "Variety",
+      "tags": [
+        "box-office",
+        "Pixar",
+        "movies",
+        "The Bride"
+      ],
+      "x_urls": [],
+      "id": "80166b9df1ddb5e8",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-08T19:02:50Z"
+    },
+    {
+      "title": "Rosanna Arquette Criticizes Quentin Tarantino's Use of N-Word in Films",
+      "summary": "Rosanna Arquette, known for her role in Pulp Fiction, blasted Quentin Tarantino for using the N-word in his movies, calling it racist and creepy rather than artistic. She claimed he has been given a 'hall pass' for it. The comments reignite ongoing debates about language in Hollywood films.",
+      "url": "https://variety.com/2026/film/news/quentin-tarantino-hall-pass-n-word-rosanna-arquette-1236681864/",
+      "source": "Variety",
+      "tags": [
+        "Quentin Tarantino",
+        "controversy",
+        "N-word",
         "Hollywood"
       ],
       "x_urls": [],
-      "id": "83f6fca2fb62c7c8",
+      "id": "63e1c20c6a825f4d",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:58Z"
+      "timestamp": "2026-03-08T19:02:50Z"
     },
     {
-      "title": "Jonathan Majors Cast in Daily Wire Action Film, Dubbed 'Anti-Woke Sinners' by Rumors",
-      "summary": "Jonathan Majors is starring in an untitled action movie for conservative media company Daily Wire following his MCU exit. Rumors pair him with Zachary Levi as twins in what's called an 'anti-woke Sinners,' marking a pivot to culture war content. The project draws mixed reactions amid actors' career rehabilitations.",
-      "url": "https://dailydot.com/jonathan-majors-daily-wire-production",
-      "source": "Daily Dot",
+      "title": "Harry Styles Surprises During Ryan Gosling's 'SNL' Monologue",
+      "summary": "Harry Styles made an unexpected cameo during Ryan Gosling's 'Saturday Night Live' opening monologue, which featured an alien-themed skit tied to Gosling's upcoming project. The surprise appearance added to the episode's buzz. Fans celebrated the pop culture crossover moment.",
+      "url": "https://variety.com/2026/tv/news/harry-styles-ryan-gosling-snl-opening-monologue-1236681747/",
+      "source": "Variety",
       "tags": [
-        "film",
-        "Jonathan Majors",
-        "anti-woke",
-        "Daily Wire"
+        "SNL",
+        "Harry Styles",
+        "Ryan Gosling",
+        "pop culture"
       ],
-      "x_urls": [
-        "https://x.com/TheLucasToday/status/2027158631087509955"
-      ],
-      "id": "b80edfa7bff9e70b",
+      "x_urls": [],
+      "id": "13db5c0f87b7fefe",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-08T19:02:58Z"
+      "timestamp": "2026-03-08T19:02:50Z"
     },
     {
-      "title": "How Small Businesses Can Win in the AI Era",
-      "summary": "As AI reshapes consumer discovery and purchasing habits, small businesses must adapt to stay visible and build trust. The article outlines practical strategies for leveraging AI tools to enhance online presence and customer engagement. Published 6 days ago in Fast Company.",
-      "url": "https://www.fastcompany.com/91500825/how-small-businesses-can-win-in-the-ai-era",
-      "source": "Fast Company",
+      "title": "Timoth\u00e9e Chalamet Faces Backlash from Ballet and Opera Communities Over Dismissive Comments",
+      "summary": "Timoth\u00e9e Chalamet sparked outrage from ballet and opera enthusiasts after saying during a town hall that he doesn't want theaters to become like those arts, where 'no one cares' despite efforts to sustain them. The remarks were mocked on SNL's Weekend Update. The backlash underscores sensitivities around cultural appreciation.",
+      "url": "https://variety.com/2026/tv/news/snl-timothee-chalamet-opera-ballet-trump-noem-rfk-jr-1236681771/",
+      "source": "Variety",
       "tags": [
-        "AI",
-        "small business",
-        "strategy"
+        "Timoth\u00e9e Chalamet",
+        "backlash",
+        "ballet",
+        "opera"
       ],
       "x_urls": [
-        "https://x.com/HerHandshake/status/2028672411604844599"
+        "https://x.com/Variety/status/2030353234494476654"
       ],
-      "id": "9b27c8b7af504600",
-      "section": "business",
+      "id": "2f5d38ec546102bb",
+      "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-08T19:03:27Z"
+      "timestamp": "2026-03-08T19:02:50Z"
     },
     {
-      "title": "Woman Founder Uses AI to Help Small Businesses Innovate",
-      "summary": "A female entrepreneur has developed an AI tool called Ideamorph that assists small businesses in generating new ideas for business plans, pricing strategies, and marketing campaigns. This innovation is highlighted ahead of International Women's Day. Small businesses can now use AI to accelerate ideation processes.",
-      "url": "https://www.mastercard.com/us/en/news-and-trends/stories/2026/ideamorph-small-business-ideation-ai.html",
-      "source": "Mastercard",
+      "title": "'Scary Movie' Trailer Draws Woke Backlash Over Pronoun Joke",
+      "summary": "The trailer for the new 'Scary Movie' film featured a pronoun joke, prompting strong reactions from critics accusing it of insensitivity. Supporters hailed it as a return to the franchise's irreverent humor. The controversy highlights divides in audience expectations for comedy.",
+      "url": "https://www.youtube.com/watch?v=toih89S9r1o",
+      "source": "YouTube",
       "tags": [
-        "AI tools",
-        "small business",
-        "innovation"
+        "Scary Movie",
+        "backlash",
+        "pronoun joke",
+        "comedy"
       ],
       "x_urls": [
-        "https://x.com/AIssential_Pro/status/2028651880973570269"
+        "https://x.com/ScaryMovie/status/2028471075298775098",
+        "https://x.com/CualquieraMujer/status/2028517357195321550"
       ],
-      "id": "52fe3cbfbd9f71a6",
-      "section": "business",
+      "id": "d7d6ccc98aa91ea3",
+      "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-08T19:03:27Z"
+      "timestamp": "2026-03-08T19:02:50Z"
     },
     {
-      "title": "Launch Commerce Rebrands and Unveils AI-Powered Platform for Small Businesses",
-      "summary": "Launch Commerce, formerly Launch Cart, has rebranded and launched an AI-powered business platform designed specifically for small businesses. The platform aims to consolidate multiple tools into one system that automates follow-ups, improves response times, and captures missed leads. This move addresses common pain points for SMBs juggling fragmented tech stacks.",
-      "url": "https://www.heraldnews.com/press-release/story/121161/launch-commerce-rebrands-from-launch-cart-unveils-ai-powered-business-platform-for-small-businesses",
-      "source": "Herald News",
+      "title": "Anna Camp Apologizes After Reposting Scream 7 Boycott Failure Story",
+      "summary": "Scream 7 star Anna Camp faced criticism for reposting a story claiming the film's boycott and critic hate 'didn't work,' prompting her to delete it and issue an apology stating it doesn't reflect her beliefs. The incident stems from calls to boycott the movie over various issues. It illustrates tensions around celebrity social media engagement.",
+      "url": "https://www.youtube.com/watch?v=plcw3rhW_k8",
+      "source": "YouTube",
       "tags": [
-        "AI platform",
-        "product launch",
-        "small business"
+        "Scream 7",
+        "boycott",
+        "Anna Camp",
+        "apology"
+      ],
+      "x_urls": [
+        "https://x.com/screentime/status/2028410002390593537"
+      ],
+      "id": "ed40b14b3ff2fa72",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-08T19:02:50Z"
+    },
+    {
+      "title": "Small Business Technology News: Intuit Launches AI-Powered ERP Solution Tailored For Construction Industry",
+      "summary": "Intuit has launched a new Construction Edition for its Intuit Enterprise Suite, an AI-native ERP solution designed to support mid-market construction companies by combining project, financial, and operational workflows in one system. Key features include AI-powered processes and industry-specific tools such as cost proposals, invoicing, and budgeting. This offering provides a scalable path for construction businesses growing out of QuickBooks, potentially simplifying their accounting system upgrades.",
+      "url": "https://www.forbes.com/sites/quickerbettertech/2026/03/07/small-business-technology-news-intuit-launches-ai-powered-erp-solution-tailored-for-construction-industry",
+      "source": "Forbes",
+      "tags": [
+        "AI product launch",
+        "ERP",
+        "construction",
+        "small business",
+        "Intuit"
+      ],
+      "x_urls": [
+        "https://x.com/sasan_goodarzi/status/2028860984409104833",
+        "https://x.com/genemarks/status/2030299838185636185"
+      ],
+      "id": "4f7dded46d442400",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-08T19:03:29Z"
+    },
+    {
+      "title": "AI Infrastructure for Small Businesses: How To Prepare Without Overcommitting",
+      "summary": "Small businesses do not require hyperscale AI infrastructure to leverage AI effectively; instead, they can achieve meaningful results through smart planning, rightsized investments, and focusing on one or two high-value opportunities with low implementation time. An AI readiness assessment and workshops help translate vague directives into actionable roadmaps, identifying necessary data, technologies, and infrastructure levels. While cloud-based AI offers simplicity for quick experimentation, on-prem options provide cost predictability, better performance, and control, especially with modern hardware like entry-level GPUs, allowing businesses to experiment without overspending.",
+      "url": "https://biztechmagazine.com/article/2026/03/ai-infrastructure-small-businesses-how-prepare-without-overcommitting",
+      "source": "BizTech Magazine",
+      "tags": [
+        "AI infrastructure",
+        "small business",
+        "preparation"
       ],
       "x_urls": [],
-      "id": "7173d153229e2731",
+      "id": "0d46d90b5335599b",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-08T19:03:27Z"
-    },
-    {
-      "title": "NYC Small Businesses Embrace AI with Training Programs",
-      "summary": "Despite headlines about AI-driven job losses, New York City small businesses and nonprofits are adopting AI through specialized training programs. With support, they are integrating AI to streamline operations amid broader tech shifts like Amazon's layoffs. This grassroots adoption highlights practical AI benefits for local enterprises.",
-      "url": "https://www.thecity.nyc/2026/03/04/artificial-intelligence-ai-small-business-nonprofits",
-      "source": "THE CITY",
-      "tags": [
-        "AI adoption",
-        "small business",
-        "training"
-      ],
-      "x_urls": [
-        "https://x.com/TheSMEAIHub/status/2028410485511795121"
-      ],
-      "id": "2c8dae162efa2f8d",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:03:27Z"
-    },
-    {
-      "title": "How AI Can Cut Months Off Your Business Launch",
-      "summary": "AI tools are enabling entrepreneurs to launch and monetize online businesses dramatically faster by automating key processes. The article details real-world examples of using AI to shorten timelines from months to days without sacrificing quality. This shift democratizes business creation for small operators.",
-      "url": "https://www.entrepreneur.com/growing-a-business/how-ai-can-cut-months-off-your-business-launch/501615",
-      "source": "Entrepreneur",
-      "tags": [
-        "AI tools",
-        "startup launch",
-        "efficiency"
-      ],
-      "x_urls": [
-        "https://x.com/tech_crafters/status/2027756796665111000"
-      ],
-      "id": "3f54970daf34532c",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:03:27Z"
-    },
-    {
-      "title": "OpenAI Details Five AI Value Models for Business Reinvention",
-      "summary": "OpenAI has outlined five key AI value models that guide businesses from basic workforce fluency to full process reinvention. These models help leaders build sustainable competitive advantages through strategic AI sequencing. Applicable especially to small businesses seeking real ROI from AI investments.",
-      "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
-      "source": "OpenAI",
-      "tags": [
-        "AI strategy",
-        "business reinvention",
-        "platform"
-      ],
-      "x_urls": [],
-      "id": "656aa4c4c5f4c489",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-08T19:03:27Z"
+      "timestamp": "2026-03-08T19:03:29Z"
     }
   ]
 }
