@@ -1,296 +1,377 @@
 {
   "date": "2026-03-09",
   "period": "afternoon",
-  "generated": "2026-03-09T19:02:55Z",
+  "generated": "2026-03-09T19:04:03Z",
   "items": [
     {
-      "title": "Google Updates AI Recipe Results To Send More Traffic",
-      "summary": "Google has updated AI Mode to display more links to recipe sites when users search for meal ideas, addressing feedback on synthesized recipes by allowing taps on dishes to reveal side panels with overviews and clickable images leading to creators' sites. This change aims to better connect users with web content, with plans to include details like cook time in future updates. For SEO, the update increases traffic potential to recipe blogs by making original sources more accessible in AI-generated results.",
-      "url": "https://www.searchenginejournal.com/google-updates-ai-mode-recipe-sites-results/568798",
-      "source": "Search Engine Journal",
+      "title": "February 2026 Google Discover Core Update Done Rolling Out",
+      "summary": "Google's February 2026 Discover Core Update has completed rolling out after over three weeks, starting on February 5 and finishing on February 27. This broad update to systems surfacing articles in Discover aims to show more locally relevant content from websites based in users' countries, reduce sensational content and clickbait, and prioritize in-depth, original, and timely content from expert sites. It may impact non-US publishers targeting US audiences by decreasing their visibility there, but could enhance their content's performance in local regions over time.",
+      "url": "https://www.seroundtable.com/february-2026-google-discover-core-update-done-41006.html",
+      "source": "Search Engine Roundtable",
       "tags": [
-        "Google update",
-        "AI search",
-        "recipes",
-        "SEO traffic"
+        "Google Discover",
+        "Core Update",
+        "Local Relevance",
+        "Content Quality"
       ],
-      "x_urls": [],
-      "id": "7af8fee437b7c905",
+      "x_urls": [
+        "https://x.com/rust ybrick/status/2031075294036078600",
+        "https://x.com/AndellDam/status/2031069287478112266",
+        "https://x.com/Adtastic/status/2031008209700593728"
+      ],
+      "id": "beac97abec9e104d",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:00:49Z"
+      "timestamp": "2026-03-09T19:01:38Z"
     },
     {
-      "title": "Google's Liz Reid Says LLMs Unlock Audio And Video Indexing",
-      "summary": "Google's Liz Reid explained that multimodal LLMs enable deeper understanding of audio and video content for indexing, expanding search capabilities beyond text and improving multilingual access. She also discussed a future where search results prioritize content from users' paid subscriptions, enhancing personalization. This signals SEO opportunities in optimizing non-text media for AI-driven search.",
-      "url": "https://www.searchenginejournal.com/googles-liz-reid-says-llms-unlock-audio-and-video-indexing/569009",
-      "source": "Search Engine Journal",
+      "title": "How AI is changing SEO tools: Citation tracking, GEO & AI visibility",
+      "summary": "AI is transforming SEO tools by shifting from content generation to infrastructure changes in research, auditing, tracking, and performance measurement, with a key finding that 88% of AI Mode citations do not match the organic top 10 results, emphasizing the need for broader topic coverage and off-site visibility. Modern SEO tools like Ahrefs, Moz Pro, and Semrush now incorporate AI-driven features for keyword suggestions, intent analysis, and brand visibility tracking across AI platforms, while new metrics focus on AI citation frequency and share of voice. This evolution highlights the importance of signals such as topic authority, community contributions on platforms like YouTube and Reddit, and video content for improving AI visibility in generative search responses.",
+      "url": "https://thenextweb.com/news/ai-changing-seo-tools",
+      "source": "The Next Web",
       "tags": [
-        "LLMs",
-        "video indexing",
-        "audio SEO",
-        "Google"
+        "AI",
+        "SEO tools",
+        "GEO",
+        "citation tracking",
+        "AI visibility"
       ],
-      "x_urls": [],
-      "id": "8f266ed289d88546",
+      "x_urls": [
+        "https://x.com/MillieMarconnni/status/2029493762272170191"
+      ],
+      "id": "0fc0750297814978",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:00:49Z"
+      "timestamp": "2026-03-09T19:01:38Z"
     },
     {
-      "title": "AIO Citations Diverge From Rankings, Bing Rewrites Rules \u2013 SEO Pulse",
-      "summary": "AI Overview citations from top-ranking pages have dropped to 38% overlap with top 10 organics, driven by query fan-out and model upgrades, requiring SEO to prioritize AI citability over rankings alone. AI Overviews now appear on 48% of searches, up 58% YoY. Bing introduces AI-specific webmaster tools like NOARCHIVE for Copilot, contrasting Google's limited options.",
-      "url": "https://www.searchenginejournal.com/seo-pulse-aio-citations-diverge-from-rankings-bing-rewrites-rules/568881",
-      "source": "Search Engine Journal",
+      "title": "Content Refresh for Local SEO + AI: What to Update Every Quarter",
+      "summary": "This article outlines a quarterly content refresh strategy for B2C brands to maintain visibility in AI-driven search environments, emphasizing updates to Atomic Answers, schema markup, and local FAQs to align with AI extraction patterns and prevent content drift. It highlights the shift from traditional SEO to GEO, stressing proactive updates every 90 days to ensure entity clarity, freshness signals, and hyperlocal relevance for better AI citations and rankings. The approach aims to make content a trusted data source for AI agents, focusing on structured summaries and proof signals to dominate the citation economy.",
+      "url": "https://premierecreative.com/blog/content-refresh-for-local-seo-ai-what-to-update-every-quarter",
+      "source": "Premiere Creative",
       "tags": [
-        "AIO",
-        "citations",
-        "Bing",
-        "SEO Pulse"
+        "local SEO",
+        "GEO",
+        "AI",
+        "content refresh",
+        "quarterly updates"
       ],
       "x_urls": [],
-      "id": "fc52ed093f83548d",
+      "id": "369722c39dffe670",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:00:49Z"
+      "timestamp": "2026-03-09T19:01:38Z"
+    },
+    {
+      "title": "Google Removes JavaScript SEO Warning, Says It's Outdated",
+      "summary": "Google has removed its outdated JavaScript and accessibility guidance from the JavaScript SEO basics documentation, stating that the advice is no longer helpful as Google Search has been rendering JavaScript for multiple years. The removed section previously advised designing pages for users without JavaScript-capable browsers and testing with JavaScript turned off or in text-only browsers like Lynx. This update reflects Google's shift from broad cautions to specific technical advice, with improvements in assistive technologies also contributing to the guidance becoming obsolete.",
+      "url": "https://www.searchenginejournal.com/google-removes-javascript-seo-warning-says-its-outdated/568829/",
+      "source": "Search Engine Journal",
+      "tags": [
+        "Technical SEO",
+        "JavaScript",
+        "Google Documentation"
+      ],
+      "x_urls": [],
+      "id": "fcb70f88a5f3f2a3",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-09T19:01:38Z"
     },
     {
       "title": "Latest Google Search Documentation Updates",
-      "summary": "On March 4, Google removed outdated JavaScript SEO info as rendering has improved. March 2 added preferred image best practices using schema.org and og:image for Search and Discover thumbnails. These clarify evolving standards for modern SEO practices.",
+      "summary": "Google recently updated its documentation with key SEO-relevant changes: on March 4, removed outdated JavaScript SEO accessibility info; on March 2, added preferred image best practices using schema.org and og:image for Search and Discover thumbnails. Earlier in February, guidance on increasing Discover visibility tied to the core update, and clarifications on Googlebot file size limits. These updates signal evolving standards for crawling, rendering, images, and Discover optimization.",
       "url": "https://developers.google.com/search/updates",
-      "source": "Google Search Central",
+      "source": "Google Developers",
       "tags": [
-        "Google docs",
-        "JavaScript SEO",
-        "Discover",
-        "images"
+        "Google Docs",
+        "SEO",
+        "JavaScript",
+        "Images",
+        "Discover"
       ],
-      "x_urls": [],
-      "id": "de6512c19cc1119d",
+      "x_urls": [
+        "https://x.com/ardigital_eu/status/2031026984281665640"
+      ],
+      "id": "a38c56363ef175fe",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:00:49Z"
+      "timestamp": "2026-03-09T19:01:38Z"
     },
     {
-      "title": "I Made ~$7.7k Publishing AI-Assisted Books \u2014 Here's My Experience",
-      "summary": "A self-publisher detailed earning around $7,700 from multiple AI-assisted books on Amazon KDP, using AI for writing, editing, covers, and descriptions. They highlighted marketing tactics including BookTok and Reddit promotion. The post discusses the efficiency of AI but notes challenges like quality control and platform policies.",
-      "url": "https://www.reddit.com/r/passive_income/comments/1rjgkjf/i_made_77k_publishing_aiassisted_books_heres_my",
-      "source": "Reddit",
-      "tags": [
-        "AI",
-        "self-publishing",
-        "BookTok"
-      ],
-      "x_urls": [],
-      "id": "f419fba3be62fb65",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-09T19:01:34Z"
-    },
-    {
-      "title": "Publishing Insiders Launch Next Chapter AI, Offering Ethical AI Strategy to the Book Publishing Industry",
-      "summary": "Publishing professionals launched Next Chapter AI to deliver ethical AI strategies, training, and tools tailored for book publishers. The service addresses integration of AI while mitigating risks like copyright issues and content authenticity. It aims to future-proof the industry amid rapid AI advancements.",
-      "url": "https://www.globenewswire.com/news-release/2026/02/27/3246746/0/en/Publishing-Insiders-Launch-Next-Chapter-AI-Offering-Ethical-AI-Strategy-and-Training-to-the-Book-Publishing-Industry.html",
-      "source": "GlobeNewswire",
+      "title": "Authors Guild Expands 'Human Authored' Certification Program",
+      "summary": "The Authors Guild has expanded its 'Human Authored' certification program to include all U.S. authors and publishers, not just members. This initiative certifies books as entirely human-created to help distinguish them from AI-generated content amid growing concerns in the publishing industry. The move addresses ethical issues around undisclosed AI use in writing and editing.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/99836-authors-guild-opens-human-authored-certification-to-all-u-s-authors-and-publishers.html",
+      "source": "Publishers Weekly",
       "tags": [
         "AI",
         "publishing",
-        "ethics"
+        "ethics",
+        "certification"
       ],
-      "x_urls": [],
-      "id": "5b16a94ce59c225c",
+      "x_urls": [
+        "https://x.com/BelleMarsT/status/2028257383906972059"
+      ],
+      "id": "8d6d7c528d0fb5e8",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:01:34Z"
+      "timestamp": "2026-03-09T19:02:31Z"
     },
     {
-      "title": "Book publishing is complicated. How to avoid scams in self publishing",
-      "summary": "An investigation outlines differences between traditional, hybrid, self, and vanity publishing models, warning authors about scams in self-publishing services like Xlibris. It provides tips for spotting predatory contracts and practices. Traditional publishers are contrasted as more selective but legitimate paths.",
-      "url": "https://www.jsonline.com/story/news/investigations/public-investigator/2026/03/09/book-publishing-is-complicated-how-to-avoid-scams-in-self-publishing-xlibris/88969253007",
-      "source": "Milwaukee Journal Sentinel",
+      "title": "Diversion Publishing Buys U.K. Indie Press",
+      "summary": "Scott Waxman's Diversion Publishing Corp. has acquired U.K. independent publisher Influx Press Ltd., encompassing about 75 titles. The deal strengthens Diversion's international footprint in literary fiction and nonfiction. This acquisition reflects ongoing consolidation trends in the indie publishing sector.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/industry-deals/article/99876-diversion-publishing-buys-u-k-indie-press.html",
+      "source": "Publishers Weekly",
       "tags": [
-        "self-publishing",
-        "scams",
-        "traditional publishing"
+        "acquisition",
+        "publishing",
+        "indie press"
       ],
       "x_urls": [],
-      "id": "f09399fd28f50872",
+      "id": "422c1aafe2fab29b",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:01:34Z"
+      "timestamp": "2026-03-09T19:02:31Z"
     },
     {
-      "title": "New Book Reveals the 'Human-AI Power Couple' Secret: 2026 Competitive Advantage Isn\u2019t AI, It\u2019s Employee Engagement",
-      "summary": "The book 'What Else?' from Global Book Publishing posits that combining human employee engagement with AI provides the true 2026 edge, beyond AI alone. It critiques over-reliance on technology in business contexts including publishing. The release ties into broader AI debates in creative industries.",
-      "url": "https://www.knoxnews.com/press-release/story/154148/new-book-reveals-the-human-ai-power-couple-secret-2026-competitive-advantage-isnt-ai-its-employee-engagement",
-      "source": "Knox News",
+      "title": "Book Deals: Week of March 9, 2026",
+      "summary": "Publishers Weekly reports major deals including Celadon Books acquiring North American rights at auction to Rose Himber Howse's Tricks of the Light in a two-book deal. Other notable contracts feature various fiction and nonfiction acquisitions across imprints. These deals showcase active buying in the current publishing market.",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/book-deals/article/99863-book-deals-week-of-march-9-2026.html",
+      "source": "Publishers Weekly",
       "tags": [
-        "AI",
-        "major release",
+        "book deals",
+        "contracts",
         "publishing"
       ],
       "x_urls": [],
-      "id": "a250f5af3b8c6828",
+      "id": "9162a27435afe5ad",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:01:34Z"
+      "timestamp": "2026-03-09T19:02:31Z"
     },
     {
-      "title": "David Ellison Unveils Sweeping Vision for Warner Bros Merger",
-      "summary": "Paramount CEO David Ellison announced a $110 billion acquisition of Warner Bros. Discovery, merging HBO Max and Paramount+ while combining studios and networks. The deal promises $6 billion in savings, no production cuts, and a focus on theatrical releases without major job losses. Hollywood reacts with concerns over industry consolidation.",
-      "url": "https://www.hollywoodreporter.com/dailyedition/03-03-2026/1236520260",
-      "source": "The Hollywood Reporter",
+      "title": "US Supreme Court Declines to Consider Whether AI Alone Can Create Copyrighted Works",
+      "summary": "The U.S. Supreme Court has declined to review a case determining if works generated solely by AI without human authorship qualify for copyright protection. This leaves in place a federal appeals court ruling denying registration for an AI-created image. The decision impacts ongoing debates in publishing over AI-generated books and content ownership.",
+      "url": "https://www.morganlewis.com/pubs/2026/03/us-supreme-court-declines-to-consider-whether-ai-alone-can-create-copyrighted-works",
+      "source": "Morgan Lewis",
       "tags": [
-        "Warner Bros",
-        "merger",
-        "streaming",
-        "Hollywood business"
+        "AI",
+        "copyright",
+        "publishing",
+        "legal"
       ],
       "x_urls": [],
-      "id": "30cdaf182e748ea2",
-      "section": "popculture",
+      "id": "6f243aadae627795",
+      "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:02:19Z"
+      "timestamp": "2026-03-09T19:02:31Z"
     },
     {
-      "title": "Backlash Against Timoth\u00e9e Chalamet Over Dismissive Opera and Ballet Comments",
-      "summary": "Timoth\u00e9e Chalamet faced criticism from opera and ballet communities after calling those art forms outdated due to short attention spans in a resurfaced interview. Institutions like the Metropolitan Opera and Royal Ballet pushed back, highlighting their ongoing popularity. The controversy emerged during his Oscar campaign for Marty Supreme, slightly impacting his Best Actor odds.",
-      "url": "https://www.newsweek.com/entertainment/backlash-timothee-chalamet-explained-what-means-oscar-buzz-11643621",
-      "source": "Newsweek",
-      "tags": [
-        "Timoth\u00e9e Chalamet",
-        "backlash",
-        "Oscars",
-        "entertainment controversy"
-      ],
-      "x_urls": [],
-      "id": "d910e2367a6ec143",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-09T19:02:19Z"
-    },
-    {
-      "title": "Taye Diggs Faces Backlash from Black Community Over Provocative Outfit",
-      "summary": "Actor Taye Diggs drew criticism after being spotted in a revealing outfit, sparking backlash from parts of the Black community on social media. Reactions included accusations of humiliation rituals and cross-dressing, with some linking it to Hollywood pressures. The incident fueled discussions on industry expectations for Black actors.",
-      "url": "https://www.zerohedge.com/political/hollywood-celebrities-flee-us-woke-movie-industry-implodes",
-      "source": "X (Dom Lucre)",
-      "tags": [
-        "Taye Diggs",
-        "backlash",
-        "Hollywood",
-        "outfit controversy"
-      ],
-      "x_urls": [
-        "https://x.com/dom_lucre/status/2027585896304853490"
-      ],
-      "id": "4cf86378a19ec635",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-09T19:02:19Z"
-    },
-    {
-      "title": "Hollywood Celebrities Flee US Amid Woke Movie Industry Decline",
-      "summary": "Numerous celebrities including George Clooney, Ellen DeGeneres, and James Cameron are relocating abroad, citing Hollywood's toxic culture and rejection of woke content by audiences. The exodus coincides with box office failures of ideologically driven films. Industry implosion is attributed to public pushback against leftist agendas in entertainment.",
+      "title": "Hollywood Celebrities Flee the US as Woke Movie Industry Implodes",
+      "summary": "Reports highlight celebrities like George Clooney, Ellen DeGeneres, and others relocating abroad, officially citing US political shifts but attributed by critics to audience rejection of woke content crippling box office performance. The industry faces ongoing woes from prioritizing ideology over storytelling. A viral story of a liberal fleeing to Canada underscores the exodus narrative.",
       "url": "https://www.zerohedge.com/political/hollywood-celebrities-flee-us-woke-movie-industry-implodes",
       "source": "ZeroHedge",
       "tags": [
-        "Hollywood exodus",
-        "woke backlash",
-        "celebrities"
+        "Hollywood",
+        "celebrities",
+        "exodus",
+        "woke",
+        "implosion"
       ],
       "x_urls": [
-        "https://x.com/MysticVerlon/status/2029339407099011130"
+        "https://x.com/zerohedge/status/2029269423362605430",
+        "https://x.com/MysticVerlon/status/2029339407099011130",
+        "https://x.com/CrackBunnyLives/status/2029363598863036822"
       ],
-      "id": "3956c7c6ab87b9cb",
+      "id": "1a0db06883032888",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:02:19Z"
+      "timestamp": "2026-03-09T19:03:24Z"
     },
     {
-      "title": "Peaky Blinders Movie Hits Streaming with Cillian Murphy Return",
-      "summary": "The Peaky Blinders feature film The Immortal Man, starring Cillian Murphy as Tommy Shelby, arrives on Netflix March 20. Returning cast includes Barry Keoghan, Stephen Graham, continuing the gang's story post-series. It's highlighted among top March streaming releases alongside Wicked sequel.",
-      "url": "https://variety.com/lists/best-movies-streaming-march-2026",
-      "source": "Variety",
+      "title": "Disney Pixar Removes 'Woke' Content After Fan Protests",
+      "summary": "Disney has excised certain elements from an upcoming Pixar film following backlash over perceived woke messaging, particularly environmental themes. The change reflects persistent criticism of the studio's social issue integrations. This adjustment aims to address audience concerns amid broader industry shifts.",
+      "url": "https://insidethemagic.net/2026/03/new-disney-pixar-removes-woke-content-after-recent-protests-ab1",
+      "source": "Inside the Magic",
       "tags": [
-        "Peaky Blinders",
-        "streaming",
-        "Cillian Murphy"
+        "Disney",
+        "Pixar",
+        "woke",
+        "protests",
+        "editing"
       ],
       "x_urls": [],
-      "id": "eb1fc6ddeb089008",
+      "id": "ecf940f0d3b1eba3",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:02:19Z"
+      "timestamp": "2026-03-09T19:03:24Z"
     },
     {
-      "title": "Why LinkedIn Created an All-In-One AI Tool for Small Businesses",
-      "summary": "LinkedIn's Premium All-In-One is an AI-powered tool designed for small businesses, offering a unified dashboard to manage sales, marketing, and hiring by writing messages, crafting social media posts, and suggesting prospects in desired industries and locations. It provides daily recommendations for profile improvements, client outreach, and actions to grow the business, saving users five to seven hours a week through prospect suggestions. Benefits for SMBs include streamlined operations, reduced complexity from multiple tools, and enhanced efficiency with features like monthly $50 advertising and hiring credits.",
-      "url": "https://www.uschamber.com/co/good-company/the-leap/linkedin-premium-all-in-one-smb",
-      "source": "U.S. Chamber of Commerce",
+      "title": "Billie Eilish Issues Response Amid Ongoing Backlash",
+      "summary": "Billie Eilish responded defiantly to criticism following her controversial comments, weeks after her brother Finneas addressed similar issues. The backlash ties to prior statements on social topics drawing audience ire. Her stance highlights tensions between artists and public reactions.",
+      "url": "https://www.youtube.com/watch?v=S97G0EZaJRM",
+      "source": "YouTube",
       "tags": [
-        "AI tool",
-        "small business",
-        "LinkedIn",
-        "productivity"
+        "Billie Eilish",
+        "backlash",
+        "response",
+        "controversy"
       ],
-      "x_urls": [
-        "https://x.com/growwithco/status/2031051143954968897"
-      ],
-      "id": "9b3ed30561d290d7",
-      "section": "business",
+      "x_urls": [],
+      "id": "36ae44b7c541777b",
+      "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:02:55Z"
+      "timestamp": "2026-03-09T19:03:24Z"
     },
     {
-      "title": "Intuit Launches AI-Powered ERP Solution Tailored For Construction Industry",
-      "summary": "Intuit has launched a new Construction Edition for its Intuit Enterprise Suite, an AI-native ERP solution designed for mid-market construction companies to integrate project, financial, and operational workflows. It features AI-powered processes and industry-specific tools such as cost proposals, invoicing, and budgeting. This offering provides a scalable path for construction businesses growing out of QuickBooks, simplifying the transition to a more comprehensive system.",
-      "url": "https://www.forbes.com/sites/quickerbettertech/2026/03/07/small-business-technology-news-intuit-launches-ai-powered-erp-solution-tailored-for-construction-industry",
-      "source": "Forbes",
+      "title": "March 2026 Pop Culture Releases Generate Buzz",
+      "summary": "March 2026 features high-profile entertainment drops including Ryan Gosling's space adventure and Daredevil's comeback across movies, TV, and games. Fans anticipate a packed month of content from major platforms. These releases mark key moments in the pop culture calendar.",
+      "url": "https://www.plataformamedia.com/en/2026/03/06/pop-culture-releases-in-march-2026-movies-tv-shows-video-games",
+      "source": "Plataforma Media",
       "tags": [
-        "AI ERP",
-        "construction",
-        "Intuit",
+        "releases",
+        "movies",
+        "TV",
+        "games",
+        "pop culture"
+      ],
+      "x_urls": [],
+      "id": "3b281c5291c294e6",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-09T19:03:24Z"
+    },
+    {
+      "title": "Top Entertainment Stories for March 8, 2026",
+      "summary": "A roundup of the day's top entertainment headlines covers celebrity updates, Hollywood news, and global celeb buzz. Key stories include ongoing industry shifts and new announcements. The video format provides quick insights into recent developments.",
+      "url": "https://www.youtube.com/watch?v=-508VDj4LTI",
+      "source": "YouTube - Celebrity Update",
+      "tags": [
+        "entertainment",
+        "news",
+        "top stories",
+        "celebrities"
+      ],
+      "x_urls": [],
+      "id": "512d4ff7923f9c3c",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-09T19:03:24Z"
+    },
+    {
+      "title": "SurveyMonkey Unveils New AI Tools Hub",
+      "summary": "SurveyMonkey has launched a free AI-powered tools hub that enables marketers to instantly generate professional survey drafts from simple prompts in as little as 30 seconds, leveraging over 25 years of survey methodology and billions of historical responses. The hub also includes interactive calculators for metrics like NPS, CSAT, and sample size, along with 400 expert templates. This helps small businesses validate assumptions and strengthen decision-making without requiring an account.",
+      "url": "https://www.demandgenreport.com/industry-news/news-brief/surveymonkey-unveils-new-ai-tools-hub/51944",
+      "source": "Demand Gen Report",
+      "tags": [
+        "AI tools",
+        "surveys",
+        "marketing",
         "small business"
       ],
       "x_urls": [],
-      "id": "c908449600f6c6b8",
+      "id": "dc92cd4f340cefc0",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:02:55Z"
+      "timestamp": "2026-03-09T19:04:03Z"
     },
     {
-      "title": "Harvard Business Review Survey Finds SMBs Accelerating AI Adoption",
-      "summary": "The survey reveals that 76% of SMBs expect to increase their use of AI in the next 12 months, while only 19% feel highly prepared to recruit or develop necessary AI skills, highlighting a significant capability gap. Additionally, 56% anticipate that AI will require different employee training methods, 49% expect changes in existing roles, and 79% agree that AI is driving the need to upskill current talent. Key impacts include a focus on human-AI collaboration, with 70% noting the demand for human capabilities like creativity and emotional intelligence alongside AI tool proficiency.",
-      "url": "https://www.prnewswire.com/news-releases/harvard-business-review-analytic-services-survey-sponsored-by-trinet-finds-smbs-accelerating-ai-adoption-and-embracing-new-opportunities-for-workforce-skill-development-302707555.html",
-      "source": "PR Newswire",
+      "title": "A married founder duo\u2019s company, 14.ai, is replacing customer support teams at startups",
+      "summary": "14.ai, a Y Combinator-backed startup founded by a married duo, operates as an AI-native customer support agency that replaces traditional customer support teams at startups by integrating with support systems and clearing ticket backlogs across channels. The company combines software and services to automate tasks, reduce human labor costs, and provide insights for revenue growth. This allows small startups to offload expensive support operations.",
+      "url": "https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups",
+      "source": "TechCrunch",
       "tags": [
-        "AI adoption",
-        "SMB",
-        "survey",
-        "workforce"
+        "AI customer support",
+        "startups",
+        "small business",
+        "automation"
       ],
-      "x_urls": [],
-      "id": "a82ce0ddadf6ef43",
+      "x_urls": [
+        "https://x.com/sorimmelspacher/status/2028948565813322199",
+        "https://x.com/RV_Smirnov/status/2030796214975988166"
+      ],
+      "id": "df81906f701144a3",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:02:55Z"
+      "timestamp": "2026-03-09T19:04:03Z"
     },
     {
-      "title": "No AI Strategy? Your Small Business Loan Could Be At Risk",
-      "summary": "Lenders are increasingly requiring small business loan applicants to disclose their AI strategies, asking how AI might disrupt their operations and demanding details on integration, efficiency gains, data security, and adaptation plans to assess long-term viability. For example, Ray Drew at Truliant Federal Credit rejected a loan to an online trip planning business due to AI's potential to replace its services, while lenders like Jeremy Gilpin at Community Bankshares review AI policies in business plans to ensure oversight and competitiveness. This shift implies heightened scrutiny on knowledge-based industries, where ignoring AI could signal risk or obsolescence.",
-      "url": "https://www.forbes.com/sites/brandonkochkodin/2026/03/06/no-ai-plan-no-loan-small-business-lenders-force-main-street-to-face-the-future",
-      "source": "Forbes",
+      "title": "How 1,000+ customer calls shaped a breakout enterprise AI startup",
+      "summary": "Narada, an enterprise AI startup, developed its solution for automating complex, multistep workflows across enterprise systems by conducting over 1,000 customer calls to understand pain points. This led to a practical AI product that users can interact with like a person, securing multimillion-dollar deals from early clients. It demonstrates real-world impact for growing businesses adopting AI.",
+      "url": "https://techcrunch.com/2026/03/05/how-1000-customer-calls-shaped-a-breakout-enterprise-ai-startup",
+      "source": "TechCrunch",
       "tags": [
-        "AI strategy",
-        "small business loans",
-        "finance",
-        "risk"
+        "enterprise AI",
+        "workflows",
+        "startups",
+        "customer-centric"
       ],
-      "x_urls": [],
-      "id": "d8a912efea87dabb",
+      "x_urls": [
+        "https://x.com/BitDolly/status/2029558934168863174",
+        "https://x.com/loyndsview/status/2029902510744359252"
+      ],
+      "id": "fc4baae1cc928adc",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-09T19:02:55Z"
+      "timestamp": "2026-03-09T19:04:03Z"
+    },
+    {
+      "title": "Dify Raises $30 million Series Pre-A to Power Enterprise-Grade Agentic Workflows",
+      "summary": "Dify raised $30 million in Series Pre-A funding to build and deploy production-grade AI applications and agentic workflows using a visual builder and integrations. It's adopted by enterprises for tasks like customer support automation and invoice auditing. This platform enables small to medium businesses to operationalize AI without heavy engineering.",
+      "url": "https://venturebeat.com/business/dify-raises-30-million-series-pre-a-to-power-enterprise-grade-agentic-workflows",
+      "source": "VentureBeat",
+      "tags": [
+        "AI agents",
+        "funding",
+        "workflows",
+        "platform"
+      ],
+      "x_urls": [
+        "https://x.com/aweoss/status/2030349265919173115",
+        "https://x.com/raisingfi/status/2031059081721524523"
+      ],
+      "id": "af500a6a479e4410",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-09T19:04:03Z"
+    },
+    {
+      "title": "Microsoft says ungoverned AI agents could become corporate 'double agents.' Its fix costs $99 a month.",
+      "summary": "Microsoft launched Agent 365 and Microsoft 365 Enterprise E7 to govern and secure enterprise AI agents, addressing risks of ungoverned agents being exploited. Agent 365 provides centralized control for observability and security at $15 per user per month. This platform move helps businesses safely deploy AI agents.",
+      "url": "https://venturebeat.com/technology/microsoft-says-ungoverned-ai-agents-could-become-corporate-double-agents-its",
+      "source": "VentureBeat",
+      "tags": [
+        "Microsoft AI",
+        "enterprise tools",
+        "governance",
+        "platform"
+      ],
+      "x_urls": [
+        "https://x.com/algorithmchurch/status/2031036623836643687"
+      ],
+      "id": "6e5820188c1d98c1",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-09T19:04:03Z"
+    },
+    {
+      "title": "Rethinking startup engineering: From heavy teams to market-ready MVPs in weeks with AI",
+      "summary": "AI tools are enabling startups to build market-ready MVPs in weeks with smaller teams by automating coding and coordination. This reduces risks and allows focus on customer acquisition. It impacts small businesses by lowering development barriers and speeding up validation.",
+      "url": "https://venturebeat.com/business/rethinking-startup-engineering-from-heavy-teams-to-market-ready-mvps-in",
+      "source": "VentureBeat",
+      "tags": [
+        "AI development",
+        "startups",
+        "MVPs",
+        "small business"
+      ],
+      "x_urls": [
+        "https://x.com/tightspreadz/status/2028558755391258861"
+      ],
+      "id": "dacd7881d5fb9af6",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-09T19:04:03Z"
     }
   ]
 }
