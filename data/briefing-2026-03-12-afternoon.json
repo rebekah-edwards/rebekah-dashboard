@@ -1,381 +1,431 @@
 {
   "date": "2026-03-12",
   "period": "afternoon",
-  "generated": "2026-03-12T19:03:12Z",
+  "generated": "2026-03-12T23:28:55Z",
   "items": [
     {
-      "title": "Defensive SEO: How to protect your brand narrative in AI search",
-      "summary": "Defensive SEO focuses on shaping brand perception in AI-powered search by monitoring and influencing how AI tools summarize brands, especially for evaluation queries like \u201cIs [BRAND] worth it?\u201d It involves proactive narrative management through AI visibility audits, updating source material, and addressing evaluation content to reduce ambiguity and reinforce accurate positioning. This shift addresses AI's compression of complex stories, reliance on third-party signals, and amplification of existing narratives, making narrative ownership essential in the new search landscape.",
-      "url": "https://searchengineland.com/defensive-seo-protect-brand-narrative-ai-search-471422",
-      "source": "Search Engine Land",
-      "tags": [
-        "Defensive SEO",
-        "AI search",
-        "Brand narrative",
-        "Evaluation queries",
-        "Narrative ownership"
-      ],
-      "x_urls": [],
-      "id": "c51ccd4fbddd7211",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-12T19:00:48Z"
-    },
-    {
-      "title": "AI citation data shows there is no universal top source for brands",
-      "summary": "AI citation patterns vary significantly by platform, industry, and intent, with no single top source like Reddit applying universally\u2014Reddit grew 73% in citations overall but showed dramatic differences across categories and platforms. Google's AI surfaces, including AI Overviews, Gemini, and AI Mode, cite social media and web sources differently, with divergences like Reddit at 44% for AI Overviews versus 5% for Gemini. This emphasizes the need for category-specific strategies in AI search amid shifts like Amazon blocking AI crawlers.",
-      "url": "https://searchengineland.com/ai-citation-data-no-universal-top-source-brands-471285",
-      "source": "Search Engine Land",
-      "tags": [
-        "AI citations",
-        "Reddit growth",
-        "Google AI surfaces",
-        "platform variance",
-        "category-specific strategies"
-      ],
-      "x_urls": [],
-      "id": "16a6f695e06a4170",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-12T19:00:48Z"
-    },
-    {
-      "title": "Organic search is fundamentally disrupted. Here's what to do about it.",
-      "summary": "Organic search is disrupted by rising AI Overviews and LLM usage, leading to zero-click searches (over 65%) and traffic declines, with content often cited without clicks. To adapt, focus on AEO by optimizing for citations through E-E-A-T, structured content with Q&A formats, human-written quality over AI-generated volume, recency, and objective language, while building external mentions. Measure success with metrics like citations, brand mentions, share of voice, sentiment, and AI-influenced traffic.",
-      "url": "https://searchengineland.com/organic-search-is-fundamentally-disrupted-heres-what-to-do-about-it-470816",
-      "source": "Search Engine Land",
+      "title": "Is AEO/GEO different than SEO? Insights from AI platforms",
+      "summary": "Glenn Gabe examines whether traditional SEO practices cover Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) by compiling statements from leaders at Google (Jeff Dean, Danny Sullivan, John Mueller, Nick Fox), Microsoft (Krishna Madhavan), and Perplexity (Jesse Dwyer). The post highlights evolving guidance on optimizing for AI search and promises updates with more direct sources. This underscores the need for SEOs to adapt beyond classic strategies.",
+      "url": "https://x.com/glenngabe/status/2030297247817027815",
+      "source": "@glenngabe",
+      "source_type": "x",
       "tags": [
         "AEO",
-        "AI search",
-        "organic traffic decline",
-        "content optimization",
-        "E-E-A-T"
+        "GEO",
+        "SEO",
+        "AI Search",
+        "Google"
       ],
       "x_urls": [
-        "https://x.com/itechseo/status/2031644000667709682"
+        "https://x.com/glenngabe/status/2030297247817027815"
       ],
-      "id": "1b0c2b18f67c82e7",
+      "id": "7ceb4102782e73a1",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:00:48Z"
+      "timestamp": "2026-03-12T23:25:34Z"
     },
     {
-      "title": "AIO Citations Diverge From Rankings, Bing Rewrites Rules \u2013 SEO Pulse",
-      "summary": "AI Overview citations from top-ranking pages dropped from 76% to 38% overlap with Google's top 10, as AI Overviews trigger on 48% of searches with YouTube most cited. Bing updated guidelines with NOARCHIVE for AI control and expanded abuse definitions, while Google removed outdated JS advice. Optimize for AI visibility beyond traditional rankings.",
-      "url": "https://www.searchenginejournal.com/seo-pulse-aio-citations-diverge-from-rankings-bing-rewrites-rules/568881",
-      "source": "Search Engine Journal",
+      "title": "Latest AI SEO stats to steer your 2026 strategy",
+      "summary": "Semrush provides critical data on how AI platforms are eroding organic traffic and altering search behaviors, urging SEOs to track shifts quantitatively. The post links to a blog with the freshest statistics for planning ahead in 2026. This is essential for content marketers navigating AI-driven changes.",
+      "url": "https://x.com/semrush/status/2029935252001439882",
+      "source": "@semrush",
+      "source_type": "x",
+      "tags": [
+        "AI SEO",
+        "statistics",
+        "organic traffic",
+        "content marketing"
+      ],
+      "x_urls": [
+        "https://x.com/semrush/status/2029935252001439882"
+      ],
+      "id": "492f6658d0854e23",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-12T23:25:34Z"
+    },
+    {
+      "title": "Open-source geo-seo-claude tool optimizes websites for AI search engines",
+      "summary": "A new 100% open-source tool called geo-seo-claude performs full GEO audits using parallel subagents for sites targeting AI engines like ChatGPT, Perplexity, and Claude. It delivers 60-second visibility snapshots, analyzes structured schema for LLMs, and generates PDF reports. This trending tool addresses the rise of AI search optimization needs.",
+      "url": "https://x.com/simplifyinAI/status/2031050007957184934",
+      "source": "@simplifyinAI",
+      "source_type": "x",
+      "tags": [
+        "SEO tool",
+        "GEO",
+        "AI search",
+        "open source"
+      ],
+      "x_urls": [
+        "https://x.com/simplifyinAI/status/2031050007957184934"
+      ],
+      "id": "34572339d729527a",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-12T23:25:34Z"
+    },
+    {
+      "title": "Google AI Overviews cut search clicks 42%: Report",
+      "summary": "Google\u2019s AI Overviews are reducing organic search clicks by 42% for publishers, particularly impacting evergreen and informational content, while creating opportunities in breaking news and Google Discover for content marketing strategies. Breaking news traffic surged 103% from November 2024 through early 2026, with Discover clicks growing 30% and becoming a key growth engine as web search traffic declined. This shift emphasizes the need for real-time content optimization to leverage AI-resistant channels like news distribution.",
+      "url": "https://searchengineland.com/google-ai-overviews-cut-search-clicks-report-471497",
+      "source": "Search Engine Land",
+      "source_type": "news",
       "tags": [
         "AI Overviews",
-        "SEO rankings",
-        "Bing guidelines",
-        "Google updates",
-        "AEO divergence"
+        "Search Traffic Decline",
+        "Breaking News",
+        "Google Discover",
+        "Content Marketing",
+        "SEO Impacts"
       ],
-      "x_urls": [
-        "https://x.com/pistakkiomktg/status/2029968068697317554"
-      ],
-      "id": "fc52ed093f83548d",
+      "x_urls": [],
+      "id": "626cdf24a8c713d1",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:00:48Z"
+      "timestamp": "2026-03-12T23:25:34Z"
     },
     {
-      "title": "3 AI Search Changes Every Marketer Needs A Plan For In Q2",
-      "summary": "AI search shifts from visibility to measurement and budgeting, with ads appearing in AI answers impacting discovery, clicks, and conversions. Q1 data highlights changes across platforms, urging plans for KPIs and strategy from Forrester research. Free event covers AI search implications for marketers.",
-      "url": "https://www.searchenginejournal.com/3-ai-search-changes-every-marketer-needs-a-plan-for-in-q2/569129",
-      "source": "Search Engine Journal",
+      "title": "Prompt research: The next layer of SEO and GEO strategy",
+      "summary": "Prompt research analyzes questions asked in generative AI systems to understand how content aligns with conversational prompts, reshaping SEO and GEO by focusing on prompt patterns rather than isolated keywords. This approach expands content strategy to cover prompt clusters, including informational, comparative, and transactional queries, ensuring visibility in both traditional search and AI-generated answers. By incorporating prompt engineering, brands can optimize for evolving search behaviors that blend ranked results with conversational interactions.",
+      "url": "https://searchengineland.com/prompt-research-seo-geo-strategy-471399",
+      "source": "Search Engine Land",
+      "source_type": "news",
       "tags": [
+        "prompt research",
+        "SEO",
+        "GEO",
+        "prompt engineering",
         "AI search",
-        "ads in AI",
-        "measurement",
-        "Q2 planning",
         "content strategy"
       ],
       "x_urls": [],
-      "id": "5b4be80b8fef51ad",
+      "id": "ddd7daebba456b61",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:00:48Z"
+      "timestamp": "2026-03-12T23:25:34Z"
     },
     {
-      "title": "Self-publish and be scammed: Jon\u2019s tale of heartbreak highlights boom in fraudsters using AI to supercharge book swindles",
-      "summary": "The article details how AI has fueled a surge in publishing scams targeting self-published authors, with fraudsters using automated tools to send personalized solicitations promising bestseller status, marketing, and film deals in exchange for upfront fees. Jon Cocks, a self-published author, lost nearly A$10,000 to such schemes involving fake book trailers, reviews, and nonexistent publishing services. These operations, often based in south Asia, the Philippines, and Nigeria, mimic romance scams and exploit the growing number of self-published books.",
-      "url": "https://www.theguardian.com/books/ng-interactive/2026/mar/12/ai-book-scams-publishing-fraud",
-      "source": "The Guardian",
+      "title": "AI assistants now equal 56% of global search engine volume: Study",
+      "summary": "AI tools generate 45 billion monthly sessions worldwide, equaling 56% of global search engine volume and 34% in the U.S., with most activity driven by mobile apps like ChatGPT, Gemini, Perplexity, Grok, and Claude. Total usage across search engines and AI assistants has grown 26% globally since 2023, expanding discovery rather than shrinking search demand. This shift implies that SEO strategies must incorporate both traditional rankings and LLM visibility, as AI platforms account for significant search-like activity.",
+      "url": "https://searchengineland.com/ai-assistants-global-search-engine-volume-study-471118",
+      "source": "Search Engine Land",
+      "source_type": "news",
       "tags": [
-        "AI",
-        "scams",
-        "self-publishing",
-        "fraud"
+        "AI search",
+        "SEO implications",
+        "mobile apps",
+        "LLM visibility",
+        "search volume"
       ],
       "x_urls": [],
-      "id": "39f7a21972e0da5d",
-      "section": "publishing",
+      "id": "9ff0a3761f44b63b",
+      "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:01:49Z"
+      "timestamp": "2026-03-12T23:25:34Z"
     },
     {
-      "title": "Amazon pulls sponsorship from Paris book festival after booksellers\u2019 association boycott",
-      "summary": "Amazon has withdrawn its sponsorship from the Paris book festival, set for 17-19 April, following a boycott by France\u2019s Syndicat de la Librairie Fran\u00e7aise (SLF) over the company\u2019s involvement. The SLF accused Amazon of attempting to flood the market with fake AI-generated books promoted by fake reviews and rankings. Organisers ended the partnership to avoid disruption and ensure a peaceful event.",
-      "url": "https://www.theguardian.com/books/2026/mar/06/amazon-pulls-sponsorship-from-paris-book-festival-after-booksellers-association-boycott",
-      "source": "The Guardian",
+      "title": "Author Blasts Publishing Company for Embracing AI, Calls It Against Writing's Essence",
+      "summary": "Twitter user @wildwithabandon criticizes 7Seas publishing for using AI, stating it cannot coexist with literature as it undermines the core of writing. They demand the company better understand its market. The post received 258 likes on March 2, 2026.",
+      "url": "https://x.com/wildwithabandon/status/2028587994194534426",
+      "source": "@wildwithabandon",
+      "source_type": "x",
       "tags": [
-        "AI",
-        "boycott",
-        "publishing",
-        "Amazon"
-      ],
-      "x_urls": [],
-      "id": "b5b8daa337a3ebb6",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-12T19:01:49Z"
-    },
-    {
-      "title": "UK Society of Authors launches logo to identify books written by humans not AI",
-      "summary": "The UK Society of Authors has introduced a registration scheme allowing authors to certify their books as human-authored and display a 'Human Authored' logo on covers, addressing the challenge of distinguishing human-written works from AI-generated ones in a flooded market. This initiative, launched by Tracy Chevalier at the London Book Fair, mirrors a similar US program by the Authors Guild and responds to the lack of government mandates for AI content labeling. It emphasizes protecting authors' creativity amid concerns over AI trained on copyrighted material without compensation.",
-      "url": "https://www.theguardian.com/technology/2026/mar/10/uk-society-authors-logo-identify-books-written-by-humans-not-ai",
-      "source": "The Guardian",
-      "tags": [
-        "AI",
-        "human-authored",
-        "Society of Authors",
+        "AI controversy",
         "publishing"
       ],
       "x_urls": [],
-      "id": "76e73fc974147e07",
+      "id": "1ecb8e27e1484dff",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:01:49Z"
+      "timestamp": "2026-03-12T23:26:41Z"
     },
     {
-      "title": "Official BookTok chart set to launch in the UK",
-      "summary": "An official BookTok chart is set to launch in the UK later this year, providing a monthly Top 20 ranking that combines retail sales data with TikTok social media engagement to identify popular titles. The chart will be compiled by NielsenIQ BookData in partnership with Media Control, using an algorithm weighted towards sales volume. BookTok has become a key driver in publishing, boosting sales of genres like romance, fantasy, and romantasy.",
-      "url": "https://www.theguardian.com/books/2026/mar/12/official-booktok-chart-set-to-launch-in-the-uk",
-      "source": "The Guardian",
+      "title": "BookTok Blamed for Flood of Unedited, Low-Quality Books Skipping Traditional Editing",
+      "summary": "User @nutriculum holds BookTok responsible for poor-quality books bypassing editing, noting traditional publishers would reject such work. They call skipping editors criminal and revealing of priorities. Posted March 7, 2026, in a publishing discussion.",
+      "url": "https://x.com/nutriculum/status/2030393825185653231",
+      "source": "@nutriculum",
+      "source_type": "x",
       "tags": [
         "BookTok",
-        "chart",
-        "publishing",
-        "sales"
+        "editing controversy"
       ],
       "x_urls": [],
-      "id": "cda65dfe87bcf8e2",
+      "id": "85771ce4b4ae6764",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:01:49Z"
+      "timestamp": "2026-03-12T23:26:41Z"
     },
     {
-      "title": "AWP 2026 Takes On AI",
-      "summary": "The Association of Writers & Writing Programs (AWP) Conference and Bookfair in Baltimore from March 4\u20137, 2026, featured multiple panels addressing the impacts of generative AI on literature and publishing, emphasizing that writing remains a human expression and that AI lacks the ability to generate meaning, truth, or nuance. Panelists discussed AI's practical uses for tasks like manuscript organization while cautioning against its use in writing due to ethical concerns such as training on stolen books and its carbon footprint. The event underscored a strong demand for human connection in publishing amid AI discussions.",
-      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/99902-awp-2026-takes-on-ai.html",
-      "source": "Publishers Weekly",
+      "title": "Children's Author Celebrates Signing Fourth and Biggest Book Deal at Age 40",
+      "summary": "Blair N. Williamson announces her fourth and largest book deal at 40, inspiring others that age is no barrier to dreams in publishing. Shared with motivational hashtags like #noexcuses and #writingcommunity. Post from March 2, 2026, with 134 likes.",
+      "url": "https://x.com/theislandwriter/status/2028424718454227123",
+      "source": "@theislandwriter",
+      "source_type": "x",
+      "tags": [
+        "major contract",
+        "publishing"
+      ],
+      "x_urls": [],
+      "id": "d554617b4076dc2a",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-12T23:26:41Z"
+    },
+    {
+      "title": "Thousands of Authors Publish 'Empty' Book to Protest AI Firms Using Their Work Without Permission",
+      "summary": "On March 10, 2026, authors like Kazuo Ishiguro, Philippa Gregory, and Richard Osman released a blank book 'Don\u2019t Steal This Book' listing contributors to protest AI training on their works. Organized by Ed Newton-Rex, it pressures the UK government ahead of a copyright review on March 18. The action highlights AI's threat to creators' livelihoods.",
+      "url": "https://www.theguardian.com/technology/2026/mar/10/thousands-authors-publish-empty-book-protest-ai-work-copyright",
+      "source": "The Guardian",
+      "source_type": "news",
+      "tags": [
+        "AI controversy",
+        "publishing",
+        "copyright"
+      ],
+      "x_urls": [],
+      "id": "adfa6fd8315ffe5e",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-12T23:26:41Z"
+    },
+    {
+      "title": "Draft2Digital Rejects Up to 75% of Submissions Due to AI-Generated Nonfiction Flood",
+      "summary": "Draft2Digital CEO Kris Austin explains blocking dozens of nonfiction categories like health and business due to low-quality, often dangerous AI books clogging pipelines. Rejections hit 40-75%, slowing legit authors, while AI fiction fails to engage readers lacking human elements. Reported March 10, 2026.",
+      "url": "https://selfpub.substack.com/p/draft2digital-explains-the-ai-flood",
+      "source": "SelfPub Substack",
+      "source_type": "news",
       "tags": [
         "AI",
-        "conference",
-        "publishing",
-        "writing"
+        "self-publishing",
+        "nonfiction"
       ],
       "x_urls": [],
-      "id": "f6d342ab479a9d2c",
+      "id": "c07dd60b9b6e0a0e",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:01:49Z"
+      "timestamp": "2026-03-12T23:26:41Z"
     },
     {
-      "title": "I asked Kat Rosenfield about her new book and The Free Press | Opinion",
-      "summary": "Kat Rosenfield, a novelist and culture writer at The Free Press cofounded by Bari Weiss, discusses her new thriller novel 'How to Survive in the Woods' and how her fiction and nonfiction writing intersect in exploring cultural questions like fairness and loyalty. She reflects on her freelance role at The Free Press, emphasizing its role in addressing gaps in the media landscape, and promotes her book tour drawing from her prior experience as a publicist in publishing. Rosenfield critiques the erosion of political labels into tribal signifiers, advocating for skepticism to maintain shared truth in storytelling.",
-      "url": "https://www.usatoday.com/story/opinion/columnist/2026/03/10/kat-rosenfield-how-to-survive-in-woods/88825537007",
-      "source": "USA TODAY",
+      "title": "Local Author Gemma Denham Signs Second Book Deal with Publisher",
+      "summary": "Gemma Denham celebrates securing her second book deal, shared by CahillDavisPublishing on March 7, 2026. This milestone highlights ongoing success in traditional publishing paths. The story appeared on MSN entertainment news.",
+      "url": "https://www.msn.com/en-gb/entertainment/general/local-author-gemma-denham-celebrates-signing-a-second-book-deal/ar-AA1K0Gaq",
+      "source": "MSN",
+      "source_type": "news",
       "tags": [
-        "author",
-        "conservative",
-        "publishing",
-        "storytelling"
+        "major contract",
+        "publishing"
       ],
       "x_urls": [
-        "https://x.com/Ingrid_Jacques"
+        "https://x.com/PublishingDavis/status/2030237123987607939"
       ],
-      "id": "7260505dbb1f7ef5",
+      "id": "cdc41d2df3f43f6a",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:01:49Z"
+      "timestamp": "2026-03-12T23:26:41Z"
     },
     {
-      "title": "Disney Star Rachel Zegler Refuses to 'Assimilate' After 'Snow White' Backlash",
-      "summary": "Rachel Zegler responded to backlash over her casting in Disney's live-action Snow White remake and her controversial posts by stating she refuses to assimilate for others' comfort and has faced threats to her safety. The film, released in 2025, reportedly lost Disney about $170 million at the box office amid criticism labeled as 'woke.' She emphasized her commitment to her beliefs in a Harper\u2019s Bazaar UK interview published March 10, 2026.",
-      "url": "https://www.foxnews.com/media/disney-star-rachel-zegler-refuses-assimilate-after-snow-white-backlash",
-      "source": "Fox News",
-      "tags": [
-        "Rachel Zegler",
-        "Snow White",
-        "Disney",
-        "backlash"
-      ],
-      "x_urls": [
-        "https://x.com/Life_and_Style/status/2032154965259534732",
-        "https://x.com/ComicBook_Movie/status/2032147106316656757",
-        "https://x.com/popculture_show/status/2032094465423249881"
-      ],
-      "id": "b0465aea28faa161",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-12T19:02:32Z"
-    },
-    {
-      "title": "Woke \u2018The Bride!\u2019 Bombs at Box Office, Crushed by Disney's \u2018Hoppers\u2019",
-      "summary": "'The Bride!' earned $7.26 million in its opening weekend across 3,304 theaters on March 9, 2026, falling short of $16-18 million projections. Disney/Pixar's 'Hoppers' grossed $46 million in its opening weekend, while 'Scream 7' earned $17.3 million in its second weekend. The underperformance is attributed to audience preferences amid industry trends.",
+      "title": "Woke \u2018The Bride!\u2019 Bombs at Box Office: Crushed by \u2018Hoppers\u2019 and Even \u2018Scream 7\u2019",
+      "summary": "Warner Bros.' 'The Bride!', a feminist reimagining of the Bride of Frankenstein featuring themes of male oppression, non-consent, and a 'Me Too'-inspired revolution, opened to just $7.26 million across 3,304 theaters, missing projections of $16-18 million. It was outperformed by Disney/Pixar's family film 'Hoppers' ($46 million) and 'Scream 7's second weekend ($17.3 million), earning a 'C+' CinemaScore amid criticism of its heavy-handed messaging. Despite a $90 million budget and stars like Christian Bale, the film suffered from poor reviews and weak audience turnout.",
       "url": "https://www.newsbusters.org/blogs/cnsnews/craig-bannister/2026/03/09/woke-bride-bombs-box-office-crushed-hoppers-and-even",
       "source": "NewsBusters",
+      "source_type": "news",
       "tags": [
-        "The Bride",
-        "Hoppers",
-        "box office",
-        "Disney"
+        "film",
+        "box-office-flop",
+        "woke",
+        "feminist",
+        "Warner-Bros"
       ],
       "x_urls": [
         "https://x.com/Mullin1T/status/2031089865329357192"
       ],
-      "id": "b4fcaba5aba20e8e",
+      "id": "0aadac452a8be47c",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:02:32Z"
+      "timestamp": "2026-03-12T23:28:21Z"
     },
     {
-      "title": "Scary Movie 6 Trailer Sparks Backlash Over Pronoun Joke",
-      "summary": "The Scary Movie 6 trailer released on March 2, 2026, features a joke where a bleeding character corrects 'My pronouns are they/them. He stabbed 'them'!,' prompting online backlash from some viewers labeling it transphobic. Others defend it as classic parody humor in line with the franchise's style. The controversy highlights divided reactions to gender-related content.",
-      "url": "https://www.themarysue.com/scary-movie-6-trailer-pronouns-gender-controversy-explained",
-      "source": "The Mary Sue",
+      "title": "British Television Journalists of Color Report Backlash Over DEI Initiatives",
+      "summary": "Journalists of color in British television have shared experiences of resentment and backlash from white colleagues due to perceived advantages from diversity, equity, and inclusion efforts following the 2020 Black Lives Matter movement. The revelations highlight internal tensions within the industry over DEI policies. This comes amid broader discussions on the impact of such initiatives in entertainment.",
+      "url": "https://deadline.com/2026/03/british-tv-journalists-of-color-bemoan-dei-backlash-1236743396/",
+      "source": "Deadline",
+      "source_type": "news",
       "tags": [
-        "Scary Movie 6",
-        "pronoun joke",
-        "trailer",
-        "backlash"
-      ],
-      "x_urls": [],
-      "id": "de70c00d34328abc",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-12T19:02:32Z"
-    },
-    {
-      "title": "'Sinners' Wins Top Prize at 2026 Actor Awards",
-      "summary": "'Sinners,' a vampire film set in the segregated South directed by Ryan Coogler, won the top ensemble prize at the 2026 Actor Awards on March 1, 2026. Michael B. Jordan received Best Male Actor for his dual role. The film triumphed over Oscar nominees like 'One Battle After Another.'",
-      "url": "https://variety.com/2026/film/awards/sag-actor-awards-winners-sinners-studio-pitt-1236672938",
-      "source": "Variety",
-      "tags": [
-        "Sinners",
-        "Actor Awards",
-        "Michael B. Jordan",
-        "Ryan Coogler"
-      ],
-      "x_urls": [],
-      "id": "aa0566214d003755",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-12T19:02:32Z"
-    },
-    {
-      "title": "Pixar's 'Hoppers' Leads March 2026 Box Office with Strong Opening",
-      "summary": "Pixar's 'Hoppers' grossed $46 million in its opening weekend as of March 9, 2026, topping charts amid new releases. The film is highlighted alongside other March titles like Ryan Gosling's 'Project Hail Mary' and 'Youngblood.' It outperforms competitors in a busy release month.",
-      "url": "https://theweek.com/culture-life/film/march-2026-movies-tow-project-hail-mary-hoppers-youngblood-undertone",
-      "source": "The Week",
-      "tags": [
-        "Hoppers",
-        "Pixar",
-        "box office",
-        "movies"
-      ],
-      "x_urls": [],
-      "id": "b23aa0e905512bb5",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-12T19:02:32Z"
-    },
-    {
-      "title": "AI Readiness Report: SMB AI Optimism Outpaces Adoption",
-      "summary": "SMB leaders exhibit strong optimism toward AI, with over 70 percent holding positive views, but adoption and maturity remain uneven due to gaps in skills and data readiness. AI is primarily focused on data analysis, reporting, content creation, marketing, customer service, and inventory management, yet nearly 40 percent report no measurable results from initiatives. Labor shortages and operational challenges in manufacturing, distribution, and field service industries are accelerating AI urgency, though barriers like lack of in-house expertise and data issues hinder impact on small businesses.",
-      "url": "https://www.ecisolutions.com/news/ai-readiness-report-smb-ai-optimism-outpaces-adoption",
-      "source": "ECI Software Solutions",
-      "tags": [
-        "AI adoption",
-        "SMB",
-        "small business"
+        "DEI",
+        "backlash",
+        "television",
+        "UK",
+        "journalism"
       ],
       "x_urls": [
-        "https://x.com/wilzerjb/status/2029999784900120683"
+        "https://x.com/DEADLINE/status/2029178371477782690"
       ],
-      "id": "083a43400bf69c21",
-      "section": "business",
+      "id": "34e056e74001388b",
+      "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:03:12Z"
+      "timestamp": "2026-03-12T23:28:21Z"
     },
     {
-      "title": "AI adoption for small business marketing ops continues",
-      "summary": "In a challenging economic environment, small- and medium-sized businesses (SMBs) are leveraging artificial intelligence to get a leg up when it comes to marketing operations. More than half (54%) of SMB owners are already using AI marketing tools, according to a new survey from digital marketing tools provider Constant Contact, with nearly half (45%) using AI to analyze trend data and 44% to compose content. Three-quarters (74%) of SMBs surveyed expect to spend more time on marketing this year, and more than two-thirds (68%) plan to increase marketing budgets.",
-      "url": "https://chainstoreage.com/ai-adoption-small-business-marketing-ops-continues",
-      "source": "Chain Store Age",
+      "title": "2026 Oscars: The Success of 'Sinners' Is Not 'Wokeness'",
+      "summary": "As 'Sinners' leads Oscar predictions, including Best Actor for Michael B. Jordan, discussions arise countering claims of 'wokeness' driving its success post-2020 Academy changes aimed at diversity. The film's strong performance is attributed to merit rather than diversity mandates. This narrative challenges perceptions of Oscars favoring ideological content over quality.",
+      "url": "https://www.awardsdaily.com/2026/03/08/2026-oscars-the-success-of-sinners-is-not-wokeness",
+      "source": "Awards Daily",
+      "source_type": "news",
       "tags": [
-        "AI",
+        "Oscars",
+        "Sinners",
+        "woke",
+        "awards",
+        "film"
+      ],
+      "x_urls": [
+        "https://x.com/Variety/status/2031426860202991639"
+      ],
+      "id": "69c14d0d873f41f1",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-12T23:28:21Z"
+    },
+    {
+      "title": "Woke Crusades Persist in Hollywood Over Film Boycott Drama",
+      "summary": "An actress celebrated a film's box office success despite a failed boycott by pro-Palestine activists, leading to backlash that prompted her apology, which was rejected. A 'queer voices' publication highlighted the story but faced criticism from its own audience for not labeling Israel\u2019s actions as 'genocide'. The incident exemplifies ongoing internal conflicts within progressive Hollywood circles.",
+      "url": "https://x.com/guypbenson/status/2028601479813112145",
+      "source": "@guypbenson",
+      "source_type": "x",
+      "tags": [
+        "Hollywood",
+        "boycott",
+        "woke",
+        "Palestine",
+        "queer"
+      ],
+      "x_urls": [
+        "https://x.com/guypbenson/status/2028601479813112145"
+      ],
+      "id": "61742b1e0ee19b5f",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-12T23:28:21Z"
+    },
+    {
+      "title": "Taylor Sheridan\u2019s 'Marshals' Show Starts with Woke Elements",
+      "summary": "The new CBS series 'Marshals' from Taylor Sheridan opens with virtue-signaling to Lakota culture, criticisms of 'America' poisoning tribal water, and a U.S. Marshals team featuring two women alongside men. Viewers note the portrayal of surly family dynamics and female marshals handling high-risk fugitives as unrealistic. Sheridan\u2019s shift draws complaints of female empowerment tropes overriding realism.",
+      "url": "https://x.com/SirBylHolte/status/2028508124055838871",
+      "source": "@SirBylHolte",
+      "source_type": "x",
+      "tags": [
+        "TV",
+        "woke",
+        "Taylor-Sheridan",
+        "CBS",
+        "DEI"
+      ],
+      "x_urls": [
+        "https://x.com/SirBylHolte/status/2028508124055838871"
+      ],
+      "id": "eb9a4866e067ba8d",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-12T23:28:21Z"
+    },
+    {
+      "title": "Netflix Accused of Systematic Propaganda in Content Tropes",
+      "summary": "A viral post lists recurring Netflix tropes including villainous white men, heroic Black men, wise trans characters, mocked traditional masculinity, and dysfunctional nuclear families. It claims Netflix prioritizes social engineering over entertainment with anti-capitalist, pro-climate activism, and interracial pairing emphases. The thread resonates with audiences frustrated by predictable ideological messaging.",
+      "url": "https://x.com/Aku_700/status/2029171660893368504",
+      "source": "@Aku_700",
+      "source_type": "x",
+      "tags": [
+        "Netflix",
+        "propaganda",
+        "woke",
+        "tropes",
+        "streaming"
+      ],
+      "x_urls": [
+        "https://x.com/Aku_700/status/2029171660893368504"
+      ],
+      "id": "21c4e4857093bcbe",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-12T23:28:21Z"
+    },
+    {
+      "title": "Launch Commerce Rebrands from Launch Cart, Unveils AI-Powered Business Platform for Small Businesses",
+      "summary": "Launch Commerce has rebranded from Launch Cart and launched an AI-powered platform tailored for small businesses to streamline operations. The single AI system automates customer follow-ups, improves response times, and captures missed leads, addressing the challenge of juggling multiple disparate tools. This innovation aims to boost efficiency and growth for small business owners.",
+      "url": "https://www.pressconnects.com/press-release/story/38815/launch-commerce-rebrands-from-launch-cart-unveils-ai-powered-business-platform-for-small-businesses",
+      "source": "PressConnects",
+      "source_type": "news",
+      "tags": [
+        "AI platform",
         "small business",
-        "marketing"
+        "automation",
+        "rebrand"
       ],
       "x_urls": [],
-      "id": "e0269af46ccc9eba",
+      "id": "0e5e5834a9f63f2b",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:03:12Z"
+      "timestamp": "2026-03-12T23:28:55Z"
     },
     {
-      "title": "Small Business in the Age of AI: Tools, Tactics and Practical Wins",
-      "summary": "Small businesses adopting AI report saving $500-$2,000 monthly and reclaiming over 20 hours, with 68% of U.S. small businesses now using AI regularly, up from 48% a year ago. Key tools include ChatGPT Plus for content creation and planning at $20/month, Canva Pro for design at $15/month, HubSpot for CRM and automation starting free with paid plans from $45/month, and Notion AI for project management at $10/month per user. AI delivers immediate impact in content marketing by saving 1.2 hours daily per team member, customer service with 80% automation and cost reductions, and personalization that boosts conversion rates up to 30%.",
-      "url": "https://homebusinessmag.com/businesses/ai/small-business-age-ai-tools-tactics-practical-wins",
-      "source": "Home Business Magazine",
+      "title": "VistaPrint Launches Generative AI Logomaker to Simplify Branding for Small Businesses",
+      "summary": "VistaPrint has introduced a new generative AI Logomaker enabling small businesses to create personalized logos in minutes via guided prompts and advanced editing features. Users receive free SVG, PDF, and PNG files, built on VistaPrint's expertise in design and AI. This tool democratizes professional branding, saving time and costs for entrepreneurs.",
+      "url": "https://www.stocktitan.net/news/CMPR/vista-print-launches-new-generative-ai-logomaker-turning-small-vursiobacurk.html",
+      "source": "Stock Titan",
+      "source_type": "news",
       "tags": [
-        "AI tools",
+        "AI logomaker",
+        "branding",
+        "generative AI",
+        "small business"
+      ],
+      "x_urls": [],
+      "id": "ede41bc0dc85383f",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-12T23:28:55Z"
+    },
+    {
+      "title": "Micro Launches Open Beta of AI-Native Workspace Merging CRM and Email for Small Teams",
+      "summary": "Micro announced the open beta of its AI-native workspace that unifies CRM and email into one intelligent system of record. It enriches contacts automatically from emails, calendars, and social activity, transcribes meetings, updates pipelines, and converts emails into tasks seamlessly. Small teams and founders can sign up for free to leverage this for enhanced productivity.",
+      "url": "https://x.com/IndianTechGuide/status/2028890303428808778",
+      "source": "@IndianTechGuide",
+      "source_type": "x",
+      "tags": [
+        "AI workspace",
+        "CRM",
+        "email integration",
+        "small teams",
+        "product launch"
+      ],
+      "x_urls": [
+        "https://x.com/IndianTechGuide/status/2028890303428808778"
+      ],
+      "id": "8fd8b03bb8bf0399",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-12T23:28:55Z"
+    },
+    {
+      "title": "Build Custom AI Tools with Claude to Replace SaaS and Save Costs for Small Brands",
+      "summary": "Ecommerce expert Davie Fogarty explains how small brand owners can use Claude AI to create bespoke tools in one day, ditching expensive SaaS subscriptions. Key builds include competitor social trackers, inventory alerts, margin calculators, review aggregators, creative briefs, and product launch monitors\u2014all without developers via Claude Code. This approach saves thousands monthly while boosting efficiency.",
+      "url": "https://x.com/daviefogarty/status/2028515779830817021",
+      "source": "@daviefogarty",
+      "source_type": "x",
+      "tags": [
+        "Claude AI",
+        "custom AI tools",
+        "SaaS replacement",
+        "ecommerce",
         "small business"
       ],
       "x_urls": [
         "https://x.com/daviefogarty/status/2028515779830817021"
       ],
-      "id": "3788895421a356f6",
+      "id": "949ba6b1ec103843",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-12T19:03:12Z"
-    },
-    {
-      "title": "Small Service Businesses Turn to Custom AI Systems to Streamline Operations and Reduce Manual Work",
-      "summary": "Small and mid-size service businesses, including law firms and transportation companies, are increasingly adopting custom AI systems from firms like Speed Wraith to address industry-specific operational bottlenecks rather than using broad off-the-shelf software. Speed Wraith builds platform-agnostic AI integrations that work with existing tools, as demonstrated in cases where a transportation company automated contracts and proposals to boost closed deals, and a personal injury law firm doubled intake volume with an AI-powered screening system. Co-founder Kenneth Chiba emphasizes that their approach makes AI easy by tailoring solutions to each business's unique workflows and tools.",
-      "url": "https://www.einpresswire.com/article/742345678/small-service-businesses-turn-to-custom-ai-systems-to-streamline-operations-and-reduce-manual-work",
-      "source": "EIN Presswire",
-      "tags": [
-        "custom AI",
-        "small business",
-        "service businesses"
-      ],
-      "x_urls": [
-        "https://x.com/amoryxblaine/status/2030036376113340779"
-      ],
-      "id": "1a7075723e93dca3",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-12T19:03:12Z"
-    },
-    {
-      "title": "Launch Commerce Rebrands from Launch Cart, Unveils AI-Powered Business Platform for Small Businesses",
-      "summary": "Launch Commerce, Inc., formerly Launch Cart, Inc., announced its rebrand and rollout of an AI-powered business platform with seven integrated products for small and mid-sized companies to automate operations, capture leads, and drive revenue. The ecosystem includes Launch AI Workforce for AI receptionist and automation, Launch CRM for customer management, Launch Ads for advertising, Launch Webinars for webinars, Launch Cart for e-commerce, Launch Data for intent-based intelligence, and Launch AI Academy for training. Founded in 2019 in Carlsbad, CA, the company targets service businesses like HVAC and law firms, with the name change effective December 2025.",
-      "url": "https://launchcommerce.ai/",
-      "source": "Launch Commerce",
-      "tags": [
-        "AI platform",
-        "small business",
-        "automation"
-      ],
-      "x_urls": [],
-      "id": "5e806eb442c12d54",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-12T19:03:12Z"
+      "timestamp": "2026-03-12T23:28:55Z"
     }
   ]
 }
