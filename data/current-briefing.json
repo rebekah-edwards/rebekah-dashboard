@@ -1,366 +1,400 @@
 {
   "date": "2026-03-13",
   "period": "afternoon",
-  "generated": "2026-03-13T19:02:56Z",
+  "generated": "2026-03-13T19:03:26Z",
   "items": [
     {
-      "title": "New Open-Source GEO-SEO Tool Revolutionizes AI Search Optimization",
-      "summary": "A groundbreaking open-source tool, GEO-SEO for Claude Code, has emerged to help websites optimize for AI search engines like ChatGPT, Perplexity, and Google AI Overviews. It conducts comprehensive audits, scores AI citation readiness, detects AI crawlers, and generates structured data for better visibility. Ideal for SaaS, agencies, and e-commerce, it highlights the shift from backlinks to AI citations amid 527% YoY growth in AI-referred traffic.",
-      "url": "https://x.com/Suryanshti777/status/2031079200103477564",
-      "source": "Suryansh Tiwari @Suryanshti777",
-      "source_type": "x",
+      "title": "The New SEO: From Rankings To Recommendations In AI Search",
+      "summary": "Marketers are redefining SEO amid the rise of AI search, coining terms like AEO, AI SEO, and GEO. The focus shifts from traditional rankings to being recommended in AI-generated responses. Adaptation requires new strategies to thrive in this evolving landscape.",
+      "url": "https://www.forbes.com/councils/forbesagencycouncil/2026/03/11/the-new-seo-from-rankings-to-recommendations-in-ai-search",
+      "source": "Forbes Agency Council",
+      "source_type": "news",
       "tags": [
-        "SEO tools",
-        "GEO",
-        "AI search changes"
-      ],
-      "x_urls": [
-        "https://x.com/Suryanshti777/status/2031079200103477564"
-      ],
-      "id": "e881824b6f8a5be1",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-13T19:00:32Z"
-    },
-    {
-      "title": "SEO vs AEO vs GEO: Key Differences in the New Search Era",
-      "summary": "SEO expert Josh Nay breaks down traditional SEO for list rankings via keywords and backlinks, AEO for direct AI chatbot answers, and GEO for citations in generative AI summaries like Google AI Overviews. Brands must parallelize all three strategies as search evolves beyond 10 blue links. This 20+ year pro urges updating tactics from 2015 levels.",
-      "url": "https://x.com/joshrobertnay/status/2032003718686916992",
-      "source": "Josh Nay @joshrobertnay",
-      "source_type": "x",
-      "tags": [
+        "SEO",
         "AEO",
         "GEO",
-        "SEO evolution"
+        "AI search"
       ],
-      "x_urls": [
-        "https://x.com/joshrobertnay/status/2032003718686916992"
-      ],
-      "id": "b48fb8d94560092e",
+      "x_urls": [],
+      "id": "c561a6b190fff74c",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:00:32Z"
+      "timestamp": "2026-03-13T19:00:59Z"
     },
     {
-      "title": "SEO Tools Dominate AppSumo Searches, Signaling High Demand",
-      "summary": "Noah Kagan's analysis of 63,410 AppSumo searches in March reveals SEO tools as the top query, ahead of LinkedIn automation and AI video tools. This trend underscores ongoing SEO needs amid Google updates and AI shifts. Founders building tools should target these hot categories for success.",
-      "url": "https://x.com/noahkagan/status/2031893935933604271",
-      "source": "Noah Kagan @noahkagan",
+      "title": "Google Search Console's New AI Update Is a Goldmine for Easy SEO Wins",
+      "summary": "Google Search Console introduces a new AI-powered update offering quick SEO improvements. It provides insights into SEO, GEO, and AEO strategies for 2026. Marketers can leverage it for high-impact optimizations effortlessly.",
+      "url": "https://edwardsturm.com/articles/google-search-console-ai-seo-wins",
+      "source": "Edward Sturm",
+      "source_type": "news",
+      "tags": [
+        "Google",
+        "Search Console",
+        "AI",
+        "SEO",
+        "GEO",
+        "AEO"
+      ],
+      "x_urls": [],
+      "id": "05948f4174740ada",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-13T19:00:59Z"
+    },
+    {
+      "title": "SEO for SaaS just changed overnight: Google's March 2026 Core Update",
+      "summary": "Google's March 2026 Core Update drastically impacts SaaS SEO strategies relying on AI-generated blog content. Sites using 'generate 50 articles with AI and pray for backlinks' are hit hard. Shifts emphasis towards quality and AEO.",
+      "url": "https://www.reddit.com/r/SaaS/comments/1rmky5a/seo_for_saas_just_changed_overnight_googles_march",
+      "source": "r/SaaS",
+      "source_type": "news",
+      "tags": [
+        "Google update",
+        "core update",
+        "SaaS",
+        "SEO",
+        "AEO"
+      ],
+      "x_urls": [],
+      "id": "c0d287522534fcb3",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-13T19:00:59Z"
+    },
+    {
+      "title": "Open-Source geo-seo-claude Tool for AI Search Optimization",
+      "summary": "A groundbreaking open-source tool, geo-seo-claude, optimizes websites for AI search engines like ChatGPT, Perplexity, and Claude. It performs full GEO audits using parallel subagents, analyzes schema markup, and generates PDF reports. Ideal for boosting visibility in AI-driven search.",
+      "url": "https://x.com/simplifyinAI/status/2031050007957184934",
+      "source": "@simplifyinAI",
       "source_type": "x",
       "tags": [
-        "SEO tools",
-        "trending",
-        "content marketing"
+        "SEO tool",
+        "GEO",
+        "AI search",
+        "open source"
       ],
       "x_urls": [
-        "https://x.com/noahkagan/status/2031893935933604271"
+        "https://x.com/simplifyinAI/status/2031050007957184934"
       ],
-      "id": "48c3d43d2669b349",
+      "id": "65c32770ae4dd45f",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:00:32Z"
+      "timestamp": "2026-03-13T19:00:59Z"
     },
     {
-      "title": "Google Discover Core Update Causes Major Reach Losses for Local Publishers",
-      "summary": "Recent data on Google's Discover Core Update shows local publishers suffering significant traffic drops, despite aims to reward quality content. Mid-tier sites were hit hardest, prompting SEOs to review strategies. This aligns with broader shifts in content surfacing.",
-      "url": "https://www.searchenginejournal.com/google-discover-core-update-data-local-publishers-lost-reach/569735",
-      "source": "Search Engine Journal",
-      "source_type": "news",
-      "tags": [
-        "Google updates",
-        "Discover"
-      ],
-      "x_urls": [],
-      "id": "dbc59319ea0c8548",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-13T19:00:32Z"
-    },
-    {
-      "title": "Google AI Overviews Slash Organic Clicks by 42%, Report Finds",
-      "summary": "A new report indicates Google's AI Overviews are reducing search clicks to websites by 42%, fueling zero-click search growth. This change challenges traditional SEO and content marketing models. Experts recommend AEO/GEO adaptations for sustained visibility.",
-      "url": "https://searchengineland.com/google-ai-overviews-cut-search-clicks-report-471497",
-      "source": "Search Engine Land",
-      "source_type": "news",
-      "tags": [
-        "AI search changes",
-        "AEO",
-        "GEO evolution"
-      ],
-      "x_urls": [],
-      "id": "171b1b9cd259b3c8",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-13T19:00:32Z"
-    },
-    {
-      "title": "Why SEO Now Requires Content Distribution, Not Just Creation",
-      "summary": "Search Engine Land argues that amid Google updates, content distribution via syndication, social, and email is essential for SEO success. Mere creation falls short; multi-channel strategies boost freshness and visibility. Ties into trends like ChatGPT prompts and local SEO.",
-      "url": "https://searchengineland.com/content-distribution-seo-471158",
-      "source": "Search Engine Land",
-      "source_type": "news",
+      "title": "Anthropic's One-Person Marketing Team Powers SEO with Claude AI",
+      "summary": "One non-technical marketer ran Anthropic's growth operations including SEO using Claude Code for nearly a year. Workflow involves CSV analysis, subagents for copy, Figma automation, and live data integration. Achieved 10x output and superior conversion rates.",
+      "url": "https://x.com/itsolelehmann/status/2031308486815133905",
+      "source": "@itsolelehmann",
+      "source_type": "x",
       "tags": [
         "content marketing",
+        "AI tools",
         "SEO",
-        "trending"
+        "automation"
       ],
-      "x_urls": [],
-      "id": "a1a6b99f482b7580",
+      "x_urls": [
+        "https://x.com/itsolelehmann/status/2031308486815133905"
+      ],
+      "id": "ecba82c098121a94",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:00:32Z"
+      "timestamp": "2026-03-13T19:00:59Z"
     },
     {
-      "title": "Self-publish and be scammed: Jon's tale of heartbreak highlights boom in AI-powered publishing fraud",
-      "summary": "A new wave of publishing fraud is targeting self-publishers using AI to mimic old lonely hearts scams, promising literary acclaim instead of romance. Aspiring author Jon shares his heartbreaking experience of being defrauded. This trend raises alarms about fraud in self-publishing platforms.",
-      "url": "https://www.theguardian.com/books/ng-interactive/2026/mar/12/ai-book-scams-publishing-fraud",
-      "source": "The Guardian",
-      "source_type": "news",
-      "tags": [
-        "AI controversy",
-        "publishing fraud",
-        "self-publishing"
-      ],
-      "x_urls": [
-        "https://x.com/FionnualaM/status/2032036295178936799"
-      ],
-      "id": "2897ba825ad91aa7",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-13T19:01:23Z"
-    },
-    {
-      "title": "Reporter no longer working at Ars Technica after AI controversy involving fabricated quotes",
-      "summary": "Ars Technica has dismissed a reporter following the use of AI to fabricate quotes in an article. The incident has ignited debates on AI ethics in journalism and writing. It serves as a cautionary tale for AI integration in editorial processes.",
-      "url": "https://www.niemanlab.org/reading/ars-technica-fires-reporter-after-ai-controversy-involving-fabricated-quotes",
-      "source": "Nieman Journalism Lab",
-      "source_type": "news",
-      "tags": [
-        "AI controversy",
-        "journalism",
-        "writing",
-        "editing"
-      ],
-      "x_urls": [],
-      "id": "6ca8add9b6931d0f",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-13T19:01:23Z"
-    },
-    {
-      "title": "Manager at Associated Press Tells Journalists That Resistance to AI Is Futile",
-      "summary": "A senior manager at the Associated Press urged journalists to embrace AI, stating resistance is futile amid staff discontent. The comments highlight tensions in newsrooms over AI's role in writing and editing. This reflects industry-wide debates on AI adoption.",
-      "url": "https://futurism.com/artificial-intelligence/manager-associated-resistance-ai-futile",
-      "source": "Futurism",
-      "source_type": "news",
-      "tags": [
-        "AI controversy",
-        "journalism",
-        "writing",
-        "editing"
-      ],
-      "x_urls": [],
-      "id": "83b0cbb88e30675a",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-13T19:01:23Z"
-    },
-    {
-      "title": "Grammarly's new AI features include 'expert' agents based on real authors without permission",
-      "summary": "Grammarly has expanded into AI agents modeled after real authors, providing writing feedback without their consent. This includes virtual personas of deceased writers like a historian who died recently. The development has sparked ethical concerns over AI impersonation in editing tools.",
-      "url": "https://x.com/youwouldntpost/status/2029335709861978439",
-      "source": "Miles Klee (@youwouldntpost)",
+      "title": "SEO 'Dying' Narratives: From Google Ads to GEO/AEO and AI Agents",
+      "summary": "Debunks repeated claims of SEO's death from Google Ads, social search, zero-clicks, updates, AI Overviews, GEO/AEO, to AI agents. Emphasizes SEO's evolution rather than demise. Reality: adaptation is key in changing search landscape.",
+      "url": "https://x.com/jakezward/status/2030981005687828756",
+      "source": "@jakezward",
       "source_type": "x",
       "tags": [
-        "AI controversy",
-        "Grammarly",
-        "writing",
-        "editing"
+        "SEO trends",
+        "GEO",
+        "AEO",
+        "AI search"
       ],
       "x_urls": [
-        "https://x.com/Grand_Rooster/status/2032113927744553445",
-        "https://x.com/CosmicMetaX/status/2031945856723583044"
+        "https://x.com/jakezward/status/2030981005687828756"
       ],
-      "id": "27acaee49f1e5197",
-      "section": "publishing",
+      "id": "0ff2062e85b72266",
+      "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:01:23Z"
+      "timestamp": "2026-03-13T19:00:59Z"
     },
     {
-      "title": "Rise of AI-generated 'copycat' books stirring outrage among authors on Amazon",
-      "summary": "AI-generated books copying successful human works are appearing on Amazon next to bestsellers, enraging authors. This phenomenon questions the integrity of online publishing marketplaces. It prompts concerns about AI's impact on content creation and quality.",
-      "url": "https://x.com/DailyAITechNews/status/2030980546151539159",
-      "source": "AI News (@DailyAITechNews)",
-      "source_type": "x",
+      "title": "Bloomsbury to Publish Two New Sarah J. Maas Books, Sending BookTok into Meltdown",
+      "summary": "Bloomsbury confirmed it will publish two new fantasy titles from bestselling author Sarah J. Maas as part of her A Court of Thorns and Roses series. The announcement has caused a frenzy on BookTok, with fans in meltdown over the major upcoming releases. This news also positively impacted Bloomsbury's share price.",
+      "url": "https://www.thebookseller.com/news/bloomsbury-to-publish-two-new-sarah-j-maas-books",
+      "source": "The Bookseller",
+      "source_type": "news",
       "tags": [
-        "AI controversy",
+        "BookTok",
+        "major release",
+        "publishing"
+      ],
+      "x_urls": [],
+      "id": "a6919af2d40efa83",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-13T19:02:00Z"
+    },
+    {
+      "title": "Emerald Fennell's Wuthering Heights Prompts BookTok Return to Canonical Literature",
+      "summary": "Director Emerald Fennell's film adaptation of Emily Bront\u00eb's Wuthering Heights has sparked renewed interest in the classic on BookTok. Users are revisiting the canonical novel, highlighting a trend towards traditional literature amid contemporary romances. This development shows BookTok's influence on reading preferences.",
+      "url": "https://www.thebookseller.com/news/books-on-booktok-emerald-fennells-wuthering-heights-prompts-return-to-canonical-literature",
+      "source": "The Bookseller",
+      "source_type": "news",
+      "tags": [
+        "BookTok",
+        "traditional storytelling",
+        "publishing"
+      ],
+      "x_urls": [],
+      "id": "386b1ba9201c5534",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-13T19:02:00Z"
+    },
+    {
+      "title": "Hundreds of Australian Writers Secure Landmark AI Copyright Compensation",
+      "summary": "Hundreds of Australian authors are in line for compensation after AI companies used their works to train models without permission. This ruling represents a significant victory in the ongoing controversy over AI's impact on publishing and intellectual property rights. It underscores growing pushback against unauthorized use of creative content.",
+      "url": "https://www.theaustralian.com.au/nation/hundreds-of-australian-writers-in-line-for-ai-copyright-compensation/news-story/2ceebc34ee762181211b815c1e71f9b8",
+      "source": "The Australian",
+      "source_type": "news",
+      "tags": [
+        "AI",
+        "controversy",
         "publishing",
-        "books",
-        "Amazon"
+        "writing"
       ],
       "x_urls": [],
-      "id": "8b15747807ec2596",
+      "id": "5fdb4de9d2e47e8e",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:01:23Z"
+      "timestamp": "2026-03-13T19:02:00Z"
     },
     {
-      "title": "AI supercharges book publishing scams targeting self-publishers",
-      "summary": "Fraudsters leverage AI to scam self-publishing hopefuls with unrealistic promises of success. The Guardian details Jon's exploitative experience amid rising fraud. This evolution of scams threatens the self-publishing ecosystem.",
-      "url": "https://x.com/FionnualaM/status/2032036295178936799",
-      "source": "Fionnuala Mulcahy (@FionnualaM)",
+      "title": "NYT Blind Taste Test: 54% of Readers Prefer AI Writing Over Human",
+      "summary": "The New York Times ran an interactive quiz with 86,000 participants comparing AI and human writing, where AI was preferred 54% of the time. This result has fueled debate on AI's viability in journalism and creative writing. Critics argue the test's use of short, decontextualized passages skews perceptions of writing quality.",
+      "url": "https://x.com/kevinroose/status/2031397522590282212",
+      "source": "Kevin Roose (@kevinroose)",
       "source_type": "x",
       "tags": [
-        "AI controversy",
-        "publishing fraud",
-        "self-publishing"
+        "AI",
+        "controversy",
+        "writing",
+        "editing"
       ],
-      "x_urls": [],
-      "id": "49fa404f19293119",
+      "x_urls": [
+        "https://x.com/kevinroose/status/2031397522590282212"
+      ],
+      "id": "a36b6fab09363c84",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:01:23Z"
+      "timestamp": "2026-03-13T19:02:00Z"
     },
     {
-      "title": "Rachel Zegler Responds to 'Woke' Casting Backlash for Disney's Snow White",
-      "summary": "Rachel Zegler addressed ongoing criticism labeling her casting as Snow White 'woke' due to her Colombian heritage, noting she faced conflicting feedback on her suitability for roles. She stated she refuses to 'assimilate' to meet public expectations amid the remake's poor performance. The controversy highlights audience reactions to diversity choices in live-action remakes.",
-      "url": "https://www.yahoo.com/entertainment/celebrity/articles/rachel-zegler-reacts-woke-snow-160600384.html",
-      "source": "Yahoo Entertainment",
+      "title": "NZ Publishing Accused of Leftwing Bias Blocking Traditional Storytelling",
+      "summary": "A commentator describes New Zealand's publishing industry as a 'leftwing circle jerk,' claiming it favors stories with progressive elements like Maori representation, climate change, and anti-capitalism critiques. This makes it difficult for non-woke or traditional narratives to secure deals. The post highlights frustrations with ideological gatekeeping in publishing.",
+      "url": "https://x.com/kaiviti_cam/status/2029052099091476984",
+      "source": "Cam Slater (@kaiviti_cam)",
+      "source_type": "x",
+      "tags": [
+        "non-woke",
+        "traditional storytelling",
+        "publishing"
+      ],
+      "x_urls": [
+        "https://x.com/kaiviti_cam/status/2029052099091476984"
+      ],
+      "id": "f8f809574700887e",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-13T19:02:00Z"
+    },
+    {
+      "title": "Thriller Author A.A. Chaudhuri Signs Major 3-Book Deal with JoffeBooks",
+      "summary": "Author A.A. Chaudhuri announced a three-book deal with JoffeBooks, led by editor Kate Lyall-Grant, with the first title The House Swap set for autumn release. She thanked her agent Annette Crossland for the opportunity. This contract reflects strong demand in the thriller genre.",
+      "url": "https://x.com/AAChaudhuri/status/2031006021158584760",
+      "source": "A.A. Chaudhuri (@AAChaudhuri)",
+      "source_type": "x",
+      "tags": [
+        "major contract",
+        "book deal",
+        "publishing"
+      ],
+      "x_urls": [
+        "https://x.com/AAChaudhuri/status/2031006021158584760"
+      ],
+      "id": "47b71c67158cebff",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-13T19:02:00Z"
+    },
+    {
+      "title": "Rachel Zegler Addresses Backlash to 'Woke' Snow White Reboot Box Office Disaster",
+      "summary": "Rachel Zegler clarified comments on the low box office turnout for Disney's Snow White live-action remake amid widespread audience backlash labeling it 'woke.' The film has underperformed significantly, with criticism focusing on changes to the original story and her political statements. She used Instagram to respond after a clip from an Israeli TV show circulated.",
+      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15629009/Rachel-Zegler-backlash-Snow-White-reboot-box-office-disaster.html",
+      "source": "Daily Mail",
       "source_type": "news",
       "tags": [
         "Disney",
         "Snow White",
-        "casting backlash",
-        "woke"
+        "backlash",
+        "woke",
+        "box office"
       ],
-      "x_urls": [],
-      "id": "736af9934db925e3",
+      "x_urls": [
+        "https://x.com/NewEinHara/status/2031960920621232232"
+      ],
+      "id": "ee5636fc8b167607",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:02:07Z"
+      "timestamp": "2026-03-13T19:02:46Z"
     },
     {
-      "title": "Timoth\u00e9e Chalamet Faces Backlash Over Dismissive Remarks on Opera and Ballet",
-      "summary": "Timoth\u00e9e Chalamet drew ire for comments resurfaced during Oscars season claiming 'no one cares about opera or ballet,' seen as disrespectful to classical arts. Critics and fans questioned his Hollywood golden boy status amid the controversy. The backlash illustrates tensions around celebrity opinions on culture.",
-      "url": "https://www.bbc.com/news/articles/c20lyk1lpn2o",
-      "source": "BBC News",
+      "title": "Disney's Rachel Zegler Refuses to 'Assimilate' Following Snow White Backlash",
+      "summary": "Rachel Zegler stated she refuses to assimilate for others' comfort amid backlash to her casting in Snow White and the film's perceived woke alterations. Her political tweets on the storyline and Middle East issues fueled audience outrage. The remake has been cited as a box office failure.",
+      "url": "https://www.foxnews.com/media/disney-star-rachel-zegler-refuses-assimilate-after-snow-white-backlash",
+      "source": "Fox News",
       "source_type": "news",
       "tags": [
-        "Timoth\u00e9e Chalamet",
-        "Oscars",
+        "Rachel Zegler",
+        "Disney",
+        "woke",
         "backlash",
-        "classical arts"
+        "casting"
       ],
-      "x_urls": [],
-      "id": "42817bdb9ae953f0",
+      "x_urls": [
+        "https://x.com/NewEinHara/status/2031960920621232232"
+      ],
+      "id": "03cdbeccd6efac7f",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:02:07Z"
+      "timestamp": "2026-03-13T19:02:46Z"
     },
     {
-      "title": "'Woke Bride' Bombs at Box Office, Crushed by Pixar's Hoppers",
-      "summary": "The film 'Woke Bride,' criticized for prioritizing ideology over storytelling, severely underperformed compared to Pixar's family-oriented Hoppers. Audiences opted for non-preachy entertainment, fueling 'go woke, go broke' discussions. Box office results underscore viewer preferences for traditional content.",
-      "url": "https://www.newsbusters.org/blogs/cnsnews/craig-bannister/2026/03/09/woke-bride-bombs-box-office-crushed-hoppers-and-even",
+      "title": "Hollywood's 'Woke Bride' Bombs at Box Office, Crushed by Hoppers",
+      "summary": "The film 'Woke Bride' flopped at the box office, earning far less than competitors despite favoring ideology over entertainment. It exemplifies the 'go woke, go broke' trend with audience rejection of preachy content. The story highlights ongoing struggles for Hollywood productions pushing social agendas.",
+      "url": "https://newsbusters.org/blogs/cnbc/craig-bannister/2026/03/09/woke-bride-bombs-box-office-crushed-hoppers-even",
       "source": "NewsBusters",
       "source_type": "news",
       "tags": [
+        "Hollywood",
+        "woke bride",
         "box office flop",
-        "woke",
-        "Pixar",
-        "Hoppers"
+        "go woke go broke"
       ],
       "x_urls": [
         "https://x.com/Mullin1T/status/2031089865329357192"
       ],
-      "id": "1501075234c1d489",
+      "id": "a00da32c599ba5b2",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:02:07Z"
+      "timestamp": "2026-03-13T19:02:46Z"
     },
     {
-      "title": "Viral Post Details 'Red Flags' for Avoiding Woke Elements in TV and Movies",
-      "summary": "A widely shared X post lists triggers like forced diversity, pronouns, and lectures on social issues prompting viewers to stop watching shows. It reflects common audience frustrations with perceived agenda-driven content in entertainment. The thread amassed thousands of likes and shares.",
-      "url": "https://x.com/SirBylHolte/status/2029510569665933697",
-      "source": "@SirBylHolte",
+      "title": "Hollywood's Woke Mind Virus Leads to Flops Like Snow White $170M Loss",
+      "summary": "Entertainment industry prioritizes social credit and propaganda over profit, resulting in massive losses like Disney's Snow White remake amid audience backlash to woke changes. Predicts collapse as creators focus on ideology rather than entertainment. References Elon Musk's warnings and box office data.",
+      "url": "https://x.com/NewEinHara/status/2031960920621232232",
+      "source": "@NewEinHara",
       "source_type": "x",
       "tags": [
-        "woke TV",
-        "audience avoidance",
-        "forced diversity",
-        "red flags"
+        "Hollywood",
+        "woke mind virus",
+        "Snow White",
+        "Disney flop"
       ],
       "x_urls": [
-        "https://x.com/SirBylHolte/status/2029510569665933697"
+        "https://x.com/NewEinHara/status/2031960920621232232"
       ],
-      "id": "7f12fe8302a81de3",
+      "id": "9d29b239b769c2e3",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:02:07Z"
+      "timestamp": "2026-03-13T19:02:46Z"
     },
     {
-      "title": "BAFTAs N-Word Row Exposes Alleged Woke Double Standards in Hollywood",
-      "summary": "A column on X critiques backlash against a man with Tourette's involuntarily saying the n-word at BAFTAs, contrasting it with leniency toward other offenses. It argues Hollywood's victim hierarchy favors certain groups over working-class disabled individuals. The post sparked debate on free speech and wokeness.",
-      "url": "https://x.com/albieamankona/status/2028824389903425846",
-      "source": "@albieamankona",
+      "title": "Hollywood's Latest 'Go Woke, Go Broke' Film Favors Ideology Over Entertainment",
+      "summary": "Post highlights NewsBusters article on 'Woke Bride' bombing at box office, illustrating audience rejection of ideologically driven films. Continues trend of woke entertainment failing commercially.",
+      "url": "https://x.com/Mullin1T/status/2031089865329357192",
+      "source": "@Mullin1T",
       "source_type": "x",
       "tags": [
-        "BAFTAs",
-        "woke hypocrisy",
-        "Tourette's",
-        "victim hierarchy"
+        "go woke go broke",
+        "woke bride",
+        "Hollywood",
+        "box office"
       ],
       "x_urls": [
-        "https://x.com/albieamankona/status/2028824389903425846"
+        "https://x.com/Mullin1T/status/2031089865329357192"
       ],
-      "id": "5dd5325580923fd6",
+      "id": "6a7a73acf73cb23b",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:02:07Z"
+      "timestamp": "2026-03-13T19:02:46Z"
     },
     {
-      "title": "Star Trek's Jonathan Frakes Blames 'Trolls' for Backlash to New Shows",
-      "summary": "Jonathan Frakes commented on fan criticism of Star Trek: Starfleet Academy, likening it to early TNG hate but noting modern intensity due to online trolls. Fans view new iterations as overly woke, rejecting changes. The remarks highlight ongoing clashes between creators and audience.",
-      "url": "https://x.com/fandompulse/status/2030004484575998268",
-      "source": "@fandompulse",
+      "title": "Woke Crusades Persist in Hollywood: Actress Faces Backlash Over Anti-Boycott Post",
+      "summary": "Actress celebrates box office success despite boycott by activists, prompting outrage and forced apology from woke crowd. Highlights internal conflicts and exhaustion in preachy entertainment circles. Palestine obsessives reject the apology amid broader cultural debates.",
+      "url": "https://x.com/guypbenson/status/2028601479813112145",
+      "source": "@guypbenson",
       "source_type": "x",
       "tags": [
-        "Star Trek",
-        "backlash",
-        "trolling",
-        "woke"
+        "Hollywood",
+        "woke",
+        "boycott",
+        "infighting"
       ],
       "x_urls": [
-        "https://x.com/fandompulse/status/2030004484575998268",
-        "https://x.com/jondelarroz/status/2030007248421032283"
+        "https://x.com/guypbenson/status/2028601479813112145"
       ],
-      "id": "43d9da700fc0a120",
+      "id": "fdd1664fe5a11014",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:02:07Z"
+      "timestamp": "2026-03-13T19:02:46Z"
     },
     {
-      "title": "LinkedIn Launches Premium All-In-One AI Tool for Small Businesses",
-      "summary": "LinkedIn's Premium All-In-One AI tool helps small businesses streamline sales by offering daily prospect suggestions tailored to industries and locations, writing messages, and providing a unified dashboard to save time on finding clients. In marketing, it assists with crafting social media posts and headlines to boost visibility, including credits for promoting content. For hiring, it supports job listings with credits and profile optimization to attract employees, enabling solopreneurs and small teams to handle multiple roles efficiently.",
-      "url": "https://www.uschamber.com/co/good-company/the-leap/linkedin-premium-all-in-one-smb",
-      "source": "U.S. Chamber of Commerce",
-      "source_type": "news",
+      "title": "Mark Cuban Identifies AI Implementation as the Next Big Opportunity for Small Businesses",
+      "summary": "MIT reports that 95% of corporate AI projects fail primarily due to implementation challenges. Mark Cuban compares this to the PC era, predicting massive opportunities in helping 33 million US small businesses, especially one-person operations, integrate AI into their specific workflows. He advises learning AI implementation to walk into businesses like shoe stores or law firms and demonstrate tangible value.",
+      "url": "https://x.com/_Investinq/status/2029402115550970297",
+      "source": "@_Investinq",
+      "source_type": "x",
       "tags": [
         "AI",
         "small business",
-        "LinkedIn",
-        "sales",
-        "marketing",
-        "hiring"
+        "implementation",
+        "Mark Cuban"
       ],
-      "x_urls": [],
-      "id": "b4fceb692d8d0c27",
+      "x_urls": [
+        "https://x.com/_Investinq/status/2029402115550970297"
+      ],
+      "id": "ae8fd52220937174",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:02:56Z"
+      "timestamp": "2026-03-13T19:03:26Z"
     },
     {
-      "title": "Intuit Launches AI-Powered ERP Solution Tailored for Construction Small Businesses",
-      "summary": "Intuit has launched a new Construction Edition for its Intuit Enterprise Suite, an AI-native ERP solution designed to support the complex needs of mid-market construction companies. It combines project, financial, and operational workflows in one system, featuring AI-powered processes and industry-specific tools such as cost proposals, invoicing, and budgeting. This offering provides a path for construction businesses growing out of QuickBooks to scale their accounting system.",
+      "title": "Google Launches Pomelli: AI Tool Turning Product Photos into Branded Marketing Content for Small Businesses",
+      "summary": "Google's new AI tool, Pomelli, enables small businesses, creators, and marketing teams to transform simple product photos into professional, branded marketing materials. It analyzes brand elements and generates complete campaigns with realistic visuals, eliminating the need for large teams or complex software. The tool is designed for quick, high-quality content creation.",
+      "url": "https://x.com/techificial/status/2030895903977173232",
+      "source": "@techificial",
+      "source_type": "x",
+      "tags": [
+        "AI tool",
+        "marketing",
+        "small business",
+        "Google"
+      ],
+      "x_urls": [
+        "https://x.com/techificial/status/2030895903977173232"
+      ],
+      "id": "4c848425cbc984bb",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-13T19:03:26Z"
+    },
+    {
+      "title": "Intuit Launches AI-Powered ERP Solution Tailored for Small Construction Businesses",
+      "summary": "Intuit has released a new AI-enhanced ERP platform specifically for the construction industry, targeting small businesses to optimize operations. The solution leverages AI to handle complex project management, financials, and compliance challenges unique to construction. It promises significant efficiency gains for SMBs in this sector.",
       "url": "https://www.forbes.com/sites/quickerbettertech/2026/03/07/small-business-technology-news-intuit-launches-ai-powered-erp-solution-tailored-for-construction-industry",
       "source": "Forbes",
       "source_type": "news",
@@ -372,49 +406,28 @@
         "Intuit"
       ],
       "x_urls": [],
-      "id": "30c7fd2cdf021b27",
+      "id": "955a4b78d259ca2c",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:02:56Z"
+      "timestamp": "2026-03-13T19:03:26Z"
     },
     {
-      "title": "Small Businesses Are the Biggest AI Automation Opportunity, Says Automation Expert",
-      "summary": "After completing $200k in automation work for a PE firm, including appointment reminders for their owned hairdresser, the poster argues small businesses represent the largest untapped AI opportunity. This experience shifted their view on the industry, emphasizing practical automations for everyday operations. They promise a full breakdown and playbook for landing such clients.",
-      "url": "https://x.com/NoahEpstein_/status/2029558375663477064",
-      "source": "@NoahEpstein_",
-      "source_type": "x",
+      "title": "Launch Commerce Rebrands and Unveils AI-Powered Platform to Streamline Small Business Operations",
+      "summary": "Formerly Launch Cart, Launch Commerce has rebranded and introduced an AI-driven platform that unifies tools for small businesses to automate lead follow-ups and improve response times. It addresses the pain of juggling multiple apps, helping capture missed opportunities efficiently. The platform aims to provide a single AI system for better sales and customer engagement.",
+      "url": "https://www.blufftontoday.com/press-release/story/56386/launch-commerce-rebrands-from-launch-cart-unveils-ai-powered-business-platform-for-small-businesses",
+      "source": "Bluffton Today",
+      "source_type": "news",
       "tags": [
-        "AI automation",
+        "AI platform",
         "small business",
-        "opportunity"
+        "automation",
+        "sales"
       ],
-      "x_urls": [
-        "https://x.com/NoahEpstein_/status/2029558375663477064"
-      ],
-      "id": "2ea5d8828535aa52",
+      "x_urls": [],
+      "id": "2c1503cec07ee597",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-13T19:02:56Z"
-    },
-    {
-      "title": "AI System Automates Product Videos for Entire E-commerce Catalogs, Boosting Conversions by 20%",
-      "summary": "An AI pipeline using Firecrawl to pull product images, Calico AI to generate realistic model videos showing fit and movement, auto-exports to Google Drive with labeling. This eliminates $30K photo shoots, enables videos for all SKUs not just bestsellers, and lifts on-site conversions by ~20%. Full n8n workflow, prompts, and video guide available for free.",
-      "url": "https://x.com/recap_david/status/2029916316715597862",
-      "source": "@recap_david",
-      "source_type": "x",
-      "tags": [
-        "AI tool",
-        "ecommerce",
-        "video generation",
-        "productivity"
-      ],
-      "x_urls": [
-        "https://x.com/recap_david/status/2029916315597862"
-      ],
-      "id": "3b29dfb4da854e16",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-13T19:02:56Z"
+      "timestamp": "2026-03-13T19:03:26Z"
     }
   ]
 }
