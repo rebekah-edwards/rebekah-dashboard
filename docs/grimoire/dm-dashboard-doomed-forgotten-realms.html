@@ -8,102 +8,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Kantumruy+Pro:wght@400;500;600&family=Montserrat:wght@600;700&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
---bg:#0d0a14;--bg2:#1a0f2e;--bg3:#2d1b4e;
---green:#39ff14;--green2:#00ff41;--green-dim:rgba(57,255,20,.12);
---purple:#7b2fff;--purple2:#a855f7;--purple-dim:rgba(123,47,255,.15);
---pink:#ff3e89;--pink-dim:rgba(255,62,137,.12);
+--bg:#0f0e17;--bg2:#1a1a2e;--bg3:#2a2a3d;
+--gold:#d4a843;--gold2:#e8c36a;--gold-dim:rgba(212,168,67,.10);
+--purple:#7b5ea7;--purple2:#9b7ec8;--purple-dim:rgba(155,126,200,.12);
+--pink:#c27488;--pink-dim:rgba(194,116,136,.12);
 --bronze:#cd7f32;--bronze2:#daa520;--bronze-dim:rgba(205,127,50,.15);
---text:#e0dce8;--text2:#9b8fb8;
---red:#e74c3c;--green-hp:#27ae60;
+--text:#e8e0d0;--text2:#a89f8f;
+--red:#c0392b;--green-hp:#5a9e6f;
 --sidebar-w:260px;--transition:0.3s ease;
 }
 html{font-size:15px;scroll-behavior:smooth}
-body{font-family:'Kantumruy Pro','Segoe UI',Tahoma,sans-serif;background:var(--bg);color:var(--text);display:flex;min-height:100vh;line-height:1.6}
-body.light{--bg:#f0edf5;--bg2:#e8e2f0;--bg3:#d4ccdf;--text:#1a0f2e;--text2:#5a4e6e;--green:#1a9900;--green2:#0d7a00;--green-dim:rgba(26,153,0,.1);--purple:#6b21a8;--purple2:#7c3aed;--purple-dim:rgba(107,33,168,.1);--pink:#d6336c;--pink-dim:rgba(214,51,108,.1);--bronze:#8b5e14;--bronze2:#a67c00;--bronze-dim:rgba(139,94,20,.1)}
-::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--green);border-radius:4px}
+body{font-family:'Kantumruy Pro','Segoe UI',Tahoma,sans-serif;background:var(--bg);color:var(--text);display:flex;min-height:100vh;line-height:1.7}
+body.light{--bg:#f5f0e8;--bg2:#ebe4d6;--bg3:#ddd5c5;--text:#2a2420;--text2:#6b5f50;--gold:#9a7520;--gold2:#806218;--gold-dim:rgba(154,117,32,.1);--purple:#6b4d8a;--purple2:#7b5ea7;--purple-dim:rgba(107,77,138,.1);--pink:#a85566;--pink-dim:rgba(168,85,102,.1);--bronze:#8b5e14;--bronze2:#a67c00;--bronze-dim:rgba(139,94,20,.1)}
+::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--gold);border-radius:4px}
 h1,h2,h3,.nav-section-label{font-family:'Montserrat',sans-serif;font-weight:600}
-#sidebar{width:var(--sidebar-w);min-width:var(--sidebar-w);background:var(--bg2);border-right:2px solid var(--green);display:flex;flex-direction:column;position:fixed;height:100vh;z-index:100;transition:transform var(--transition)}
-#sidebar .logo{padding:20px 16px;text-align:center;border-bottom:1px solid rgba(57,255,20,.3)}
-#sidebar .logo h1{font-size:1.25rem;color:var(--green);letter-spacing:2px;font-family:'Cormorant',serif}
+#sidebar{width:var(--sidebar-w);min-width:var(--sidebar-w);background:var(--bg2);border-right:2px solid var(--gold);display:flex;flex-direction:column;position:fixed;height:100vh;z-index:100;transition:transform var(--transition)}
+#sidebar .logo{padding:20px 16px;text-align:center;border-bottom:1px solid rgba(212,168,67,.25)}
+#sidebar .logo h1{font-size:1.25rem;color:var(--gold);letter-spacing:2px;font-family:'Cormorant',serif}
 #sidebar .logo .subtitle{font-size:.75rem;color:var(--text2);margin-top:2px;font-family:'Kantumruy Pro',sans-serif}
 #sidebar nav{flex:1;overflow-y:auto;padding:10px 0}
-.nav-section-label{display:block;padding:12px 20px 4px;color:var(--purple2);font-size:.65rem;letter-spacing:2px;text-transform:uppercase;font-weight:700}
+.nav-section-label{display:block;padding:12px 20px 4px;color:var(--bronze2);font-size:.65rem;letter-spacing:2px;text-transform:uppercase;font-weight:700}
 #sidebar nav a{display:flex;align-items:center;gap:10px;padding:10px 20px;color:var(--text2);text-decoration:none;font-size:.85rem;border-left:3px solid transparent;transition:all var(--transition)}
-#sidebar nav a:hover,#sidebar nav a.active{color:var(--green);background:var(--green-dim);border-left-color:var(--green)}
+#sidebar nav a:hover,#sidebar nav a.active{color:var(--gold);background:var(--gold-dim);border-left-color:var(--gold)}
 #sidebar nav a .icon{font-size:1.1rem;width:24px;text-align:center}
-#sidebar nav .nav-divider{height:1px;background:rgba(57,255,20,.15);margin:8px 20px}
-#sidebar .controls{padding:12px 16px;border-top:1px solid rgba(57,255,20,.3);display:flex;gap:8px;flex-wrap:wrap}
-#sidebar .controls button{flex:1;padding:6px 8px;background:var(--green-dim);border:1px solid var(--green);color:var(--green);border-radius:4px;cursor:pointer;font-size:.7rem;transition:all var(--transition)}
-#sidebar .controls button:hover{background:var(--green);color:var(--bg)}
+#sidebar nav .nav-divider{height:1px;background:rgba(212,168,67,.15);margin:8px 20px}
+#sidebar .controls{padding:12px 16px;border-top:1px solid rgba(212,168,67,.25);display:flex;gap:8px;flex-wrap:wrap}
+#sidebar .controls button{flex:1;padding:6px 8px;background:var(--gold-dim);border:1px solid var(--gold);color:var(--gold);border-radius:6px;cursor:pointer;font-size:.7rem;transition:all var(--transition)}
+#sidebar .controls button:hover{background:var(--gold);color:var(--bg)}
 #main{margin-left:var(--sidebar-w);flex:1;padding:24px 32px 60px;max-width:1000px}
 .page{display:none}.page.active{display:block}
-h2{font-family:'Montserrat',sans-serif;font-weight:700;color:var(--green);font-size:1.6rem;letter-spacing:1px;border-bottom:2px solid var(--green);padding-bottom:8px;margin-bottom:16px}
+h2{font-family:'Montserrat',sans-serif;font-weight:700;color:var(--gold);font-size:1.6rem;letter-spacing:1px;border-bottom:2px dashed var(--gold);padding-bottom:10px;margin-bottom:18px;position:relative}
+h2::after{content:'◆';position:absolute;bottom:-7px;left:50%;transform:translateX(-50%);background:var(--bg);padding:0 8px;font-size:.6rem;color:var(--gold)}
 h3{font-family:'Montserrat',sans-serif;font-weight:600;color:var(--purple2);font-size:1.15rem;margin:20px 0 8px}
 h4{font-family:'Montserrat',sans-serif;font-weight:600;color:var(--bronze2);margin:12px 0 6px}
 p,li{color:var(--text);margin-bottom:6px}
 ul,ol{padding-left:20px}
-.card{background:var(--bg2);border:1px solid rgba(57,255,20,.15);border-radius:8px;padding:16px;margin:12px 0}
-.card.highlight{border-color:var(--green);box-shadow:0 0 12px rgba(57,255,20,.15);animation:glowPulse 3s ease-in-out infinite}
-@keyframes glowPulse{0%,100%{box-shadow:0 0 8px rgba(57,255,20,.08)}50%{box-shadow:0 0 20px rgba(57,255,20,.2)}}
-.card.danger{border-color:var(--red);background:rgba(231,76,60,.06)}
-.card.atmosphere{border-left:4px solid var(--purple);background:rgba(123,47,255,.06)}
+.card{background:linear-gradient(135deg,var(--bg2),rgba(42,42,61,.8));border:1px solid rgba(212,168,67,.12);border-radius:10px;padding:16px;margin:12px 0}
+.card.highlight{border-color:var(--gold);box-shadow:0 0 15px rgba(212,168,67,.08),inset 0 0 30px rgba(212,168,67,.03)}
+.card.danger{border-color:var(--red);background:linear-gradient(135deg,rgba(192,57,43,.06),rgba(192,57,43,.02))}
+.card.atmosphere{border-left:4px solid var(--purple);background:linear-gradient(135deg,rgba(155,126,200,.06),rgba(155,126,200,.02))}
 .card.atmosphere::before{content:'🎵 ATMOSPHERE';display:block;color:var(--purple2);font-size:.7rem;font-weight:700;margin-bottom:6px;letter-spacing:1px}
+.card.read-aloud{background:rgba(212,168,67,.04);border:1px solid rgba(212,168,67,.15);border-left:4px solid var(--gold);font-family:'Cormorant',serif;font-size:1.05rem;line-height:1.8}
 /* DM secret - subtle hidden toggle */
-.dm-secret-toggle{display:flex;align-items:center;gap:6px;padding:8px 12px;background:var(--bg3);border:1px solid rgba(57,255,20,.1);border-radius:6px;cursor:pointer;color:var(--text2);font-size:.82rem;user-select:none;transition:all var(--transition);margin:10px 0}
-.dm-secret-toggle:hover{border-color:var(--purple);color:var(--purple2)}
+.dm-secret-toggle{display:flex;align-items:center;gap:6px;padding:8px 12px;background:var(--bg3);border:1px solid rgba(155,126,200,.15);border-radius:6px;cursor:pointer;color:var(--text2);font-size:.82rem;user-select:none;transition:all var(--transition);margin:10px 0}
+.dm-secret-toggle:hover{border-color:var(--purple2);color:var(--purple2)}
 .dm-secret-toggle .lock-icon{font-size:.9rem}
 .dm-secret-body{max-height:0;overflow:hidden;transition:max-height .4s ease}
 .dm-secret-toggle.open+.dm-secret-body{max-height:3000px}
-.dm-secret-card{background:rgba(123,47,255,.08);border:1px solid rgba(123,47,255,.25);border-radius:8px;padding:14px;margin:8px 0}
+.dm-secret-card{background:rgba(155,126,200,.06);border:1px solid rgba(155,126,200,.2);border-radius:8px;padding:14px;margin:8px 0}
 .collapsible{margin:10px 0}
-.collapsible-header{display:flex;align-items:center;gap:8px;padding:10px 14px;background:rgba(57,255,20,.06);border:1px solid rgba(57,255,20,.2);border-radius:6px;cursor:pointer;color:var(--green);font-weight:600;font-size:.95rem;user-select:none;transition:all var(--transition)}
-.collapsible-header:hover{background:rgba(57,255,20,.12)}
-.collapsible-header::before{content:'▶';font-size:.7rem;transition:transform var(--transition);display:inline-block;width:14px}
+.collapsible-header{display:flex;align-items:center;gap:8px;padding:10px 14px;background:rgba(212,168,67,.04);border:1px solid rgba(212,168,67,.15);border-radius:6px;cursor:pointer;color:var(--gold);font-weight:600;font-size:.95rem;user-select:none;transition:all var(--transition)}
+.collapsible-header:hover{background:rgba(212,168,67,.10)}
+.collapsible-header::before{content:'▶';font-size:.7rem;transition:transform var(--transition);display:inline-block;width:14px;color:var(--gold)}
 .collapsible.open .collapsible-header::before{transform:rotate(90deg)}
 .collapsible-body{max-height:0;overflow:hidden;transition:max-height .4s ease}
 .collapsible.open .collapsible-body{max-height:8000px}
 .collapsible-body-inner{padding:12px 14px}
-.stat-block{background:linear-gradient(135deg,rgba(57,255,20,.03),rgba(123,47,255,.05));border:2px solid var(--green);border-radius:8px;padding:16px;margin:12px 0;font-size:.88rem}
-.stat-block .name{font-family:'Montserrat',sans-serif;font-size:1.2rem;color:var(--green);font-weight:700}
+.stat-block{background:linear-gradient(135deg,rgba(212,168,67,.04),rgba(155,126,200,.03));border-top:3px solid var(--gold);border-bottom:3px solid var(--gold);border-left:1px solid rgba(212,168,67,.15);border-right:1px solid rgba(212,168,67,.15);border-radius:8px;padding:16px;margin:12px 0;font-size:.88rem}
+.stat-block .name{font-family:'Montserrat',sans-serif;font-size:1.2rem;color:var(--gold);font-weight:700}
 .stat-block .type{font-style:italic;color:var(--text2);font-size:.8rem}
-.stat-block hr{border:none;border-top:1px solid var(--green);margin:8px 0;opacity:.3}
+.stat-block hr{border:none;border-top:1px solid var(--gold);margin:8px 0;opacity:.25}
 .stat-block .stat-row{display:flex;gap:16px;flex-wrap:wrap;margin:6px 0}
 .stat-block .stat-row span{min-width:60px}
-.stat-block .label{color:var(--green2);font-weight:600}
+.stat-block .label{color:var(--gold2);font-weight:600}
+/* 2024 stat block ability table */
+.stat-block .ability-table{width:100%;border-collapse:collapse;margin:8px 0;font-size:.82rem}
+.stat-block .ability-table th{color:var(--gold2);font-weight:700;text-align:center;padding:4px 6px;font-size:.7rem;letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid var(--gold)}
+.stat-block .ability-table td{text-align:center;padding:4px 6px;font-size:.85rem}
+.stat-block .ability-table .sub-header{font-size:.6rem;color:var(--text2);font-weight:600;letter-spacing:.5px}
+.stat-block .section-header{font-family:'Montserrat',sans-serif;font-size:.85rem;color:var(--bronze2);font-weight:700;margin:10px 0 4px;letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid rgba(212,168,67,.15);padding-bottom:2px}
 .party-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin:12px 0}
-.pc-card{background:var(--bg2);border:1px solid rgba(57,255,20,.2);border-radius:8px;padding:14px;position:relative}
-.pc-card .pc-name{font-family:'Montserrat',sans-serif;font-size:1.1rem;color:var(--green);font-weight:700}
+.pc-card{background:linear-gradient(135deg,var(--bg2),rgba(42,42,61,.8));border:1px solid rgba(212,168,67,.15);border-radius:10px;padding:14px;position:relative}
+.pc-card .pc-name{font-family:'Montserrat',sans-serif;font-size:1.1rem;color:var(--gold);font-weight:700}
 .pc-card .pc-class{color:var(--text2);font-size:.85rem}
 .pc-card .pc-hooks{margin-top:8px;font-size:.85rem}
 table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem}
-th{background:rgba(57,255,20,.1);color:var(--green);text-align:left;padding:8px 10px;border-bottom:2px solid var(--green)}
-td{padding:8px 10px;border-bottom:1px solid rgba(57,255,20,.08)}
-tr:hover td{background:rgba(57,255,20,.04)}
+th{background:rgba(212,168,67,.08);color:var(--gold);text-align:left;padding:8px 10px;border-bottom:2px solid var(--gold)}
+td{padding:8px 10px;border-bottom:1px solid rgba(212,168,67,.06)}
+tr:hover td{background:rgba(212,168,67,.04)}
 .badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:.7rem;font-weight:700;margin-left:6px}
-.badge-red{background:rgba(231,76,60,.25);color:#e74c3c}
-.badge-green{background:rgba(39,174,96,.25);color:#2ecc71}
-.badge-gold{background:rgba(205,127,50,.25);color:var(--bronze2)}
-.badge-purple{background:rgba(123,47,255,.25);color:var(--purple2)}
+.badge-red{background:rgba(192,57,43,.2);color:#e07060}
+.badge-green{background:rgba(90,158,111,.2);color:var(--green-hp)}
+.badge-gold{background:rgba(212,168,67,.2);color:var(--gold)}
+.badge-purple{background:rgba(155,126,200,.2);color:var(--purple2)}
 .badge-pink{background:var(--pink-dim);color:var(--pink)}
-.badge-upcoming{background:rgba(57,255,20,.1);color:var(--green);border:1px dashed var(--green)}
+.badge-upcoming{background:rgba(212,168,67,.08);color:var(--gold);border:1px dashed var(--gold)}
 /* Rod & Obelisk trackers */
 .tracker{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
-.tracker-piece{width:90px;text-align:center;padding:10px 6px;border-radius:8px;font-size:.75rem;border:2px solid rgba(57,255,20,.2)}
-.tracker-piece.found{border-color:var(--green-hp);background:rgba(39,174,96,.1)}
-.tracker-piece.attuned{border-color:var(--purple);background:rgba(123,47,255,.1)}
-.tracker-piece.unknown{border-color:var(--text2);background:rgba(100,100,100,.08);opacity:.5}
+.tracker-piece{width:90px;text-align:center;padding:10px 6px;border-radius:8px;font-size:.75rem;border:2px solid rgba(212,168,67,.15)}
+.tracker-piece.found{border-color:var(--green-hp);background:rgba(90,158,111,.08)}
+.tracker-piece.attuned{border-color:var(--purple2);background:rgba(155,126,200,.08);box-shadow:0 0 10px rgba(155,126,200,.1)}
+.tracker-piece.unknown{border-color:var(--text2);background:rgba(100,100,100,.05);opacity:.5;border-style:dashed}
 .tracker-piece .piece-num{font-family:'Montserrat',sans-serif;font-size:1.4rem;font-weight:700;color:var(--bronze2)}
 .tracker-piece.found .piece-num{color:var(--green-hp)}
 .tracker-piece.attuned .piece-num{color:var(--purple2)}
 /* Dice */
-.dice-btn{padding:10px 16px;background:var(--green-dim);border:2px solid var(--green);color:var(--green);border-radius:8px;cursor:pointer;font-size:1rem;font-weight:700;transition:all var(--transition);min-width:60px}
-.dice-btn:hover{background:var(--green);color:var(--bg);transform:scale(1.05)}
+.dice-btn{padding:10px 16px;background:var(--gold-dim);border:2px solid var(--gold);color:var(--gold);border-radius:8px;cursor:pointer;font-size:1rem;font-weight:700;transition:all var(--transition);min-width:60px}
+.dice-btn:hover{background:var(--gold);color:var(--bg);transform:scale(1.05)}
 .dice-btn:active{transform:scale(.95)}
-.roll-result{font-family:'Montserrat',sans-serif;font-size:2.5rem;color:var(--green);font-weight:700;text-align:center;padding:20px;animation:rollIn .3s ease}
+.roll-result{font-family:'Montserrat',sans-serif;font-size:2.5rem;color:var(--gold);font-weight:700;text-align:center;padding:20px;animation:rollIn .3s ease}
 @keyframes rollIn{from{transform:scale(0) rotate(180deg);opacity:0}to{transform:scale(1) rotate(0);opacity:1}}
 .roll-history{max-height:300px;overflow-y:auto;font-size:.82rem}
-.roll-history div{padding:4px 8px;border-bottom:1px solid rgba(57,255,20,.08)}
-#session-notes-area{width:100%;min-height:400px;background:var(--bg);border:1px solid rgba(57,255,20,.2);color:var(--text);padding:12px;border-radius:8px;font-family:'Kantumruy Pro',sans-serif;font-size:.9rem;line-height:1.6;resize:vertical}
+.roll-history div{padding:4px 8px;border-bottom:1px solid rgba(212,168,67,.06)}
+#session-notes-area{width:100%;min-height:400px;background:var(--bg);border:1px solid rgba(212,168,67,.15);color:var(--text);padding:12px;border-radius:8px;font-family:'Kantumruy Pro',sans-serif;font-size:.9rem;line-height:1.6;resize:vertical}
 /* Initiative conditions */
 .cond-badge{display:inline-block;padding:1px 6px;border-radius:8px;font-size:.65rem;cursor:pointer;margin:1px;border:1px solid;opacity:.4;transition:all .2s}
 .cond-badge.active{opacity:1}
@@ -117,17 +124,17 @@ tr:hover td{background:rgba(57,255,20,.04)}
 .cond-badge-restrained{border-color:#795548;color:#a1887f}.cond-badge-restrained.active{background:rgba(121,85,72,.3)}
 .cond-badge-incapacitated{border-color:#607d8b;color:#90a4ae}.cond-badge-incapacitated.active{background:rgba(96,125,139,.3)}
 .dmg-heal-row{display:flex;gap:4px;align-items:center;margin-top:4px}
-.dmg-heal-row input{width:50px;background:var(--bg);border:1px solid rgba(57,255,20,.2);color:var(--text);padding:2px 6px;border-radius:4px;text-align:center;font-size:.8rem}
+.dmg-heal-row input{width:50px;background:var(--bg);border:1px solid rgba(212,168,67,.15);color:var(--text);padding:2px 6px;border-radius:4px;text-align:center;font-size:.8rem}
 .dmg-heal-row button{padding:2px 8px;border-radius:4px;cursor:pointer;font-size:.7rem;border:1px solid}
-.btn-dmg{background:rgba(231,76,60,.2);border-color:var(--red)!important;color:var(--red)}
-.btn-heal{background:rgba(39,174,96,.2);border-color:var(--green-hp)!important;color:var(--green-hp)}
+.btn-dmg{background:rgba(192,57,43,.15);border-color:var(--red)!important;color:var(--red)}
+.btn-heal{background:rgba(90,158,111,.15);border-color:var(--green-hp)!important;color:var(--green-hp)}
 .dm-ref-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 @media(max-width:768px){.dm-ref-grid{grid-template-columns:1fr}}
 .npc-link{color:var(--purple2);font-size:.78rem;text-decoration:none;display:inline-block;margin-top:4px}
 .npc-link:hover{color:var(--pink);text-decoration:underline}
-#menu-toggle{display:none;position:fixed;top:10px;left:10px;z-index:200;background:var(--bg2);border:1px solid var(--green);color:var(--green);padding:8px 12px;border-radius:4px;cursor:pointer;font-size:1.2rem}
+#menu-toggle{display:none;position:fixed;top:10px;left:10px;z-index:200;background:var(--bg2);border:1px solid var(--gold);color:var(--gold);padding:8px 12px;border-radius:4px;cursor:pointer;font-size:1.2rem}
 @media(max-width:768px){#sidebar{transform:translateX(-100%)}#sidebar.open{transform:translateX(0)}#menu-toggle{display:block}#main{margin-left:0;padding:16px}.party-grid{grid-template-columns:1fr}.dm-ref-grid{grid-template-columns:1fr}}
-@media print{#sidebar,#menu-toggle,.controls{display:none!important}#main{margin-left:0;max-width:100%}.page{display:block!important;page-break-after:always}.collapsible-body{max-height:none!important}body{background:#fff;color:#000}.card,.stat-block{border-color:#999;background:#f9f6f0}h2,h3,.stat-block .name,.stat-block .label{color:#333}}
+@media print{#sidebar,#menu-toggle,.controls{display:none!important}#main{margin-left:0;max-width:100%}.page{display:block!important;page-break-after:always}.collapsible-body{max-height:none!important}body{background:#fff;color:#000}.card,.stat-block{border-color:#aaa;background:#f9f6f0}h2,h3,.stat-block .name,.stat-block .label{color:#333}h2::after{background:#fff}}
 </style>
 </head>
 <body>
@@ -135,23 +142,26 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <div id="sidebar">
 <div class="logo"><h1>👁️ DM Dashboard</h1><div class="subtitle">Doomed Forgotten Realms</div></div>
 <nav id="nav">
+<span class="nav-section-label">Session</span>
 <a href="#" data-page="summary" class="active"><span class="icon">📋</span> Summary</a>
 <a href="#" data-page="party"><span class="icon">🎭</span> Party Reference</a>
-<a href="#" data-page="npcs"><span class="icon">👥</span> NPC Directory</a>
-<a href="#" data-page="npcs-quick"><span class="icon">📌</span> Major NPCs & Factions</a>
-<a href="#" data-page="dm-secrets"><span class="icon">🔒</span> DM Secrets Index</a>
-<span class="nav-section-label">Tonight's Paths</span>
+<div class="nav-divider"></div>
+<span class="nav-section-label">Tonight</span>
 <a href="#" data-page="waterdeep"><span class="icon">💀</span> Waterdeep</a>
 <a href="#" data-page="aldar-fight"><span class="icon">⚔️</span> Aldar Boss Fight</a>
 <a href="#" data-page="silverymoon"><span class="icon">🌙</span> Silverymoon</a>
 <a href="#" data-page="bronte-trap"><span class="icon">🪤</span> Bronte Trap</a>
 <a href="#" data-page="ripples"><span class="icon">🌀</span> Lady of Pain Effects</a>
 <div class="nav-divider"></div>
+<span class="nav-section-label">Campaign</span>
+<a href="#" data-page="npcs"><span class="icon">👥</span> NPC Directory</a>
+<a href="#" data-page="npcs-quick"><span class="icon">📌</span> Major NPCs & Factions</a>
+<a href="#" data-page="dm-secrets"><span class="icon">🔒</span> DM Secrets Index</a>
+<a href="#" data-page="obelisks"><span class="icon">🗿</span> Obelisks</a>
 <a href="#" data-page="encounters"><span class="icon">🎲</span> Random Encounters</a>
 <a href="#" data-page="timeline"><span class="icon">🗺️</span> Campaign Timeline</a>
-<a href="#" data-page="campaign-structure"><span class="icon">🧱</span> Campaign Structure</a>
-<a href="#" data-page="obelisks"><span class="icon">🗿</span> Obelisks</a>
-<!-- DM Screen removed -->
+<div class="nav-divider"></div>
+<span class="nav-section-label">Tools</span>
 <a href="#" data-page="initiative"><span class="icon">⏱️</span> Initiative Tracker</a>
 <a href="#" data-page="dice"><span class="icon">🎲</span> Dice Roller</a>
 <a href="#" data-page="notes"><span class="icon">📝</span> Session Notes</a>
@@ -172,19 +182,10 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <h2>📋 Summary</h2>
 
 <div class="card" style="border-left:4px solid var(--purple)">
-<h4>📖 Previously... (Session 23 — 02/13/26)</h4>
-<p>After returning from the Stranger Things side quest, the party spent time in Sigil before teleporting to Waterdeep:</p>
-<ul>
-<li><strong>Marianne</strong> used the 1st rod piece to Commune with Pelor at the top of Revelation Ward. Learned: "The Whispered One's influence does not reach as far back in the timeline as those here believe." Pelor said freeing other deities like the Lady of Pain is "not yet." Whether people from the original world survive depends on "your degree of success."</li>
-<li><strong>Olaf</strong> researched the library and found records of Vecna not matching his expectations. Asked Tasha about <em>Die, Vecna, Die!</em> — she bristled (secretly hiding Iuz's involvement from Alustriel). Olaf charmed her into sharing more, promising not to tell Alustriel. <em>Then slept with her, because bard.</em> The whole party knew by the time he came downstairs.</li>
-<li><strong>Akilles</strong> talked to Kaelen — learned Alustriel "snatched him up" as a younger man (he's now in his 70s, she's been keeping him young). Kaelen realized she talks down to him more than he thought.</li>
-<li><strong>Jimothy</strong> returned the elemental gem containing Landro (water elemental stat block) — he'd stolen it in Eberron and Zephyr saw. His guilt forced him to give it back. Also revealed to the whole party that he's been wearing the <strong>Crown of Lies</strong> and explained its power. Only Zephyr knew before.</li>
-<li><strong>Olaf</strong> wanted to take the Crown (secretly for himself) but Jimothy refused. Zephyr offered to help find another item to avoid Vecna's eye. Jimothy is working to permanently shift his loyalty from Vecna to the Raven Queen.</li>
-<li><strong>Marianne</strong> grabbed his fairy companion, <strong>Tina Fey</strong>, from next to Redbud (the tree ent planted by the Sigil Sanctum). Jimothy loves to kill her.</li>
-<li>Party teleported to <strong>Waterdeep</strong>, then rested in <strong>Marianne's Porthaven demiplane</strong>. Marianne and Akilles had a deep conversation about fearing they'll fail their families.</li>
-<li><strong>Kaelen</strong> is worried he comes off as a coward. Plans to take the party from <strong>The Heroes' Garden</strong> down to <strong>Castle Waterdeep</strong> to find <strong>Laeren</strong> (Alustriel's sister), then attack King Aldar. They'll stop at <strong>The Market</strong> on the way.</li>
-</ul>
-<p style="margin-top:8px"><strong>Key lore note:</strong> In the DFR, Akilles is still "Algar" — he is evil and serves alongside his father King Aldar.</p>
+<h4>📖 Last Session (Session 23 — 02/13/26)</h4>
+<p>The party wrapped up personal business in Sigil before teleporting to Waterdeep. Marianne communed with Pelor atop Revelation Ward, learning that Vecna's influence doesn't reach as far back in the timeline as believed, and that the survival of original-world people depends on the party's "degree of success." Olaf dug into Tasha's secrets about <em>Die, Vecna, Die!</em> — charming her into sharing more than she intended (and sleeping with her, because bard). Jimothy came clean about the Crown of Lies to the full party, and returned the stolen elemental gem from Eberron.</p>
+<p style="margin-top:8px">Tensions simmered beneath the surface: Olaf tried to claim the Crown for himself (Jimothy refused), Kaelen realized Alustriel talks down to him more than he'd noticed, and Marianne and Akilles shared a vulnerable conversation about fearing they'll fail their families. The party teleported to Waterdeep and rested in Marianne's Porthaven demiplane. They emerge tonight into a city ruled by Akilles' lich-father — with Kaelen leading them from the Heroes' Garden through the Dread Market to Castle Waterdeep, seeking Laeren before confronting King Aldar.</p>
+<p style="margin-top:8px;font-size:.85rem;color:var(--text2)"><em>Full session-by-session notes are archived in the 📝 Session Notes tab.</em></p>
 </div>
 
 <div class="card highlight">
@@ -225,7 +226,7 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <div class="tracker-piece found"><div class="piece-num">4</div>✅ Death House<br><small>Barovia</small></div>
 <div class="tracker-piece unknown"><div class="piece-num">5</div>❓ Palace of Heart's Desire<br><small>Feywild</small></div>
 <div class="tracker-piece unknown"><div class="piece-num">6</div>❓ Tomb of Horrors<br><small>Oerth</small></div>
-<div class="tracker-piece unknown"><div class="piece-num">7</div>❓ Unknown<br><small>TBD</small></div>
+<div class="tracker-piece unknown"><div class="piece-num">7</div>❓ The Red Belvedere<br><small>Avernus</small></div>
 </div>
 <p style="font-size:.85rem;color:var(--text2)">Kas is also hunting the Rod. The attuned wielder can sense the next piece's location.</p>
 
@@ -242,32 +243,27 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <h3>⚔️ The Party (Level 15)</h3>
 <div class="party-grid">
 <div class="pc-card">
-<div class="pc-name">⚔️ Akilles</div><div class="pc-class">Ranger 15 — Player: Seth</div>
-<div class="pc-hooks">
-<p>Son of King Aldar (as "Algar"). True heir to the Sword Coast throne. Wants to confront/kill his father.</p>
-<p style="margin-top:6px;padding:6px 8px;background:rgba(231,76,60,.08);border-radius:4px;border-left:3px solid var(--red)"><strong>Bane — Unseen Pursuer:</strong> DC 15 Con after long rest or no benefit + exhaustion. DC 16 Wis on initiative or −1d6 to rolls for 1 min.</p>
-</div></div>
+<div class="pc-name">⚔️ Akilles</div><div class="pc-class">Ranger 15 — Seth</div>
+<div class="pc-hooks"><p>Son of King Aldar. True heir. Wants to confront his father tonight.</p>
+<p style="margin-top:6px;padding:4px 8px;background:rgba(231,76,60,.08);border-radius:4px;border-left:3px solid var(--red);font-size:.82rem"><strong>Bane — Unseen Pursuer:</strong> DC 15 CON after long rest or no benefit + exhaustion. DC 16 WIS on initiative or −1d6 for 1 min.</p></div>
+</div>
 <div class="pc-card">
-<div class="pc-name">🎵 Olaf</div><div class="pc-class">Bard 15 — Player: Wren</div>
-<div class="pc-hooks">
-<p>Ulmist Inquisitor. Amnesiac — memory only spans 4 years. Introduced by Sarusanda.</p>
-<p style="margin-top:6px;padding:6px 8px;background:rgba(123,47,255,.08);border-radius:4px;border-left:3px solid var(--purple)"><strong>Boon — Arcane Absorber:</strong> Absorb single-target spell as reaction → 3× spell level temp HP → release as 10ft force burst. Prof bonus uses/long rest.</p>
-</div></div>
+<div class="pc-name">🎵 Olaf</div><div class="pc-class">Bard 15 — Wren</div>
+<div class="pc-hooks"><p>Ulmist Inquisitor. Amnesiac cover. <em>Secret Vecna agent.</em></p>
+<p style="margin-top:6px;padding:4px 8px;background:rgba(123,47,255,.08);border-radius:4px;border-left:3px solid var(--purple);font-size:.82rem"><strong>Boon — Arcane Absorber:</strong> Absorb single-target spell → 3× spell level temp HP → release as 10ft force burst. Prof bonus uses/LR.</p></div>
+</div>
 <div class="pc-card">
-<div class="pc-name">🐢 Jimothy</div><div class="pc-class">Cleric 15 — Player: Jonathan</div>
-<div class="pc-hooks">
-<p>Tortle. Former Vecna cultist, redeemed by Ehud's sacrifice. Serves Selûne. Has Crown of Lies + Mist Talisman.</p>
-</div></div>
+<div class="pc-name">🐢 Jimothy</div><div class="pc-class">Cleric 15 — Jonathan</div>
+<div class="pc-hooks"><p>Tortle. Redeemed ex-cultist. Crown of Lies + Mist Talisman.</p></div>
+</div>
 <div class="pc-card">
-<div class="pc-name">📖 Marianne (Mari)</div><div class="pc-class">Cleric/Wizard 15 — Player: Nathan</div>
-<div class="pc-hooks">
-<p>Yuan-ti Pureblood. Wife Bronte, son Marion (11), father (smith) — all in Silverymoon. Walking into a trap tonight.</p>
-</div></div>
+<div class="pc-name">📖 Marianne</div><div class="pc-class">Cleric/Wizard 15 — Nathan</div>
+<div class="pc-hooks"><p>Yuan-ti. Family in Silverymoon. Walking into Bronte trap.</p></div>
+</div>
 <div class="pc-card">
-<div class="pc-name">🛡️ Zephyr Grimraven</div><div class="pc-class">Paladin/Fighter 15 — Player: Josh</div>
-<div class="pc-hooks">
-<p>Shadar-kai, 300 years old. Bound by Raven Queen via Belt of Remembrance. Aging curse recently healed (will be fully back in 30 days).</p>
-</div></div>
+<div class="pc-name">🛡️ Zephyr</div><div class="pc-class">Paladin/Fighter 15 — Josh</div>
+<div class="pc-hooks"><p>Shadar-kai. Raven Queen bound. Frontline tank. Forcecage target.</p></div>
+</div>
 </div>
 </div>
 
@@ -276,24 +272,25 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <h2>💀 Waterdeep <span style="font-size:.8rem;color:var(--text2)">(Doomed Sword Coast)</span></h2>
 
 <div class="card atmosphere">
-<p><strong>Mood:</strong> Oppressive, eerie, cold. Think Mordor meets gothic horror.</p>
-<p><strong>Music suggestions:</strong> Dark ambient, low drones, occasional distant bells. Darkest Dungeon OST, Bloodborne ambient tracks.</p>
-<p><strong>Sensory:</strong> Ash taste in air, perpetual twilight, cold that seeps into bones, distant wailing, faint necrotic hum.</p>
+<p><strong>Mood:</strong> Cold, stark, oppressive order. Think totalitarian regime — East Berlin, not Mordor. Everything is clean and controlled but devoid of joy.</p>
+<p><strong>Music suggestions:</strong> Minimalist tension — Chernobyl OST, Blade Runner 2049 ambient, sparse piano. No drones or horror cues.</p>
+<p><strong>Sensory:</strong> Bitter cold midday air, pale washed-out sunlight, scrubbed cobblestones, silence broken only by boot-steps. No laughter, no street musicians, no children playing. The smell of lye and stone.</p>
 </div>
 
-<div class="card">
-<h4>🌑 Read Aloud</h4>
-<p><em>The portal deposits you into perpetual twilight. Before you stretches a city that might once have been Waterdeep — but twisted, as if reflected in dark water. Buildings lean at wrong angles, their stone blackened. The air tastes of ash and old magic. Undead soldiers patrol openly, their armor bearing Vecna's eye. Citizens scurry past with downcast eyes, and you feel watched from every shadow.</em></p>
-<p style="margin-top:8px"><em>Here and there, you notice something strange — cracks in the air itself, shimmering with warm golden light. Through one, you catch a fleeting glimpse of a sunlit street, flowers in window boxes, children laughing. Then it's gone, and the twilight closes back in.</em></p>
+<div class="card read-aloud">
+<h4 style="font-family:'Montserrat',sans-serif">🌑 Read Aloud — Emerging from the Alley</h4>
+<p><em>You step out of the alley and into cold, stark daylight. Waterdeep stretches before you under a pale, washed-out sky — not the perpetual twilight you might have expected, but something worse. The city looks almost normal. Almost clean. The cobblestones are scrubbed. The buildings stand straight and well-maintained. Banners bearing Vecna's eye hang at precise intervals, crisp and unwrinkled.</em></p>
+<p style="margin-top:8px"><em>But no one laughs. A woman hurries past clutching a basket, eyes fixed on the ground. Two soldiers in polished armor patrol the far end of the street — they don't shamble or moan. They walk with discipline, scanning faces. A shopkeeper sweeps his stoop in silence, glancing up at you for one instant too long before looking away. The air is bitterly cold. This is a city that has learned to be afraid.</em></p>
+<p style="margin-top:8px"><em>Here and there, you notice something strange — cracks in the air itself, shimmering with warm golden light. Through one, you catch a fleeting glimpse of a crowded market stall, a merchant laughing with a customer. Then it's gone, and the silence settles back in.</em></p>
 </div>
 
 <div class="card" style="border-color:var(--bronze)">
 <h4>🆕 Crevices of Dusk</h4>
 <ul>
-<li>Planar rifts from the Lady of Pain's return — show glimpses of "old" Waterdeep</li>
-<li>Citizens confused and frightened by them</li>
-<li>Cult enforcers actively suppressing knowledge — anyone caught staring gets questioned</li>
-<li>Some merchants near the Dread Market are starting to <em>remember</em></li>
+<li>Planar rifts from the Lady of Pain's return — show glimpses of "old" Waterdeep (warmth, laughter, color)</li>
+<li>The regime treats these as "reality malfunctions" — official posters warn citizens to report them</li>
+<li>Soldiers cordon off Crevice areas; anyone caught staring or talking about them is taken for "re-education"</li>
+<li>Some merchants near the Dread Market are starting to <em>remember</em> — dangerous knowledge in a surveillance state</li>
 </ul>
 </div>
 
@@ -301,41 +298,42 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <div class="collapsible">
 <div class="collapsible-header">🏰 Castle Waterdeep</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
-<p>King Aldar's seat of power. Dark, imposing, crawling with undead guards and cult advisors.</p>
+<p>King Aldar's seat of power. Imposing and immaculate — polished stone, disciplined guards in formation, banners hung with geometric precision. It feels less like a haunted castle and more like a dictator's palace.</p>
 <ul>
 <li>Throne room converted into a <strong>phylactery chamber</strong> (but the phylactery itself is NOT here)</li>
-<li>Heavy guard: undead soldiers, wraiths, cult mages</li>
+<li>Heavy guard: disciplined undead soldiers, wraith sentinels, cult advisors in formal robes</li>
 <li>Lair actions active in throne room (see Boss Fight page)</li>
-<li>Captain Voss patrols the approach</li>
+<li>Captain Voss patrols the approach — professional, not monstrous</li>
 </ul>
 </div></div>
 </div>
 <div class="collapsible">
 <div class="collapsible-header">🏪 The Dread Market</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
-<p>Twisted bazaar. Best place for info gathering.</p>
+<p>An orderly open-air market — stalls arranged in rigid rows, prices state-controlled, inspectors walking the aisles. The name is ironic; there's nothing chaotic about it. Best place for info gathering if you're careful.</p>
 <ul>
-<li>Cult informants watch for suspicious behavior</li>
-<li>Some merchants near Crevices remembering "before"</li>
-<li><strong>Mireva</strong> can be found here</li>
+<li>Plainclothes informants blend with shoppers — DC 16 Perception to spot one watching you</li>
+<li>Some merchants near Crevices are starting to remember "before" — whispered conversations, quickly hushed</li>
+<li><strong>Mireva</strong> can be found here — she keeps a curio stall near a recurring Crevice</li>
 </ul>
 </div></div>
 </div>
 <div class="collapsible">
 <div class="collapsible-header">⚰️ The Boneyard (formerly the City of the Dead)</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
-<p>Where the party disrupted the ritual in Session 1. Now a major cult site.</p>
+<p>Waterdeep's ancient cemetery district, repurposed under Aldar's regime. The tombs have been catalogued and sealed; the grounds are maintained with unsettling precision. Undead laborers tend the paths in silence.</p>
 <ul>
-<li>Ritual circle still pulses with necrotic energy</li>
-<li>Heavy cult presence — dangerous to approach openly</li>
-<li>Party would be recognized here</li>
+<li>Functions as a <strong>recruitment center</strong> — the regime raises loyal undead from noble crypts here</li>
+<li>Warded perimeter; entering without authorization draws immediate patrol response</li>
+<li>Rumored to house a secondary ritual site for Vecna's priests deep beneath the old mausoleums</li>
+<li><em>Note: The ritual the party disrupted in Session 1 was in <strong>Neverwinter</strong> (now Evernight), far north on the Sword Coast — not here.</em></li>
 </ul>
 </div></div>
 </div>
 <div class="collapsible">
 <div class="collapsible-header">⚓ The Docks</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
-<p>Functioning but controlled. All ships inspected. Could be an escape route. Smugglers exist but are very cautious.</p>
+<p>Functioning and efficient — every vessel logged, every cargo manifest filed. Departure requires stamped papers bearing Vecna's seal. Could be an escape route, but smugglers here are extremely cautious; they operate on a trust-or-die basis.</p>
 </div></div>
 </div>
 <div class="collapsible">
@@ -355,8 +353,9 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <div class="collapsible">
 <div class="collapsible-header">👑 King Aldar — Lich Lord</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
-<p><strong>Alignment:</strong> LE | Believes Akilles/Algar is dead | Arrogant, cruel, calculating</p>
-<p><strong>RP Hook:</strong> If Akilles reveals himself — <em>"My son is DEAD. What trick is this?"</em></p>
+<p><strong>Alignment:</strong> LE | Supported by the DFR version of <strong>Algar</strong> (evil, loyal) | Furious that <strong>Aldir</strong> has not fallen in line</p>
+<p><strong>Key dynamic:</strong> In this reality, Algar serves faithfully at his father's side. Aldar's rage is reserved for Aldir — the son who fled to Icewind Dale and refuses to embrace Vecna's power. He considers Aldir a coward and a traitor to the family legacy.</p>
+<p><strong>RP Hook:</strong> If the real Akilles (who IS Algar from the original timeline) reveals himself — confusion, fury. <em>"Algar stands beside me. You are an impostor — or worse, a mockery sent to test my resolve."</em></p>
 <p>Full stat block on the <strong>Boss Fight</strong> page.</p>
 </div></div>
 </div>
@@ -368,18 +367,37 @@ tr:hover td{background:rgba(57,255,20,.04)}
 </div></div>
 </div>
 <div class="collapsible">
-<div class="collapsible-header">🔮 Mireva — Merchant</div>
+<div class="collapsible-header">🔮 Mireva — Dread Market Merchant</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
-<p>Seeing visions of "before" through Crevices. Terrified but could be an ally.</p>
-<p><strong>Knows:</strong> Castle layout (general), cult patrol schedules, Crevice locations</p>
-<p><strong>DC 13 Persuasion</strong> to get her to talk</p>
+<p><strong>Race:</strong> Half-elf, early 40s | <strong>Alignment:</strong> NG | <strong>Occupation:</strong> Curio dealer (oddities, old maps, salvaged trinkets)</p>
+<p><strong>Background:</strong> Mireva ran an antiquities stall in the old Waterdeep — in this reality she still deals in curiosities, but under the regime's watchful eye. She was one of the first people near a Crevice of Dusk when they began appearing, and the exposure has done something to her. She sees double-images: the cold, orderly street overlaid with the warm, living city that used to be. The visions are involuntary and growing stronger.</p>
+<p><strong>Why the visions?</strong> Mireva's stall sits on a <em>planar thin spot</em> — the same location where a Crevice keeps recurring. Prolonged exposure has made her sensitive to the Lady of Pain's ripple effects. She doesn't understand it; she thinks she's going mad.</p>
+<p><strong>What she knows:</strong></p>
+<ul>
+<li>Castle Waterdeep general layout (she delivered goods there before the regime tightened access)</li>
+<li>Cult patrol schedules and shift changes — she's been quietly tracking them out of survival instinct</li>
+<li>Locations of 3 known Crevices in the city, and that the regime is trying to close them</li>
+<li>She's seen a vision of a woman in silver armor inside a Crevice — could be Laeren</li>
+</ul>
+<p><strong>Personality:</strong> Nervous, speaks in half-sentences, constantly checking over her shoulder. But underneath the fear is sharp intelligence and a desperate longing for the world she keeps glimpsing.</p>
+<p><strong>DC 13 Persuasion</strong> to get her talking. DC 10 if the party mentions the Lady of Pain or shows genuine knowledge of "before."</p>
 </div></div>
 </div>
 <div class="collapsible">
-<div class="collapsible-header">🙏 Brother Solace — Resistance</div>
+<div class="collapsible-header">🙏 Brother Solace — Resistance Leader</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
-<p>Secret resistance member posing as Vecna cult priest. Operates from the Undercroft.</p>
-<p>Can provide: safe house, local intelligence, healing supplies. Won't trust easily.</p>
+<p><strong>Race:</strong> Human, late 50s | <strong>Alignment:</strong> LG | <strong>True Name:</strong> Corwin Ashvale</p>
+<p><strong>Background:</strong> Former paladin of Tyr who survived the god's diminishment by abandoning his oath — not out of cowardice, but strategy. When the regime demolished the Temple of Tyr, Corwin went underground, literally. He excavated the Undercroft from the temple's collapsed crypts and began building a resistance cell. To move freely above ground, he poses as a low-ranking Vecna cult priest — a role that sickens him but keeps his people alive.</p>
+<p><strong>The Undercroft:</strong> Hidden beneath the old Temple of Tyr. Entrance through a collapsed crypt (DC 18 Perception to find without guidance). Holds 8-12 resistance members — former city watch, displaced priests, a handful of ex-adventurers too old or broken to fight alone.</p>
+<p><strong>What he can provide:</strong></p>
+<ul>
+<li>Safe house for short rest (NOT long rest — too dangerous)</li>
+<li>Local intelligence: guard rotations, regime informant identities, castle approach routes</li>
+<li>Healing supplies: 3 potions of healing, a scroll of Lesser Restoration</li>
+<li>A distraction, if the party needs one — he can stage an incident to draw patrols away from the castle approach</li>
+</ul>
+<p><strong>Personality:</strong> Gruff, exhausted, deeply principled. Speaks like a man who's been carrying too much weight for too long. Tests newcomers hard — he's lost people to regime infiltrators before.</p>
+<p><strong>DC 15 Persuasion</strong> or proof of opposing Vecna to gain trust. DC 10 if the party invokes Tyr's name with genuine reverence, or if they mention the Lady of Pain's return.</p>
 </div></div>
 </div>
 </div>
@@ -391,54 +409,59 @@ tr:hover td{background:rgba(57,255,20,.04)}
 
 <div class="stat-block">
 <div class="name">King Aldar, Lich Lord of the Sword Coast</div>
-<div class="type">Medium undead, lawful evil</div>
+<div class="type">Medium Undead, Lawful Evil</div>
 <hr>
 <div class="stat-row">
-<span><span class="label">AC</span> 18</span>
-<span><span class="label">HP</span> 225</span>
+<span><span class="label">AC</span> 18 (natural armor)</span>
+<span><span class="label">HP</span> 225 (18d8 + 144)</span>
+</div>
+<div class="stat-row">
 <span><span class="label">Speed</span> 30 ft.</span>
+<span><span class="label">Initiative</span> +3 (13)</span>
 </div>
 <hr>
-<div class="stat-row">
-<span><span class="label">STR</span> 11 (+0)</span>
-<span><span class="label">DEX</span> 16 (+3)</span>
-<span><span class="label">CON</span> 16 (+3)</span>
-<span><span class="label">INT</span> 22 (+6)</span>
-<span><span class="label">WIS</span> 14 (+2)</span>
-<span><span class="label">CHA</span> 16 (+3)</span>
-</div>
+<table class="ability-table">
+<tr><th></th><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr class="sub-header"><td></td><td colspan="6" style="font-size:.55rem;color:var(--text2)">MOD / SAVE</td></tr>
+<tr><td></td><td>+0 / +0</td><td>+3 / +3</td><td>+3 / +10</td><td>+6 / +13</td><td>+2 / +9</td><td>+3 / +3</td></tr>
+</table>
 <hr>
-<p><span class="label">Saving Throws:</span> Con +10, Int +13, Wis +9</p>
-<p><span class="label">Damage Resistances:</span> Cold, Lightning, Necrotic</p>
-<p><span class="label">Damage Immunities:</span> Poison; Bludgeoning, Piercing, Slashing from nonmagical attacks</p>
-<p><span class="label">Condition Immunities:</span> Charmed, Exhaustion, Frightened, Paralyzed, Poisoned</p>
-<p><span class="label">Senses:</span> Truesight 120 ft., passive Perception 19</p>
+<p><span class="label">Skills</span> Arcana +13, History +13, Perception +9</p>
+<p><span class="label">Resistances</span> Cold, Lightning, Necrotic</p>
+<p><span class="label">Immunities</span> Poison; Bludgeoning, Piercing, Slashing from nonmagical attacks</p>
+<p><span class="label">Condition Immunities</span> Charmed, Exhaustion, Frightened, Paralyzed, Poisoned</p>
+<p><span class="label">Senses</span> Truesight 120 ft., Passive Perception 19</p>
+<p><span class="label">Languages</span> Common, Draconic, Abyssal, Infernal</p>
+<p><span class="label">CR</span> 19 (XP 22,000, or 44,000 in lair; PB +7)</p>
 <hr>
-<p><span class="label">Spellcasting:</span> 20th-level wizard (DC 21, +13 to hit)</p>
-<p><strong>Cantrips:</strong> Chill Touch, Mage Hand, Prestidigitation, Ray of Frost</p>
-<p><strong>1st (4):</strong> Detect Magic, Magic Missile, Shield, Thunderwave</p>
-<p><strong>2nd (3):</strong> Detect Thoughts, Invisibility, Mirror Image</p>
-<p><strong>3rd (3):</strong> Counterspell, Dispel Magic, Animate Dead</p>
-<p><strong>4th (3):</strong> Blight, Dimension Door, Greater Invisibility</p>
-<p><strong>5th (3):</strong> Cloudkill, Scrying, Wall of Force</p>
-<p><strong>6th (2):</strong> Chain Lightning, Globe of Invulnerability</p>
-<p><strong>7th (2):</strong> Forcecage, Finger of Death</p>
-<p><strong>8th (1):</strong> Dominate Monster</p>
-<p><strong>9th (1):</strong> Power Word Kill</p>
+<div class="section-header">Traits</div>
+<p><strong>Legendary Resistance (3/Day, or 4/Day in Lair).</strong> If Aldar fails a saving throw, he can choose to succeed instead.</p>
+<p><strong>Rejuvenation.</strong> If Aldar has a phylactery, a destroyed Aldar gains a new body in 1d10 days, regaining all HP and becoming active again. The phylactery is NOT in the throne room.</p>
+<p><strong>Turn Resistance.</strong> Aldar has Advantage on saving throws against any effect that turns undead.</p>
 <hr>
-<p><span class="label">Legendary Resistance (3/Day)</span></p>
-<p><span class="label">Legendary Actions (3/round):</span></p>
-<ul style="margin-left:16px">
-<li><strong>Cantrip (1):</strong> Casts a cantrip</li>
-<li><strong>Frightening Gaze (2):</strong> DC 18 Wis or frightened 1 min</li>
-<li><strong>Disrupt Life (3):</strong> Each living creature within 20 ft. takes 21 (6d6) necrotic. Aldar heals same.</li>
+<div class="section-header">Actions</div>
+<p><strong>Multiattack.</strong> Aldar makes two Paralyzing Touch attacks. He can replace one attack with a use of Spellcasting.</p>
+<p><strong>Paralyzing Touch.</strong> <em>Melee Attack Roll:</em> +13 to hit, reach 5 ft. <em>Hit:</em> 10 (3d6) Cold damage. <em>Failure:</em> The target must succeed on a DC 18 Constitution D20 Test or be Paralyzed for 1 minute. It repeats the save at the end of each of its turns, ending the effect on itself on a Success.</p>
+<p><strong>Spellcasting.</strong> Aldar casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 21, +13 to hit):</p>
+<ul style="margin-left:16px;margin-bottom:6px">
+<li><strong>At Will:</strong> Detect Magic, Mage Hand, Prestidigitation, Ray of Frost</li>
+<li><strong>3/Day Each:</strong> Counterspell, Dispel Magic, Mirror Image, Shield</li>
+<li><strong>2/Day Each:</strong> Chain Lightning, Dimension Door, Forcecage, Globe of Invulnerability, Wall of Force</li>
+<li><strong>1/Day Each:</strong> Dominate Monster, Finger of Death, Power Word Kill</li>
 </ul>
 <hr>
-<p><span class="label">Lair Actions (Init 20):</span></p>
+<div class="section-header">Legendary Actions</div>
+<p>Aldar has 3 Legendary Action uses. Immediately after another creature's turn, he can expend a use to take one of the following actions. He regains all expended uses at the start of each of his turns. <em>All options cost 1 Action.</em></p>
+<p><strong>Cantrip.</strong> Aldar casts Ray of Frost or uses Paralyzing Touch.</p>
+<p><strong>Frightening Gaze.</strong> <em>Charisma D20 Test:</em> DC 18, one creature Aldar can see within 60 ft. <em>Failure:</em> The target is Frightened for 1 minute. It repeats the save at the end of each of its turns, ending the effect on itself on a Success.</p>
+<p><strong>Disrupt Life.</strong> Each living creature within 20 ft. of Aldar takes 21 (6d6) Necrotic damage. Aldar regains HP equal to the highest single amount of damage dealt.</p>
+<hr>
+<div class="section-header">Lair Actions (Initiative 20)</div>
+<p>On Initiative 20 (losing ties), Aldar can take one of the following lair actions; he can't take the same lair action two rounds in a row:</p>
 <ul style="margin-left:16px">
-<li><strong>Anti-Magic Zone:</strong> 10 ft. radius, lasts 1 round</li>
-<li><strong>Summon Specters:</strong> 1d4 specters rise</li>
-<li><strong>Necrotic Pulse:</strong> DC 18 Con or 5d10 necrotic</li>
+<li><strong>Antimagic Zone.</strong> A 10 ft. radius sphere of Antimagic appears at a point Aldar can see within 120 ft. It lasts until Initiative 20 of the next round.</li>
+<li><strong>Summon Specters.</strong> 1d4 Specters rise from corpses or shadows within 60 ft. They act on Initiative 20 and last until destroyed.</li>
+<li><strong>Necrotic Pulse.</strong> <em>Constitution D20 Test:</em> DC 18, each creature within 30 ft. <em>Failure:</em> 22 (5d8) Necrotic damage. <em>Success:</em> Half damage.</li>
 </ul>
 </div>
 
@@ -446,11 +469,12 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <div class="collapsible open">
 <div class="collapsible-header">Phase 1 — The Throne Room (RP)</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
-<p>Aldar on throne, flanked by <strong>Captain Voss</strong> and <strong>2 Wraiths</strong>.</p>
+<p>Aldar on throne, flanked by <strong>Captain Voss</strong> and <strong>2 Wraith Bodyguards</strong>. The DFR version of <strong>Algar</strong> may be present (your call — could be sent away on an errand, or standing beside the throne as a dark mirror of Akilles).</p>
 <ul>
-<li>Doesn't believe Akilles — <em>"My son is DEAD. What manner of trick is this?"</em></li>
-<li>DC 25 Persuasion to convince him (very hard)</li>
-<li>Curious but suspicious — interrogates before attacking</li>
+<li>Doesn't believe the real Akilles — <em>"Algar stands beside me. You are an impostor wearing my son's face."</em></li>
+<li>DC 25 Persuasion to create even a moment of doubt (very hard)</li>
+<li>Furious, not confused — his anger about Aldir refusing to serve Vecna bleeds into this encounter</li>
+<li>Interrogates before attacking: <em>"Tell me who sent you. Was it my coward son in the ice? Or someone more foolish still?"</em></li>
 </ul>
 </div></div>
 </div>
@@ -496,24 +520,120 @@ tr:hover td{background:rgba(57,255,20,.04)}
 </div>
 </div>
 
+<h3>🌍 Environmental Effects — The Throne Room</h3>
+<div class="card" style="border-left:4px solid var(--bronze)">
+<h4>Arena Description (Theater of the Mind)</h4>
+<p><em>The throne room is vast and cold — vaulted stone ceilings lost in shadow above, the floor polished obsidian that reflects like dark water. Vecna's eye is carved into the wall behind the throne, thirty feet tall, its pupil a hollow pit that radiates faint purple light. Braziers of pale green flame line the walls at regular intervals, casting everything in sickly light. The air hums with contained power — this room was built to amplify magic, not just house it.</em></p>
+</div>
+
+<div class="card highlight">
+<h4>⚡ Environmental Hazards (use to keep combat dynamic)</h4>
+<table>
+<tr><th>Effect</th><th>Trigger</th><th>Mechanic</th></tr>
+<tr><td><strong>Obsidian Floor</strong></td><td>Area effect spell impacts floor</td><td>Shattered sections become Difficult Terrain in a 10 ft. radius. Creatures moving through take 4 (1d8) Slashing damage.</td></tr>
+<tr><td><strong>Vecna's Eye Pulse</strong></td><td>When a PC casts a spell of 5th level or higher</td><td>The carved eye flares. Each creature within 15 ft. of it: DC 16 WIS or 11 (2d10) Psychic damage and Frightened until end of next turn.</td></tr>
+<tr><td><strong>Green Brazier Eruption</strong></td><td>Brazier takes 15+ damage or is knocked over</td><td>Necrotic fire erupts in 10 ft. radius. DC 14 DEX or 14 (4d6) Necrotic damage, half on success. The fire lingers for 1 round.</td></tr>
+<tr><td><strong>Collapsing Ceiling</strong></td><td>Thunderwave, Shatter, or similar concussive effects</td><td>Debris falls in a 15 ft. cone. DC 15 DEX or 10 (3d6) Bludgeoning and Prone. Creates half cover rubble.</td></tr>
+<tr><td><strong>Crevice of Dusk</strong></td><td>Roll d6 each round; appears on a 1</td><td>A golden rift opens in a random spot — warm sunlight pours through. Undead within 10 ft. have Disadvantage on attacks for 1 round. Closes at end of next round.</td></tr>
+</table>
+</div>
+
+<div class="card atmosphere">
+<p><strong>Sensory Beats to Weave In:</strong></p>
+<ul>
+<li>The obsidian floor cracks like ice under heavy blows, revealing pale bone underneath</li>
+<li>The braziers flicker and hiss when necrotic energy surges — they dim when healing magic is used</li>
+<li>Aldar's voice echoes unnaturally, as if the room itself is speaking with him</li>
+<li>When specters rise from the lair action, they claw up through the obsidian like drowning hands</li>
+<li>The carved eye occasionally blinks — a fleeting trick of the firelight, or something watching?</li>
+<li>As Aldar takes damage, cracks spread through the walls; the room's magic is tied to his power</li>
+</ul>
+</div>
+
 <div class="card" style="border-color:var(--bronze)">
 <h4>⚠️ Post-Fight</h4>
 <p>Even if killed, <strong>phylactery means he reforms in 1d10 days</strong>. Must find and destroy it for permanent kill. Future quest hook!</p>
 </div>
 
-<h3>Enemy Stats Quick Reference</h3>
+<h3>Enemy Stat Blocks</h3>
+
 <div class="stat-block">
-<div class="name">Captain Voss — Death Knight (CR 17)</div>
+<div class="name">Captain Voss, Death Knight</div>
+<div class="type">Medium Undead, Lawful Evil</div>
 <hr>
-<div class="stat-row"><span><span class="label">AC</span> 20</span><span><span class="label">HP</span> 180</span></div>
-<p><span class="label">Hellfire Orb (1/day):</span> 20d6 fire, 20ft radius, DC 18 Dex half</p>
-<p><span class="label">Longsword:</span> +11, 2d10+4 slash + 4d8 necrotic</p>
+<div class="stat-row">
+<span><span class="label">AC</span> 20 (plate + shield)</span>
+<span><span class="label">HP</span> 180 (19d8 + 95)</span>
 </div>
-<div class="stat-block">
-<div class="name">Wraith Bodyguards ×2 (CR 5)</div>
+<div class="stat-row">
+<span><span class="label">Speed</span> 30 ft.</span>
+<span><span class="label">Initiative</span> +0 (10)</span>
+</div>
 <hr>
-<div class="stat-row"><span><span class="label">AC</span> 13</span><span><span class="label">HP</span> 67</span></div>
-<p><span class="label">Life Drain:</span> +6, 4d8+3 necrotic, DC 14 Con or max HP reduced</p>
+<table class="ability-table">
+<tr><th></th><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td></td><td>+4 / +4</td><td>+0 / +6</td><td>+5 / +5</td><td>+1 / +1</td><td>+3 / +9</td><td>+4 / +10</td></tr>
+</table>
+<hr>
+<p><span class="label">Immunities</span> Poison, Necrotic</p>
+<p><span class="label">Condition Immunities</span> Exhaustion, Frightened, Poisoned</p>
+<p><span class="label">Senses</span> Darkvision 120 ft., Passive Perception 13</p>
+<p><span class="label">Languages</span> Common, Abyssal</p>
+<p><span class="label">CR</span> 17 (XP 18,000; PB +6)</p>
+<hr>
+<div class="section-header">Traits</div>
+<p><strong>Magic Resistance.</strong> Voss has Advantage on saving throws against spells and other magical effects.</p>
+<p><strong>Marshal Undead.</strong> Unless Voss is Incapacitated, he and any undead within 60 ft. of him have Advantage on saving throws against effects that turn undead.</p>
+<hr>
+<div class="section-header">Actions</div>
+<p><strong>Multiattack.</strong> Voss makes three Longsword attacks.</p>
+<p><strong>Longsword.</strong> <em>Melee Attack Roll:</em> +11 to hit, reach 5 ft. <em>Hit:</em> 11 (2d6 + 4) Slashing damage plus 18 (4d8) Necrotic damage.</p>
+<p><strong>Hellfire Orb (Recharge 6).</strong> Voss hurls a magical ball of fire at a point within 120 ft. Each creature in a 20-ft.-radius sphere centered on that point must make a <em>Dexterity D20 Test</em> (DC 18). <em>Failure:</em> 35 (10d6) Fire damage plus 35 (10d6) Necrotic damage. <em>Success:</em> Half damage.</p>
+<hr>
+<div class="section-header">Reactions</div>
+<p><strong>Parry.</strong> Voss adds 6 to his AC against one melee attack that would hit him.</p>
+<hr>
+<div class="section-header">Tactics</div>
+<p style="color:var(--text2);font-size:.85rem"><em>Targets healers first. Saves Hellfire Orb for a cluster of 3+ PCs. Uses Parry to survive focused fire. Fights to the death — utterly loyal to Aldar.</em></p>
+</div>
+
+<div class="stat-block">
+<div class="name">Wraith Bodyguard ×2</div>
+<div class="type">Medium Undead, Neutral Evil</div>
+<hr>
+<div class="stat-row">
+<span><span class="label">AC</span> 15 (spectral armor)</span>
+<span><span class="label">HP</span> 127 (15d8 + 60)</span>
+</div>
+<div class="stat-row">
+<span><span class="label">Speed</span> 0 ft., fly 60 ft. (hover)</span>
+<span><span class="label">Initiative</span> +4 (14)</span>
+</div>
+<hr>
+<table class="ability-table">
+<tr><th></th><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td></td><td>+3 / +3</td><td>+4 / +8</td><td>+4 / +4</td><td>+1 / +1</td><td>+2 / +6</td><td>+3 / +3</td></tr>
+</table>
+<hr>
+<p><span class="label">Resistances</span> Acid, Cold, Fire, Lightning, Thunder; Bludgeoning, Piercing, Slashing from nonmagical attacks</p>
+<p><span class="label">Immunities</span> Necrotic, Poison</p>
+<p><span class="label">Condition Immunities</span> Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained</p>
+<p><span class="label">Senses</span> Darkvision 120 ft., Passive Perception 12</p>
+<p><span class="label">Languages</span> Common (understands but rarely speaks)</p>
+<p><span class="label">CR</span> 10 (XP 5,900; PB +4)</p>
+<hr>
+<div class="section-header">Traits</div>
+<p><strong>Incorporeal Movement.</strong> The wraith can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.</p>
+<p><strong>Sunlight Sensitivity.</strong> While in sunlight, the wraith has Disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.</p>
+<p><strong>Spectral Tether.</strong> While within 60 ft. of Aldar, the wraith has Advantage on attack rolls and its Life Drain deals an extra 9 (2d8) Necrotic damage.</p>
+<hr>
+<div class="section-header">Actions</div>
+<p><strong>Multiattack.</strong> The wraith makes two Life Drain attacks.</p>
+<p><strong>Life Drain.</strong> <em>Melee Attack Roll:</em> +8 to hit, reach 5 ft. <em>Hit:</em> 22 (4d8 + 4) Necrotic damage. <em>Failure:</em> The target must succeed on a DC 16 Constitution D20 Test or its HP maximum is reduced by an amount equal to the Necrotic damage taken. This reduction lasts until the target finishes a Long Rest. The target dies if its HP maximum is reduced to 0.</p>
+<p><strong>Dread Wail (Recharge 5-6).</strong> Each creature within 30 ft. that can hear the wraith must make a <em>Wisdom D20 Test</em> (DC 16). <em>Failure:</em> 18 (4d8) Psychic damage and Frightened for 1 minute. <em>Success:</em> Half damage, not Frightened.</p>
+<hr>
+<div class="section-header">Reactions</div>
+<p><strong>Bodyguard.</strong> When a creature the wraith can see targets Aldar with an attack, the wraith can impose Disadvantage on the attack roll.</p>
 </div>
 </div>
 
@@ -527,8 +647,8 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <p><strong>Sensory:</strong> Silver moonlight even during day, faint floral scent under dusty streets, eerie silence where music once played, shuttered windows.</p>
 </div>
 
-<div class="card">
-<h4>✨ Read Aloud</h4>
+<div class="card read-aloud">
+<h4 style="font-family:'Montserrat',sans-serif">✨ Read Aloud</h4>
 <p><em>Silverymoon still gleams — but the gleam is hollow. The legendary Moonbridge arcs gracefully over the Rauvin, its silver light unchanged, yet the streets below are subdued. Windows are shuttered. The Lady's College stands dark and abandoned, its wards flickering like dying candles. People move quietly, eyes downcast, and you notice — there are no songs. In a city once famous for its music, there is silence.</em></p>
 </div>
 <div class="card">
@@ -639,37 +759,80 @@ tr:hover td{background:rgba(57,255,20,.04)}
 
 <div class="stat-block">
 <div class="name">Vecna Null (Homebrew)</div>
-<div class="type">Medium humanoid, lawful evil — Antimagic Specialist</div>
+<div class="type">Medium Humanoid, Lawful Evil — Antimagic Specialist</div>
 <hr>
 <div class="stat-row">
-<span><span class="label">AC</span> 17</span>
-<span><span class="label">HP</span> 150</span>
+<span><span class="label">AC</span> 17 (enchanted half-plate)</span>
+<span><span class="label">HP</span> 150 (20d8 + 60)</span>
+</div>
+<div class="stat-row">
 <span><span class="label">Speed</span> 30 ft.</span>
+<span><span class="label">Initiative</span> +2 (12)</span>
 </div>
 <hr>
-<div class="stat-row">
-<span><span class="label">STR</span> 16 (+3)</span>
-<span><span class="label">DEX</span> 14 (+2)</span>
-<span><span class="label">CON</span> 18 (+4)</span>
-<span><span class="label">INT</span> 20 (+5)</span>
-<span><span class="label">WIS</span> 14 (+2)</span>
-<span><span class="label">CHA</span> 10 (+0)</span>
-</div>
+<table class="ability-table">
+<tr><th></th><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td></td><td>+3 / +3</td><td>+2 / +2</td><td>+4 / +8</td><td>+5 / +9</td><td>+2 / +6</td><td>+0 / +0</td></tr>
+</table>
 <hr>
-<p><span class="label">Antimagic Aura:</span> 30 ft. radius Antimagic Field. Can suppress/reactivate as bonus action.</p>
-<p><span class="label">Multiattack:</span> 2 Force Blade attacks</p>
-<p><span class="label">Force Blade:</span> +8 to hit, 2d8+3 force (works in antimagic!)</p>
-<p><span class="label">Counterspell/Dispel Magic (3/day each):</span> When aura is suppressed</p>
+<p><span class="label">Skills</span> Arcana +9, Investigation +9, Perception +6</p>
+<p><span class="label">Resistances</span> Force</p>
+<p><span class="label">Condition Immunities</span> Charmed</p>
+<p><span class="label">Senses</span> Darkvision 60 ft., Passive Perception 16</p>
+<p><span class="label">Languages</span> Common, Abyssal, Deep Speech</p>
+<p><span class="label">CR</span> 11 (XP 7,200; PB +4)</p>
 <hr>
-<p><em>Weakness: Kill the Null = antimagic drops. Escape outside = magic works again.</em></p>
+<div class="section-header">Traits</div>
+<p><strong>Antimagic Aura.</strong> The Null generates a 30-ft.-radius Antimagic Field centered on itself. As a Bonus Action, the Null can suppress or reactivate this aura. All magical effects (including magic items) cease to function within the aura.</p>
+<p><strong>Force-Touched Weapons.</strong> The Null's weapon attacks deal Force damage and function normally within its Antimagic Aura.</p>
+<hr>
+<div class="section-header">Actions</div>
+<p><strong>Multiattack.</strong> The Null makes two Force Blade attacks.</p>
+<p><strong>Force Blade.</strong> <em>Melee Attack Roll:</em> +8 to hit, reach 5 ft. <em>Hit:</em> 12 (2d8 + 3) Force damage. These attacks function within the Antimagic Aura.</p>
+<p><strong>Null Pulse (Recharge 5-6).</strong> The Null releases a burst of antimagic energy. Each creature within 15 ft. must make a <em>Constitution D20 Test</em> (DC 17). <em>Failure:</em> 16 (3d10) Force damage, and any spell of 5th level or lower on the target ends. <em>Success:</em> Half damage.</p>
+<hr>
+<div class="section-header">Reactions</div>
+<p><strong>Counterspell (3/Day).</strong> When the Null's aura is suppressed, it can cast Counterspell (at 5th level) as a Reaction.</p>
+<hr>
+<p style="color:var(--red);font-weight:600"><em>⚠️ Weakness: Kill the Null = antimagic drops. Escape outside the house = magic works again.</em></p>
 </div>
 
 <div class="stat-block">
-<div class="name">Vecna Cult Assassins ×4 (CR 8)</div>
+<div class="name">Vecna Cult Assassin ×4</div>
+<div class="type">Medium Humanoid, Neutral Evil</div>
 <hr>
-<div class="stat-row"><span><span class="label">AC</span> 15</span><span><span class="label">HP</span> 78</span></div>
-<p><span class="label">Shortsword:</span> +6, 1d6+3 + 7d6 sneak attack (if advantage)</p>
-<p><span class="label">Assassinate:</span> Advantage + auto-crit on surprised targets</p>
+<div class="stat-row">
+<span><span class="label">AC</span> 15 (studded leather)</span>
+<span><span class="label">HP</span> 78 (12d8 + 24)</span>
+</div>
+<div class="stat-row">
+<span><span class="label">Speed</span> 30 ft.</span>
+<span><span class="label">Initiative</span> +5 (15)</span>
+</div>
+<hr>
+<table class="ability-table">
+<tr><th></th><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td></td><td>+0 / +0</td><td>+5 / +8</td><td>+2 / +2</td><td>+1 / +1</td><td>+2 / +2</td><td>+0 / +0</td></tr>
+</table>
+<hr>
+<p><span class="label">Skills</span> Acrobatics +8, Deception +3, Perception +5, Stealth +11</p>
+<p><span class="label">Resistances</span> Poison</p>
+<p><span class="label">Senses</span> Darkvision 60 ft., Passive Perception 15</p>
+<p><span class="label">Languages</span> Common, Thieves' Cant</p>
+<p><span class="label">CR</span> 8 (XP 3,900; PB +3)</p>
+<hr>
+<div class="section-header">Traits</div>
+<p><strong>Assassinate.</strong> During the first round of combat, the assassin has Advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a Surprised creature is a Critical Hit.</p>
+<p><strong>Evasion.</strong> If the assassin is subjected to an effect that allows a Dexterity saving throw for half damage, it instead takes no damage on a success and half damage on a failure.</p>
+<p><strong>Sneak Attack (1/Turn).</strong> The assassin deals an extra 24 (7d6) damage when it hits a target with a weapon attack and has Advantage, or when the target is within 5 ft. of an ally.</p>
+<hr>
+<div class="section-header">Actions</div>
+<p><strong>Multiattack.</strong> The assassin makes two Shortsword attacks.</p>
+<p><strong>Shortsword.</strong> <em>Melee Attack Roll:</em> +8 to hit, reach 5 ft. <em>Hit:</em> 8 (1d6 + 5) Piercing damage, and the target must make a <em>Constitution D20 Test</em> (DC 15). <em>Failure:</em> 24 (7d6) Poison damage. <em>Success:</em> Half damage.</p>
+<p><strong>Light Crossbow.</strong> <em>Ranged Attack Roll:</em> +8 to hit, range 80/320 ft. <em>Hit:</em> 9 (1d8 + 5) Piercing damage, plus poison (same save as above).</p>
+<hr>
+<div class="section-header">Reactions</div>
+<p><strong>Uncanny Dodge.</strong> When an attacker the assassin can see hits it with an attack, it can halve the attack's damage.</p>
 </div>
 
 <h3>😭 Emotional Beats</h3>
@@ -803,7 +966,7 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <div class="party-grid">
 <div class="pc-card">
 <div class="pc-name">⚔️ Akilles</div><div class="pc-class">Ranger 15 — Player: Seth</div>
-<hr style="border-color:rgba(57,255,20,.15);margin:8px 0">
+<hr style="border-color:rgba(212,168,67,.15);margin:8px 0">
 <div class="pc-hooks">
 <p><strong>Real Name:</strong> Prince Algar Castor. Killed his Vecna-controlled father 30 years ago. Took new identity. Hunts undead/fiends.</p>
 <p><strong>Brother:</strong> Aldir — In the DFR, fled to Hearthvault (Icewind Dale) with his people. Akilles knocked him out declaring him "the better king." In the real timeline, ruled the Sword Coast from Waterdeep.</p>
@@ -812,7 +975,7 @@ tr:hover td{background:rgba(57,255,20,.04)}
 </div></div>
 <div class="pc-card">
 <div class="pc-name">🎵 Olaf</div><div class="pc-class">Bard 15 — Player: Wren</div>
-<hr style="border-color:rgba(57,255,20,.15);margin:8px 0">
+<hr style="border-color:rgba(212,168,67,.15);margin:8px 0">
 <div class="pc-hooks">
 <p><strong>Cover Story:</strong> Ulmist Inquisitor introduced by Sarusanda. "Accident" caused amnesia — memory only spans 4 years. Left Barovia before party arrived.</p>
 <p><strong>Post Lady of Pain:</strong> Getting flashes of "before" memories in Sigil. Only party member without "before" memories (officially).</p>
@@ -820,7 +983,7 @@ tr:hover td{background:rgba(57,255,20,.04)}
 </div></div>
 <div class="pc-card">
 <div class="pc-name">🐢 Jimothy</div><div class="pc-class">Cleric 15 — Player: Jonathan</div>
-<hr style="border-color:rgba(57,255,20,.15);margin:8px 0">
+<hr style="border-color:rgba(212,168,67,.15);margin:8px 0">
 <div class="pc-hooks">
 <p><strong>Background:</strong> Tortle. Former Vecna cultist, freed 2 years ago. Now serves Selûne. Ehud's death cemented redemption.</p>
 <p><strong>Has:</strong> Crown of Lies (disguise + avoid all detection). Mist Talisman (walk mists to burning peaks — useful for Tovag/Citadel Cavitius later).</p>
@@ -829,7 +992,7 @@ tr:hover td{background:rgba(57,255,20,.04)}
 </div></div>
 <div class="pc-card">
 <div class="pc-name">📖 Marianne (Mari)</div><div class="pc-class">Cleric/Wizard 15 — Player: Nathan</div>
-<hr style="border-color:rgba(57,255,20,.15);margin:8px 0">
+<hr style="border-color:rgba(212,168,67,.15);margin:8px 0">
 <div class="pc-hooks">
 <p><strong>Background:</strong> Yuan-ti Pureblood. Sailor → shipwreck → saved by Pelor/Umberlee pact → holy warrior → studied under Alustriel at Lady's College.</p>
 <p><strong>Mother:</strong> Aususra (Se'Sehen) Bonhomme — yuan-ti refugee, fled bounty hunters.</p>
@@ -838,7 +1001,7 @@ tr:hover td{background:rgba(57,255,20,.04)}
 </div></div>
 <div class="pc-card">
 <div class="pc-name">🛡️ Zephyr Grimraven</div><div class="pc-class">Paladin/Fighter 15 — Player: Josh</div>
-<hr style="border-color:rgba(57,255,20,.15);margin:8px 0">
+<hr style="border-color:rgba(212,168,67,.15);margin:8px 0">
 <div class="pc-hooks">
 <p><strong>Background:</strong> Shadar-kai from Letherna, 300 years old. Bound to Material Plane by Raven Queen via pronged Belt of Remembrance.</p>
 <p><strong>Raven Queen's purpose:</strong> Stop Vecna — his rise threatens her control over souls/death cycle.</p>
@@ -911,7 +1074,7 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <div class="collapsible"><div class="collapsible-header">Rulers, Enforcers, Resistance</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
 <ul>
-<li><strong>King Aldar — Lich Lord</strong> — seat: Castle Waterdeep. Wants: dominance; disbelief about Akilles/Algar.</li>
+<li><strong>King Aldar — Lich Lord</strong> — seat: Castle Waterdeep. Supported by evil DFR Algar. Furious at Aldir's defiance in Icewind Dale.</li>
 <li><strong>Captain Voss — Death Knight</strong> — tactical enforcer; targets healers; guard layer before Aldar.</li>
 <li><strong>Brother Solace</strong> — resistance cell leader at Undercroft (Temple of Tyr ruins). Wants: proof you’re real allies.</li>
 <li><strong>Mireva</strong> — Dread Market merchant seeing “before” visions via Crevices; potential informant.</li>
@@ -951,14 +1114,6 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <p style="color:var(--text2);font-size:.82rem">(Add/adjust as you like—these are good general-purpose levers for Sigil scenes.)</p>
 </div></div></div>
 
-<div class="card" style="border-left:4px solid var(--bronze)">
-<h4>Next pass (I can add)</h4>
-<ul>
-<li>Clickable <strong>jump links</strong> from each name to its full entry in the NPC Directory (requires adding anchors).</li>
-<li>A tiny <strong>"Where are they now?"</strong> line for each NPC (especially useful during travel).</li>
-<li>More "DFR gazetteer" pulls once you share any specific gazetteer pages you like best.</li>
-</ul>
-</div>
 </div>
 
 <!-- ==================== NPC DIRECTORY ==================== -->
@@ -1013,9 +1168,9 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <div class="collapsible-header">👑 King Aldar — Lich Lord</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
 <p><strong>Alignment:</strong> LE | <strong>CR:</strong> 18-19 | <strong>AC:</strong> 18 | <strong>HP:</strong> 225</p>
-<p><strong>Background:</strong> Akilles' father. Was a mage intent on serving Vecna to become a lich. In the DFR, he succeeded — now rules the Sword Coast as a lich from Waterdeep. Believes his son Algar is dead (Akilles killed him in the original timeline to prevent his Vecna transformation).</p>
-<p><strong>Personality:</strong> Arrogant, cruel, calculating. Views himself as inevitable.</p>
-<p><strong>Key Line:</strong> <em>"My son is DEAD. What manner of trick is this?"</em></p>
+<p><strong>Background:</strong> Akilles' father. In the DFR, succeeded in becoming a lich; rules the Sword Coast from Waterdeep. The DFR version of <strong>Algar</strong> (the evil version of Akilles' true identity) serves loyally at his side. His fury is directed at <strong>Aldir</strong> — the son who fled to Icewind Dale and refuses to embrace Vecna's power. The party met Aldir during the Icewind Dale obelisk quest.</p>
+<p><strong>Personality:</strong> Arrogant, cruel, calculating. Speaks about Aldir with contempt, about DFR Algar with cold pride.</p>
+<p><strong>Key Lines:</strong> <em>"My firstborn hides in the ice like a frightened dog."</em> / If Akilles reveals himself: <em>"Algar stands at my right hand. You are an impostor."</em></p>
 </div></div>
 </div>
 <div class="collapsible">
@@ -1028,13 +1183,17 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <div class="collapsible">
 <div class="collapsible-header">🔮 Mireva — Dread Market Merchant</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
-<p>Seeing visions of "before" through Crevices. Terrified but potential ally. DC 13 Persuasion. Knows castle layout, patrol schedules, Crevice locations.</p>
+<p><strong>Race:</strong> Half-elf, early 40s | <strong>Alignment:</strong> NG</p>
+<p>Curio dealer on a planar thin spot where Crevices keep recurring. Prolonged exposure has made her sensitive to the Lady of Pain's ripple effects — she sees the "before" world overlaid on this one. Thinks she's going mad. Knows castle layout, patrol schedules, 3 Crevice locations. Has seen a vision of a silver-armored woman (possibly Laeren) through a Crevice.</p>
+<p><strong>DC 13 Persuasion</strong> to talk, DC 10 if party mentions Lady of Pain or shows knowledge of "before."</p>
 </div></div>
 </div>
 <div class="collapsible">
-<div class="collapsible-header">🙏 Brother Solace — Resistance Leader</div>
+<div class="collapsible-header">🙏 Brother Solace (Corwin Ashvale) — Resistance Leader</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
-<p>Posing as Vecna cult priest. Runs resistance cell from the Undercroft (Temple of Tyr ruins). 8-12 members. DC 15 Persuasion to gain trust.</p>
+<p><strong>Race:</strong> Human, late 50s | <strong>Alignment:</strong> LG</p>
+<p>Former paladin of Tyr who abandoned his oath strategically. Poses as a low-ranking Vecna cult priest to move freely. Runs an 8-12 person resistance cell from the Undercroft beneath the old Temple of Tyr. Can provide: safe house, intel on guard rotations and informant identities, 3 healing potions, a distraction to draw patrols. Gruff, exhausted, deeply principled.</p>
+<p><strong>DC 15 Persuasion</strong> to gain trust. DC 10 if party invokes Tyr's name with reverence or mentions Lady of Pain's return.</p>
 </div></div>
 </div>
 
@@ -1430,13 +1589,6 @@ tr:hover td{background:rgba(57,255,20,.04)}
 </ul>
 </div></div>
 
-<div class="card" style="border-left:4px solid var(--bronze)">
-<h4>Next pass</h4>
-<ul>
-<li>I can add a “<strong>note cards</strong>” section (short read-aloud directives from Vecna to Olaf, etc.)</li>
-<li>I can cross-link each secret to the relevant page (Aldar Fight / Bronte Trap / etc.).</li>
-</ul>
-</div>
 </div>
 
 <!-- ==================== RANDOM ENCOUNTERS ==================== -->
@@ -1498,6 +1650,33 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <!-- ==================== CAMPAIGN TIMELINE ==================== -->
 <div class="page" id="page-timeline">
 <h2>🗺️ Campaign Timeline</h2>
+
+<div class="collapsible">
+<div class="collapsible-header">🧱 Campaign Arc Overview</div>
+<div class="collapsible-body"><div class="collapsible-body-inner">
+<ul>
+<li><strong>Chapter 1 — Rescuing the Townsfolk (Neverwinter)</strong>: party forms, rescues captives, disrupts multiversal ritual → retain "before" memories.</li>
+<li><strong>Chapter 1 — The Undoing of the Multiverse</strong>: cast through a <em>Crevice of Dusk</em> to Evernight (Shadowfell mirror); return to a corrupted world: the <strong>Doomed Forgotten Realms</strong>.</li>
+<li><strong>Chapter 2 — The Wizards Three (Sigil Sanctum)</strong>: meet Mordenkainen, Alustriel, Tasha (+ Kaelen). Quest: <strong>Rod of Seven Parts</strong>.</li>
+<li><strong>Chapter 2 — Web's Edge (Underdark)</strong>: Rod piece #1; Kas appears; Ehud cuts off Kas' left arm.</li>
+<li><strong>Chapter 3 — Lambent Zenith (Astral Sea)</strong>: death slaad Ilren; Akilles plane-shifted away → Cyre 1313.</li>
+<li><strong>Side quest — Cyre 1313 (Eberron)</strong>: Akilles meets Starrin d'Cannith; exits via Hall of Concordance.</li>
+<li><strong>Chapter 3 — Lambent Zenith (Parts 2–3)</strong>: Rod piece #2.</li>
+<li><strong>Chapter 4 — Ruined Colossus (Eberron)</strong>: Rod piece #3 from Landro.</li>
+<li><strong>Chapter 5 — Death House (Barovia)</strong>: Rod piece #4; Jimothy gets Mist Talisman.</li>
+<li><strong>Side quest — Lady of Pain's Maze</strong>: Jimothy receives Crown of Lies; Ehud sacrifices himself.</li>
+</ul>
+</div></div>
+</div>
+
+<div class="card highlight">
+<h4>📍 Current Status</h4>
+<ul>
+<li><strong>Rod of Seven Parts:</strong> 4/7 pieces</li>
+<li><strong>Obelisks:</strong> 1 attuned (Ythryn)</li>
+<li><strong>Next likely path:</strong> Waterdeep (Market → Castle → Aldar) then Silverymoon</li>
+</ul>
+</div>
 
 <div class="card">
 <h4>Chapter 1 — Rescuing the Townsfolk</h4>
@@ -1589,22 +1768,22 @@ tr:hover td{background:rgba(57,255,20,.04)}
 
 <h3 style="margin-top:30px">📅 Upcoming Chapters</h3>
 
-<div class="card" style="border:1px dashed var(--green);opacity:.8">
+<div class="card" style="border:1px dashed var(--gold);opacity:.8">
 <h4><span class="badge badge-upcoming">UPCOMING</span> Palace of Heart's Desire — Feywild</h4>
 <p><strong>Rod Piece #5.</strong> Tasha/Zybilna's domain has fallen into chaos. Her fractured memories cause the palace to spiral. Party must help her regain control by piecing together lost memories, including her tragic realization that her son Iuz unwittingly enabled Vecna's conquest. They'll face manifestations of their own heart's desires.</p>
 </div>
 
-<div class="card" style="border:1px dashed var(--green);opacity:.8">
+<div class="card" style="border:1px dashed var(--gold);opacity:.8">
 <h4><span class="badge badge-upcoming">UPCOMING</span> Tovag — Domain of Dread (Obelisk #2)</h4>
 <p>Party must attune to an obelisk near Kas' abandoned citadel or Citadel Cavitius where Vecna lived. May reach it using the Mist Talisman from Barovia.</p>
 </div>
 
-<div class="card" style="border:1px dashed var(--green);opacity:.8">
+<div class="card" style="border:1px dashed var(--gold);opacity:.8">
 <h4><span class="badge badge-upcoming">UPCOMING</span> Tomb of Horrors — Oerth</h4>
 <p><strong>Rod Piece #6.</strong> Dangerous tomb designed by Acererak. Must face Rerak (simulacrum of Acererak). Nearby obelisk from Tomb of Annihilation should be findable. Possible encounter: Kill Arkhan the Cruel to retrieve the <strong>Hand of Vecna</strong>.</p>
 </div>
 
-<div class="card" style="border:1px dashed var(--green);opacity:.8">
+<div class="card" style="border:1px dashed var(--gold);opacity:.8">
 <h4><span class="badge badge-upcoming">UPCOMING</span> Final Chapters</h4>
 <p>Retrieve Rod Piece #7. Attune remaining obelisks. Confront Vecna. The endgame approaches.</p>
 </div>
@@ -1612,57 +1791,26 @@ tr:hover td{background:rgba(57,255,20,.04)}
 
 <!-- DM Screen removed per request -->
 
-
-
-<!-- ==================== CAMPAIGN STRUCTURE ==================== -->
-<div class="page" id="page-campaign-structure">
-<h2>🧱 Campaign Structure</h2>
-<div class="card">
-<h4>High-level arc (so far)</h4>
-<ul>
-<li><strong>Chapter 1 — Rescuing the Townsfolk (Neverwinter)</strong>: party forms, rescues captives, disrupts multiversal ritual → retain “before” memories.</li>
-<li><strong>Chapter 1 — The Undoing of the Multiverse</strong>: cast through a <em>Crevice of Dusk</em> to Evernight (Shadowfell mirror); return to a corrupted world: the <strong>Doomed Forgotten Realms</strong>. Key reveal: Aldar still rules (lich path).</li>
-<li><strong>Chapter 2 — The Wizards Three (Sigil Sanctum)</strong>: meet Mordenkainen, Alustriel, Tasha (+ Kaelen). Quest: <strong>Rod of Seven Parts</strong>; research to undo Vecna’s changes.</li>
-<li><strong>Chapter 2 — Web’s Edge (Underdark)</strong>: Rod piece #1; Kas appears; Ehud cuts off Kas’ left arm; Mordenkainen tension (“sticks incident”).</li>
-<li><strong>Chapter 3 — Lambent Zenith (Astral Sea)</strong>: death slaad Ilren; Akilles plane-shifted away → Cyre 1313.</li>
-<li><strong>Side quest — Cyre 1313 (Eberron)</strong>: Akilles learns about the Mourning Rail; meets Starrin d’Cannith; exits via Hall of Concordance (Sigil).</li>
-<li><strong>Chapter 3 — Lambent Zenith (Parts 2–3)</strong>: Rod piece #2; Akilles notices reality disruption → later becomes the Lady of Pain maze hook.</li>
-<li><strong>Chapter 4 — Ruined Colossus (Eberron)</strong>: Rod piece #3 from Landro; Kalyth & Mercy stay behind; Landro’s explosion triggered.</li>
-<li><strong>Chapter 5 — Death House (Barovia)</strong>: Rod piece #4; Ulmist Inquisition (Sarusanda); Priests of Osybus serve Kas; Jimothy gets Mist Talisman.</li>
-<li><strong>Side quest — Lady of Pain’s Maze (Sigil)</strong>: Jimothy receives Crown of Lies; Ehud sacrifices himself to free the Lady; ripple effects begin.</li>
-</ul>
-</div>
-<div class="card highlight">
-<h4>Current status</h4>
-<ul>
-<li><strong>Rod of Seven Parts:</strong> 4/7 pieces</li>
-<li><strong>Obelisks:</strong> 1 attuned (Ythryn)</li>
-<li><strong>Next likely path:</strong> Waterdeep (Market → Castle → Aldar) then Silverymoon</li>
-</ul>
-</div>
-<p style="font-size:.82rem;color:var(--text2)">Source: campaign summary PDFs + session notes. This page is meant to be a quick refresher, not exhaustive.</p>
-</div>
-
 <!-- ==================== INITIATIVE TRACKER ==================== -->
 <div class="page" id="page-initiative">
 <h2>⏱️ Initiative Tracker</h2>
 <div class="card">
 <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap">
-<input type="text" id="init-name" placeholder="Name" style="flex:1;min-width:120px;background:var(--bg);border:1px solid rgba(57,255,20,.2);color:var(--text);padding:6px 10px;border-radius:4px">
-<input type="number" id="init-roll" placeholder="Init" style="width:60px;background:var(--bg);border:1px solid rgba(57,255,20,.2);color:var(--text);padding:6px 10px;border-radius:4px">
-<input type="number" id="init-hp" placeholder="HP" style="width:60px;background:var(--bg);border:1px solid rgba(57,255,20,.2);color:var(--text);padding:6px 10px;border-radius:4px">
+<input type="text" id="init-name" placeholder="Name" style="flex:1;min-width:120px;background:var(--bg);border:1px solid rgba(212,168,67,.2);color:var(--text);padding:6px 10px;border-radius:4px">
+<input type="number" id="init-roll" placeholder="Init" style="width:60px;background:var(--bg);border:1px solid rgba(212,168,67,.2);color:var(--text);padding:6px 10px;border-radius:4px">
+<input type="number" id="init-hp" placeholder="HP" style="width:60px;background:var(--bg);border:1px solid rgba(212,168,67,.2);color:var(--text);padding:6px 10px;border-radius:4px">
 <label style="display:flex;align-items:center;gap:4px;font-size:.8rem;color:var(--text2)"><input type="checkbox" id="init-ispc"> PC</label>
-<button onclick="addInit()" style="padding:6px 16px;background:var(--green);border:none;color:var(--bg);border-radius:4px;cursor:pointer;font-weight:600">Add</button>
+<button onclick="addInit()" style="padding:6px 16px;background:var(--gold);border:none;color:var(--bg);border-radius:4px;cursor:pointer;font-weight:600">Add</button>
 </div>
 <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap">
-<button onclick="sortInit()" style="padding:4px 12px;background:var(--green-dim);border:1px solid var(--green);color:var(--green);border-radius:4px;cursor:pointer;font-size:.8rem">Sort ↓</button>
+<button onclick="sortInit()" style="padding:4px 12px;background:var(--gold-dim);border:1px solid var(--gold);color:var(--gold);border-radius:4px;cursor:pointer;font-size:.8rem">Sort ↓</button>
 <button onclick="nextTurn()" style="padding:4px 12px;background:rgba(39,174,96,.15);border:1px solid var(--green-hp);color:var(--green-hp);border-radius:4px;cursor:pointer;font-size:.8rem">Next ▶ <small>(N)</small></button>
-<button onclick="prevTurn()" style="padding:4px 12px;background:var(--green-dim);border:1px solid var(--green);color:var(--green);border-radius:4px;cursor:pointer;font-size:.8rem">Prev ◀</button>
+<button onclick="prevTurn()" style="padding:4px 12px;background:var(--gold-dim);border:1px solid var(--gold);color:var(--gold);border-radius:4px;cursor:pointer;font-size:.8rem">Prev ◀</button>
 <button onclick="clearInit()" style="padding:4px 12px;background:rgba(231,76,60,.15);border:1px solid var(--red);color:var(--red);border-radius:4px;cursor:pointer;font-size:.8rem">Clear All</button>
 </div>
 <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap">
-<button onclick="loadPreset('aldar')" style="padding:4px 10px;background:rgba(57,255,20,.06);border:1px solid rgba(57,255,20,.2);color:var(--text2);border-radius:4px;cursor:pointer;font-size:.75rem">Load: Aldar Fight</button>
-<button onclick="loadPreset('bronte')" style="padding:4px 10px;background:rgba(57,255,20,.06);border:1px solid rgba(57,255,20,.2);color:var(--text2);border-radius:4px;cursor:pointer;font-size:.75rem">Load: Bronte Trap</button>
+<button onclick="loadPreset('aldar')" style="padding:4px 10px;background:rgba(212,168,67,.06);border:1px solid rgba(212,168,67,.2);color:var(--text2);border-radius:4px;cursor:pointer;font-size:.75rem">Load: Aldar Fight</button>
+<button onclick="loadPreset('bronte')" style="padding:4px 10px;background:rgba(212,168,67,.06);border:1px solid rgba(212,168,67,.2);color:var(--text2);border-radius:4px;cursor:pointer;font-size:.75rem">Load: Bronte Trap</button>
 </div>
 <div id="init-list"></div>
 <div id="round-counter" style="margin-top:8px;color:var(--text2);font-size:.85rem"></div>
@@ -1687,9 +1835,9 @@ tr:hover td{background:rgba(57,255,20,.04)}
 </div>
 <div style="display:flex;gap:8px;justify-content:center;align-items:center;margin-bottom:16px;flex-wrap:wrap">
 <label style="color:var(--text2);font-size:.85rem">Count:</label>
-<input type="number" id="dice-count" value="1" min="1" max="20" style="width:50px;background:var(--bg);border:1px solid rgba(57,255,20,.2);color:var(--text);padding:6px;border-radius:4px;text-align:center">
+<input type="number" id="dice-count" value="1" min="1" max="20" style="width:50px;background:var(--bg);border:1px solid rgba(212,168,67,.2);color:var(--text);padding:6px;border-radius:4px;text-align:center">
 <label style="color:var(--text2);font-size:.85rem">Modifier:</label>
-<input type="number" id="dice-mod" value="0" style="width:60px;background:var(--bg);border:1px solid rgba(57,255,20,.2);color:var(--text);padding:6px;border-radius:4px;text-align:center">
+<input type="number" id="dice-mod" value="0" style="width:60px;background:var(--bg);border:1px solid rgba(212,168,67,.2);color:var(--text);padding:6px;border-radius:4px;text-align:center">
 <label style="display:flex;align-items:center;gap:4px;font-size:.82rem;color:var(--text2)"><input type="checkbox" id="dice-adv"> Adv</label>
 <label style="display:flex;align-items:center;gap:4px;font-size:.82rem;color:var(--text2)"><input type="checkbox" id="dice-dis"> Dis</label>
 </div>
@@ -1706,14 +1854,40 @@ tr:hover td{background:rgba(57,255,20,.04)}
 <!-- ==================== SESSION NOTES ==================== -->
 <div class="page" id="page-notes">
 <h2>📝 Session Notes</h2>
+
 <div class="card">
+<h4>✏️ Tonight's Notes</h4>
 <p style="font-size:.82rem;color:var(--text2);margin-bottom:8px">Auto-saves to your browser. Won't be lost on refresh.</p>
 <textarea id="session-notes-area" placeholder="Type your session notes here..."></textarea>
-<div style="display:flex;gap:8px;margin-top:8px">
+<div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+<button onclick="archiveNotes()" style="padding:6px 12px;background:rgba(212,168,67,.15);border:1px solid var(--gold);color:var(--gold);border-radius:4px;cursor:pointer;font-size:.8rem">📥 Archive to History</button>
 <button onclick="clearNotes()" style="padding:6px 12px;background:rgba(231,76,60,.15);border:1px solid var(--red);color:var(--red);border-radius:4px;cursor:pointer;font-size:.8rem">Clear Notes</button>
 <button onclick="exportNotes()" style="padding:6px 12px;background:rgba(39,174,96,.15);border:1px solid var(--green-hp);color:var(--green-hp);border-radius:4px;cursor:pointer;font-size:.8rem">Export as .txt</button>
 <span id="notes-saved" style="color:var(--green-hp);font-size:.8rem;align-self:center;opacity:0;transition:opacity .3s">✓ Saved</span>
 </div>
+</div>
+
+<h3>📜 Previous Session Notes</h3>
+<div id="notes-history-container">
+<p style="color:var(--text2);font-size:.85rem">No archived notes yet. Use "Archive to History" to save your current notes here.</p>
+</div>
+
+<div class="collapsible">
+<div class="collapsible-header">📖 Session 23 — 02/13/26 (Pre-loaded)</div>
+<div class="collapsible-body"><div class="collapsible-body-inner">
+<p><strong>Personal Business &amp; Waterdeep Prep</strong></p>
+<ul>
+<li><strong>Marianne</strong> used the 1st rod piece to Commune with Pelor at the top of Revelation Ward. Learned: "The Whispered One's influence does not reach as far back in the timeline as those here believe." Pelor said freeing other deities is "not yet." Survival depends on "your degree of success."</li>
+<li><strong>Olaf</strong> researched the library, found records of Vecna not matching expectations. Asked Tasha about <em>Die, Vecna, Die!</em> — she bristled. Olaf charmed her into sharing more, promised not to tell Alustriel. <em>Then slept with her, because bard.</em></li>
+<li><strong>Akilles</strong> talked to Kaelen — learned Alustriel "snatched him up" as a younger man. Kaelen realized she talks down to him.</li>
+<li><strong>Jimothy</strong> returned the stolen elemental gem (Landro). Revealed the Crown of Lies to the full party. Only Zephyr knew before.</li>
+<li><strong>Olaf</strong> wanted the Crown (secretly for himself) but Jimothy refused. Jimothy working to shift loyalty from Vecna to Raven Queen.</li>
+<li><strong>Marianne</strong> grabbed fairy companion Tina Fey from next to Redbud.</li>
+<li>Party teleported to Waterdeep, rested in Porthaven demiplane. Marianne and Akilles had deep conversation about fearing they'll fail their families.</li>
+<li><strong>Kaelen</strong> plans route: Heroes' Garden → Market → Castle Waterdeep → find Laeren → attack Aldar.</li>
+</ul>
+<p><strong>Key lore note:</strong> In the DFR, Algar is evil and serves alongside King Aldar. Aldir fled to Icewind Dale.</p>
+</div></div>
 </div>
 </div>
 
@@ -1760,15 +1934,15 @@ const deathSaveHtml=c.isPC?`
 <span style="color:var(--red)">✗ ${[1,2,3].map(n=>`<input type="checkbox" ${c.deathFail>=n?'checked':''} onchange="setDeathSave(${i},'fail',${n},this.checked)">`).join('')}</span>
 </div>`:'';
 return `
-<div style="padding:8px;border:1px solid ${isCurrent?'var(--green)':'rgba(57,255,20,.08)'};border-radius:6px;margin-bottom:6px;${isCurrent?'background:rgba(57,255,20,.06)':''}">
+<div style="padding:8px;border:1px solid ${isCurrent?'var(--gold)':'rgba(212,168,67,.08)'};border-radius:6px;margin-bottom:6px;${isCurrent?'background:rgba(212,168,67,.06)':''}">
 <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
-<span style="width:20px;color:var(--green);font-weight:700">${isCurrent?'▶':''}</span>
-<input type="number" value="${c.init}" onchange="initList[${i}].init=+this.value" style="background:var(--bg);border:1px solid rgba(57,255,20,.2);color:var(--text);padding:4px 6px;border-radius:4px;width:48px;text-align:center">
+<span style="width:20px;color:var(--gold);font-weight:700">${isCurrent?'▶':''}</span>
+<input type="number" value="${c.init}" onchange="initList[${i}].init=+this.value" style="background:var(--bg);border:1px solid rgba(212,168,67,.2);color:var(--text);padding:4px 6px;border-radius:4px;width:48px;text-align:center">
 <strong style="${c.hp<=0&&c.maxHp>0?'text-decoration:line-through;opacity:.5':''}">${c.name}</strong>
 ${c.isPC?'<span class="badge badge-gold">PC</span>':''}
 <span style="display:flex;align-items:center;gap:4px;margin-left:auto">
 <span style="color:var(--text2);font-size:.8rem">HP:</span>
-<input type="number" value="${c.hp}" onchange="initList[${i}].hp=+this.value;renderInit()" style="background:var(--bg);border:1px solid rgba(57,255,20,.2);color:${c.hp<=0&&c.maxHp>0?'var(--red)':c.hp<=c.maxHp/4&&c.maxHp>0?'#e67e22':'var(--text)'};padding:4px 6px;border-radius:4px;width:55px;text-align:center">
+<input type="number" value="${c.hp}" onchange="initList[${i}].hp=+this.value;renderInit()" style="background:var(--bg);border:1px solid rgba(212,168,67,.2);color:${c.hp<=0&&c.maxHp>0?'var(--red)':c.hp<=c.maxHp/4&&c.maxHp>0?'#e67e22':'var(--text)'};padding:4px 6px;border-radius:4px;width:55px;text-align:center">
 <span style="color:var(--text2);font-size:.75rem">/${c.maxHp}</span>
 </span>
 <button onclick="initList.splice(${i},1);if(currentTurn>=initList.length)currentTurn=Math.max(0,initList.length-1);renderInit()" style="background:rgba(231,76,60,.2);border:1px solid var(--red);color:var(--red);padding:2px 8px;border-radius:4px;cursor:pointer;font-size:.75rem">✕</button>
@@ -1867,9 +2041,9 @@ void document.getElementById('dice-result').offsetWidth;
 document.getElementById('dice-result').style.animation='rollIn .3s ease';
 document.getElementById('dice-detail').textContent=detail;
 const nat=(sides===20&&count===1);
-if(nat&&(rolls[0]===20))document.getElementById('dice-result').style.color='var(--green-hp)';
+if(nat&&(rolls[0]===20))document.getElementById('dice-result').style.color='#e8c36a';
 else if(nat&&(rolls[0]===1))document.getElementById('dice-result').style.color='var(--red)';
-else document.getElementById('dice-result').style.color='var(--green)';
+else document.getElementById('dice-result').style.color='var(--gold)';
 rollLog.unshift({total,detail,time:new Date().toLocaleTimeString()});
 if(rollLog.length>50)rollLog.length=50;
 renderRollHistory();
@@ -1877,7 +2051,7 @@ renderRollHistory();
 function renderRollHistory(){
 const el=document.getElementById('roll-history');
 if(!rollLog.length){el.innerHTML='<p style="color:var(--text2);font-size:.85rem">No rolls yet.</p>';return}
-el.innerHTML=rollLog.map(r=>`<div><span style="color:var(--text2)">${r.time}</span> — <strong style="color:var(--green)">${r.total}</strong> <span style="color:var(--text2)">(${r.detail})</span></div>`).join('');
+el.innerHTML=rollLog.map(r=>`<div><span style="color:var(--text2)">${r.time}</span> — <strong style="color:var(--gold)">${r.total}</strong> <span style="color:var(--text2)">(${r.detail})</span></div>`).join('');
 }
 function clearRollHistory(){rollLog=[];renderRollHistory();document.getElementById('dice-result').textContent='—';document.getElementById('dice-detail').textContent=''}
 
@@ -1901,6 +2075,32 @@ const blob=new Blob([notesArea.value],{type:'text/plain'});
 const a=document.createElement('a');a.href=URL.createObjectURL(blob);
 a.download='session-notes-'+new Date().toISOString().slice(0,10)+'.txt';a.click();
 }
+// Session Notes Archive
+function getNotesHistory(){return JSON.parse(localStorage.getItem('dm-notes-history')||'[]')}
+function saveNotesHistory(h){localStorage.setItem('dm-notes-history',JSON.stringify(h))}
+function archiveNotes(){
+const text=notesArea.value.trim();
+if(!text){alert('No notes to archive.');return}
+const title=prompt('Session title (e.g. "Session 24 — 03/14/26"):');
+if(!title)return;
+const history=getNotesHistory();
+history.unshift({title,text,date:new Date().toISOString()});
+saveNotesHistory(history);
+renderNotesHistory();
+if(confirm('Notes archived! Clear the editor for tonight?')){notesArea.value='';localStorage.removeItem('dm-session-notes')}
+}
+function deleteArchivedNote(idx){
+if(!confirm('Delete this archived note?'))return;
+const history=getNotesHistory();history.splice(idx,1);saveNotesHistory(history);renderNotesHistory();
+}
+function renderNotesHistory(){
+const container=document.getElementById('notes-history-container');
+const history=getNotesHistory();
+if(!history.length){container.innerHTML='<p style="color:var(--text2);font-size:.85rem">No archived notes yet. Use "Archive to History" to save your current notes here.</p>';return}
+container.innerHTML=history.map((n,i)=>`<div class="collapsible"><div class="collapsible-header">${n.title} <span style="font-size:.75rem;color:var(--text2);margin-left:8px">${new Date(n.date).toLocaleDateString()}</span></div><div class="collapsible-body"><div class="collapsible-body-inner"><pre style="white-space:pre-wrap;font-family:'Kantumruy Pro',sans-serif;font-size:.85rem;line-height:1.6;color:var(--text)">${n.text.replace(/</g,'&lt;')}</pre><button onclick="deleteArchivedNote(${i})" style="margin-top:8px;padding:4px 10px;background:rgba(231,76,60,.15);border:1px solid var(--red);color:var(--red);border-radius:4px;cursor:pointer;font-size:.75rem">Delete</button></div></div></div>`).join('');
+container.querySelectorAll('.collapsible-header').forEach(h=>{h.addEventListener('click',()=>h.parentElement.classList.toggle('open'))});
+}
+renderNotesHistory();
 
 function findInPage(){
   const q=prompt('Find in current page (case-insensitive):');
@@ -1929,7 +2129,7 @@ function findInPage(){
       frag.appendChild(document.createTextNode(s.slice(last,offset)));
       const mark=document.createElement('mark');
       mark.className='oc-find';
-      mark.style.background='rgba(255,62,137,.25)';
+      mark.style.background='rgba(212,168,67,.3)';
       mark.style.color='inherit';
       mark.textContent=match;
       frag.appendChild(mark);
