@@ -1,50 +1,31 @@
 {
   "date": "2026-03-14",
   "period": "afternoon",
-  "generated": "2026-03-14T19:02:47Z",
+  "generated": "2026-03-14T19:02:54Z",
   "items": [
     {
-      "title": "Why surface-level SEO tactics won\u2019t build lasting AI search visibility",
-      "summary": "Surface-level SEO tactics like schema, authorship signals, and branded concepts are criticized for lacking depth and offering only short-term gains in an AI-driven search landscape where LLMs prioritize knowledge graphs, expert entities, and trusted datasets. Brands must shift focus to structural changes, such as building internal AI infrastructure and entity-level knowledge management, to achieve sustainable visibility amid collapsing user journeys and zero-click environments. For SEO and content marketing, this implies moving beyond generic optimizations to foster genuine expertise and integrations that influence AI models, enhancing long-term authority and organic reach.",
-      "url": "https://searchengineland.com/surface-level-seo-tactics-ai-search-visibility-471514",
-      "source": "Search Engine Land",
-      "source_type": "news",
-      "tags": [
-        "AI Search",
-        "Knowledge Graphs",
-        "Entity Optimization",
-        "SEO Tactics",
-        "LLM Visibility"
-      ],
-      "x_urls": [],
-      "id": "9da8326c351f1f05",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-14T19:00:35Z"
-    },
-    {
       "title": "Google Discover Core Update Data: Local Publishers Lost Reach",
-      "summary": "New data from DiscoverSnoop reveals that local publishers like Syracuse.com retained home-state audience reach but suffered significant national visibility losses after Google's February 2026 Discover core update, aligning with Google's emphasis on locally relevant content. Major publishers such as Yahoo, Fox properties, and Forbes experienced over 20% drops in article placements and audience scores, highlighting potential SEO challenges for national distribution strategies. This update underscores the importance of content marketing teams optimizing for hyper-local targeting to mitigate reach declines in broader feeds.",
+      "summary": "Google's Discover core update, which ran from late January to early March 2026, prioritized locally relevant content, leading local publishers like Syracuse.com to lose significant national reach while holding onto home-state audiences. Major publishers such as Yahoo, Fox, and Forbes experienced sharp declines in out-of-state placements and audience scores. This shift highlights the need for SEO strategies focused on local relevance and tools like DiscoverSnoop for tracking Discover performance.",
       "url": "https://www.searchenginejournal.com/google-discover-core-update-data-local-publishers-lost-reach/569735",
       "source": "Search Engine Journal",
       "source_type": "news",
       "tags": [
         "Google Update",
-        "AI Search",
+        "Discover",
         "Local SEO",
-        "Discover Algorithm"
+        "Content Marketing"
       ],
       "x_urls": [],
       "id": "056eadfeda5b493a",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:00:35Z"
+      "timestamp": "2026-03-14T19:00:36Z"
     },
     {
-      "title": "SEO vs AEO vs GEO: The Evolution Explained",
-      "summary": "SEO expert Josh Nay outlines how traditional SEO focuses on keywords, content, backlinks, and technical tweaks for ranking in Google and Bing SERPs. AEO targets direct answers for AI chatbots and voice assistants, while GEO ensures visibility in AI-generated summaries from tools like ChatGPT, Perplexity, and Google AI Overviews through authority, uniqueness, and structured data. Brands must now run all three strategies parallel to remain competitive in the evolving search landscape.",
+      "title": "SEO vs AEO vs GEO: The Evolution of Search Optimization",
+      "summary": "SEO expert Josh Nay explains how traditional SEO focuses on keywords and backlinks for search results lists, while AEO targets direct answers for AI chatbots and voice search. GEO, the latest trend, optimizes for visibility in AI-generated summaries like Google AI Overviews by emphasizing authority, uniqueness, and structured data. Brands should implement all three strategies in parallel to stay competitive.",
       "url": "https://x.com/joshrobertnay/status/2032003718686916992",
-      "source": "Josh Nay | Marketing & SEO (@joshrobertnay)",
+      "source": "@joshrobertnay",
       "source_type": "x",
       "tags": [
         "SEO",
@@ -55,351 +36,388 @@
       "x_urls": [
         "https://x.com/joshrobertnay/status/2032003718686916992"
       ],
-      "id": "9dee8ba94fb78586",
+      "id": "0d150d97bc1da521",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:00:35Z"
+      "timestamp": "2026-03-14T19:00:36Z"
     },
     {
-      "title": "47% of Google Searches Show AI Answers First: GEO + AEO + Agentic SEO Strategy",
-      "summary": "Digital marketing agency iTechSEO highlights that 47% of Google searches now feature AI answers first, urging adoption of GEO, AEO, and Agentic SEO to get cited. They share a full 90-day strategy guide for winning in AI search environments. This post emphasizes adapting content strategies for the AI-dominated search future.",
+      "title": "AI Mode Data, Ask Maps & Branded Queries Go Live \u2013 SEO Pulse",
+      "summary": "Google's AI Mode has boosted self-citations to 21%, shifting links from external sites to its own results and impacting SEO citations. New Ask Maps feature uses Gemini for conversational queries on Google Maps, stressing the importance of reviews for local SEO. Search Console's branded queries filter now uses AI for better traffic analysis, alongside advances in audio/video indexing.",
+      "url": "https://www.searchenginejournal.com/seo-pulse-ai-mode-data-ask-maps-branded-queries-go-live/569648",
+      "source": "Search Engine Journal",
+      "source_type": "news",
+      "tags": [
+        "AI Search",
+        "Google Maps",
+        "Search Console",
+        "Local SEO"
+      ],
+      "x_urls": [],
+      "id": "e37e914a3c66c7e3",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-14T19:00:36Z"
+    },
+    {
+      "title": "GEO + AEO + Agentic SEO: Winning Strategy for AI Answers",
+      "summary": "With 47% of Google searches now featuring AI answers first, focusing on GEO, AEO, and Agentic SEO is crucial for getting cited. The post shares a full 90-day strategy guide to dominate AI search results like Google AI Overviews. Key hashtags highlight the shift in digital marketing toward AI-optimized search.",
       "url": "https://x.com/itechseo/status/2031644000667709682",
-      "source": "Digital Marketing Online Services (@itechseo)",
+      "source": "@itechseo",
       "source_type": "x",
       "tags": [
         "GEO",
         "AEO",
         "Agentic SEO",
-        "AI Search",
-        "Google AI Overviews"
+        "AI Search"
       ],
       "x_urls": [
         "https://x.com/itechseo/status/2031644000667709682"
       ],
-      "id": "a7494b81f5dbf245",
+      "id": "2c810300466b0456",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:00:35Z"
+      "timestamp": "2026-03-14T19:00:36Z"
     },
     {
-      "title": "SEO Evolving into GEO: Becoming Part of the AI Response",
-      "summary": "Full Stack Marketer Tomas Corza argues SEO is evolving into Generative Engine Optimization (GEO) as search engines generate answers instead of lists. Success requires building topical authority, structured content, expertise, and optimization for AI inclusion rather than rankings. This marks a fundamental shift where visibility means being synthesized into AI responses across platforms like ChatGPT and Perplexity.",
-      "url": "https://x.com/tomas_corza/status/2030982047120908448",
-      "source": "Tomas Corza (@tomas_corza)",
+      "title": "5 Things I Learned About The Future Of Search From Liz Reid\u2019s Latest Interview",
+      "summary": "Google's Liz Reid predicts AI agents will handle web interactions, leading to agent negotiations and web structure changes, while human input remains for personalization. Gemini and Search may converge into new products as AI answers replace traditional search. Google supports high-quality AI-generated content and explores micropayments for paywalled access.",
+      "url": "https://www.searchenginejournal.com/5-things-i-learned-about-the-future-of-search-from-liz-reids-latest-interview/569227",
+      "source": "Search Engine Journal",
+      "source_type": "news",
+      "tags": [
+        "Future of Search",
+        "AI Agents",
+        "Liz Reid",
+        "Personalization"
+      ],
+      "x_urls": [],
+      "id": "485a2da12a4ab386",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-14T19:00:36Z"
+    },
+    {
+      "title": "aeo.js: Open-Source Library for AI Search Engine Visibility",
+      "summary": "Developer Ruben launches aeo.js, an open-source library to make websites visible to AI search engines, along with a free scanner at check.aeojs.org to assess site readiness. This tool addresses the growing need for AEO in the evolving AI search landscape.",
+      "url": "https://x.com/rubenmarcus_dev/status/2032502626072289445",
+      "source": "@rubenmarcus_dev",
       "source_type": "x",
       "tags": [
-        "SEO",
-        "GEO",
+        "AEO",
+        "SEO Tools",
         "AI Search",
-        "Content Strategy"
+        "Open Source"
       ],
       "x_urls": [
-        "https://x.com/tomas_corza/status/2030982047120908448"
+        "https://x.com/rubenmarcus_dev/status/2032502626072289445"
       ],
-      "id": "3bedbbab43a82b30",
+      "id": "6bc643b2304afbfa",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:00:35Z"
+      "timestamp": "2026-03-14T19:00:36Z"
     },
     {
-      "title": "AWP 2026 Conference Tackles AI Ethical Issues in Publishing",
-      "summary": "The Association of Writers & Writing Programs (AWP) 2026 conference is addressing the ethical concerns surrounding AI in writing and publishing. Discussions highlight problems like AI systems trained on pirated books and their significant carbon footprint. Sessions aim to guide writers on responsible AI use amid industry debates.",
-      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/99902-awp-2026-takes-on-ai.html",
-      "source": "Publishers Weekly",
+      "title": "Journalist Sues Grammarly Over Unauthorized AI Editing Feature",
+      "summary": "A journalist filed a lawsuit against Grammarly after the company released an AI feature that edited user text without clear consent, generating suggestions purportedly from real authors including deceased ones. The feature sparked multi-million-dollar legal action from writers whose names were used. This highlights growing AI controversies in writing and editing tools.",
+      "url": "https://futurism.com/artificial-intelligence/grammarly-ai-editing-lawsuit",
+      "source": "Futurism / NYT Opinion",
       "source_type": "news",
       "tags": [
-        "AI controversy",
-        "publishing",
-        "writing"
+        "AI",
+        "editing",
+        "lawsuit",
+        "publishing"
       ],
       "x_urls": [],
-      "id": "98c1275745b3857d",
+      "id": "2e851813e5e2c19f",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:01:21Z"
+      "timestamp": "2026-03-14T19:01:11Z"
     },
     {
-      "title": "Publishers Weekly Announces Book Deals for Week of March 9, 2026",
-      "summary": "Publishers Weekly details several major book deals from the week, including a debut novel about a queer poet amid marital strife acquired in a significant deal. Multi-book contracts span various genres, signaling active acquisition in the industry. These announcements reflect ongoing trends in publishing investments.",
-      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/book-deals/article/99863-book-deals-week-of-march-9-2026.html",
-      "source": "Publishers Weekly",
-      "source_type": "news",
-      "tags": [
-        "major contracts",
-        "publishing",
-        "book deals"
-      ],
-      "x_urls": [],
-      "id": "813c9d41deb9388e",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-14T19:01:21Z"
-    },
-    {
-      "title": "AI-Powered Scams Surge in Self-Publishing, Targeting Aspiring Authors",
-      "summary": "A Guardian investigation reveals a boom in fraudsters using AI to scam self-publishers, exemplified by author Jon's heartbreaking experience with fake services. These scams exploit authors' dreams, supercharging deceptive practices in the indie space. Warnings urge vigilance in the growing self-publishing market.",
+      "title": "Self-Publishing Scams Supercharged by AI Fraudsters",
+      "summary": "The Guardian reports on Jon's heartbreaking experience with AI-powered book scams targeting self-publishers. Fraudsters exploit the boom in self-publishing using AI to create fake services and swindle authors. This interactive feature underscores risks in the publishing landscape.",
       "url": "https://www.theguardian.com/books/ng-interactive/2026/mar/12/ai-book-scams-publishing-fraud",
       "source": "The Guardian",
       "source_type": "news",
       "tags": [
-        "AI controversy",
-        "self-publishing",
-        "scams"
+        "AI",
+        "publishing",
+        "scams",
+        "self-publishing"
       ],
       "x_urls": [
-        "https://x.com/FionnualaM/status/2032036295178936799"
+        "https://x.com/InteractiveFeed/status/2031732890472423472"
       ],
-      "id": "fdd801c2cb92a283",
+      "id": "c45a8f98562a9fd4",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:01:21Z"
+      "timestamp": "2026-03-14T19:01:11Z"
     },
     {
-      "title": "Authors Protest AI Book Scraping with Empty Books at London Book Fair",
-      "summary": "Thousands of authors released empty books titled 'Don't Steal This Book' at the London Book Fair to protest AI companies scraping content without permission. The stunt highlights growing backlash against AI training on copyrighted works. It went viral, sparking discussions on intellectual property in publishing.",
-      "url": "https://x.com/0x5e4cjd54j9xz/status/2031345958370353621",
-      "source": "@0x5e4cjd54j9xz",
+      "title": "Sarah J. Maas Announces Next Two ACOTAR Books, Sending BookTok into Meltdown",
+      "summary": "Fantasy author Sarah J. Maas revealed the next two books in her A Court of Thorns and Roses series on the Call Me Daddy podcast. The announcement has sparked frenzy among BookTok fans. This major release news boosts excitement in the romance fantasy community.",
+      "url": "https://www.thebookseller.com/news/books-on-booktok-sarah-j-maas-sends-booktok-into-meltdown",
+      "source": "The Bookseller",
+      "source_type": "news",
+      "tags": [
+        "BookTok",
+        "major release",
+        "fantasy"
+      ],
+      "x_urls": [],
+      "id": "4aedd67c3fec8912",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-14T19:01:11Z"
+    },
+    {
+      "title": "Author Betrays Trust by Feeding Manuscript to ChatGPT for Edits",
+      "summary": "Writer Autumn Bauman shares outrage after an editor used ChatGPT to generate an entire edit letter from her manuscript without permission. She also lost design work to Claude AI. The post vents frustration with AI infiltration in publishing and editing processes.",
+      "url": "https://x.com/autumn_inkblood/status/2029948642556301735",
+      "source": "@autumn_inkblood",
       "source_type": "x",
       "tags": [
-        "AI controversy",
-        "publishing",
-        "protest"
+        "AI",
+        "editing",
+        "publishing"
       ],
       "x_urls": [
-        "https://x.com/0x5e4cjd54j9xz/status/2031345958370353621",
-        "https://www.ndtv.com/world-news/dont-steal-this-book-thousands-of-authors-release-empty-book-at-london-book-fair-in-protest-against-ai-11195100"
+        "https://x.com/autumn_inkblood/status/2029948642556301735"
       ],
-      "id": "5d5856a6736819cd",
+      "id": "8b9bf51fc5fcfb86",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:01:21Z"
+      "timestamp": "2026-03-14T19:01:11Z"
     },
     {
-      "title": "Grammarly Introduces AI Agents Modeled After Authors Without Permission",
-      "summary": "Grammarly has rolled out AI 'expert' agents based on real authors, including deceased ones like a historian who died recently, without obtaining permission. The feature offers writing feedback mimicking these authors' styles. Critics decry it as unauthorized use of authors' personas in AI tools.",
+      "title": "Grammarly's AI Uses Virtual Versions of Dead Authors Without Permission",
+      "summary": "WIRED's Miles Klee exposes Grammarly's new AI features mimicking real authors, including deceased ones like a historian who died recently, without seeking permission. The tool evolved from proofreading to offering 'expert' feedback via AI agents. This raises ethical issues in AI-assisted writing.",
       "url": "https://x.com/youwouldntpost/status/2029335709861978439",
       "source": "@youwouldntpost",
       "source_type": "x",
       "tags": [
-        "AI controversy",
-        "publishing",
-        "authors"
+        "AI",
+        "writing",
+        "editing"
       ],
       "x_urls": [
         "https://x.com/youwouldntpost/status/2029335709861978439"
       ],
-      "id": "bcfe61d6b6d0065e",
+      "id": "eb3089ce92ed5de9",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:01:21Z"
+      "timestamp": "2026-03-14T19:01:11Z"
     },
     {
-      "title": "BookTok Readers Demand First-Person POV, Reshaping Romance Publishing",
-      "summary": "BookTok's romance community overwhelmingly prefers first-person narratives, rejecting traditional third-person styles and pressuring publishers to adapt. A Slate article explores how this trend influences what gets published in romantasy and beyond. Authors and houses are shifting to meet reader demands.",
-      "url": "https://x.com/luke_winkie/status/2030300133665984512",
-      "source": "@luke_winkie",
+      "title": "Goodreads Reveals Cover for V.E. Schwab's 'Victorious', Final Villains Book",
+      "summary": "Goodreads shares the exclusive cover for 'Victorious' by V.E. Schwab, the conclusion to the bestselling Villains series from Tor Books, out October 2026. The three-time Goodreads Choice Award winner's new release generates buzz. Fans encouraged to add it to their shelves.",
+      "url": "https://x.com/goodreads/status/2029240485940711932",
+      "source": "@goodreads",
       "source_type": "x",
       "tags": [
-        "BookTok",
-        "publishing",
-        "storytelling"
+        "major release",
+        "publishing"
       ],
       "x_urls": [
-        "https://x.com/luke_winkie/status/2030300133665984512",
-        "https://slate.com/culture/2026/03/romance-books-novels-fantasy-romantasy-booktok-pov-first-person-third-person.html"
+        "https://x.com/goodreads/status/2029240485940711932"
       ],
-      "id": "3c588df9b48de8f1",
+      "id": "b5210e243b679b4b",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:01:21Z"
+      "timestamp": "2026-03-14T19:01:11Z"
     },
     {
-      "title": "The Bride! Suffers Major Box Office Disappointment",
-      "summary": "Maggie Gyllenhaal's 'The Bride!' opened to just $13.6 million worldwide against an $80-90 million budget, marking it as one of 2026's biggest flops. The film received middling reviews and low audience scores, with a puzzling release date contributing to poor turnout. It ended Warner Bros.' streak of nine No. 1 openings.",
-      "url": "https://variety.com/2026/film/box-office/bride-box-office-flop-1236681873",
+      "title": "Quentin Tarantino Fires Back at Rosanna Arquette Over Pulp Fiction Criticism",
+      "summary": "Rosanna Arquette criticized Quentin Tarantino's use of the N-word in Pulp Fiction as 'racist and creepy.' Tarantino responded in a letter, questioning her change of heart after accepting the role and payment, and accusing her of lacking class for seeking publicity. The Variety post sharing his response garnered significant engagement.",
+      "url": "https://x.com/Variety/status/2031185987548713211",
       "source": "Variety",
-      "source_type": "news",
+      "source_type": "x",
       "tags": [
-        "box office flop",
-        "The Bride!",
-        "Maggie Gyllenhaal",
-        "Hollywood"
+        "Hollywood",
+        "Tarantino",
+        "Pulp Fiction",
+        "backlash"
       ],
-      "x_urls": [],
-      "id": "2d67abd41f7e6a17",
+      "x_urls": [
+        "https://x.com/Variety/status/2031185987548713211"
+      ],
+      "id": "fb51943378751838",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:02:12Z"
+      "timestamp": "2026-03-14T19:02:24Z"
     },
     {
-      "title": "Pixar's 'Hoppers' Dominates Box Office with Record Opening",
-      "summary": "Pixar's original animated film 'Hoppers' earned $88 million globally in its opening weekend, including $46 million domestically, securing the No. 1 spot. It boasts a 97% critics score on Rotten Tomatoes and strong audience reactions. The success ends Pixar's recent box office struggles for non-sequels.",
+      "title": "Viral X Post Shares List of 'Woke' Red Flags in TV and Movies",
+      "summary": "User @SirBylHolte posted a detailed list of common tropes signaling ideological content in entertainment, such as diverse casting in historical settings or female-led narratives overriding male stories, advising viewers to stop watching upon encountering them. The post received over 12,000 likes and resonated with audiences expressing frustration over preaching in media. It highlights viewer strategies to avoid certain content types.",
+      "url": "https://x.com/SirBylHolte/status/2029510569665933697",
+      "source": "@SirBylHolte",
+      "source_type": "x",
+      "tags": [
+        "woke",
+        "backlash",
+        "TV",
+        "movies",
+        "Hollywood"
+      ],
+      "x_urls": [
+        "https://x.com/SirBylHolte/status/2029510569665933697"
+      ],
+      "id": "f0f7cc5f76168a18",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-14T19:02:24Z"
+    },
+    {
+      "title": "'The Bride' Labeled Feminist Monster Film in Box Office Bomb Report",
+      "summary": "ZeroHedge posted about 'The Bride' as 2026's biggest box office bomb, describing it as a feminist monster film amid its financial failure. The update drew attention to ongoing discussions of content impacting audience turnout. It connects to broader conversations on entertainment flops.",
+      "url": "https://x.com/zerohedge/status/2032392503555395950",
+      "source": "@zerohedge",
+      "source_type": "x",
+      "tags": [
+        "box office",
+        "bomb",
+        "The Bride",
+        "Hollywood"
+      ],
+      "x_urls": [
+        "https://x.com/zerohedge/status/2032392503555395950"
+      ],
+      "id": "6e5ca36165c5cafa",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-14T19:02:24Z"
+    },
+    {
+      "title": "Bill Maher Criticizes Oscars Diversity Complaints and 'Woke' Hollywood",
+      "summary": "Bill Maher on 'Real Time' dismissed ongoing #OscarsSoWhite grievances, citing diverse winners and films, and described Hollywood as a 'secret cabal terrified of looking like racists' enforcing inclusion standards. He claimed 'woke' Hollywood denies him awards for speaking freely. Maher advised progressives to celebrate achievements.",
+      "url": "https://www.foxnews.com/media/bill-maher-slams-oscars-says-hollywood-a-secret-cabal-people-terrified-looking-like-racists",
+      "source": "Fox News",
+      "source_type": "news",
+      "tags": [
+        "Oscars",
+        "Hollywood",
+        "woke",
+        "Bill Maher"
+      ],
+      "x_urls": [],
+      "id": "99ca475f5c91935b",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-14T19:02:24Z"
+    },
+    {
+      "title": "Pixar\u2019s \u2018Hoppers\u2019 Tops Box Office, Ending Original Film Streak",
+      "summary": "\u2018Hoppers\u2019 debuted with $46 million domestically and $88 million globally, earning an A CinemaScore and praise as a crowd-pleasing animated hit about talking animals. It represents Pixar's strongest opening for an original in nearly a decade, on track for $500 million worldwide. The performance outshone underperformers like \u2018The Bride!\u2019",
       "url": "https://www.nytimes.com/2026/03/08/business/hoppers-the-bride-box-office.html",
       "source": "The New York Times",
       "source_type": "news",
       "tags": [
-        "box office hit",
+        "box office",
         "Pixar",
         "Hoppers",
         "animation"
       ],
       "x_urls": [],
-      "id": "b9e0360970220db5",
+      "id": "e9955b3b3f705b39",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:02:12Z"
+      "timestamp": "2026-03-14T19:02:24Z"
     },
     {
-      "title": "Oscars 2026: 'Sinners' Success Sparks Debate on 'Wokeness'",
-      "summary": "The success of 'Sinners' at the 2026 Oscars has led to discussions claiming it exemplifies 'wokeness,' though analysts argue it reflects quality over ideology. Post-2020 Academy changes aimed at diversity are scrutinized amid the film's awards haul. Viewers express mixed reactions to perceived shifts in Oscar voting.",
-      "url": "https://www.awardsdaily.com/2026/03/08/2026-oscars-the-success-of-sinners-is-not-wokeness",
-      "source": "Awards Daily",
+      "title": "\u2018The Bride!\u2019 Emerges as 2026\u2019s Costliest Box Office Disappointment",
+      "summary": "\u2018The Bride!\u2019 opened to $7.3 million domestically against an $80 million budget and substantial marketing, projecting major losses with a C+ CinemaScore and 58% Rotten Tomatoes score. Audiences struggled to categorize the R-rated Gothic horror-romance. Streaming competition from Oscar-nominated films factored into its weak debut.",
+      "url": "https://www.yahoo.com/entertainment/movies/articles/bride-just-became-most-expensive-121751380.html",
+      "source": "Yahoo Entertainment",
       "source_type": "news",
       "tags": [
-        "Oscars 2026",
-        "Sinners",
-        "woke debate",
-        "awards"
+        "box office",
+        "bomb",
+        "The Bride",
+        "horror"
       ],
       "x_urls": [],
-      "id": "270e577a7c2c2929",
+      "id": "c94ff29f150979e8",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:02:12Z"
+      "timestamp": "2026-03-14T19:02:24Z"
     },
     {
-      "title": "Viral Post Lists Red Flags for Woke Content in TV and Movies",
-      "summary": "User @SirBylHolte shares a detailed list of tropes like black characters in medieval Europe, incompetent male leads, and forced diversity that prompt him to stop watching shows. The March 5 post amassed over 12,000 likes and thousands of replies debating audience avoidance of preachy narratives. Many users shared similar experiences of turning off content.",
-      "url": "https://x.com/SirBylHolte/status/2029510569665933697",
-      "source": "@SirBylHolte",
-      "source_type": "x",
+      "title": "Mastercard Launches Virtual C-Suite Agentic AI for Small Businesses",
+      "summary": "Mastercard is advancing its agentic AI strategy with the Virtual C-Suite, starting with a Virtual CFO tool that brings executive-level intelligence to small businesses. This platform helps SMBs with financial analysis, forecasting, and strategic decision-making previously accessible only to larger enterprises. It aims to level the playing field by automating complex tasks and providing actionable insights.",
+      "url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/march/Mastercard-Virtual-C-Suite-bringing-executive-level-intelligence-to-small-businesses.html",
+      "source": "Mastercard",
+      "source_type": "news",
       "tags": [
-        "woke red flags",
-        "TV backlash",
-        "movie tropes",
-        "audience fatigue"
-      ],
-      "x_urls": [
-        "https://x.com/SirBylHolte/status/2029510569665933697"
-      ],
-      "id": "3599563380c2de82",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-14T19:02:12Z"
-    },
-    {
-      "title": "'Woke Bride' Bombs at Box Office, Crushed by Hoppers",
-      "summary": "A March 9 X post highlights Hollywood's 'go woke, go broke' trend, citing the flop of 'Woke Bride' against Pixar's 'Hoppers' success. The conservative commentary points to ideology prioritizing over entertainment leading to poor performance. It links to analysis of recent box office results.",
-      "url": "https://x.com/Mullin1T/status/2031089865329357192",
-      "source": "@Mullin1T",
-      "source_type": "x",
-      "tags": [
-        "go woke go broke",
-        "box office",
-        "Woke Bride",
-        "Hoppers"
-      ],
-      "x_urls": [
-        "https://x.com/Mullin1T/status/2031089865329357192"
-      ],
-      "id": "e8a2ca50dd75584c",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-14T19:02:12Z"
-    },
-    {
-      "title": "Satirical Meme Celebrates 'Woke is Back' with Oscars Sweep",
-      "summary": "A viral March 9 post from @RANDOMC_L_EVENT humorously lists improbable events like 'Sinners Oscars sweep' and 'woke is back' in a video meme. It garnered over 5,000 likes amid ongoing debates on diversity in awards. Users engaged with jokes on Hollywood trends.",
-      "url": "https://x.com/RANDOMC_L_EVENT/status/2031151351527342205",
-      "source": "@RANDOMC_L_EVENT",
-      "source_type": "x",
-      "tags": [
-        "Oscars meme",
-        "woke satire",
-        "Sinners",
-        "Hollywood"
-      ],
-      "x_urls": [
-        "https://x.com/RANDOMC_L_EVENT/status/2031151351527342205"
-      ],
-      "id": "dceeafddcd6ec452",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-14T19:02:12Z"
-    },
-    {
-      "title": "What small business owners are quietly building with AI while everyone else is \u201cwaiting to see\u201d",
-      "summary": "Small business owners without coding experience are developing practical AI tools tailored to their needs, such as an AI receptionist for a dentist office saving $4k/month on services, a demand prediction system for a food truck reducing waste by 40%, an AI photo editor for a wedding photographer cutting turnaround from weeks to days and doubling bookings, a churn predictor for a gym increasing retention by 22%, and a custom CRM for pest control replacing costly software. These examples demonstrate tangible impacts on efficiency and revenue. The divide between proactive builders and passive observers is widening into a survival gap.",
-      "url": "https://x.com/wonderofthings/status/2031516834713973016",
-      "source": "Wonder Of Things (@wonderofthings)",
-      "source_type": "x",
-      "tags": [
+        "agentic AI",
         "small business",
-        "custom AI",
-        "AI tools",
-        "productivity"
+        "product launch",
+        "financial tools"
       ],
-      "x_urls": [
-        "https://x.com/wonderofthings/status/2031516834713973016"
-      ],
-      "id": "83a95994c10c4fc2",
+      "x_urls": [],
+      "id": "9b6a64ef90d03867",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:02:47Z"
+      "timestamp": "2026-03-14T19:02:54Z"
     },
     {
-      "title": "Small businesses are the biggest AI opportunity nobody's talking about",
-      "summary": "A team completed $200k in automation projects for a private equity firm, including AI-driven appointment reminders for a owned hairdresser, revealing the untapped potential in small business automation. This shift prompted a rethinking of the industry, emphasizing SMBs as prime targets for AI services. The post outlines a playbook for securing such high-value small business clients.",
+      "title": "LinkedIn Introduces All-In-One AI Tool for Small Business Sales, Marketing, and Hiring",
+      "summary": "LinkedIn has developed an integrated AI-powered tool in its Premium offering specifically for small businesses to streamline sales, marketing, and hiring processes. The tool automates lead generation, content creation, and candidate matching, saving time and boosting efficiency for growing SMBs. LinkedIn's VP of Small Business Marketing highlights its role in helping owners manage multiple functions without specialized teams.",
+      "url": "https://www.uschamber.com/co/good-company/the-leap/linkedin-premium-all-in-one-smb",
+      "source": "US Chamber of Commerce",
+      "source_type": "news",
+      "tags": [
+        "AI platform",
+        "small business",
+        "sales marketing",
+        "hiring tools"
+      ],
+      "x_urls": [],
+      "id": "3271844cb08708ad",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-14T19:02:54Z"
+    },
+    {
+      "title": "Why Small Businesses Are the Biggest Untapped AI Automation Opportunity",
+      "summary": "An automation expert recounts securing $200k from a PE firm after automating appointment reminders for their hairdresser business, revealing SMBs as a massive overlooked market for AI. The post breaks down why small businesses are ripe for simple AI wins and shares a playbook for agencies to land high-value clients. It shifts perspective on targeting everyday operations over flashy enterprise deals.",
       "url": "https://x.com/NoahEpstein_/status/2029558375663477064",
-      "source": "Nozz (@NoahEpstein_)",
+      "source": "@NoahEpstein_",
       "source_type": "x",
       "tags": [
-        "small business",
         "AI automation",
-        "business opportunity"
+        "small business",
+        "opportunity",
+        "playbook"
       ],
       "x_urls": [
         "https://x.com/NoahEpstein_/status/2029558375663477064"
       ],
-      "id": "990fe32bfb8b44e6",
+      "id": "dfd57152407c7b88",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:02:47Z"
+      "timestamp": "2026-03-14T19:02:54Z"
     },
     {
-      "title": "How AI is about to transform the C-suite for small businesses",
-      "summary": "Mastercard is developing a 'Virtual C-Suite' comprising AI agents to deliver financial and operational expertise to small businesses, mimicking roles like CFO typically exclusive to large enterprises. This innovation aims to provide actionable insights and support for SMB decision-making. It represents a significant platform move to democratize executive-level tools.",
-      "url": "https://fortune.com/2026/03/11/how-ai-transform-c-suite-small-businesses-cfo-mastercard",
-      "source": "Fortune",
-      "source_type": "news",
+      "title": "Real-World AI Tools Built by Small Business Owners Saving Thousands",
+      "summary": "Small business owners are deploying custom AI solutions without coding expertise: a dentist's AI receptionist saves $4k/month, a food truck's predictor cuts waste 40%, a photographer's editor doubles bookings, a gym's churn tool boosts retention 22%, and a pest control CRM replaces expensive software. These examples illustrate AI's practical impact on operations, costs, and growth. The gap between builders and observers widens survival odds.",
+      "url": "https://x.com/wonderofthings/status/2031516834713973016",
+      "source": "@wonderofthings",
+      "source_type": "x",
       "tags": [
-        "AI agents",
-        "Mastercard",
+        "AI impact",
         "small business",
-        "C-suite transformation"
+        "custom tools",
+        "case studies"
       ],
-      "x_urls": [],
-      "id": "4ab952c7d9cf08f2",
+      "x_urls": [
+        "https://x.com/wonderofthings/status/2031516834713973016"
+      ],
+      "id": "062eeb073bc807c6",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-14T19:02:47Z"
-    },
-    {
-      "title": "How Small Businesses Use AI for Growth and Efficiency",
-      "summary": "Small businesses are leveraging AI to automate repetitive tasks like busy work and emails, enabling 82% of owners to expand hiring rather than replace staff. This adoption is driving growth and operational efficiency without displacing workers. The article highlights real-world applications demonstrating AI's positive impact on SMB scalability.",
-      "url": "https://www.biz2credit.com/business-loan/small-business-ai-for-growth",
-      "source": "Biz2Credit",
-      "source_type": "news",
-      "tags": [
-        "small business growth",
-        "AI efficiency",
-        "hiring impact"
-      ],
-      "x_urls": [],
-      "id": "46e7f78af8f1294e",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-14T19:02:47Z"
+      "timestamp": "2026-03-14T19:02:54Z"
     }
   ]
 }
