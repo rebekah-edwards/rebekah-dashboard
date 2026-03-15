@@ -1,361 +1,398 @@
 {
   "date": "2026-03-15",
   "period": "afternoon",
-  "generated": "2026-03-15T19:02:58Z",
+  "generated": "2026-03-15T19:03:10Z",
   "items": [
     {
-      "title": "Google AI Overviews Slash Search Clicks by 42% According to Report",
-      "summary": "A new report reveals that Google's AI Overviews have reduced organic search clicks by 42%, impacting publishers' traffic significantly. However, breaking news traffic has surged by 103%, and Discover clicks are seeing substantial increases. This highlights the shifting dynamics in search traffic amid AI integration.",
+      "title": "GEO-SEO-Claude: New Tool Optimizes Websites for AI Search Engines",
+      "summary": "Tom D\u00f6rr announced a GitHub repository called geo-seo-claude that uses Claude AI to optimize websites specifically for AI search engines. This tool focuses on Generative Engine Optimization (GEO) to improve visibility in AI-generated responses. The post garnered over 2,300 likes, highlighting interest in AI-driven SEO innovations.",
+      "url": "https://x.com/tom_doerr/status/2030864180417356230",
+      "source": "Tom D\u00f6rr (@tom_doerr)",
+      "source_type": "x",
+      "tags": [
+        "GEO",
+        "AI search",
+        "SEO tool",
+        "Claude AI"
+      ],
+      "x_urls": [
+        "https://github.com/zubair-trabazada/geo-seo-claude"
+      ],
+      "id": "582e5b9c33c560ce",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-15T19:00:47Z"
+    },
+    {
+      "title": "Defensive SEO: Protecting Brand Narratives in AI Search",
+      "summary": "Search Engine Land emphasized the shift to defensive SEO as AI summaries influence user perceptions of brands. When asked 'Is [brand] worth it?', AI responses can make or break decisions without clicks to sites. Marketers must monitor and shape these narratives proactively.",
+      "url": "https://x.com/sengineland/status/2032231468773036169",
+      "source": "Search Engine Land (@sengineland)",
+      "source_type": "x",
+      "tags": [
+        "defensive SEO",
+        "AI search",
+        "brand narrative",
+        "zero-click"
+      ],
+      "x_urls": [
+        "https://searchengineland.com/defensive-seo-protect-brand-narrative-ai-search-471422"
+      ],
+      "id": "21d08d97f68fe176",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-15T19:00:47Z"
+    },
+    {
+      "title": "Old SEO vs. New AI SEO: Backlinks to AI Citations",
+      "summary": "Alek Borisov outlined the evolution from traditional SEO (backlinks, rankings, CTR) to AI SEO/GEO/AEO focusing on trusted mentions, AI citations, and structured data. This shift requires new skill sets for visibility in generative answers. The post sparks discussion on adapting strategies.",
+      "url": "https://x.com/Alek_Borisov/status/2030899694700810251",
+      "source": "Alek Borisov (@Alek_Borisov)",
+      "source_type": "x",
+      "tags": [
+        "AI SEO",
+        "GEO",
+        "AEO",
+        "structured data"
+      ],
+      "x_urls": [],
+      "id": "00c67b1ba679267f",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-15T19:00:47Z"
+    },
+    {
+      "title": "Google AI Overviews Slash Search Clicks by 42%",
+      "summary": "A new report reveals Google AI Overviews have reduced organic search clicks by 42%, hitting publishers hard. However, breaking news traffic surged 103% and Discover clicks are booming. SEO pros must adapt to this zero-click trend.",
       "url": "https://searchengineland.com/google-ai-overviews-cut-search-clicks-report-471497",
       "source": "Search Engine Land",
       "source_type": "news",
       "tags": [
         "Google AI Overviews",
-        "SEO traffic",
-        "Discover"
+        "traffic decline",
+        "Discover",
+        "zero-click searches"
       ],
       "x_urls": [],
-      "id": "92ebc99675127ade",
+      "id": "d060eba732388380",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:00:30Z"
+      "timestamp": "2026-03-15T19:00:47Z"
     },
     {
-      "title": "The New SEO: Shifting from Rankings to AI Recommendations and AEO/GEO",
-      "summary": "Marketers are adapting to AI search by focusing on Answer Engine Optimization (AEO), Generative Engine Optimization (GEO), and similar strategies rather than traditional rankings. The emphasis is on behavioral changes as search evolves into recommendation systems. Acronyms matter less than optimizing for AI-driven discovery.",
-      "url": "https://www.forbes.com/councils/forbesagencycouncil/2026/03/11/the-new-seo-from-rankings-to-recommendations-in-ai-search",
-      "source": "Forbes",
+      "title": "Prompt Research Emerges as Key SEO and GEO Strategy Layer",
+      "summary": "With AI search going conversational, prompt research uncovers evolving query patterns and content inclusion in AI responses. This technique enhances GEO by aligning content with natural user prompts. Essential for future-proofing SEO.",
+      "url": "https://searchengineland.com/prompt-research-seo-geo-strategy-471399",
+      "source": "Search Engine Land",
       "source_type": "news",
       "tags": [
-        "AEO",
+        "prompt research",
         "GEO",
-        "AI Search"
+        "conversational search",
+        "AI queries"
       ],
       "x_urls": [],
-      "id": "07af15d3c8c808ab",
+      "id": "2348f01a4bc56edc",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:00:30Z"
+      "timestamp": "2026-03-15T19:00:47Z"
     },
     {
-      "title": "Over The Top SEO Launches First Full-Scale GEO Service",
-      "summary": "Over The Top SEO has introduced the industry's first comprehensive Generative Engine Optimization (GEO) service, distinguishing it from agencies merely rebranding content marketing. This launch targets the evolving needs of AI-influenced search landscapes. It promises advanced strategies for visibility in generative search results.",
-      "url": "https://finance.yahoo.com/news/over-top-seo-launches-industrys-090000787.html",
-      "source": "Yahoo Finance",
+      "title": "Surface-Level SEO Tactics Fail to Secure AI Search Visibility",
+      "summary": "Basic AI SEO advice falls short; lasting visibility demands knowledge graphs, expert entities, and influence in trusted datasets. Oversimplified tactics ignore the complexity of AI engines. Deep strategies are crucial amid evolving search.",
+      "url": "https://searchengineland.com/surface-level-seo-tactics-ai-search-visibility-471514",
+      "source": "Search Engine Land",
       "source_type": "news",
       "tags": [
-        "GEO",
-        "SEO tools",
-        "content marketing"
+        "AI search visibility",
+        "knowledge graphs",
+        "expert entities",
+        "GEO evolution"
       ],
       "x_urls": [],
-      "id": "a036c09ef088efb5",
+      "id": "72cc65c94a9ea422",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:00:30Z"
+      "timestamp": "2026-03-15T19:00:47Z"
     },
     {
-      "title": "AppSumo Data Reveals SEO Tools as Top Search for Founders in March",
-      "summary": "Noah Kagan shared AppSumo\u2019s internal search data from 63,410 queries, showing SEO tools as the number one interest among founders. Other top searches include LinkedIn automation, AI video, CRM, and email marketing. This indicates strong demand for SEO solutions amid current trends.",
-      "url": "https://x.com/noahkagan/status/2031893935933604271",
-      "source": "Noah Kagan",
-      "source_type": "x",
-      "tags": [
-        "SEO tools",
-        "content marketing"
-      ],
-      "x_urls": [
-        "https://x.com/noahkagan/status/2031893935933604271"
-      ],
-      "id": "2f279be58b2c339f",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-15T19:00:30Z"
-    },
-    {
-      "title": "One Person Replaces 50-Person Marketing Team Using Claude for SEO and More",
-      "summary": "Vaibhav Sisinty detailed how Austin Lau single-handedly managed Anthropic's marketing\u2014including SEO, paid search, and email\u2014using Claude Code automations. This setup achieved 10x output increase and 41% better conversion rates than industry averages. It demonstrates AI's potential to revolutionize content and SEO workflows.",
-      "url": "https://x.com/VaibhavSisinty/status/2031745254064631950",
-      "source": "Vaibhav Sisinty",
-      "source_type": "x",
-      "tags": [
-        "AI SEO",
-        "content marketing",
-        "SEO tools"
-      ],
-      "x_urls": [
-        "https://x.com/VaibhavSisinty/status/2031745254064631950"
-      ],
-      "id": "5ef0c6e5e111fb73",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-15T19:00:30Z"
-    },
-    {
-      "title": "Claude Code Transformed into 61-Person Agency with SEO Specialists",
-      "summary": "Julian Goldie showcased a free tool turning Claude Code into a 61-agent agency covering SEO specialists, marketers, devs, and more across 9 departments. Users activate specialized agents for tasks like SEO optimization or campaigns with unique workflows. With 12,000 GitHub stars, it's a game-changer for solo operators.",
-      "url": "https://x.com/JulianGoldieSEO/status/2031306203075326396",
-      "source": "Julian Goldie SEO",
-      "source_type": "x",
-      "tags": [
-        "SEO tools",
-        "AI search",
-        "content marketing"
-      ],
-      "x_urls": [
-        "https://x.com/JulianGoldieSEO/status/2031306203075326396"
-      ],
-      "id": "a01a0f4460c1f2ef",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-15T19:00:30Z"
-    },
-    {
-      "title": "BookTok Rejected Third-Person Prose. Publishers Panicked.",
-      "summary": "Recent headlines in literature spotlight BookTok's massive influence: rejection of third-person prose sparking publisher panic, algorithms now dictating what gets published, 59 million readers validating romance trends, and publishers incorporating BookTok elements into covers. BookTok represents TikTok's literary community driving these shifts. This reflects how social media is reshaping traditional publishing decisions.",
-      "url": "https://x.com/LFGRINDai/status/2031489073399877860",
-      "source": "@LFGRINDai",
-      "source_type": "x",
+      "title": "Books on BookTok: Sarah J Maas sends BookTok into 'meltdown'",
+      "summary": "Sarah J. Maas's recent activity or announcement has caused a frenzy on BookTok, sending the community into meltdown. This highlights the influential power of BookTok in driving publishing trends and reader engagement. Publishers continue to track such viral moments for marketing strategies.",
+      "url": "https://www.thebookseller.com/books/books-on-booktok-sarah-j-maas-sends-booktok-into-meltdown",
+      "source": "The Bookseller",
+      "source_type": "news",
       "tags": [
         "BookTok",
+        "Sarah J Maas",
+        "publishing"
+      ],
+      "x_urls": [
+        "https://x.com/offwellsy/status/2032946816619106620"
+      ],
+      "id": "d355fcb992798a9f",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-15T19:01:39Z"
+    },
+    {
+      "title": "London Book Fair Analysis: Can 'Heated Rivalry' Effect Have Impact?",
+      "summary": "Ahead of London Book Fair, analysis explores how TV adaptations like 'Heated Rivalry' could spark major publishing deals and auctions for related books. Agents predict heated rivalries in bidding if TV success boosts book demand. This reflects growing TV-book synergy in the industry.",
+      "url": "https://deadline.com/2026/03/london-book-fair-analysis-heated-rivalry-effect-tv-book-divergence-1236742603",
+      "source": "Deadline",
+      "source_type": "news",
+      "tags": [
         "publishing",
-        "algorithm",
-        "romance"
+        "major deals",
+        "TV adaptations"
       ],
-      "x_urls": [
-        "https://x.com/LFGRINDai/status/2031489073399877860"
-      ],
-      "id": "5b08c216e95a9836",
+      "x_urls": [],
+      "id": "0b2680893ba67325",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:01:09Z"
+      "timestamp": "2026-03-15T19:01:39Z"
     },
     {
-      "title": "Publishers Ideologically Captured, Depend on BookTok Indies to Stay Afloat",
-      "summary": "Traditional publishers, hampered by ideological focus on progressive content that underperforms, now rely on BookTok-driven indie books for survival. Many top BookTok titles originate from self-published authors who achieved seven-figure success before signing traditional deals. This shift highlights BookTok's role in propping up the industry amid declining sales of certain genres.",
-      "url": "https://x.com/ProperRegard/status/2031227944606335385",
-      "source": "@ProperRegard",
+      "title": "Publishers Using AI to Predict Which Books Will Be Hits",
+      "summary": "Author Ewan Morrison warns that large publishers like Penguin Random House are hiring AI engineers to build forecasting models predicting book performance. This AI will determine which books get purchased and promoted, leading to dark times for creative diversity. The trend stems from internal AI use beyond writing or editing.",
+      "url": "https://x.com/MrEwanMorrison/status/2030343108320252105",
+      "source": "@MrEwanMorrison",
       "source_type": "x",
       "tags": [
-        "BookTok",
-        "self-publishing",
-        "ideology",
-        "traditional storytelling"
-      ],
-      "x_urls": [
-        "https://x.com/ProperRegard/status/2031227944606335385"
-      ],
-      "id": "6a478972e745be26",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-15T19:01:09Z"
-    },
-    {
-      "title": "Criticism of BookTok Books Lacking Substance",
-      "summary": "A user expresses frustration with defenses of BookTok, arguing the books offer little depth, akin to 'potato chips' rather than substantial reading. This critiques the trend's emphasis on viral appeal over literary quality. It surfaces ongoing debates about BookTok's impact on reading standards.",
-      "url": "https://x.com/EverydayAbyss/status/2031423501396870637",
-      "source": "@EverydayAbyss",
-      "source_type": "x",
-      "tags": [
-        "BookTok",
+        "AI",
         "publishing",
-        "criticism",
-        "storytelling"
+        "forecasting",
+        "controversy"
       ],
       "x_urls": [
-        "https://x.com/EverydayAbyss/status/2031423501396870637"
+        "https://x.com/MrEwanMorrison/status/2030343108320252105",
+        "https://x.com/Forbes/status/2030320083734831114"
       ],
-      "id": "7d3427cd2966d22d",
+      "id": "83b612da472caee0",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:01:09Z"
+      "timestamp": "2026-03-15T19:01:39Z"
     },
     {
-      "title": "X Users Blast 'The Bride!' Box Office Flop as Woke Hollywood Failure",
-      "summary": "Variety reported that Maggie Gyllenhaal\u2019s feminist reimagining of 'The Bride of Frankenstein' opened to just $7.3 million despite a $90 million budget. Replies on the post attribute the flop to audiences rejecting woke garbage, retarded Hollywood content nobody wants, and feminist themes like the Bride of Frankenstein. Comments include calls that people are tired of movies hijacking originals for ideology.",
-      "url": "https://x.com/Variety/status/2030664046215827618",
-      "source": "@Variety",
+      "title": "AI Book Scams Boom in Self-Publishing",
+      "summary": "Journalist Fionnuala Mulcahy shares a Guardian story on fraudsters using AI to scam self-publishers with fake marketing and deals. The interactive piece details personalized AI-driven swindles preying on authors' hopes. Highlights the rise of such frauds exploiting the self-publishing surge.",
+      "url": "https://x.com/FionnualaM/status/2032036295178936799",
+      "source": "@FionnualaM",
       "source_type": "x",
       "tags": [
-        "box office flop",
-        "woke",
-        "feminist",
-        "Hollywood",
-        "backlash"
+        "AI",
+        "scams",
+        "self-publishing"
       ],
       "x_urls": [
-        "https://x.com/Variety/status/2030664046215827618",
-        "https://x.com/madcap412/status/2030680561082405248",
-        "https://x.com/Mark_E_Noonan/status/2030692850523050239"
+        "https://x.com/FionnualaM/status/2032036295178936799"
       ],
-      "id": "e0127877f511ed3f",
+      "id": "00216faf1478f5ac",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-15T19:01:39Z"
+    },
+    {
+      "title": "Guardian Interactive on AI-Supercharged Publishing Fraud",
+      "summary": "Interactive Journalism account promotes Guardian Visuals' piece on AI enabling book swindles targeting self-publishers. Jon's heartbreaking story underscores the fraud boom. Emphasizes need for awareness in the publishing world.",
+      "url": "https://x.com/InteractiveFeed/status/2031732890472423472",
+      "source": "@InteractiveFeed",
+      "source_type": "x",
+      "tags": [
+        "AI",
+        "publishing",
+        "fraud"
+      ],
+      "x_urls": [
+        "https://x.com/InteractiveFeed/status/2031732890472423472"
+      ],
+      "id": "955b990d7a9974c4",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-15T19:01:39Z"
+    },
+    {
+      "title": "Viral X Post Details 'Red Flags' for Woke TV and Movie Content",
+      "summary": "Byl Holte enumerates tropes like black characters in medieval Europe, women dominating men physically, and insertions of modern social lectures into fantasy settings that lead him to stop watching shows. The March 5 post receives over 12,000 likes and sparks widespread user comments sharing similar avoidance strategies. It illustrates growing audience selectivity amid perceived forced messaging in entertainment.",
+      "url": "https://x.com/SirBylHolte/status/2029510569665933697",
+      "source": "@SirBylHolte",
+      "source_type": "x",
+      "tags": [
+        "woke tropes",
+        "audience avoidance",
+        "tv movies"
+      ],
+      "x_urls": [
+        "https://x.com/SirBylHolte/status/2029510569665933697"
+      ],
+      "id": "0dff5ad0dd43c48d",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:02:25Z"
+      "timestamp": "2026-03-15T19:02:32Z"
     },
     {
-      "title": "Viral X Post Laments Preachy Woke Plots Ruining Post-2020 TV Series",
-      "summary": "A popular post lists recurring elements in TV series after 2020: LGBTQ plots, lectures praising third-world migrants, evil white patriarchy, diverse female saviors, and far-right terrorism over Islamic. It claims the fantasy genre is less compelling now. Replies urge boycotting Netflix and Disney, downloading older content.",
-      "url": "https://x.com/ellymelly/status/2031194080789803087",
-      "source": "@ellymelly",
+      "title": "Pop Base Shares Pixar Scrapping Gay Elements from 'Elio'",
+      "summary": "Pixar reportedly cut scenes from 'Elio' implying the protagonist was gay, such as envisioning a family with a male crush. Chief Creative Officer Pete Docter remarked, 'We\u2019re making a movie, not hundreds of millions of dollars of therapy.' The March 7 post garners 18,000 likes, fueling discussions on children's content.",
+      "url": "https://x.com/PopBase/status/2030407368719360199",
+      "source": "@PopBase",
       "source_type": "x",
       "tags": [
-        "TV shows",
-        "woke",
-        "preachy",
-        "backlash",
-        "Hollywood"
+        "pixar elio",
+        "lgbtq removal",
+        "children films"
       ],
       "x_urls": [
-        "https://x.com/ellymelly/status/2031194080789803087",
-        "https://x.com/BubblyIan/status/2031221840501481858"
+        "https://x.com/PopBase/status/2030407368719360199"
       ],
-      "id": "f7b1c8bb590ca001",
+      "id": "79c2914f2f82c9c0",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:02:25Z"
+      "timestamp": "2026-03-15T19:02:32Z"
     },
     {
-      "title": "X Highlights Newsbusters on 'Woke Bride' Favoring Ideology Over Entertainment",
-      "summary": "Post shares Newsbusters article claiming Hollywood's latest 'Go Woke, Go Broke' film 'The Bride!' prioritizes ideology. The woke reimagining bombed at box office with C+ score amid backlash to feminist, MeToo themes. It was crushed by family-friendly Pixar's 'Hoppers'.",
+      "title": "X Highlights 'Woke Bride' as Latest Hollywood Box Office Failure",
+      "summary": "User shares NewsBusters article on 'The Bride!' bombing with $7.26M opening, labeling it 'Go Woke, Go Broke' for favoring ideology over entertainment. The feminist Frankenstein reinterpretation trails Disney's 'Hoppers' and 'Scream 7'. Posted March 9 amid critiques of agenda-driven flops.",
       "url": "https://x.com/Mullin1T/status/2031089865329357192",
       "source": "@Mullin1T",
       "source_type": "x",
       "tags": [
-        "woke",
-        "box office flop",
-        "Hollywood",
-        "backlash"
+        "box office bomb",
+        "woke bride",
+        "hollywood flop"
       ],
       "x_urls": [
         "https://x.com/Mullin1T/status/2031089865329357192"
       ],
-      "id": "1c70bd2a72b20670",
+      "id": "d373859aff9f084a",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:02:25Z"
+      "timestamp": "2026-03-15T19:02:32Z"
     },
     {
-      "title": "'The Bride!' Bombs at Box Office with $7 Million Opening Weekend",
-      "summary": "Director Maggie Gyllenhaal\u2019s 'The Bride!,' a feminist reimagining of 'The Bride of Frankenstein,' debuted to $7.3 million from 3,304 theaters, well below Warner Bros. expectations of $16-18 million. The film received a C+ CinemaScore and 59% on Rotten Tomatoes. Analyst Jeff Bock noted elevated horror is a tough sell and the budget was overspent.",
-      "url": "https://variety.com/2026/film/box-office/the-bride-bombs-box-office-opening-weekend-pixar-hoppers-scores-1236681832/",
+      "title": "Woke \u2018The Bride!\u2019 Bombs at Box Office: Crushed by \u2018Hoppers\u2019 and \u2018Scream 7\u2019",
+      "summary": "Warner Bros.' 'The Bride!', directed by Maggie Gyllenhaal with themes of consent and patriarchy critique, opens to $7.26 million on March 9 against a $90 million budget and $16-18M expectations. Disney/Pixar's family animation 'Hoppers' dominates with $46 million while 'Scream 7' earns $17.3 million in week two. Observers point to audience rejection of overt messaging.",
+      "url": "https://www.newsbusters.org/blogs/cnsnews/craig-bannister/2026/03/09/woke-bride-bombs-box-office-crushed-hoppers-and-even",
+      "source": "NewsBusters",
+      "source_type": "news",
+      "tags": [
+        "box office flop",
+        "feminist film",
+        "woke entertainment"
+      ],
+      "x_urls": [],
+      "id": "2197a713bed3cf0a",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-15T19:02:32Z"
+    },
+    {
+      "title": "Pixar CCO Pete Docter on Cutting LGBTQ Themes from 'Elio'",
+      "summary": "Pixar removed LGBTQ elements from 'Elio', including a scene of the boy imagining parenthood with a male crush, to prevent forcing unprepared family discussions. Pete Docter stated the studio aims for broad appeal: 'We\u2019re making a movie, not hundreds of millions of dollars of therapy.' Comments from March 7 interview draw activist responses.",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/pete-docter-pixar-elio-cut-lgbtq-themes-1236524502",
+      "source": "The Hollywood Reporter",
+      "source_type": "news",
+      "tags": [
+        "pixar",
+        "elio",
+        "lgbtq themes",
+        "family content"
+      ],
+      "x_urls": [],
+      "id": "a7828489fdd26391",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-15T19:02:32Z"
+    },
+    {
+      "title": "Rachel Zegler Addresses 'Snow White' Casting Backlash",
+      "summary": "Rachel Zegler describes backlash to her 'Snow White' casting as confusing, refusing to 'assimilate for anybody else's comfort' amid criticism of the remake's changes and her political views. She sought therapy after receiving threats. Interview published around March 10 highlights tensions over Disney's live-action updates.",
+      "url": "https://variety.com/2026/film/news/rachel-zegler-snow-white-casting-backlash-disney-1236684079",
       "source": "Variety",
       "source_type": "news",
       "tags": [
-        "box office",
-        "flop",
-        "horror",
-        "feminist"
+        "snow white",
+        "casting controversy",
+        "disney remake"
       ],
-      "x_urls": [
-        "https://x.com/Variety/status/2030664046215827618"
-      ],
-      "id": "a66a7dc0e21b9ae1",
+      "x_urls": [],
+      "id": "f9be748eab4990d7",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:02:25Z"
+      "timestamp": "2026-03-15T19:02:32Z"
     },
     {
-      "title": "Rachel Zegler Addresses Backlash to 'Woke' Snow White Reboot",
-      "summary": "Rachel Zegler described the Snow White production as a confusing time, facing criticism for her heritage\u2014not Latino enough for West Side Story, too Latino for Snow White\u2014and safety threats. The politically correct revamp became a box office bomb, with Disney scaling back press to avoid anti-woke backlash. She vowed, 'I refuse to assimilate for anybody else's comfort,' while expressing pride in her background.",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15629009/Rachel-Zegler-backlash-Snow-White-reboot-box-office-disaster.html",
-      "source": "Daily Mail",
+      "title": "NEW SBE Council Tech Use Survey: 82% of Small Businesses Now Use AI",
+      "summary": "A new survey shows 82% of small businesses have adopted at least one AI tool, typically using five, resulting in revenue growth for 66%, $243.6 billion in annual time savings, and 81% viewing AI as key to competitiveness. AI is seen as augmenting workers, with 40% of users planning to hire more and 93% intending further investments. Rapid uptake of automated pricing tools (35% using) delivers 97% revenue gains, leveling the field against big firms.",
+      "url": "https://sbecouncil.org/2026/03/11/new-sbe-council-tech-use-survey-the-digital-state-of-small-business",
+      "source": "Small Business & Entrepreneurship Council",
       "source_type": "news",
       "tags": [
-        "Disney",
-        "Snow White",
-        "backlash",
-        "woke"
+        "small business",
+        "AI adoption",
+        "productivity",
+        "hiring"
       ],
-      "x_urls": [
-        "https://x.com/DailyMail/status/2031246977548120539"
-      ],
-      "id": "3f29566ecc6889c9",
-      "section": "popculture",
+      "x_urls": [],
+      "id": "3439ecb76e40362f",
+      "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:02:25Z"
+      "timestamp": "2026-03-15T19:03:10Z"
     },
     {
-      "title": "Small Business Owners Quietly Building Custom AI Tools That Deliver Real Results",
-      "summary": "Small business owners are creating bespoke AI solutions like receptionists saving $4k/month for dentists, demand predictors reducing food waste by 40% for food trucks, style-matching editors doubling bookings for photographers, churn predictors boosting retention 22% for gyms, and custom CRMs replacing expensive software. These non-coders are using AI to automate operations and gain competitive edges. The divide between proactive builders and those merely observing is widening, determining business survival.",
+      "title": "Small Business Owners Quietly Building Custom AI Tools for Huge Gains",
+      "summary": "Entrepreneurs without coding backgrounds are crafting AI solutions like receptionists saving $4k/month on services, demand forecasters slashing food waste by 40%, style-matching photo editors cutting turnaround from weeks to days and doubling bookings, churn predictors lifting retention 22%, and bespoke CRMs replacing costly software. These practical tools drive efficiency and growth. The divide between AI builders and observers determines business survival.",
       "url": "https://x.com/wonderofthings/status/2031516834713973016",
       "source": "@wonderofthings",
       "source_type": "x",
       "tags": [
-        "AI",
         "small business",
-        "custom tools",
-        "automation",
-        "impact"
+        "custom AI",
+        "AI tools",
+        "efficiency"
       ],
       "x_urls": [
         "https://x.com/wonderofthings/status/2031516834713973016"
       ],
-      "id": "a84712dfc5b71e23",
+      "id": "828810c96b562049",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:02:58Z"
+      "timestamp": "2026-03-15T19:03:10Z"
     },
     {
-      "title": "UK Small Business Owners Embracing Generative AI for Business Guidance",
-      "summary": "According to American Express research, 26% of UK small business owners now use generative AI platforms for advice previously sought from peers, citing time constraints (33%) and limited networking (22%). While 78% see networking's positive impact and plan to expand in-person connections, AI provides quick efficiency amid isolation challenges. Human networks remain vital for confidence and crisis support.",
-      "url": "https://x.com/Thompsonsiom/status/2031663966603096459",
-      "source": "@Thompsonsiom",
+      "title": "AI Reshapes Business Org Structures, Demanding Workflow Redesign",
+      "summary": "AI blurs lines between business, data, product, risk, and ops functions, shifting authority and exposing leadership blind spots in isolated AI hiring. Without integrated operating models linking development, validation, deployment, and accountability, new roles generate activity but not scalable capability. Organizations redesigning work holistically around AI will dominate.",
+      "url": "https://x.com/sijlalhussain/status/2030288825667211631",
+      "source": "@sijlalhussain",
       "source_type": "x",
       "tags": [
-        "AI",
-        "small business",
-        "UK",
-        "adoption",
-        "networking"
+        "AI impact",
+        "business transformation",
+        "organizational design"
       ],
       "x_urls": [
-        "https://x.com/Thompsonsiom/status/2031663966603096459"
+        "https://x.com/sijlalhussain/status/2030288825667211631"
       ],
-      "id": "d660ddf215c6f974",
+      "id": "46ab5094eff56278",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:02:58Z"
+      "timestamp": "2026-03-15T19:03:10Z"
     },
     {
-      "title": "Mega AI Levels the Playing Field for SMBs with Its AI Growth Engine",
-      "summary": "Mega AI offers SMBs a Service-as-a-Software platform automating marketing tasks like SEO, paid ads, and website management using specialized AI agents that handle 65% of tasks autonomously. Customers have seen massive gains, such as 174x search traffic for a medical spa and $120k revenue for a health brand, reaching $10M ARR quickly. Backed by $11.5M Series A, it plans expansions into email, sales ops, and analytics to provide enterprise-grade tools affordably.",
-      "url": "https://www.signalfire.com/blog/mega-investor",
-      "source": "SignalFire",
+      "title": "Microsoft Launches Cloud & AI SMB Partner Resources Collection",
+      "summary": "Microsoft's new asset collection equips partners to seize SMB Cloud and AI growth, featuring decks and guides for Azure migrations, Microsoft Fabric, and AI apps/agents amid SMB operational shifts. Updated March 12, 2026, it emphasizes sales engagement for security, scaling, and innovation plays. This supports small businesses rethinking tech stacks with purpose-built AI solutions.",
+      "url": "https://partner.microsoft.com/en-us/marketing-center/assets/collection/cloud-and-ai-platforms-smb-partner-resources",
+      "source": "Microsoft",
       "source_type": "news",
       "tags": [
-        "AI",
-        "SMB",
-        "marketing",
-        "growth engine",
-        "automation"
+        "AI platforms",
+        "small business",
+        "Microsoft",
+        "partner ecosystem"
       ],
       "x_urls": [],
-      "id": "4c5b1abe179b18b9",
+      "id": "2bf606bbeafb0d47",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-15T19:02:58Z"
-    },
-    {
-      "title": "UK Small Business Owners Embrace AI but Value Networking",
-      "summary": "American Express research reveals 26% of UK small business owners use generative AI for guidance once obtained from peers due to time (33%) and networking limits (22%). Despite this, 78% affirm networking's business benefits, with 83% gaining confidence from discussions and 71% relying on networks in challenges. AI aids efficiency, but human connections offer irreplaceable support; 74% aim to grow in-person networks.",
-      "url": "https://londonlovesbusiness.com/uk-small-business-owners-embrace-ai-but-value-networking/",
-      "source": "London Loves Business",
-      "source_type": "news",
-      "tags": [
-        "AI",
-        "small business",
-        "UK SMEs",
-        "generative AI",
-        "networking"
-      ],
-      "x_urls": [
-        "https://x.com/Thompsonsiom/status/2031663966603096459"
-      ],
-      "id": "1ec100dc9a54108b",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-15T19:02:58Z"
+      "timestamp": "2026-03-15T19:03:10Z"
     }
   ]
 }
