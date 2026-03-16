@@ -1,11 +1,65 @@
 {
   "date": "2026-03-16",
   "period": "afternoon",
-  "generated": "2026-03-16T19:03:09Z",
+  "generated": "2026-03-16T19:03:13Z",
   "items": [
     {
-      "title": "SEO, AEO, and GEO: The Next Evolution in Search Optimization",
-      "summary": "SEO specialist Josh Nay breaks down the differences between traditional SEO for search engine results, AEO for direct answers in voice assistants and chatbots, and emerging GEO for being cited in AI-generated summaries like those from ChatGPT and Google AI Overviews. He emphasizes that forward-thinking brands must optimize content across all three paradigms simultaneously to maintain visibility. This post highlights the rapid shift driven by AI search changes.",
+      "title": "Google Discover Core Update Hits Local Publishers' National Reach",
+      "summary": "Google's Discover core update reduced national reach for local publishers, with sites like Syracuse.com and cbs6albany.com losing over 36% of article placements and up to 80% of audience scores, primarily from out-of-state feeds such as Florida and California, while retaining home-state visibility. Major publishers including Yahoo (down 50% in placements and 62% in audience score), Fox properties (over 40% drop), and Forbes (21% placements and 67% audience loss) also experienced significant declines in Discover visibility. The update prioritized locally relevant content, suggesting local publishers should focus on regional targeting.",
+      "url": "https://www.searchenginejournal.com/google-discover-core-update-data-local-publishers-lost-reach/569735",
+      "source": "Search Engine Journal",
+      "source_type": "news",
+      "tags": [
+        "Google Discover",
+        "Core Update",
+        "Local SEO",
+        "Content Marketing"
+      ],
+      "x_urls": [],
+      "id": "9b912942a615eaad",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-16T19:00:49Z"
+    },
+    {
+      "title": "AI Search Engines Rarely Cite Syndicated News Or Press Releases",
+      "summary": "AI search engines, such as ChatGPT, Google AI Mode, Google AI Overviews, and Google Gemini, rarely cite syndicated news or press releases, with syndicated press releases accounting for only 0.32% of news citations and 0.04% of the total dataset from 4 million citations analyzed in a BuzzStream report. In contrast, original editorial content dominates at 81% of news citations, while owned newsroom content on company domains performs better. This trend implies that for SEO and content marketing, focusing on earning original coverage through digital PR and maintaining owned newsrooms is more effective than relying on syndicated distribution for AI visibility.",
+      "url": "https://www.searchenginejournal.com/ai-search-barely-cites-syndicated-news-or-press-releases/569854",
+      "source": "Search Engine Journal",
+      "source_type": "news",
+      "tags": [
+        "AI Search",
+        "Content Marketing",
+        "Digital PR",
+        "SEO"
+      ],
+      "x_urls": [],
+      "id": "e5061667f5d773c3",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-16T19:00:49Z"
+    },
+    {
+      "title": "Google Provides More Details on Googlebot Crawl Limits",
+      "summary": "Google has shared more details on Googlebot crawl limits, which are designed to protect infrastructure and are flexible, allowing overrides such as reducing the default 15 megabyte limit to 2 megabytes for Google Search or increasing it for PDFs up to 64 megabytes. These limits help manage processing overhead from large documents and prevent overwhelming Google's systems, with different crawlers applying varied settings based on needs like fast indexing. For SEO relevance, excessively large files can hinder crawling efficiency, so optimizing content size ensures better indexing and avoids crawl budget waste.",
+      "url": "https://www.searchenginejournal.com/googlebot-crawl-limit-information/569794",
+      "source": "Search Engine Journal",
+      "source_type": "news",
+      "tags": [
+        "Googlebot",
+        "Crawl Budget",
+        "Technical SEO",
+        "SEO Tools"
+      ],
+      "x_urls": [],
+      "id": "acf9220c77a7e566",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-16T19:00:49Z"
+    },
+    {
+      "title": "SEO vs AEO vs GEO: The Evolution Explained",
+      "summary": "As an SEO pro, SEO is still king for traditional search with keywords, content, backlinks; AEO for direct answers in AI chatbots and voice assistants; GEO for visibility in AI-generated summaries like ChatGPT or Google AI Overviews via authority, uniqueness, structured data. The difference: SEO for lists, AEO for answers, GEO for AI remixes. Smart brands run all three parallel.",
       "url": "https://x.com/joshrobertnay/status/2032003718686916992",
       "source": "@joshrobertnay",
       "source_type": "x",
@@ -13,110 +67,62 @@
         "SEO",
         "AEO",
         "GEO",
-        "AI search"
+        "AI Search"
       ],
       "x_urls": [
         "https://x.com/joshrobertnay/status/2032003718686916992"
       ],
-      "id": "4ef79786856e853e",
+      "id": "a09ff365b23579d2",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:00:36Z"
+      "timestamp": "2026-03-16T19:00:49Z"
     },
     {
-      "title": "GEO Replacing SEO: Open-Source Tool for AI Visibility Audits",
-      "summary": "Vaclav Miliz\u00e9 warns that traditional SEO is dying as AI search engines like ChatGPT and Perplexity dominate, predicting a 50% drop in search traffic by 2028. He spotlights a new open-source tool that audits websites for GEO readiness, featuring citability scoring, AI crawler checks, and llms.txt generation. Only 23% of marketers are investing in GEO yet.",
-      "url": "https://x.com/clwdbot/status/2031644000667709682",
-      "source": "@clwdbot",
+      "title": "New Features on Google Discover Publisher Profile Pages",
+      "summary": "Big changes for Google Discover publisher profiles: large header images for some US sites, 'featured posts' block to highlight posts, social media videos, articles; new 'Links' block for site categories. Some profiles in preparation awaiting header images. Monitoring tool tracks rollout.",
+      "url": "https://x.com/AndellDam/status/2032818065340068270",
+      "source": "@AndellDam",
       "source_type": "x",
       "tags": [
-        "GEO",
-        "SEO tools",
-        "AI search changes"
-      ],
-      "x_urls": [
-        "https://x.com/clwdbot/status/2031644000667709682"
-      ],
-      "id": "42efca0214a14df3",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-16T19:00:36Z"
-    },
-    {
-      "title": "The GEO Era: Optimizing for AI-Generated Search Answers",
-      "summary": "Full Stack Marketer Tomas Corza explains the transition from SEO to GEO, where search engines synthesize answers rather than list links. Success requires building topical authority, machine-readable structured content, and demonstrating expertise to be included in AI responses from Perplexity and Google. This marks a fundamental change beyond mere rankings.",
-      "url": "https://x.com/tomas_corza/status/2031706848571617328",
-      "source": "@tomas_corza",
-      "source_type": "x",
-      "tags": [
-        "GEO",
-        "AEO/GEO evolution",
-        "AI search"
-      ],
-      "x_urls": [
-        "https://x.com/tomas_corza/status/2031706848571617328"
-      ],
-      "id": "366ac01c031090a4",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-16T19:00:36Z"
-    },
-    {
-      "title": "The Shift from SEO to GEO: VisiGEO Platform Navigates AI Search Rise",
-      "summary": "VisiGEO, a new platform, assists companies transitioning from traditional SEO to Generative Engine Optimization amid surging AI-driven search. It provides tools to ensure content is understood, trusted, and cited by AI systems in generative responses. The article underscores the urgency of adapting to this evolution for sustained online visibility.",
-      "url": "https://www.morningstar.com/news/pr-newswire/20260313ph09659/the-shift-from-seo-to-geo-how-visigeo-helps-companies-navigate-the-rise-of-ai-search",
-      "source": "Morningstar / PR Newswire",
-      "source_type": "news",
-      "tags": [
-        "GEO",
-        "AI search changes",
-        "SEO tools"
-      ],
-      "x_urls": [],
-      "id": "722a169419d94dde",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-16T19:00:36Z"
-    },
-    {
-      "title": "AI-Driven Search Accelerates Demand for GEO, Says Arwenus SEO",
-      "summary": "Arwenus SEO reports booming interest in Generative Engine Optimization as AI integrates deeper into search experiences. Businesses are seeking strategies to appear in AI-generated answers and summaries. This trend reflects broader shifts in SEO practices toward AI compatibility.",
-      "url": "https://www.goerie.com/press-release/story/75925/ai-driven-search-is-accelerating-interest-in-generative-engine-optimization-geo-says-arwenus-seo",
-      "source": "Arwenus SEO",
-      "source_type": "news",
-      "tags": [
-        "GEO",
-        "trending",
-        "AI search"
-      ],
-      "x_urls": [],
-      "id": "90fc5aa3d98616d9",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-16T19:00:36Z"
-    },
-    {
-      "title": "Google Algorithm Updates March 2026: Complete Guide for SEO Agencies",
-      "summary": "SEOVendor outlines the latest Google algorithm updates in March 2026, focusing on technical performance and content quality impacts. SEO agencies are advised on recovery strategies and optimization for recent core changes. Emphasis on adapting to AI-influenced ranking factors.",
-      "url": "https://seovendor.co/google-algorithm-updates-march-2026-complete-guide-for-seo-agencies",
-      "source": "SEOVendor",
-      "source_type": "news",
-      "tags": [
-        "Google updates",
+        "Google Discover",
+        "Publisher Profiles",
         "SEO",
-        "algorithm changes"
+        "Content Marketing"
       ],
-      "x_urls": [],
-      "id": "87133d976e2a982a",
+      "x_urls": [
+        "https://x.com/AndellDam/status/2032818065340068270"
+      ],
+      "id": "89cb08a2baa519a5",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:00:36Z"
+      "timestamp": "2026-03-16T19:00:49Z"
     },
     {
-      "title": "Grammarly Accused of Impersonating Journalists in AI 'Expert Review' Feature",
-      "summary": "Tech journalist Ray Wong exposes Grammarly for impersonating him and other editors in its AI-powered Expert Review feature, which scrapes their articles to generate writing suggestions attributed to them without permission. He describes it as identity theft, criticizing the company's disclaimer as insufficient. The controversy highlights ethical issues in AI's use for writing and editing tools.",
+      "title": "GEO + AEO + Agentic SEO: Strategy to Win AI Search Citations",
+      "summary": "47% of Google searches now show AI answers first; GEO + AEO + Agentic SEO is key to getting cited in them. Shares a full 90-day strategy guide. Essential for SEO in 2026.",
+      "url": "https://x.com/itechseo/status/2031644000667709682",
+      "source": "@itechseo",
+      "source_type": "x",
+      "tags": [
+        "GEO",
+        "AEO",
+        "Agentic SEO",
+        "AI Search",
+        "Google AI Overviews"
+      ],
+      "x_urls": [
+        "https://x.com/itechseo/status/2031644000667709682"
+      ],
+      "id": "09de69043107be27",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-16T19:00:49Z"
+    },
+    {
+      "title": "Grammarly Accused of Impersonating Journalists in AI Editing Feature",
+      "summary": "Tech journalist Ray Wong calls out Grammarly for using his name and Gizmodo affiliation in its 'Expert Review' AI feature without permission or endorsement, scraping his career's work to simulate expert writing suggestions. He describes it as identity theft and criticizes the company's disclaimer as insufficient. The post highlights growing concerns over AI misuse in editing and writing tools.",
       "url": "https://x.com/raywongy/status/2030090091180240948",
-      "source": "@raywongy",
+      "source": "Ray Wong (@raywongy)",
       "source_type": "x",
       "tags": [
         "AI",
@@ -127,263 +133,228 @@
       "x_urls": [
         "https://x.com/raywongy/status/2030090091180240948"
       ],
-      "id": "d6db3e2b71f62e61",
+      "id": "b4fa7856806cab3e",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:01:23Z"
+      "timestamp": "2026-03-16T19:01:52Z"
     },
     {
-      "title": "Sarah Ferguson Reportedly Turned Down for \u00a31.5m US Book Deal Over Epstein Scandal",
-      "summary": "Royal author Robert Jobson reports that US publishers have rejected Sarah Ferguson's \u00a31.5 million book deal, citing her links to the Epstein scandal and the York family's toxic brand. Hollywood sources state they refuse to allow her to cash in on the controversy. The story underscores challenges in securing major publishing contracts amid reputational issues.",
-      "url": "https://x.com/RobertDJobson/status/2030620232977453428",
-      "source": "@RobertDJobson",
+      "title": "Official BookTok Chart Set to Launch in the UK",
+      "summary": "Publishing Well shares news of an official BookTok chart launching in the UK, combining retail sales data with TikTok engagement for a monthly Top 20. Compiled by NielsenIQ BookData and Media Control, it follows a successful German version. This formalizes BookTok's influence on book sales and trends.",
+      "url": "https://x.com/PublishingWell/status/2032144860602319298",
+      "source": "Publishing Well (@PublishingWell)",
       "source_type": "x",
       "tags": [
+        "BookTok",
         "publishing",
-        "contract",
-        "scandal"
+        "charts",
+        "UK"
       ],
       "x_urls": [
-        "https://x.com/RobertDJobson/status/2030620232977453428"
+        "https://x.com/PublishingWell/status/2032144860602319298"
       ],
-      "id": "c25506c67bc8460c",
+      "id": "eaea4f48553cd31a",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:01:23Z"
+      "timestamp": "2026-03-16T19:01:52Z"
     },
     {
-      "title": "Author Shares Guardian Expos\u00e9 on AI-Fueled Book Scams Targeting Self-Publishers",
-      "summary": "Author Tendai Huchu highlights a Guardian story on fraudsters using AI to scam self-published authors with personalized promises of bestseller success and fake marketing services. Jon Cocks lost nearly A$10,000 to such schemes exploiting his debut novel. The post draws attention to the surge in AI-supercharged publishing frauds.",
-      "url": "https://x.com/TendaiHuchu/status/2031758316888531102",
-      "source": "@TendaiHuchu",
+      "title": "AI Supercharges Book Publishing Scams Targeting Self-Published Authors",
+      "summary": "Interactive Journalism highlights a Guardian story on fraudsters using AI to create personalized scam solicitations for self-published authors, promising publishing deals and marketing. Examples include authors losing thousands to fake services. The boom in self-publishing exacerbates vulnerability to these AI-enhanced swindles.",
+      "url": "https://x.com/InteractiveFeed/status/2031732890472423472",
+      "source": "Interactive Journalism (@InteractiveFeed)",
       "source_type": "x",
       "tags": [
         "AI",
         "scams",
-        "self-publishing"
+        "self-publishing",
+        "fraud"
       ],
       "x_urls": [
-        "https://x.com/TendaiHuchu/status/2031758316888531102",
         "https://x.com/InteractiveFeed/status/2031732890472423472"
       ],
-      "id": "08fdd84509d4a367",
+      "id": "4a7ca14ccfd9cb07",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:01:23Z"
+      "timestamp": "2026-03-16T19:01:52Z"
     },
     {
-      "title": "Grammarly turned me into an AI editor against my will and I hate it",
-      "summary": "Grammarly's Expert Review feature attributes AI-generated writing advice to real experts, including journalists and authors like Stephen King, by scraping their works without consent, raising identity misuse concerns. Examples include suggestions drawn from books like Bad Blood, presented as expert endorsements. The company plans opt-outs following backlash over ethical implications in AI-assisted editing.",
-      "url": "https://www.platformer.news/grammarly-expert-review-reviewed",
-      "source": "Platformer",
+      "title": "Oscars 2026: Has Hollywood's \u201cwokeism\u201d run its course?",
+      "summary": "The applause once given to celebrity activism at the Oscars has shifted to exhaustion and major backlash. Audiences express irritation with preachy speeches and political lectures. The article questions if Hollywood's woke era is ending.",
+      "url": "https://timesofindia.indiatimes.com/etimes/trending/oscars-2026-has-hollywoods-wokeism-run-its-course/articleshow/129607667.cms",
+      "source": "Times of India",
       "source_type": "news",
       "tags": [
-        "AI",
-        "editing",
-        "controversy",
-        "writing"
+        "Oscars",
+        "wokeism",
+        "backlash",
+        "Hollywood"
       ],
       "x_urls": [
-        "https://x.com/raywongy/status/2030090091180240948"
+        "https://x.com/jkeeter82/status/2033308183414931874",
+        "https://x.com/kingharleypup/status/2033229412590854638"
       ],
-      "id": "7eaffacba705d4e6",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-16T19:01:23Z"
-    },
-    {
-      "title": "Is BookTok Destroying Literature?",
-      "summary": "The video examines criticisms that BookTok promotes literature-dumbing trends like first-person POV and rapid pacing, countering that these have precedents in classics like The Great Gatsby and effective modern works. It argues poor execution, not techniques, is the issue, and BookTok drives book engagement amid digital shifts. Publishing trends in romance reflect reader demands without sacrificing depth.",
-      "url": "https://www.youtube.com/watch?v=WmcnL_kFhMQ",
-      "source": "YouTube",
-      "source_type": "news",
-      "tags": [
-        "BookTok",
-        "publishing",
-        "storytelling",
-        "controversy"
-      ],
-      "x_urls": [],
-      "id": "44da432578e7c49d",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-16T19:01:23Z"
-    },
-    {
-      "title": "\u2018Refuse\u2019: Rachel Zegler slams \u2018woke\u2019 Snow White role backlash",
-      "summary": "Rachel Zegler addressed ongoing backlash to her casting in Disney's live-action Snow White remake, stating she refuses to assimilate for others' comfort. She described early criticism confusing her heritage as 'not enough of one thing' or 'too much of another' during her twenties. Zegler has coped through therapy, medication, and maintaining a positive mindset.",
-      "url": "https://www.news.com.au/entertainment/movies/refuse-rachel-zegler-slams-woke-snow-white-role-backlash/news-story/8d44af505d0613c67deca853aa620856",
-      "source": "news.com.au",
-      "source_type": "news",
-      "tags": [
-        "disney",
-        "snow-white",
-        "casting",
-        "woke",
-        "backlash"
-      ],
-      "x_urls": [],
-      "id": "4af2a8e2464e2452",
+      "id": "78504bfc68fec5af",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:02:38Z"
+      "timestamp": "2026-03-16T19:02:34Z"
     },
     {
-      "title": "Springsteen fans outraged over pricey tickets for 'No Kings'-themed tour; 'a woke joke'",
-      "summary": "Bruce Springsteen fans voiced outrage over ticket prices up to $3,000 for his 'No Kings' themed tour. Many labeled the pricing and political theme a 'woke joke' on social media. The backlash highlights tensions between the artist's messaging and fan expectations.",
-      "url": "https://nypost.com/2026/03/07/entertainment/bruce-springsteen-fans-outraged-over-his-up-to-3k-tour-tickets/",
-      "source": "New York Post",
+      "title": "Jean Smart Blasted for Getting Teary-Eyed While 'Spewing Woke Propaganda' at Golden Globes",
+      "summary": "Jean Smart faced backlash for her teary-eyed political comments on the 2026 Golden Globes red carpet. Critics accused her of promoting woke views inappropriately. The reaction underscores audience frustration with celebrity activism.",
+      "url": "https://www.aol.com/articles/jean-smart-blasted-getting-teary-015928688.html",
+      "source": "AOL",
       "source_type": "news",
       "tags": [
-        "bruce-springsteen",
-        "tour",
-        "tickets",
-        "woke",
-        "backlash"
+        "Golden Globes",
+        "Jean Smart",
+        "backlash",
+        "woke"
       ],
-      "x_urls": [
-        "https://x.com/nypost/status/2030405867376427330"
-      ],
-      "id": "ad8b83b8e3c3d511",
+      "x_urls": [],
+      "id": "416fa8a15d59d666",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:02:38Z"
+      "timestamp": "2026-03-16T19:02:34Z"
     },
     {
-      "title": "Culture War Ends as Wokeness Fades from Hollywood and Brands",
-      "summary": "A viral post declares the culture war over, with corporations like Target and Bud Light abandoning DEI and woke initiatives. It notes Paramount's fortune in avoiding Netflix's potential alterations to classics. The silent majority's vocal shift led to wokeness' decline across entertainment and business.",
-      "url": "https://x.com/Rothmus/status/2030772833937215752",
-      "source": "Rothmus (@Rothmus)",
-      "source_type": "x",
+      "title": "Can the Oscars leave the woke era behind?",
+      "summary": "The Academy's new casting award is viewed as a rebuke to Hollywood's DEI agenda and woke quotas. This comes amid growing audience backlash to preachy content. It signals potential change in entertainment awards.",
+      "url": "https://www.spiked-online.com/2026/03/14/can-the-oscars-leave-its-woke-era-behind",
+      "source": "Spiked",
+      "source_type": "news",
       "tags": [
-        "culture-war",
-        "dei",
-        "woke-decline",
-        "hollywood",
-        "corporations"
+        "Oscars",
+        "DEI",
+        "backlash",
+        "woke"
       ],
       "x_urls": [
         "https://x.com/Rothmus/status/2030772833937215752"
       ],
-      "id": "0ef411f2ee93a250",
+      "id": "8923849b82ff8832",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:02:38Z"
+      "timestamp": "2026-03-16T19:02:34Z"
     },
     {
-      "title": "Hollywood's Woke 'Mind Virus' Causes Industry Necrosis and Collapse",
-      "summary": "An analysis attributes Hollywood's downturn to prioritizing propaganda over entertainment via the 'woke mind virus'. It cites Disney's Snow White remake losing $170M amid backlash, 2025's poor box office, and studios retreating from DEI. The post predicts a reset where entertainment-focused creators survive.",
-      "url": "https://x.com/NewEinHara/status/2031960920621232232",
-      "source": "Ripplestiltskin (@NewEinHara)",
+      "title": "Liberal Women Roasted at Non-Woke Comedy Show",
+      "summary": "A video captures young liberal women attending a non-woke comedy show where they are hilariously roasted by the comedian. The audience cheers enthusiastically. The clip went viral illustrating demand for anti-preachy humor.",
+      "url": "https://x.com/Ilegvm/status/2032920001405923834",
+      "source": "@Ilegvm",
       "source_type": "x",
       "tags": [
-        "hollywood",
-        "woke-virus",
-        "snow-white",
-        "box-office",
-        "dei"
+        "comedy",
+        "roast",
+        "anti-woke",
+        "backlash"
       ],
       "x_urls": [
-        "https://x.com/NewEinHara/status/2031960920621232232"
+        "https://x.com/Ilegvm/status/2032920001405923834"
       ],
-      "id": "14c59a8d3a142fa7",
+      "id": "78d8473679807612",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:02:38Z"
+      "timestamp": "2026-03-16T19:02:34Z"
     },
     {
-      "title": "Cameron Diaz\u2019s Return to Acting Continues as She Films New Rom-Com in NYC",
-      "summary": "Cameron Diaz was seen filming an untitled romantic comedy in New York City's West Village, directed and co-written by Stephen Merchant for Amazon MGM Studios. The plot follows a workaholic Brit hotelier faking marriage with a comedian, which blossoms into real romance. This marks her ongoing comeback after 2025's Back in Action.",
-      "url": "https://people.com/cameron-diaz-return-acting-continues-as-she-films-new-movie-in-nyc-11926464",
-      "source": "People",
-      "source_type": "news",
+      "title": "Audience Calls to Boycott Oscars Over Woke Virtue-Signaling",
+      "summary": "Users urge boycotting the Oscars citing endless lectures on Trump, America, and activist projects during speeches. Hollywood accused of injecting LGBTQ themes into kids' films. Reflects broad audience disillusionment with preachy entertainment.",
+      "url": "https://x.com/kingharleypup/status/2033229412590854638",
+      "source": "@kingharleypup",
+      "source_type": "x",
       "tags": [
-        "cameron-diaz",
-        "rom-com",
-        "filming",
-        "comeback"
+        "Oscars",
+        "boycott",
+        "woke",
+        "virtue-signaling"
       ],
-      "x_urls": [],
-      "id": "8adfad222ad93f1c",
+      "x_urls": [
+        "https://x.com/kingharleypup/status/2033229412590854638",
+        "https://x.com/jkeeter82/status/2033308183414931874"
+      ],
+      "id": "71f8b96166c216c7",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:02:38Z"
+      "timestamp": "2026-03-16T19:02:34Z"
     },
     {
-      "title": "No AI Strategy? Your Small Business Loan Could Be At Risk",
-      "summary": "Small business lenders are increasingly requiring AI adoption plans as a condition for loans, compelling Main Street businesses to prepare for the future. Attorneys are already leveraging AI tools to summarize case law and draft documents. This shift pressures small businesses to integrate AI to secure financing.",
-      "url": "https://www.forbes.com/sites/brandonkochkodin/2026/03/06/no-ai-plan-no-loan-small-business-lenders-force-main-street-to-face-the-future",
-      "source": "Forbes",
-      "source_type": "news",
-      "tags": [
-        "AI strategy",
-        "small business",
-        "lending",
-        "fintech"
-      ],
-      "x_urls": [],
-      "id": "d8a912efea87dabb",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-16T19:03:09Z"
-    },
-    {
-      "title": "5 ChatGPT Prompts To Find Out If AI Tools Are Helping Or Destroying Your Business",
-      "summary": "Small business owners can use five targeted ChatGPT prompts to evaluate the true impact of AI tools on their operations. This helps determine if AI is driving growth or creating inefficiencies. The prompts focus on productivity, cost savings, and overall business health.",
-      "url": "https://www.forbes.com/sites/jodiecook/2026/03/10/5-chatgpt-prompts-to-find-out-if-ai-tools-are-helping-or-destroying-your-business",
-      "source": "Forbes",
-      "source_type": "news",
-      "tags": [
-        "ChatGPT",
-        "AI evaluation",
-        "small business",
-        "productivity"
-      ],
-      "x_urls": [],
-      "id": "f787aa4fd50beaef",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-16T19:03:09Z"
-    },
-    {
-      "title": "Small Businesses Building Custom AI Tools: Receptionists, Predictors, and CRMs",
-      "summary": "Entrepreneurs are developing practical AI solutions like AI receptionists saving $4k/month for dentists, demand forecasters cutting food waste by 40% for food trucks, and custom CRMs for pest control. Photographers and gym owners also benefit from AI editing and churn prediction. Non-coders are widening the gap over those just observing AI trends.",
-      "url": "https://x.com/wonderofthings/status/2031516834713973016",
-      "source": "@wonderofthings",
+      "title": "Jennifer Welch's Rant at GLAAD Awards: 'Fck ICE! Fck Donald Trump!'",
+      "summary": "Jennifer Welch delivers unhinged speech at GLAAD Awards cursing ICE and Trump, met with cheers from audience. Posted as example of celebrity detachment. Sparks online reactions to preachy award show moments.",
+      "url": "https://x.com/BrandonStraka/status/2029959627442639097",
+      "source": "@BrandonStraka",
       "source_type": "x",
       "tags": [
-        "AI tools",
-        "small business",
-        "automation",
-        "case studies"
+        "GLAAD",
+        "rant",
+        "anti-Trump",
+        "woke"
       ],
       "x_urls": [
-        "https://x.com/wonderofthings/status/2031516834713973016"
+        "https://x.com/BrandonStraka/status/2029959627442639097"
       ],
-      "id": "b26109cf1ef70e6b",
-      "section": "business",
+      "id": "3fa70a9eb61886fe",
+      "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:03:09Z"
+      "timestamp": "2026-03-16T19:02:34Z"
     },
     {
-      "title": "OpenClaw AI Bot Automates Agency Outreach to Local Businesses",
-      "summary": "The OpenClaw system scrapes local businesses from Google Maps, builds AI knowledge bases from their websites, creates interactive demo widgets, and sends personalized outreach with screen recordings to book calls. It enables 24/7 lead handling for businesses missing phone calls. The creator shares the full system with interested followers.",
-      "url": "https://x.com/WontDieAverage_/status/2030372028684148890",
-      "source": "@WontDieAverage_",
-      "source_type": "x",
+      "title": "Every Launches AI-Native Back Office Agents for Startups and Small Businesses",
+      "summary": "Every has launched AI agents such as the AI CFO, AI Bookkeeper, and AI CHRO to automate back-office tasks for startups and small businesses. These tools handle finance, bookkeeping, and HR functions efficiently. This new suite empowers founders to focus on growth rather than admin work.",
+      "url": "https://finance.yahoo.com/news/every-launches-ai-native-back-140000175.html",
+      "source": "Yahoo Finance",
+      "source_type": "news",
       "tags": [
-        "AI agent",
-        "local business",
-        "outreach",
-        "automation"
+        "AI agents",
+        "small business",
+        "back office",
+        "new tools"
       ],
-      "x_urls": [
-        "https://x.com/WontDieAverage_/status/2030372028684148890"
-      ],
-      "id": "30007f87fed7b4ef",
+      "x_urls": [],
+      "id": "46def90dea658c3f",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-16T19:03:09Z"
+      "timestamp": "2026-03-16T19:03:13Z"
+    },
+    {
+      "title": "Polsia Launches as Autonomous AI Business Builder for Solo Founders",
+      "summary": "Polsia is a groundbreaking AI platform that autonomously builds and runs businesses from a simple idea or 'surprise me' prompt, handling servers, payments, landing pages, ads, and daily optimizations via an AI CEO. It has already powered over 2,000 companies with $1.8M in cash flows. This tool dramatically lowers barriers for small business creation and operation.",
+      "url": "https://x.com/andreasklinger/status/2029932031002415163",
+      "source": "@andreasklinger",
+      "source_type": "x",
+      "tags": [
+        "AI platform",
+        "autonomous agents",
+        "product launch",
+        "small business"
+      ],
+      "x_urls": [
+        "https://x.com/andreasklinger/status/2029932031002415163"
+      ],
+      "id": "ca2c876abdb9282a",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-16T19:03:13Z"
+    },
+    {
+      "title": "Slow Real-World AI Adoption Among Small Businesses Despite Hype",
+      "summary": "Entrepreneur Syed Balkhi reveals that AI use in small businesses is mostly limited to search and basic content generation, with agentic AI and vibe coding largely failing in practice due to manual iterations and debugging issues. He emphasizes the need for human oversight and notes adoption is still very early. This highlights the actual impact and challenges for SMBs.",
+      "url": "https://x.com/syedbalkhi/status/2031724267948179457",
+      "source": "@syedbalkhi",
+      "source_type": "x",
+      "tags": [
+        "AI impact",
+        "small business",
+        "adoption",
+        "reality check"
+      ],
+      "x_urls": [
+        "https://x.com/syedbalkhi/status/2031724267948179457"
+      ],
+      "id": "23c9463a3ccf506e",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-16T19:03:13Z"
     }
   ]
 }
