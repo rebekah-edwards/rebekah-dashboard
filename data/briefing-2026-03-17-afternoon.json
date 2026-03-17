@@ -1,360 +1,423 @@
 {
   "date": "2026-03-17",
   "period": "afternoon",
-  "generated": "2026-03-17T08:46:27Z",
+  "generated": "2026-03-17T19:03:00Z",
   "items": [
     {
-      "title": "7 organic content investments that drive ecommerce ROI",
-      "summary": "In 2026, ecommerce brands must shift from quantity to quality in organic content, focusing on assets that reduce buyer uncertainty, are machine-readable, and compound across AI, social, and search discovery surfaces amid AI Overviews and shopping-first SERPs. Key investments include upgrading money pages with detailed product info, optimizing for visual search, providing structured data via Schema and Merchant Center, building first-party proof like reviews and UGC, creating decision-support content such as comparisons and guides, strengthening retention through community content, and owning audiences with blogs, newsletters, and hubs. Deprioritize scaled generic blog content and manipulative tactics due to strengthened Google spam policies.",
-      "url": "https://searchengineland.com/organic-content-investments-ecommerce-roi-471572",
-      "source": "Search Engine Land",
+      "title": "Google Announces Major Core Update for March 2026",
+      "summary": "Google launched its March 2026 core update, emphasizing quality signals and superior user experience to refine search relevance, with rollout expected to take up to three weeks. The update reinforces E-E-A-T principles, potentially causing ranking fluctuations for low-quality content while rewarding genuine expertise. SEOs are advised to audit pages for E-E-A-T, monitor Search Console, and prioritize helpful content and UX metrics.",
+      "url": "https://www.linkedin.com/pulse/google-announces-major-core-update-march-2026-jon-goodey-s8ace",
+      "source": "Jon Goodey on LinkedIn",
       "source_type": "news",
       "tags": [
-        "Ecommerce SEO",
-        "content marketing",
-        "AI Overviews",
-        "structured data",
-        "UGC"
+        "Google Core Update",
+        "E-E-A-T",
+        "SEO Trends"
       ],
       "x_urls": [],
-      "id": "50a0c47956a38c29",
+      "id": "a2e1a5a0afbca688",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:43:52Z"
+      "timestamp": "2026-03-17T19:00:40Z"
     },
     {
-      "title": "SEO, AEO, and GEO: The Evolving Landscape of Search Optimization",
-      "summary": "SEO expert Josh Nay explains the distinctions between traditional SEO for ranking in search lists via keywords and backlinks, AEO for direct answers in AI chatbots and voice assistants, and GEO for visibility in AI-generated summaries like Google AI Overviews through authority and structured data. Brands should integrate all three strategies to stay competitive as search evolves. Treating SEO like it's still 2015 is outdated.",
-      "url": "https://x.com/joshrobertnay/status/2032003718686916992",
-      "source": "Josh Nay (@joshrobertnay)",
-      "source_type": "x",
+      "title": "Google Tests Ask Maps: AI-Powered Conversational Search in Maps",
+      "summary": "Google is testing 'Ask Maps,' a Gemini AI feature in Google Maps for complex place-based queries like nearby dining options, providing direct AI-generated answers. This enhances local discovery but may alter traffic by reducing multi-step searches. Businesses should optimize profiles for better visibility in these AI recommendations.",
+      "url": "https://localdominator.co/seo-news/seo-news-roundup-march-9-to-15-2026",
+      "source": "Local Dominator",
+      "source_type": "news",
       "tags": [
-        "SEO",
-        "AEO",
-        "GEO",
-        "AI search",
-        "search evolution"
+        "AI Search",
+        "Local SEO",
+        "Google Maps"
       ],
       "x_urls": [
-        "https://x.com/joshrobertnay/status/2032003718686916992"
+        "https://x.com/pistakkiomktg/status/2032439349900357820"
       ],
-      "id": "a21c038642dbd1a1",
+      "id": "ebdaf34c71d102f8",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:43:52Z"
+      "timestamp": "2026-03-17T19:00:40Z"
     },
     {
-      "title": "Entering the Era of Generative Engine Optimization (GEO)",
-      "summary": "Tomas Corza argues that SEO is evolving into GEO, where search engines generate answers using AI like ChatGPT and Perplexity instead of blue links, making content invisible if not cited in responses. Success requires deep topical authority, structured machine-readable content, demonstrated expertise, and optimization for inclusion. This fundamental shift demands adaptation beyond traditional SERPs.",
-      "url": "https://x.com/tomas_corza/status/2033518780303778224",
-      "source": "Tomas Corza (@tomas_corza)",
+      "title": "Google Rolls Out Branded Queries Filter and AI Mode Insights in Search Console",
+      "summary": "Google expanded the AI-powered branded queries filter in Search Console to all eligible sites, automating classification including typos for better traffic analysis. Meanwhile, AI Mode self-citations have risen to 21%, directing more links to Google properties and potentially reducing external traffic. Ask Maps also launched, boosting conversational local search.",
+      "url": "https://www.searchenginejournal.com/seo-pulse-ai-mode-data-ask-maps-branded-queries-go-live/569648/",
+      "source": "Search Engine Journal",
+      "source_type": "news",
+      "tags": [
+        "Search Console",
+        "AI Mode",
+        "GEO"
+      ],
+      "x_urls": [],
+      "id": "57a7f0ef008a6300",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-17T19:00:40Z"
+    },
+    {
+      "title": "Google\u2019s John Mueller: Optimize for AI Search Visibility Beyond Traditional SEO",
+      "summary": "John Mueller advises businesses reliant on referred traffic to consider AI's role in visibility across Google Search, AI Overviews, ChatGPT, and others, regardless of terminology like GEO. AI favors well-ranking pages with clear entities, comparisons, and brand attribution. Strategies include structured content for extraction, entity building, and authoritative backlinks.",
+      "url": "https://x.com/alexgroberman/status/2032084993368080515",
+      "source": "@alexgroberman",
       "source_type": "x",
       "tags": [
+        "John Mueller",
         "GEO",
-        "AI search",
-        "content strategy",
-        "SEO evolution"
+        "AI Search"
       ],
       "x_urls": [
-        "https://x.com/tomas_corza/status/2033518780303778224"
+        "https://x.com/alexgroberman/status/2032084993368080515"
       ],
-      "id": "10ef40e5e1170e33",
+      "id": "f2208113aac3845b",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:43:52Z"
+      "timestamp": "2026-03-17T19:00:40Z"
     },
     {
-      "title": "Integrating SEO, AEO, and GEO for Modern Search Visibility",
-      "summary": "Onimod Global highlights how search discovery now spans traditional engines, direct answers, and AI assistants, requiring a unified SEO, AEO, and GEO approach to maintain visibility. Forward-thinking brands adapt strategies to changing behaviors across these platforms. Learn more about evolving search strategy.",
-      "url": "https://x.com/OnimodGlobal/status/2033547349490806812",
-      "source": "Onimod Global (@OnimodGlobal)",
+      "title": "Top SEO & AI Search News: Branded Queries, AI Linking, Technical SEO for AI - March 15",
+      "summary": "Aleyda Solis' weekly roundup covers Google expanding branded queries in Search Console, Robby Stein on AI linking, crawlers video, Perplexity court case, keyword semantics in 2026, and technical optimizations for AI crawlers. Highlights include Digital PR for AI citations and SaaS docs for visibility. Emphasizes machine-readable content to avoid invisibility.",
+      "url": "https://x.com/aleyda/status/2033285079317807219",
+      "source": "@aleyda",
       "source_type": "x",
       "tags": [
-        "SEO",
-        "AEO",
-        "GEO",
-        "search marketing",
-        "digital strategy"
+        "SEO Roundup",
+        "AI Search",
+        "Technical SEO"
       ],
       "x_urls": [
-        "https://x.com/OnimodGlobal/status/2033547349490806812"
+        "https://x.com/aleyda/status/2033285079317807219"
       ],
-      "id": "368693cab7048cc1",
+      "id": "c96b3596f502b45e",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:43:52Z"
+      "timestamp": "2026-03-17T19:00:40Z"
     },
     {
-      "title": "10,000 Authors vs. Big Tech: The Battle for Creative Rights",
-      "summary": "Nearly 10,000 authors, including prominent names, signed an open letter protesting AI companies like OpenAI, Meta, and Alphabet for training models on pirated books without consent, credit, or compensation. They published an empty book to symbolize the issue and demand permission, fair pay, and a human-led future for writing. The post offers tips like IP audits and contract updates to protect creators.",
-      "url": "https://x.com/veonszu/status/2031405733934514330",
-      "source": "@veonszu",
+      "title": "March 2026 Core Update Cracks Down on Boring, Mass-Produced AI Content",
+      "summary": "The March 2026 Core Update penalizes generic AI-generated content, ending the copy-paste era and rewarding unique insights from experience. Agencies use AI with quality checks, but small businesses win by adding personal data and missing perspectives from top rankings. Focus on voice-infused, non-boring content for EEAT.",
+      "url": "https://x.com/AlexWillardX/status/2031672698217115993",
+      "source": "@AlexWillardX",
       "source_type": "x",
       "tags": [
-        "AI controversy",
+        "Google Core Update",
+        "AI Content",
+        "EEAT"
+      ],
+      "x_urls": [
+        "https://x.com/AlexWillardX/status/2031672698217115993"
+      ],
+      "id": "3449462d94693800",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-17T19:00:40Z"
+    },
+    {
+      "title": "Journalist Accuses Grammarly of AI Impersonation in Editing Feature",
+      "summary": "Tech journalist Ray Wong calls out Grammarly for using his name and Gizmodo affiliation in its AI 'Expert Review' feature, which scrapes writers' work to mimic editing suggestions. He labels it identity theft and criticizes the company's disclaimer as insufficient amid widespread backlash. The viral post with over 680 likes sparks calls for lawsuits and ethical reforms in AI writing tools.",
+      "url": "https://x.com/raywongy/status/2030090091180240948",
+      "source": "@raywongy",
+      "source_type": "x",
+      "tags": [
+        "AI",
+        "controversy",
+        "editing",
+        "writing"
+      ],
+      "x_urls": [
+        "https://x.com/raywongy/status/2030090091180240948"
+      ],
+      "id": "e6686f3006e570ff",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-17T19:01:38Z"
+    },
+    {
+      "title": "Publishers Weekly Reports Major Book Deals for Week of March 16",
+      "summary": "Publishers Weekly highlights recent acquisitions: W.W. Norton buys Tonya Mosley\u2019s memoir 'In Case of My Death' at auction for U.S., Canada, and open market rights. Grove Atlantic secures world English rights to Mariia Niskavaara\u2019s debut novel 'Esther, the Butcher', sold in 17 territories. Hanover Square acquires a two-book horror deal for Kylie Lee Baker\u2019s 'Hell to Pay'.",
+      "url": "https://x.com/PublishersWkly/status/2033568978182779220",
+      "source": "@PublishersWkly",
+      "source_type": "x",
+      "tags": [
+        "major contracts",
+        "deals",
+        "memoir",
+        "fiction"
+      ],
+      "x_urls": [
+        "https://x.com/PublishersWkly/status/2033568978182779220"
+      ],
+      "id": "a4605ebaa51c2c51",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-17T19:01:38Z"
+    },
+    {
+      "title": "Scarlett Press Secures Six-Figure Pre-Empt Deal for Georgia Bowers' Supernatural Romances",
+      "summary": "The Bookseller announces Scarlett Press, Simon & Schuster UK imprint, acquiring two books from author Georgia Bowers in a six-figure pre-empt at London Book Fair. The lead title 'Only Fangs' features a conflicted vampire in a supernatural romance, slated for paperback in July 2027. This deal signals strong publisher interest in genre fiction.",
+      "url": "https://x.com/thebookseller/status/2032426069207249284",
+      "source": "@thebookseller",
+      "source_type": "x",
+      "tags": [
+        "major contracts",
+        "romance",
+        "supernatural"
+      ],
+      "x_urls": [
+        "https://x.com/thebookseller/status/2032426069207249284"
+      ],
+      "id": "b015ad2991f279d6",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-17T19:01:38Z"
+    },
+    {
+      "title": "Grammarly Removes AI Expert Review Feature Mimicking Writers After Backlash",
+      "summary": "Grammarly removed its AI Expert Review feature that generated editing suggestions inspired by styles of figures like Stephen King and Neil deGrasse Tyson due to backlash over unauthorized identity use. Journalist Julia Angwin filed a class-action lawsuit against parent Superhuman for unlawfully monetizing names without consent, seeking over $5 million. CEO apologized, promising redesign while defending legally.",
+      "url": "https://www.theguardian.com/books/2026/mar/13/grammarly-removes-ai-expert-review-feature-mimicking-writers-after-backlash",
+      "source": "The Guardian",
+      "source_type": "news",
+      "tags": [
+        "AI",
+        "controversy",
+        "editing",
+        "lawsuit"
+      ],
+      "x_urls": [],
+      "id": "6cf1a3abde3e5aa8",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-17T19:01:38Z"
+    },
+    {
+      "title": "AI Fuels Surge in Self-Publishing Scams Targeting Authors",
+      "summary": "Fraudsters leverage AI for personalized scams promising self-publishers bestseller status and marketing for upfront fees, as retired teacher Jon Cocks lost nearly A$10,000 to fake services. Originating from south Asia, Philippines, and Nigeria, these operations deliver worthless AI-generated content and extort victims, with over 2,500 scam publishers identified last year. The boom exploits authors' inexperience in the growing self-publishing market.",
+      "url": "https://www.theguardian.com/books/ng-interactive/2026/mar/12/ai-book-scams-publishing-fraud",
+      "source": "The Guardian",
+      "source_type": "news",
+      "tags": [
+        "AI",
+        "controversy",
+        "scams",
+        "self-publishing"
+      ],
+      "x_urls": [],
+      "id": "e975c499020a4ccf",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-17T19:01:38Z"
+    },
+    {
+      "title": "Official BookTok Chart to Launch in the UK",
+      "summary": "The UK will introduce an official BookTok Top 20 chart later this year, blending retail sales data with TikTok engagement via NielsenIQ BookData and Media Control algorithms weighted toward sales. Following a successful German pilot, it formalizes BookTok's influence on book trends and sales. Publishers recognize social media as a key driver in the international market.",
+      "url": "https://www.theguardian.com/books/2026/mar/12/official-booktok-chart-set-to-launch-in-the-uk",
+      "source": "The Guardian",
+      "source_type": "news",
+      "tags": [
+        "BookTok",
         "publishing",
-        "authors rights",
-        "intellectual property"
-      ],
-      "x_urls": [
-        "https://x.com/veonszu/status/2031405733934514330"
-      ],
-      "id": "7036888324115751",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-17T08:45:01Z"
-    },
-    {
-      "title": "Big publishers now using AI to predict which books will be hits",
-      "summary": "Publishers like Penguin Random House are hiring AI engineers to build forecasting models that predict book performance and influence acquisitions and promotions. Author Ewan Morrison calls this a dystopian development leading to dark times where AI decides publishing fates. Replies discuss risks of creative stagnation and support for AI-free presses.",
-      "url": "https://x.com/MrEwanMorrison/status/2030343108320252105",
-      "source": "@MrEwanMorrison",
-      "source_type": "x",
-      "tags": [
-        "AI in publishing",
-        "book forecasting",
-        "publishing industry"
-      ],
-      "x_urls": [
-        "https://x.com/MrEwanMorrison/status/2030343108320252105"
-      ],
-      "id": "8441c7423a342eb0",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-17T08:45:01Z"
-    },
-    {
-      "title": "Self-publish and be scammed: Jon\u2019s tale highlights AI book swindles",
-      "summary": "Guardian interactive shared via X details AI enabling mass scams on self-publishers, with fraudsters posing as agents offering fake services for fees. Retiree Jon Cocks lost nearly A$10,000 on his novel. The post spotlights the boom in such frauds.",
-      "url": "https://x.com/InteractiveFeed/status/2031732890472423472",
-      "source": "@InteractiveFeed",
-      "source_type": "x",
-      "tags": [
-        "AI scams",
-        "self-publishing",
-        "publishing fraud"
-      ],
-      "x_urls": [
-        "https://x.com/InteractiveFeed/status/2031732890472423472"
-      ],
-      "id": "54af83aa49510b8f",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-17T08:45:01Z"
-    },
-    {
-      "title": "'Don't Steal This Book': Thousands Of Authors Release 'Empty' Book At London Book Fair In Protest Against AI",
-      "summary": "Around 10,000 authors including Kazuo Ishiguro, Philippa Gregory, and Richard Osman released a mostly empty book listing their names to protest AI firms training on copyrighted works without permission or payment. The symbolic publication targets a UK government proposal for an AI commercial research exception. It was launched at the London Book Fair.",
-      "url": "https://www.ndtv.com/world-news/dont-steal-this-book-thousands-of-authors-release-empty-book-at-london-book-fair-in-protest-against-ai-11195100",
-      "source": "NDTV",
-      "source_type": "news",
-      "tags": [
-        "AI controversy",
-        "publishing protest",
-        "copyright",
-        "authors rights"
+        "charts"
       ],
       "x_urls": [],
-      "id": "3efb7d7144e37912",
+      "id": "2dfe5fccaf9474b3",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:45:01Z"
+      "timestamp": "2026-03-17T19:01:38Z"
     },
     {
-      "title": "Disney-Pixar's 'Hoppers' Sparks Backlash from Horrified Parents",
-      "summary": "Parents are complaining about two particularly disturbing scenes in Disney-Pixar's 'Hoppers,' known as 'The Squish Scene' and another graphic moment. The film has ignited controversy for content deemed unsuitable for family audiences. This backlash occurs as Pixar navigates shifts in its storytelling approach.",
-      "url": "https://nationaltoday.com/us/or/portland/news/2026/03/12/disney-pixars-hoppers-sparks-backlash-from-horrified-parents",
-      "source": "National Today",
+      "title": "Jean Smart Blasted for Getting Teary-Eyed While 'Spewing Woke' Comments at Golden Globes",
+      "summary": "Jean Smart drew criticism for her emotional political remarks during an interview on the 2026 Golden Globes red carpet with Variety. Viewers accused her of preaching woke ideology amid tears. The comments sparked backlash online against Hollywood's political posturing.",
+      "url": "https://www.aol.com/articles/jean-smart-blasted-getting-teary-015928688.html",
+      "source": "AOL",
       "source_type": "news",
       "tags": [
-        "backlash",
-        "Disney",
-        "Pixar",
-        "Hoppers",
-        "parents"
+        "Golden Globes",
+        "Jean Smart",
+        "woke backlash",
+        "Hollywood"
       ],
       "x_urls": [],
-      "id": "4892a678b15c7ea5",
+      "id": "12cd2b32fd046913",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:45:53Z"
+      "timestamp": "2026-03-17T19:02:28Z"
     },
     {
-      "title": "Rachel Zegler Addresses Backlash to 'Snow White' Reboot Box Office Disaster",
-      "summary": "Rachel Zegler responded to criticism of Disney's live-action Snow White remake, which failed at the box office. She suggested anti-Israel sentiment contributed to the backlash rather than the film's alterations. The project faced significant audience rejection over its changes to the classic story.",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15629009/Rachel-Zegler-backlash-Snow-White-reboot-box-office-disaster.html",
-      "source": "Daily Mail",
+      "title": "Oscars 2026: Has Hollywood's 'Wokeism' Run Its Course?",
+      "summary": "The 2026 Oscars faced scrutiny over persistent woke elements in Hollywood productions and ceremonies. Social media users labeled the industry as full of 'narcissists acting like activists,' with trends like 'Oscars woke' gaining traction. Audience fatigue with political messaging appears to be growing.",
+      "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/oscars-2026-has-hollywoods-wokeism-run-its-course/articleshow/129607667.cms",
+      "source": "Times of India",
       "source_type": "news",
       "tags": [
-        "backlash",
-        "Disney",
-        "Snow White",
-        "Rachel Zegler",
-        "box office"
+        "Oscars 2026",
+        "wokeism",
+        "audience backlash",
+        "Hollywood"
       ],
       "x_urls": [],
-      "id": "a1f237acd2972592",
+      "id": "6a7a1e520e734738",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:45:53Z"
+      "timestamp": "2026-03-17T19:02:28Z"
     },
     {
-      "title": "Pixar Chief Defends Cutting LGBTQ Themes, Focuses on 'Good Movies Not Therapy'",
-      "summary": "Pixar's chief creative officer defended the removal of LGBTQ themes from a recent film, prioritizing entertainment over messaging. The studio is refocusing after past audience reactions to perceived agenda-driven content. This marks a shift away from what some view as therapy-like narratives.",
-      "url": "https://www.foxnews.com/media/pixar-chief-defends-cutting-lgbtq-themes-film-calls-focus-making-good-movies-not-therapy",
-      "source": "Fox News",
+      "title": "Live Nation Employees Bragged About Gouging Customers in Court Documents",
+      "summary": "Unsealed court documents revealed Live Nation staff joking about high fees and ability to 'gouge' ticket buyers. The revelations from the entertainment giant behind Ticketmaster fueled public outrage over pricing practices. Customers expressed anger at exploitative tactics in the industry.",
+      "url": "https://abcnews.go.com/GMA/News/2-live-nation-employees-bragged-robbing-customers-court/story?id=131033212",
+      "source": "ABC News",
       "source_type": "news",
       "tags": [
-        "Pixar",
-        "LGBTQ themes",
-        "content cuts",
-        "entertainment focus",
-        "backlash"
-      ],
-      "x_urls": [],
-      "id": "4b2d88bdaae3b0f7",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-17T08:45:53Z"
-    },
-    {
-      "title": "Hollywood's Woke Mind Virus Leads to Industry Collapse and Disney Flops",
-      "summary": "The entertainment industry is criticized for prioritizing elite social credit over profit, resulting in propaganda over entertainment. Disney's Snow White remake lost around $170 million due to backlash against woke changes. The post predicts internal collapse unless focused on actual entertainment.",
-      "url": "https://x.com/NewEinHara/status/2031960920621232232",
-      "source": "@NewEinHara on X",
-      "source_type": "x",
-      "tags": [
-        "Hollywood",
-        "woke mind virus",
-        "Disney",
-        "Snow White",
-        "box office loss"
+        "Live Nation",
+        "Ticketmaster",
+        "audience backlash",
+        "entertainment industry"
       ],
       "x_urls": [
-        "https://x.com/NewEinHara/status/2031960920621232232"
+        "https://x.com/ABC/status/2032535475785810182"
       ],
-      "id": "5d0f7971a31c13eb",
+      "id": "f9058ca26e81442f",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:45:53Z"
+      "timestamp": "2026-03-17T19:02:28Z"
     },
     {
-      "title": "Culture War Fades as Brands and Hollywood Ditch DEI After Backlash",
-      "summary": "Corporations like Disney, Bud Light, and others are abandoning DEI, race-based hiring, and related initiatives following public rejection. The silent majority became vocal, diminishing wokeness across industries including entertainment. Paramount's avoidance of woke alterations to classics is highlighted.",
+      "title": "Wokeness Dwindles as Brands and Hollywood Retreat from DEI Initiatives",
+      "summary": "A viral post highlights corporations like Target, Bud Light, and Netflix abandoning DEI, race-based hiring, and related mandates following public pushback. The shift marks the culture war's end with the silent majority turning vocal against woke policies. Hollywood's potential under woke leadership is cited as averted disaster.",
       "url": "https://x.com/Rothmus/status/2030772833937215752",
-      "source": "@Rothmus on X",
+      "source": "@Rothmus",
       "source_type": "x",
       "tags": [
-        "culture war",
         "DEI",
-        "wokeness decline",
-        "Hollywood",
-        "Disney"
+        "woke decline",
+        "culture war",
+        "Hollywood"
       ],
       "x_urls": [
         "https://x.com/Rothmus/status/2030772833937215752"
       ],
-      "id": "38f196fd269cce9f",
+      "id": "b3bfee7340028194",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:45:53Z"
+      "timestamp": "2026-03-17T19:02:28Z"
     },
     {
-      "title": "Woke Disney Erases History of First Black Oscar Winner James Baskett",
-      "summary": "James Baskett received the first Academy Honorary Award for a Black actor for his role in Song of the South. Modern woke Disney and Hollywood disrespect and purge such Black achievements from history. The post uses animation to illustrate ongoing erasure.",
-      "url": "https://x.com/Real_Ed_McCray/status/2032847562244501984",
-      "source": "@Real_Ed_McCray on X",
+      "title": "Fans Slam Awards Shows for Woke Sermons and Virtue Signaling",
+      "summary": "A user laments the loss of glamour in awards shows due to condescending woke lectures and moralizing from Hollywood elites. The constant virtue signaling alienates average viewers who reject the hypocrisy. Many report tuning out entirely in rebellion.",
+      "url": "https://x.com/TheLizVariant/status/2033581673246228987",
+      "source": "@TheLizVariant",
       "source_type": "x",
       "tags": [
-        "Disney",
-        "woke",
-        "Oscar history",
-        "James Baskett",
-        "erasure"
+        "awards shows",
+        "woke sermons",
+        "virtue signaling",
+        "backlash"
       ],
       "x_urls": [
-        "https://x.com/Real_Ed_McCray/status/2032847562244501984"
+        "https://x.com/TheLizVariant/status/2033581673246228987"
       ],
-      "id": "7a119010c77e1af8",
+      "id": "7936064d22ea29c6",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:45:53Z"
+      "timestamp": "2026-03-17T19:02:28Z"
     },
     {
-      "title": "ECI AI Readiness Report Reveals SMB Optimism Outpaces Adoption",
-      "summary": "Over 70% of small and medium-sized business (SMB) leaders view AI positively, prioritizing data analysis (60%), content creation (49%), and customer service (42%). However, nearly 40% report no measurable results due to barriers like lack of expertise, data readiness, and unclear starting points. The report highlights accelerating AI timelines amid labor shortages and operational pressures in sectors like manufacturing.",
-      "url": "https://www.businesswire.com/news/home/20260311270775/en/ECI-Releases-AI-Readiness-Report-as-SMB-AI-Optimism-Outpaces-Adoption",
-      "source": "BusinessWire",
-      "source_type": "news",
-      "tags": [
-        "SMB",
-        "AI adoption",
-        "business impact",
-        "readiness report"
-      ],
-      "x_urls": [],
-      "id": "ca9154c0ebd8438d",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-17T08:46:27Z"
-    },
-    {
-      "title": "Software Giants Like Salesforce Fight Back Against AI Disruption Fears",
-      "summary": "Companies such as Salesforce and Oracle are leveraging proprietary data to build AI-powered products like Agentforce, positioning themselves as enterprise AI platforms amid fears that generative AI could disrupt traditional software. Their unique customer data provides a defense hard for AI models to replicate, unlike more standardized rivals. This benefits small businesses and SaaS users through enhanced productivity and high switching costs.",
-      "url": "https://www.reuters.com/business/software-companies-fight-back-against-fears-that-ai-will-kill-them-2026-03-12",
-      "source": "Reuters",
-      "source_type": "news",
-      "tags": [
-        "SaaS",
-        "AI disruption",
-        "enterprise AI",
-        "proprietary data"
-      ],
-      "x_urls": [],
-      "id": "a2963d4b8fe29458",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-17T08:46:27Z"
-    },
-    {
-      "title": "Solopreneurs Leverage AI Stack to Replace 5-Person Teams",
-      "summary": "Cyril Gupta shares how small businesses and solopreneurs use affordable AI tools for customer support (Tidio, Intercom, ChatGPT), content marketing (Claude, Jasper), and operations (Zapier, Notion, CRM). This stack costs under $100/month and saves 10-15 hours weekly, leveling the playing field against larger teams. The post emphasizes automation enabling lean operations.",
-      "url": "https://x.com/cyrilgupta/status/2032804295259664753",
-      "source": "@cyrilgupta",
+      "title": "ENHYPEN Fans Furious at BELIFT for Profiting Off Heeseung While Erasing Him from Content",
+      "summary": "ENGENEs rage against BELIFT LAB for including Heeseung in sales promotions after removing him from group activities, calling it exploitation of OT7. Fans protest outside HYBE demanding his return, affirming 'ENHYPEN IS SEVEN.' Jake's confirmation of performance changes intensified accusations of erasure.",
+      "url": "https://x.com/SKPopCulture/status/2033512935096742083",
+      "source": "@SKPopCulture",
       "source_type": "x",
       "tags": [
-        "AI stack",
-        "solopreneur",
-        "small business tools",
-        "automation"
+        "ENHYPEN",
+        "Heeseung",
+        "fan backlash",
+        "K-pop"
       ],
       "x_urls": [
-        "https://x.com/cyrilgupta/status/2032804295259664753"
+        "https://x.com/SKPopCulture/status/2033512935096742083",
+        "https://x.com/SKPopCulture/status/2032042824854880453",
+        "https://x.com/SKPopCulture/status/2032081345477070942"
       ],
-      "id": "a2408b4972492475",
-      "section": "business",
+      "id": "29a9a1700e2333f3",
+      "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:46:27Z"
+      "timestamp": "2026-03-17T19:02:28Z"
     },
     {
-      "title": "OpenClaw AI Bot Automates Agency Outreach for Local Businesses",
-      "summary": "Igor's OpenClaw bot scrapes local businesses from Google Maps, builds custom AI knowledge bases and live demos from their websites, then sends personalized outreach with screen recordings to book calls. It enables 24/7 lead handling, addressing common issues like missed calls for small businesses. The system runs an AI agency on autopilot, with many users requesting access.",
-      "url": "https://x.com/WontDieAverage_/status/2030372028684148890",
-      "source": "@WontDieAverage_",
-      "source_type": "x",
+      "title": "AI Presents a Major Opportunity for Small Businesses\u2014But Support Needed",
+      "summary": "A Goldman Sachs insight reveals that 93% of small businesses using AI report a positive impact on their operations. Despite this, 85% support the proposed AI for Main Street Act to provide necessary training and resources. This highlights AI's transformative potential for SMBs if barriers like skills gaps are addressed.",
+      "url": "https://www.goldmansachs.com/community-impact/10000-small-businesses-voices/insights/ai-presents-a-major-opportunity-for-small-businesses",
+      "source": "Goldman Sachs",
+      "source_type": "news",
       "tags": [
-        "AI agent",
-        "outreach automation",
-        "local SMB",
-        "lead generation"
+        "AI",
+        "small business",
+        "adoption",
+        "policy"
       ],
-      "x_urls": [
-        "https://x.com/WontDieAverage_/status/2030372028684148890"
-      ],
-      "id": "82ac87f030127a6d",
+      "x_urls": [],
+      "id": "a394971d2751c5a0",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-17T08:46:27Z"
+      "timestamp": "2026-03-17T19:03:00Z"
+    },
+    {
+      "title": "Mega AI is Leveling the Playing Field for SMBs with its AI Growth Engine",
+      "summary": "SignalFire spotlights Mega AI, an innovative tool designed to help small-to-medium businesses tackle marketing challenges. By providing clear ROI insights and automation, it empowers SMB owners previously hindered by opaque ad spending. This represents a significant product move making enterprise-level growth accessible to smaller players.",
+      "url": "https://www.signalfire.com/blog/mega-investor",
+      "source": "SignalFire",
+      "source_type": "news",
+      "tags": [
+        "AI",
+        "small business",
+        "marketing",
+        "growth tool"
+      ],
+      "x_urls": [],
+      "id": "9d882f92666cc781",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-17T19:03:00Z"
+    },
+    {
+      "title": "28 AI Tools That Could Save You Thousands of Hours for Your Business",
+      "summary": "Entrepreneur Adam Muhammad Mukhtar lists 28 practical AI tools for business automation, from Claude and ChatGPT for content to HeyGen for videos and Clay for sales outreach. These tools cover every business aspect, enabling solopreneurs and SMBs to boost productivity massively. High engagement shows real interest in actionable AI stacks.",
+      "url": "https://x.com/EngineerAdam123/status/2030509081794908313",
+      "source": "@EngineerAdam123",
+      "source_type": "x",
+      "tags": [
+        "AI tools",
+        "productivity",
+        "automation",
+        "small business"
+      ],
+      "x_urls": [
+        "https://x.com/EngineerAdam123/status/2030509081794908313"
+      ],
+      "id": "e3c541ad5cb4c23c",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-17T19:03:00Z"
+    },
+    {
+      "title": "10 Ways Small Businesses Are Using AI Right Now That Large Corporations Haven\u2019t Figured Out",
+      "summary": "Incognito Learners details how SMBs lead AI adoption with applications like AI phone agents, cash flow forecasting, automated hiring, and competitor monitoring. Unlike big corps bogged down by bureaucracy, small businesses act fast, seeing revenue boosts and hiring growth. This thread emphasizes AI's role in giving SMBs a competitive edge.",
+      "url": "https://x.com/shealshakya/status/2033492499160068437",
+      "source": "@shealshakya",
+      "source_type": "x",
+      "tags": [
+        "AI",
+        "small business",
+        "adoption",
+        "competitive advantage"
+      ],
+      "x_urls": [
+        "https://x.com/shealshakya/status/2033492499160068437"
+      ],
+      "id": "e1ad91d5a8afecd9",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-17T19:03:00Z"
     }
   ]
 }
