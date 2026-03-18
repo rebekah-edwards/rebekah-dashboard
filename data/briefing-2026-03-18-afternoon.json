@@ -1,407 +1,374 @@
 {
   "date": "2026-03-18",
   "period": "afternoon",
-  "generated": "2026-03-18T19:03:22Z",
+  "generated": "2026-03-18T19:08:31Z",
   "items": [
     {
-      "title": "What's Hot, What's Not: AI Search Changes In Q1 2026 [Recap]",
-      "summary": "This Search Engine Journal article recaps the key developments in AI search during the first quarter of 2026, highlighting what's gaining traction and what's fading. It covers shifts in generative engines, optimization techniques, and their impact on SEO strategies. Marketers are urged to adapt quickly to maintain visibility in evolving AI-driven search landscapes.",
-      "url": "https://www.searchenginejournal.com/whats-hot-whats-not-ai-search-changes-in-q1-2026-recap/569652",
-      "source": "Search Engine Journal",
+      "title": "AI Content Wasn\u2019t Good Enough. Now It Is.",
+      "summary": "AI-generated content has advanced to a quality level viable for SEO success. The piece explores how this changes content creation and marketing strategies. Creators are advised to embrace AI tools while focusing on uniqueness.",
+      "url": "https://ahrefs.com/blog/ai-content-wasnt-good-enough-now-it-is",
+      "source": "Ahrefs",
       "source_type": "news",
       "tags": [
-        "AI search",
-        "SEO trends",
-        "GEO",
-        "2026 updates"
-      ],
-      "x_urls": [],
-      "id": "4fa1f4d5ecca0144",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-18T19:00:46Z"
-    },
-    {
-      "title": "Google March 2026 Core Update: What Agencies Need to Know and How to Recover",
-      "summary": "Google's March 2026 Core Update is affecting websites, with agencies needing to prioritize quality content and integration of GEO practices. The update emphasizes E-E-A-T signals and user experience improvements for recovery. SEO professionals are advised to audit sites and adjust strategies promptly.",
-      "url": "https://seovendor.co/google-march-2026-core-update-what-agencies-need-to-know-and-how-to-recover",
-      "source": "SEO Vendor",
-      "source_type": "news",
-      "tags": [
-        "Google update",
-        "Core Update",
-        "SEO recovery",
-        "GEO"
-      ],
-      "x_urls": [],
-      "id": "7b9882a1b9631bee",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-18T19:00:46Z"
-    },
-    {
-      "title": "Google Algorithm Updates March 2026: Complete Guide for SEO Agencies",
-      "summary": "A detailed guide on Google's March 2026 algorithm changes, focusing on impacts to SEO and content marketing. It provides actionable steps for agencies to navigate volatility, including enhanced GEO and AI optimization. Emphasis is placed on adapting to new ranking factors for sustained performance.",
-      "url": "https://seovendor.co/google-algorithm-updates-march-2026-complete-guide-for-seo-agencies",
-      "source": "SEO Vendor",
-      "source_type": "news",
-      "tags": [
-        "Google algorithm",
-        "SEO agencies",
-        "March 2026",
+        "AI content",
+        "SEO tools",
         "content marketing"
       ],
       "x_urls": [],
-      "id": "60ba01e51ea6128d",
+      "id": "c0c8062e2f2b859c",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:00:46Z"
+      "timestamp": "2026-03-18T19:05:44Z"
     },
     {
-      "title": "RumoredAI Launch: Audit & Fix AI Hallucinations for Brands (GEO/AEO Tool)",
-      "summary": "Josh Pigford introduces RumoredAI, a new tool that reveals what AI models say about your brand, spots hallucinations, benchmarks against competitors, and offers prioritized fixes with copy-paste prompts. It's designed for AEO/GEO optimization without ongoing subscriptions, starting at $25 with dynamic pricing. Early testers report mind-blowing insights for brand visibility in AI search.",
-      "url": "https://x.com/Shpigford/status/2033879670496575659",
-      "source": "Josh Pigford (@Shpigford)",
-      "source_type": "x",
-      "tags": [
-        "SEO tools",
-        "GEO",
-        "AEO",
-        "AI hallucinations"
-      ],
-      "x_urls": [
-        "https://x.com/Shpigford/status/2033879670496575659"
-      ],
-      "id": "08487b56e56b274d",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-18T19:00:46Z"
-    },
-    {
-      "title": "93% of AI Search Sessions End Without Website Visits \u2013 GEO & AEO Take Over",
-      "summary": "Scott warns that traditional SEO is obsolete as 93% of AI search users never visit sites, pushing the need for GEO and AEO in 2026. He outlines recent monthly changes in AI search dynamics driving zero-click results. Brands must pivot to be cited in AI summaries for visibility.",
+      "title": "93% of AI search sessions end without a website visit: GEO & AEO in 2026",
+      "summary": "93% of AI searches conclude without site visits, signaling the death of traditional SEO. Key stats show traditional search declining, AI Overviews in 25% of queries, and the rise of citation confidence over backlinks. Brands must prioritize GEO and AEO for AI citations and structured content.",
       "url": "https://x.com/cpgscott1/status/2034027546606751971",
-      "source": "Scott (@cpgscott1)",
+      "source": "@cpgscott1",
       "source_type": "x",
       "tags": [
-        "AI search",
+        "AI search changes",
         "GEO",
         "AEO",
-        "zero-click searches"
+        "SEO evolution"
       ],
       "x_urls": [
-        "https://x.com/cpgscott1/status/2034027546606751971"
+        "https://x.com/cpgscott1/status/2034027546606751971",
+        "https://x.com/cpgscott1/status/2034027791130497408",
+        "https://x.com/cpgscott1/status/2034027901809770968"
       ],
-      "id": "ec22068c6aedc897",
+      "id": "b8616c9926ccbb27",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:00:46Z"
+      "timestamp": "2026-03-18T19:05:44Z"
     },
     {
-      "title": "The Old Game Is Over: GEO is the New Standard for Search in 2026",
-      "summary": "Gazi Masud declares traditional SEO ending due to AI overviews causing 'Great Decoupling' \u2013 rising impressions but falling clicks. He introduces GEO as key, stressing proprietary data, semantic depth, and multi-platform presence. Shares a 2026 checklist including AI citation optimization and human-centric content.",
+      "title": "SEO vs AEO vs GEO: The key differences for brands",
+      "summary": "SEO focuses on ranking in search lists via keywords and backlinks, AEO on direct answers for AI chatbots, and GEO on being cited in AI summaries like Google AI Overviews. Brands succeeding integrate all three approaches. Outdated SEO tactics from 2015 no longer suffice.",
+      "url": "https://x.com/joshrobertnay/status/2032003718686916992",
+      "source": "@joshrobertnay",
+      "source_type": "x",
+      "tags": [
+        "SEO",
+        "AEO",
+        "GEO",
+        "content marketing"
+      ],
+      "x_urls": [
+        "https://x.com/joshrobertnay/status/2032003718686916992"
+      ],
+      "id": "e3c8ba536cbfe9bc",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-18T19:05:44Z"
+    },
+    {
+      "title": "The Old Game Is Over: GEO and Search Everywhere Optimization",
+      "summary": "AI tools like Google AI Overviews and ChatGPT deliver direct answers, boosting impressions but slashing clicks in the 'Great Decoupling'. GEO optimizes for AI citations with structured content, E-E-A-T, and proprietary data. 2026 checklist stresses multi-platform visibility beyond Google.",
       "url": "https://x.com/iamgazimasud/status/2033932371209425213",
-      "source": "Gazi Masud (@iamgazimasud)",
+      "source": "@iamgazimasud",
       "source_type": "x",
       "tags": [
         "GEO",
-        "SEO evolution",
         "AI search changes",
-        "2026 checklist"
+        "SEO trends",
+        "Discover"
       ],
       "x_urls": [
         "https://x.com/iamgazimasud/status/2033932371209425213"
       ],
-      "id": "4315170e4dcba778",
+      "id": "6059deadedfe38ec",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:00:46Z"
+      "timestamp": "2026-03-18T19:05:44Z"
     },
     {
-      "title": "Grammarly Removes AI 'Expert Review' Feature After Backlash Over Mimicking Writers",
-      "summary": "Grammarly has removed its AI Expert Review feature, which generated editing suggestions inspired by prominent writers like Stephen King and academics such as Neil deGrasse Tyson without consent. The move followed backlash from authors, including a class-action lawsuit claiming over $5m in damages for misusing identities. CEO Shishir Mehrotra apologized, announcing a redesign amid criticisms from living and deceased figures' representatives.",
-      "url": "https://www.theguardian.com/books/2026/mar/13/grammarly-removes-ai-expert-review-feature-mimicking-writers-after-backlash",
-      "source": "The Guardian",
-      "source_type": "news",
-      "tags": [
-        "AI",
-        "writing",
-        "editing",
-        "controversy"
-      ],
-      "x_urls": [],
-      "id": "08b566c67b454bb8",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-18T19:01:41Z"
-    },
-    {
-      "title": "Nearly 10,000 Authors Publish Empty 'Don't Steal This Book' to Protest AI Theft",
-      "summary": "Nearly 10,000 authors, including Jacqueline Wilson and Kazuo Ishiguro, released the mostly empty 'Don't Steal This Book' to protest AI companies training on their works without permission or payment. Organized by Ed Newton-Rex, it urges the UK government to protect copyright amid plans to ease AI access, with blank pages symbolizing threats to livelihoods. 1,000 free copies are distributed at London Book Fair.",
-      "url": "https://www.dailymail.co.uk/news/article-15629623/Nearly-10-000-authors-publish-book-protest-against-AI-stealing-work.html",
-      "source": "Daily Mail",
-      "source_type": "news",
-      "tags": [
-        "AI",
-        "publishing",
-        "copyright",
-        "protest"
-      ],
-      "x_urls": [],
-      "id": "13cc6b2e7b20e1a3",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-18T19:01:41Z"
-    },
-    {
-      "title": "AI Supercharges Scams Targeting Self-Published Authors",
-      "summary": "Fraudsters from south Asia and Africa use AI to personalize scams promising self-published authors bestseller status, reviews, and fake deals, as seen in Jon Cocks' A$10,000 loss on unusable trailers and prints. With self-publishing surging past traditional output, scams offer illegal reviews and impersonate firms like Barnes & Noble. Authorities and groups like Australian Society of Authors warn of the AI-fueled boom.",
+      "title": "Self-publish and be scammed: Boom in AI-powered book frauds",
+      "summary": "Fraudsters are using AI to generate fake book covers, blurbs, and promotional materials to scam self-publishing authors, as illustrated by Jon's personal story of financial and emotional loss. This surge coincides with the explosion in self-publishing platforms. The article warns writers to scrutinize services promising quick success.",
       "url": "https://www.theguardian.com/books/ng-interactive/2026/mar/12/ai-book-scams-publishing-fraud",
       "source": "The Guardian",
       "source_type": "news",
       "tags": [
-        "AI",
+        "AI scams",
         "self-publishing",
-        "scams",
         "fraud"
       ],
-      "x_urls": [],
-      "id": "8a04ff6c4aab1ce9",
+      "x_urls": [
+        "https://x.com/FionnualaM/status/2032036295178936799",
+        "https://x.com/ellipsus_writes/status/2031491758945640896"
+      ],
+      "id": "d59b87c4d66532d5",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:01:41Z"
+      "timestamp": "2026-03-18T19:06:35Z"
     },
     {
-      "title": "Grammarly's AI 'Expert Review' Cosplays Real Writers Without Permission",
-      "summary": "Ellipsus details Grammarly's Expert Review feature using AI to generate advice mimicking authors like Stephen King without permission, calling it a grift with poor quality output. The thread criticizes writing tools pivoting to enshittified AI, betraying user trust. Feature removed after backlash.",
+      "title": "AI-generated books flood Amazon, impacting sales of human-authored works",
+      "summary": "Pittsburgh author Stephen Graham Jones discovered a flood of AI-generated books on Amazon mimicking styles in genres like horror and fantasy, without direct plagiarism but overwhelming search results. These low-effort AI books dilute visibility for real authors' titles such as 'The Last Caving'. The phenomenon raises alarms about market saturation harming legitimate creators.",
+      "url": "https://www.wesa.fm/arts-culture/2026-03-09/pittsburgh-author-ai-generated-books",
+      "source": "WESA",
+      "source_type": "news",
+      "tags": [
+        "AI books",
+        "Amazon publishing",
+        "author impact"
+      ],
+      "x_urls": [],
+      "id": "054542b78bae4ae5",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-18T19:06:35Z"
+    },
+    {
+      "title": "Grammarly's AI 'Expert Review' feature impersonates real writers, including the deceased",
+      "summary": "Grammarly's new AI-powered 'Expert Review' tool generates feedback by cosplaying as actual authors, some long dead and others alive who may pursue legal action. This development exemplifies how AI writing assistants are blurring ethical lines and eroding trust. Writers express outrage over the deceptive practice.",
       "url": "https://x.com/ellipsus_writes/status/2031491758945640896",
       "source": "@ellipsus_writes",
       "source_type": "x",
       "tags": [
-        "AI",
-        "writing",
-        "editing",
-        "controversy"
+        "AI controversy",
+        "writing tools",
+        "Grammarly"
       ],
-      "x_urls": [
-        "https://x.com/ellipsus_writes/status/2031491758945640896"
-      ],
-      "id": "f9e9df5964f3b4df",
+      "x_urls": [],
+      "id": "91447ce240cf45e6",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:01:41Z"
+      "timestamp": "2026-03-18T19:06:35Z"
     },
     {
-      "title": "10,000 Authors Release Empty Book Protesting AI Theft of Work",
-      "summary": "Ed Newton-Rex announces 'Don't Steal This Book', a mostly empty publication by almost 10,000 authors protesting AI theft amid UK copyright changes favoring AI firms. Blank pages represent impact on livelihoods; 1,000 free copies at London Book Fair. Full list at dontstealthisbook.com.",
-      "url": "https://x.com/ednewtonrex/status/2031278766597484877",
-      "source": "@ednewtonrex",
-      "source_type": "x",
-      "tags": [
-        "AI",
-        "publishing",
-        "protest",
-        "copyright"
-      ],
-      "x_urls": [
-        "https://x.com/ednewtonrex/status/2031278766597484877"
-      ],
-      "id": "092e2e5c4b563ff0",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-18T19:01:41Z"
-    },
-    {
-      "title": "OpenAI's GPT 5.4 Guardrails Cripple Creative Writing",
-      "summary": "Kenshii_ai slams GPT 5.4's stricter guardrails blocking human-like emotion, tension, and storytelling, rendering it unusable for creative writing. OpenAI's escalating censorship on its strongest model prioritizes nannybot restrictions over utility for writers. Examples show refusals for natural narrative elements.",
+      "title": "OpenAI's GPT 5.4 guardrails block natural storytelling and emotion in creative writing",
+      "summary": "The latest GPT 5.4 model from OpenAI features even stricter safety guardrails than predecessors, rejecting outputs with genuine human-like tension, emotion, or narrative flow. This renders it ineffective for serious creative writing tasks. Users lament the increasing censorship stifling AI's potential for authors.",
       "url": "https://x.com/kenshii_ai/status/2030891255404609795",
       "source": "@kenshii_ai",
       "source_type": "x",
       "tags": [
-        "AI",
-        "writing",
-        "censorship",
+        "AI censorship",
+        "creative writing",
         "OpenAI"
       ],
-      "x_urls": [
-        "https://x.com/kenshii_ai/status/2030891255404609795"
-      ],
-      "id": "9f5d1ed569f9771d",
+      "x_urls": [],
+      "id": "65124544e5f7df14",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:01:41Z"
+      "timestamp": "2026-03-18T19:06:35Z"
     },
     {
-      "title": "Oscars 2026: 'One Battle After Another' Wins Best Picture",
-      "summary": "Paul Thomas Anderson's 'One Battle After Another' won the Best Picture Oscar at the 98th Academy Awards on March 15, 2026. The film also secured Best Director for Anderson. The ceremony featured numerous highlights including emotional tributes and major wins.",
-      "url": "https://abc7news.com/live-updates/oscars-2026-live-updates-see-winners-best-moments-98th-academy-awards-hollywood/18673293",
-      "source": "ABC7 News",
-      "source_type": "news",
+      "title": "Jane Holland: Don't bankrupt yourself on editing\u2014most books won't sell regardless",
+      "summary": "Bestselling author Jane Holland argues that since most traditionally published books fail to earn out their advances and indie titles rarely generate significant income, new authors should avoid lavish spending on editing services. She criticizes advice pushing writers to financial ruin for improbable sales success. The post emphasizes harsh publishing realities over optimism.",
+      "url": "https://x.com/janeholland1/status/2030685972187222083",
+      "source": "@janeholland1",
+      "source_type": "x",
       "tags": [
-        "Oscars 2026",
-        "Best Picture",
-        "Paul Thomas Anderson"
+        "publishing advice",
+        "indie vs trad",
+        "editing costs"
       ],
       "x_urls": [],
-      "id": "2ec38995b4aaba11",
-      "section": "popculture",
+      "id": "f60a4de7177b0e2a",
+      "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:02:45Z"
+      "timestamp": "2026-03-18T19:06:35Z"
     },
     {
-      "title": "Oscars 2026 Best and Worst Moments",
-      "summary": "The 97th Academy Awards hosted by Conan O'Brien included standout wins for Michael B. Jordan and Amy Madigan. Rolling Stone recaps the best, worst, and most surprising moments from Hollywood's biggest night. Historic achievements marked the event.",
-      "url": "https://www.rollingstone.com/tv-movies/tv-movie-lists/oscars-2026-best-worst-moments-1235529120",
-      "source": "Rolling Stone",
-      "source_type": "news",
+      "title": "Hollywood's Woke Ideology Blamed for Industry Collapse and Disney Snow White Flop",
+      "summary": "A post critiques the entertainment industry's shift to prioritizing ideological conformity and social credit over profit, dubbing it the 'woke mind virus' per Elon Musk. It highlights Disney's live-action Snow White remake losing approximately $170 million amid audience backlash to its changes. The discussion predicts a necessary reset as studios retreat from DEI initiatives following box office disappointments.",
+      "url": "https://x.com/NewEinHara/status/2031960920621232232",
+      "source": "@NewEinHara",
+      "source_type": "x",
       "tags": [
-        "Oscars 2026",
-        "awards show",
-        "Hollywood"
+        "hollywood",
+        "disney",
+        "snow white",
+        "woke mind virus",
+        "box office flop"
       ],
-      "x_urls": [],
-      "id": "1d0b5781ee7d18e5",
+      "x_urls": [
+        "https://x.com/NewEinHara/status/2031960920621232232",
+        "https://x.com/Nerdrotics/status/2031833240961495233"
+      ],
+      "id": "fe04ded11451b11a",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:02:45Z"
+      "timestamp": "2026-03-18T19:07:50Z"
     },
     {
-      "title": "Hollywood's Woke Jokes Flop at the Oscars",
-      "summary": "Woke-themed jokes at the 2026 Oscars reportedly fell flat with audiences. A YouTube segment critiques the handling of such content in culture, sports, news, and media. Hosts discuss the biggest stories unfiltered.",
-      "url": "https://www.youtube.com/watch?v=sFYszEoj_yk",
-      "source": "YouTube",
-      "source_type": "news",
+      "title": "Backlash to Virtue Signaling and Woke Turn at the Oscars",
+      "summary": "Commentator Link Lauren calls out Oscars attendees for lecturing audiences on virtue signaling while in opulent settings. Viewers report boredom early in the broadcast and avoidance since Ricky Gervais' hosting due to Hollywood's woke shift. Replies emphasize public rebellion against industry hypocrisy.",
+      "url": "https://x.com/itslinklauren/status/2033325428459630668",
+      "source": "@itslinklauren",
+      "source_type": "x",
       "tags": [
-        "Oscars 2026",
+        "oscars",
+        "virtue signaling",
+        "backlash",
         "woke",
-        "backlash",
-        "comedy"
-      ],
-      "x_urls": [],
-      "id": "eb9fff6188e6edc7",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-18T19:02:45Z"
-    },
-    {
-      "title": "Rachel Zegler Calls Snow White Backlash 'Really Confusing'",
-      "summary": "Rachel Zegler expressed confusion over audience backlash to Disney's Snow White remake, stating 'I refuse to assimilate for anybody else's comfort.' The comments appear in a Variety interview shared widely on X. Fans have criticized changes to the classic tale.",
-      "url": "https://x.com/CoveredGeekly/status/2031928743439094079",
-      "source": "@CoveredGeekly",
-      "source_type": "x",
-      "tags": [
-        "Snow White",
-        "Disney",
-        "backlash",
-        "Rachel Zegler"
+        "hollywood"
       ],
       "x_urls": [
-        "https://x.com/CoveredGeekly/status/2031928743439094079"
+        "https://x.com/itslinklauren/status/2033325428459630668",
+        "https://x.com/AlliHim32/status/2033344135466549585"
       ],
-      "id": "7bd8c2529736b178",
+      "id": "ad5eca4737580c51",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:02:45Z"
+      "timestamp": "2026-03-18T19:07:50Z"
     },
     {
-      "title": "Liberals Call for Shrek Boycott Over Pro-Deportation Scenes",
-      "summary": "Social media users on the left are urging a boycott of Shrek after clips resurfaced showing scenes interpreted as pro-deportation. Posts mock the calls as overreach on the classic animated film. The reaction highlights polarized audience responses to content.",
-      "url": "https://x.com/DefiantLs/status/2032166232238285091",
-      "source": "@DefiantLs",
+      "title": "Melania Trump Documentary Tops Pop Culture Charts",
+      "summary": "Fox host Rachel Campos-Duffy rounds up pop culture stories including Cindy Crawford's extensive beauty routine, Bill Clinton promoting Hillary, and Melania's documentary surging in popularity. The film offers neutral insights into Melania's life, featuring her Michael Jackson fandom and appearances by figures like Obama and Biden. Fans appreciate the detailed and positive portrayal.",
+      "url": "https://x.com/RCamposDuffy/status/2033250233455374500",
+      "source": "@RCamposDuffy",
       "source_type": "x",
       "tags": [
-        "Shrek",
-        "boycott",
-        "backlash",
-        "animation"
+        "melania trump",
+        "documentary",
+        "pop culture",
+        "celebrity"
       ],
       "x_urls": [
-        "https://x.com/DefiantLs/status/2032166232238285091",
-        "https://x.com/iAnonPatriot/status/2032150403463188662"
+        "https://x.com/RCamposDuffy/status/2033250233455374500"
       ],
-      "id": "c22e138c8174707d",
+      "id": "fc5d38ef9a32f2f7",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:02:45Z"
+      "timestamp": "2026-03-18T19:07:50Z"
     },
     {
-      "title": "Timoth\u00e9e Chalamet Draws Backlash for Dismissing Ballet and Opera",
-      "summary": "Timoth\u00e9e Chalamet sparked uproar by stating 'no one cares' about ballet and opera. Josh Groban called the reaction 'accidentally positive,' boosting arts discussion during Oscars coverage. CNN shared the update on the entertainment controversy.",
-      "url": "https://x.com/CNN/status/2033309374899167443",
-      "source": "@CNN",
-      "source_type": "x",
-      "tags": [
-        "Timoth\u00e9e Chalamet",
-        "backlash",
-        "arts",
-        "Oscars"
-      ],
-      "x_urls": [
-        "https://x.com/CNN/status/2033309374899167443"
-      ],
-      "id": "a996e68a0a1aedba",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-18T19:02:45Z"
-    },
-    {
-      "title": "Intuit Launches AI-Powered ERP Solution for Small Construction Businesses",
-      "summary": "Intuit introduced a new AI-powered ERP system tailored specifically for the construction industry, targeting small businesses. The tool streamlines operations, enhances productivity, and addresses sector-specific challenges. This marks a significant product move to bring practical AI to SMBs.",
-      "url": "https://www.forbes.com/sites/quickerbettertech/2026/03/07/small-business-technology-news-intuit-launches-ai-powered-erp-solution-tailored-for-construction-industry",
-      "source": "Forbes",
+      "title": "5 New Movies and TV Shows Highlighted for March 2026 Viewing",
+      "summary": "Us Weekly spotlights key releases including Prime Video's Scarpetta starring Nicole Kidman, Paramount+'s The Madison with Michelle Pfeiffer and Kurt Russell, Netflix's Peaky Blinders: The Immortal Man featuring Cillian Murphy, Disney+'s Daredevil: Born Again season 2, and Hulu's Sentimental Value with Stellan Skarsg\u00e5rd. These projects draw buzz from A-list talent across thrillers, dramas, and superhero fare. Streaming services offer diverse content for the month.",
+      "url": "https://www.usmagazine.com/entertainment/news/5-new-movies-and-tv-shows-you-need-to-watch-in-march-2026",
+      "source": "Us Weekly",
       "source_type": "news",
       "tags": [
-        "new AI tool",
-        "small business",
-        "ERP",
-        "construction"
+        "streaming",
+        "new releases",
+        "movies",
+        "tv shows"
       ],
       "x_urls": [],
-      "id": "cec13af67a9c9d43",
+      "id": "b56713a3f15e7c1b",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-18T19:07:50Z"
+    },
+    {
+      "title": "Disney's Live-Action Snow White Confirmed as One of Biggest Box Office Flops",
+      "summary": "Latest box office figures confirm Disney's Snow White remake as one of the largest flops despite a substantial UK government tax credit. The film incurred around $170 million in losses, linked to audience rejection. It contributes to Hollywood's 2025 box office downturn.",
+      "url": "https://boundingintocomics.com/movies/latest-figures-confirm-disneys-live-action-snow-white-is-one-of-the-biggest-box-office-flops-of-all-time-despite-benefitting-from-a-huge-uk-government-tax-credit",
+      "source": "Bounding Into Comics",
+      "source_type": "news",
+      "tags": [
+        "disney",
+        "snow white",
+        "box office flop",
+        "hollywood"
+      ],
+      "x_urls": [],
+      "id": "e13ed4da9f220290",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-18T19:07:50Z"
+    },
+    {
+      "title": "Woke Films Underperform as Pixar Hoppers Succeeds Without Controversial Elements",
+      "summary": "Reports note ongoing flops for woke films, contrasted with Pixar's Hoppers grossing $87 million worldwide by March 8. Prior Pixar film Elio had the studio's lowest opening after scrapping an LGBT storyline amid parental concerns. Pixar Chief Creative Officer Pete Docter emphasizes films should appeal broadly rather than serve as social therapy.",
+      "url": "https://www.facebook.com/CanberraDeclaration/posts/woke-films-keep-flopping-and-hollywood-is-finally-listeningby-sa-mccarthy-family/1369348598569908",
+      "source": "Canberra Declaration",
+      "source_type": "news",
+      "tags": [
+        "pixar",
+        "hoppers",
+        "elio",
+        "woke",
+        "box office",
+        "backlash"
+      ],
+      "x_urls": [],
+      "id": "103361059dd5c93f",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-18T19:07:50Z"
+    },
+    {
+      "title": "Survey: Small Businesses Embrace AI \u2014 But Need Training and Support to Fully Harness It",
+      "summary": "A Goldman Sachs survey reveals that 76% of small businesses are using AI, with 93% reporting positive impacts like increased efficiency and productivity. However, only 14% have fully integrated it into core operations, and 73% need more training to address skill gaps. Owners are optimistic, expecting AI to drive revenue growth while augmenting, not replacing, their workforce.",
+      "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/small-businesses-embrace-ai-but-need-training-and-support-to-fully-harness-it",
+      "source": "Goldman Sachs",
+      "source_type": "news",
+      "tags": [
+        "AI",
+        "small business",
+        "survey",
+        "adoption",
+        "training"
+      ],
+      "x_urls": [],
+      "id": "ebcafa1638883474",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:03:22Z"
+      "timestamp": "2026-03-18T19:08:31Z"
     },
     {
-      "title": "BytePlus Unveils Seedream 5.0 Lite for Real-World E-commerce AI Creation",
-      "summary": "BytePlus launched Seedream 5.0 Lite, an AI tool that generates high-quality product visuals and campaign creatives for e-commerce from simple inputs. It combines reasoning with multimodal generation to enable faster, smarter content creation for brands. Ideal for small businesses seeking practical AI for sales and marketing.",
-      "url": "https://x.com/BytePlusGlobal/status/2034201931653222503",
-      "source": "@BytePlusGlobal",
+      "title": "Beautiful.ai Launches Context-Aware AI Workflow and Secures $45M Investment",
+      "summary": "Beautiful.ai has launched a new context-aware AI workflow that lets users create professional presentations from prompts or documents via conversation, saving about three hours per week per user. The tool offers precise control over designs and visuals, ideal for small businesses needing quick, brand-consistent decks. Backed by $45M from General Catalyst, it's expanding globally with support for 15 languages.",
+      "url": "https://www.beautiful.ai/blog/beautiful-ai-launches-context-aware-ai-workflow-and-secures-45m-investment-from-general-catalyst-to-accelerate-global-growth",
+      "source": "Beautiful.ai",
+      "source_type": "news",
+      "tags": [
+        "AI tool",
+        "product launch",
+        "presentations",
+        "small business",
+        "productivity"
+      ],
+      "x_urls": [],
+      "id": "a933a4cb46ee23ca",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-18T19:08:31Z"
+    },
+    {
+      "title": "Google Labs Expands AI Marketing Tool Pomelli to 170 Countries",
+      "summary": "Google Labs has rolled out its AI marketing tool Pomelli to 170 countries, allowing users to input a website URL for automatic extraction of brand fonts, colors, imagery, and tone. It generates tailored content using models like Nano Banana for images and Veo 3.1 for videos, simplifying marketing for small businesses without manual brand kits.",
+      "url": "https://x.com/WesRoth/status/2031429887186305292",
+      "source": "Wes Roth",
       "source_type": "x",
       "tags": [
-        "new AI tool",
-        "ecommerce",
-        "generative AI",
+        "AI tool",
+        "marketing",
+        "Google",
+        "platform move",
         "small business"
       ],
       "x_urls": [
-        "https://x.com/BytePlusGlobal/status/2034201931653222503"
+        "https://x.com/WesRoth/status/2031429887186305292"
       ],
-      "id": "6938603f53e49d24",
+      "id": "0838c3dc2167d794",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:03:22Z"
+      "timestamp": "2026-03-18T19:08:31Z"
     },
     {
-      "title": "Stripe-Led Tempo Blockchain Goes Live with Protocol for AI Agents",
-      "summary": "Stripe-backed payments blockchain Tempo launched, featuring a protocol specifically for AI agents to handle transactions. This platform move positions it as key infrastructure for AI-driven businesses and agents. Signals intensifying competition in AI-integrated payment systems for small businesses.",
-      "url": "https://x.com/ProofOfEly/status/2034281295581266351",
-      "source": "@ProofOfEly",
+      "title": "How Solopreneurs and Small Businesses Win with Practical AI Stacks",
+      "summary": "Small businesses and solopreneurs are leveraging AI stacks to replace 5-person teams: chatbots for 24/7 customer support, AI for brand-aligned content and marketing, and tools like Zapier for automated operations. Setup costs under $100/month while saving 10-15 hours weekly on proposals, scheduling, and more. This shift emphasizes practical, working AI tools for real business gains.",
+      "url": "https://x.com/cyrilgupta/status/2032804295259664753",
+      "source": "Cyril Gupta",
       "source_type": "x",
       "tags": [
-        "AI agents",
-        "blockchain",
-        "payments",
-        "platform launch"
+        "AI tools",
+        "small business",
+        "solopreneur",
+        "automation",
+        "productivity"
       ],
       "x_urls": [
-        "https://x.com/ProofOfEly/status/2034281295581266351",
-        "https://x.com/DegenerateNews/status/2034271631841898571"
+        "https://x.com/cyrilgupta/status/2032804295259664753"
       ],
-      "id": "449ca24f3eba1aaf",
+      "id": "fea33ff8d1a745f7",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-18T19:03:22Z"
+      "timestamp": "2026-03-18T19:08:31Z"
     }
   ]
 }
