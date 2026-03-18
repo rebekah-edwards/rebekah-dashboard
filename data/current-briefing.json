@@ -1,432 +1,390 @@
 {
   "date": "2026-03-18",
   "period": "morning",
-  "generated": "2026-03-18T11:03:06Z",
+  "generated": "2026-03-18T11:08:09Z",
   "items": [
     {
-      "title": "SEO vs AEO vs GEO: The Evolution Explained by Veteran SEO Pro",
-      "summary": "SEO expert Josh Nay, with over two decades of experience, differentiates traditional SEO for search lists, AEO for direct answers in AI chatbots and voice assistants, and GEO for being cited in AI-generated summaries like Google AI Overviews and ChatGPT. He emphasizes that smart brands now optimize for all three simultaneously. It's time to level up beyond 2015 SEO tactics.",
+      "title": "The Old Game Is Over: Rise of GEO and End of Traditional SEO",
+      "summary": "A detailed post explains how traditional SEO is dying due to AI Overviews, ChatGPT Search, and Perplexity, leading to impressions up but clicks down. It introduces Generative Engine Optimization (GEO) as the new standard, focusing on being cited by AI through structured content and E-E-A-T. The 2026 checklist emphasizes proprietary data, multi-platform optimization, and human-centric content.",
+      "url": "https://x.com/iamgazimasud/status/2033932371209425213",
+      "source": "@iamgazimasud",
+      "source_type": "x",
+      "tags": [
+        "GEO",
+        "AI Search",
+        "SEO Evolution",
+        "Google AI Overviews"
+      ],
+      "x_urls": [
+        "https://x.com/iamgazimasud/status/2033932371209425213"
+      ],
+      "id": "e529a499687d1b00",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-18T11:05:31Z"
+    },
+    {
+      "title": "SEO vs AEO vs GEO: The Evolution Explained by Veteran Marketer",
+      "summary": "SEO expert Josh Nay breaks down the differences: SEO for traditional rankings, AEO for direct answers in chatbots, and GEO for visibility in AI-generated summaries like ChatGPT and Google AI Overviews. Smart brands now optimize for all three in parallel. It's time to level up beyond 2015 tactics.",
       "url": "https://x.com/joshrobertnay/status/2032003718686916992",
-      "source": "Josh Nay (@joshrobertnay)",
+      "source": "@joshrobertnay",
       "source_type": "x",
       "tags": [
+        "AEO",
+        "GEO",
         "SEO",
-        "AEO",
-        "GEO"
+        "AI Optimization"
       ],
-      "x_urls": [],
-      "id": "ca26f72126b6b7ff",
+      "x_urls": [
+        "https://x.com/joshrobertnay/status/2032003718686916992"
+      ],
+      "id": "c5cb790c7d9f99b2",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-18T11:00:46Z"
+      "timestamp": "2026-03-18T11:05:31Z"
     },
     {
-      "title": "93% of AI Search Sessions End Without Website Visits: GEO and AEO Take Over in 2026",
-      "summary": "A viral post reveals that 93% of AI search sessions conclude without any website clicks, declaring traditional SEO dead. GEO (Generative Engine Optimization) and AEO are now the core strategies amid rapid changes this month. The video outlines the shift driven by Google AI Overviews, ChatGPT, and Perplexity.",
-      "url": "https://x.com/cpgscott1/status/2034027546606751971",
-      "source": "Scott (@cpgscott1)",
+      "title": "Tools for GEO: Track Brand in ChatGPT, Perplexity, and Gemini",
+      "summary": "SEO consultant Faiz Israili highlights tools like Surfer, Semrush AI, and SE Ranking for monitoring brand appearances in AI answers. This practice is known as Generative Engine Optimization (GEO). Essential for modern content marketing strategies.",
+      "url": "https://x.com/faiz_israili/status/2033334049440493783",
+      "source": "@faiz_israili",
       "source_type": "x",
       "tags": [
-        "AI search",
         "GEO",
-        "AEO",
-        "SEO"
+        "SEO Tools",
+        "AI Search",
+        "Semrush"
       ],
-      "x_urls": [],
-      "id": "806833a8c1fbf649",
+      "x_urls": [
+        "https://x.com/faiz_israili/status/2033334049440493783"
+      ],
+      "id": "cd51013b96022283",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-18T11:00:46Z"
+      "timestamp": "2026-03-18T11:05:31Z"
     },
     {
-      "title": "Rocket Launches SEO and GEO/AEO Engines: Optimize for Google and AI Search in One Platform",
-      "summary": "Rocket introduces its SEO Engine for full-stack optimization including meta tags, structured data, sitemaps, audits, and a new GEO/AEO Engine to ensure content is discoverable and cited by AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It automates fixes without needing SEO specialists. This tool positions Rocket as the all-in-one for design, content, and multi-engine search visibility.",
-      "url": "https://x.com/rocketdotnew/status/2033883550018154556",
-      "source": "Rocket (@rocketdotnew)",
-      "source_type": "x",
-      "tags": [
-        "SEO tools",
-        "GEO",
-        "AEO"
-      ],
-      "x_urls": [],
-      "id": "bd89d18a6a4046ff",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-18T11:00:46Z"
-    },
-    {
-      "title": "3 CMS Platforms Control 73% of the Market & Shape Technical SEO Defaults",
-      "summary": "Three dominant CMS platforms hold 73% market share, dictating technical SEO defaults that affect site builds and optimization strategies. This concentration influences industry standards for SEO performance. SEJ analysis highlights implications for SEOs navigating these platforms.",
-      "url": "https://www.searchenginejournal.com/3-cms-platforms-control-73-of-the-market-shape-technical-seo-defaults/568185",
+      "title": "What's Hot, What's Not: AI Search Changes In Q1 2026 Recap",
+      "summary": "A recap of Q1 2026 AI search developments highlights key changes in tools like Google AI Overviews and competitors. Trends show shifts in AEO/GEO practices and evolving algorithms. Marketers must stay updated on these rapid AI search evolutions.",
+      "url": "https://www.searchenginejournal.com/whats-hot-whats-not-ai-search-changes-in-q1-2026-recap/569652",
       "source": "Search Engine Journal",
       "source_type": "news",
       "tags": [
-        "technical SEO",
-        "CMS",
-        "SEO"
-      ],
-      "x_urls": [],
-      "id": "f363a31168ee99a6",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-18T11:00:46Z"
-    },
-    {
-      "title": "Google Algorithm Updates March 2026: Complete Guide for SEO Agencies",
-      "summary": "Google's March 2026 algorithm updates rolled out rapidly, impacting SEO, including new GEO considerations, PPC, and content marketing. The guide provides a comprehensive breakdown for agencies to adapt swiftly post-update. Focuses on maintaining visibility amid changes.",
-      "url": "https://seovendor.co/google-algorithm-updates-march-2026-complete-guide-for-seo-agencies",
-      "source": "SEOVendor",
-      "source_type": "news",
-      "tags": [
-        "Google updates",
-        "SEO",
-        "GEO"
-      ],
-      "x_urls": [],
-      "id": "87133d976e2a982a",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-18T11:00:46Z"
-    },
-    {
-      "title": "How AI is Impacting SEO: Strategies for AEO/GEO and Zero-Click Searches",
-      "summary": "AI Overviews and chatbots are driving zero-click results, reducing top-of-funnel traffic and reshaping SEO. HubSpot recommends adapting via AEO/GEO, enhancing E-E-A-T signals, structured content, and technical optimizations. Essential reading for surviving AI-driven search changes.",
-      "url": "https://blog.hubspot.com/marketing/how-ai-is-impacting-seo",
-      "source": "HubSpot Blog",
-      "source_type": "news",
-      "tags": [
-        "AI search",
-        "AEO",
+        "AI Search",
         "GEO",
-        "SEO"
+        "AEO",
+        "Google Updates"
       ],
-      "x_urls": [
-        "https://x.com/jeffreykeene23/status/2032531654552727996",
-        "https://x.com/chadgabriel/status/2032496169390387264"
-      ],
-      "id": "f1123ee886196d23",
+      "x_urls": [],
+      "id": "b3af4f988dc80d67",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-18T11:00:46Z"
+      "timestamp": "2026-03-18T11:05:31Z"
     },
     {
-      "title": "Self-publish and be scammed: AI supercharges book frauds",
-      "summary": "Jon's tale of heartbreak illustrates the boom in fraudsters using AI to enhance scams targeting self-publishers. Scammers leverage AI for fake reviews, covers, and personalized pitches. This highlights vulnerabilities in the self-publishing boom.",
-      "url": "https://www.theguardian.com/books/ng-interactive/2026/mar/12/ai-book-scams-publishing-fraud",
-      "source": "The Guardian",
+      "title": "Search Referral Traffic Down 60% For Small Publishers, Data Shows",
+      "summary": "New data indicates a 60% drop in search referral traffic for small publishers, likely due to AI summaries reducing clicks. This trend underscores the shift towards zero-click searches and the need for GEO strategies. Content creators face challenges in driving direct traffic amid AI dominance.",
+      "url": "https://www.searchenginejournal.com/search-referral-traffic-down-60-for-small-publishers-data-shows/569959",
+      "source": "Search Engine Journal",
       "source_type": "news",
       "tags": [
-        "AI",
-        "scam",
-        "self-publishing",
-        "publishing"
+        "SEO Trends",
+        "AI Impact",
+        "Traffic Decline",
+        "Content Marketing"
       ],
-      "x_urls": [
-        "https://x.com/FionnualaM/status/2032036295178936799",
-        "https://x.com/InteractiveFeed/status/2031732890472423472"
-      ],
-      "id": "0de75aedae512795",
-      "section": "publishing",
+      "x_urls": [],
+      "id": "bcc6ede5753fd3a6",
+      "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-18T11:01:22Z"
+      "timestamp": "2026-03-18T11:05:31Z"
     },
     {
-      "title": "AI Copyright Revolt: 10k Writers Brandish Empty Book Protest",
-      "summary": "Over 10,000 writers staged a protest with empty books against AI copyright issues. The action aims to influence UK policy on AI training data licensing. It underscores ongoing tensions between authors and AI developers.",
-      "url": "https://www.aicerts.ai/news/ai-copyright-revolt-10k-writers-brandish-an-empty-book-protest",
-      "source": "AICerts",
+      "title": "Writers Publish Protest Book to Challenge AI Use of Copyrighted Works",
+      "summary": "Writers have united to publish a protest book aimed at contesting AI companies' use of copyrighted works for training data. This symbolic publishing effort underscores the escalating copyright controversies surrounding AI in the literary world. The initiative seeks to draw attention to unauthorized use of authors' materials.",
+      "url": "https://dig.watch/updates/writers-publish-protest-book-to-challenge-ai-use-of-copyrighted-works",
+      "source": "Digital Watch Observatory",
       "source_type": "news",
       "tags": [
         "AI",
         "copyright",
-        "protest",
-        "publishing"
+        "publishing",
+        "controversy"
       ],
       "x_urls": [],
-      "id": "9dbfa239927f6024",
+      "id": "d09096178f582ace",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-18T11:01:22Z"
+      "timestamp": "2026-03-18T11:06:16Z"
     },
     {
-      "title": "Surge in AI-Generated Fantasy Books Raises Authorship Concerns",
-      "summary": "Data indicates a significant uptick in AI-generated writing in fantasy fiction publications. Social media sees claims of authorship amid the influx. This trend impacts clarity on human vs. AI content in literature.",
-      "url": "https://www.linkedin.com/posts/katiepberg_have-you-seen-anyone-who-posts-on-social-activity-7436838023721529344-cItH",
-      "source": "Katie P Berg / LinkedIn",
+      "title": "When AI Templates Went Too Far: The Romance Writing Scandal That Shook Publishing",
+      "summary": "A scandal erupted in romance writing when AI templates were used extensively, leading to questions over authenticity and earnings. Affected authors had earned $890,000 in 2025 from novels that vanished amid revelations. The incident highlights risks of AI in genre publishing.",
+      "url": "https://b-e-t-a.net/when-ai-templates-went-too-far-the-romance-writing-scandal-that-shook-publishing",
+      "source": "b-e-t-a.net",
       "source_type": "news",
       "tags": [
         "AI",
-        "fantasy",
-        "publishing",
-        "authorship"
+        "romance",
+        "scandal",
+        "publishing"
       ],
       "x_urls": [],
-      "id": "9c43514a6eaa3ffe",
+      "id": "b16ecd26c2a41506",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-18T11:01:22Z"
+      "timestamp": "2026-03-18T11:06:16Z"
     },
     {
-      "title": "Grammarly AI Bots Cosplay as Real Writers, Dead and Alive",
-      "summary": "Grammarly's 'Expert Review' feature impersonates styles of living and deceased authors using AI. This is criticized as a grift exemplifying AI writing tools gone astray. It sparks concerns over ethics in publishing aids.",
-      "url": "https://x.com/ellipsus_writes/status/2031491758945640896",
-      "source": "@ellipsus_writes",
+      "title": "The BookTok Books Brady Lockerby Actually Recommends",
+      "summary": "BookTok influencer Brady Lockerby, followed by over 700,000 people, shares her genuine must-read recommendations from viral titles. Amid widespread hype, she curates books worth the attention. The list features standout picks from recent BookTok trends.",
+      "url": "https://theeverygirl.com/brady-lockerby-book-recommendations",
+      "source": "The Everygirl",
+      "source_type": "news",
+      "tags": [
+        "BookTok",
+        "recommendations",
+        "books"
+      ],
+      "x_urls": [],
+      "id": "7cfd27ddf545f8d1",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-18T11:06:16Z"
+    },
+    {
+      "title": "Amazon Can Pay $3,000/Month Starting AI Publishing",
+      "summary": "Paul Sims promotes AI publishing on Amazon as a lucrative alternative to TikTok or YouTube, potentially earning $3,000 monthly. He offers a free course detailing the process upon engagement. The method leverages AI for quick book creation and sales.",
+      "url": "https://x.com/SimslearnAi/status/2033060383540523414",
+      "source": "@SimslearnAi",
       "source_type": "x",
       "tags": [
         "AI",
-        "Grammarly",
-        "controversy",
-        "writing"
+        "publishing",
+        "Amazon KDP"
       ],
       "x_urls": [
-        "https://x.com/ellipsus_writes/status/2031491758945640896"
+        "https://x.com/SimslearnAi/status/2033060383540523414"
       ],
-      "id": "227b0a056a4113a9",
+      "id": "e1b2ec5f042da1b1",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-18T11:01:22Z"
+      "timestamp": "2026-03-18T11:06:16Z"
     },
     {
-      "title": "Literary Snobbery Targets BookTok: Read What Brings Joy",
-      "summary": "Critique of pompous sneering at BookTok and popular reads by literary elites. Encourages reading diverse authors like Woolf, Dazai, or le Carr\u00e9 for personal happiness. Emphasizes reading is not a contest.",
+      "title": "Don't Miss AI Publishing in 2026 Like Past Trends",
+      "summary": "Tommi Pedruzzi shares how AI-generated 90-page nonfiction eBooks on Amazon KDP generate $3,000-$5,000 monthly. He provides a free 5-hour tutorial on the step-by-step process. The post urges action similar to early adopters of previous platforms.",
+      "url": "https://x.com/TommiPedruzzi/status/2032838892680785982",
+      "source": "@TommiPedruzzi",
+      "source_type": "x",
+      "tags": [
+        "AI",
+        "publishing",
+        "Amazon KDP",
+        "eBooks"
+      ],
+      "x_urls": [
+        "https://x.com/TommiPedruzzi/status/2032838892680785982"
+      ],
+      "id": "2a8396adb3b22811",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-18T11:06:16Z"
+    },
+    {
+      "title": "Literary Snobbery Against BookTok and Popular Reads",
+      "summary": "Dr David Vernon laments snobbery dismissing BookTok and readers' preferences. He encourages reading enjoyable works like Woolf, Wodehouse, or le Carr\u00e9. Stresses that reading should bring happiness, not competition.",
       "url": "https://x.com/DrDavidVernon/status/2031327983265325558",
       "source": "@DrDavidVernon",
       "source_type": "x",
       "tags": [
         "BookTok",
-        "snobbery",
-        "traditional literature",
-        "publishing"
+        "publishing",
+        "reading",
+        "snobbery"
       ],
       "x_urls": [
         "https://x.com/DrDavidVernon/status/2031327983265325558"
       ],
-      "id": "eb13f8c2a577df59",
+      "id": "31fbfc4ff17e7140",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-18T11:01:22Z"
+      "timestamp": "2026-03-18T11:06:16Z"
     },
     {
-      "title": "Humanities Revolution Fueled by BookTok and Decentralized Classics Revival",
-      "summary": "Observes rise in humanities interest via BookTok reviews of Dostoevsky, philosophy schools, and free seminars like Catherine Project. Global, decentralized movement in literature and theology. Signals vitality beyond traditional academia.",
-      "url": "https://x.com/millerman/status/2032152996587438140",
-      "source": "@millerman",
-      "source_type": "x",
+      "title": "Oscars 2026: Has Hollywood\u2019s \u201cwokeism\u201d run its course?",
+      "summary": "Hollywood's persistent moral grandstanding and virtue signaling at award shows like the Oscars has led to audience fatigue and declining viewership from 23.6 million in 2020 to 18.1 million in 2025. Fans on social media decry preachy celebrities as hypocritical narcissists, preferring escapist entertainment over activism. The article questions if this trend signals the end of 'wokeism' in entertainment.",
+      "url": "https://timesofindia.indiatimes.com/etimes/trending/oscars-2026-has-hollywoods-wokeism-run-its-course/articleshow/129607667.cms",
+      "source": "Times of India",
+      "source_type": "news",
       "tags": [
-        "BookTok",
-        "humanities",
-        "traditional storytelling",
-        "publishing"
+        "Oscars 2026",
+        "wokeism",
+        "audience backlash",
+        "Hollywood"
       ],
-      "x_urls": [
-        "https://x.com/millerman/status/2032152996587438140",
-        "https://x.com/jeffgiesea/status/2032148327869886498"
-      ],
-      "id": "00b9e95bfc8567b7",
-      "section": "publishing",
+      "x_urls": [],
+      "id": "dad2e3388d6977ae",
+      "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-18T11:01:22Z"
+      "timestamp": "2026-03-18T11:07:25Z"
     },
     {
-      "title": "Rachel Zegler Addresses Backlash to Snow White Casting",
-      "summary": "Rachel Zegler described the backlash to her casting as Snow White as 'really confusing,' citing criticism over her Colombian heritage and comments on the original film. She stated she refuses to 'assimilate for anybody else's comfort' amid threats and controversy. The Disney live-action remake underperformed significantly at the box office.",
+      "title": "Rachel Zegler Addresses Snow White Casting Backlash",
+      "summary": "Rachel Zegler described the backlash to her casting as Snow White over her Colombian heritage as confusing, noting she was criticized for not being enough of one ethnicity for West Side Story and too much for Snow White. She proudly embraces her roots and refuses to assimilate for others' comfort amid threats to her safety. The comments come after the Disney remake's significant box office flop.",
       "url": "https://variety.com/2026/film/news/rachel-zegler-snow-white-casting-backlash-disney-1236684079/",
       "source": "Variety",
       "source_type": "news",
       "tags": [
-        "Rachel Zegler",
         "Snow White",
-        "Disney",
+        "Rachel Zegler",
         "casting backlash",
-        "box office"
+        "Disney flop"
       ],
       "x_urls": [
-        "https://x.com/Variety/status/2031501394562216368"
+        "https://x.com/Variety/status/2031502547085832577",
+        "https://x.com/Kneon/status/2031201154621640978"
       ],
-      "id": "02a52908e9914e32",
+      "id": "287ac511c3a7ec6a",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-18T11:02:21Z"
+      "timestamp": "2026-03-18T11:07:25Z"
     },
     {
-      "title": "Timoth\u00e9e Chalamet's Ballet and Opera Comments Spark Backlash",
-      "summary": "Timoth\u00e9e Chalamet faced backlash from the ballet and opera communities after stating 'no one cares' about them in an interview. Performers like Misty Copeland and others criticized his remarks, fueling online debate. The controversy emerged just before the Oscars, coinciding with shifts in Best Actor predictions.",
-      "url": "https://www.usatoday.com/story/entertainment/2026/03/16/timothee-chalamet-controversy-explained-ballet-opera/89178927007",
-      "source": "USA Today",
-      "source_type": "news",
-      "tags": [
-        "Timoth\u00e9e Chalamet",
-        "ballet",
-        "opera",
-        "backlash",
-        "Oscars"
-      ],
-      "x_urls": [
-        "https://x.com/Polymarket/status/2033197226718077067"
-      ],
-      "id": "147f13d68a56a1d0",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-18T11:02:21Z"
-    },
-    {
-      "title": "Michael B. Jordan Wins Best Actor Over Timoth\u00e9e Chalamet at Oscars 2026",
-      "summary": "Michael B. Jordan won Best Actor for his dual roles in Sinners, beating Timoth\u00e9e Chalamet amid recent controversy over Chalamet's ballet and opera comments. The win marked Jordan's first Oscar, with Sinners securing multiple awards. Viewership for the Oscars fell to 17.9 million, the lowest since 2022.",
-      "url": "https://www.vanityfair.com/hollywood/story/best-actor-oscars-2026-michael-b-jordan",
-      "source": "Vanity Fair",
+      "title": "Oscars 2026: 'One Battle After Another' Wins Best Picture as 'Sinners' Dominates",
+      "summary": "At the 98th Academy Awards on March 15, 'One Battle After Another' claimed Best Picture along with awards for director and adapted screenplay. 'Sinners' had a huge night with Michael B. Jordan winning Best Actor and historic wins including Best Cinematography for a woman of color. The ceremony featured political statements, K-pop performance, and cast reunions amid some speech cutoffs sparking fan anger.",
+      "url": "https://www.cnn.com/entertainment/live-news/oscars-academy-awards-03-15-26",
+      "source": "CNN",
       "source_type": "news",
       "tags": [
         "Oscars 2026",
-        "Michael B. Jordan",
-        "Timoth\u00e9e Chalamet",
-        "Best Actor",
-        "Sinners"
-      ],
-      "x_urls": [
-        "https://x.com/celebsnapzx/status/2033372007669387516"
-      ],
-      "id": "cc9c8e230c461f74",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-18T11:02:21Z"
-    },
-    {
-      "title": "Polymarket Predicts Timoth\u00e9e Chalamet to Lose Best Actor After Backlash",
-      "summary": "Polymarket projected Timoth\u00e9e Chalamet to lose Best Actor to Michael B. Jordan following intensifying backlash over his ballet and opera comments. Users debated if the Oscars prioritize performance or public image. Voting had closed prior to the controversy.",
-      "url": "https://x.com/Polymarket/status/2033197226718077067",
-      "source": "@Polymarket",
-      "source_type": "x",
-      "tags": [
-        "Timoth\u00e9e Chalamet",
-        "Oscars",
-        "backlash",
-        "ballet",
-        "opera"
-      ],
-      "x_urls": [
-        "https://x.com/Polymarket/status/2033197226718077067"
-      ],
-      "id": "3c64582bba81a9a1",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-18T11:02:21Z"
-    },
-    {
-      "title": "Timoth\u00e9e Chalamet Suffers Fourth Oscar Loss Amid Backlash",
-      "summary": "Celebsnapz highlighted Timoth\u00e9e Chalamet's fourth lost Oscar nomination after backlash from a recent interview on ballet and opera. The post emphasized his ongoing streak of nominations without wins. Fans reacted with memes and commentary on the timing.",
-      "url": "https://x.com/celebsnapzx/status/2033372007669387516",
-      "source": "@celebsnapzx",
-      "source_type": "x",
-      "tags": [
-        "Timoth\u00e9e Chalamet",
-        "Oscars",
-        "backlash",
-        "nominations"
-      ],
-      "x_urls": [
-        "https://x.com/celebsnapzx/status/2033372007669387516"
-      ],
-      "id": "f2635a41693811cd",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-18T11:02:21Z"
-    },
-    {
-      "title": "Sabrina Carpenter Faces Backlash Over Fans Chanting 'Men Useless' at Lollapalooza",
-      "summary": "Over 100,000 fans at Sabrina Carpenter's Lollapalooza Argentina performance chanted 'men useless' during her set, drawing backlash online. Critics pointed out the irony given male contributions to infrastructure and security. Replies highlighted feminist themes and double standards.",
-      "url": "https://x.com/dom_lucre/status/2033732541660991639",
-      "source": "@dom_lucre",
-      "source_type": "x",
-      "tags": [
-        "Sabrina Carpenter",
-        "Lollapalooza",
-        "backlash",
-        "fans chant",
-        "gender"
-      ],
-      "x_urls": [
-        "https://x.com/dom_lucre/status/2033732541660991639"
-      ],
-      "id": "dd795a3521579c30",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-18T11:02:21Z"
-    },
-    {
-      "title": "AI Stack Enables Solopreneurs to Replace 5-Person Teams",
-      "summary": "The playing field has changed as solopreneurs and small businesses leverage AI stacks to perform tasks previously requiring 5-person teams. Key areas include 24/7 customer support with chatbots like Tidio or ChatGPT, content and marketing via Claude or Jasper, and automated operations using Zapier and Notion. Setup costs under $100/month save 10-15 hours weekly.",
-      "url": "https://x.com/cyrilgupta/status/2032804295259664753",
-      "source": "@cyrilgupta",
-      "source_type": "x",
-      "tags": [
-        "AI tools",
-        "small business",
-        "solopreneur",
-        "productivity"
-      ],
-      "x_urls": [
-        "https://x.com/cyrilgupta/status/2032804295259664753"
-      ],
-      "id": "2fc7dd50eaffd373",
-      "section": "business",
-      "period": "morning",
-      "timestamp": "2026-03-18T11:03:06Z"
-    },
-    {
-      "title": "AI Hype vs Reality: Minimal Corporate Impact Despite Investments",
-      "summary": "A survey of 6,000 executives reveals nearly 90% see no AI impact on employment or productivity, averaging 1.5 hours weekly usage, with 25% of firms not using AI at all. This contrasts with over $250B in AI investments and 1.2M white-collar layoffs in 2025, mirroring the 1987 computer paradox. AI appears prominent in presentations but lags in actual company operations.",
-      "url": "https://x.com/karankendre/status/2030993720305447033",
-      "source": "@karankendre",
-      "source_type": "x",
-      "tags": [
-        "AI impact",
-        "business adoption",
-        "productivity paradox"
-      ],
-      "x_urls": [
-        "https://x.com/karankendre/status/2030993720305447033"
-      ],
-      "id": "e5c34e48f3491588",
-      "section": "business",
-      "period": "morning",
-      "timestamp": "2026-03-18T11:03:06Z"
-    },
-    {
-      "title": "U.S. House Passes Small Business AI Advancement Act",
-      "summary": "The U.S. House passed the Small Business AI Advancement Act (H.R. 3679) in February 2026, directing NIST to develop voluntary AI adoption resources like case studies and best practices for small businesses. Coordinated with the SBA, these address barriers such as technical expertise, cybersecurity, and data privacy to enhance productivity and competitiveness. Resources will be updated biennially with a congressional report due in four years.",
-      "url": "https://www.iedconline.org/news/2026/03/10/federal-policy-updates/u.s.-house-passes-small-business-ai-advancement-act",
-      "source": "IEDC Online",
-      "source_type": "news",
-      "tags": [
-        "AI policy",
-        "small business",
-        "legislation",
-        "adoption"
+        "best picture",
+        "Sinners",
+        "winners"
       ],
       "x_urls": [],
-      "id": "bb80bb1b89ff03bf",
-      "section": "business",
+      "id": "34b0cd12db148162",
+      "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-18T11:03:06Z"
+      "timestamp": "2026-03-18T11:07:25Z"
     },
     {
-      "title": "Small Businesses Embrace AI But Need Training: Goldman Sachs Survey",
-      "summary": "76% of small businesses use AI, with 93% reporting positive business impacts and 84% citing efficiency gains, viewing it as augmenting rather than replacing staff. However, only 14% have fully integrated AI, facing challenges like technical expertise gaps and data privacy, with 73% needing more training and resources. 85% support the AI for Main Street Act to bridge the implementation gap.",
-      "url": "https://finance.yahoo.com/news/survey-small-businesses-embrace-ai-130000815.html",
-      "source": "Yahoo Finance (Goldman Sachs)",
+      "title": "Jessie Buckley Surprises Woke Hollywood with Heartfelt Motherhood Tribute at Oscars",
+      "summary": "Irish actress Jessie Buckley defied Hollywood's perceived anti-family agenda during her Oscar acceptance by delivering a touching tribute to motherhood. The moment contrasted with typical industry narratives and was celebrated as a refreshing pushback. It quickly went viral, highlighting audience appreciation for traditional values.",
+      "url": "https://x.com/gatewaypundit/status/2033522073226678762",
+      "source": "The Gateway Pundit",
+      "source_type": "x",
+      "tags": [
+        "Oscars 2026",
+        "Jessie Buckley",
+        "motherhood",
+        "anti-woke"
+      ],
+      "x_urls": [
+        "https://x.com/gatewaypundit/status/2033522073226678762"
+      ],
+      "id": "3d80c53001eea5c2",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-18T11:07:25Z"
+    },
+    {
+      "title": "Rachel Zegler Doubles Down After Snow White Remake Flops Hard",
+      "summary": "Rachel Zegler continues to face heat for her comments, refusing to assimilate following the Snow White remake's major box office disappointment. The post notes ongoing criticism tied to production remarks and casting controversies. It reflects broader audience rejection of the film's approach.",
+      "url": "https://x.com/Kneon/status/2031201154621640978",
+      "source": "@Kneon",
+      "source_type": "x",
+      "tags": [
+        "Snow White",
+        "Rachel Zegler",
+        "flop",
+        "backlash"
+      ],
+      "x_urls": [
+        "https://x.com/Kneon/status/2031201154621640978"
+      ],
+      "id": "cfe0d247f9415d21",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-18T11:07:25Z"
+    },
+    {
+      "title": "Oscars 2026 Venue Left Littered with Trash, Sparking Hypocrisy Backlash",
+      "summary": "Post-ceremony photos revealed the Dolby Theatre trashed after the Oscars, drawing sharp criticism of Hollywood elites' entitlement. Detractors pointed to hypocrisy given stars' frequent virtue signaling on environmental and social issues. The images fueled discussions on industry disconnect from everyday audiences.",
+      "url": "https://x.com/thetatvaindia/status/2033848316023226625",
+      "source": "The Tatva",
+      "source_type": "x",
+      "tags": [
+        "Oscars 2026",
+        "trash backlash",
+        "hypocrisy",
+        "Hollywood"
+      ],
+      "x_urls": [
+        "https://x.com/thetatvaindia/status/2033848316023226625"
+      ],
+      "id": "672466bbccae0902",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-18T11:07:25Z"
+    },
+    {
+      "title": "Paperclip: Open-Source Platform to Run Entire Companies with AI Agents",
+      "summary": "Paperclip is an open-source operating system that enables running a company with zero human employees by orchestrating AI agents in roles like CEO, CTO, engineers, marketers, and more. Users define goals, hire agents, set budgets with governance and org charts, and monitor via a dashboard with full audit logs and heartbeats. This new tool addresses chaos in multi-agent management, ideal for solopreneurs and small businesses seeking autonomous operations.",
+      "url": "https://x.com/sukh_saroy/status/2030955864966992365",
+      "source": "Sukh Sroay (@sukh_saroy)",
+      "source_type": "x",
+      "tags": [
+        "AI agents",
+        "open source",
+        "small business",
+        "automation"
+      ],
+      "x_urls": [
+        "https://x.com/sukh_saroy/status/2030955864966992365"
+      ],
+      "id": "2c8b043f3d1b4933",
+      "section": "business",
+      "period": "morning",
+      "timestamp": "2026-03-18T11:08:09Z"
+    },
+    {
+      "title": "Saifa AI Launches Private Business AI Platform Tailored for SMEs",
+      "summary": "Saifa AI has unveiled a private business intelligence platform for small and medium-sized enterprises, training AI solely on proprietary data such as documents, product catalogs, customer interactions, and procedures. It provides a unified workspace to consolidate communications, manage knowledge, and streamline customer service and internal workflows. This move offers SMEs customized, secure AI capabilities without external data sharing.",
+      "url": "https://x.com/newsfile_corp/status/2032449680353665047",
+      "source": "TMX Newsfile (@newsfile_corp)",
+      "source_type": "x",
+      "tags": [
+        "AI platform",
+        "SME",
+        "private AI",
+        "business intelligence"
+      ],
+      "x_urls": [
+        "https://x.com/newsfile_corp/status/2032449680353665047"
+      ],
+      "id": "dc09c2096d9fc0d3",
+      "section": "business",
+      "period": "morning",
+      "timestamp": "2026-03-18T11:08:09Z"
+    },
+    {
+      "title": "AI Readiness Report: SME Optimism Outpaces Adoption",
+      "summary": "ECI Software Solutions' March 11 report shows over 70% of SME leaders optimistic about AI for data analysis, marketing, customer service, and inventory, but adoption is hindered by skills gaps, data readiness issues, and 40% seeing no results. Labor shortages in key sectors heighten urgency for AI integration. The findings highlight the need for targeted strategies to bridge optimism and real business impact.",
+      "url": "https://www.ecisolutions.com/en-gb/news/ai-readiness-report-smb-ai-optimism-outpaces-adoption",
+      "source": "ECI Software Solutions",
       "source_type": "news",
       "tags": [
         "AI adoption",
-        "small business",
-        "survey",
-        "training"
+        "SME",
+        "AI readiness",
+        "business impact"
       ],
       "x_urls": [],
-      "id": "190482b5c681c263",
+      "id": "f11acef6bb8768e1",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-18T11:03:06Z"
+      "timestamp": "2026-03-18T11:08:09Z"
     }
   ]
 }
