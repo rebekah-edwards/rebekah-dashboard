@@ -1,411 +1,360 @@
 {
   "date": "2026-03-19",
   "period": "afternoon",
-  "generated": "2026-03-19T19:02:46Z",
+  "generated": "2026-03-19T19:08:14Z",
   "items": [
     {
-      "title": "Google's March 2026 Core Update Targets Thin AI Content",
-      "summary": "Google rolled out a major core update in March 2026, emphasizing quality content over thin AI-generated material. Sites producing low-value AI content risk penalties, pushing SEO pros to focus on helpful, original resources. This update aligns with ongoing efforts to combat spam and misinformation.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">25</argument></grok:render>",
-      "url": "https://seovendor.co/google-algorithm-updates-march-2026-complete-guide-for-seo-agencies",
-      "source": "SEO Vendor",
-      "source_type": "news",
-      "tags": [
-        "Google Update",
-        "Core Update",
-        "AI Content"
-      ],
-      "x_urls": [],
-      "id": "aa65b73cbdbe5e23",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-19T19:00:39Z"
-    },
-    {
-      "title": "SEO Test Reveals Ease of Ranking Misinformation on Google",
-      "summary": "An experiment demonstrates how simple it is to manipulate Google rankings with misinformation via basic SEO tactics. This highlights vulnerabilities in current algorithms amid rising AI search changes. Experts urge stronger E-E-A-T signals and fact-checking in content strategies.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">7</argument></grok:render>",
-      "url": "https://www.searchenginejournal.com/seo-test-shows-its-trivial-to-rank-misinformation-on-google/569980",
-      "source": "Search Engine Journal",
-      "source_type": "news",
-      "tags": [
-        "SEO Tactics",
-        "Misinformation",
-        "Google Ranking"
-      ],
-      "x_urls": [],
-      "id": "7b40b3bd2b53c1ed",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-19T19:00:39Z"
-    },
-    {
-      "title": "John Mueller Urges Focus on AI Search Beyond Traditional SEO",
-      "summary": "Google's John Mueller advises businesses to consider AI search visibility alongside SEO, as ranking alone doesn't ensure appearances in tools like ChatGPT or Gemini. He emphasizes understanding site value in an AI world for sustained traffic. This signals a shift toward GEO and AEO strategies.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">55</argument></grok:render>",
-      "url": "https://x.com/alexgroberman/status/2032084993368080515",
-      "source": "@alexgroberman",
+      "title": "Search Evolving: Integrate SEO, AEO, and GEO for Visibility",
+      "summary": "Search discovery now spans traditional engines, AI assistants, and direct answers, requiring a unified SEO, AEO, and GEO strategy. Brands adapting to these changes maintain visibility amid evolving behaviors. Emphasizes modern search strategy integration.",
+      "url": "https://x.com/OnimodGlobal/status/2033547349490806812",
+      "source": "Onimod Global",
       "source_type": "x",
       "tags": [
-        "AI Search",
-        "GEO",
-        "John Mueller"
-      ],
-      "x_urls": [
-        "https://x.com/alexgroberman/status/2032084993368080515"
-      ],
-      "id": "43234952301be4ec",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-19T19:00:39Z"
-    },
-    {
-      "title": "90-Day Plan to Hit $10K/Mo from Scratch with SEO",
-      "summary": "SEO expert Charles Floate shares a detailed 90-day blueprint to rebuild to $10k monthly revenue using only a laptop and minimal funds. It covers niche selection, AI-assisted content, authority building, and monetization in high-CPC areas. The plan leverages modern tools for rapid scaling.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">56</argument></grok:render>",
-      "url": "https://x.com/Charles_SEO/status/2032095273262973184",
-      "source": "@Charles_SEO",
-      "source_type": "x",
-      "tags": [
-        "SEO Strategy",
-        "Content Marketing",
-        "Monetization"
-      ],
-      "x_urls": [
-        "https://x.com/Charles_SEO/status/2032095273262973184"
-      ],
-      "id": "0e7499bfcd8afef0",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-19T19:00:39Z"
-    },
-    {
-      "title": "New Claude Skill Optimizes Content for AI Search Citations",
-      "summary": "Corey Haines launches /ai-seo, a Claude Code skill that audits pages for AI citation potential in tools like Perplexity and Google AI Overviews. It identifies fixes for structured data, direct answers, and entity signals to boost generative visibility. This tool represents the evolution to AEO/GEO optimization.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">63</argument></grok:render>",
-      "url": "https://x.com/coreyhainesco/status/2033308774191313395",
-      "source": "@coreyhainesco",
-      "source_type": "x",
-      "tags": [
-        "SEO Tools",
+        "SEO",
         "AEO",
-        "AI Optimization"
+        "GEO",
+        "Search Marketing"
       ],
       "x_urls": [
-        "https://x.com/coreyhainesco/status/2033308774191313395"
+        "https://x.com/OnimodGlobal/status/2033547349490806812"
       ],
-      "id": "464748d413315c07",
+      "id": "25edb78495916d27",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-19T19:00:39Z"
+      "timestamp": "2026-03-19T19:05:49Z"
     },
     {
-      "title": "BookTok Trends Shift Towards Explicit Romance Content",
-      "summary": "A discussion on X reveals BookTok's preference for romance novels often likened to porn, with explicit examples from Hoover and Gravia. Users contrast this with less explicit literary works like The Atlas Six and Secret History. The trend influences publishing channels focused on such content.",
-      "url": "https://x.com/Raggsadocious/status/2033635911150260352",
-      "source": "@Raggsadocious",
+      "title": "The Old SEO Game Is Over: Enter GEO as the New Standard",
+      "summary": "AI Overviews and tools like ChatGPT are decoupling impressions from clicks, ending traditional SEO dominance. GEO optimizes for AI citations via structured content, E-E-A-T, and proprietary data. Shift to Search Everywhere Optimization across platforms like Reddit and TikTok.",
+      "url": "https://x.com/iamgazimasud/status/2033932371209425213",
+      "source": "Gazi Masud",
       "source_type": "x",
+      "tags": [
+        "SEO",
+        "GEO",
+        "AI search",
+        "content marketing"
+      ],
+      "x_urls": [
+        "https://x.com/iamgazimasud/status/2033932371209425213"
+      ],
+      "id": "bad6ce05f0d6b5c3",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-19T19:05:49Z"
+    },
+    {
+      "title": "geo-seo-claude: Open-Source Toolkit for AI/GEO Optimization",
+      "summary": "New Claude-built tool geo-seo-claude audits URLs to explain why AIs like ChatGPT skip citing content and provides fixes. Highlights booming GEO market and higher conversion from AI traffic. Free MIT-licensed alternative to expensive agencies.",
+      "url": "https://x.com/sentient_agency/status/2032788905184088349",
+      "source": "Sentient",
+      "source_type": "x",
+      "tags": [
+        "SEO tools",
+        "GEO",
+        "AI search"
+      ],
+      "x_urls": [
+        "https://x.com/sentient_agency/status/2032788905184088349"
+      ],
+      "id": "d9febf9e219c3c4c",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-19T19:05:49Z"
+    },
+    {
+      "title": "Nearly 10,000 Authors Publish Empty Book to Protest AI Stealing Work",
+      "summary": "Nearly 10,000 authors published a mostly empty book titled 'Don't Steal This Book' to protest AI companies using their works without permission for training data. The action urges the UK government not to alter copyright laws in favor of AI firms. Copies are being distributed for free at the London Book Fair.",
+      "url": "https://www.dailymail.co.uk/news/article-15629623/Nearly-10-000-authors-publish-book-protest-against-AI-stealing-work.html",
+      "source": "Daily Mail",
+      "source_type": "news",
+      "tags": [
+        "AI controversy",
+        "publishing",
+        "copyright"
+      ],
+      "x_urls": [],
+      "id": "e72fe6627ab54fe2",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-19T19:06:51Z"
+    },
+    {
+      "title": "Official BookTok Chart Set to Launch in the UK",
+      "summary": "NielsenIQ BookData and Media Control are partnering to release the first official BookTok charts in the United Kingdom. This development acknowledges TikTok's substantial impact on book sales and reading trends. The charts will highlight socially driven popular titles.",
+      "url": "https://colony.litopia.com/threads/daily-book-news-friday-13th-march-2026.17010/",
+      "source": "Litopia",
+      "source_type": "news",
       "tags": [
         "BookTok",
-        "romance",
-        "explicit content"
+        "publishing"
       ],
-      "x_urls": [
-        "https://x.com/Raggsadocious/status/2033635911150260352",
-        "https://x.com/ughihate_x/status/2033628361675964527"
-      ],
-      "id": "b2096d98435ada8b",
+      "x_urls": [],
+      "id": "aaa6e6174046adcd",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-19T19:01:24Z"
+      "timestamp": "2026-03-19T19:06:51Z"
     },
     {
-      "title": "Criticism Mounts Over Shallow Tropes in Mainstream BookTok Romance",
-      "summary": "X users criticize popular BookTok romance books for relying on clich\u00e9s that appeal mainly to white, affluent audiences, lacking depth on race, class, or power dynamics. They argue these trends prioritize tropes over societal critique or complexity. Mainstream appeal drives the publishing focus on such stories.",
-      "url": "https://x.com/_Astrolabios_/status/2033311510420713572",
-      "source": "@_Astrolabios_",
-      "source_type": "x",
-      "tags": [
-        "BookTok",
-        "romance tropes",
-        "social critique"
-      ],
-      "x_urls": [
-        "https://x.com/_Astrolabios_/status/2033311510420713572",
-        "https://x.com/supremecornball/status/2033219872319013102"
-      ],
-      "id": "f140e1e5b7772d33",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-19T19:01:24Z"
-    },
-    {
-      "title": "Sci-Fi Author Questions Value of Hybrid Publishing Contract",
-      "summary": "An author announces receiving a hybrid publishing contract offer and seeks community input on whether it's superior to self-publishing in profitability. Highlights ongoing debates in traditional vs. alternative publishing paths. Responses discuss upfront costs and promotion challenges.",
-      "url": "https://x.com/L_Eve_Gale/status/2032348294609862964",
-      "source": "@L_Eve_Gale",
-      "source_type": "x",
-      "tags": [
-        "publishing contract",
-        "hybrid publishing",
-        "self-publishing"
-      ],
-      "x_urls": [
-        "https://x.com/L_Eve_Gale/status/2032348294609862964"
-      ],
-      "id": "42f183310ca9b98f",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-19T19:01:24Z"
-    },
-    {
-      "title": "Publishers Urged to Tackle AI Misinformation Before Reader Manipulation",
-      "summary": "The Bookseller calls on publishers to address AI-generated misinformation immediately to protect readers. References BookTok phenomena like Sarah J. Maas causing meltdowns. Emphasizes proactive measures in the evolving publishing landscape.",
+      "title": "Publishers Must Act on AI Misinformation Now",
+      "summary": "Publishers in trade and academic sectors are called to proactively shield readers from AI-produced misinformation. Emphasis is placed on immediate measures before widespread manipulation takes hold. This addresses challenges in writing, editing, and content integrity.",
       "url": "https://www.thebookseller.com/news/news-top-stories/publishers-must-act-on-ai-misinformation-now-not-after-people-have-already-been-manipulated",
       "source": "The Bookseller",
       "source_type": "news",
       "tags": [
-        "AI",
-        "misinformation",
+        "AI controversy",
         "publishing",
-        "BookTok"
+        "misinformation"
       ],
       "x_urls": [],
-      "id": "1a5f8d6916bccdbd",
+      "id": "82c5c8460bc9c4c4",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-19T19:01:24Z"
+      "timestamp": "2026-03-19T19:06:51Z"
     },
     {
-      "title": "Literary Agents Warn Writers Against Using AI in Submissions",
-      "summary": "Agents observe a 'change in the nature of submissions' due to AI and urge writers to avoid it. Highlights concerns over quality and authenticity in writing. Ties into broader AI controversies impacting editing and publishing.",
-      "url": "https://www.thebookseller.com/news/literary-agents-urge-writers-to-avoid-ai-as-they-see-change-in-nature-of-submissions",
-      "source": "The Bookseller",
-      "source_type": "news",
+      "title": "Publishing Captured by Woke Ideology",
+      "summary": "The publishing industry has been overtaken by woke ideology for years, resulting in censorship of certain content. Recommendation to turn to older books and independent authors to avoid this. Classics like Hemingway, Lewis, Tolkien likely unpublishable by Big 5 today.",
+      "url": "https://x.com/Avonleebythesea/status/2031736538241888683",
+      "source": "@Avonleebythesea",
+      "source_type": "x",
+      "tags": [
+        "traditional storytelling",
+        "publishing",
+        "woke",
+        "censorship"
+      ],
+      "x_urls": [
+        "https://x.com/Avonleebythesea/status/2031736538241888683"
+      ],
+      "id": "da5af2c64ceadf25",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-19T19:06:51Z"
+    },
+    {
+      "title": "AI Flooding Amazon with Books, BookTokers Involved",
+      "summary": "AI-generated books are inundating Amazon, with even prominent BookTok influencers participating. Amazon is responding by banning accounts caught using AI in book creation. Debate on whether short-term gains justify the ban risks.",
+      "url": "https://x.com/grathweg/status/2032578274606436756",
+      "source": "@grathweg",
+      "source_type": "x",
       "tags": [
         "AI",
-        "writing",
-        "editing",
-        "literary agents"
+        "publishing",
+        "BookTok",
+        "Amazon"
       ],
-      "x_urls": [],
-      "id": "1fc7c8741441868b",
+      "x_urls": [
+        "https://x.com/grathweg/status/2032578274606436756"
+      ],
+      "id": "612a31ee52aa687b",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-19T19:01:24Z"
+      "timestamp": "2026-03-19T19:06:51Z"
     },
     {
-      "title": "Recent Book Deals Announced for March 2026",
-      "summary": "Publishers Weekly details major contracts including a two-book deal at Random House for Chantal V., acquired by Caitlin McKenna at auction. October release planned for one title. Showcases active deal-making in publishing.",
-      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/book-deals/article/99792-book-deals-week-of-march-2-2026.html",
-      "source": "Publishers Weekly",
-      "source_type": "news",
+      "title": "UK Counter-Terror Flags Orwell, Tolkien, Lewis as Far-Right",
+      "summary": "Britain's counter-terrorism program has included works by George Orwell, C.S. Lewis, and J.R.R. Tolkien in 'far-right' analysis. This raises issues around scrutiny of traditional literature. Coverage by The Free Press highlights the concern.",
+      "url": "https://x.com/TheFP/status/2031738314651250784",
+      "source": "@TheFP",
+      "source_type": "x",
       "tags": [
-        "book deals",
-        "major contracts",
+        "traditional storytelling",
+        "censorship",
         "publishing"
       ],
-      "x_urls": [],
-      "id": "bdaaf93b66b51dce",
+      "x_urls": [
+        "https://x.com/TheFP/status/2031738314651250784"
+      ],
+      "id": "8f9614813ad305c3",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-19T19:01:24Z"
+      "timestamp": "2026-03-19T19:06:51Z"
     },
     {
-      "title": "Netflix's Woke Policies Blamed for Failed Warner Bros. Merger",
-      "summary": "A viral post claims Netflix lost the Warner Bros. acquisition due to extreme woke policies like tampons in men's rooms, similar to Bud Light and Target. It portrays this as a victory for America against leftist ideologies embraced by Netflix executives. The post links to a NY Post article detailing the cultural clashes.",
-      "url": "https://x.com/LibertyCappy/status/2031147675626684514",
-      "source": "@LibertyCappy",
-      "source_type": "x",
-      "tags": [
-        "Netflix",
-        "Warner Bros",
-        "woke",
-        "go broke",
-        "merger"
-      ],
-      "x_urls": [
-        "https://x.com/LibertyCappy/status/2031147675626684514",
-        "https://x.com/NickAdamsinUSA/status/2031033361460846597"
-      ],
-      "id": "93f1c3f5c5738bb5",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-19T19:02:10Z"
-    },
-    {
-      "title": "Actress Mocking Fans and Original Film Sparks Backlash",
-      "summary": "High-engagement post criticizes an actress for mocking the original film, picking fights with fans, and refusing to take responsibility for backlash. She calls the reaction confusing and vows not to assimilate. The post warns studios against hiring her due to repeated poor judgments.",
-      "url": "https://x.com/MasteroftheTDS/status/2031528107472277719",
-      "source": "@MasteroftheTDS",
-      "source_type": "x",
-      "tags": [
-        "actress",
-        "fans",
-        "backlash",
-        "Hollywood",
-        "remake"
-      ],
-      "x_urls": [
-        "https://x.com/MasteroftheTDS/status/2031528107472277719"
-      ],
-      "id": "95758912e0139d75",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-19T19:02:10Z"
-    },
-    {
-      "title": "Company Announces Pride in No Employees Watching Oscars",
-      "summary": "Satirical post from a golf account states the company is proud no employees watched the Oscars last night. It garners thousands of likes amid reports of declining viewership. Reflects audience disinterest in the award show.",
-      "url": "https://x.com/PGATUOR/status/2033597978557001815",
-      "source": "@PGATUOR",
-      "source_type": "x",
-      "tags": [
-        "Oscars",
-        "viewership",
-        "disinterest",
-        "backlash"
-      ],
-      "x_urls": [
-        "https://x.com/PGATUOR/status/2033597978557001815"
-      ],
-      "id": "975608dcf0c191b4",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-19T19:02:10Z"
-    },
-    {
-      "title": "Oscars 2026: Has Hollywood\u2019s \u201cWokeism\u201d Run Its Course?",
-      "summary": "Article discusses growing audience backlash to celebrity activism and preachy messaging at Oscars 2026, with declining viewership numbers. Social media users decry Hollywood as out-of-touch activists prioritizing ideology over entertainment. Suggests shift to escapist content as studios face flops.",
-      "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/oscars-2026-has-hollywoods-wokeism-run-its-course/articleshow/129607667.cms",
-      "source": "Times of India",
-      "source_type": "news",
-      "tags": [
-        "Oscars 2026",
-        "wokeism",
-        "backlash",
-        "viewership decline",
-        "Hollywood"
-      ],
-      "x_urls": [
-        "https://x.com/PGATUOR/status/2033597978557001815"
-      ],
-      "id": "143eaf8e2b4a032a",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-19T19:02:10Z"
-    },
-    {
-      "title": "Woke Films Keep Flopping \u2014 and Hollywood Is Finally Listening",
-      "summary": "Recent woke films experience box office bombs, prompting Hollywood recalibration. Pixar removes LGBT storyline from Elio after parent concerns about family content. Emphasis on profitability over ideology as audience rejects preachy narratives.",
+      "title": "Oscars 2026 Ratings Flop Blamed on Woke Celebrity Rants",
+      "summary": "The 2026 Academy Awards suffered a major ratings disaster, with viewers and commentators attributing the decline to excessive woke sermons and political statements by celebrities. Hosts described the event as a 'clown show' filled with virtue signaling that alienated audiences. Mel Gibson criticized the woke elites following the ceremony.",
       "url": "https://dailydeclaration.org.au/2026/03/18/woke-films",
       "source": "Daily Declaration",
       "source_type": "news",
       "tags": [
-        "woke films",
-        "box office flops",
-        "Pixar",
-        "DEI",
-        "audience rejection"
+        "Oscars",
+        "woke",
+        "backlash",
+        "ratings flop"
       ],
-      "x_urls": [
-        "https://x.com/LibertyCappy/status/2031147675626684514"
-      ],
-      "id": "93741e4488a1caaa",
+      "x_urls": [],
+      "id": "984d5fb35a280328",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-19T19:02:10Z"
+      "timestamp": "2026-03-19T19:07:39Z"
     },
     {
-      "title": "Paul Thomas Anderson Addresses Racial Criticism for Oscar-Winning Film",
-      "summary": "Paul Thomas Anderson responds to backlash over portrayal of Black women in 'One Battle After Another' during Oscars acceptance speeches for Best Picture, Director, and Adapted Screenplay. The controversy surrounded the film since its release. He addressed criticisms amid the wins.",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/paul-thomas-anderson-racial-criticism-one-battle-another-oscars-1236534115/",
-      "source": "The Hollywood Reporter",
+      "title": "Timoth\u00e9e Chalamet Faces Backlash Over Ballet and Opera Comments",
+      "summary": "Actor Timoth\u00e9e Chalamet sparked controversy with remarks dismissing ballet and opera, leading to growing backlash from fans and stars in the performing arts community. The incident fueled debates on celebrity respect for other art forms amid Oscar voting. Other celebrities have fired back in defense.",
+      "url": "https://www.msn.com/en-us/news/insight/chalamet-backlash-grows-as-stars-fire-back/gm-GM648C32D9",
+      "source": "MSN",
       "source_type": "news",
       "tags": [
-        "Oscars 2026",
-        "Paul Thomas Anderson",
-        "racial backlash",
-        "One Battle After Another"
+        "Timoth\u00e9e Chalamet",
+        "backlash",
+        "celebrity controversy"
       ],
-      "x_urls": [
-        "https://x.com/THR/status/2033410578497327396"
-      ],
-      "id": "dc5268769e74b333",
+      "x_urls": [],
+      "id": "023aa5bc70a8ad14",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-19T19:02:10Z"
+      "timestamp": "2026-03-19T19:07:39Z"
     },
     {
-      "title": "NEW SBE Council Tech Use Survey Reveals Rapid AI Adoption Among Small Businesses",
-      "summary": "A new survey indicates that 82% of small businesses are using at least one AI tool, with 66% reporting revenue increases and median time savings of 5 hours per week for owners and 11.5 hours for employees. AI is seen as augmenting workers, with 40% of users planning to increase hiring and high optimism about competitiveness. Automated pricing tools are increasingly adopted, with 97% noting revenue gains.",
-      "url": "https://sbecouncil.org/2026/03/11/new-sbe-council-tech-use-survey-the-digital-state-of-small-business",
-      "source": "Small Business & Entrepreneurship Council",
+      "title": "Gavin Newsom's Wife Pushed Preachy Gender Films into California Schools",
+      "summary": "Jennifer Siebel Newsom utilized state resources to promote films addressing 'toxic masculinity' in classrooms, drawing criticism for being overly preachy. The initiative leaned on her husband's influence and the education board. Reports highlight the contentious content pushed into schools.",
+      "url": "https://nypost.com/2026/03/09/us-news/gavin-newsoms-wife-pushed-preachy-gender-films-into-schools-with-state-help",
+      "source": "New York Post",
+      "source_type": "news",
+      "tags": [
+        "preachy",
+        "gender films",
+        "Hollywood",
+        "schools"
+      ],
+      "x_urls": [],
+      "id": "4ca9a2242857b57d",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-19T19:07:39Z"
+    },
+    {
+      "title": "Audiences Reject Woke Sermons at Awards Shows",
+      "summary": "Viewers express frustration with awards shows like the Oscars, citing condescending woke sermons and virtue signaling as reasons for tuning out. Once enjoyed for fashion and glamour, the events now feel preachy and hypocritical. Many have stopped watching since Hollywood's shift.",
+      "url": "https://x.com/TheLizVariant/status/2033581673246228987",
+      "source": "@TheLizVariant",
+      "source_type": "x",
+      "tags": [
+        "awards shows",
+        "woke sermons",
+        "backlash"
+      ],
+      "x_urls": [
+        "https://x.com/TheLizVariant/status/2033581673246228987"
+      ],
+      "id": "d9d52ca03e69ab0d",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-19T19:07:39Z"
+    },
+    {
+      "title": "Fans Backlash Over Show Producers' Silence on Racism Against Lead Actor",
+      "summary": "Producers of a show marketed as a safe space remained silent for months amid daily racism directed at their lead actor, only responding under pressure. Fans feel unwelcome and unsafe as a result. The incident has led to widespread disappointment.",
+      "url": "https://x.com/witchyamandabc/status/2031303198699311540",
+      "source": "@witchyamandabc",
+      "source_type": "x",
+      "tags": [
+        "racism",
+        "backlash",
+        "safe space",
+        "producers"
+      ],
+      "x_urls": [
+        "https://x.com/witchyamandabc/status/2031303198699311540"
+      ],
+      "id": "21a0460ebaa66aa8",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-19T19:07:39Z"
+    },
+    {
+      "title": "Rachel Zegler Faces Backlash for Mocking Snow White and Fans",
+      "summary": "Rachel Zegler continues to draw criticism for mocking the original Snow White film, picking fights with fans, and talking down to audiences. She expressed confusion over the backlash but refuses to assimilate or take responsibility. Her comments reinforce why studios hesitate to hire her.",
+      "url": "https://x.com/MasteroftheTDS/status/2031528107472277719",
+      "source": "@MasteroftheTDS",
+      "source_type": "x",
+      "tags": [
+        "Rachel Zegler",
+        "Snow White",
+        "backlash",
+        "woke"
+      ],
+      "x_urls": [
+        "https://x.com/MasteroftheTDS/status/2031528107472277719"
+      ],
+      "id": "48cecfc6b776d9aa",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-19T19:07:39Z"
+    },
+    {
+      "title": "Fewer than 1 in 5 Small Businesses Effectively Integrate AI",
+      "summary": "A Goldman Sachs survey indicates that only 14% of small business owners have fully embedded AI across their core operations, despite many experimenting with AI apps. Most remain at surface level without deep integration. This underscores challenges in achieving meaningful AI impact for SMBs.",
+      "url": "https://fortune.com/2026/03/18/small-business-ai-slow-integration-across-operations",
+      "source": "Fortune",
+      "source_type": "news",
+      "tags": [
+        "AI integration",
+        "small business",
+        "survey"
+      ],
+      "x_urls": [],
+      "id": "2f4e48f6920e4436",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-19T19:08:14Z"
+    },
+    {
+      "title": "Small Businesses Report Positive AI Impacts but Need Training",
+      "summary": "Over 76% of small businesses are using AI, with 93% noting positive effects like increased efficiency and productivity. However, they require more training and support to maximize benefits. The survey highlights AI's growing role in SMB operations.",
+      "url": "https://finance.yahoo.com/news/survey-small-businesses-embrace-ai-130000815.html",
+      "source": "Yahoo Finance",
       "source_type": "news",
       "tags": [
         "AI adoption",
-        "small business survey",
-        "tech impact",
-        "hiring"
-      ],
-      "x_urls": [],
-      "id": "a0da6ac355cc4a97",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-19T19:02:46Z"
-    },
-    {
-      "title": "AI Tools Boost Small Business Marketing and Content Efficiency",
-      "summary": "More than 75% of small business owners use AI like ChatGPT, Claude, and Gemini for marketing, content production, and customer service, with over 90% finding them effective for productivity. Barriers like technical expertise and data privacy limit full integration, with only 14% embedding AI in core operations. These tools excel in copywriting and social media but are underused for revenue-generating tasks.",
-      "url": "https://www.aol.com/finance/ai-small-business-marketing-content-221600117.html",
-      "source": "AOL Finance",
-      "source_type": "news",
-      "tags": [
-        "AI marketing",
-        "content tools",
         "productivity",
-        "small business"
+        "training"
       ],
       "x_urls": [],
-      "id": "b9ba901ffa623a51",
+      "id": "0a3614d6eee3f018",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-19T19:02:46Z"
+      "timestamp": "2026-03-19T19:08:14Z"
     },
     {
-      "title": "Google's Free AI Marketing Suite Transforms Small Business Promotion",
-      "summary": "Google has released a free AI tool that scans a small business website to create tailored ads, social posts, headlines, CTAs, and animated video creatives matched to the brand. Unlike generic templates, it delivers customized marketing content available in over 170 countries. This update is hailed as one of the most significant free AI business tools for entrepreneurs.",
+      "title": "Google Expands Free AI Marketing Suite to 170+ Countries for SMBs",
+      "summary": "Google's Pomelli tool now lets small businesses input a website URL to auto-generate brand-matched ads, social posts, headlines, CTAs, and animated videos. Expanded globally, it uses advanced AI models for precise, non-generic content. This major update democratizes professional marketing for small businesses.",
       "url": "https://x.com/JulianGoldieSEO/status/2031852675923374265",
       "source": "@JulianGoldieSEO",
       "source_type": "x",
       "tags": [
         "Google AI",
-        "marketing tool",
-        "free resource",
-        "small business"
+        "marketing tools",
+        "product launch"
       ],
       "x_urls": [
-        "https://x.com/JulianGoldieSEO/status/2031852675923374265"
+        "https://x.com/JulianGoldieSEO/status/2031852675923374265",
+        "https://x.com/WesRoth/status/2031429887186305292"
       ],
-      "id": "21240c8e43427345",
+      "id": "877b29e85a0eba94",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-19T19:02:46Z"
+      "timestamp": "2026-03-19T19:08:14Z"
     },
     {
-      "title": "AI Stacks Empower Solopreneurs and Small Businesses to Scale Efficiently",
-      "summary": "Solopreneurs can replicate 5-person teams using affordable AI stacks: chatbots like Tidio for support, Claude/Jasper for content/marketing, and Zapier/Notion for operations. Total cost under $100/month yields 10-15 hours weekly savings, enabling competition with larger firms. Practical adoption focuses on customer service, admin, and growth tasks.",
-      "url": "https://x.com/cyrilgupta/status/2032804295259664753",
-      "source": "@cyrilgupta",
+      "title": "Andrej Karpathy Launches Open-Source AI Job Replacement Risk Tool",
+      "summary": "Karpathy's project scores all 342 US occupations on AI displacement risk (0-10), averaging 5.3, with digital/remote jobs most vulnerable. Features an interactive treemap sized by job numbers and colored by exposure. Valuable for small business leaders planning AI transitions and workforce strategies.",
+      "url": "https://x.com/SMB_Attorney/status/2033229824592871576",
+      "source": "@SMB_Attorney",
       "source_type": "x",
       "tags": [
-        "AI stack",
-        "solopreneur tools",
-        "productivity boost",
+        "AI impact",
+        "jobs",
         "small business"
       ],
       "x_urls": [
-        "https://x.com/cyrilgupta/status/2032804295259664753"
+        "https://x.com/SMB_Attorney/status/2033229824592871576"
       ],
-      "id": "f13f9cef90d3d018",
+      "id": "6c117fcc3460fba4",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-19T19:02:46Z"
+      "timestamp": "2026-03-19T19:08:14Z"
     }
   ]
 }
