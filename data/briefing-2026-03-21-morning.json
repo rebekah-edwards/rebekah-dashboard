@@ -1,409 +1,387 @@
 {
   "date": "2026-03-21",
   "period": "morning",
-  "generated": "2026-03-21T11:03:00Z",
+  "generated": "2026-03-21T11:07:55Z",
   "items": [
     {
-      "title": "Google AI Mode Goes Personal with Free Access and Crawl Limits Clarified",
-      "summary": "Google has rolled out its AI Mode's Personal Intelligence feature for free in the U.S., offering more tailored search experiences powered by user data. In parallel, Google provided clearer guidance on Googlebot crawl limits, helping SEOs optimize site discovery. This update is part of broader SEO shifts amid AI advancements.",
-      "url": "https://www.searchenginejournal.com/seo-pulse-google-ai-mode-goes-personal-crawl-limits-clarified/570110",
-      "source": "Search Engine Journal",
-      "source_type": "news",
+      "title": "The Old Game Is Over: Shift from Traditional SEO to GEO and Search Everywhere Optimization",
+      "summary": "Gazi Masud argues that traditional SEO focused on keywords and backlinks is obsolete as AI tools like Google AI Overviews and ChatGPT answer queries without clicks. Impressions rise but clicks drop dramatically, with AI referral traffic up 357% YoY. The future lies in Generative Engine Optimization (GEO), proprietary data, and optimizing across platforms like TikTok and Reddit.",
+      "url": "https://x.com/iamgazimasud/status/2033932371209425213",
+      "source": "@iamgazimasud",
+      "source_type": "x",
       "tags": [
-        "Google AI Mode",
-        "Crawl Limits",
-        "SEO"
-      ],
-      "x_urls": [],
-      "id": "6d032414cb21ef7f",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-21T11:00:43Z"
-    },
-    {
-      "title": "Q1 2026 AI Search Changes Recap: What's Hot and Not",
-      "summary": "Search Engine Journal recaps key AI search developments in early 2026, including expansions in generative answers and impacts on traditional SEO. Highlights trends like increased AI overviews reducing clicks and the rise of GEO strategies. Marketers urged to adapt to multi-engine optimization.",
-      "url": "https://www.searchenginejournal.com/whats-hot-whats-not-ai-search-changes-in-q1-2026-recap/569652",
-      "source": "Search Engine Journal",
-      "source_type": "news",
-      "tags": [
-        "AI Search",
+        "SEO",
         "GEO",
-        "SEO Trends"
+        "AI search",
+        "content strategy"
       ],
-      "x_urls": [],
-      "id": "410d163d8023492e",
+      "x_urls": [
+        "https://x.com/iamgazimasud/status/2033932371209425213"
+      ],
+      "id": "473a7c11c96c5dab",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-21T11:00:43Z"
+      "timestamp": "2026-03-21T11:05:43Z"
     },
     {
-      "title": "Google Crawls 404s to Discover More Site Content",
-      "summary": "Google confirms that increased 404 crawling signals its willingness to index more content from sites previously under crawl budget constraints. This change allows better content discovery for dynamic sites. SEOs should monitor crawl stats closely for opportunities.",
-      "url": "https://www.searchenginejournal.com/google-404-crawling-means-google-is-open-to-more-of-your-content/570029",
+      "title": "AI and SEO Deep Dive: AEO and GEO Beyond Traditional Tactics",
+      "summary": "Ross Simmonds shares insights from a podcast with Mike King (@iPullRank) emphasizing that AEO and GEO differ fundamentally from site-focused SEO. AI discovery relies on content ecosystems across Reddit, YouTube, and more via retrieval augmented generation. Marketers must map synthetic queries and build ecosystems to appear in AI responses like ChatGPT.",
+      "url": "https://x.com/TheCoolestCool/status/2035038674837283321",
+      "source": "@TheCoolestCool",
+      "source_type": "x",
+      "tags": [
+        "AEO",
+        "GEO",
+        "AI SEO",
+        "content ecosystems"
+      ],
+      "x_urls": [
+        "https://x.com/TheCoolestCool/status/2035038674837283321"
+      ],
+      "id": "f42eb5fafb80f4b5",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-21T11:05:43Z"
+    },
+    {
+      "title": "SEO Test Reveals How Easy It Is to Rank Misinformation in Google and AI Overviews",
+      "summary": "An experiment by Jon Goodey created a fake article about a non-existent March 2026 Google Core Update using AI hallucination, which quickly ranked on Google's first page and appeared in AI Overviews. Other SEO sites amplified the misinformation without verification, exposing vulnerabilities in search ranking and the lack of built-in fact-checking. This underscores critical risks for SEO practitioners and the need for rigorous fact-checking in content creation.",
+      "url": "https://www.searchenginejournal.com/seo-test-shows-its-trivial-to-rank-misinformation-on-google/569980",
       "source": "Search Engine Journal",
       "source_type": "news",
       "tags": [
-        "Google Crawling",
-        "404 Pages",
-        "SEO"
+        "SEO",
+        "Google",
+        "misinformation",
+        "AI Overviews"
       ],
       "x_urls": [],
-      "id": "0a5b2966a7652bf0",
+      "id": "3fe8ab69f8d08760",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-21T11:00:43Z"
+      "timestamp": "2026-03-21T11:05:43Z"
     },
     {
-      "title": "Google Discover Hijacked by Spam Sites Masquerading as Legit Posts",
-      "summary": "SEO researcher exposes a spam tactic on Google Discover where a legitimate X post from The Korea Times links to a fake .de site with Russian content and 404s. The Discover card shows the correct image but wrong URL, indicating URL hijacking. Raises alarms on Discover spam evolution.",
-      "url": "https://x.com/AndellDam/status/2034411304652312764",
-      "source": "@AndellDam",
-      "source_type": "x",
-      "tags": [
-        "Google Discover",
-        "Spam",
-        "AEO"
-      ],
-      "x_urls": [
-        "https://x.com/AndellDam/status/2034411304652312764"
-      ],
-      "id": "0b7c9494b9d20c65",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-21T11:00:43Z"
-    },
-    {
-      "title": "Claude AI + SEO Will Outpace Crypto in Making Millionaires by 2026",
-      "summary": "Top SEO expert Sarvesh Shrivastava claims combining Claude AI with SEO strategies will create more business millionaires in 2026 than cryptocurrency. Shares a ready-to-use Claude prompt for advanced SEO tactics. Post quotes his detailed article and exploded with over 2,200 likes.",
-      "url": "https://x.com/bloggersarvesh/status/2032808110474285300",
-      "source": "@bloggersarvesh",
-      "source_type": "x",
-      "tags": [
-        "AI SEO",
-        "Claude",
-        "SEO Tools"
-      ],
-      "x_urls": [
-        "https://x.com/bloggersarvesh/status/2032808110474285300",
-        "https://x.com/bloggersarvesh/status/2032130279494853118"
-      ],
-      "id": "0eefa8afa9ffa44e",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-21T11:00:43Z"
-    },
-    {
-      "title": "OKARA Launches World's First AI CMO for SEO, Content, and Multi-Platform Marketing",
-      "summary": "OKARA introduces the first AI Chief Marketing Officer that generates marketing agents from a URL input, handling SEO, Reddit, X, HN, and content creation. Priced at $99/month, it replaces human teams costing $60k-$160k annually. Demo video showcases automation power amid AI marketing trends.",
-      "url": "https://x.com/RoundtableSpace/status/2033615531887243660",
-      "source": "@RoundtableSpace",
-      "source_type": "x",
-      "tags": [
-        "AI Marketing",
-        "SEO Tools",
-        "Content Marketing"
-      ],
-      "x_urls": [
-        "https://x.com/RoundtableSpace/status/2033615531887243660"
-      ],
-      "id": "f19c15dc6499d602",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-21T11:00:43Z"
-    },
-    {
-      "title": "15 AI Writing Tools Reviewed for Authors Amid Usage Debates",
-      "summary": "A roundup of top AI writing tools for authors highlights Sudowrite for fiction prose, Novelcrafter for outlining, and Claude Pro for research, with advice to use them for brainstorming and editing rather than full replacement. Controversies include censorship in tools like ChatGPT limiting NSFW content, urging authors to experiment across tools for best workflow fit. Published March 16, 2026, it emphasizes AI's role in accelerating writing without undermining human creativity.",
-      "url": "https://kindlepreneur.com/best-ai-writing-tools",
-      "source": "Kindlepreneur",
+      "title": "SEO's New Battleground: Winning the Consensus Layer in AI Search",
+      "summary": "Search Engine Land explores how SEO must now target the 'consensus layer' across multiple sources for AI visibility, as Google's Danny Sullivan notes 'Good SEO is good GEO.' Strategies involve optimizing for AI retrieval beyond single sites. Tools for tracking AI search performance are essential for competitiveness.",
+      "url": "https://searchengineland.com/seos-new-battleground-winning-the-consensus-layer-472001",
+      "source": "Search Engine Land",
       "source_type": "news",
       "tags": [
-        "AI",
-        "writing",
-        "tools",
+        "SEO",
+        "GEO",
+        "AI search",
+        "consensus layer"
+      ],
+      "x_urls": [],
+      "id": "b0737fd195fbd556",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-21T11:05:43Z"
+    },
+    {
+      "title": "The SEO Time Traveler: Old Patents Reveal Foundations of AI Search, AEO, and GEO",
+      "summary": "An analysis of historical patents shows how long-standing tech blueprints underpin modern AI search, influencing AEO and GEO strategies. SEO professionals can leverage these insights to adapt content for AI engines. This historical perspective highlights evolutions in search optimization.",
+      "url": "https://searchengineland.com/patents-foundation-ai-search-471945",
+      "source": "Search Engine Land",
+      "source_type": "news",
+      "tags": [
+        "AI search",
+        "AEO",
+        "GEO",
+        "SEO history"
+      ],
+      "x_urls": [],
+      "id": "3ee765ac62ca3e4c",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-21T11:05:43Z"
+    },
+    {
+      "title": "Publisher Pulls Horror Novel 'Shy Girl' After AI Generation Concerns",
+      "summary": "Hachette pulled the horror novel 'Shy Girl' following suspicions it was AI-generated, despite the author's denial. AI detection tools flagged much of the content, and the author suggested an external editor may have used AI during revisions. This marks one of the first major controversies in traditional publishing over undisclosed AI assistance.",
+      "url": "https://arstechnica.com/ai/2026/03/hachette-pulls-shy-girl-horror-novel-after-concerns-about-ai-use",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "tags": [
+        "AI controversy",
+        "publishing",
+        "editing"
+      ],
+      "x_urls": [
+        "https://x.com/Wralpheubanks/status/2034764844423889236",
+        "https://x.com/youwouldntpost/status/2031868801256734825"
+      ],
+      "id": "06208104fadc573a",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-21T11:06:28Z"
+    },
+    {
+      "title": "A.I. Is Writing Fiction. Publishers Are Unprepared",
+      "summary": "The New York Times reports that publishers require authors to attest work is original but lack policies to detect or prevent AI use in writing. The case of the pulled novel 'Shy Girl' exemplifies growing challenges as AI fiction proliferates. Industry insiders note firms are scrambling to adapt amid ethical concerns.",
+      "url": "https://www.nytimes.com/2026/03/19/books/ai-fiction-shy-girl.html",
+      "source": "New York Times",
+      "source_type": "news",
+      "tags": [
+        "AI controversy",
+        "publishing",
+        "writing"
+      ],
+      "x_urls": [
+        "https://x.com/Wralpheubanks/status/2034764844423889236"
+      ],
+      "id": "0a3010b37af0d019",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-21T11:06:28Z"
+    },
+    {
+      "title": "TikTok Expands #BookTok Bestseller Lists Across Europe and the UK",
+      "summary": "TikTok is launching #BookTok bestseller lists in additional European countries and the UK to capitalize on the community's influence. This follows #BookTok driving over 50 million book sales in Europe in 2025, generating \u20ac800 million. The platform aims to further boost discoverability for viral books.",
+      "url": "https://www.socialmediatoday.com/news/tiktok-expands-booktok-bestseller-lists-across-europe-and-the-uk/815270",
+      "source": "Social Media Today",
+      "source_type": "news",
+      "tags": [
+        "BookTok",
+        "Bookstagram",
         "publishing"
       ],
       "x_urls": [],
-      "id": "e2211f54c66fde07",
+      "id": "92d7cf322d297cb7",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-21T11:01:40Z"
+      "timestamp": "2026-03-21T11:06:28Z"
     },
     {
-      "title": "AI-Generated Books Ineligible for Copyright in 2026 Contracts",
-      "summary": "Updated US laws in 2026 render fully AI-generated books ineligible for copyright, requiring substantial human authorship and creative input for protection, while AI assistance in revisions must be documented. The video covers traditional, hybrid, and self-publishing contracts, stressing clear deliverables, royalties, and AI disclosure to publishers. Economic incentives favor human creativity amid evolving publishing norms.",
-      "url": "https://www.youtube.com/watch?v=IrcnKSBqDHA",
-      "source": "YouTube",
-      "source_type": "news",
-      "tags": [
-        "AI",
-        "contracts",
-        "copyright",
-        "publishing"
-      ],
-      "x_urls": [],
-      "id": "90f500c428490fd8",
-      "section": "publishing",
-      "period": "morning",
-      "timestamp": "2026-03-21T11:01:40Z"
-    },
-    {
-      "title": "Grammarly Halts AI 'Expert Review' Feature Over Unauthorized Author Use",
-      "summary": "Grammarly is discontinuing its AI 'Expert Review' feature, which suggested edits using famous authors' names without permission, amid a class-action lawsuit by journalist Julia Angwin. The scoop, shared March 11, 2026, links to a Wired article detailing the controversy. Parent company Superhuman faces ongoing legal challenges.",
+      "title": "Grammarly Discontinues AI 'Expert Review' Feature Amid Lawsuit",
+      "summary": "Journalist Miles Klee reports Grammarly is ending its AI 'Expert Review' feature, which suggested edits using authors' names without permission. Parent company faces a class-action lawsuit from journalist Julia Angwin. This highlights tensions over AI in editing tools.",
       "url": "https://x.com/youwouldntpost/status/2031868801256734825",
       "source": "@youwouldntpost",
       "source_type": "x",
       "tags": [
-        "AI",
+        "AI controversy",
+        "editing"
+      ],
+      "x_urls": [
+        "https://x.com/youwouldntpost/status/2031868801256734825"
+      ],
+      "id": "aca9e87f6a3ce035",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-21T11:06:28Z"
+    },
+    {
+      "title": "Sensitivity Edits on Classics Like Roald Dahl 'Break Trust'",
+      "summary": "Author Rawle Nyanzi criticizes sensitivity reading applied to works by Roald Dahl, Ian Fleming, and Ursula K. Le Guin. He argues such changes undermine reader trust, regardless of whether it's popular fiction or canonical literature. The post calls for an end to altering original texts.",
+      "url": "https://x.com/Parvenu62/status/2032103482862211091",
+      "source": "@Parvenu62",
+      "source_type": "x",
+      "tags": [
+        "traditional storytelling",
         "editing",
-        "controversy"
+        "publishing"
       ],
       "x_urls": [
-        "https://x.com/youwouldntpost/status/2031868801256734825",
-        "https://x.com/youwouldntpost/status/2031868870802489780"
+        "https://x.com/Parvenu62/status/2032103482862211091"
       ],
-      "id": "e98943edc61a3b7f",
+      "id": "4f730b49d96cd8de",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-21T11:01:40Z"
+      "timestamp": "2026-03-21T11:06:28Z"
     },
     {
-      "title": "AI Book Spam Floods Amazon, Drowning Genuine Authors",
-      "summary": "Authors decry AI-generated books being dumped on Amazon, flooding the market with low-quality content that raises the 'sea level' of subpar material and hinders discoverability for real writers. Posted March 15, 2026, in response to app store spam discussion, it notes AI spammers ultimately sabotage each other too. Children's books section particularly vulnerable to such abuse.",
-      "url": "https://x.com/HermanPHunter1/status/2033214000981320008",
-      "source": "@HermanPHunter1",
+      "title": "Literature Professors Use Trap Words to Catch AI-Cheating Students",
+      "summary": "Professors are embedding invisible 'trap words' in digital assignments to detect students using generative AI. Surveys indicate 92% of students rely on such tools, eroding critical thinking skills. Literature departments worry about the collapse of independent synthesis in writing.",
+      "url": "https://x.com/rohanpaul_ai/status/2031592218570666282",
+      "source": "@rohanpaul_ai",
       "source_type": "x",
       "tags": [
-        "AI",
-        "publishing",
-        "controversy",
-        "Amazon"
-      ],
-      "x_urls": [
-        "https://x.com/HermanPHunter1/status/2033214000981320008",
-        "https://x.com/DonnyWals/status/2032895214252093793"
-      ],
-      "id": "f28ef094c24d17fb",
-      "section": "publishing",
-      "period": "morning",
-      "timestamp": "2026-03-21T11:01:40Z"
-    },
-    {
-      "title": "Debate on AI-Generated Long-Form Content and Authorship Ethics",
-      "summary": "A discussion highlights ethical issues with using AI to generate long X threads or articles with minimal edits, claiming it as original work and breaching audience expectations of human effort. The lengthy March 16, 2026 response analyzes AI's role from minor aids to full generation, predicting new disclosure norms amid recognizability of AI prose. It ironically demonstrates AI-like structured writing in addressing authorship inflation.",
-      "url": "https://x.com/Sorley___/status/2033581568250266081",
-      "source": "@Sorley___",
-      "source_type": "x",
-      "tags": [
-        "AI",
+        "AI controversy",
         "writing",
-        "ethics",
-        "controversy"
+        "editing"
       ],
       "x_urls": [
-        "https://x.com/Sorley___/status/2033581568250266081",
-        "https://x.com/_matthewpearson/status/2033564768527622283"
+        "https://x.com/rohanpaul_ai/status/2031592218570666282"
       ],
-      "id": "72936ee2ccca5848",
+      "id": "f1d054908eba9242",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-21T11:01:40Z"
+      "timestamp": "2026-03-21T11:06:28Z"
     },
     {
-      "title": "Anna Camp Addresses Backlash Over 'Boycott Didn't Work' Post After Scream 7 Success",
-      "summary": "Anna Camp discussed her role reveal and motive in Scream 7 while addressing online backlash to her social media post stating that the boycott against the film didn't succeed. The movie had a strong opening weekend despite protests. Camp celebrated the film's performance amid the controversy.",
-      "url": "https://www.hollywoodreporter.com/movies/movie-features/anna-camp-scream-7-reveal-anti-boycott-post-interview-1236530395",
-      "source": "The Hollywood Reporter",
+      "title": "The Backlash to Starfleet Academy or: Is Star Trek Still Star Trek?",
+      "summary": "Starfleet Academy faces intense online backlash including review-bombing and hate directed at cast members over perceived wokeness, racism accusations against characters, and deviations from classic episodic Star Trek format. Critics highlight misogyny, queerphobia, and generational divides in fan expectations for serialized YA-style content versus traditional storytelling. Social media amplifies the vitriol, contrasting with positive engagement from younger audiences.",
+      "url": "https://latestartrek.substack.com/p/the-backlash-to-starfleet-academy",
+      "source": "Latestar Trek Substack",
       "source_type": "news",
       "tags": [
-        "Scream 7",
-        "boycott",
+        "Star Trek",
+        "Starfleet Academy",
         "backlash",
-        "horror movie"
+        "woke",
+        "fans"
       ],
       "x_urls": [],
-      "id": "69e340a78ccd3737",
+      "id": "49e3a2799952d9d6",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-21T11:02:35Z"
+      "timestamp": "2026-03-21T11:07:22Z"
     },
     {
-      "title": "Damon Lindelof Responds to Controversy Surrounding HBO's Lanterns Green Lantern Project",
-      "summary": "Damon Lindelof issued a detailed response admitting he was 'sloppy and careless' in addressing the controversy over HBO's Lanterns series. The Emmy winner clarified his comments on the Green Lantern comic adaptation. Fans and comic enthusiasts criticized aspects of the project's direction.",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/damon-lindelof-green-lantern-controversy-1236536050",
-      "source": "The Hollywood Reporter",
+      "title": "Abysmal Oscars TV ratings revealed after snorefest awards ceremony",
+      "summary": "The 2026 Oscars recorded the lowest TV ratings in history following a criticized ceremony lacking excitement. Audience disinterest is attributed to repetitive content and failure to engage viewers. The event underscores broader challenges for Hollywood awards shows amid shifting viewer preferences.",
+      "url": "https://nypost.com/2026/03/17/us-news/low-oscars-tv-ratings-revealed/",
+      "source": "New York Post",
       "source_type": "news",
       "tags": [
-        "Lanterns",
-        "Green Lantern",
-        "controversy",
-        "HBO",
-        "DC"
-      ],
-      "x_urls": [],
-      "id": "6e47133b2e1c908e",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-21T11:02:35Z"
-    },
-    {
-      "title": "Timoth\u00e9e Chalamet Faces Backlash Over Opera and Ballet Comments, Reacts to Oscars Joke",
-      "summary": "Timoth\u00e9e Chalamet drew criticism from celebrities like Whoopi Goldberg and Nathan Lane for remarks dismissing opera and ballet. He responded to Conan O'Brien's Oscars joke about the controversy. The backlash highlighted divides in entertainment circles over cultural appreciation.",
-      "url": "https://ew.com/timothee-chalamet-reacts-conan-obrien-opera-controversy-joke-oscars-2026-11925923",
-      "source": "Entertainment Weekly",
-      "source_type": "news",
-      "tags": [
-        "Timoth\u00e9e Chalamet",
-        "backlash",
         "Oscars",
-        "opera",
-        "ballet"
+        "ratings",
+        "flop",
+        "Hollywood"
       ],
       "x_urls": [],
-      "id": "c7c4fd66894fdb59",
+      "id": "8ae1c8599a3db5a5",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-21T11:02:35Z"
+      "timestamp": "2026-03-21T11:07:22Z"
     },
     {
-      "title": "Woke Hype Fails to Translate to Box Office Success in Entertainment Industry",
-      "summary": "Possum Reviews highlights how woke audiences hype projects for virtue signaling but fail to support them financially, citing examples like The Marvels, Ghostbusters, and Birds of Prey. Recent projects like The Bride and 1348 Ex Voto continue the pattern of pandering without monetary backing. Brands risk long-term damage by catering to this demographic.",
+      "title": "Woke hype fails to deliver sales for films like The Bride",
+      "summary": "Woke supporters hype entertainment for virtue signaling but neglect to buy tickets or stream, leading to flops such as The Marvels, Ghostbusters 2016, Birds of Prey, and now The Bride and 1348 Ex Voto. This pattern shows pandering to niche audiences harms brands long-term. Actual paying audiences reject such content.",
       "url": "https://x.com/ReviewsPossum/status/2032299687508619760",
       "source": "@ReviewsPossum",
       "source_type": "x",
       "tags": [
         "woke",
-        "backlash",
-        "box office flop",
+        "flop",
         "Marvels",
-        "Ghostbusters"
+        "The Bride",
+        "pandering"
       ],
       "x_urls": [
         "https://x.com/ReviewsPossum/status/2032299687508619760"
       ],
-      "id": "d811af10c3bdef6f",
+      "id": "34bea667cb7dfb22",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-21T11:02:35Z"
+      "timestamp": "2026-03-21T11:07:22Z"
     },
     {
-      "title": "Hollywood Woke Flops: Oscars DEI Picks and Snow White Disaster",
-      "summary": "GrrrGraphics criticizes Hollywood's out-of-touch woke content, pointing to declining productions, box office crashes, and low ratings exemplified by Oscars choices and Disney's Snow White flop. Rachel Zegler's comments and CGI dwarfs contributed to the $170M loss. The industry claps for itself amid financial failures.",
-      "url": "https://x.com/GrrrGraphics/status/2033983966475391301",
-      "source": "@GrrrGraphics",
+      "title": "Abysmal Oscars TV ratings revealed - after snorefest awards ceremony",
+      "summary": "New York Post highlights the 2026 Oscars hitting record-low viewership after a dull show. The post links to details on the ratings plunge. Viewers express frustration with the ceremony's entertainment value.",
+      "url": "https://x.com/nypost/status/2034115980322865569",
+      "source": "@nypost",
       "source_type": "x",
       "tags": [
-        "Hollywood",
-        "woke",
         "Oscars",
-        "Snow White",
-        "DEI"
+        "ratings",
+        "low",
+        "snorefest"
       ],
       "x_urls": [
-        "https://x.com/GrrrGraphics/status/2033983966475391301",
-        "https://x.com/GrrrGraphics/status/2033964469303599596"
+        "https://x.com/nypost/status/2034115980322865569"
       ],
-      "id": "a96fc57ba276240b",
+      "id": "a3062978fc5655f7",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-21T11:02:35Z"
+      "timestamp": "2026-03-21T11:07:22Z"
     },
     {
-      "title": "The Bride: Feminist Frankenstein Woke Flop at Box Office",
-      "summary": "GoldoClak calls out The Bride as a feminist Frankenstein adaptation that flopped due to woke elements. The horror-romance film failed to resonate with audiences. Links to a YouTube analysis of the box office disappointment.",
-      "url": "https://x.com/GoldoClak/status/2031630244319473846",
-      "source": "@GoldoClak",
+      "title": "Woke Celebrities Applaud Themselves At Oscars As Hollywood Burns",
+      "summary": "Zerohedge post criticizes celebrities self-congratulating at the Oscars amid industry's struggles. Links to article on Hollywood's decline despite the event. Highlights disconnect between elites and audience.",
+      "url": "https://x.com/zerohedge/status/2033560442006589830",
+      "source": "@zerohedge",
       "source_type": "x",
       "tags": [
-        "The Bride",
-        "Frankenstein",
+        "Oscars",
         "woke",
-        "flop",
-        "box office"
+        "celebrities",
+        "Hollywood"
       ],
       "x_urls": [
-        "https://x.com/GoldoClak/status/2031630244319473846"
+        "https://x.com/zerohedge/status/2033560442006589830"
       ],
-      "id": "fddda1b83a4b71d1",
+      "id": "90a4c4947f707148",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-21T11:02:35Z"
+      "timestamp": "2026-03-21T11:07:22Z"
     },
     {
       "title": "Google Drops Free AI Marketing Suite for Small Businesses Worldwide",
-      "summary": "Google has released a powerful free AI tool that analyzes a small business's website to generate customized ads, social media posts, headlines, CTAs, and even animated video creatives perfectly matched to the brand. Unlike generic templates, it produces tailored marketing content available in over 170 countries. This levels the playing field for solopreneurs and small teams lacking marketing resources.",
+      "summary": "Google has rolled out a powerful free AI tool that analyzes a small business's website to generate customized ads, social media posts, headlines, CTAs, and even animated video creatives perfectly matched to the brand. Now available in over 170 countries, it empowers SMBs with professional-grade marketing without the hefty costs. This platform move levels the playing field for small businesses against larger competitors.",
       "url": "https://x.com/JulianGoldieSEO/status/2031852675923374265",
-      "source": "JulianGoldieSEO",
+      "source": "Julian Goldie SEO",
       "source_type": "x",
       "tags": [
         "AI tools",
-        "small business",
         "marketing",
-        "Google AI"
+        "small business",
+        "Google"
       ],
       "x_urls": [
         "https://x.com/JulianGoldieSEO/status/2031852675923374265"
       ],
-      "id": "e1e58f8d541ebd64",
+      "id": "3eecfdd5254aca9b",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-21T11:03:00Z"
+      "timestamp": "2026-03-21T11:07:55Z"
     },
     {
-      "title": "Solopreneurs Now Rival 5-Person Teams with Affordable AI Stacks Under $100/Month",
-      "summary": "Small businesses and solopreneurs are leveraging AI for customer support via chatbots like Tidio or ChatGPT, content creation with Claude or Jasper, and operations automation using Zapier and Notion. This stack saves 10-15 hours weekly at a cost under $100/month, dramatically boosting efficiency. The shift allows tiny teams to handle workloads previously requiring larger staff.",
+      "title": "AI Stack Lets Solopreneurs Replace Entire 5-Person Teams for Under $100/Month",
+      "summary": "Small businesses and solopreneurs are using affordable AI tools for 24/7 customer support (Tidio, Intercom), brand-specific content creation (Claude, Jasper), and automated operations (Zapier + Notion). This setup saves 10-15 hours weekly at a cost under $100/month, dramatically boosting efficiency. The shift highlights AI's transformative impact on SMB operations.",
       "url": "https://x.com/cyrilgupta/status/2032804295259664753",
-      "source": "cyrilgupta",
+      "source": "Cyril Gupta",
       "source_type": "x",
       "tags": [
-        "AI stack",
-        "solopreneur",
+        "AI impact",
         "small business",
+        "solopreneur",
         "automation"
       ],
       "x_urls": [
         "https://x.com/cyrilgupta/status/2032804295259664753"
       ],
-      "id": "ed5e2661246991ff",
+      "id": "c0738ee04aba16d7",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-21T11:03:00Z"
+      "timestamp": "2026-03-21T11:07:55Z"
     },
     {
-      "title": "Fewer Than 1 in 5 Small Businesses Effectively Integrating AI Across Operations",
-      "summary": "A new report reveals that less than 20% of small businesses are successfully embedding AI into their core operations despite widespread interest. Primary benefits cited are higher efficiency and productivity, with nearly 70% expecting AI to drive business growth. Barriers to deeper adoption remain a key challenge for SMBs.",
-      "url": "https://fortune.com/2026/03/18/small-business-ai-slow-integration-across-operations",
-      "source": "Fortune",
+      "title": "Goldman Sachs Survey: 76% of Small Businesses Use AI, But Need Training to Fully Integrate",
+      "summary": "A Goldman Sachs 10,000 Small Businesses Voices survey reveals 76% of SMBs use AI daily, yet only 14% have integrated it into core operations. 73% seek additional training and resources, with 85% supporting the AI for Main Street Act for better adoption. This underscores AI's growing role and the support gap for small businesses.",
+      "url": "https://finance.yahoo.com/news/survey-small-businesses-embrace-ai-130000815.html",
+      "source": "Yahoo Finance (Goldman Sachs)",
       "source_type": "news",
       "tags": [
         "AI adoption",
         "small business",
-        "integration challenges"
+        "survey",
+        "training"
       ],
       "x_urls": [],
-      "id": "3bb611525ca7ff66",
+      "id": "31770a54cd3d9a0c",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-21T11:03:00Z"
+      "timestamp": "2026-03-21T11:07:55Z"
     },
     {
-      "title": "Goldman Sachs Reports Small Businesses Embracing AI for Growth and Efficiency",
-      "summary": "According to Goldman Sachs, small businesses are rapidly adopting AI with a focus on boosting efficiency and productivity, and nearly seven in ten anticipate significant growth from the technology. However, comprehensive integration lags behind initial enthusiasm. This trend underscores AI's transformative potential for SMBs.",
-      "url": "https://finance.yahoo.com/news/goldman-sachs-says-small-businesses-191451877.html",
-      "source": "Yahoo Finance",
+      "title": "Adobe Study Shows Small Businesses Achieving High ROI from Generative AI Tools",
+      "summary": "Adobe surveyed 431 small business owners across industries, finding generative AI evolving from experiment to essential infrastructure for boosting productivity. SMBs report strong ROI by targeting AI in key workflows like content and operations. The study highlights practical AI applications driving tangible business gains.",
+      "url": "https://www.adobe.com/acrobat/resources/small-business-superpower-study.html",
+      "source": "Adobe",
       "source_type": "news",
       "tags": [
-        "AI impact",
+        "AI ROI",
         "small business",
-        "Goldman Sachs",
-        "efficiency"
+        "generative AI",
+        "study"
       ],
       "x_urls": [],
-      "id": "bf165320977483ee",
+      "id": "69847b0767aec79c",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-21T11:03:00Z"
+      "timestamp": "2026-03-21T11:07:55Z"
     }
   ]
 }
