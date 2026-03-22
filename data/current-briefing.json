@@ -1,369 +1,436 @@
 {
   "date": "2026-03-22",
   "period": "afternoon",
-  "generated": "2026-03-22T19:03:20Z",
+  "generated": "2026-03-22T19:08:47Z",
   "items": [
     {
-      "title": "Ross Simmonds: AEO and GEO are distinct from traditional SEO in AI era",
-      "summary": "In a podcast with Mike King, Ross Simmonds argues that AEO and GEO go beyond site-focused SEO, emphasizing consensus across Reddit, YouTube, PR, and more via retrieval augmented generation. Brands risk irrelevance if they dismiss AI discovery as covered by SEO alone. The discussion urges mapping synthetic queries and building content ecosystems to win in AI search.",
-      "url": "https://x.com/TheCoolestCool/status/2035038674837283321",
-      "source": "Ross Simmonds (@TheCoolestCool)",
-      "source_type": "x",
-      "tags": [
-        "AEO",
-        "GEO",
-        "AI search",
-        "content ecosystems"
-      ],
-      "x_urls": [
-        "https://x.com/TheCoolestCool/status/2035038674837283321"
-      ],
-      "id": "58f62f700e1ce4a6",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-22T19:00:53Z"
-    },
-    {
-      "title": "Scott: Traditional SEO is dead as 93% of AI searches end zero-click",
-      "summary": "Scott declares SEO obsolete with 93% of AI search sessions yielding no website visits, highlighting stats like AI Overviews in 25% of searches and citation confidence replacing page rank. Marketers must shift to GEO and AEO with structured, quotable content under 40 words per block. Adaptation is key as brands compete to be cited in AI answers.",
-      "url": "https://x.com/cpgscott1/status/2034027546606751971",
-      "source": "Scott (@cpgscott1)",
-      "source_type": "x",
-      "tags": [
-        "AI search changes",
-        "GEO",
-        "AEO",
-        "zero-click searches"
-      ],
-      "x_urls": [
-        "https://x.com/cpgscott1/status/2034027546606751971",
-        "https://x.com/cpgscott1/status/2034027901809770968",
-        "https://x.com/cpgscott1/status/2034027791130497408"
-      ],
-      "id": "cbca08a07cc7cd91",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-22T19:00:53Z"
-    },
-    {
-      "title": "Gazi Masud: Rise of GEO amid the 'Great Decoupling' in search",
-      "summary": "Gazi Masud details the end of traditional SEO as AI like Google Overviews answers directly, causing impressions to rise but clicks to drop 4x. GEO optimizes for AI citations using structured content, E-E-A-T, and proprietary data across platforms like TikTok and Reddit. He shares a 2026 checklist prioritizing AI citations over keywords.",
+      "title": "The Old Game Is Over: SEO is Evolving to GEO and Search Everywhere Optimization",
+      "summary": "Traditional SEO focused on keywords and backlinks is ending due to AI Overviews from Google, ChatGPT, and Perplexity answering queries directly without site visits. Impressions rise but clicks drop, with AI referral traffic up 357% YoY. The 2026 checklist emphasizes proprietary data, AI citations, structured content, and optimization across TikTok, Reddit, and YouTube.",
       "url": "https://x.com/iamgazimasud/status/2033932371209425213",
-      "source": "Gazi Masud (@iamgazimasud)",
+      "source": "@iamgazimasud",
       "source_type": "x",
       "tags": [
+        "SEO Evolution",
         "GEO",
-        "SEO evolution",
-        "AI search",
-        "multi-platform optimization"
+        "AI Search",
+        "Content Strategy"
       ],
       "x_urls": [
         "https://x.com/iamgazimasud/status/2033932371209425213"
       ],
-      "id": "780e02a356a54e51",
+      "id": "714239e78f1b35e3",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:00:53Z"
+      "timestamp": "2026-03-22T19:06:02Z"
     },
     {
-      "title": "Rewriting Classic Authors Like Roald Dahl Breaks Trust in Literature",
-      "summary": "Rawle Nyanzi criticizes publishers for rewriting works by authors such as Roald Dahl, Ian Fleming, and Ursula K. Le Guin to align with modern sensibilities. He argues this practice erodes trust and should cease for any type of literature, from pop novels to canonical works. The post sparked significant engagement and replies highlighting dangers to original author intent.",
+      "title": "AI and SEO Deep Dive: AEO and GEO Are Not Just 'SEO with a New Name'",
+      "summary": "In a podcast with Mike King (@iPullRank), Ross Simmonds discusses how AI discovery relies on retrieval augmented generation, synthetic queries, and content ecosystems beyond just websites. Classic SEO tactics fall short for AI like ChatGPT; instead, map synthetic queries, audit formats, and build ecosystems spanning Reddit, YouTube, and PR. CMOs questioning AI visibility need strategies beyond traditional SEO.",
+      "url": "https://x.com/TheCoolestCool/status/2035038674837283321",
+      "source": "@TheCoolestCool",
+      "source_type": "x",
+      "tags": [
+        "AEO",
+        "GEO",
+        "AI Search",
+        "Content Ecosystems"
+      ],
+      "x_urls": [
+        "https://x.com/TheCoolestCool/status/2035038674837283321",
+        "https://podcasts.apple.com/.../gR963pUGYg"
+      ],
+      "id": "04b7b062e44d55c5",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-22T19:06:02Z"
+    },
+    {
+      "title": "Search Evolving: Integrate SEO, AEO, and GEO for Modern Visibility",
+      "summary": "Discovery now spans traditional search, direct answers, and AI assistants, requiring brands to unify SEO, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO). Forward-thinking strategies adapt to changing behaviors across platforms to maintain visibility. Onimod Global highlights this shift in their latest post.",
+      "url": "https://x.com/OnimodGlobal/status/2033547349490806812",
+      "source": "@OnimodGlobal",
+      "source_type": "x",
+      "tags": [
+        "SEO",
+        "AEO",
+        "GEO",
+        "Search Marketing"
+      ],
+      "x_urls": [
+        "https://x.com/OnimodGlobal/status/2033547349490806812"
+      ],
+      "id": "8f51a13fd74e6ef5",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-22T19:06:02Z"
+    },
+    {
+      "title": "Measuring Content Marketing in the AI Age, Part 3: Scoring the Trust",
+      "summary": "Content Marketing Institute explores expert insights on AI Search and measuring content performance amid AI changes. Part 3 focuses on scoring trust in content strategies as AI influences discovery and engagement. Marketers must adapt metrics for the AI era to evaluate effectiveness.",
+      "url": "https://contentmarketinginstitute.com/what-is-content-marketing",
+      "source": "Content Marketing Institute",
+      "source_type": "news",
+      "tags": [
+        "Content Marketing",
+        "AI Search",
+        "Metrics"
+      ],
+      "x_urls": [],
+      "id": "892a00a886420bb7",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-22T19:06:02Z"
+    },
+    {
+      "title": "Search Engine Land: Latest SEO, PPC & AI Search News for Marketers",
+      "summary": "Search Engine Land provides up-to-date analysis on SEO, AI search developments, and digital marketing strategies. Recent coverage highlights evolving Google algorithms and AI impacts on search visibility. Practical tips for marketers adapting to 2026 trends.",
+      "url": "https://searchengineland.com/",
+      "source": "Search Engine Land",
+      "source_type": "news",
+      "tags": [
+        "SEO",
+        "AI Search",
+        "Google Updates"
+      ],
+      "x_urls": [],
+      "id": "14195826264b1123",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-22T19:06:02Z"
+    },
+    {
+      "title": "WebMCP: What It Is, Why It Matters, and What to Do Now",
+      "summary": "Semrush details WebMCP, a new protocol impacting SEO with agentic browsers in March 2026. It covers keyword research, on-page, technical SEO in the context of emerging tools. Marketers urged to prepare for this shift in search technology.",
+      "url": "https://www.semrush.com/blog/webmcp",
+      "source": "Semrush Blog",
+      "source_type": "news",
+      "tags": [
+        "SEO Tools",
+        "Technical SEO",
+        "AI Agents"
+      ],
+      "x_urls": [],
+      "id": "5a858b769947cdce",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-22T19:06:02Z"
+    },
+    {
+      "title": "Publishers Unprepared for AI-Generated Fiction as Seen in 'Shy Girl' Controversy",
+      "summary": "Publishers require authors to attest that their work is original and have resisted AI-generated text and images, but lack clear policies or detection measures to prevent AI use in writing. A New York Times investigation highlights the novel 'Shy Girl' by Mia Ballard, suspected of being heavily AI-generated, leading to its cancellation by Hachette. This raises concerns about unvetted AI content infiltrating traditional publishing.",
+      "url": "https://x.com/Wralpheubanks/status/2034764844423889236",
+      "source": "@Wralpheubanks",
+      "source_type": "x",
+      "tags": [
+        "AI",
+        "controversy",
+        "publishing"
+      ],
+      "x_urls": [
+        "https://x.com/Wralpheubanks/status/2034764844423889236",
+        "https://x.com/bruno_rv/status/2034770218346537353"
+      ],
+      "id": "f737ff5ba346e581",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-22T19:07:00Z"
+    },
+    {
+      "title": "Bookouture Signs New Contracts for Mystery Series",
+      "summary": "Bookouture announces contracts for additional books in the bestselling Sarah Vane Mysteries series by Alice MCastle and a new historical cosy crime series by Lydia Travers. This expands their lineup of commercial fiction. The publisher accepts both agented and unagented submissions.",
+      "url": "https://x.com/bookouture/status/2033529264285294637",
+      "source": "@bookouture",
+      "source_type": "x",
+      "tags": [
+        "major contracts",
+        "mystery",
+        "cosy crime"
+      ],
+      "x_urls": [
+        "https://x.com/bookouture/status/2033529264285294637"
+      ],
+      "id": "a150d2eb6601d749",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-22T19:07:00Z"
+    },
+    {
+      "title": "Rewriting Classics Like Roald Dahl Breaks Publisher Trust",
+      "summary": "Author Rawle Nyanzi criticizes publishers for altering works by Roald Dahl, Ian Fleming, and Ursula K. Le Guin through sensitivity edits. He argues this practice, regardless of the book's popularity or status, undermines trust in publishing and should cease. The post garnered significant engagement highlighting concerns over traditional storytelling.",
       "url": "https://x.com/Parvenu62/status/2032103482862211091",
       "source": "@Parvenu62",
       "source_type": "x",
       "tags": [
         "traditional storytelling",
-        "publishing controversy",
-        "author rights"
+        "editing controversy",
+        "sensitivity edits"
       ],
       "x_urls": [
         "https://x.com/Parvenu62/status/2032103482862211091"
       ],
-      "id": "f1c72bdafdab51e0",
+      "id": "ef2240f686cd6024",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:01:41Z"
+      "timestamp": "2026-03-22T19:07:00Z"
     },
     {
-      "title": "AI Storybooks Scrape Human Authors' Work Without Permission During National Storytelling Week",
-      "summary": "Author Julie Bertagna accuses AI-generated children's storybooks of scraping real authors' works without permission or compensation. She urges @EducationScot to reconsider promoting such content amid #NationalStorytellingWeek, warning of the erasure of human authors. The post highlights ongoing AI controversies in publishing.",
-      "url": "https://x.com/JulieBertagna/status/2033873932206445009",
-      "source": "@JulieBertagna",
-      "source_type": "x",
+      "title": "A.I. Is Writing Fiction. Publishers Are Unprepared.",
+      "summary": "An investigation reveals publishers' vulnerability to AI-generated novels despite contractual attestations of originality. The case of 'Shy Girl,' a femgore novel accused of heavy AI use via Reddit analysis and video essays, prompted Hachette to cancel its release. AI is increasingly used in self-published books and now poses risks to traditional publishing integrity.",
+      "url": "https://www.nytimes.com/2026/03/19/books/ai-fiction-shy-girl.html",
+      "source": "The New York Times",
+      "source_type": "news",
       "tags": [
-        "AI controversy",
-        "publishing",
-        "children's books"
-      ],
-      "x_urls": [
-        "https://x.com/JulieBertagna/status/2033873932206445009"
-      ],
-      "id": "5574cf500e9a746e",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-22T19:01:41Z"
-    },
-    {
-      "title": "Japanese Author Inserts Strict Ban on AI Training in Her New Commercial Book",
-      "summary": "Manga artist Takakura Tomoko reveals her recently published commercial book includes a clause prohibiting unauthorized use for generative AI training. This move underscores growing author resistance to AI exploitation in the publishing industry. The announcement garnered high likes and reposts.",
-      "url": "https://x.com/takakuratomoko/status/2032452206730035592",
-      "source": "@takakuratomoko",
-      "source_type": "x",
-      "tags": [
-        "AI controversy",
-        "author rights",
+        "AI",
+        "controversy",
         "publishing"
       ],
       "x_urls": [
-        "https://x.com/takakuratomoko/status/2032452206730035592"
+        "https://x.com/Wralpheubanks/status/2034764844423889236",
+        "https://x.com/bruno_rv/status/2034770218346537353",
+        "https://x.com/sahibachopraa/status/2034781920576618604"
       ],
-      "id": "fc72314b46e465e9",
+      "id": "381c4bae8d5521d6",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:01:41Z"
+      "timestamp": "2026-03-22T19:07:00Z"
     },
     {
-      "title": "Publisher Cancels Buzzy Horror Novel 'Shy Girl' Over AI Generation Allegations",
-      "summary": "Hachette has canceled the upcoming horror novel 'Shy Girl' by Mia Ballard following claims it was largely AI-written, with detection tools identifying 78% AI content. The incident exposes vulnerabilities in publishing's AI oversight and lack of regulation. Industry debates intensify on vetting processes and AI's role in fiction.",
-      "url": "https://thenightly.com.au/culture/books/buzzy-horror-novel-shy-girl-cancelled-for-ai-use-is-the-publishing-industry-doomed-c-22007702",
-      "source": "The Nightly",
+      "title": "Bookouture Signs New Contracts with Castle and Travers",
+      "summary": "Dynamic digital publisher Bookouture has acquired further titles in the Sarah Vane Mysteries series from Alice MCastle and a new historical cosy crime series from Lydia Travers. This deal bolsters their bestselling commercial fiction portfolio. Submissions remain open and inclusive.",
+      "url": "https://bookouture.com/bookouture-signs-new-contracts-with-castle-and-travers/",
+      "source": "Bookouture",
       "source_type": "news",
       "tags": [
-        "AI controversy",
+        "major contracts",
+        "mystery",
+        "publishing"
+      ],
+      "x_urls": [
+        "https://x.com/bookouture/status/2033529264285294637"
+      ],
+      "id": "87d106e667824218",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-22T19:07:00Z"
+    },
+    {
+      "title": "HarperCollins Union Ratifies First Contract with Highest Starting Pay",
+      "summary": "The HarperCollins union has successfully ratified its inaugural contract, establishing the highest starting pay rates in the publishing industry. This milestone comes after prolonged negotiations. It marks a significant advancement for workers in big publishing.",
+      "url": "https://lunch.publishersmarketplace.com/2026/03/harper-collins-union-ratifies-first-contract/",
+      "source": "Publishers Marketplace",
+      "source_type": "news",
+      "tags": [
+        "major contracts",
         "publishing",
-        "horror book"
+        "union"
       ],
-      "x_urls": [],
-      "id": "ff8f7e1df4dd01b2",
+      "x_urls": [
+        "https://x.com/PublishingWell/status/2034713076381913522"
+      ],
+      "id": "038be6c50ec26f9d",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:01:41Z"
+      "timestamp": "2026-03-22T19:07:00Z"
     },
     {
-      "title": "Seoul International Book Fair Tackles AI's Impact on Writers and Readers",
-      "summary": "The Seoul International Book Fair discusses how AI is transforming publishing, coinciding with the 10th anniversary of AlphaGo's victory over Lee Se-dol. Panels question ethical use of AI writing tools and generation of content. Publishers and authors explore adaptation strategies amid rapid tech advances.",
-      "url": "https://koreajoongangdaily.joins.com/news/2026-03-18/culture/books/Seoul-International-Book-Fair-questions-how-writers-and-readers-should-confront-AI/2543527",
-      "source": "Korea JoongAng Daily",
+      "title": "The Bride! Suffers Box Office Disappointment Amid Mixed Reviews",
+      "summary": "Maggie Gyllenhaal's feminist reimagining of Bride of Frankenstein, starring Jessie Buckley and Christian Bale, flopped far below expectations with its $90 million budget. Critics labeled it a 'wokified Joker-fied feminist opera' while audiences cited preachy themes and deviations from source material. The early March release underscores struggles for ideologically driven films to attract broad appeal.",
+      "url": "https://www.slashfilm.com/2119074/the-bride-2026-movie-box-office-flop-reasons",
+      "source": "SlashFilm",
       "source_type": "news",
       "tags": [
-        "AI in publishing",
-        "book fair",
-        "writing tools"
+        "movie",
+        "flop",
+        "woke",
+        "feminist",
+        "Bride of Frankenstein"
       ],
-      "x_urls": [],
-      "id": "4ca15721c49a8e6b",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-22T19:01:41Z"
-    },
-    {
-      "title": "AI Flooding Agents and Publishers with Generated Books Sparks Industry Debate",
-      "summary": "A surge of AI-generated books is overwhelming literary agents and publishers, prompting discussions on detection and response. Content creators note this isn't justification for harsh reviews but highlights challenges in distinguishing human work. The trend fuels broader concerns over AI's infiltration in self-publishing and traditional channels.",
-      "url": "https://www.instagram.com/reel/DV3wMQrDlfG",
-      "source": "Chris M. Arnone",
-      "source_type": "news",
-      "tags": [
-        "AI controversy",
-        "publishing",
-        "self-publishing"
+      "x_urls": [
+        "https://x.com/ReviewsPossum/status/2032299687508619760"
       ],
-      "x_urls": [],
-      "id": "9ed66abb1c3a9c35",
-      "section": "publishing",
+      "id": "f640504bd36f8503",
+      "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:01:41Z"
+      "timestamp": "2026-03-22T19:08:08Z"
     },
     {
-      "title": "Variety Slammed Over Opinion Piece on Chuck Norris' Legacy",
-      "summary": "Variety faced significant backlash from conservatives after publishing an opinion piece claiming Chuck Norris' political views overshadow his film legacy. The article sparked heated debates on social media about separating entertainment from politics. Critics accused the publication of politicizing Hollywood icons.",
-      "url": "https://www.msn.com/en-us/news/insight/variety-slammed-over-chuck-norris-legacy-take/gm-GM7C3EB8D7",
-      "source": "MSN / Variety",
+      "title": "Oscars 2026 Labeled 'Woke Disaster' After Political Speeches and Bleeps",
+      "summary": "The 2026 Academy Awards drew ire for Javier Bardem hijacking the broadcast with a 'Free Palestine' lecture and other preachy moments. Viewers blamed excessive wokeness for the ratings plunge, calling it asphyxiating half the audience. Several acceptance speeches were censored live, fueling further controversy.",
+      "url": "https://www.outkick.com/culture/oscars-back-being-woke-disaster-javier-bardem-highjacks-broadcast-free-palestine-lecture",
+      "source": "Outkick",
       "source_type": "news",
       "tags": [
+        "Oscars 2026",
+        "woke",
         "backlash",
-        "Chuck Norris",
-        "Hollywood legacy",
-        "conservative"
+        "political",
+        "ratings flop"
       ],
       "x_urls": [],
-      "id": "9e92cfaa4c164310",
+      "id": "fce1b16d84e1f9e7",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:02:27Z"
+      "timestamp": "2026-03-22T19:08:08Z"
     },
     {
-      "title": "Jimmy Kimmel Draws Backlash for Oscars Joke Targeting CBS and North Korea",
-      "summary": "Host Jimmy Kimmel sparked controversy with a joke at the Oscars jabbing CBS and North Korea, leading to viewer backlash. The remark was seen by some as echoing familiar political targets amid heightened sensitivities. The incident underscores challenges in comedy during major award shows.",
-      "url": "https://www.aol.com/articles/jimmy-kimmel-sparks-backlash-oscars-131800990.html",
-      "source": "AOL",
+      "title": "Rachel Zegler Addresses 'Confusing' Snow White Casting Backlash",
+      "summary": "Rachel Zegler reflected on the backlash to her Snow White casting due to her heritage and remarks deeming the original 'dated.' She called it a confusing time and vowed not to 'assimilate' despite accusations of woke changes. The March statements revived debates on Disney's remakes.",
+      "url": "https://people.com/rachel-zegler-calls-snow-white-and-west-side-story-casting-controversies-a-really-confusing-time-in-her-life-11923678",
+      "source": "People",
       "source_type": "news",
       "tags": [
-        "Oscars",
-        "Jimmy Kimmel",
-        "backlash",
-        "comedy"
+        "Disney",
+        "Snow White",
+        "Rachel Zegler",
+        "casting",
+        "woke"
       ],
       "x_urls": [],
-      "id": "41108b13523ea766",
+      "id": "fae3de4dd9a3f1a9",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:02:27Z"
+      "timestamp": "2026-03-22T19:08:08Z"
     },
     {
-      "title": "'KPop Demon Hunters' Ignites Christian Backlash Over Demonic Themes",
-      "summary": "The animated series 'KPop Demon Hunters' has provoked strong reactions from Christian communities due to its portrayal of spiritual battles and demonic elements. Discussions highlight a divide between pop culture trends and religious values. The controversy emerged around March 13.",
-      "url": "https://religionunplugged.com/news/kpop-demon-hunters-demonic",
-      "source": "Religion Unplugged",
-      "source_type": "news",
-      "tags": [
-        "KPop",
-        "Demon Hunters",
-        "Christian backlash",
-        "animation"
-      ],
-      "x_urls": [],
-      "id": "d3de1193d5f75d4c",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-22T19:02:27Z"
-    },
-    {
-      "title": "Woke Films Hype Fails to Deliver Box Office as Pattern Continues",
-      "summary": "Reviewer Possum Reviews highlights how woke-pandering projects like The Marvels, Ghostbusters (2016), Birds of Prey, The Bride, and 1348 Ex Voto get hyped by virtue-signalers but flop financially. This long-term trend warns brands against niche pandering. The post from March 13 garnered thousands of likes.",
+      "title": "Woke Pandering Fails: Hype Doesn't Buy Tickets for Films Like The Bride",
+      "summary": "Possum Reviews critiques how woke audiences hype projects for virtue-signaling but skip paying, dooming The Bride, 1348 Ex Voto, and past entries like The Marvels. Warns brands against long-term pandering to this group. Post with comparative images exploded with 3.5k likes and hundreds of reposts.",
       "url": "https://x.com/ReviewsPossum/status/2032299687508619760",
       "source": "@ReviewsPossum",
       "source_type": "x",
       "tags": [
         "woke",
-        "box office flop",
-        "Marvels",
-        "Hollywood"
+        "pandering",
+        "flops",
+        "The Bride",
+        "Marvels"
       ],
       "x_urls": [
         "https://x.com/ReviewsPossum/status/2032299687508619760"
       ],
-      "id": "6b45be3a9535efef",
+      "id": "8e52855af7c66087",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:02:27Z"
+      "timestamp": "2026-03-22T19:08:08Z"
     },
     {
-      "title": "Audiences Rebel Against Woke Hollywood After Gervais' Oscars Wake-Up",
-      "summary": "A user laments Hollywood's decline into wokeness and hypocrisy, crediting Ricky Gervais' past Oscars rant as a pivotal moment. Many report boycotting awards shows and glamorous events in response. Posted on March 16 amid ongoing industry critiques.",
-      "url": "https://x.com/AlliHim32/status/2033344135466549585",
-      "source": "@AlliHim32",
+      "title": "Woke Actor's Movie Bombs After Attacks on Christians and MAGA",
+      "summary": "Post spotlights a woke actor's film total failure post controversial rants against Christians, cops, and MAGA. Affirms audience boycott rights, noting Hollywood produces nothing essential. Shared article from Patriot News Web amid rising anti-woke sentiment.",
+      "url": "https://x.com/karas13133/status/2033960808242086055",
+      "source": "@karas13133",
       "source_type": "x",
       "tags": [
+        "woke actor",
+        "bomb",
+        "boycott",
         "Hollywood",
-        "woke",
-        "Ricky Gervais",
-        "Oscars",
-        "boycott"
-      ],
-      "x_urls": [
-        "https://x.com/AlliHim32/status/2033344135466549585"
-      ],
-      "id": "51cdf2386df4d9c5",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-22T19:02:27Z"
-    },
-    {
-      "title": "'The Boys' Recent Season Overwhelmed by Excessive Woke Elements",
-      "summary": "A fan abandons the latest season of 'The Boys' after one or two episodes due to overload of woke content, despite prior love for the show. References Bill Maher's recent commentary on Hollywood's extremes. Discussion posted March 18.",
-      "url": "https://x.com/soflgreg/status/2034335759038071186",
-      "source": "@soflgreg",
-      "source_type": "x",
-      "tags": [
-        "The Boys",
-        "woke",
-        "TV series",
         "backlash"
       ],
       "x_urls": [
-        "https://x.com/soflgreg/status/2034335759038071186"
+        "https://x.com/karas13133/status/2033960808242086055"
       ],
-      "id": "ef0431af9e6eacf3",
+      "id": "59ae3904e841b681",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:02:27Z"
+      "timestamp": "2026-03-22T19:08:08Z"
     },
     {
-      "title": "Goldman Sachs Survey Reveals Small Businesses Embrace AI but Struggle with Integration",
-      "summary": "A Goldman Sachs survey shows over three-quarters of small businesses are using AI to some degree, with more than 90% reporting it works, yet only 14% have fully integrated it across core operations due to challenges like technical expertise and data privacy. Efficiency gains are prominent, but fewer than one in four use AI for revenue tasks like supply chain optimization, and nearly seven in ten expect revenue growth. Over 70% need more training to maximize benefits.",
+      "title": "Michael B. Jordan's Oscar Tribute to Sidney Poitier Ignites DEI Debate",
+      "summary": "Viral image captures Michael B. Jordan admiring Sidney Poitier's photo, marking Poitier as first Black Best Actor Oscar winner (1964) and Jordan sixth. Emotional pop culture moment amassed 60k likes but sparked backlash replies decrying DEI favoritism over merit. Ties into broader awards representation controversies.",
+      "url": "https://x.com/Jabz_CFC/status/2033835732830458097",
+      "source": "@Jabz_CFC",
+      "source_type": "x",
+      "tags": [
+        "Oscars",
+        "Michael B Jordan",
+        "Sidney Poitier",
+        "DEI",
+        "representation"
+      ],
+      "x_urls": [
+        "https://x.com/Jabz_CFC/status/2033835732830458097",
+        "https://x.com/BoycottTheWoke/status/2033926554976161792"
+      ],
+      "id": "52d1f1a50ebb71cc",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-22T19:08:08Z"
+    },
+    {
+      "title": "The Best AI Tools for Small Businesses Right Now",
+      "summary": "Upwork highlights 10 practical AI tools tailored for small businesses in 2026, focusing on streamlining content creation, marketing, customer support, and operations. Standouts include ChatGPT for writing and research, Jasper for marketing copy, Canva AI for graphics, Tidio chatbots for 24/7 support, and Fireflies.ai for meeting automation, all offering affordable plans that save time and boost efficiency. These tools enable small teams to automate repetitive tasks and focus on growth without needing large budgets.",
+      "url": "https://www.upwork.com/resources/best-ai-tools-for-small-businesses",
+      "source": "Upwork",
+      "source_type": "news",
+      "tags": [
+        "AI tools",
+        "small businesses",
+        "automation",
+        "productivity"
+      ],
+      "x_urls": [],
+      "id": "c20cb776bd6a2ef8",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-22T19:08:47Z"
+    },
+    {
+      "title": "Goldman Sachs: Small Businesses Embrace AI but Struggle with Integration",
+      "summary": "A Goldman Sachs survey of 1,256 small business operators shows over 75% using AI, with 90% reporting it works and nearly 70% expecting revenue growth from efficiency gains. However, only 14% have fully integrated AI across core operations due to barriers like technical expertise gaps, tool navigation issues, and data privacy concerns. More than 70% of operators would benefit from training to deepen adoption beyond experimentation.",
       "url": "https://fortune.com/2026/03/18/small-business-ai-slow-integration-across-operations",
       "source": "Fortune",
       "source_type": "news",
       "tags": [
-        "small business AI adoption",
-        "AI integration challenges",
-        "productivity",
-        "revenue growth"
+        "AI adoption",
+        "small businesses",
+        "integration",
+        "survey"
       ],
       "x_urls": [],
-      "id": "5adc05fa32879d93",
+      "id": "7718ca9945961269",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:03:20Z"
+      "timestamp": "2026-03-22T19:08:47Z"
     },
     {
-      "title": "10 Best AI Tools for Business in 2026 to Boost Productivity",
-      "summary": "The article highlights top AI tools like Jasper AI for content, Salesforce Einstein for customer intelligence, and UiPath for automation, enabling small businesses to cut costs, automate tasks, and achieve quick ROI without heavy technical skills. Tools now affordable at $99/month help shift focus to strategic work, with examples like a manufacturing firm saving $2.3M via DataRobot and a SaaS boosting sales close rate to 31%. These plug-and-play solutions are transforming operations for SMBs.",
-      "url": "https://tezeract.ai/ai-tools-for-business",
-      "source": "Tezeract",
-      "source_type": "news",
-      "tags": [
-        "AI tools",
-        "business productivity",
-        "automation",
-        "SMB adoption"
-      ],
-      "x_urls": [],
-      "id": "d1855815da73b874",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-22T19:03:20Z"
-    },
-    {
-      "title": "Agentic AI: The Next Shift Beyond Tools for Autonomous Business Workflows",
-      "summary": "Agentic AI evolves from generative models to systems that plan, decide, act, and self-improve, powering multi-agent collaboration, tool use, and end-to-end automation in areas like marketing, customer ops, and data analysis. Unlike basic AI that answers or generates, agentic AI handles entire processes autonomously with memory and feedback loops. This promises to revolutionize small businesses by enabling workflow automation without constant oversight.",
-      "url": "https://x.com/MeenakshiYACS/status/2032354725015011575",
-      "source": "Meenakshi Yadav (@MeenakshiYACS)",
+      "title": "Claude Code Builds ISO 9001 Compliance System for Free, Saving $20K on Consultants",
+      "summary": "Founder Josh Schultz shares how he used Anthropic's Claude Code to create a full ISO 9001:2015 compliance system by feeding it the standard PDF, an SMB guide, and his company profile. The AI generates clause-mapped documents, templates, gap analyses, and audit prep across 10 sections, producing 30+ audit-ready files with traceability. This practical tool bypasses expensive consultants, enabling small businesses to achieve certification faster and cheaper.",
+      "url": "https://x.com/joshuamschultz/status/2033721522553319749",
+      "source": "@joshuamschultz",
       "source_type": "x",
       "tags": [
-        "Agentic AI",
-        "AI agents",
-        "automation",
-        "business workflows"
+        "Claude Code",
+        "compliance",
+        "ISO 9001",
+        "small businesses",
+        "automation"
       ],
       "x_urls": [
-        "https://x.com/MeenakshiYACS/status/2032354725015011575"
+        "https://x.com/joshuamschultz/status/2033721522553319749"
       ],
-      "id": "f4a38279fba23ccd",
+      "id": "2d87413ca12b18c8",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:03:20Z"
+      "timestamp": "2026-03-22T19:08:47Z"
     },
     {
-      "title": "Automatic.co Launches Full Agentic Automation Platform for SMBs",
-      "summary": "Automatic.co has just launched a comprehensive agentic AI platform designed specifically for small and medium-sized businesses, coinciding with major deployments like BNY Mellon's 20,000 AI agents. This move underscores the urgent opportunity for SMB owners to automate operations now amid rapid AI advancements. The platform aims to deliver scalable efficiency, positioning it as a key player in business AI transformation.",
-      "url": "https://x.com/SyedAbbasT/status/2034276150088753436",
-      "source": "Syed Abbas (@SyedAbbasT)",
+      "title": "Launch an AI Agency for Small Businesses: $30K-$60K/Month Automating Essentials",
+      "summary": "Entrepreneur Trenton Hughes proposes starting an AI agency targeting small businesses by automating scheduling, customer service, and social media for $1,500-$3,000 per month per client. With just 20 clients, revenue hits $30K-$60K monthly, filling the gap left by traditional marketing agencies as few competitors offer full AI stacks yet. The idea taps into underserved local markets ripe for efficiency gains without tech expertise.",
+      "url": "https://x.com/trentjhughes/status/2034039429497806929",
+      "source": "@trentjhughes",
       "source_type": "x",
       "tags": [
-        "agentic AI",
-        "SMB automation",
-        "product launch",
-        "AI platform"
+        "AI agency",
+        "small businesses",
+        "automation",
+        "business idea"
       ],
       "x_urls": [
-        "https://x.com/SyedAbbasT/status/2034276150088753436",
-        "https://x.com/SyedAbbasT/status/2034276151691022602"
+        "https://x.com/trentjhughes/status/2034039429497806929"
       ],
-      "id": "69caf8aec61bcd21",
+      "id": "32b1fcc822480e9b",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-22T19:03:20Z"
+      "timestamp": "2026-03-22T19:08:47Z"
     }
   ]
 }
