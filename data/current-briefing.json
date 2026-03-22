@@ -1,428 +1,414 @@
 {
   "date": "2026-03-22",
   "period": "morning",
-  "generated": "2026-03-22T11:02:53Z",
+  "generated": "2026-03-22T11:09:01Z",
   "items": [
     {
-      "title": "Google March 2026 Core Update Causes Widespread SERP Volatility",
-      "summary": "Google's March 2026 Core Update has led to significant changes in search engine results pages across industries, heavily impacting sites relying on AI-generated content. Agencies are recommended to audit for quality, enhance E-E-A-T, and produce original content to recover rankings. The update emphasizes user experience and content authenticity amid rising AI search integration.",
-      "url": "https://seovendor.co/google-march-2026-core-update-what-agencies-need-to-know-and-how-to-recover",
-      "source": "SEO Vendor",
+      "title": "SEO\u2019s New Battleground: Winning the Consensus Layer",
+      "summary": "AI search systems like ChatGPT, Perplexity, and Google\u2019s AI Overviews now prioritize consensus from multiple credible sources over traditional rankings, resulting in a 61% drop in organic CTRs for affected queries. SEOs must focus on building consistent brand presence across publishers, communities like Reddit, and structured data to gain AI confidence. Strategies include LLM audits, owned media optimization, earned media amplification, and measuring share of voice in AI responses.",
+      "url": "https://searchengineland.com/seos-new-battleground-winning-the-consensus-layer-472001",
+      "source": "Search Engine Land",
       "source_type": "news",
       "tags": [
-        "Google update",
-        "core update",
-        "AI content",
-        "SEO trends"
+        "SEO",
+        "AI search",
+        "AEO",
+        "GEO",
+        "consensus layer"
       ],
       "x_urls": [],
-      "id": "eaf1b584b3d6a92e",
+      "id": "574747ddd3bd7eed",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-22T11:00:41Z"
+      "timestamp": "2026-03-22T11:06:29Z"
     },
     {
-      "title": "What's Hot, What's Not: AI Search Changes in Q1 2026 Recap",
-      "summary": "A recap of key AI search developments in early 2026 highlights shifts in how generative AI impacts visibility and traffic. Marketers must adapt to reduced clicks from AI overviews by focusing on citations in AI responses. Emerging strategies include optimizing for multiple AI platforms beyond traditional Google SERPs.",
-      "url": "https://www.searchenginejournal.com/whats-hot-whats-not-ai-search-changes-in-q1-2026-recap/569652",
-      "source": "Search Engine Journal",
+      "title": "What Patents Reveal About the Foundations of AI Search",
+      "summary": "Old patents analyzed by Bill Slawski, such as Agent Rank (2007) and fact repositories (2006), underpin modern AI search, linking to E-E-A-T and answer engines that power AEO and GEO. SEOs should study these to differentiate optimization for direct facts (AEO) versus generative synthesis (GEO), emphasizing entity verification and authority. A checklist for auditing patents, entities, and content helps build trusted visibility in 2026's AI landscape.",
+      "url": "https://searchengineland.com/patents-foundation-ai-search-471945",
+      "source": "Search Engine Land",
       "source_type": "news",
       "tags": [
+        "SEO",
         "AI search",
-        "GEO",
         "AEO",
-        "search evolution"
+        "GEO",
+        "patents",
+        "E-E-A-T"
       ],
-      "x_urls": [
-        "https://x.com/cpgscott1/status/2034027546606751971"
-      ],
-      "id": "6ba074bd840b0cd8",
+      "x_urls": [],
+      "id": "88a698363b7096c0",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-22T11:00:41Z"
+      "timestamp": "2026-03-22T11:06:29Z"
     },
     {
-      "title": "SEO Test Demonstrates How Easy It Is to Rank Misinformation",
-      "summary": "A recent SEO experiment reveals that misleading content can quickly climb Google rankings with basic optimization tactics. This raises concerns about search quality amid core updates and AI influences. Experts urge stronger E-E-A-T implementation to combat misinformation in evolving search landscapes.",
+      "title": "SEO Test Shows It's Trivial to Rank Misinformation on Google",
+      "summary": "An SEO experiment planted fake news about a non-existent March 2026 Google Core Update, which quickly ranked on page one and appeared in AI Overviews without fact-checking. Multiple sites echoed the misinformation, adding fabricated details like Gemini 4.0 filters, highlighting search's amplification of falsehoods. Experts urge better fact-checking and AI validation workflows for content creators.",
       "url": "https://www.searchenginejournal.com/seo-test-shows-its-trivial-to-rank-misinformation-on-google/569980",
       "source": "Search Engine Journal",
       "source_type": "news",
       "tags": [
         "SEO",
-        "misinformation",
-        "Google algorithm",
-        "E-E-A-T"
+        "Google updates",
+        "AI search",
+        "misinformation"
       ],
       "x_urls": [],
-      "id": "059ee22094abe7ee",
+      "id": "32657eda44bf4d1c",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-22T11:00:41Z"
+      "timestamp": "2026-03-22T11:06:29Z"
     },
     {
-      "title": "93% of AI Search Sessions End Without Clicks \u2013 GEO and AEO Take Over",
-      "summary": "93% of AI search sessions conclude without visiting websites, signaling the end of traditional SEO reliance. Scott emphasizes shifting to GEO and AEO strategies as the new essentials for 2026 visibility. Recent changes underscore the need for direct adaptation to AI-driven discovery.",
-      "url": "https://x.com/cpgscott1/status/2034027546606751971",
-      "source": "@cpgscott1",
-      "source_type": "x",
-      "tags": [
-        "AI search",
-        "GEO",
-        "AEO",
-        "SEO death"
-      ],
-      "x_urls": [
-        "https://x.com/cpgscott1/status/2034027546606751971"
-      ],
-      "id": "8039a2a176e33949",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:00:41Z"
-    },
-    {
-      "title": "Ross Simmonds on AI SEO: AEO/GEO Beyond Traditional Tactics",
-      "summary": "In a discussion with Mike King, Ross Simmonds highlights why AEO and GEO differ from classic SEO, focusing on AI retrieval from diverse ecosystems like Reddit and YouTube. CMOs questioning AI visibility must build content ecosystems for synthetic queries. The podcast offers actionable insights for maintaining relevance.",
+      "title": "AEO and GEO Aren't Just SEO: Insights from iPullRank on AI Discovery",
+      "summary": "In a recent podcast, Mike King warns that dismissing AEO and GEO as rebranded SEO risks losing relevance, as AI relies on retrieval augmented generation and consensus across ecosystems like Reddit and YouTube. Traditional site-focused tactics fall short; instead, map synthetic queries, audit formats, and build content ecosystems for AI retrieval. CMOs questioning ChatGPT visibility need ecosystem strategies beyond basic SEO.",
       "url": "https://x.com/TheCoolestCool/status/2035038674837283321",
-      "source": "@TheCoolestCool",
+      "source": "Ross Simmonds (@TheCoolestCool)",
       "source_type": "x",
       "tags": [
+        "SEO",
         "AEO",
         "GEO",
-        "AI SEO",
+        "AI search",
         "content ecosystem"
       ],
       "x_urls": [
         "https://x.com/TheCoolestCool/status/2035038674837283321"
       ],
-      "id": "07da7e21f66bab16",
+      "id": "92fe21ea3dfd9b66",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-22T11:00:41Z"
+      "timestamp": "2026-03-22T11:06:29Z"
     },
     {
-      "title": "GEO Explained: Structuring Content for AI Citations in 2026",
-      "summary": "Josh Nay breaks down Generative Engine Optimization (GEO), detailing how to make content quotable by AI like ChatGPT and Perplexity. Key tactics include modular blocks, schema, and question-based headings distinct from SEO and AEO. As AI answers bypass sites, GEO ensures brand presence in responses.",
-      "url": "https://x.com/joshrobertnay/status/2034265033207898437",
-      "source": "@joshrobertnay",
+      "title": "93% of AI Search Sessions End Without Website Visits: GEO/AEO Takeover",
+      "summary": "With 93% of AI search sessions zero-click and traditional SEO volume dropping 25%, the focus shifts to citation confidence over backlinks, favoring structured, factual content under 40 words. Google AI Overviews now in 25% of searches, up 57%, as brands compete to be cited rather than ranked. Marketers must adapt to own the discovery layer before it's too late.",
+      "url": "https://x.com/cpgscott1/status/2034027546606751971",
+      "source": "Scott (@cpgscott1)",
       "source_type": "x",
       "tags": [
+        "SEO",
+        "AEO",
         "GEO",
-        "AI optimization",
-        "content structure",
-        "2026 trends"
+        "AI search",
+        "zero-click"
       ],
       "x_urls": [
-        "https://x.com/joshrobertnay/status/2034265033207898437"
+        "https://x.com/cpgscott1/status/2034027546606751971"
       ],
-      "id": "ba305b093cdf5910",
+      "id": "a60b313bb3cb33b8",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-22T11:00:41Z"
+      "timestamp": "2026-03-22T11:06:29Z"
     },
     {
-      "title": "Novel Pulled From Shelves After Author Is Accused of Using AI",
-      "summary": "Hachette Book Group has discontinued selling the horror novel 'Shy Girl' by Mia Ballard in the UK and canceled plans for a US edition after accusations that it was written with AI assistance. The author denies using AI personally, blaming an editor, amid evidence from AI detectors showing 78% generation and online discussions. This case underscores rising anti-AI sentiment in traditional publishing.",
-      "url": "https://futurism.com/artificial-intelligence/novel-pulled-author-accused-ai",
-      "source": "Futurism",
+      "title": "The Old SEO Game Is Over: Rise of GEO and Search Everywhere Optimization",
+      "summary": "AI tools like Google AI Overviews and ChatGPT answer directly, decoupling impressions from clicks with 357% AI referral growth but 4x CTR drops. GEO optimizes for AI citations via structured content, E-E-A-T, and unique data, while Search Everywhere Optimization targets TikTok, Reddit, and more. 2026 winners build proprietary insights and show human authorship.",
+      "url": "https://x.com/iamgazimasud/status/2033932371209425213",
+      "source": "Gazi Masud (@iamgazimasud)",
+      "source_type": "x",
+      "tags": [
+        "SEO",
+        "GEO",
+        "AI search",
+        "E-E-A-T",
+        "multi-platform"
+      ],
+      "x_urls": [
+        "https://x.com/iamgazimasud/status/2033932371209425213"
+      ],
+      "id": "8784353c0ab06fee",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-22T11:06:29Z"
+    },
+    {
+      "title": "Hachette Book Group Cancels 'Shy Girl' Release Over AI Allegations",
+      "summary": "Hachette has pulled the horror novel 'Shy Girl' by Mia Ballard following credible allegations that large portions were generated by AI. The book, initially self-published and popular on BookTok, was acquired for traditional release but tests showed up to 78% AI content. This marks a significant precedent in publishing's response to AI infiltration.",
+      "url": "https://www.theguardian.com/books/2026/mar/20/hachette-horror-novel-shy-girl-suspected-ai-use-mia-ballard",
+      "source": "The Guardian",
       "source_type": "news",
       "tags": [
-        "AI",
+        "AI controversy",
         "publishing",
-        "controversy",
+        "BookTok",
         "horror novel"
       ],
-      "x_urls": [],
-      "id": "19248138d707897e",
+      "x_urls": [
+        "https://x.com/BarryPierce/status/2034784117561192493",
+        "https://x.com/PopCrave/status/2035139638915211605"
+      ],
+      "id": "aefdda14114271b4",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-22T11:01:31Z"
+      "timestamp": "2026-03-22T11:07:17Z"
     },
     {
-      "title": "A.I. Is Writing Fiction. Publishers Are Unprepared.",
-      "summary": "Book publishers lack safeguards against AI-generated novels, as seen with speculation around 'Shy Girl,' which AI detectors flagged as 78% generated. The book showed typical AI flaws like logical gaps and melodramatic language. Publishers like Hachette faced public scrutiny on platforms like Reddit and X without clear policies.",
-      "url": "https://www.nytimes.com/2026/03/19/books/ai-is-writing-fiction-publishers-are-unprepared.html",
+      "title": "Publishers Unprepared as AI Writes More Fiction Books",
+      "summary": "Book publishers lack safeguards against AI-generated novels, with evidence of a surge in such submissions. The 'Shy Girl' cancellation highlights vulnerabilities in the acquisition process. Detection tools identify substantial AI use in nearly 20% of recent Amazon novels.",
+      "url": "https://www.nytimes.com/2026/03/19/books/ai-fiction-shy-girl.html",
       "source": "The New York Times",
       "source_type": "news",
       "tags": [
-        "AI",
+        "AI writing",
         "publishing",
-        "fiction",
+        "editing"
+      ],
+      "x_urls": [
+        "https://x.com/omooretweets/status/2035100998877028549"
+      ],
+      "id": "e6e65cf722cf9fa2",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-22T11:07:17Z"
+    },
+    {
+      "title": "Concerns Raised Over Authors Guild's Human-Authored Certification",
+      "summary": "Jane Friedman critiques the Authors Guild's new certification for human-authored books, noting it allows some AI use for grammar checks. This comes amid rising AI controversies like 'Shy Girl'. The program aims to distinguish genuine works but raises questions on enforcement.",
+      "url": "https://janefriedman.com/my-concerns-about-the-authors-guild-human-authored-certification-and-their-comprehensive-response",
+      "source": "Jane Friedman",
+      "source_type": "news",
+      "tags": [
+        "AI certification",
+        "publishing",
+        "Authors Guild"
+      ],
+      "x_urls": [],
+      "id": "1d38454a27a61d54",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-22T11:07:17Z"
+    },
+    {
+      "title": "NYT Confirms 'Shy Girl' Cancellation: Book Publishing's AI Wake-Up Call",
+      "summary": "Book critic Barry Pierce shares NYT article declaring 'Shy Girl' by Mia Ballard officially dead after AI accusations surfaced on Reddit and YouTube. The femgore novel had gained traction before Hachette pulled it. This underscores growing scrutiny on AI in submissions.",
+      "url": "https://x.com/BarryPierce/status/2034784117561192493",
+      "source": "@BarryPierce",
+      "source_type": "x",
+      "tags": [
+        "AI controversy",
+        "publishing",
+        "horror"
+      ],
+      "x_urls": [
+        "https://x.com/BarryPierce/status/2014700865706201211"
+      ],
+      "id": "23923ba3afda908c",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-22T11:07:17Z"
+    },
+    {
+      "title": "Mia Ballard Releases Statement After 'Shy Girl' Pulled for Alleged AI Use",
+      "summary": "PopCrave reports author Mia Ballard's emotional statement claiming the controversy has ruined her mental health and name over something she didn't do. Hachette canceled the book amid AI detection results. The self-pub success turned sour post-acquisition.",
+      "url": "https://x.com/PopCrave/status/2035139638915211605",
+      "source": "@PopCrave",
+      "source_type": "x",
+      "tags": [
+        "AI allegations",
+        "author statement",
+        "publishing cancellation"
+      ],
+      "x_urls": [],
+      "id": "8444989c73102132",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-22T11:07:17Z"
+    },
+    {
+      "title": "Woke Edits to Classic Books Like Roald Dahl Break Reader Trust",
+      "summary": "Rawle Nyanzi criticizes sensitivity edits applied to classics by Roald Dahl, Ian Fleming, and Ursula K. Le Guin. Such changes undermine the original works regardless of genre. This trend erodes trust in published literature.",
+      "url": "https://x.com/Parvenu62/status/2032103482862211091",
+      "source": "@Parvenu62",
+      "source_type": "x",
+      "tags": [
+        "woke editing",
+        "traditional storytelling",
+        "publishing controversy"
+      ],
+      "x_urls": [],
+      "id": "7358bf03ae61f2a0",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-22T11:07:17Z"
+    },
+    {
+      "title": "Spider-Man: Brand New Day Trailer Achieves Record 718.6M Views in 24 Hours",
+      "summary": "The trailer for Spider-Man: Brand New Day garnered 718.6 million views in its first 24 hours, surpassing Deadpool & Wolverine's previous record of 365 million. This marks the biggest movie trailer launch of all time. Excitement is building for the film's July 31 theatrical release.",
+      "url": "https://x.com/DiscussingFilm/status/2034691997353570666",
+      "source": "DiscussingFilm",
+      "source_type": "x",
+      "tags": [
+        "Marvel",
+        "Spider-Man",
+        "trailer",
+        "record-breaking"
+      ],
+      "x_urls": [
+        "https://x.com/DiscussingFilm/status/2034691997353570666",
+        "https://x.com/Marvel/status/2034224871987683838"
+      ],
+      "id": "99beffa4f16f3fa8",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-22T11:08:18Z"
+    },
+    {
+      "title": "'Spider-Man: Brand New Day' Trailer Sets Record with 719 Million Views",
+      "summary": "The Spider-Man: Brand New Day trailer closed with 718.6 million views in 24 hours, becoming the most viewed trailer in movie history. It outperformed previous Marvel records like Deadpool & Wolverine. The global rollout strategy contributed to its massive success.",
+      "url": "https://deadline.com/2026/03/spider-man-brand-new-day-trailer-record-viewership-1236760618",
+      "source": "Deadline",
+      "source_type": "news",
+      "tags": [
+        "Marvel",
+        "Spider-Man",
+        "trailer",
+        "record"
+      ],
+      "x_urls": [
+        "https://x.com/DiscussingFilm/status/2034691997353570666"
+      ],
+      "id": "f09b345f6451ecfb",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-22T11:08:18Z"
+    },
+    {
+      "title": "Ryan Coogler\u2019s Rise from $200K Debt to Four Oscars for Sinners",
+      "summary": "Ryan Coogler faced $200K in student debt and low earnings while filming Creed, but Sinners grossed $365M and secured four Oscars including Best Original Screenplay. The film received a record 16 nominations. His journey highlights perseverance in Hollywood.",
+      "url": "https://x.com/everymovieplug/status/2033912836364099749",
+      "source": "Every Movie Plug",
+      "source_type": "x",
+      "tags": [
+        "Oscars",
+        "Sinners",
+        "Ryan Coogler",
+        "success story"
+      ],
+      "x_urls": [
+        "https://x.com/everymovieplug/status/2033912836364099749"
+      ],
+      "id": "a3a91e70ee9d0560",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-22T11:08:18Z"
+    },
+    {
+      "title": "Timoth\u00e9e Chalamet Faces Backlash Over Dismissive Remarks on Opera and Ballet",
+      "summary": "Chalamet's February comments likening cinema to ballet or opera drew backlash from performing arts communities like Misty Copeland and major opera houses. The controversy fueled narratives around his Best Actor loss at Oscars 2026 to Michael B. Jordan. It generated 1.5% of Oscars topic share and over 20 media stories.",
+      "url": "https://onclusive.com/resources/blog/oscars-2026-media-impact",
+      "source": "Onclusive",
+      "source_type": "news",
+      "tags": [
+        "Oscars",
+        "Timoth\u00e9e Chalamet",
+        "backlash",
         "controversy"
       ],
       "x_urls": [],
-      "id": "38e31d8f01332f3f",
-      "section": "publishing",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:01:31Z"
-    },
-    {
-      "title": "Did AI write \u2018Shy Girl\u2019? A messy detection controversy rocks the world of book publishing",
-      "summary": "Hachette canceled the U.S. release of horror novel 'Shy Girl' by Mia Ballard amid suspicions of AI use, sparked by online speculation on Reddit and Goodreads about its LLM-like prose. AI detectors highlighted stylistic issues, though unreliable, and the author suggested an editor used AI in the self-published version. The incident raises questions about AI detection reliability in publishing.",
-      "url": "https://www.yahoo.com/entertainment/articles/did-ai-write-shy-girl-203500329.html",
-      "source": "Yahoo",
-      "source_type": "news",
-      "tags": [
-        "AI",
-        "detection",
-        "publishing",
-        "Shy Girl"
-      ],
-      "x_urls": [],
-      "id": "9fd829c8cd552f53",
-      "section": "publishing",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:01:31Z"
-    },
-    {
-      "title": "AI Publishing: Creating Profitable eBooks on Amazon KDP Without Writing",
-      "summary": "Tommi Pedruzzi claims to have used AI to produce a 90-page nonfiction eBook earning $3,000-$5,000 monthly on Amazon KDP and offers a free 5-hour tutorial on the process. The post urges not missing the 'AI Publishing' trend like past ones in blogging, YouTube, and TikTok. It received massive engagement with users requesting access.",
-      "url": "https://x.com/TommiPedruzzi/status/2032838892680785982",
-      "source": "@TommiPedruzzi",
-      "source_type": "x",
-      "tags": [
-        "AI",
-        "publishing",
-        "ebooks",
-        "KDP"
-      ],
-      "x_urls": [
-        "https://x.com/TommiPedruzzi/status/2032838892680785982"
-      ],
-      "id": "63f6cbc6186d62b4",
-      "section": "publishing",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:01:31Z"
-    },
-    {
-      "title": "BookTok's Impact on Self-Help Genre and Influencer Book Deals",
-      "summary": "Responding to critiques of self-help books eroding natural living, @nthdaily highlights how BookTok drives influencers into securing book deals in the genre. It links to an article portraying BookTok as a democratic literary force, though not beneficial for all. The exchange questions over-optimization in life via books.",
-      "url": "https://x.com/nthdaily/status/2033452542835949580",
-      "source": "@nthdaily",
-      "source_type": "x",
-      "tags": [
-        "BookTok",
-        "self-help",
-        "publishing",
-        "influencers"
-      ],
-      "x_urls": [
-        "https://x.com/nthdaily/status/2033452542835949580",
-        "https://x.com/software_sisya/status/2033204508059480405"
-      ],
-      "id": "bf4f86805bd87146",
-      "section": "publishing",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:01:31Z"
-    },
-    {
-      "title": "BookTok Irreparably Damages Book Marketing to Women",
-      "summary": "Content creator @Maclovesmanga criticizes BookTok for forcing dramatic, catchy titles over straightforward ones in marketing books to women. Marketing executives prioritize sensationalism to attract readers, altering traditional titling. This shift prioritizes virality over substance.",
-      "url": "https://x.com/Maclovesmanga/status/2034364645830737950",
-      "source": "@Maclovesmanga",
-      "source_type": "x",
-      "tags": [
-        "BookTok",
-        "marketing",
-        "publishing",
-        "traditional"
-      ],
-      "x_urls": [
-        "https://x.com/Maclovesmanga/status/2034364645830737950"
-      ],
-      "id": "2ef2ae20e8cb2a0a",
-      "section": "publishing",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:01:31Z"
-    },
-    {
-      "title": "How Korea Took Over the World with KPop Demon Hunters Oscar Wins",
-      "summary": "Even before 'KPop Demon Hunters' picked up those historic statuettes on Oscar night, K-culture was already conquering America. The Hollywood Reporter explores the global dominance of Korean entertainment, from films to music. This marks a major moment in pop culture's shift toward international influences.",
-      "url": "https://www.hollywoodreporter.com/movies/movie-features/how-korea-took-over-the-world-1236542921",
-      "source": "The Hollywood Reporter",
-      "source_type": "news",
-      "tags": [
-        "K-pop",
-        "Oscars",
-        "Korean entertainment"
-      ],
-      "x_urls": [],
-      "id": "72036bf70b78e7dc",
+      "id": "17479fc935e14f2a",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-22T11:02:08Z"
+      "timestamp": "2026-03-22T11:08:18Z"
     },
     {
-      "title": "Hollywood's Woke Jokes Flop at the Oscars",
-      "summary": "Woke comedy bits at the Oscars received poor audience response, highlighting a shift in preferences away from preachy humor. The article notes challenges for the film industry in creating resonant content amid backlash. This reflects ongoing audience rejection of certain messaging in entertainment.",
-      "url": "https://nationaltoday.com/us/ny/new-york/news/2026/03/16/hollywoods-woke-jokes-flop-at-the-oscars",
-      "source": "NYC Today",
+      "title": "Woke Audiences Hype but Fail to Support Pandering Entertainment Projects",
+      "summary": "Critic notes that woke fandom signals virtue online but does not purchase content like The Marvels, Ghostbusters 2016, or Birds of Prey, leading to flops. Recent examples include The Bride and 1348 Ex Voto. Pandering to this group damages brands long-term.",
+      "url": "https://x.com/ReviewsPossum/status/2032299687508619760",
+      "source": "Possum Reviews",
+      "source_type": "x",
+      "tags": [
+        "woke",
+        "backlash",
+        "pandering",
+        "Marvels",
+        "Ghostbusters"
+      ],
+      "x_urls": [
+        "https://x.com/ReviewsPossum/status/2032299687508619760"
+      ],
+      "id": "07051a681540b07f",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-22T11:08:18Z"
+    },
+    {
+      "title": "Has Hollywood\u2019s Wokeism Run Its Course After Oscars 2026?",
+      "summary": "Article questions if overt wokeism in Hollywood is waning post-Oscars 2026, citing audience fatigue with preachy content. Observes shift from past political displays to more subtle approaches. Viewers now perceive Hollywood's social justice efforts as self-serving.",
+      "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/oscars-2026-has-hollywoods-wokeism-run-its-course/articleshow/129607667.cms",
+      "source": "Times of India",
       "source_type": "news",
       "tags": [
         "Oscars",
-        "woke backlash",
-        "comedy"
+        "wokeism",
+        "Hollywood",
+        "audience fatigue"
       ],
       "x_urls": [],
-      "id": "b6afe05eb7294e87",
+      "id": "39fd60cfebd4c5cc",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-22T11:02:08Z"
+      "timestamp": "2026-03-22T11:08:18Z"
     },
     {
-      "title": "Paul Thomas Anderson Addresses Criticism of Black Women Portrayal in Oscar-Winning 'One Battle After Another'",
-      "summary": "Paul Thomas Anderson spoke at the Oscars about criticism surrounding the portrayal of Black women in his film 'One Battle After Another,' which won Best Picture, Director, and Adapted Screenplay. The controversy has followed the movie since its fall release. He addressed audience and critic concerns during his acceptance.",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/paul-thomas-anderson-racial-criticism-one-battle-another-oscars-1236534115",
-      "source": "The Hollywood Reporter",
-      "source_type": "news",
-      "tags": [
-        "Oscars",
-        "Paul Thomas Anderson",
-        "racial portrayal criticism"
-      ],
-      "x_urls": [],
-      "id": "b6b72e739c6d0d28",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:02:08Z"
-    },
-    {
-      "title": "Backlash to Woke Ruin of TV Shows Like Brooklyn 99",
-      "summary": "A user highlights how final seasons of shows like Brooklyn 99 altered characters to push anti-cop narratives, calling it nonsensical preaching by Hollywood. They argue such changes ignore average American life and predict career damage for complicit actors. America prioritizes entertainment over opinions, per the post.",
-      "url": "https://x.com/almcb25/status/2034309751249719350",
-      "source": "@almcb25",
-      "source_type": "x",
-      "tags": [
-        "Brooklyn 99",
-        "TV shows",
-        "woke preaching"
-      ],
-      "x_urls": [
-        "https://x.com/almcb25/status/2034309751249719350"
-      ],
-      "id": "ebe80f7f358468e2",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:02:08Z"
-    },
-    {
-      "title": "Netflix's 'Inside the Manosphere' and Tate Docs Labeled as Biased Hit Pieces",
-      "summary": "User critiques recent Netflix film 'Inside the Manosphere' and docs like 'Andrew Tate: The Man Who Groomed the World' as hit pieces using extreme examples while ignoring issues like male suicide and divorce courts. Describes media pattern of preset narratives over honest investigation. Calls for real discussions on male struggles.",
-      "url": "https://x.com/GeorgeBruno/status/2032031408089137160",
-      "source": "@GeorgeBruno",
-      "source_type": "x",
-      "tags": [
-        "Netflix",
-        "manosphere",
-        "Andrew Tate",
-        "documentary backlash"
-      ],
-      "x_urls": [
-        "https://x.com/GeorgeBruno/status/2032031408089137160"
-      ],
-      "id": "9679825948302e96",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:02:08Z"
-    },
-    {
-      "title": "The Boys Latest Season Overloaded with Woke Content, Unwatchable for Fans",
-      "summary": "User claims Hollywood overdid woke elements in The Boys past season, dropping off after 1-2 episodes despite loving the show. References Bill Maher's recent segment addressing the issue. Indicates growing fatigue with excessive messaging in entertainment.",
-      "url": "https://x.com/soflgreg/status/2034335759038071186",
-      "source": "@soflgreg",
-      "source_type": "x",
-      "tags": [
-        "The Boys",
-        "woke overload",
-        "TV backlash"
-      ],
-      "x_urls": [
-        "https://x.com/soflgreg/status/2034335759038071186",
-        "https://www.youtube.com/watch?v=7nHupEb2NL0"
-      ],
-      "id": "2eabd3b2cc5693df",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:02:08Z"
-    },
-    {
-      "title": "10 Ways Small Businesses Are Using AI Right Now That Large Corporations Haven\u2019t Figured Out Yet",
-      "summary": "Small businesses are rapidly adopting AI for practical uses like 24/7 phone answering with tools like Rosie, cash flow forecasting improving accuracy by 30-50%, unbiased hiring, personalized marketing, expert advice, autonomous operations via agentic AI, customer support, competitor analysis, and no-code automations. Unlike large corporations bogged down by bureaucracy, SMBs act quickly without needing permissions. Statistics indicate 68% of small businesses use AI daily, with 82% hiring more staff afterward, empowering them to compete effectively.",
-      "url": "https://x.com/shealshakya/status/2033492499160068437",
-      "source": "@shealshakya",
+      "title": "Chamath Palihapitiya: AI Boosts Individuals But Firms Need Redesign \u2013 Launches Software Factory",
+      "summary": "Chamath notes AI delivers 10x individual productivity in 2026 but most firm uses are superficial with no real value impact. Productive individuals don't make productive firms without workflow redesign. He launches Software Factory to enable true business transformation: https://softwarefactory.ai.",
+      "url": "https://x.com/chamath/status/2032348022336864731",
+      "source": "@chamath",
       "source_type": "x",
       "tags": [
         "AI",
-        "small businesses",
-        "automation",
         "productivity",
-        "SMB"
+        "platform",
+        "business",
+        "launch"
       ],
       "x_urls": [
-        "https://x.com/shealshakya/status/2033492499160068437"
+        "https://x.com/chamath/status/2032348022336864731"
       ],
-      "id": "579c13e3fb385d73",
+      "id": "6cddd438e3e753c1",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-22T11:02:53Z"
+      "timestamp": "2026-03-22T11:09:01Z"
     },
     {
-      "title": "The Shift to Agentic AI: Autonomous Systems for Business Workflows",
-      "summary": "Agentic AI represents the next evolution, moving beyond generative AI to systems that autonomously plan, decide, act, learn, and improve, handling entire workflows like research, marketing, customer operations, and decision-making. Key capabilities include multi-agent collaboration, goal decomposition, tool use, memory systems, self-reflection, and feedback loops. This enables companies, especially smaller ones, to automate complex processes end-to-end without constant human intervention.",
-      "url": "https://x.com/MeenakshiYACS/status/2032354725015011575",
-      "source": "@MeenakshiYACS",
-      "source_type": "x",
+      "title": "The Real Pros and Cons of AI for Small Business in 2026",
+      "summary": "68% of small businesses now use AI regularly for marketing, customer service, and admin tasks, yielding time savings, cost cuts, and competitive edges via tools like ChatGPT and Claude. However, challenges include doubled hidden costs, 77% lacking governance policies, AI hallucinations, and data privacy risks. The guide urges balanced implementation for sustainable gains.",
+      "url": "https://www.blissdrive.com/blog-ai-visibility/pros-and-cons-of-ai-for-small-business",
+      "source": "Blissdrive",
+      "source_type": "news",
       "tags": [
-        "Agentic AI",
-        "AI agents",
+        "AI",
+        "small business",
+        "adoption",
+        "risks",
+        "tools"
+      ],
+      "x_urls": [],
+      "id": "44e7762fe9f8c82c",
+      "section": "business",
+      "period": "morning",
+      "timestamp": "2026-03-22T11:09:01Z"
+    },
+    {
+      "title": "AI and Automation: How to Build a Small Business That Doesn't Depend On You",
+      "summary": "AI automation enables small business owners to scale without personal involvement by drafting communications, summarizing conversations, flagging leads, and advancing sales processes. Platforms integrate AI to handle operations, reducing founder dependency and facilitating exits or growth. This shift leverages AI for sustainable, independent business models.",
+      "url": "https://www.forbes.com/councils/forbesbusinessdevelopmentcouncil/2026/03/18/ai-and-automation-how-to-build-a-small-business-that-doesnt-depend-on-you",
+      "source": "Forbes",
+      "source_type": "news",
+      "tags": [
+        "AI",
+        "small business",
         "automation",
-        "business workflows",
-        "future of AI"
-      ],
-      "x_urls": [
-        "https://x.com/MeenakshiYACS/status/2032354725015011575"
-      ],
-      "id": "441d9b7049db01ed",
-      "section": "business",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:02:53Z"
-    },
-    {
-      "title": "OpenAI Launches GPT-5.4 Mini and Nano: Near-Flagship Performance at Lower Cost",
-      "summary": "OpenAI has released GPT-5.4 mini and nano models optimized for fast, efficient tasks like coding assistants, subagents, and multimodal apps, with the mini achieving benchmark scores close to the full GPT-5.4 (e.g., 88% on GPQA) at twice the speed and lower pricing ($0.75/$4.50 per million tokens). The nano targets simpler tasks like classification at even lower costs ($0.20/$1.25). Available via API, Codex, and ChatGPT, these enable developers and small businesses to build cost-effective agentic systems, as shown by Hebbia and Notion's applications.",
-      "url": "https://www.zdnet.com/article/gpt-5-4-mini-and-nano",
-      "source": "ZDNET",
-      "source_type": "news",
-      "tags": [
-        "OpenAI",
-        "GPT-5.4",
-        "new AI models",
-        "agentic AI",
-        "developers"
+        "scaling",
+        "productivity"
       ],
       "x_urls": [],
-      "id": "7f1f0bb79009c04d",
+      "id": "549d7bebdd8f5fcc",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-22T11:02:53Z"
-    },
-    {
-      "title": "1Password Introduces Unified Access to Secure AI Agents",
-      "summary": "1Password launched Unified Access, a platform to manage credentials for AI agents by discovering risks, centralizing secrets in vaults, and providing audit trails across environments. It replaces hardcoded credentials with secure retrieval, integrating with tools like Cursor, GitHub, and Vercel for seamless developer workflows and policy enforcement. This helps businesses scale AI safely, reducing shadow AI risks and enhancing visibility for enterprise adoption.",
-      "url": "https://www.zdnet.com/article/1password-introduces-unified-credential-security-platform",
-      "source": "ZDNET",
-      "source_type": "news",
-      "tags": [
-        "AI security",
-        "1Password",
-        "AI agents",
-        "credentials",
-        "enterprise tools"
-      ],
-      "x_urls": [],
-      "id": "c756ce379494dca3",
-      "section": "business",
-      "period": "morning",
-      "timestamp": "2026-03-22T11:02:53Z"
+      "timestamp": "2026-03-22T11:09:01Z"
     }
   ]
 }
