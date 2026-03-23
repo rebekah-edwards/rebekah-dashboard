@@ -1,364 +1,392 @@
 {
   "date": "2026-03-23",
   "period": "afternoon",
-  "generated": "2026-03-23T19:02:56Z",
+  "generated": "2026-03-23T19:08:08Z",
   "items": [
     {
-      "title": "The Old Game Is Over: Shift to GEO and Search Everywhere Optimization",
-      "summary": "Traditional SEO focused on keywords and backlinks is ending as AI like Google\u2019s AI Overviews and ChatGPT answer queries directly without clicks. Impressions increase but clicks drop significantly, with data showing 357% YoY growth in AI referrals yet 4x CTR drops. The future lies in Generative Engine Optimization (GEO), proprietary data, and optimizing across platforms like TikTok and Reddit.",
-      "url": "https://x.com/iamgazimasud/status/2033932371209425213",
-      "source": "@iamgazimasud",
+      "title": "Google Tested AI Headlines In Discover. Now It's Testing Them In Search",
+      "summary": "Google has begun testing AI-generated headline rewrites in traditional search results, following a similar experiment in Discover that quickly became a feature. The test uses generative AI to create new headlines matching user queries more effectively, affecting various sites without disclosure. This shift reduces publishers' control over branding and could challenge SEO strategies reliant on original titles.",
+      "url": "https://www.searchenginejournal.com/google-ai-headlines-in-search/570208",
+      "source": "Search Engine Journal",
+      "source_type": "news",
+      "tags": [
+        "Google Update",
+        "AI Search",
+        "Discover",
+        "SEO"
+      ],
+      "x_urls": [],
+      "id": "f610a9c708d6be08",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-23T19:05:54Z"
+    },
+    {
+      "title": "5 GEO Strategies To Make AI Search Recommend Your Brand In 2026",
+      "summary": "Brands can boost AI visibility by tracking mentions in tools like ChatGPT and Perplexity, building on strong SEO with citability-focused content using clear claims, schema, and topical authority. Engaging in Reddit discussions and listicles on trusted sites increases citation chances. SEO now serves as a foundation for GEO, prioritizing authoritative, structured content over keywords amid rising AI dominance.",
+      "url": "https://www.searchenginejournal.com/geo-strategies-ai-visibility-geoptie-spa/568644",
+      "source": "Search Engine Journal",
+      "source_type": "news",
+      "tags": [
+        "GEO",
+        "AI Search",
+        "SEO Evolution",
+        "Content Marketing"
+      ],
+      "x_urls": [],
+      "id": "b2eda9248231df99",
+      "section": "seo",
+      "period": "afternoon",
+      "timestamp": "2026-03-23T19:05:54Z"
+    },
+    {
+      "title": "93% of AI Search Sessions End Without Website Visits \u2013 Shift to GEO and AEO",
+      "summary": "Traditional SEO is obsolete as 93% of AI searches yield no clicks, with AI Overviews in 25% of queries and citation confidence replacing page rank. Marketers must structure content for AI trust in under 40-word blocks, as traditional search drops 25% yearly. Early AI citation tracking tools like Semrush position brands to dominate discovery.",
+      "url": "https://x.com/cpgscott1/status/2034027546606751971",
+      "source": "@cpgscott1",
       "source_type": "x",
       "tags": [
         "GEO",
         "AEO",
-        "AI search",
-        "SEO evolution"
+        "AI Search",
+        "SEO Death"
       ],
       "x_urls": [
-        "https://x.com/iamgazimasud/status/2033932371209425213"
+        "https://x.com/cpgscott1/status/2034027546606751971"
       ],
-      "id": "e0e88d0ce7c82b6d",
+      "id": "401149acfbc612e2",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-23T19:00:43Z"
+      "timestamp": "2026-03-23T19:05:54Z"
     },
     {
-      "title": "SEO Evolving into Generative Engine Optimization (GEO)",
-      "summary": "SEO is no longer about ranking in blue links but being included in AI-generated answers from ChatGPT, Perplexity, and Google AI. GEO requires structuring content for AI to understand, trust, extract, and cite it effectively. Success demands topical authority, machine-readable formats, and real expertise.",
-      "url": "https://x.com/tomas_corza/status/2034243558509629782",
-      "source": "@tomas_corza",
+      "title": "Open-Source geo-seo-claude Tool Audits Sites for AI Citation Readiness",
+      "summary": "AI search is eroding Google traffic, leaving most sites invisible to ChatGPT and Perplexity; geo-seo-claude audits URLs for GEO readiness, crawler access, and generates PDF reports. AI-referred traffic converts 4.4x higher than organic, yet traditional SEO lags. Fully open-source under MIT, empowering quick AI optimization.",
+      "url": "https://x.com/MillieMarconnni/status/2034571397901815829",
+      "source": "@MillieMarconnni",
       "source_type": "x",
       "tags": [
         "GEO",
-        "AI search",
-        "content strategy",
-        "SEO evolution"
+        "SEO Tools",
+        "AI Search",
+        "Open Source"
       ],
       "x_urls": [
-        "https://x.com/tomas_corza/status/2034243558509629782"
+        "https://x.com/MillieMarconnni/status/2034571397901815829"
       ],
-      "id": "3cac8e737e3a374e",
+      "id": "c5bfb26e674ba1ee",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-23T19:00:43Z"
+      "timestamp": "2026-03-23T19:05:54Z"
     },
     {
-      "title": "Try This Underused Tactic To Get Your Content Cited in AI Search",
-      "summary": "Marketers aim to have their content cited by AI search engines like ChatGPT and Perplexity. The article shares an underused tactic along with expert insights to boost citation chances through generative engine optimization. Optimizing for AI visibility is key in the evolving search landscape.",
-      "url": "https://contentmarketinginstitute.com/generative-engine-optimization/content-cited-in-ai-search",
-      "source": "Content Marketing Institute",
-      "source_type": "news",
+      "title": "Generative Engine Optimization (GEO): Key Tactics for AI Citation in 2026",
+      "summary": "GEO optimizes content for citation in AI responses from ChatGPT, Perplexity, etc., differing from SEO rankings and AEO snippets by focusing on extractable, trustworthy chunks. Use modular blocks, upfront answers, schema, and question headings to ensure AI pulls and credits your content. Builds durable authority as users skip sites for direct AI answers.",
+      "url": "https://x.com/joshrobertnay/status/2034265033207898437",
+      "source": "@joshrobertnay",
+      "source_type": "x",
       "tags": [
         "GEO",
-        "AI search",
-        "content marketing"
-      ],
-      "x_urls": [],
-      "id": "22972ddc35d16759",
-      "section": "seo",
-      "period": "afternoon",
-      "timestamp": "2026-03-23T19:00:43Z"
-    },
-    {
-      "title": "Why \u2018search everywhere\u2019 is the new reality for SEO",
-      "summary": "Traditional SEO is insufficient as users search across Google, social media, TikTok, Reddit, and AI tools. Strategies must optimize content for discovery on all platforms where audiences query. This 'search everywhere' approach defines modern SEO success.",
-      "url": "https://searchengineland.com/search-everywhere-new-seo-reality-472134",
-      "source": "Search Engine Land",
-      "source_type": "news",
-      "tags": [
-        "SEO trends",
         "AEO",
-        "multi-platform optimization"
+        "SEO",
+        "AI Optimization"
       ],
-      "x_urls": [],
-      "id": "066abdce23b80b72",
+      "x_urls": [
+        "https://x.com/joshrobertnay/status/2034265033207898437"
+      ],
+      "id": "2b1f7364bcddb3c8",
       "section": "seo",
       "period": "afternoon",
-      "timestamp": "2026-03-23T19:00:43Z"
+      "timestamp": "2026-03-23T19:05:54Z"
     },
     {
-      "title": "Hachette Book Group pulls horror novel 'Shy Girl' after AI writing allegations",
-      "summary": "Hachette Book Group canceled the US release of Mia Ballard's horror novel 'Shy Girl' following widespread online allegations and evidence that AI was used in its writing. The book, originally self-published and buzzy on BookTok, was acquired by a major publisher but pulled after AI detection tools flagged 78% of the content. This marks the first major traditional publishing cancellation over AI use, sparking debates on detection and ethics.",
+      "title": "Hachette Cancels 'Shy Girl' Release Over AI Allegations",
+      "summary": "Hachette Book Group pulled the horror novel 'Shy Girl' by Mia Ballard from its schedule following allegations of AI-generated content. The book had been a self-published success before acquiring a traditional publishing deal. The author denies personal use of AI, blaming an editor, amid widespread industry scrutiny.",
       "url": "https://www.nytimes.com/2026/03/19/books/ai-fiction-shy-girl.html",
-      "source": "The New York Times",
+      "source": "New York Times",
       "source_type": "news",
       "tags": [
-        "AI controversy",
+        "AI",
         "publishing",
-        "horror novel",
-        "BookTok"
+        "controversy",
+        "horror"
       ],
       "x_urls": [],
-      "id": "5b3c034ac241a7f9",
+      "id": "b452223e164ce6f4",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-23T19:01:25Z"
+      "timestamp": "2026-03-23T19:06:36Z"
     },
     {
-      "title": "Lake Union Publishing acquires 'After the Storm' by Lorna Lewis",
-      "summary": "Lake Union Publishing announced a major deal for 'After the Storm' by Lorna Lewis, a gripping contemporary fiction novel about a woman rescued as a child and raised by strangers. Acquired by agent Michelle Jackson, the book is set for fall 2027 publication. The acquisition highlights ongoing interest in emotional family dramas.",
-      "url": "https://www.publishersmarketplace.com/members/MichelleJackson",
-      "source": "Publishers Marketplace",
+      "title": "UK Book Trade Welcomes Axed AI Copyright Exemption",
+      "summary": "Book publishing trade bodies applaud the UK government's decision to scrap a proposed AI copyright exception, enabling rights holders to opt out of AI training on their works. They caution that other avenues for unauthorized use persist. This development addresses growing concerns over AI's impact on creators.",
+      "url": "https://www.thebookseller.com/news/axed-ai-copyright-exemption-welcomed-by-book-trade-but-it-warns-damaging-avenues-remain-open",
+      "source": "The Bookseller",
       "source_type": "news",
       "tags": [
-        "major contract",
-        "book deal",
-        "contemporary fiction"
-      ],
-      "x_urls": [],
-      "id": "aa08dc7c0d84a335",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-23T19:01:25Z"
-    },
-    {
-      "title": "Book review: 'Arctic Dreams and Nightmares' blends traditional Inuit storytelling with modern references",
-      "summary": "The reissued book 'Arctic Dreams and Nightmares' by Alootook Ipellie combines traditional Inuit storytelling with contemporary cultural clashes. Reviewer praises its exploration of character dynamics amid rapid changes in Arctic communities. This release revives important Indigenous voices in literature.",
-      "url": "https://www.adn.com/arts/books/2026/03/21/book-review-culture-changes-and-character-clashes-in-arctic-dreams-and-nightmares/",
-      "source": "Anchorage Daily News",
-      "source_type": "news",
-      "tags": [
-        "traditional storytelling",
-        "major release",
-        "Inuit literature"
-      ],
-      "x_urls": [],
-      "id": "b000261c637a81ab",
-      "section": "publishing",
-      "period": "afternoon",
-      "timestamp": "2026-03-23T19:01:25Z"
-    },
-    {
-      "title": "PopCrave reports Hachette pulls 'Shy Girl' horror novel over AI claims",
-      "summary": "PopCrave shared news that Hachette Book Group pulled the upcoming 'Shy Girl' after reader allegations of AI-generated content. The post garnered massive engagement, highlighting the viral nature of the scandal. Includes promotional images of the book.",
-      "url": "https://x.com/PopCrave/status/2035051097975660835",
-      "source": "PopCrave",
-      "source_type": "x",
-      "tags": [
-        "AI controversy",
+        "AI",
         "publishing",
-        "horror novel"
+        "copyright",
+        "UK"
       ],
-      "x_urls": [
-        "https://x.com/PopCrave/status/2035051097975660835"
-      ],
-      "id": "63917222c0cd3885",
+      "x_urls": [],
+      "id": "a27ae5a04900331a",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-23T19:01:25Z"
+      "timestamp": "2026-03-23T19:06:36Z"
     },
     {
-      "title": "'Shy Girl' author Mia Ballard releases statement denying AI use",
-      "summary": "Author Mia Ballard responded to the cancellation of her novel 'Shy Girl', claiming she did not use AI and that the controversy has ruined her name and mental health. She mentioned pursuing legal action but provided no further details on editing process. Posted by PopCrave with images.",
+      "title": "Rebecca Yarros Ignites BookTok with Massive Success",
+      "summary": "Rebecca Yarros has set BookTok ablaze, driving huge sales and discussions in the publishing world. Debates arise over authors engaging with the platform and industry implications. Her rise exemplifies BookTok's influence on book marketing and releases.",
+      "url": "https://www.thebookseller.com/books/books-on-booktok-rebecca-yarros-sets-booktok-alight",
+      "source": "The Bookseller",
+      "source_type": "news",
+      "tags": [
+        "BookTok",
+        "publishing",
+        "releases",
+        "marketing"
+      ],
+      "x_urls": [],
+      "id": "eb85c0b86714684c",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-23T19:06:36Z"
+    },
+    {
+      "title": "PopCrave Shares 'Shy Girl' Author Statement Post-Cancellation",
+      "summary": "PopCrave posted the statement from 'Shy Girl' author Mia Ballard after Hachette withdrew the book due to AI writing allegations. She describes severe mental health impacts and claims innocence in AI use. The post garnered massive engagement, fueling online debate.",
       "url": "https://x.com/PopCrave/status/2035139638915211605",
       "source": "PopCrave",
       "source_type": "x",
       "tags": [
-        "AI controversy",
-        "author statement",
-        "publishing scandal"
+        "AI",
+        "publishing",
+        "controversy",
+        "ShyGirl"
       ],
       "x_urls": [
         "https://x.com/PopCrave/status/2035139638915211605"
       ],
-      "id": "c142a080c325c16c",
+      "id": "acd08ea82a447b1e",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-23T19:01:25Z"
+      "timestamp": "2026-03-23T19:06:36Z"
     },
     {
-      "title": "K.T. Carlisle questions how 'Shy Girl' AI scandal evaded traditional publishing gatekeepers",
-      "summary": "Author K.T. Carlisle lists key unanswered questions about the 'Shy Girl' scandal, including how an AI-written manuscript passed agent, editor, and Big 5 scrutiny. Demands details on definitive AI detection methods beyond public outcry. Quotes NYT article on the pull.",
-      "url": "https://x.com/KT_Carlisle/status/2034975886634557785",
-      "source": "K.T. Carlisle",
+      "title": "Jezebel on AI Infiltrating Traditional Book Publishing",
+      "summary": "Jezebel highlights how traditional publishers are confronting AI's presence, questioning the prevalence of AI-generated novels like the canceled 'Shy Girl' by Hachette. The post links to an article on the controversy involving plagiarism concerns and slop writing. It tags key elements of the scandal.",
+      "url": "https://x.com/Jezebel/status/2035084782644625458",
+      "source": "Jezebel",
       "source_type": "x",
       "tags": [
-        "AI controversy",
-        "publishing ethics",
-        "editing"
+        "AI",
+        "publishing",
+        "controversy",
+        "ShyGirl",
+        "Hachette"
       ],
       "x_urls": [
-        "https://x.com/KT_Carlisle/status/2034975886634557785"
+        "https://x.com/Jezebel/status/2035084782644625458"
       ],
-      "id": "6bcee08f3972e605",
+      "id": "ac594edf6a5696bd",
       "section": "publishing",
       "period": "afternoon",
-      "timestamp": "2026-03-23T19:01:25Z"
+      "timestamp": "2026-03-23T19:06:36Z"
     },
     {
-      "title": "\u2018KPop Demon Hunters\u2019 Makes Oscars History With Original Song Win for \u201cGolden\u201d",
-      "summary": "The Netflix animated feature KPop Demon Hunters, which follows a K-pop girl group fighting demons, won Best Animated Feature and Best Original Song for \u201cGolden\u201d at the 2026 Oscars, marking a historic achievement as Netflix's most popular title with its soundtrack topping charts. Directors Maggie Kang and Chris Appelhans accepted the award, emphasizing representation for Koreans, while performers highlighted resilience. The film's success underscores K-pop's breakthrough in mainstream entertainment.",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/kpop-demon-hunters-wins-oscar-best-animated-film-1236533319",
+      "title": "BookTok's Impact on Book Marketing for Women",
+      "summary": "Mac McCollum argues that BookTok has harmed book marketing towards women by prioritizing dramatic, catchy titles over straightforward ones. Marketing executives believe evocative titles are necessary to attract readers. This reflects shifts in publishing strategies driven by social media trends.",
+      "url": "https://x.com/Maclovesmanga/status/2034364645830737950",
+      "source": "Mac McCollum",
+      "source_type": "x",
+      "tags": [
+        "BookTok",
+        "publishing",
+        "marketing",
+        "titles"
+      ],
+      "x_urls": [
+        "https://x.com/Maclovesmanga/status/2034364645830737950"
+      ],
+      "id": "c6b2e618ee5b4f4f",
+      "section": "publishing",
+      "period": "afternoon",
+      "timestamp": "2026-03-23T19:06:36Z"
+    },
+    {
+      "title": "Anna Camp on Her Big \u2018Scream 7\u2019 Reveal \u2014 and Why She Apologized for That Anti-Boycott Post",
+      "summary": "In Scream 7, Anna Camp plays Jessica Bowden, revealed as one of three Ghostface killers motivated by an abusive marriage and obsession to perfect Sidney Prescott. Camp discusses her performance clues and hopes audiences appreciate her role despite the confusing motive. She faced backlash for a social media post celebrating the failure of boycotts related to Melissa Barrera's firing over Israel-Hamas comments and issued an apology clarifying her intent to thank fans.",
+      "url": "https://www.hollywoodreporter.com/movies/movie-features/anna-camp-scream-7-reveal-anti-boycott-post-interview-1236530395",
       "source": "The Hollywood Reporter",
       "source_type": "news",
       "tags": [
+        "Scream 7",
+        "horror",
+        "Anna Camp",
+        "boycott backlash"
+      ],
+      "x_urls": [],
+      "id": "1a7c99f4597c2fd7",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-23T19:07:35Z"
+    },
+    {
+      "title": "John Lithgow Says He Almost Backed Out of Playing Dumbledore in HBO\u2019s \u2018Harry Potter\u2019 Over J.K. Rowling Backlash",
+      "summary": "John Lithgow nearly withdrew from playing Albus Dumbledore in HBO's Harry Potter reboot due to intense backlash against J.K. Rowling's anti-trans views, including fan boycott threats on social media. Despite never meeting Rowling and praising her books for opposing intolerance, Lithgow felt stung by the reactions. The controversy persists, highlighted by a trans actor's discomfort and Rowling's recent criticism of Emma Watson.",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/john-lithgow-harry-potter-hbo-dumbledore-jk-rowling-backlash-1236542197",
+      "source": "The Hollywood Reporter",
+      "source_type": "news",
+      "tags": [
+        "Harry Potter",
+        "TV series",
+        "J.K. Rowling",
+        "backlash",
+        "boycott"
+      ],
+      "x_urls": [],
+      "id": "a0c3f8c38492ff39",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-23T19:07:35Z"
+    },
+    {
+      "title": "David Spade Slams Gavin Newsom and Karen Bass Over 'Terrifying' Hollywood Downfall",
+      "summary": "David Spade blamed California Governor Gavin Newsom and Los Angeles Mayor Karen Bass for the decline of Hollywood's industry following the bankruptcy of another major studio lot. The comedian described the situation in LA as 'terrifying' and thanked the leaders sarcastically. The post sparked discussions on political leadership, woke content, and industry exodus.",
+      "url": "https://www.foxnews.com/entertainment/david-spade-slams-gavin-newsom-karen-bass-over-terrifying-hollywood-downfall",
+      "source": "Fox News",
+      "source_type": "news",
+      "tags": [
+        "Hollywood",
+        "David Spade",
+        "industry decline",
+        "political backlash"
+      ],
+      "x_urls": [],
+      "id": "824aaeb28a3cf1f5",
+      "section": "popculture",
+      "period": "afternoon",
+      "timestamp": "2026-03-23T19:07:35Z"
+    },
+    {
+      "title": "ENHYPEN Fans Furious Over BELIFT Including Heeseung in Sales Promotions After Removing Him from Group Content",
+      "summary": "Fans expressed outrage at BELIFT LAB for featuring Heeseung in ENHYPEN's sales promotions while excluding him from group content and activities. Accusations of exploiting the OT7 concept for profit surfaced amid demands for transparency and the member's full return. Hashtags like #ENHYPEN_IS_7 and #LET_HEESEUNG_DO_BOTH trended with fans holding the agency accountable.",
+      "url": "https://x.com/SKPopCulture/status/2033512935096742083",
+      "source": "@SKPopCulture",
+      "source_type": "x",
+      "tags": [
         "K-pop",
-        "Oscars",
-        "animation",
-        "Netflix",
-        "representation"
+        "ENHYPEN",
+        "Heeseung",
+        "fan backlash"
       ],
-      "x_urls": [],
-      "id": "0e4dfdefd57ec7b1",
+      "x_urls": [
+        "https://x.com/SKPopCulture/status/2033512935096742083",
+        "https://x.com/SKPopCulture/status/2033439195235250585"
+      ],
+      "id": "0df9ce6051f1a245",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-23T19:02:26Z"
+      "timestamp": "2026-03-23T19:07:35Z"
     },
     {
-      "title": "Oscars was so keen to not be woke, it ended up being woker than ever",
-      "summary": "The 2026 Oscars aimed to sidestep wokeness with neutral hosting by Conan O'Brien but amplified off-script political remarks from winners and presenters on Palestine, wars, and free speech. Balanced diversity and apologies for past underrepresentation made the event feel even more woke despite efforts to tone it down. The approach backfired, spotlighting progressive elements.",
-      "url": "https://www.express.co.uk/celebrity-news/2182585/oscars-2026-woke-opinion",
-      "source": "Express.co.uk",
-      "source_type": "news",
-      "tags": [
-        "Oscars",
-        "woke",
-        "Hollywood",
-        "politics",
-        "diversity"
-      ],
-      "x_urls": [],
-      "id": "eb07acc1f7e60e3b",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-23T19:02:26Z"
-    },
-    {
-      "title": "Hollywood went broke ramming woke propaganda down non-woke Americans' throats",
-      "summary": "Hollywood has bankrupted itself by forcing propaganda on 90% of Americans who aren't woke, leading to industry declines. Trump allies gaining control of CNN and major studios signal turning tides. Links to an article on corporate America's repeated hard lessons.",
-      "url": "https://x.com/profstonge/status/2032850103564665206",
-      "source": "@profstonge",
+      "title": "David Spade Calls Out California Leaders for 'Dying' Hollywood Industry",
+      "summary": "Fox News highlighted David Spade's criticism of Democratic leaders Karen Bass and Gavin Newsom for Hollywood's decline after a major studio bankruptcy. Spade posted 'Terrifying in LA. Thanks, Karen Bass. Thanks, Gavin.' Replies attributed the issues to woke propaganda, DEI practices, and failed policies.",
+      "url": "https://x.com/FoxNews/status/2035684049969090910",
+      "source": "@FoxNews",
       "source_type": "x",
       "tags": [
         "Hollywood",
-        "woke",
-        "propaganda",
-        "bankrupt",
-        "DEI"
+        "David Spade",
+        "entertainment exodus",
+        "backlash"
       ],
       "x_urls": [
-        "https://x.com/profstonge/status/2032850103564665206"
+        "https://x.com/FoxNews/status/2035684049969090910"
       ],
-      "id": "8a9ed62564b296e3",
+      "id": "de0d29c1885fb5e0",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-23T19:02:26Z"
+      "timestamp": "2026-03-23T19:07:35Z"
     },
     {
-      "title": "Woke hype for pandering films fails to deliver box office support",
-      "summary": "Woke individuals hype virtue-signaling films like The Marvels, 2016 Ghostbusters, and Birds of Prey but refuse to buy tickets or support them financially, causing flops. This pattern continues with The Bride and 1348 Ex Voto. Pandering to this group is the worst long-term strategy for brands.",
-      "url": "https://x.com/ReviewsPossum/status/2032299687508619760",
-      "source": "@ReviewsPossum",
+      "title": "SHINee's Taemin Becomes First K-Pop Soloist to Feature at Grammy Museum Alongside Michael Jackson",
+      "summary": "SHINee's Taemin achieved a milestone as the first K-pop solo artist featured at the Grammy Museum, placed alongside pop icon Michael Jackson. The exhibit recognizes his contributions to music. Fans celebrated the global recognition for K-pop talent.",
+      "url": "https://x.com/ZoomTV/status/2035188144308473920",
+      "source": "@ZoomTV",
       "source_type": "x",
       "tags": [
-        "woke",
-        "pandering",
-        "Marvels",
-        "Ghostbusters",
-        "box office"
+        "K-pop",
+        "SHINee",
+        "Taemin",
+        "Grammy Museum"
       ],
       "x_urls": [
-        "https://x.com/ReviewsPossum/status/2032299687508619760"
+        "https://x.com/ZoomTV/status/2035188144308473920"
       ],
-      "id": "efe71403addedfaf",
+      "id": "aac0d8fda5c7d3fb",
       "section": "popculture",
       "period": "afternoon",
-      "timestamp": "2026-03-23T19:02:26Z"
+      "timestamp": "2026-03-23T19:07:35Z"
     },
     {
-      "title": "Out Of Touch Hollywood Throws Woke Oscars Amid Box Office Crashes",
-      "summary": "Despite 50% production drops, 40% box office crashes, and tanking ratings, the Oscars featured a woke celebration including a flop Antifa-themed Best Picture. Disney's Snow White bombed $170M due to princess-hating and CGI fails. Get woke, go broke.",
-      "url": "https://x.com/GrrrGraphics/status/2033964469303599596",
-      "source": "@GrrrGraphics",
-      "source_type": "x",
-      "tags": [
-        "Hollywood",
-        "Oscars",
-        "woke",
-        "Snow White",
-        "flops"
-      ],
-      "x_urls": [
-        "https://x.com/GrrrGraphics/status/2033964469303599596"
-      ],
-      "id": "60d92c7db654ae58",
-      "section": "popculture",
-      "period": "afternoon",
-      "timestamp": "2026-03-23T19:02:26Z"
-    },
-    {
-      "title": "NeuralFlow AI: Bootstrapped AI Automation Empowering Small Businesses",
-      "summary": "NeuralFlow AI is being developed from Bayonne, NJ, without VC funding, big teams, or external support. It focuses on delivering AI solutions that help small businesses generate more revenue, challenging the notion that advanced technology is reserved for enterprises only. The tool is available at neuralflowai.io for small businesses seeking accessible AI.",
-      "url": "https://x.com/NeuralFlow_AI/status/2035137621509230662",
-      "source": "NeuralFlow AI (@NeuralFlow_AI)",
-      "source_type": "x",
-      "tags": [
-        "AI tools",
-        "small businesses",
-        "automation",
-        "bootstrapped"
-      ],
-      "x_urls": [
-        "https://x.com/NeuralFlow_AI/status/2035137621509230662"
-      ],
-      "id": "8a0a3d4d1b28d304",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-23T19:02:56Z"
-    },
-    {
-      "title": "Codie Sanchez Predicts AI-Powered Small Business Boom",
-      "summary": "Codie Sanchez highlights the impending largest small business boom ever, enabled by AI tools allowing a single person with a laptop and niche audience to replicate the output of a 15-person team costing $200K. She urges locking in efforts over the next two years to build generational wealth despite AI skepticism. This shift democratizes business scaling for individuals.",
-      "url": "https://x.com/Codie_Sanchez/status/2035015299917824072",
-      "source": "Codie Sanchez (@Codie_Sanchez)",
-      "source_type": "x",
-      "tags": [
-        "AI impact",
-        "small business boom",
-        "solopreneur"
-      ],
-      "x_urls": [
-        "https://x.com/Codie_Sanchez/status/2035015299917824072"
-      ],
-      "id": "a343e4bd6a881e6f",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-23T19:02:56Z"
-    },
-    {
-      "title": "Durable Launches End-to-End AI Platform for Small Businesses",
-      "summary": "Durable has unveiled an enhanced AI platform that supports entrepreneurs in running entire businesses, extending far beyond simple website creation. The tool aims to normalize small business ownership by providing comprehensive AI-driven operations. It's positioned to lower barriers for new and existing small business owners.",
-      "url": "https://finance.yahoo.com/news/durable-launches-end-end-ai-212500279.html",
-      "source": "Yahoo Finance",
-      "source_type": "news",
-      "tags": [
-        "AI platform",
-        "small business",
-        "product launch"
-      ],
-      "x_urls": [],
-      "id": "74d65555140f8eaa",
-      "section": "business",
-      "period": "afternoon",
-      "timestamp": "2026-03-23T19:02:56Z"
-    },
-    {
-      "title": "Promptory Debuts Curated AI Marketplace with Strategy Director for SMBs",
-      "summary": "The Promptory has launched the first curated marketplace of over 100 vetted AI tools tailored for small businesses and enterprises. It features a built-in AI Strategy Director to assist with adoption and implementation. The release aligns with surging interest in AI among small business owners seeking practical solutions.",
-      "url": "https://www.businesswire.com/news/home/20260317089958/en/The-Promptory-Launches-First-Curated-AI-Marketplace-with-Built-In-AI-Strategy-Director-for-Small-Business-and-Enterprises",
+      "title": "Survey: Small Businesses Embrace AI But Need Training and Support to Fully Harness It",
+      "summary": "Small businesses across the country are rapidly adopting Artificial Intelligence (AI) and already seeing meaningful benefits, but most remain in early stages of implementation. Only 14% report AI fully embedded in core operations, while 73% indicate they would benefit from additional training and resources to maximize its potential. This highlights the growing enthusiasm for AI among SMBs alongside persistent barriers to deeper integration.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">12</argument></grok:render><grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">15</argument></grok:render>",
+      "url": "https://www.businesswire.com/news/home/20260317141697/en/Survey-Small-Businesses-Embrace-AI-But-Need-Training-and-Support-to-Fully-Harness-It",
       "source": "BusinessWire",
       "source_type": "news",
       "tags": [
-        "AI marketplace",
-        "small business",
-        "AI strategy"
+        "AI adoption",
+        "small businesses",
+        "training",
+        "productivity"
       ],
       "x_urls": [],
-      "id": "c34b89436ecfd677",
+      "id": "e86dd6d75027d57e",
       "section": "business",
       "period": "afternoon",
-      "timestamp": "2026-03-23T19:02:56Z"
+      "timestamp": "2026-03-23T19:08:08Z"
+    },
+    {
+      "title": "This Week in AI for Small Business: Agents, Gaps, and New Standards",
+      "summary": "SMF Works summarizes key developments: AI agents now negotiate deals autonomously while owners sleep, a 76% vs. 14% adoption gap shows most SMBs use AI superficially, NVIDIA reports measurable revenue growth from AI, UK mandates AI content labels, and OpenAI's government deal sets compliance precedents. Strategically integrating AI is widening the competitive gap between businesses.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">4</argument></grok:render>",
+      "url": "https://x.com/smfworks/status/2034970778970857773",
+      "source": "@smfworks",
+      "source_type": "x",
+      "tags": [
+        "AI agents",
+        "adoption gap",
+        "revenue growth",
+        "compliance"
+      ],
+      "x_urls": [
+        "https://x.com/smfworks/status/2034970778970857773"
+      ],
+      "id": "c04a1018aa2229de",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-23T19:08:08Z"
+    },
+    {
+      "title": "AI for Small Business: The Good, Bad, and Ugly",
+      "summary": "The post discusses helpful AI applications for small businesses alongside notable problems and pitfalls. It links to a detailed article balancing realistic pros and cons of AI tools in SMB contexts. This balanced view aids owners in navigating AI hype versus practical value.<grok:render type=\"render_inline_citation\"><argument name=\"citation_id\">0</argument></grok:render>",
+      "url": "https://x.com/BigIdeas4SB/status/2035029886285312367",
+      "source": "@BigIdeas4SB",
+      "source_type": "x",
+      "tags": [
+        "AI pros cons",
+        "small business",
+        "tools",
+        "technology"
+      ],
+      "x_urls": [
+        "https://x.com/BigIdeas4SB/status/2035029886285312367"
+      ],
+      "id": "50a9a02c1c3194c8",
+      "section": "business",
+      "period": "afternoon",
+      "timestamp": "2026-03-23T19:08:08Z"
     }
   ]
 }
