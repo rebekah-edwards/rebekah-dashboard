@@ -1,411 +1,379 @@
 {
   "date": "2026-03-24",
   "period": "morning",
-  "generated": "2026-03-24T11:03:15Z",
+  "generated": "2026-03-24T11:08:27Z",
   "items": [
     {
-      "title": "AI Is Rewriting the Old Rules of Google Search and SEO",
-      "summary": "AI is reshaping SEO by prioritizing user-generated content and discussions on platforms like Reddit, G2, and Quora over traditional keywords and backlinks, as AI systems such as ChatGPT and Claude favor firsthand experiences and refreshed conversations. Traditional SEO fundamentals like fast-loading sites and easy indexing remain important, but new tactics include structuring content with more subheads, bulleted lists, FAQs, and contextual details to suit AI's fact-grabbing needs. Trends involve adapting to AI-specific sources\u2014e.g., Reddit for e-commerce, company websites for fintech\u2014and dealing with frequent model updates, with tools like Semrush analyzing source preferences.",
-      "url": "https://www.wsj.com/tech/ai/google-search-seo-ai-tactics-5efb9f99",
-      "source": "Wall Street Journal",
+      "title": "SEO News Roundup (March 16 to 23, 2026)",
+      "summary": "Google is developing an opt-out for generative AI in search and integrating Gemini into Chrome for direct answers without clicks. AI tests rewrite page titles to match intent, and commerce expands with cart support. Local SEO faces challenges like low call button usage, multi-location overlap, and HTTPS migration risks.",
+      "url": "https://localdominator.co/seo-news/seo-news-roundup-march-16-to-23-2026",
+      "source": "Local Dominator",
       "source_type": "news",
       "tags": [
+        "Google updates",
         "AI search",
-        "SEO changes",
-        "GEO",
-        "content marketing"
+        "local SEO"
       ],
       "x_urls": [],
-      "id": "f5a7915735bb950a",
+      "id": "7cd1f24c29dad6cf",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-24T11:00:46Z"
+      "timestamp": "2026-03-24T11:06:00Z"
     },
     {
-      "title": "Google Algorithm Update: Why Rankings Are Shifting",
-      "summary": "Google's algorithm update in 2026 involves recalibrating ranking systems across multiple industries, causing widespread volatility where entire keyword clusters and result pages shift, with rankings fluctuating daily for weeks before stabilizing in 4-6 weeks. Impacts include drops for some sites, temporary appearances of thin or unfamiliar domains during testing, and recoveries for established businesses due to signals like reviews, brand mentions, and consistent listings. SEO advice focuses on monitoring trends, analyzing competitors, avoiding drastic changes, and improving clarity, structure, and helpful content long-term.",
-      "url": "https://www.bigorangeplanet.com/2026/03/19/google-algorithm-update-rankings-shifting",
-      "source": "Big Orange Planet",
-      "source_type": "news",
-      "tags": [
-        "Google update",
-        "algorithm",
-        "rankings",
-        "SEO trends"
-      ],
-      "x_urls": [],
-      "id": "447fa8f922b37651",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-24T11:00:46Z"
-    },
-    {
-      "title": "Generative Engine Optimization: A Practical Guide",
-      "summary": "Generative Engine Optimization (GEO) is the practice of optimizing content to appear within AI-generated answers from systems like ChatGPT, Google, and Perplexity, rather than just traditional search rankings, as AI search changes how brands gain visibility. It complements SEO by emphasizing clarity, extractability, credible mentions, and fresh content to boost AI citations and share of voice. Tips include using unlinked brand mentions, incorporating quotes and statistics, ensuring server-side rendering, leveraging UGC, and tracking with Semrush's AI Visibility Toolkit.",
-      "url": "https://www.semrush.com/blog/generative-engine-optimization",
-      "source": "Semrush",
-      "source_type": "news",
-      "tags": [
-        "GEO",
-        "AI search",
-        "SEO tools",
-        "optimization"
-      ],
-      "x_urls": [],
-      "id": "00644b2b9d1a4510",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-24T11:00:46Z"
-    },
-    {
-      "title": "SEO News: Google's Title Link Rewrites Now Heavily Influenced by Generative AI",
-      "summary": "Title link rewrites in Google's search results have escalated, now primarily driven by generative AI rather than traditional factors like title tags or H1s, as first reported by The Verge. Some rewrites alter article meaning or use excessive capitalization, with early Ahrefs analysis showing minimal but growing scale on large sites. SEO professionals should monitor for these experimental changes in SERPs.",
-      "url": "https://x.com/brodieseo/status/2035605073762672717",
-      "source": "Brodie Clark (@brodieseo)",
-      "source_type": "x",
-      "tags": [
-        "Google update",
-        "AI search",
-        "title rewrites",
-        "SEO news"
-      ],
-      "x_urls": [
-        "https://x.com/brodieseo/status/2035605073762672717"
-      ],
-      "id": "89b91363f62154c3",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-24T11:00:46Z"
-    },
-    {
-      "title": "University of Toronto GEO Blueprint: SEO is Dead, Optimize for AI Citations",
-      "summary": "A University of Toronto study provides the first blueprint for Generative Engine Optimization (GEO), revealing AI search like Google, OpenAI, and Perplexity ignores blogs/social, favoring verifiable authority amid regional and language differences. Big brands dominate unless third-party citations and local authority are built; recommendations include schema markup, treating sites as APIs, and engineering for machine scannability. The shift demands optimizing for AI citations over clicks.",
-      "url": "https://x.com/aigleeson/status/2035992033559785526",
-      "source": "Louis Gleeson (@aigleeson)",
-      "source_type": "x",
-      "tags": [
-        "GEO",
-        "AI search",
-        "SEO evolution",
-        "research"
-      ],
-      "x_urls": [
-        "https://x.com/aigleeson/status/2035992033559785526"
-      ],
-      "id": "02a2c585c90085e4",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-24T11:00:46Z"
-    },
-    {
-      "title": "Microsoft's Guide to AEO and GEO: Practical Data Strategies for AI Search",
-      "summary": "Microsoft's new guide 'From discovery to influence' outlines AEO (Answer/Agentic Engine Optimization) and GEO for retailers, shifting from SEO's rankings/clicks to AI's answers, recommendations, and agent actions via structured data, feeds, and trust signals. Pillars include technical schema (Product, Offer), intent-driven content (Q&A, comparisons), and credibility (reviews, expert mentions). Emphasizes controlling crawled data, APIs, and live site data for AI commerce dominance.",
-      "url": "https://x.com/alexgroberman/status/2034976629509038126",
-      "source": "Alex Groberman (@alexgroberman)",
+      "title": "AEO and GEO Are Not Just SEO: Build Content Ecosystems for AI Discovery",
+      "summary": "Mike King warns that dismissing AEO and GEO as rebranded SEO risks losing relevance, as AI uses retrieval augmented generation evaluating consensus across Reddit, YouTube, PR, and more. Traditional site-focused SEO falls short for synthetic queries. Marketers must audit formats and build ecosystems linking to a podcast episode.",
+      "url": "https://x.com/TheCoolestCool/status/2035038674837283321",
+      "source": "@TheCoolestCool",
       "source_type": "x",
       "tags": [
         "AEO",
         "GEO",
-        "Microsoft",
-        "AI search",
-        "retail SEO"
+        "AI SEO",
+        "content ecosystem"
       ],
       "x_urls": [
-        "https://x.com/alexgroberman/status/2034976629509038126"
+        "https://x.com/TheCoolestCool/status/2035038674837283321"
       ],
-      "id": "d7820f4e6195382e",
+      "id": "448713e8f9bfd957",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-24T11:00:46Z"
+      "timestamp": "2026-03-24T11:06:00Z"
     },
     {
-      "title": "Hachette Book Group Pulls 'Shy Girl' Horror Novel Over AI Allegations",
-      "summary": "Hachette Book Group announced it has pulled the horror novel 'Shy Girl' following allegations that author Mia Ballard used AI to write it. The book, originally self-published before acquisition by the publisher, faced scrutiny from online critiques highlighting AI-like patterns in the prose. This marks a significant moment in publishing's response to AI infiltration.",
-      "url": "https://x.com/PopCrave/status/2035051097975660835",
-      "source": "PopCrave",
+      "title": "The Old SEO Game Is Over: GEO and Search Everywhere Optimization",
+      "summary": "AI like Google Overviews and ChatGPT answer directly, decoupling impressions from clicks with AI traffic up 357% but CTR down 4x. GEO optimizes for AI citations via structure, E-E-A-T, and unique data; Search Everywhere targets TikTok, Reddit, etc. 2026 wins with proprietary insights and human content.",
+      "url": "https://x.com/iamgazimasud/status/2033932371209425213",
+      "source": "@iamgazimasud",
       "source_type": "x",
       "tags": [
-        "AI",
-        "controversy",
-        "publishing",
-        "horror"
+        "GEO",
+        "AI search",
+        "SEO evolution"
       ],
       "x_urls": [
-        "https://x.com/PopCrave/status/2035051097975660835"
+        "https://x.com/iamgazimasud/status/2033932371209425213"
       ],
-      "id": "9d41ebffb24a2591",
-      "section": "publishing",
+      "id": "156f9bef15b86704",
+      "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-24T11:01:32Z"
+      "timestamp": "2026-03-24T11:06:00Z"
     },
     {
-      "title": "'Shy Girl' Author Releases Statement After Book Cancellation",
-      "summary": "Author Mia Ballard released a statement claiming the AI controversy over her novel 'Shy Girl' has devastated her mental health and reputation, insisting she did not personally use AI. She attributes any potential AI involvement to an editor she hired. The backlash has led Hachette to cancel the US and UK releases.",
-      "url": "https://x.com/PopCrave/status/2035139638915211605",
-      "source": "PopCrave",
+      "title": "93% AI Searches End Without Visits: GEO/AEO Changes This Month",
+      "summary": "93% of AI sessions avoid sites; traditional SEO dead, GEO/AEO prioritize citation confidence with structured, factual content under 40 words. Traditional volume drops 25%, AI Overviews in 25% searches up 57%, AI referrals up 527%. Adapt to own discovery or pay more for fewer clicks.",
+      "url": "https://x.com/cpgscott1/status/2034027546606751971",
+      "source": "@cpgscott1",
       "source_type": "x",
       "tags": [
-        "AI",
-        "controversy",
-        "publishing",
-        "author statement"
+        "GEO",
+        "AEO",
+        "AI search",
+        "SEO tools"
       ],
       "x_urls": [
-        "https://x.com/PopCrave/status/2035139638915211605",
-        "https://x.com/PopCrave/status/2035051097975660835"
+        "https://x.com/cpgscott1/status/2034027546606751971"
       ],
-      "id": "1d29dade42a1cd5d",
-      "section": "publishing",
+      "id": "2d5c5260773dcd85",
+      "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-24T11:01:32Z"
+      "timestamp": "2026-03-24T11:06:00Z"
     },
     {
-      "title": "Literary Agent Announces First Book Deal for Three Zombie Novels",
-      "summary": "Agent Renee Runge shared excitement over her first book deal, representing three upcoming zombie novels by author Jo. She praised the works for revolutionizing zombie media narratives. The announcement highlights emerging talent in YA horror publishing.",
-      "url": "https://x.com/rrreadsbooks/status/2032824852462125057",
-      "source": "Renee Runge",
+      "title": "Hachette Pulls 'Shy Girl' After AI Detection Flags",
+      "summary": "Hachette Book Group canceled the US release of horror novel 'Shy Girl' by Mia Ballard following online accusations of AI-generated content. The author claims a freelance editor inserted AI text without her knowledge during formatting. This marks a significant precedent in publishing amid rising concerns over AI in writing.",
+      "url": "https://x.com/Keledan/status/2036104176996901141",
+      "source": "@Keledan",
       "source_type": "x",
       "tags": [
-        "contract",
-        "YA",
-        "horror",
-        "zombie"
+        "AI controversy",
+        "publishing",
+        "Shy Girl",
+        "Hachette"
       ],
       "x_urls": [
-        "https://x.com/rrreadsbooks/status/2032824852462125057"
+        "https://x.com/Keledan/status/2036104176996901141"
       ],
-      "id": "f86e926043a1aae8",
+      "id": "e0595599828bad6a",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-24T11:01:32Z"
+      "timestamp": "2026-03-24T11:06:36Z"
     },
     {
-      "title": "#BookTok Community Drives 50 Million Book Sales in Europe",
-      "summary": "TikTok's #BookTok community has sold over 50 million books across Europe in 2025, generating \u20ac800 million in revenue for publishers. The platform is expanding its BookTok bestseller lists to six more European markets. This demonstrates BookTok's massive influence on reading trends and book discoveries.",
-      "url": "https://newsroom.tiktok.com/booktok-community-50-million-books?lang=en",
-      "source": "TikTok Newsroom",
-      "source_type": "news",
+      "title": "Concerns Over Hachette Acquiring Obvious AI-Generated Book",
+      "summary": "Speculative horror author Z.T. Fairfax highlights that 'Shy Girl' showed clear signs of AI writing when self-published yet was acquired by Hachette. The book was released in the UK by the publisher despite the issues. This raises questions about editorial standards in detecting AI content.",
+      "url": "https://x.com/ZTFairfax/status/2034970671197938095",
+      "source": "@ZTFairfax",
+      "source_type": "x",
       "tags": [
-        "BookTok",
-        "sales",
+        "AI writing",
         "publishing",
-        "trends"
+        "Shy Girl",
+        "editorial standards"
       ],
-      "x_urls": [],
-      "id": "c786a20b3ad694ac",
+      "x_urls": [
+        "https://x.com/ZTFairfax/status/2034970671197938095"
+      ],
+      "id": "5d0dde38f484a9ad",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-24T11:01:32Z"
+      "timestamp": "2026-03-24T11:06:36Z"
     },
     {
-      "title": "Utah Gov. Spencer Cox Signs Book Deal for Peacemaker Memoir",
-      "summary": "Utah Governor Spencer Cox secured a book deal with Random House for a memoir on depolarization and peacemaking. The release is scheduled two days before the anniversary of conservative activist Charlie Kirk's assassination. The book reflects traditional conservative values amid political divides.",
-      "url": "https://www.sltrib.com/news/politics/2026/03/19/off-ramp-gov-coxs-book-publish",
-      "source": "Salt Lake Tribune",
-      "source_type": "news",
+      "title": "Rachel Rooney's Children's Book Vilified for Traditional Body Positivity Message",
+      "summary": "Transgender Trend shares details on a children's book emphasizing that kids are perfect as they are, valuing their natural body sense. Author Rachel Rooney was labeled a bigot and danger to children for this stance. The post underscores backlash against traditional messaging in children's literature.",
+      "url": "https://x.com/Transgendertrd/status/2033493989681201647",
+      "source": "@Transgendertrd",
+      "source_type": "x",
       "tags": [
-        "contract",
-        "conservative",
         "traditional storytelling",
-        "memoir"
+        "children's books",
+        "publishing controversy",
+        "body positivity"
       ],
-      "x_urls": [],
-      "id": "95387bb5f07db2e8",
+      "x_urls": [
+        "https://x.com/Transgendertrd/status/2033493989681201647"
+      ],
+      "id": "517017a406555853",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-24T11:01:32Z"
+      "timestamp": "2026-03-24T11:06:36Z"
     },
     {
-      "title": "2026 Oscar Winners Announced: Michael B. Jordan Wins Best Actor",
-      "summary": "The 98th Academy Awards on March 15, 2026, crowned winners across categories, with Michael B. Jordan taking Best Actor as the sixth Black man to win in that category. The ceremony featured performances and speeches highlighting industry achievements. Viewership stood at 17.86 million, continuing a decline trend.",
-      "url": "https://ew.com/oscars-2026-winners-list-11925195",
+      "title": "Publisher Cancels Horror Novel's Release Over AI Claims",
+      "summary": "BBC covers Hachette's decision to cancel the release of 'Shy Girl', a BookTok sensation self-published earlier. The pullback follows claims of AI involvement in the writing. This is described as a harrowing tale that became a buzz amid the scandal.",
+      "url": "https://www.bbc.com/news/articles/c5y9d44jj24o",
+      "source": "BBC",
+      "source_type": "news",
+      "tags": [
+        "AI claims",
+        "BookTok",
+        "publishing",
+        "Shy Girl"
+      ],
+      "x_urls": [],
+      "id": "137cbe48df6f68b5",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-24T11:06:36Z"
+    },
+    {
+      "title": "Novel Pulled From Shelves After Author Accused of Using AI",
+      "summary": "Futurism details the pulling of 'Shy Girl' after AI accusations, questioning future policies on AI disclosure for major deals. The article notes the ongoing AI boom and its impact on publishing. Authors may need to prove human authorship upfront.",
+      "url": "https://futurism.com/artificial-intelligence/novel-pulled-author-accused-ai",
+      "source": "Futurism",
+      "source_type": "news",
+      "tags": [
+        "AI writing",
+        "publishing",
+        "book deal",
+        "Shy Girl"
+      ],
+      "x_urls": [],
+      "id": "4704340226ba3eb3",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-24T11:06:36Z"
+    },
+    {
+      "title": "Chappell Roan Controversy: Security Guard Incidents with Young Fan",
+      "summary": "Chappell Roan is facing public backlash after her security team allegedly yelled at and threatened an 11-year-old fan, soccer star Jorginho's daughter, during a breakfast meet-and-greet. The girl's mother, Catherine Harding, shared her account via video, prompting further discussion. Roan apologized, but Rio's mayor banned her from a music event amid the uproar.",
+      "url": "https://ew.com/chappell-roan-controversy-explained-jude-law-11932545",
       "source": "Entertainment Weekly",
       "source_type": "news",
       "tags": [
-        "Oscars",
-        "awards",
-        "Michael B. Jordan"
+        "pop music",
+        "controversy",
+        "backlash",
+        "fans"
       ],
       "x_urls": [
-        "https://x.com/Jabz_CFC/status/2033835732830458097"
+        "https://x.com/PopBase/status/2035845282429391030",
+        "https://x.com/DailyMail/status/2035570529625657392",
+        "https://x.com/billboard/status/2035759889566339226"
       ],
-      "id": "c032e492fe08f17b",
+      "id": "42eded9665abf9fc",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-24T11:02:36Z"
+      "timestamp": "2026-03-24T11:07:40Z"
     },
     {
-      "title": "Oprah Winfrey, Rhea Seehorn Among 2026 Gracie Awards Winners",
-      "summary": "The Alliance for Women in Media Foundation's 2026 Gracie Awards honored Oprah Winfrey, Rhea Seehorn, Abby Phillip, and projects like Hulu's Barbara Walters doc. Katherine LaNasa and Rachel Sennott also received recognition. Winners will be celebrated at galas.",
-      "url": "https://variety.com/2026/tv/news/oprah-winfrey-rhea-seehorn-abby-phillip-gracie-awards-winners-1236696299",
-      "source": "Variety",
+      "title": "Damon Lindelof Addresses 'Lanterns' Green Lantern Color Controversy",
+      "summary": "Damon Lindelof responded to backlash from comic fans and writer Grant Morrison over his past joke calling the Green Lantern's green color 'stupid.' He admitted being 'sloppy and careless' and apologized while affirming his commitment to the HBO series. The statement came amid production updates on the show.",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/damon-lindelof-green-lantern-controversy-1236536050",
+      "source": "The Hollywood Reporter",
       "source_type": "news",
       "tags": [
-        "Gracie Awards",
-        "awards",
-        "women in media"
+        "TV",
+        "DC Comics",
+        "superhero",
+        "backlash"
+      ],
+      "x_urls": [
+        "https://x.com/screentime/status/2033868470534717707"
+      ],
+      "id": "c4c8526073c28787",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-24T11:07:40Z"
+    },
+    {
+      "title": "John Lithgow Almost Quit HBO 'Harry Potter' Over J.K. Rowling Backlash Fears",
+      "summary": "John Lithgow revealed he nearly declined the role of Dumbledore in HBO's Harry Potter series due to potential backlash tied to J.K. Rowling's views. He expressed concerns about future interviews and public perception. Despite hesitation, he chose to join the project.",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/john-lithgow-harry-potter-hbo-dumbledore-jk-rowling-backlash-1236542197",
+      "source": "The Hollywood Reporter",
+      "source_type": "news",
+      "tags": [
+        "Harry Potter",
+        "TV",
+        "JK Rowling",
+        "backlash"
       ],
       "x_urls": [],
-      "id": "3839ac30e1c23458",
+      "id": "f501d432799c3f2c",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-24T11:02:36Z"
+      "timestamp": "2026-03-24T11:07:40Z"
     },
     {
-      "title": "Criticism of Oscars DEI Standards for Impacting Film Quality",
-      "summary": "Social media backlash labeled the 2026 Oscars a 'DEI show' as diversity standards are seen to prioritize inclusion over artistic merit. Past Best Picture winners like Braveheart and No Country for Old Men wouldn't qualify under current rules. Viewership decline is attributed partly to these changes.",
-      "url": "https://www.smobserved.com/story/2026/03/16/news/why-movies-now-suck-diversity-equity-and-inclusion-standards-for-oscars-fail-artistic-achievement-like-braveheart-no-county-for-old-men-etc/9724.html",
-      "source": "SMObserved",
-      "source_type": "news",
-      "tags": [
-        "Oscars",
-        "DEI",
-        "backlash"
-      ],
-      "x_urls": [],
-      "id": "c66406b402916f98",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-24T11:02:36Z"
-    },
-    {
-      "title": "Buffy Reboot Scrapped Over Woke Script and Executive Disinterest",
-      "summary": "Sarah Michelle Gellar addressed the Buffy reboot's cancellation, noting an executive proud of not watching the original series. Jon Del Arroz commented that the script was too woke and insufferable, dooming the project. Variety reported Gellar's remarks amid the news.",
-      "url": "https://x.com/jondelarroz/status/2033729636979671438",
-      "source": "@jondelarroz",
+      "title": "Catherine Harding Details Chappell Roan Security Encounter in Viral Video",
+      "summary": "Pop Base shared a video from Catherine Harding recounting the incident where Chappell Roan's security allegedly harassed her 11-year-old daughter over a fan interaction. The post amplified the family's perspective amid widespread online reaction. It contributed to memes and calls for accountability.",
+      "url": "https://x.com/PopBase/status/2035845282429391030",
+      "source": "@PopBase",
       "source_type": "x",
       "tags": [
-        "Buffy",
-        "reboot",
-        "woke",
-        "backlash"
+        "pop music",
+        "controversy",
+        "family",
+        "viral"
       ],
       "x_urls": [
-        "https://x.com/jondelarroz/status/2033729636979671438",
-        "https://x.com/Variety/status/2033693613264449814"
+        "https://x.com/PopBase/status/2035845282429391030",
+        "https://x.com/DailyMail/status/2035570529625657392"
       ],
-      "id": "dec61355fa78ab21",
+      "id": "a5a88c0d8f59e709",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-24T11:02:36Z"
+      "timestamp": "2026-03-24T11:07:40Z"
     },
     {
-      "title": "Marvel Fans Slam Casting 'Perfect' Mary Jane as Villain Beside DEI Version",
-      "summary": "A post contrasts Marvel's choice to make an actress resembling classic Mary Jane Watson a villain while retaining a criticized DEI casting for the role. Images highlight the perceived downgrade. The commentary drew thousands of likes and reposts expressing dissatisfaction.",
-      "url": "https://x.com/hayasaka_aryan/status/2034284373382512781",
-      "source": "@hayasaka_aryan",
+      "title": "Damon Lindelof Calls Green Lantern Joke 'Dumb' After Fan Backlash",
+      "summary": "ScreenTime reported Damon Lindelof admitting his joke about Green Lanterns was 'dumb' following criticism from fans and Grant Morrison. He apologized and highlighted his honor in working on the series. The post included promotional images sparking further discussion.",
+      "url": "https://x.com/screentime/status/2033868470534717707",
+      "source": "@screentime",
       "source_type": "x",
       "tags": [
-        "Marvel",
-        "Mary Jane",
-        "DEI",
-        "casting",
-        "backlash"
+        "DC",
+        "comics",
+        "apology",
+        "TV"
       ],
       "x_urls": [
-        "https://x.com/hayasaka_aryan/status/2034284373382512781"
+        "https://x.com/screentime/status/2033868470534717707"
       ],
-      "id": "d145368acae538d5",
+      "id": "9d2e6b9708ebdf8c",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-24T11:02:36Z"
+      "timestamp": "2026-03-24T11:07:40Z"
     },
     {
-      "title": "Claims Michael B. Jordan's Oscar Win Was DEI Rather Than Merit",
-      "summary": "In response to a viral photo of Michael B. Jordan admiring Sidney Poitier's Oscar photo, a user stated the win was gifted for DEI purposes, not talent or film quality. The original post celebrated Jordan as the sixth Black Best Actor winner. The backlash comment sparked discussion.",
-      "url": "https://x.com/BoycottTheWoke/status/2033926554976161792",
-      "source": "@BoycottTheWoke",
+      "title": "Conan O'Brien Roasts Timoth\u00e9e Chalamet's Opera Controversy at Oscars",
+      "summary": "DiscussingFilm highlighted Conan O'Brien's Oscars monologue joke about Timoth\u00e9e Chalamet's ballet/opera feud, quipping on security fears from those communities. The timely humor referenced Chalamet's recent controversy. It received strong engagement during awards coverage.",
+      "url": "https://x.com/DiscussingFilm/status/2033319637492928699",
+      "source": "@DiscussingFilm",
       "source_type": "x",
       "tags": [
         "Oscars",
-        "Michael B. Jordan",
-        "DEI",
-        "backlash"
+        "comedy",
+        "Timoth\u00e9e Chalamet",
+        "controversy"
       ],
       "x_urls": [
-        "https://x.com/BoycottTheWoke/status/2033926554976161792",
-        "https://x.com/Jabz_CFC/status/2033835732830458097"
+        "https://x.com/DiscussingFilm/status/2033319637492928699",
+        "https://x.com/ew/status/11925923"
       ],
-      "id": "91c924238b447a80",
+      "id": "5522acc75a1cea07",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-24T11:02:36Z"
+      "timestamp": "2026-03-24T11:07:40Z"
     },
     {
-      "title": "Small Businesses Embrace AI But Need Training and Support, Goldman Sachs Survey Reveals",
-      "summary": "More than three-quarters of small businesses (76%) report currently using AI, with the majority stating that results have been overwhelmingly positive. Ninety-three percent of users report a positive business impact from AI adoption. However, challenges like training and integration persist, as only 14% have fully incorporated AI into core operations.",
-      "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/small-businesses-embrace-ai-but-need-training-and-support-to-fully-harness-it",
-      "source": "Goldman Sachs",
-      "source_type": "news",
+      "title": "HubSpot and Intuit Emerge as Potential AI Winners in Tough SMB B2B Landscape",
+      "summary": "BuccoCapital argues that despite sell-offs in SMB software, HubSpot (HUBS) and Intuit (INTU) hold strong moats from scale, data aggregation, and SMB sales expertise, positioning them for AI-driven growth. AI agents will thrive on their full platforms with clean data, benefiting less tech-savvy users, while enabling cheap feature rollouts. An AI-fueled explosion in small business creation further bolsters their prospects.",
+      "url": "https://x.com/buccocapital/status/2033174194955997467",
+      "source": "@buccocapital",
+      "source_type": "x",
+      "tags": [
+        "AI",
+        "SMB",
+        "HubSpot",
+        "Intuit",
+        "platform moats"
+      ],
+      "x_urls": [
+        "https://x.com/buccocapital/status/2033174194955997467"
+      ],
+      "id": "215329059adf23f7",
+      "section": "business",
+      "period": "morning",
+      "timestamp": "2026-03-24T11:08:27Z"
+    },
+    {
+      "title": "Just 5% of SMBs Paying for AI Tools Despite Adoption Hype",
+      "summary": "Affiniti data on SMBs generating $14B+ annual revenue reveals only 5% spend on AI products like ChatGPT (10x more used than Claude), Scribe, Grammarly, and others. This challenges narratives of rapid AI disruption in small business. Silicon Valley overlooks this vast untapped market beginning its AI journey.",
+      "url": "https://x.com/aaronbaii/status/2034619624814195134",
+      "source": "@aaronbaii",
+      "source_type": "x",
       "tags": [
         "AI adoption",
-        "small businesses",
-        "training",
-        "business impact"
+        "SMB spending",
+        "fintech",
+        "data analysis"
       ],
-      "x_urls": [],
-      "id": "a45f76049fb424dd",
+      "x_urls": [
+        "https://x.com/aaronbaii/status/2034619624814195134"
+      ],
+      "id": "4c47ef7550441872",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-24T11:03:15Z"
+      "timestamp": "2026-03-24T11:08:27Z"
     },
     {
-      "title": "Adobe Study Shows AI Tools Drive 21% Average Revenue Boost for Small Businesses",
-      "summary": "AI implementation is delivering tangible ROI for small businesses, with 47% of owners reporting revenue increases averaging 21%. The study highlights how accessible AI tools are empowering SMBs to enhance operations and growth. Effective use of these tools is becoming a key competitive advantage.",
-      "url": "https://www.adobe.com/acrobat/resources/small-business-superpower-study.html",
-      "source": "Adobe",
+      "title": "Top AI Tools Small Businesses Must Use in 2026 for Efficiency and Growth",
+      "summary": "Practical AI tools like Intercom, Zendesk for customer support; ChatGPT, Jasper, Canva for marketing; Zapier, ClickUp for automation; Power BI, Zoho for insights; QuickBooks, Vic.ai for finance; and Darktrace, CrowdStrike for security are transforming SMB operations. These integrate easily to automate tasks, reduce costs, and enable data-driven decisions without large teams. In 2026, strategic AI adoption gives small firms a competitive edge.",
+      "url": "https://www.stealthtech365.com/insights/ai-tools-every-small-business-should-use-in-2026",
+      "source": "StealthTech365",
       "source_type": "news",
       "tags": [
-        "AI ROI",
-        "small business",
-        "revenue growth",
-        "productivity"
+        "AI tools",
+        "SMB",
+        "automation",
+        "productivity",
+        "cybersecurity"
       ],
       "x_urls": [],
-      "id": "e252a7098465e14a",
+      "id": "a12822b7e15a31e6",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-24T11:03:15Z"
+      "timestamp": "2026-03-24T11:08:27Z"
     },
     {
-      "title": "AI Pricing Tools Empower Small Businesses to Compete with Giants",
-      "summary": "AI-supported pricing tools are revolutionizing how startups and small business owners set prices, making them more effective and competitive against larger firms. A recent report notes that 94% of small businesses using these tools report an improved competitive position. This innovation addresses a longstanding challenge in small business operations.",
-      "url": "https://x.com/SBECouncil/status/2034635531745661034",
-      "source": "@SBECouncil",
-      "source_type": "x",
+      "title": "Teams Quietly Replacing SaaS with Custom AI Builds, Impacting Business Efficiency",
+      "summary": "A Retool survey shows 35% of teams have replaced SaaS functionality with self-built AI tools, 78% plan more in 2026, often outside IT. AI slashes development costs from weeks to days, targeting niche workflows like approvals and dashboards. For small businesses, this democratizes custom solutions, cutting subscriptions while raising shadow IT risks.",
+      "url": "https://www.newsweek.com/nw-ai/ai-impact-are-your-teams-quietly-replacing-saas-11620488",
+      "source": "Newsweek",
+      "source_type": "news",
       "tags": [
-        "AI pricing",
-        "small business",
-        "competition",
-        "SMB tools"
+        "AI builds",
+        "SaaS replacement",
+        "business impact",
+        "custom tools"
       ],
-      "x_urls": [
-        "https://x.com/SBECouncil/status/2034635531745661034"
-      ],
-      "id": "4c2c320d4f7c9e02",
+      "x_urls": [],
+      "id": "f41f597616156066",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-24T11:03:15Z"
-    },
-    {
-      "title": "Walmart's AI Assistant Sparky Boosts Shopping Baskets by 35%",
-      "summary": "Walmart's AI shopping assistant, Sparky, is significantly influencing customer behavior by helping shoppers build larger baskets\u2014up 35% for users. This demonstrates AI's role in enhancing product discovery and personalization in ecommerce platforms. For small businesses, it underscores the potential of AI-driven recommendations to drive sales growth.",
-      "url": "https://x.com/BridgefundC/status/2033514025439359293",
-      "source": "@BridgefundC",
-      "source_type": "x",
-      "tags": [
-        "AI shopping",
-        "ecommerce",
-        "platform move",
-        "sales growth"
-      ],
-      "x_urls": [
-        "https://x.com/BridgefundC/status/2033514025439359293"
-      ],
-      "id": "d60805acfc1975f1",
-      "section": "business",
-      "period": "morning",
-      "timestamp": "2026-03-24T11:03:15Z"
+      "timestamp": "2026-03-24T11:08:27Z"
     }
   ]
 }
