@@ -1,413 +1,364 @@
 {
   "date": "2026-03-25",
   "period": "morning",
-  "generated": "2026-03-25T11:03:08Z",
+  "generated": "2026-03-25T11:08:10Z",
   "items": [
     {
-      "title": "Google Releases March 2026 Spam Update",
-      "summary": "Google released its March 2026 spam update on March 24 at 3:20 p.m., marking the second major algorithm update of 2026 after the February Discover update. The update is global, affecting all languages, and rollout is expected to take a few days. SEO professionals are monitoring impacts on spammy tactics.",
+      "title": "Google releases March 2026 spam update",
+      "summary": "Google released its March 2026 spam update on March 24, 2026, describing it as a standard spam update rolling out across all languages and locations, which may take only a few days to complete. This is the first spam update of 2026, following the August 2025 spam update, and could lead to ranking or traffic changes due to its focus on improving spam detection systems like SpamBrain. Sites affected should review Google's spam policies to ensure compliance, as changes may help improve rankings over time.",
       "url": "https://searchengineland.com/google-releases-march-2026-spam-update-472411",
       "source": "Search Engine Land",
       "source_type": "news",
       "tags": [
-        "Google update",
-        "spam update",
-        "SEO"
+        "Google Update",
+        "Spam",
+        "SEO",
+        "Algorithm Update"
       ],
       "x_urls": [],
-      "id": "57dbb1aab141b8ba",
+      "id": "38ff1008131e3e97",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-25T11:00:50Z"
+      "timestamp": "2026-03-25T11:06:06Z"
     },
     {
-      "title": "Google Begins Rolling Out The March 2026 Spam Update",
-      "summary": "Google started the March 2026 spam update rollout on March 24, as confirmed via the Search Status Dashboard. It applies globally to all languages and may take several days to complete. Site owners are advised to check for manual actions in Search Console.",
-      "url": "https://www.searchenginejournal.com/google-begins-rolling-out-the-march-2026-spam-update/570428",
-      "source": "Search Engine Journal",
-      "source_type": "news",
-      "tags": [
-        "Google update",
-        "spam update",
-        "algorithm"
-      ],
-      "x_urls": [
-        "https://x.com/sejournal/status/2036529315752390839"
-      ],
-      "id": "534ddc669b0cb0ef",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:00:50Z"
-    },
-    {
-      "title": "5 GEO Strategies To Make AI Search Recommend Your Brand",
-      "summary": "With Google AI Overviews appearing in one out of every four searches, brands need GEO strategies to gain visibility in AI responses. The article outlines five tactics from Geoptie to optimize for AI recommendations. This evolution highlights the shift from traditional SEO to AI-optimized content.",
-      "url": "https://www.searchenginejournal.com/geo-strategies-ai-visibility-geoptie-spa/568644",
-      "source": "Search Engine Journal",
-      "source_type": "news",
-      "tags": [
-        "GEO",
-        "AI search",
-        "AEO",
-        "content marketing"
-      ],
-      "x_urls": [],
-      "id": "2d5cbcfbc8d65be4",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:00:50Z"
-    },
-    {
-      "title": "Google Announces March 2026 Spam Update",
-      "summary": "Google Search Central officially announced the release of the March 2026 spam update, which is rolling out globally across all languages. The rollout may take a few days, with updates on the ranking release history page. This follows recent volatility in search rankings.",
-      "url": "https://x.com/googlesearchc/status/2036523482138268071",
-      "source": "@googlesearchc",
-      "source_type": "x",
-      "tags": [
-        "Google update",
-        "spam update",
-        "SEO"
-      ],
-      "x_urls": [
-        "https://x.com/googlesearchc/status/2036523482138268071"
-      ],
-      "id": "bc5057b019bd5fe6",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:00:50Z"
-    },
-    {
-      "title": "March 2026 Spam Update \u2013 Targeting AEO/GEO Spam?",
-      "summary": "SEO consultant Glenn Gabe reacts to Google's March 2026 spam update, suggesting it may target spammy tactics used to manipulate AEO and GEO visibility. He references the official dashboard incident and urges monitoring. This aligns with ongoing AI search evolutions.",
-      "url": "https://x.com/glenngabe/status/2036525739734962381",
-      "source": "@glenngabe",
-      "source_type": "x",
-      "tags": [
-        "spam update",
-        "AEO",
-        "GEO",
-        "Google update"
-      ],
-      "x_urls": [
-        "https://x.com/glenngabe/status/2036525739734962381",
-        "https://x.com/googlesearchc/status/2036523482138268071"
-      ],
-      "id": "3171d6588cd3b5af",
-      "section": "seo",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:00:50Z"
-    },
-    {
-      "title": "AEO and GEO Are Not Just SEO \u2013 Deep Dive on AI Search",
-      "summary": "Ross Simmonds shares insights from a podcast with iPullRank on AI and SEO, emphasizing that AEO/GEO require content ecosystems beyond traditional site optimization. Discussion covers synthetic queries, retrieval augmented generation, and multi-platform consensus for AI visibility. Critical for content marketers adapting to 2026 trends.",
+      "title": "Ross Simmonds on AI SEO: AEO and GEO Beyond Traditional SEO",
+      "summary": "Ross Simmonds discusses a podcast with Mike King (@iPullRank) on AI and SEO, warning that viewing AEO and GEO as mere rebrands of SEO risks losing relevance. AI discovery uses retrieval augmented generation and evaluates content ecosystems like Reddit and YouTube, not just sites. Marketers must map synthetic queries and build matching ecosystems.",
       "url": "https://x.com/TheCoolestCool/status/2035038674837283321",
       "source": "@TheCoolestCool",
       "source_type": "x",
       "tags": [
         "AEO",
         "GEO",
-        "AI search",
-        "content marketing"
+        "AI SEO",
+        "Content Ecosystem"
       ],
       "x_urls": [
         "https://x.com/TheCoolestCool/status/2035038674837283321"
       ],
-      "id": "4853e9cfe5c6292e",
+      "id": "8fab2fe32bb84259",
       "section": "seo",
       "period": "morning",
-      "timestamp": "2026-03-25T11:00:50Z"
+      "timestamp": "2026-03-25T11:06:06Z"
     },
     {
-      "title": "AI Contamination Spreads to Physical Books",
-      "summary": "An author expresses frustration over AI-generated content infiltrating physical books, specifically competing with ChatGPT prompts like 'write a children's book about the Punic Wars.' They earn a small income from writing and resent the ease of AI production. Highlights growing AI controversies in writing and publishing.",
+      "title": "The Rise of GEO: SEO\u2019s New Frontier + Free 2026 GEO Checklist",
+      "summary": "M. Rock Stone argues SEO is dying with organic traffic down and AI slashing CTRs, positioning GEO as key to AI citations. New signals: brand voice, conversational intent, schema; tips include conversational rewrites, original research, no AI crawler blocks. Free checklist offered in linked article.",
+      "url": "https://x.com/MikeRockStone/status/2034466803561398714",
+      "source": "@MikeRockStone",
+      "source_type": "x",
+      "tags": [
+        "GEO",
+        "SEO Decline",
+        "AI Optimization"
+      ],
+      "x_urls": [
+        "https://x.com/MikeRockStone/status/2034466803561398714"
+      ],
+      "id": "ee7c9bcced21aaf8",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-25T11:06:06Z"
+    },
+    {
+      "title": "AEO and GEO: The New SEO Debate",
+      "summary": "Asteris highlights AEO and GEO as the emerging debate in SEO, shifting from blue links to AI answers. Brand visibility now hinges on AI models trusting your content over traditional rankings. This reflects evolving discovery in AI-driven search.",
+      "url": "https://x.com/asteris_ai/status/2034709247510888915",
+      "source": "@asteris_ai",
+      "source_type": "x",
+      "tags": [
+        "AEO",
+        "GEO",
+        "AI Discovery"
+      ],
+      "x_urls": [
+        "https://x.com/asteris_ai/status/2034709247510888915"
+      ],
+      "id": "b4ed1344ab274c33",
+      "section": "seo",
+      "period": "morning",
+      "timestamp": "2026-03-25T11:06:06Z"
+    },
+    {
+      "title": "Horror Novel Pulled by Publishers Over Alleged AI Use",
+      "summary": "The US release of horror novel 'Shy Girl' by Mia Ballard was cancelled by its publisher amid concerns over AI assistance in writing. The book had already been published in the UK. Ballard attributes any AI involvement to an editor hired for her self-published version.",
+      "url": "https://www.bbc.com/news/articles/c5y9d44jj24o",
+      "source": "BBC",
+      "source_type": "news",
+      "tags": [
+        "AI",
+        "publishing",
+        "cancellation",
+        "editing"
+      ],
+      "x_urls": [],
+      "id": "ff2f4e220a37f1ce",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-25T11:06:40Z"
+    },
+    {
+      "title": "A.I. Is Writing Fiction. Publishers Are Unprepared",
+      "summary": "Publishers face challenges as AI-generated fiction enters the market, highlighted by recent controversies like the 'Shy Girl' cancellation. Industry consultant Thad McIlroy warns that clarifying AI policies is inevitable. The article discusses broader implications for the publishing industry.",
+      "url": "https://www.nytimes.com/2026/03/19/books/ai-fiction-shy-girl.html",
+      "source": "The New York Times",
+      "source_type": "news",
+      "tags": [
+        "AI",
+        "publishing",
+        "fiction",
+        "industry preparedness"
+      ],
+      "x_urls": [],
+      "id": "64f9d20bddb2b7fe",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-25T11:06:40Z"
+    },
+    {
+      "title": "Writers Accused of AI Use Because LLMs Trained on Their Books",
+      "summary": "Author J.A. Konrath notes that LLMs pirated over 80 of his books and now mimic his style, leading to accusations of him using AI. Features like Oxford commas and em-dashes, long used by him, are flagged as AI signs. He questions if other pirated authors face similar issues.",
+      "url": "https://x.com/jakonrath/status/2033498177916006696",
+      "source": "@jakonrath",
+      "source_type": "x",
+      "tags": [
+        "AI",
+        "piracy",
+        "writing style",
+        "accusations"
+      ],
+      "x_urls": [
+        "https://x.com/jakonrath/status/2033498177916006696"
+      ],
+      "id": "eb3626b982699058",
+      "section": "publishing",
+      "period": "morning",
+      "timestamp": "2026-03-25T11:06:40Z"
+    },
+    {
+      "title": "AI Contamination Spreads to Physical Books, Hurting Human Writers",
+      "summary": "User Dickie Dogfather laments AI-generated books flooding physical markets, forcing human writers to compete with minimal-effort ChatGPT outputs. He earns modestly from writing and views this as a profound threat. The post highlights frustration with AI in children's books like those on the Punic Wars.",
       "url": "https://x.com/DickieDogfather/status/2033458784090128400",
       "source": "@DickieDogfather",
       "source_type": "x",
       "tags": [
-        "AI controversy",
-        "publishing",
-        "writing",
+        "AI",
+        "physical books",
+        "competition",
         "children's books"
       ],
       "x_urls": [
         "https://x.com/DickieDogfather/status/2033458784090128400"
       ],
-      "id": "09d6e91314c29739",
+      "id": "c7243469745b1e76",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-25T11:01:32Z"
+      "timestamp": "2026-03-25T11:06:40Z"
     },
     {
-      "title": "Hachette Acquires Obviously AI-Written Shy Girl Despite Red Flags",
-      "summary": "Speculative horror author notes that Shy Girl was evidently AI-generated during self-publishing, yet Hachette picked it up for UK release. A professional editor overlooked the egregious AI use. Raises concerns about vetting processes in traditional publishing.",
-      "url": "https://x.com/ZTFairfax/status/2034970671197938095",
-      "source": "@ZTFairfax",
+      "title": "Challenges in Training AI for Creative Writing",
+      "summary": "Anthropologist Jasmine Sun discusses why AIs excel in math and coding but struggle with creative writing, producing only 'okay poem' level output. She interviewed AI trainers for The Atlantic on the difficulties. The post shares images and links to the article.",
+      "url": "https://x.com/jasminewsun/status/2033959259948630189",
+      "source": "@jasminewsun",
       "source_type": "x",
       "tags": [
-        "AI controversy",
-        "publishing",
-        "horror novel",
-        "Shy Girl"
+        "AI",
+        "creative writing",
+        "training challenges",
+        "publishing"
       ],
       "x_urls": [
-        "https://x.com/ZTFairfax/status/2034970671197938095"
+        "https://x.com/jasminewsun/status/2033959259948630189"
       ],
-      "id": "cfe9c5292965176a",
+      "id": "7754f01e8e55443f",
       "section": "publishing",
       "period": "morning",
-      "timestamp": "2026-03-25T11:01:32Z"
+      "timestamp": "2026-03-25T11:06:40Z"
     },
     {
-      "title": "BookTok Irreparably Damages Marketing of Books to Women",
-      "summary": "Content creator argues BookTok has harmed book marketing by prioritizing dramatic, catchy titles over straightforward ones. Marketing executives believe evocative titles are necessary to attract female readers. Critiques shift away from traditional title styles.",
-      "url": "https://x.com/Maclovesmanga/status/2034364645830737950",
-      "source": "@Maclovesmanga",
-      "source_type": "x",
-      "tags": [
-        "BookTok",
-        "publishing",
-        "marketing",
-        "traditional storytelling"
-      ],
-      "x_urls": [
-        "https://x.com/Maclovesmanga/status/2034364645830737950"
-      ],
-      "id": "d26f4ca7c29797eb",
-      "section": "publishing",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:01:32Z"
-    },
-    {
-      "title": "Horror Novel Pulled by Publisher Over Alleged AI Use",
-      "summary": "Hachette Book Group cancelled the US release of horror novel Shy Girl by Mia Ballard amid suspicions of AI assistance in writing. The book gained traction on BookTok before backlash from AI detectors. Author denies using AI, blaming an editor, sparking debates on detection in publishing.",
-      "url": "https://www.bbc.com/news/articles/c5y9d44jj24o",
-      "source": "BBC",
-      "source_type": "news",
-      "tags": [
-        "AI controversy",
-        "publishing",
-        "horror novel",
-        "Shy Girl",
-        "BookTok"
-      ],
-      "x_urls": [
-        "https://x.com/ZTFairfax/status/2034970671197938095",
-        "https://x.com/t_trace/status/2035862533119283539"
-      ],
-      "id": "893064e992c2e3b8",
-      "section": "publishing",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:01:32Z"
-    },
-    {
-      "title": "Nearly 10,000 Authors Publish Empty Book Protesting AI Data Theft",
-      "summary": "Thousands of authors released an empty book titled 'Don't Steal This Book' to protest tech companies training AI on copyrighted works without permission. The campaign urges policy changes to protect creators. Featured in recent publishing discussions amid AI controversies.",
-      "url": "https://www.instagram.com/p/DWHUVF5jaKO",
-      "source": "Instagram Publishing News",
-      "source_type": "news",
-      "tags": [
-        "AI controversy",
-        "publishing",
-        "authors protest"
-      ],
-      "x_urls": [],
-      "id": "46e0cca407796964",
-      "section": "publishing",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:01:32Z"
-    },
-    {
-      "title": "Oscars Face Backlash for 'Diversity Inclusion' Requirement for Winners",
-      "summary": "The Academy's diversity standards requiring films to meet specific representation criteria for Best Picture eligibility drew sharp criticism following the 98th Oscars. Figures like Sen. Ted Cruz labeled the policy 'utter insanity,' arguing classics such as No Country for Old Men and Braveheart would no longer qualify due to insufficient non-White involvement. Detractors claim it prioritizes ideology over merit, alienating audiences with unseen, elite virtue-signaling films.",
-      "url": "https://www.newsweek.com/entertainment/oscars-face-backlash-for-diversity-inclusion-requirement-for-winners-11686542",
-      "source": "Newsweek",
+      "title": "98th Academy Awards Winners Announced",
+      "summary": "The 98th Oscars ceremony occurred on March 15, 2026, at the Dolby Theatre, honoring top films. 'One Battle After Another' won Best Picture, Best Director, Best Supporting Actor for Sean Penn, and three other awards. Other highlights included acting wins for Jessie Buckley and Michael B. Jordan, with notable red carpet arrivals and performances.",
+      "url": "https://www.hollywoodreporter.com/lists/oscars-2026-winners-list",
+      "source": "The Hollywood Reporter",
       "source_type": "news",
       "tags": [
         "Oscars",
-        "diversity",
+        "awards",
+        "Hollywood",
+        "winners"
+      ],
+      "x_urls": [
+        "https://x.com/DiscussingFilm/status/2033374376670773391",
+        "https://x.com/FilmUpdates/status/2033284911491158115"
+      ],
+      "id": "fe1395238876dddb",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-25T11:07:32Z"
+    },
+    {
+      "title": "Sean Penn Wins Best Supporting Actor but Skips Oscars for Ukraine",
+      "summary": "Sean Penn received the Best Supporting Actor Oscar for his role but chose to travel to Ukraine instead of attending the ceremony. This decision highlights his ongoing activism amid the awards night's glamour. Coverage noted complete Oscars highlights and winners.",
+      "url": "https://www.nytimes.com/2026/03/15/movies/sean-penn-oscars.html",
+      "source": "The New York Times",
+      "source_type": "news",
+      "tags": [
+        "Oscars",
+        "Sean Penn",
+        "Ukraine",
+        "activism"
+      ],
+      "x_urls": [
+        "https://x.com/DiscussingFilm/status/2033374376670773391"
+      ],
+      "id": "4362434c3dfe0207",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-25T11:07:32Z"
+    },
+    {
+      "title": "Disney's Tangled Reboot Casting Sparks Interest Over Milo Manheim's Backstory",
+      "summary": "Disney announced Milo Manheim, son of a gay dad and Camryn Manheim, as the lead in the live-action Tangled reboot. The casting comes after years of audience backlash to perceived woke elements in Disney projects. Observers note it may test audience reactions again.",
+      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15484743/Milo-Manheim-disney-tangled-gay-dad-Camryn.html",
+      "source": "Daily Mail",
+      "source_type": "news",
+      "tags": [
+        "Disney",
+        "Tangled",
+        "casting",
+        "backlash",
+        "woke"
+      ],
+      "x_urls": [],
+      "id": "260ded474a40ca70",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-25T11:07:32Z"
+    },
+    {
+      "title": "Oscars Slammed for 'Virtue Signaling' Speeches by Woke Hollywood",
+      "summary": "A video clip from the 2026 Oscars shows filmmakers making political statements about government murders and media oligarchs during acceptance speeches. Online users criticized it as endless virtue signaling from woke Hollywood elites. The moment contributed to broader backlash against the ceremony's tone.",
+      "url": "https://x.com/OliLondonTV/status/2033376307661381743",
+      "source": "Oli London @OliLondonTV",
+      "source_type": "x",
+      "tags": [
+        "Oscars",
+        "virtue signaling",
+        "woke",
         "backlash",
         "Hollywood"
       ],
-      "x_urls": [],
-      "id": "5c90a7a1c2a2e85b",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:02:28Z"
-    },
-    {
-      "title": "Controversial 'Star Trek: Starfleet Academy' Spinoff Axed After Ratings Plunge Amid 'Woke' Fan Backlash",
-      "summary": "Paramount+ canceled Star Trek: Starfleet Academy after its first season failed to chart on Nielsen top streaming lists, hampered by low audience scores of 35% on Rotten Tomatoes and 4.4/10 on IMDb. Fans criticized the show's diverse casting and same-sex relationships as unfaithful to the franchise, dubbing it 'woke DEI crap.' William Shatner likened the reaction to past controversies in the original series.",
-      "url": "https://www.yahoo.com/entertainment/tv/articles/controversial-star-trek-spinoff-axed-191717913.html",
-      "source": "Yahoo Entertainment",
-      "source_type": "news",
-      "tags": [
-        "Star Trek",
-        "cancellation",
-        "woke backlash",
-        "ratings"
+      "x_urls": [
+        "https://x.com/OliLondonTV/status/2033376307661381743"
       ],
-      "x_urls": [],
-      "id": "79acfaff61fd4ca7",
+      "id": "23d90e413b6b2815",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-25T11:02:28Z"
+      "timestamp": "2026-03-25T11:07:32Z"
     },
     {
-      "title": "Oscars 2026 Ratings Collapse to 17 Million as Jason Whitlock Blames 'Woke' Hollywood",
-      "summary": "Viewership for the 2026 Oscars fell to 17 million, down from 45 million in 1996 and representing just 5% of Americans. Commentator Jason Whitlock attributes the decline to woke influences and DEI producing disconnected, low-quality content unlike reality-reflecting sports. He argues Hollywood has lost its cultural relevance by prioritizing agendas over entertainment.",
-      "url": "https://www.theblaze.com/shows/fearless-with-jason-whitlock/oscars-ratings-collapse-as-jason-whitlock-blames-woke-hollywood-for-cultural-decline",
-      "source": "The Blaze",
-      "source_type": "news",
-      "tags": [
-        "Oscars",
-        "ratings decline",
-        "woke Hollywood",
-        "DEI"
-      ],
-      "x_urls": [],
-      "id": "acc083b8083b6dbc",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:02:28Z"
-    },
-    {
-      "title": "Cartoon Roasts 'Out of Touch' Hollywood Over Woke Oscars and Snow White Flop",
-      "summary": "GrrrGraphics' viral cartoon portrays Hollywood elites celebrating a woke Oscars ceremony amid industry woes like 50% production drops and 40% box office crashes. It spotlights the Best Picture winner as a $100M-losing 'Antifa bomb' and Disney's Snow White as a $170M disaster blamed on Rachel Zegler's anti-princess stance and CGI dwarves. The post urges reposting to highlight celebrities preaching anti-Trump while the industry sinks.",
-      "url": "https://x.com/GrrrGraphics/status/2033964469303599596",
-      "source": "@GrrrGraphics",
+      "title": "Hollywood Elites Leave Oscars Venue in Trash Amid Climate Lectures",
+      "summary": "A photo reveals the Dolby Theatre littered with plastic bottles, wrappers, and debris right after the Oscars on March 16, 2026. Critics pointed out the hypocrisy of celebrities who preached environmentalism and plastic bans during the event. The image went viral highlighting elite disconnect.",
+      "url": "https://x.com/PecanC8/status/2033554252761637122",
+      "source": "Pecan @PecanC8",
       "source_type": "x",
       "tags": [
-        "Hollywood",
         "Oscars",
-        "Snow White",
+        "hypocrisy",
+        "trash",
+        "climate",
+        "Hollywood"
+      ],
+      "x_urls": [
+        "https://x.com/PecanC8/status/2033554252761637122"
+      ],
+      "id": "f125fa7cf7371331",
+      "section": "popculture",
+      "period": "morning",
+      "timestamp": "2026-03-25T11:07:32Z"
+    },
+    {
+      "title": "Oscars Celebrate Woke Flops as Hollywood Declines",
+      "summary": "A cartoon post depicts Hollywood's Oscars as out of touch, praising woke films like Snow White, a $170M flop blamed on Rachel Zegler and CGI dwarfs. It notes 50% drop in productions, 40% box office crash, and low ratings amid anti-Trump preaching. Audiences expressed frustration with the industry's direction.",
+      "url": "https://x.com/GrrrGraphics/status/2033964469303599596",
+      "source": "GrrrGraphics @GrrrGraphics",
+      "source_type": "x",
+      "tags": [
+        "Oscars",
         "woke",
-        "box office flop"
+        "flop",
+        "Snow White",
+        "Hollywood",
+        "backlash"
       ],
       "x_urls": [
         "https://x.com/GrrrGraphics/status/2033964469303599596"
       ],
-      "id": "b19672cd98c4a06e",
+      "id": "1c32ebfdda8114c0",
       "section": "popculture",
       "period": "morning",
-      "timestamp": "2026-03-25T11:02:28Z"
+      "timestamp": "2026-03-25T11:07:32Z"
     },
     {
-      "title": "TheBlaze Spotlights Oscars Ratings Crash and Whitlock's Woke Hollywood Critique",
-      "summary": "TheBlaze post links to Jason Whitlock's segment blaming woke Hollywood for the Oscars' viewership drop to 17 million in 2026 from prior highs. Whitlock criticizes DEI-driven content as trash disconnected from American values, contrasting it with engaging sports. The share garnered engagement amid ongoing discussions of entertainment decline.",
-      "url": "https://x.com/theblaze/status/2034684412244500752",
-      "source": "@theblaze",
-      "source_type": "x",
-      "tags": [
-        "Oscars",
-        "ratings",
-        "woke Hollywood",
-        "Jason Whitlock"
-      ],
-      "x_urls": [
-        "https://x.com/theblaze/status/2034684412244500752"
-      ],
-      "id": "c0e799c5c1ac67e5",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:02:28Z"
-    },
-    {
-      "title": "Fans Backlash Against Hollywood Wokeness in The Boys and Remakes Like Bloodsport",
-      "summary": "Reacting to Variety's announcement of a Bloodsport remake by Michaela Coel, users decried Hollywood's remake obsession and excessive wokeness. One highlighted The Boys' recent season as too preachy, quitting after 1-2 episodes, and referenced Bill Maher's critique. Broader complaints urged original content over agenda-driven reboots.",
-      "url": "https://x.com/soflgreg/status/2034335759038071186",
-      "source": "@soflgreg",
-      "source_type": "x",
-      "tags": [
-        "Hollywood",
-        "woke",
-        "The Boys",
-        "remakes",
-        "Bloodsport"
-      ],
-      "x_urls": [
-        "https://x.com/soflgreg/status/2034335759038071186",
-        "https://x.com/Variety/status/2034269592349204604"
-      ],
-      "id": "960fc1b194840406",
-      "section": "popculture",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:02:28Z"
-    },
-    {
-      "title": "This New AI Tool Runs 90% of My One-Person Business \u2014 Here Are 7 Ways I Use It (No Code, No Staff)",
-      "summary": "The AI tool forms a team of digital workers that simultaneously handle tasks like updating blogs, researching the web, and optimizing SEO posts. It addresses solopreneur challenges through seven use cases, including generating content ideas, auditing landing pages for conversions, and consolidating reports to eliminate manual tracking. This setup enables autopilot operations, freeing up focus and reducing reliance on multiple platforms, saving over 20 hours a week and replacing five tools.",
-      "url": "https://www.entrepreneur.com/growth-strategies/this-new-ai-tool-runs-90-of-my-one-person-business/503564",
-      "source": "Entrepreneur",
-      "source_type": "news",
-      "tags": [
-        "AI tools",
-        "solopreneur",
-        "automation",
-        "productivity"
-      ],
-      "x_urls": [],
-      "id": "d8cb9bd23ce50694",
-      "section": "business",
-      "period": "morning",
-      "timestamp": "2026-03-25T11:03:08Z"
-    },
-    {
-      "title": "AI Presents a Major Opportunity for Small Businesses\u2014But Support Is Needed to Close the Implementation Gap",
-      "summary": "76% of small businesses are using AI, with 93% reporting positive impacts like increased efficiency and productivity, and 67% expecting revenue growth. However, only 14% have fully integrated AI into core operations due to challenges like data privacy and lack of expertise. 85% support policy measures like the AI for Main Street Act to provide training and resources for broader adoption.",
-      "url": "https://www.goldmansachs.com/community-impact/10000-small-businesses-voices/insights/ai-presents-a-major-opportunity-for-small-businesses",
-      "source": "Goldman Sachs",
+      "title": "AI may be helping more people start their own businesses, but without many employees",
+      "summary": "AI is enabling more people to start businesses solo by handling tasks traditionally done by teams, leading to smaller startups with lower costs and rapid scaling. Companies like Block are leveraging AI advancements to restructure, laying off staff while boosting efficiency, as noted by Jack Dorsey. Examples such as TurboAI illustrate how one technical employee can now manage workloads previously requiring multiple roles, transforming entrepreneurship.",
+      "url": "https://fortune.com/2026/03/22/ai-entrepreneurs-startups-layoffs-block-jack-dorsey-american-workers-future-of-work",
+      "source": "Fortune",
       "source_type": "news",
       "tags": [
         "AI impact",
-        "small businesses",
-        "adoption gap",
-        "policy"
+        "entrepreneurship",
+        "small business",
+        "startups",
+        "efficiency"
       ],
       "x_urls": [],
-      "id": "e1e6dfde2b5e2ccc",
+      "id": "078b05f49fcd9a3a",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-25T11:03:08Z"
+      "timestamp": "2026-03-25T11:08:10Z"
     },
     {
-      "title": "Durable AI Launches Tool to Build Entire Small Business in Minutes with Autonomous Agents",
-      "summary": "Durable has released an AI platform that generates a complete small business setup\u2014including website, branding, SEO, domain, CRM, payments, and revenue plan\u2014in just minutes. It further deploys AI agents to attract customers automatically while the owner sleeps. With over 3 million users, it's poised to disrupt traditional agencies charging high fees for similar services.",
+      "title": "Durable AI Builds Entire Small Businesses in Minutes with Websites, CRM, and Customer Agents",
+      "summary": "Durable has launched an advanced AI tool that creates a complete small business setup in minutes, including website, branding, SEO optimization, domain, CRM, payments, and revenue strategies. It further deploys AI agents to attract customers autonomously while owners sleep. With over 3 million users, it's challenging high-cost agencies charging $10k for basic websites.",
       "url": "https://x.com/om_patel5/status/2033976656197783961",
-      "source": "Om Patel (@om_patel5)",
+      "source": "@om_patel5",
       "source_type": "x",
       "tags": [
         "new AI tool",
         "small business",
         "automation",
-        "platform launch"
+        "website builder",
+        "agents"
       ],
       "x_urls": [
         "https://x.com/om_patel5/status/2033976656197783961"
       ],
-      "id": "78ba35222abccda9",
+      "id": "9e2fdb5d2b7be05b",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-25T11:03:08Z"
+      "timestamp": "2026-03-25T11:08:10Z"
     },
     {
-      "title": "HubSpot and Intuit Emerge as AI Winners in the Tough SMB B2B Software Market",
-      "summary": "Despite challenges in SMB B2B software, HubSpot and Intuit are well-positioned for AI success due to their scale, customer aggregation, and ability to leverage AI for full-platform adoption and cheap feature launches. AI will spur a boom in small business creation, benefiting incumbents with clean data and anti-fragile moats in a hard market. Less tech-savvy SMBs will prefer integrated solutions that just work.",
-      "url": "https://x.com/buccocapital/status/2033174194955997467",
-      "source": "BuccoCapital Bloke (@buccocapital)",
+      "title": "Free 338-Page AI Playbook for Small Businesses to Drive Real Impact",
+      "summary": "Austen Allred released a comprehensive 338-page AI playbook generated by Claude AI, designed specifically for small business owners to integrate AI effectively. The guide features detailed, research-backed strategies divided into actionable sections. It's available for free download, helping non-tech-savvy businesses maximize AI benefits.",
+      "url": "https://x.com/Austen/status/2034894703905087921",
+      "source": "@Austen",
       "source_type": "x",
       "tags": [
-        "AI impact",
-        "small businesses",
-        "platform moves",
-        "SaaS"
+        "AI playbook",
+        "small business",
+        "guide",
+        "Claude AI",
+        "implementation"
       ],
       "x_urls": [
-        "https://x.com/buccocapital/status/2033174194955997467"
+        "https://x.com/Austen/status/2034894703905087921"
       ],
-      "id": "45bb172e445f19e2",
+      "id": "476b5cf5c91b3e77",
       "section": "business",
       "period": "morning",
-      "timestamp": "2026-03-25T11:03:08Z"
+      "timestamp": "2026-03-25T11:08:10Z"
     }
   ]
 }
