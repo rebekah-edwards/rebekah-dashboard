@@ -2423,6 +2423,7 @@ tr:hover td{background:rgba(212,168,67,.04)}
 <button onclick="archiveNotes()" style="padding:6px 12px;background:rgba(212,168,67,.15);border:1px solid var(--gold);color:var(--gold);border-radius:4px;cursor:pointer;font-size:.8rem">📥 Archive to History</button>
 <button onclick="clearNotes()" style="padding:6px 12px;background:rgba(231,76,60,.15);border:1px solid var(--red);color:var(--red);border-radius:4px;cursor:pointer;font-size:.8rem">Clear Notes</button>
 <button onclick="exportNotes()" style="padding:6px 12px;background:rgba(39,174,96,.15);border:1px solid var(--green-hp);color:var(--green-hp);border-radius:4px;cursor:pointer;font-size:.8rem">Export as .txt</button>
+<button onclick="copyNotes()" style="padding:6px 12px;background:rgba(155,126,200,.15);border:1px solid var(--purple2);color:var(--purple2);border-radius:4px;cursor:pointer;font-size:.8rem">📋 Copy notes</button>
 <span id="notes-saved" style="color:var(--green-hp);font-size:.8rem;align-self:center;opacity:0;transition:opacity .3s">✓ Saved</span>
 </div>
 </div>
@@ -2446,6 +2447,7 @@ tr:hover td{background:rgba(212,168,67,.04)}
 <li>Looted the coffers (<strong>87,000 gp split evenly</strong> + a magic item each). <strong>Transported to Silverymoon</strong> to end the session.</li>
 </ul>
 <p style="font-size:.8rem;color:var(--text2)"><em>DM notes: party is resistant to necrotic (sometimes multiple times) — favor force/lightning enemies when story-appropriate.</em></p>
+<button onclick="copySession(this)" style="margin-top:10px;padding:4px 10px;background:rgba(155,126,200,.15);border:1px solid var(--purple2);color:var(--purple2);border-radius:4px;cursor:pointer;font-size:.75rem">📋 Copy this session</button>
 </div></div>
 </div>
 <div class="collapsible">
@@ -2456,6 +2458,7 @@ tr:hover td{background:rgba(212,168,67,.04)}
 <li><strong>Kaelen</strong> was shaken and asked to <strong>be left out of the next conflict.</strong></li>
 <li><em>Recap of 3/14:</em> Marianne put <strong>Oil of Slipperiness</strong> on the whole party; in the market, cast the gnome <strong>Reginald</strong> into the Astral Sea via a Bag of Holding rip. His son <strong>Pibbin</strong> appeared (mother dead, house burned, living in the shop). Zephyr was furious; <strong>Jimothy spent two high-level spells to retrieve Reginald.</strong> Zephyr threatened to remove Marianne from the party if it happened again. Jonathan used the Crown of Lies to look like Algar; the fight then began.</li>
 </ul>
+<button onclick="copySession(this)" style="margin-top:10px;padding:4px 10px;background:rgba(155,126,200,.15);border:1px solid var(--purple2);color:var(--purple2);border-radius:4px;cursor:pointer;font-size:.75rem">📋 Copy this session</button>
 </div></div>
 </div>
 <div class="collapsible">
@@ -2473,6 +2476,7 @@ tr:hover td{background:rgba(212,168,67,.04)}
 <li><strong>Kaelen</strong> plans route: Heroes' Garden → Market → Castle Waterdeep → find Laeren → attack Algar.</li>
 </ul>
 <p><strong>Key lore note:</strong> In the DFR, Algar (Akilles' true name) chose Vecna's power and became the Lich King of Waterdeep. Aldir fled to Icewind Dale and rules in exile from Hearthvault.</p>
+<button onclick="copySession(this)" style="margin-top:10px;padding:4px 10px;background:rgba(155,126,200,.15);border:1px solid var(--purple2);color:var(--purple2);border-radius:4px;cursor:pointer;font-size:.75rem">📋 Copy this session</button>
 </div></div>
 </div>
 </div>
@@ -2682,6 +2686,8 @@ const blob=new Blob([out],{type:'text/plain'});
 const a=document.createElement('a');a.href=URL.createObjectURL(blob);
 a.download='session-notes-'+new Date().toISOString().slice(0,10)+'.txt';a.click();
 }
+function copyNotes(){var t=document.getElementById('session-notes-area').value;if(!t.trim()){alert('No notes to copy.');return;}navigator.clipboard.writeText(t).then(function(){var b=document.getElementById('notes-saved');b.textContent='✓ Copied!';b.style.opacity='1';setTimeout(function(){b.style.opacity='0';b.textContent='✓ Saved';},1500);});}
+function copySession(btn){var inner=btn.closest('.collapsible-body-inner');if(!inner)return;var txt=inner.innerText;var lbl=btn.textContent;var k=txt.lastIndexOf(lbl);if(k>=0)txt=txt.slice(0,k);txt=txt.trim();navigator.clipboard.writeText(txt).then(function(){var o=btn.textContent;btn.textContent='✓ Copied!';setTimeout(function(){btn.textContent=o;},1200);});}
 // Session Notes Archive
 function getNotesHistory(){return JSON.parse(localStorage.getItem('dm-notes-history')||'[]')}
 function saveNotesHistory(h){localStorage.setItem('dm-notes-history',JSON.stringify(h))}
@@ -2704,7 +2710,7 @@ function renderNotesHistory(){
 const container=document.getElementById('notes-history-container');
 const history=getNotesHistory();
 if(!history.length){container.innerHTML='<p style="color:var(--text2);font-size:.85rem">No archived notes yet. Use "Archive to History" to save your current notes here.</p>';return}
-container.innerHTML=history.map((n,i)=>`<div class="collapsible"><div class="collapsible-header">${n.title} <span style="font-size:.75rem;color:var(--text2);margin-left:8px">${new Date(n.date).toLocaleDateString()}</span></div><div class="collapsible-body"><div class="collapsible-body-inner"><pre style="white-space:pre-wrap;font-family:'Kantumruy Pro',sans-serif;font-size:.85rem;line-height:1.6;color:var(--text)">${n.text.replace(/</g,'&lt;')}</pre><button onclick="deleteArchivedNote(${i})" style="margin-top:8px;padding:4px 10px;background:rgba(231,76,60,.15);border:1px solid var(--red);color:var(--red);border-radius:4px;cursor:pointer;font-size:.75rem">Delete</button></div></div></div>`).join('');
+container.innerHTML=history.map((n,i)=>`<div class="collapsible"><div class="collapsible-header">${n.title} <span style="font-size:.75rem;color:var(--text2);margin-left:8px">${new Date(n.date).toLocaleDateString()}</span></div><div class="collapsible-body"><div class="collapsible-body-inner"><pre style="white-space:pre-wrap;font-family:'Kantumruy Pro',sans-serif;font-size:.85rem;line-height:1.6;color:var(--text)">${n.text.replace(/</g,'&lt;')}</pre><button onclick="copySession(this)" style="margin-top:8px;margin-right:6px;padding:4px 10px;background:rgba(155,126,200,.15);border:1px solid var(--purple2);color:var(--purple2);border-radius:4px;cursor:pointer;font-size:.75rem">📋 Copy</button><button onclick="deleteArchivedNote(${i})" style="margin-top:8px;padding:4px 10px;background:rgba(231,76,60,.15);border:1px solid var(--red);color:var(--red);border-radius:4px;cursor:pointer;font-size:.75rem">Delete</button></div></div></div>`).join('');
 container.querySelectorAll('.collapsible-header').forEach(h=>{h.addEventListener('click',()=>h.parentElement.classList.toggle('open'))});
 }
 renderNotesHistory();
