@@ -19,6 +19,7 @@
 - **Bronte's Home** — the trap. An **antimagic device is hidden in the walls** (see below).
 - **Lady's College** — dark, abandoned. Atmosphere only.
 - **Moonbridge / Silver Chalice Tavern** — color; locals have seen Bronte walking toward the old shrine-warrens after dark.
+- **The Shrine Warrens** — an old, half-abandoned undercity quarter of small shrines and prayer-cells, from when Silverymoon openly honored many faiths; shuttered and forgotten under Vecna's suppression of worship. The local **Vecna cult cell nests here** (Silverymoon's mirror of Waterdeep's Undercroft). **Bronte slips here at night** to meet her handlers and take the cult's instructions — the source of her Geas — and the **Vecna Null and assassins were staged here** before being moved into her home. *Optional lead:* a suspicious party that **tails Bronte here** instead of walking into the reunion can catch the cult mid-planning and blow the trap open early (a reward for paranoia, and an alternate way into the fight).
 
 # The Reunion
 
