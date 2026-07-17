@@ -59,7 +59,7 @@ A device hidden in the walls can flood the house with an antimagic field — but
 
 - The **Vecna Null** is a hollow cultist-construct. It **projects the antimagic field** (it is the device) and **holds the leash** on Bronte's geas.
 - **While the Null lives:** the field is up, so the party can't break the geas with magic, and can't out-magic the fight.
-- **The failsafe (why Bronte almost certainly dies):** the instant the leash is cut — the Null dies, *or* Bronte breaks the geas, *or* she turns on the cult — Vecna's failsafe fires and Bronte takes **10d10 necrotic, no save.** The field drops at the same moment (magic returns next turn).
+- **The failsafe (why Bronte almost certainly dies):** the instant the leash is cut — the Null dies, *or* Bronte breaks the geas, *or* she turns on the cult — Vecna's failsafe fires and **Bronte is instantly reduced to 0 HP (no save)**, left dying; she can't be stabilized normally, and only **Greater Restoration, Regenerate, or comparable magic that same round** pulls her back. The field drops at the same moment (magic returns next turn).
 - So the thing they must do to free her (kill the Null) is the thing that kills her. They can try to save her in the window after, but between the ongoing fight and Marion, she dies in almost every line of play. *(Thin escape hatch: only savable if someone has a readied Greater Restoration / mass heal in the same round the Null dies and Marion is already secured.)*
 
 # The Trap Springs
@@ -134,7 +134,7 @@ Difficulty layering for an overpowered party:
 
 - **Null Field.** A 30-ft.-radius **antimagic field** (as the spell) surrounds the Null and fills the house. Spells and magic-item activations inside it fail. The Null is unaffected by its own field.
 - **Geas Warden.** While the Null lives, the geas on Bronte **cannot be removed.**
-- **Severance (failsafe).** When the Null drops to 0 HP — or if Bronte breaks the geas or turns on the cult — **Bronte takes 10d10 necrotic, no save.** The Null's field collapses at the same instant (magic returns next initiative count).
+- **Severance (failsafe).** When the Null drops to 0 HP — or if Bronte breaks the geas or turns on the cult — **Bronte is instantly reduced to 0 HP, no save** (left dying; only Greater Restoration / Regenerate-tier magic that same round saves her). The Null's field collapses at the same instant (magic returns next initiative count).
 
 **Actions**
 - **Multiattack.** Two *Nullifying Touch* attacks.
@@ -161,6 +161,31 @@ Difficulty layering for an overpowered party:
 - **Multiattack.** Two *Shortsword* or *Hand Crossbow* attacks.
 - **Shortsword.** *+7 to hit, reach 5 ft.* — 7 (1d6+4) piercing + 3 (1d6) necrotic.
 - **Hand Crossbow.** *+7 to hit, range 30/120 ft.* — 7 (1d6+4) piercing, plus Sneak Attack if eligible.
+
+---
+
+**Bronte Bonhomme — Grief-Bound (Cult-Compelled)**
+*Medium humanoid (human), neutral (under compulsion) — Marianne's wife, a former agent hollowed by grief and bound by Vecna's Geas.*
+**AC** 15 (studded leather) · **HP** 110 (17d8+34) · **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+|---|---|---|---|---|---|
+| 11 (+0) | 16 (+3) | 15 (+2) | 12 (+1) | 10 (+0) | 14 (+2) |
+
+**Saves** Dex +6, Wis +3 · **Skills** Deception +5, Insight +3, Perception +3, Stealth +6 · **CR** 7 · **Ability save DC 15**
+
+- **Geas-Bound.** While the Vecna Null lives, she can't willingly flee or aid the party — she acts as the cult commands. Break the Geas (*Remove Curse / Greater Restoration*) and she chooses her own actions for as long as she lives.
+- **The Failsafe.** When the Null drops to 0 HP — or she breaks the Geas / turns on the cult — **Bronte is instantly reduced to 0 HP, no save**, and left dying; she can't be stabilized normally, and only **Greater Restoration, Regenerate, or comparable magic that same round** saves her.
+
+**Actions**
+- **Multiattack.** Two Rapier attacks, or one save-forcing ability and one attack.
+- **Rapier.** *+6 to hit, reach 5 ft.* — 7 (1d8+3) piercing + 7 (2d6) necrotic.
+- **Hand Crossbow.** *+6 to hit, 30/120 ft.* — 6 (1d6+3) piercing.
+- **Wail of What Was Lost (recharge 5–6).** Each creature of her choice within 30 ft. that can hear her makes a **DC 15 Wisdom save** — fail: 22 (5d8) psychic and **frightened of Bronte** until the end of its next turn; success: half, not frightened. **Marianne has disadvantage.**
+- **Binding Grip (recharge 6).** One creature within 5 ft. makes a **DC 15 Strength save** or is **grappled and restrained** (escape DC 15) while she clings on — the assassins have **advantage** vs. the restrained target.
+
+**Reaction**
+- **Cult's Compulsion.** When a creature moves to reach **Marion or the Null**, Bronte moves up to her speed to interpose.
 
 ---
 

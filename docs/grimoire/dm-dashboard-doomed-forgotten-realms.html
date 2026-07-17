@@ -1333,7 +1333,7 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <ul>
 <li>The <strong>Vecna Null</strong> projects the antimagic field (it's the device) and <strong>holds the leash</strong> on Bronte's geas.</li>
 <li><strong>While the Null lives:</strong> the field is up — the party can't break the geas with magic, and can't out-magic the fight.</li>
-<li><strong>The failsafe (why she dies):</strong> the instant the leash is cut — Null dies, or Bronte breaks the geas, or turns on the cult — <strong>Bronte takes 10d10 necrotic, no save.</strong> The field drops at the same moment.</li>
+<li><strong>The failsafe (why she dies):</strong> the instant the leash is cut — Null dies, or Bronte breaks the geas, or turns on the cult — <strong>Bronte is instantly reduced to 0 HP, no save</strong> (dying; only Greater Restoration/Regenerate-tier magic that same round saves her). The field drops at the same moment.</li>
 <li>So the thing they must do to free her (kill the Null) is the thing that kills her. A too-late window remains while they're still fighting and shielding Marion. <em>(Thin save: only if someone has a readied Greater Restoration the same round the Null dies and Marion is secured.)</em></li>
 </ul>
 </div>
@@ -1413,7 +1413,7 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <div class="section-header">Traits</div>
 <p><strong>Null Field.</strong> 30-ft. <strong>antimagic field</strong> (as the spell) fills the house; spells &amp; magic items inside fail. The Null is unaffected by its own field.</p>
 <p><strong>Geas Warden.</strong> While the Null lives, Bronte's geas can't be removed.</p>
-<p><strong>Severance (failsafe).</strong> When the Null hits 0 HP — or Bronte breaks the geas / turns on the cult — <strong>Bronte takes 10d10 necrotic, no save.</strong> The field collapses at the same instant.</p>
+<p><strong>Severance (failsafe).</strong> When the Null hits 0 HP — or Bronte breaks the geas / turns on the cult — <strong>Bronte is instantly reduced to 0 HP, no save</strong> (dying; only Greater Restoration/Regenerate-tier magic that same round saves her). The field collapses at the same instant.</p>
 <div class="section-header">Actions</div>
 <p><strong>Multiattack.</strong> Two Nullifying Touch attacks.</p>
 <p><strong>Nullifying Touch.</strong> <em>+6 to hit, reach 5 ft.</em> — 13 (3d6+2) necrotic; target can't regain HP until end of its next turn.</p>
@@ -1439,6 +1439,30 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <p><strong>Multiattack.</strong> Two Shortsword or Hand Crossbow attacks.</p>
 <p><strong>Shortsword.</strong> <em>+7, reach 5 ft.</em> — 7 (1d6+4) piercing + 3 (1d6) necrotic.</p>
 <p><strong>Hand Crossbow.</strong> <em>+7, range 30/120 ft.</em> — 7 (1d6+4) piercing, + Sneak Attack if eligible.</p>
+</div>
+
+<div class="stat-block">
+<div class="name">Bronte Bonhomme — Grief-Bound (Cult-Compelled)</div>
+<div class="type">Medium humanoid (human), neutral (under compulsion) — Marianne's wife, a former agent hollowed by grief and bound by Vecna's Geas</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 15</span><span><span class="label">HP</span> 110 (17d8+34)</span><span><span class="label">Speed</span> 30 ft.</span></div>
+<table class="ability-table">
+<tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td>11 (+0)</td><td>16 (+3)</td><td>15 (+2)</td><td>12 (+1)</td><td>10 (+0)</td><td>14 (+2)</td></tr>
+</table>
+<hr>
+<div class="stat-row"><span><span class="label">Saves</span> Dex +6, Wis +3</span><span><span class="label">CR</span> 7</span><span><span class="label">Save DC</span> 15</span></div>
+<div class="section-header">Traits</div>
+<p><strong>Geas-Bound.</strong> While the Vecna Null lives, she can't willingly flee or aid the party — she acts as the cult commands. Break the Geas (Remove Curse/Greater Restoration) and she chooses her own actions for as long as she lives.</p>
+<p><strong>The Failsafe.</strong> When the Null drops to 0 HP — or she breaks the Geas/turns on the cult — <strong>Bronte is instantly reduced to 0 HP, no save</strong>, and left dying; she can't be stabilized normally, and only <strong>Greater Restoration, Regenerate, or comparable magic that same round</strong> saves her.</p>
+<div class="section-header">Actions</div>
+<p><strong>Multiattack.</strong> Two Rapier attacks, or one save-forcing ability + one attack.</p>
+<p><strong>Rapier.</strong> <em>+6 to hit, reach 5 ft.</em> — 7 (1d8+3) piercing + 7 (2d6) necrotic.</p>
+<p><strong>Hand Crossbow.</strong> <em>+6 to hit, 30/120 ft.</em> — 6 (1d6+3) piercing.</p>
+<p><strong>Wail of What Was Lost (recharge 5–6).</strong> Each creature of her choice within 30 ft. that can hear her makes a <strong>DC 15 WIS save</strong> — fail: 22 (5d8) psychic + <em>frightened of Bronte</em> to end of its next turn; success: half, not frightened. <strong>Marianne has disadvantage.</strong></p>
+<p><strong>Binding Grip (recharge 6).</strong> One creature within 5 ft. makes a <strong>DC 15 STR save</strong> or is <em>grappled &amp; restrained</em> (escape DC 15) — the assassins have advantage vs. the restrained target.</p>
+<div class="section-header">Reaction</div>
+<p><strong>Cult's Compulsion.</strong> When a creature moves to reach <strong>Marion or the Null</strong>, Bronte moves up to her speed to interpose.</p>
 </div>
 
 <div class="card">
@@ -2696,9 +2720,9 @@ function setDeathSave(i,type,n,checked){
 if(type==='success')initList[i].deathSuccess=checked?n:n-1;
 else initList[i].deathFail=checked?n:n-1;
 }
-const _SB_NULL='AC 16 · HP 150 · <strong>Null Field</strong>: 30-ft antimagic (the device). <strong>Geas Warden</strong>: the geas cannot be removed while it lives. <strong>Severance</strong>: at 0 HP, Bronte takes 10d10 necrotic (no save). <strong>Nullifying Touch</strong> +6 ×2 (3d6+2 necrotic, no heal). <strong>Hollow Word</strong> (rech 5–6): 15 ft, DC 15 WIS or stunned.';
+const _SB_NULL='AC 16 · HP 150 · <strong>Null Field</strong>: 30-ft antimagic (the device). <strong>Geas Warden</strong>: the geas cannot be removed while it lives. <strong>Severance</strong>: at 0 HP, Bronte drops to <strong>0 HP</strong> (no save; only Greater Restoration/Regenerate-tier healing that round saves her). <strong>Nullifying Touch</strong> +6 ×2 (3d6+2 necrotic, no heal). <strong>Hollow Word</strong> (rech 5–6): 15 ft, DC 15 WIS or stunned.';
 const _SB_ASSASSIN='AC 16 · HP 78 · <strong>Assassinate</strong> (adv vs. anyone who has not acted; crit on surprised). <strong>Sneak Attack</strong> +14 (4d6). <strong>Shortsword</strong> +7 ×2 (1d6+4 +1d6 necrotic) / <strong>Hand Crossbow</strong> +7. Fights behind Marion/Bronte.';
-const _SB_BRONTE='Geas-bound noncombatant (AC 12). Cannot help or flee. Dies to the Null Severance (10d10 necrotic) the instant the Null falls.';
+const _SB_BRONTE='AC 15 · HP 110 · CR 7 · save DC 15. <strong>Geas-Bound</strong>: cannot flee or aid the party while the Null lives. <strong>Failsafe</strong>: when the Null falls (or she breaks free) she drops to <strong>0 HP, no save</strong> — only Greater Restoration/Regenerate-tier healing that round saves her. <strong>Rapier</strong> +6 ×2 (1d8+3 +2d6 necrotic). <strong>Wail of What Was Lost</strong> (rech 5–6): 30 ft, DC 15 WIS, 5d8 psychic + frightened (Marianne: disadvantage). <strong>Binding Grip</strong> (rech 6): DC 15 STR or grappled/restrained (assassins get advantage).';
 const _SB_MARION='Frightened child, age 11 (AC 10). Not under magic. Protect — no AoE.';
 const _SB_KNIGHT='AC 18 · HP 207 · CR 14 · <strong>Out of Time</strong>: acts on count 20 and 10 (two turns/round); cannot be surprised. <strong>Rewind</strong> (1/short rest): first time at 0 HP, drops to half max instead. <strong>Frostbound Greatsword</strong> +11 ×2 (2d10+5 +2d8 cold, speed halved). <strong>Stilling Gaze</strong> (rech 5–6): DC 17 WIS or paralyzed.';
 const _SB_WARDEN='AC 18 · HP 264 · CR 17 · Imm necrotic/poison; Res cold, fire, nonmagical B/P/S. <strong>Slam</strong> +13 ×2 (3d10+7 +2d8 necrotic, no heal), reach 15. <strong>Call the Fallen</strong> (rech 5–6): raise 1d4+1 wights. <strong>Grave Wind</strong> (1/day): 60-ft cone, DC 17 CON, 10d8 cold + max-HP reduction. Tovag mists: no one regains HP.';
@@ -2719,7 +2743,7 @@ initList=[
 {name:'Assassin 2',init:0,hp:78,maxHp:78,ac:16,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_ASSASSIN},
 {name:'Assassin 3',init:0,hp:78,maxHp:78,ac:16,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_ASSASSIN},
 {name:'Assassin 4',init:0,hp:78,maxHp:78,ac:16,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_ASSASSIN},
-{name:'Bronte (geas-bound — Null failsafe kills her)',init:0,hp:40,maxHp:40,ac:12,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_BRONTE},
+{name:'Bronte (geas-bound — failsafe drops her to 0)',init:0,hp:110,maxHp:110,ac:15,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_BRONTE},
 {name:'Marion (child — protect, no AoE)',init:0,hp:12,maxHp:12,ac:10,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_MARION},
 ...pcs
 ];
