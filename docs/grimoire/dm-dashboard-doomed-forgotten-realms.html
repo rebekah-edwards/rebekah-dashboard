@@ -111,6 +111,12 @@ small{color:var(--text2)}
 .stat-block .ability-table td{text-align:center;padding:4px 6px;font-size:.85rem}
 .stat-block .ability-table .sub-header{font-size:.6rem;color:var(--text2);font-weight:600;letter-spacing:.05em}
 .stat-block .section-header{font-family:var(--sans);font-size:.72rem;color:var(--bronze2);font-weight:700;margin:12px 0 4px;letter-spacing:.14em;text-transform:uppercase;border-bottom:1px solid var(--line);padding-bottom:3px}
+/* published-monster blocks (D&D Beyond links) */
+.stat-block .name a{color:var(--gold2);text-decoration:none;border-bottom:1px solid var(--line-gold)}
+.stat-block .name a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+.mon-verdict{border:1px dashed var(--line-gold);background:color-mix(in srgb,var(--gold) 5%,var(--surface));border-radius:9px;padding:12px 15px;margin:12px 0;font-size:.92rem}
+.mon-verdict b:first-child{display:block;font-family:var(--sans);font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);margin-bottom:4px}
+.mon-super{font-size:.82rem;color:var(--text2);border-left:3px solid var(--line);padding-left:10px;margin:14px 0 6px}
 /* ---------- party grid ---------- */
 .party-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin:12px 0}
 .pc-card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;position:relative}
@@ -173,7 +179,7 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 .npc-link:hover{color:var(--pink);text-decoration:underline}
 #menu-toggle{display:none;position:fixed;top:10px;left:10px;z-index:200;background:var(--bg2);border:1px solid var(--line);color:var(--gold);padding:8px 12px;border-radius:8px;cursor:pointer;font-size:1.1rem}
 @media(max-width:768px){#sidebar{transform:translateX(-100%)}#sidebar.open{transform:translateX(0)}#menu-toggle{display:block}#main{margin-left:0;padding:60px 16px 60px}.party-grid{grid-template-columns:1fr}.dm-ref-grid{grid-template-columns:1fr}}
-@media print{#sidebar,#menu-toggle,.controls{display:none!important}#main{margin-left:0;max-width:100%}.page{display:block!important;page-break-after:always}.collapsible-body{max-height:none!important}body{background:#fff;color:#000}.card,.stat-block,.pc-card,.dm-secret-card{border-color:#bbb;background:#fff}h2,h3,h4,.stat-block .name,.stat-block .label{color:#111}h2::after{background:#999}}
+@media print{#sidebar,#menu-toggle,.controls{display:none!important}#main{margin-left:0;max-width:100%}.page{display:block!important;page-break-after:always}.collapsible-body{max-height:none!important}body{background:#fff;color:#000}.card,.stat-block,.pc-card,.dm-secret-card{border-color:#bbb;background:#fff}h2,h3,h4,.stat-block .name,.stat-block .label{color:#111}h2::after{background:#999}.mon-verdict{border-color:#999;background:#fff}.stat-block .name a{color:#111}}
 </style>
 </head>
 <body>
@@ -553,7 +559,7 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <div class="collapsible">
 <div class="collapsible-header">⚔️ The Lone Guardian (only if they brute-force)</div>
 <div class="collapsible-body"><div class="collapsible-body-inner">
-<p><strong>Not an ambush</strong> — a consequence of forcing the Choir or the urn. One Sentinel, maybe a pair of <a href="https://www.dndbeyond.com/monsters/16949-wight" target="_blank" class="npc-link">wights</a>; they sink back to stillness if the party disengages and works the puzzle. The Choir is antimagic — steel and grit only.</p>
+<p><strong>Not an ambush</strong> — a consequence of forcing the Choir or the urn. One Sentinel, maybe a pair of <a href="https://www.dndbeyond.com/monsters/5195269-wight" target="_blank" rel="noopener" class="npc-link">wights</a> <em style="font-size:.85rem;color:var(--text2)">(2024 block — AC 14, HP 82, not the 2014 block's 45)</em>; they sink back to stillness if the party disengages and works the puzzle. The Choir is antimagic — steel and grit only.</p>
 <div class="stat-block">
 <div class="name">Sentinel of the Ended Kings</div>
 <div class="type">Medium undead, lawful evil — a crowned husk in corroded regalia</div>
@@ -586,6 +592,7 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <div class="card highlight">
 <h4>Running This Chapter</h4>
 <p>The party reaches for the fifth piece, but <strong>Find the Path won't resolve</strong> — it points everywhere at once. The piece sits in <strong>Prismeer</strong>, a Feywild domain the <strong>Hourglass Coven</strong> shattered into three splinter-realms (Hither / Thither / Yon) and which, in the DFR, was <strong>never repaired.</strong> Its archfey, <strong>Zybilna</strong>, is <strong>frozen in time</strong> in her palace at the center. While she's frozen, the path stays scrambled. The rod drags the party to the one point where the three shards still touch — <strong>the palace gates.</strong> From there, the chapter is the palace.</p>
+<p style="font-size:.85rem;color:var(--text2)"><strong>📕 Stat blocks:</strong> every fight below is matched to a real published block (2024 MM by default; MPMM / Bigby's / ToA where 2024 has no equivalent), embedded in its keyed area with a live D&amp;D Beyond link. Full write-up: <a href="https://claude.ai/code/artifact/281d5c6c-9eea-45cd-9fb6-7bccfcf5d51e" target="_blank" rel="noopener">Frost &amp; Ash Bestiary</a>.</p>
 <p style="font-size:.85rem;color:var(--text2)"><em>RAW aside: Find the Path routes to fixed locations, not objects — so this is the Rod's pull, not the spell finding the piece. The spell itself loops because the palace folds space (the fixed-location requirement fails). This is intentional, not a fudge — say so if asked.</em></p>
 </div>
 
@@ -698,6 +705,38 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <p><strong>How it behaves:</strong> it does <em>not</em> want a fight — it wants to smear a memory and slink back into a frame. It strikes once, then flees to the nearest portrait unless cornered. <strong>Difficulty lever</strong> (this party will one-shot a lone specter): if attacked, on its death it <strong>splits into two flat halves</strong> that each act once more before dissolving — and every portrait in the room "flinches," any character who looks around makes the DC 18 save again. So the fight is a spreading nuisance, not a slugfest.</p>
 <p><strong>Ending it cleanly:</strong> avert eyes and keep walking (they always reach H4), destroy the moving Coven-portrait (all grudges freeze), or leave the gallery — the Grudges can't follow past the threshold.</p>
 </div>
+<h4>📕 Published stat blocks — H3</h4>
+<p style="font-size:.82rem;color:var(--text2);margin-bottom:8px">At-a-glance numbers for running the fight. <strong>Tap a monster name</strong> to open its full entry on D&amp;D Beyond in a new tab (your dashboard state is preserved).</p>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195210-specter" target="_blank" rel="noopener">Specter</a></div>
+<div class="type">Monster Manual 2024 · CR 1 — run as: the Painted Grudge</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 12</span><span><span class="label">HP</span> 22</span></div>
+<p><strong>Life Drain</strong> +4, 7 (2d6) necrotic, target's HP max drops. Fly 50 ft (hover), incorporeal. Resists all B/P/S + acid, cold, fire, lightning, thunder.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5174960-wraith" target="_blank" rel="noopener">Wraith</a></div>
+<div class="type">Monster Manual 2024 · CR 5</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 13</span><span><span class="label">HP</span> 67</span></div>
+<p><strong>Life Drain</strong> +6, 21 (4d8+3) necrotic, HP max drops. <strong>Create Specter</strong> on a fresh corpse. Harder version — use as the moving Coven-portrait.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195200-shadow-demon" target="_blank" rel="noopener">Shadow Demon</a></div>
+<div class="type">Monster Manual 2024 · CR 4</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 14</span><span><span class="label">HP</span> 66</span></div>
+<p><strong>Umbral Claw</strong> +5, 16 (3d8+3) <strong>psychic</strong>. Incorporeal, hides in dim light, vulnerable to radiant. Use if the Grudge should be a <em>thing wearing a face</em> rather than a ghost — and note psychic sidesteps the party's resistances.</p>
+</div>
+<div class="mon-verdict"><b>Use</b> <strong>Specter</strong> as printed, keeping your <strong>Framed</strong> trait (can't move more than 30 ft from a portrait) in place of Sunlight Sensitivity. Drop Sunlight Sensitivity entirely — there is no sun in the palace. <em>(Initiative preset: <strong>Load: Gallery</strong>.)</em></div>
+<div class="card">
+<h4>Make it matter at level 15</h4>
+<ul>
+<li>One specter is a free kill. Run <strong>five</strong> — one per portrait you described, each Framed to its own frame, so they can never be focused down in a single space.</li>
+<li>Your split-on-death rule is good; extend it so each half is a fresh specter with <strong>11 HP</strong> that flees on its turn. The party has to <em>chase</em> to end it, and every look-around re-triggers the DC 18 memory save.</li>
+<li>Hard version: swap in the <strong>Wraith</strong> as the moving Coven-portrait and let it Create Specter off any downed NPC — the gallery then generates its own reinforcements.</li>
+</ul>
+</div>
 </div></div>
 </div>
 
@@ -723,6 +762,20 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <p><strong>Failure = the vision takes hold:</strong> the character is <strong>Charmed by the room</strong> — they won't voluntarily leave and take no action against it. They <em>linger</em>. At the start of their next turn still lingering, the desire hardens into a <strong>Heart's Shadow</strong> (⚔️ Combat #1): a hostile mirror of the PC at <strong>half their HP</strong>, using their own stats. While the Shadow lives, the charmed PC is <strong>incapacitated</strong> (lost in the dream).</p>
 <p><strong>Breaking free:</strong> defeat the Shadow, <em>or</em> an ally reaches them — an action plus a <strong>DC 15 Charisma (Persuasion)</strong> to call them back, or bodily dragging them out (contested Strength; the charmed PC resists the first time). Either ends the charm and the Shadow collapses.</p>
 <p><strong>The real danger:</strong> if the <em>whole party</em> fails and no one breaks free, the palace simply <strong>keeps them</strong> — a soft TPK by contentment. This, not monsters, is the chapter's actual threat. Make sure at least one save or ally-pull lands early so they feel how it works.</p>
+</div>
+<h4>📕 Stat block — H4</h4>
+<div class="card">
+<p><strong>No published block, and none should substitute.</strong> A Heart's Shadow is the PC's own sheet at half HP — that's the whole horror of it, and any printed monster makes it generic. Photocopy the character sheet, halve the HP, done.</p>
+<p style="font-size:.85rem;color:var(--text2)">Party HP for the mirrors: Akilles 110 → <strong>55</strong> · Olaf 101 → <strong>51</strong> · Jimothy 175 → <strong>88</strong> · Marianne 125 → <strong>63</strong> · Zephyr 167 → <strong>84</strong>. ACs unchanged (15/18/20/18/19).</p>
+</div>
+<div class="mon-verdict"><b>Use</b><strong>Ruling to have ready:</strong> the Shadow gets the PC's <em>attacks and AC</em> but <strong>not</strong> their consumables, charges, or attunement slots — otherwise Akilles' Shadow fires his magic bow and Marianne's Shadow has a full spell list. Say this <em>before</em> initiative so nobody argues mid-fight.</div>
+<div class="card">
+<h4>Make it matter at level 15</h4>
+<ul>
+<li>The Shadow acts on the charmed PC's initiative and <em>the charmed PC is incapacitated</em> — so every Shadow is a net −1 party action <em>plus</em> a full extra enemy turn. Two Shadows swings the action economy by four. That is the pressure; you don't need to buff the Shadows.</li>
+<li>Give the Shadow one thing the PC doesn't have: it can't be <strong>Charmed or Frightened</strong>, and it ignores difficult terrain. Small, and it stops the party from crowd-controlling their own mirror.</li>
+<li>If Zephyr fails, his Shadow is the version that took the Raven Queen's leash off. Play it as <em>tempting</em>, not snarling — it talks while it fights.</li>
+</ul>
 </div>
 </div></div>
 </div>
@@ -751,6 +804,39 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <p><strong>Tactics:</strong> Redcaps dive for whoever's isolated in a lane; Thornlings body-block and grapple to keep the party in the thorns for the wall-lash.</p>
 <p><strong>Reward:</strong> a <strong>Briar-Crown</strong> (fey trinket, 40 gp) and 3× <strong>heart-plums</strong> (heal 5 each — <em>giving them away</em> can count toward the H11 green seal).</p>
 </div>
+<h4>📕 Published stat blocks — H5</h4>
+<p style="font-size:.82rem;color:var(--text2);margin-bottom:8px">At-a-glance numbers for running the fight. <strong>Tap a monster name</strong> to open its full entry on D&amp;D Beyond in a new tab (your dashboard state is preserved).</p>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/17300-redcap" target="_blank" rel="noopener">Redcap</a></div>
+<div class="type">Monsters of the Multiverse · CR 3 — run as: Ashen Redcap</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 14</span><span><span class="label">HP</span> 45</span></div>
+<p>Three sickle attacks, +6 to hit, 9 (2d4+4) slashing each. <strong>Ironbound Pursuit</strong>: move full speed and kick — DC 14 DEX or 20 (3d10+4) bludgeoning + prone.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195242-twig-blight" target="_blank" rel="noopener">Twig Blight</a></div>
+<div class="type">Monster Manual 2024 · CR ⅛ — run as: Thornling</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 14</span><span><span class="label">HP</span> 7</span></div>
+<p>Claw +4, 4 (1d4+2). <strong>Pack Tactics.</strong> <strong>Vulnerable to fire.</strong> Blindsight 60 ft.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/2560722-annis-hag" target="_blank" rel="noopener">Annis Hag</a></div>
+<div class="type">Monsters of the Multiverse · CR 6</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 17</span><span><span class="label">HP</span> 90</span></div>
+<p>Bite + two claws at +8, 15 each. <strong>Crushing Hug</strong> +8, 36 (9d6+5) and grappled (escape DC 15). Optional briar-matron — and a live Hourglass Coven foreshadow.</p>
+</div>
+<div class="mon-verdict"><b>Use</b> <strong>Redcap</strong> as printed (it hits harder than the homebrew and brings a charge attack), plus your <strong>+1d6 necrotic</strong> on the sickle so it slips past the party's physical resistances. <strong>Twig Blight</strong> as printed for Thornlings — keep the fire vulnerability; it makes your regrowing-briar rule a real decision instead of a tax.</div>
+<div class="card">
+<h4>Make it matter at level 15</h4>
+<ul>
+<li>Four Redcaps is a speed bump. Open with <strong>six</strong>, and run the second wave as a <em>standing rule</em> rather than a contingency: the arch bleeds two more Redcaps at the top of every round until a PC spends an action tearing the briars out of it. That converts a damage race into an objective.</li>
+<li><strong>Ironbound Pursuit is your isolation tool</strong> — Redcaps should knock people prone <em>into</em> hedge-adjacent squares so the DC 14 lashing-wall save fires at their turn end. Stack the two.</li>
+<li>Add one <strong>Annis Hag</strong> as the garden's keeper if the fight needs a face. She grapples the party's biggest damage dealer at DC 15 and drags them down a lane while the Redcaps swarm.</li>
+<li>Twig Blights should <em>never</em> attack — they grapple and body-block. Six holding lanes is worth more than six dealing 4 damage.</li>
+</ul>
+</div>
 </div></div>
 </div>
 
@@ -768,6 +854,23 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <li>If robbed: it shrieks, the shelves <strong>avalanche</strong> (DC 15 DEX save, 3d6 bludgeoning, buried/restrained on a fail) and it flees with a grudge (small H11 penalty — "the palace remembers").</li>
 <li>Talking birds are fun: give it a voice — greedy, delighted, oddly wise. It can drop a real clue: <em>"The lady upstairs is only stuck because she wouldn't take a bad bargain. Funny, that."</em> (foreshadows H8/H11).</li>
 </ul>
+<h4>📕 Published stat blocks — H6 — only if provoked</h4>
+<p style="font-size:.82rem;color:var(--text2);margin-bottom:8px">At-a-glance numbers for running the fight. <strong>Tap a monster name</strong> to open its full entry on D&amp;D Beyond in a new tab (your dashboard state is preserved).</p>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5194991-faerie-dragon-adult" target="_blank" rel="noopener">Faerie Dragon (Adult)</a></div>
+<div class="type">Monster Manual 2024 · CR 2 — run as: the Magpie</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 15</span><span><span class="label">HP</span> 35</span></div>
+<p>Bonus-action <em>greater invisibility</em> on itself. <strong>Euphoria Breath</strong> (DC 13 WIS, 15-ft cone, incapacitated). Magic Resistance, fly 60 ft. A haggler that can vanish mid-sentence and is impossible to corner — exactly the Magpie's escape clause.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/4830980-blink-dog" target="_blank" rel="noopener">Blink Dog</a></div>
+<div class="type">Monster Manual 2024 · CR ¼</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 13</span><span><span class="label">HP</span> 22</span></div>
+<p>Bonus-action teleport 40 ft (recharge 4–6). Simpler option if you only need "it gets away."</p>
+</div>
+<div class="mon-verdict"><b>Use</b> <strong>Faerie Dragon (Adult)</strong>, reskinned as a dog-sized corvid. <strong>Never roll initiative for it</strong> — if the party robs it, it shrieks, triggers your DC 15 shelf-avalanche, turns invisible and is gone. A dead Magpie costs them the green seal's easy key; a <em>furious</em> Magpie is a better scene.</div>
 </div>
 <h4>The Shelf-Toll (trap)</h4>
 <div class="card">
@@ -804,6 +907,46 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 </ul>
 <p><strong>Resolution:</strong> she can be <em>fought</em> or <em>refused</em> — telling her the children are gone and the war is over (a DC 18 CHA (Persuasion), or genuine roleplay) unmakes her, since she's only an echo of grief. That's the kinder, harder-to-find solution — reward it.</p>
 </div>
+<h4>📕 Published stat blocks — H7</h4>
+<p style="font-size:.82rem;color:var(--text2);margin-bottom:8px">At-a-glance numbers for running the fight. <strong>Tap a monster name</strong> to open its full entry on D&amp;D Beyond in a new tab (your dashboard state is preserved).</p>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/2560722-annis-hag" target="_blank" rel="noopener">Annis Hag</a></div>
+<div class="type">Monsters of the Multiverse · CR 6 — run as: the Nanny</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 17</span><span><span class="label">HP</span> 90</span></div>
+<p>Bite +8 for 15, two Claws +8 for 15. <strong>Crushing Hug</strong> +8, 36 (9d6+5) + grapple (escape DC 15). Resists cold. 3/day <em>disguise self</em>, <em>fog cloud</em>.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195057-green-hag" target="_blank" rel="noopener">Green Hag</a></div>
+<div class="type">Monster Manual 2024 · CR 3</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 17</span><span><span class="label">HP</span> 82</span></div>
+<p>Two Claws +6, 8 slashing + 3 poison. Mimicry. <strong>Coven Magic</strong> when within 30 ft of two hag allies. Wrong pick solo — the party deletes her in one round.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5194893-animated-armor" target="_blank" rel="noopener">Animated Armor</a></div>
+<div class="type">Monster Manual 2024 · CR 1 — run as: wind-up soldier</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 18</span><span><span class="label">HP</span> 33</span></div>
+<p>Two Slams +4, 5 each. Immune to poison, psychic, charmed, frightened, paralyzed.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195224-swarm-of-insects" target="_blank" rel="noopener">Swarm of Insects</a></div>
+<div class="type">Monster Manual 2024 · CR ½ — run as: needle-tooth dolls</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 11</span><span><span class="label">HP</span> 19</span></div>
+<p>Bites +3, 6 (2d4+1) poison. Occupies other creatures' spaces; resists B/P/S.</p>
+</div>
+<div class="mon-verdict"><b>Use</b> <strong>Annis Hag</strong> as the Nanny. Keep your homebrew <strong>Lullaby</strong> (recharge 5–6, 20 ft, DC 16 WIS or incapacitated) bolted on — it has no printed equivalent and it's the only thing in this chapter that punishes a party trusting its hit-point totals.</div>
+<div class="card">
+<h4>Make it matter at level 15</h4>
+<ul>
+<li>Your "one broken toy animates per turn" trait is the whole fight. <strong>Alternate Animated Armor and Swarm of Insects</strong> so the party can't tune one answer — the armor is immune to psychic and charm, the swarm resists weapons.</li>
+<li><strong>Crushing Hug + Lullaby</strong> is a nasty two-turn combo: grapple someone at DC 15, then incapacitate the rescuers. Use it once, deliberately.</li>
+<li>The songbird is a <strong>5 HP object with AC 12</strong> in the middle of the room. Have the Nanny take one attack a round against <em>it</em> instead of a PC — it converts "which of us takes 15 damage" into "who steps between," and it decides the brown seal at H11.</li>
+<li>Harder version: run <strong>three Green Hags as an actual coven</strong> — the Hourglass Coven, in person — and Coven Magic goes live. CR 3 × 3 that plays like CR 9, and it turns Tib's secret into something the party has already met.</li>
+</ul>
+</div>
 </div></div>
 </div>
 
@@ -812,6 +955,16 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <div class="collapsible-body"><div class="collapsible-body-inner">
 <div class="card read-aloud">This dead-end isn't one — the wall keeps almost-being a door. A satyr in faded jester's motley sits against it, and he flickers: here, then gone, then here, like a candle in a draft. When he sees you, he laughs, and it is the saddest sound you've heard.</div>
 <p><strong>Tib Tatterglass</strong>, Zybilna's court-jester, caught at the edge of the freeze and slowly fading. Loyal, lonely, mischievous, terrified. He witnessed the breaking and holds <strong>Secret #1</strong>. Everything comes at a <strong>Feywild bargain</strong>.</p>
+<h4>📕 Published stat blocks — H8 — he will not fight, but the party might</h4>
+<p style="font-size:.82rem;color:var(--text2);margin-bottom:8px">At-a-glance numbers for running the fight. <strong>Tap a monster name</strong> to open its full entry on D&amp;D Beyond in a new tab (your dashboard state is preserved).</p>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195195-satyr" target="_blank" rel="noopener">Satyr</a></div>
+<div class="type">Monster Manual 2024 · CR ½ — run as: Tib Tatterglass</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 13</span><span><span class="label">HP</span> 31</span></div>
+<p>Magic Resistance. Hooves +5, 5 damage + push. <strong>Mockery</strong>, DC 12 WIS, 5 psychic. Use only if someone swings at him.</p>
+</div>
+<div class="mon-verdict"><b>Use</b> <strong>Ruling:</strong> Tib is <em>half-faded</em>. Give him <strong>resistance to all damage</strong> and let any hit pass through him with a flicker — he <strong>can't be killed</strong>, only made to stop talking. The party should feel that hurting him costs them the violet seal, not hit points.</div>
 <p><strong>Prices (locked):</strong></p>
 <ul>
 <li><strong>Directions / shortcut:</strong> one <strong>happy memory of home</strong> per character helped (the payer permanently loses that memory).</li>
@@ -854,8 +1007,58 @@ Tib pulls his knees up and the motley-bells don't ring — they're frozen too. "
 <li>If they still trivialize it: the door itself is a <strong>third "combatant"</strong> — it heals the Knight 20 HP at the top of each round until a PC spends an action bracing it shut (a soft objective that splits their focus).</li>
 </ul>
 </div>
+<h4>📕 Published stat blocks — H9</h4>
+<p style="font-size:.82rem;color:var(--text2);margin-bottom:8px">At-a-glance numbers for running the fight. <strong>Tap a monster name</strong> to open its full entry on D&amp;D Beyond in a new tab (your dashboard state is preserved).</p>
+<p style="font-size:.85rem;color:var(--text2);margin-bottom:8px">Your homebrew sat at CR 14 / 207 HP with a two-turns-per-round trait. The printed <strong>Death Knight</strong> does the same job with real math: legendary actions <em>are</em> "acts on count 20 and count 10," and Legendary Resistance is what stops a level-15 party ending the fight with one save-or-suck.</p>
 <div class="stat-block">
-<div class="name">Hour-Frozen Knight</div>
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5194963-death-knight" target="_blank" rel="noopener">Death Knight</a></div>
+<div class="type">Monster Manual 2024 · CR 17 — run as: the Hour-Frozen Knight</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 20</span><span><span class="label">HP</span> 199</span></div>
+<p>Three <strong>Dread Blades</strong> +11, 12 slashing + 13 necrotic each. <strong>Hellfire Orb</strong> (rech 5–6), DC 18 DEX, 20-ft sphere. <strong>Legendary Resistance 3/day.</strong> <strong>Parry</strong> reaction, +6 AC. 3 legendary actions: Lunge, Fell Word (DC 18 CON, 17 necrotic), Dread Authority.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5194962-death-knight-aspirant" target="_blank" rel="noopener">Death Knight Aspirant</a></div>
+<div class="type">Monster Manual 2024 · CR 11</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 20</span><span><span class="label">HP</span> 178</span></div>
+<p>Three Dread Blades +9, 14 slashing + 10 necrotic. Hellfire Orb DC 15. Parry +4. No legendary actions. Use if you want H9 over in three rounds.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/2560745-boneclaw" target="_blank" rel="noopener">Boneclaw</a></div>
+<div class="type">Monsters of the Multiverse · CR 12</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 16</span><span><span class="label">HP</span> 150</span></div>
+<p>Reach 15 ft, 20 piercing + 11 necrotic. <strong>Deadly Reach</strong> reaction: free attack on anyone entering its reach. Shadow Jump. The "you cannot walk past me" guardian.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/2407570-sword-wraith-commander" target="_blank" rel="noopener">Sword Wraith Commander</a></div>
+<div class="type">Monsters of the Multiverse · CR 8</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 18</span><span><span class="label">HP</span> 127</span></div>
+<p>Two Longswords +7. <strong>Martial Fury</strong> bonus attack, +9 (2d8) necrotic. Turning Defiance. The closest <em>flavor</em> match in print: an undead warrior who will not leave his post.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195270-will-o-wisp" target="_blank" rel="noopener">Will-o'-Wisp ×3</a></div>
+<div class="type">Monster Manual 2024 · CR 2 — run as: Clockwork Wisps</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 19</span><span><span class="label">HP</span> 27</span></div>
+<p>Fly 50 ft (hover), resists almost everything. <strong>Shock</strong> +4, 11 (2d8+2) — <em>reskin to cold</em>. <strong>Consume Life</strong> bonus action on a creature at 0 HP. Vanish: invisible at will.</p>
+</div>
+<div class="mon-verdict"><b>Use</b> <strong>Death Knight</strong> reskinned as the Hour-Frozen Knight — necrotic becomes <strong>cold</strong>, Hellfire Orb becomes "the room skips a second" (a 20-ft cold burst), Dread Blade becomes the <strong>Frostbound Greatsword</strong>. <strong>Drop Spellcasting and Marshal Undead</strong> — he's a knight, not a caster. <strong>Keep your Rewind</strong> reaction (drops to half HP once instead of 0); it lands the time theme. Add <strong>3 Will-o'-Wisps</strong>. <em>(Initiative preset: <strong>Load: Stopped Clock</strong>.)</em></div>
+<div class="card">
+<h4>Make it matter at level 15</h4>
+<ul>
+<li>Death Knight + 3 wisps ≈ <strong>19,350 XP</strong> against five 15th-level PCs. That is a genuinely hard encounter <em>before</em> your hazards. Do not scale it down.</li>
+<li><strong>Parry is the trap.</strong> +6 AC as a reaction against one melee hit per round means the party's biggest attack whiffs. Use it on Akilles or Zephyr every single round and let them feel the clock.</li>
+<li>The wisps' <strong>Consume Life</strong> triggers on a creature at <em>0 HP</em> — so the moment a PC goes down, a wisp dives. That forces the party to protect downed allies instead of nova-ing the Knight.</li>
+<li>Keep your <strong>Ticking Floor</strong> (count-10, DC 15 DEX or prone) and the door healing him 20 HP a round until braced. The bracing objective is what stops five characters attacking the same target.</li>
+<li>The mercy out is still live: DC 18 CHA with Tib's clue ends it. Make sure someone knows that's possible <em>before</em> round three, or it never gets tried.</li>
+</ul>
+</div>
+<p class="mon-super"><strong>Original homebrew version</strong> — superseded by the Death Knight above. Kept for reference; <strong>Rewind</strong> and <strong>Stilling Gaze</strong> are the bits worth carrying over.</p>
+<div class="stat-block">
+<div class="name">Hour-Frozen Knight <span class="badge badge-purple">HOMEBREW</span></div>
 <div class="type">Medium undead (time-touched), lawful neutral — a knight frozen and bound to guard the door</div>
 <hr>
 <div class="stat-row"><span><span class="label">AC</span> 18</span><span><span class="label">HP</span> 207 (18d8+126)</span><span><span class="label">Speed</span> 30 ft.</span></div>
@@ -943,6 +1146,8 @@ If a PC says she looks like Tasha: she tilts her head. "Tasha. Yes. I sent that 
 <p>Reached via <strong>Jimothy's mist talisman</strong> (Talisman of Bleeding Veils) — walk the mists into Tovag. It is <strong>Kas's</strong> Domain of Dread, near the <strong>Negative Energy Plane</strong>, where the betrayer-lieutenant was exiled as a vampire and warred endlessly against Vecna's domain, Cavitius. <strong>Kas is not here</strong> — he's gone to seize the obelisks himself (the chapter's secret). His empty domain is leaderless, restless, and dangerous.</p>
 </div>
 
+<p style="font-size:.85rem;color:var(--text2);margin-bottom:10px"><strong>📕 Stat blocks:</strong> each fight below is matched to a real published block with a live D&amp;D Beyond link. Full write-up: <a href="https://claude.ai/code/artifact/281d5c6c-9eea-45cd-9fb6-7bccfcf5d51e" target="_blank" rel="noopener">Frost &amp; Ash Bestiary</a>. <strong>Note:</strong> everything in Tovag is undead, so Zephyr and Jimothy run at full power — the Draining Mists are what keep that from trivializing the chapter.</p>
+
 <div class="card">
 <h4>The Secret &amp; the Piece</h4>
 <ul>
@@ -989,6 +1194,61 @@ If a PC says she looks like Tasha: she tilts her head. "Tasha. Yes. I sent that 
 <li><strong>Hazards:</strong> ash storms (lightly obscured), lava fissures (3d6 fire), and the mist save at the end.</li>
 <li><strong>Out:</strong> reaching the citadel gate ends it — the risen dead won't follow onto Kas's ground.</li>
 </ul>
+<h4>📕 Published stat blocks — T2</h4>
+<p style="font-size:.82rem;color:var(--text2);margin-bottom:8px">At-a-glance numbers for running the fight. <strong>Tap a monster name</strong> to open its full entry on D&amp;D Beyond in a new tab (your dashboard state is preserved).</p>
+<p style="font-size:.85rem;color:var(--text2);margin-bottom:8px"><strong>⚠️ The 2024 Wight is a very different creature</strong> from the 2014 one older notes assume — <strong>82 HP instead of 45</strong>, and Life Drain is now a DC 13 CON save rather than an attack roll. Recheck any wave math built on the old block.</p>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195269-wight" target="_blank" rel="noopener">Wight</a></div>
+<div class="type">Monster Manual 2024 · CR 3 — run as: Kas's rank and file</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 14</span><span><span class="label">HP</span> 82</span></div>
+<p>Two attacks, sword or bow, +4 for 6 + 4 necrotic. <strong>Life Drain</strong> replaces one: DC 13 CON, 6 necrotic and HP max drops.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195249-vampire-spawn" target="_blank" rel="noopener">Vampire Spawn</a></div>
+<div class="type">Monster Manual 2024 · CR 5 — run as: Kas's shock troops</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 16</span><span><span class="label">HP</span> 90</span></div>
+<p>Two Claws +6 for 8 and grapple, then Bite DC 14 CON. Spider Climb. Bonus-action Dash/Disengage.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5174960-wraith" target="_blank" rel="noopener">Wraith</a></div>
+<div class="type">Monster Manual 2024 · CR 5 — run as: Vecna's side</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 13</span><span><span class="label">HP</span> 67</span></div>
+<p>Life Drain +6, 21 (4d8+3) necrotic and HP max drops. Fly 60 ft (hover), resists all B/P/S. <strong>Create Specter.</strong></p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195009-ghoul" target="_blank" rel="noopener">Ghoul</a></div>
+<div class="type">Monster Manual 2024 · CR 1 — run as: chaff</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 12</span><span><span class="label">HP</span> 22</span></div>
+<p>Two Bites +4, 5 + 3 necrotic. Claw paralyzes non-elves.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195007-ghast" target="_blank" rel="noopener">Ghast</a></div>
+<div class="type">Monster Manual 2024 · CR 2 — run as: better chaff</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 13</span><span><span class="label">HP</span> 36</span></div>
+<p>Stench aura DC 10. Bite +5, 7 + 9 necrotic. Claw +5, 10 slashing + paralysis.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195006-ghast-gravecaller" target="_blank" rel="noopener">Ghast Gravecaller</a></div>
+<div class="type">Monster Manual 2024 · CR 6 — run as: Vecna's officer, fighting from across the field</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 16</span><span><span class="label">HP</span> 97</span></div>
+<p><strong>Horrific Necrosis</strong> +7 at <strong>120 ft range</strong>, 15 necrotic + frightened. Paralyzing claw. Immune to necrotic.</p>
+</div>
+<div class="mon-verdict"><b>Use</b> <strong>Run it as two armies with the party in the middle.</strong> Kas's side — <strong>6 Wights + 3 Vampire Spawn</strong>. Vecna's side — <strong>8 Ghouls + 3 Wraiths + 1 Ghast Gravecaller</strong>. Roll each side's turn as a block; they attack <em>each other</em> by default and only turn on the party when a PC ends their turn in the open or does something loud. <em>(Initiative preset: <strong>Load: T2 Battlefield</strong> — two army markers + the Gravecaller.)</em></div>
+<div class="card">
+<h4>Make it matter at level 15</h4>
+<ul>
+<li><strong>Do not roll all 21 creatures.</strong> Give each army a single initiative and a <em>front line</em> that advances 30 ft a round — the party's problem is being caught between two moving fronts, not the individual monsters.</li>
+<li>Lava fissures (3d6 fire) and ash storms (lightly obscured) mean the "safe" ground shifts every round. <strong>Announce where fissures open at the top of each round</strong> so retreat is a real decision.</li>
+<li>The <strong>Gravecaller</strong> sniping from 120 ft with a frightening attack is the one creature worth tracking individually. It should be <em>why</em> the party crosses the battlefield instead of camping.</li>
+<li>The Draining Mists CON save lands right after this fight — with no healing available. That's the design: they should reach the citadel gate down and unable to fix it.</li>
+</ul>
+</div>
 </div></div>
 </div>
 
@@ -1006,6 +1266,23 @@ If a PC says she looks like Tasha: she tilts her head. "Tasha. Yes. I sent that 
 <li>A warning that mirrors T6's vision — the Netherese (and the Dolindars) were unmade because they tried to <em>control</em> the obelisks, not restore them.</li>
 <li><strong>Mercy beat (parallels Corvath):</strong> Zephyr can lay the ancestor to rest — a Raven Queen's rite, or simply speaking the family's name and refusing their old bargain. Doing so grants Zephyr <strong>advantage on his Dolindar vision at T6</strong> (he sees it <em>clearly</em> instead of fuzzily) and a small emotional exhale for the whole line.</li>
 </ul>
+<h4>📕 Published stat blocks — T2½ — lore first, combat only if provoked</h4>
+<p style="font-size:.82rem;color:var(--text2);margin-bottom:8px">At-a-glance numbers for running the fight. <strong>Tap a monster name</strong> to open its full entry on D&amp;D Beyond in a new tab (your dashboard state is preserved).</p>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/2560863-lost-sorrowsworn" target="_blank" rel="noopener">Lost Sorrowsworn</a></div>
+<div class="type">Monsters of the Multiverse · CR 7 — run as: Cerrin Dolindar</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 15</span><span><span class="label">HP</span> 78</span></div>
+<p>Two Arm Spikes +6, reach 10 ft, 14 each. <strong>Embrace</strong> (rech 4–6) for 25 and a grapple; while it holds someone, damage to it deals 18 psychic to them. The Shadowfell embodiment of being lost — same family as the Evernight tomb kin, so Zephyr recognizes the shape before he understands it. <strong>Monstrosity, not undead: Jimothy can't turn it.</strong></p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5174960-wraith" target="_blank" rel="noopener">Wraith</a></div>
+<div class="type">Monster Manual 2024 · CR 5</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 13</span><span><span class="label">HP</span> 67</span></div>
+<p>Simpler fallback if you don't want to reintroduce sorrowsworn mechanics mid-session.</p>
+</div>
+<div class="mon-verdict"><b>Use</b> <strong>Lost Sorrowsworn</strong> — for continuity with Chapter 1, not for the fight. Keep your rule that <strong>it will not strike Zephyr</strong>. If someone else attacks it, it defends and does not pursue; killing Cerrin costs Zephyr the clean vision at T6, and that should be the only consequence anyone remembers.</div>
 </div></div>
 </div></div>
 </div>
@@ -1051,6 +1328,23 @@ If a PC says she looks like Tasha: she tilts her head. "Tasha. Yes. I sent that 
 <div class="card danger" style="margin-top:6px">
 <p><strong>The mercy beat.</strong> Corvath's anchor is his <strong>broken herald's horn</strong>. The party can <strong>shatter it</strong> to release him. If they do, he gives the <strong>Forsworn's Boon</strong> — once before the chapter ends, a character may <strong>reroll a failed save vs. fear, necrotic, or exhaustion</strong> — and then lets go, the first kindness Tovag has seen in an age.</p>
 </div>
+<h4>📕 Published stat blocks — T5 — an ally unless the party is cruel</h4>
+<p style="font-size:.82rem;color:var(--text2);margin-bottom:8px">At-a-glance numbers for running the fight. <strong>Tap a monster name</strong> to open its full entry on D&amp;D Beyond in a new tab (your dashboard state is preserved).</p>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/2407570-sword-wraith-commander" target="_blank" rel="noopener">Sword Wraith Commander</a></div>
+<div class="type">Monsters of the Multiverse · CR 8 — run as: Corvath the Forsworn</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 18</span><span><span class="label">HP</span> 127</span></div>
+<p>Two Longswords +7. Martial Fury bonus attack, +9 (2d8) necrotic. <strong>Turning Defiance</strong> — Jimothy and Zephyr can't simply turn him. A herald bound to a war he cannot leave; the flavor is exact.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/2407571-sword-wraith-warrior" target="_blank" rel="noopener">Sword Wraith Warrior</a></div>
+<div class="type">Monsters of the Multiverse · CR 3</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 16</span><span><span class="label">HP</span> 45</span></div>
+<p>If you want the citadel to have any garrison left at all, these are the ones who stayed.</p>
+</div>
+<div class="mon-verdict"><b>Use</b> <strong>Ruling:</strong> Corvath <strong>cannot die and cannot leave</strong> — that's his curse. Reduce him to 0 and he simply reassembles, kneeling, next round. Have the stat block ready, but the only real outcome of attacking him is <em>losing the Forsworn's Boon and his help at T6</em>.</div>
 </div></div>
 </div>
 
@@ -1059,8 +1353,51 @@ If a PC says she looks like Tasha: she tilts her head. "Tasha. Yes. I sent that 
 <div class="collapsible-body"><div class="collapsible-body-inner">
 <div class="card read-aloud">Beyond the citadel, in a circle of standing stones, the obelisk waits: bonewhite, warm even at this distance, its scorched runes smoldering without ever catching. Gray mist coils around it; red embers drift up into the bruised sky. And rising from the bone-litter at its base, something vast unfolds itself to meet you.</div>
 <p><strong>The guardian, then the attunement.</strong> <em>(Initiative preset: <strong>Load: Cairn Warden</strong>.)</em></p>
+<h4>📕 Published stat blocks — T6</h4>
+<p style="font-size:.82rem;color:var(--text2);margin-bottom:8px">At-a-glance numbers for running the fight. <strong>Tap a monster name</strong> to open its full entry on D&amp;D Beyond in a new tab (your dashboard state is preserved).</p>
+<p style="font-size:.85rem;color:var(--text2);margin-bottom:8px">Two published blocks reach for what the homebrew does, from opposite directions. The <strong>Atropal</strong> is the <em>structural</em> match — its aura <strong>is</strong> your Draining Mists and its Summon Wraith <strong>is</strong> Call the Fallen. The <strong>Nightwalker</strong> is the <em>thematic</em> match — a Huge undead native to the Negative Energy Plane, which is what Tovag borders.</p>
 <div class="stat-block">
-<div class="name">The Cairn Warden</div>
+<div class="name"><a href="https://www.dndbeyond.com/monsters/33015-atropal" target="_blank" rel="noopener">Atropal</a></div>
+<div class="type">Tomb of Annihilation · CR 13 → ~17 as edited — run as: the Cairn Warden</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 7 → <strong>17</strong></span><span><span class="label">HP</span> 225</span></div>
+<p><strong>Negative Energy Aura:</strong> no healing within 30 ft, plus necrotic on turn start. <strong>Life Drain</strong> DC 19 CON for 36. Ray of Cold +12 for 21. <strong>Summon Wraith</strong> (rech 6). Turn Resistance aura. 3 legendary actions incl. Wail. <strong>Vulnerable to radiant.</strong> AC 7 is the catch — raise it.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/2560888-nightwalker" target="_blank" rel="noopener">Nightwalker</a></div>
+<div class="type">Monsters of the Multiverse · CR 20 — run as: lethal alternative</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 14</span><span><span class="label">HP</span> 337</span></div>
+<p><strong>Annihilating Aura:</strong> DC 21 CON or 21 necrotic on turn start within 30 ft. <strong>Life Eater:</strong> dropped to 0 by it and you are <em>dead</em>, revivable only by <em>wish</em>. Two Enervating Focus +12, reach 15 ft, 28 necrotic + DC 21 CON. Finger of Doom (rech 6), DC 21 WIS.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/3730991-cairnwight" target="_blank" rel="noopener">Cairnwight</a></div>
+<div class="type">Bigby Presents: Glory of the Giants · CR 9 — run as: closest name/body match</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 19</span><span><span class="label">HP</span> 138</span></div>
+<p>Huge undead cairn of stone and bone — the closest thing in print to what you described. Two Slams +10 for 22, reach 10 ft. Rock at 60/240. Petrifying Touch DC 17 CON.</p>
+</div>
+<div class="stat-block">
+<div class="name"><a href="https://www.dndbeyond.com/monsters/5195054-graveyard-revenant" target="_blank" rel="noopener">Graveyard Revenant</a></div>
+<div class="type">Monster Manual 2024 · CR 7 — run as: huge-undead alternative</div>
+<hr>
+<div class="stat-row"><span><span class="label">AC</span> 14</span><span><span class="label">HP</span> 161</span></div>
+<p>Huge mass of fused corpses. Suffocate +8, 10 + 10 necrotic and swallows Large-or-smaller targets. Haunting Glare DC 15. Undead Restoration — it gets back up in 24 hours.</p>
+</div>
+<div class="mon-verdict"><b>Use</b> the <strong>Atropal</strong> as the Cairn Warden, with two edits — raise <strong>AC to 17</strong> (it's a colossus of fused armour plate, not a floating fetus) and <strong>delete the vorpal-sword umbilical rule</strong>. Then borrow the Nightwalker's <strong>Annihilating Aura at DC 21</strong> in place of Atropal's weaker aura, so the no-healing zone actually threatens level-15 saves. <strong>If the party freed Corvath, Summon Wraith fails</strong> — exactly as your notes say, now as a real mechanical reward. <em>(Initiative preset: <strong>Load: Cairn Warden</strong>.)</em></div>
+<div class="card">
+<h4>Make it matter at level 15</h4>
+<ul>
+<li>Atropal as printed is CR 13 with <strong>AC 7</strong> — the party would flatten it. The AC bump + the DC 21 aura + your mists puts it at a real <strong>CR 16–17</strong> without you writing a stat block.</li>
+<li>For genuinely lethal, use the <strong>Nightwalker</strong> straight: 337 HP, Life Eater means a dropped PC is <em>gone</em> barring <em>wish</em>, and the DC 21 aura ticks every round. This is the version where Zephyr's Time Ravage history means something — <strong>be sure the table wants that</strong> before you set it down.</li>
+<li>Marianne is a Yuan-ti — magic resistance helps against Finger of Doom but <em>not</em> the CON aura. Olaf's Arcane Absorber only catches single-target spells, so the aura bypasses it too. Both auras are deliberately unanswerable by the party's usual tricks.</li>
+<li><strong>Call the Fallen adds:</strong> 1d4+1 Wights (CR 3, <strong>82 HP each now</strong>) or Vampire Spawn (CR 5). At 82 HP the 2024 Wight is no longer a free kill — three of them is a real tax on the action economy while the Warden hits for 36.</li>
+<li><strong>Radiant vulnerability on the Atropal is a gift</strong> to Zephyr and Jimothy. Leave it in — this is the one chapter where their kit should shine, and it answers a monster nobody else can hurt fast.</li>
+</ul>
+</div>
+<p class="mon-super"><strong>Original homebrew version</strong> — superseded by the Atropal above. Kept for reference; Grave Wind and the no-heal Slam rider are the bits worth carrying over.</p>
+<div class="stat-block">
+<div class="name">The Cairn Warden <span class="badge badge-purple">HOMEBREW</span></div>
 <div class="type">Huge undead, neutral evil — a colossus of fused battlefield bone and scorched armor, raised to keep the obelisk</div>
 <hr>
 <div class="stat-row"><span><span class="label">AC</span> 18</span><span><span class="label">HP</span> 264 (23d12+115)</span><span><span class="label">Speed</span> 40 ft.</span></div>
@@ -2503,9 +2840,11 @@ If a PC says she looks like Tasha: she tilts her head. "Tasha. Yes. I sent that 
 </div>
 <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap">
 <button onclick="loadPreset('bronte')" style="padding:4px 10px;background:rgba(212,168,67,.06);border:1px solid rgba(212,168,67,.2);color:var(--text2);border-radius:4px;cursor:pointer;font-size:.75rem">Load: Bronte Trap</button>
+<button onclick="loadPreset('feywild-gallery')" style="padding:4px 10px;background:rgba(212,168,67,.06);border:1px solid rgba(212,168,67,.2);color:var(--text2);border-radius:4px;cursor:pointer;font-size:.75rem">Load: Gallery</button>
 <button onclick="loadPreset('feywild-briar')" style="padding:4px 10px;background:rgba(212,168,67,.06);border:1px solid rgba(212,168,67,.2);color:var(--text2);border-radius:4px;cursor:pointer;font-size:.75rem">Load: Briar Court</button>
 <button onclick="loadPreset('feywild-nursery')" style="padding:4px 10px;background:rgba(212,168,67,.06);border:1px solid rgba(212,168,67,.2);color:var(--text2);border-radius:4px;cursor:pointer;font-size:.75rem">Load: Nursery</button>
 <button onclick="loadPreset('feywild')" style="padding:4px 10px;background:rgba(212,168,67,.06);border:1px solid rgba(212,168,67,.2);color:var(--text2);border-radius:4px;cursor:pointer;font-size:.75rem">Load: Stopped Clock</button>
+<button onclick="loadPreset('tovag-battlefield')" style="padding:4px 10px;background:rgba(212,168,67,.06);border:1px solid rgba(212,168,67,.2);color:var(--text2);border-radius:4px;cursor:pointer;font-size:.75rem">Load: T2 Battlefield</button>
 <button onclick="loadPreset('tovag')" style="padding:4px 10px;background:rgba(212,168,67,.06);border:1px solid rgba(212,168,67,.2);color:var(--text2);border-radius:4px;cursor:pointer;font-size:.75rem">Load: Cairn Warden</button>
 </div>
 <div id="init-list"></div>
@@ -2732,15 +3071,19 @@ const _SB_NULL='AC 16 · HP 150 · <strong>Null Field</strong>: 30-ft antimagic 
 const _SB_ASSASSIN='AC 16 · HP 78 · <strong>Assassinate</strong> (adv vs. anyone who has not acted; crit on surprised). <strong>Sneak Attack</strong> +14 (4d6). <strong>Shortsword</strong> +7 ×2 (1d6+4 +1d6 necrotic) / <strong>Hand Crossbow</strong> +7. Fights behind Marion/Bronte.';
 const _SB_BRONTE='AC 15 · HP 110 · CR 7 · save DC 15. <strong>Geas-Bound</strong>: cannot flee or aid the party while the Null lives. <strong>Failsafe</strong>: when the Null falls (or she breaks free) she drops to <strong>0 HP, no save</strong> — only Greater Restoration/Regenerate-tier healing that round saves her. <strong>Rapier</strong> +6 ×2 (1d8+3 +2d6 necrotic). <strong>Wail of What Was Lost</strong> (rech 5–6): 30 ft, DC 15 WIS, 5d8 psychic + frightened (Marianne: disadvantage). <strong>Binding Grip</strong> (rech 6): DC 15 STR or grappled/restrained (assassins get advantage).';
 const _SB_MARION='Frightened child, age 11 (AC 10). Not under magic. Protect — no AoE.';
-const _SB_KNIGHT='AC 18 · HP 207 · CR 14 · <strong>Out of Time</strong>: acts on count 20 and 10 (two turns/round); cannot be surprised. <strong>Rewind</strong> (1/short rest): first time at 0 HP, drops to half max instead. <strong>Frostbound Greatsword</strong> +11 ×2 (2d10+5 +2d8 cold, speed halved). <strong>Stilling Gaze</strong> (rech 5–6): DC 17 WIS or paralyzed.';
-const _SB_WARDEN='AC 18 · HP 264 · CR 17 · Imm necrotic/poison; Res cold, fire, nonmagical B/P/S. <strong>Slam</strong> +13 ×2 (3d10+7 +2d8 necrotic, no heal), reach 15. <strong>Call the Fallen</strong> (rech 5–6): raise 1d4+1 wights. <strong>Grave Wind</strong> (1/day): 60-ft cone, DC 17 CON, 10d8 cold + max-HP reduction. Tovag mists: no one regains HP.';
-const _SB_WIGHT='AC 14 · HP 45 · <strong>Life Drain</strong> +4 (1d6+2 necrotic; reduces target max HP). Raised by the Warden Call the Fallen.';
-const _SB_REDCAP='AC 13 · HP 45 · Speed 25. <strong>Necrotic Sickle</strong> +5 (1d8+3 slashing +1d6 necrotic). <strong>Iron Boots</strong>: ignores the briar terrain. Briars regrow at the start of each round; hedge-adjacent PCs: DC 14 DEX or 2d6 piercing at end of turn.';
-const _SB_THORNLING='AC 13 · HP 4 · <strong>Claws</strong> +3 (1d4+1 piercing). Vulnerable to fire. Grapples/body-blocks to keep PCs in the thorns. Second wave: the arch bleeds 6 Thornlings + 2 Redcaps if the first group drops within 2 rounds.';
-const _SB_NANNY='AC 17 · HP 82 · <strong>Claw</strong> +8 ×2 (3d6+5 slashing). <strong>Lullaby</strong> (rech 5–6): 20-ft radius, DC 16 WIS or incapacitated until end of next turn. <strong>Feeds on the room</strong>: start of each of her turns, one toy animates (add a Wind-up Soldier or Doll-swarm). She will try to smash the songbird. <strong>Refusal</strong>: DC 18 Persuasion (or genuine RP) unmakes her.';
-const _SB_SOLDIER='Wind-up Soldier (animated armor) — AC 18 · HP 33 · <strong>Slam</strong> +4 ×2 (1d6+2). Immune poison/psychic; blindsight 60 ft.';
-const _SB_DOLLSWARM='Needle-tooth Dolls (swarm) — AC 12 · HP 22 · Swarm: resists B/P/S, occupies other creatures\' spaces. <strong>Needle Bites</strong> +3 (4d4 piercing, or 2d4 at half HP).';
-const _SB_WISP='AC 19 · HP 22 · Fly 50 (hover), incorporeal. <strong>Cold Shock</strong> +4 (2d8 cold). <strong>Consume Life</strong>: when a creature within 5 ft drops to 0 HP, burst — DC 10 CON or 3d6 cold. Ticking Floor: on the Knight\'s count-10 turn, non-Knight creatures DC 15 DEX or prone.';
+const _SB_KNIGHT='<strong>Death Knight</strong> (MM 2024, CR 17) reskinned cold · AC 20 · HP 199 · <strong>Legendary Resistance 3/day.</strong> Three <strong>Frostbound Greatsword</strong> (Dread Blade) +11 (12 slashing + 13 cold each). <strong>Hellfire Orb→\"the room skips a second\"</strong> (rech 5–6): DC 18 DEX, 20-ft cold sphere. <strong>Parry</strong> reaction: +6 AC vs one melee hit — use it EVERY round on Akilles or Zephyr. 3 legendary actions (Lunge / Fell Word DC 18 CON / Dread Authority). <strong>Rewind</strong> [homebrew]: first time at 0 HP, drops to half max instead. Drop Spellcasting &amp; Marshal Undead. Door heals him 20 HP/round until a PC braces it.';
+const _SB_WARDEN='<strong>Atropal</strong> (ToA) as edited · <strong>AC 17</strong> (raised from 7) · HP 225 · <strong>Annihilating Aura at DC 21</strong> (borrowed from the Nightwalker): 30 ft, no healing + CON save or 21 necrotic on turn start. <strong>Life Drain</strong> DC 19 CON (36). Ray of Cold +12 (21). <strong>Summon Wraith</strong> (rech 6) = Call the Fallen — <em>fails if the party freed Corvath</em>. Turn Resistance aura. 3 legendary actions incl. Wail. <strong>VULNERABLE TO RADIANT</strong> — Zephyr and Jimothy shine here. Delete the vorpal-umbilical rule.';
+const _SB_WIGHT='<strong>Wight</strong> (MM 2024, CR 3) · AC 14 · <strong>HP 82</strong> (not the 2014 block\'s 45) · Two attacks +4 (6 + 4 necrotic); <strong>Life Drain</strong> replaces one: DC 13 CON, 6 necrotic and HP max drops. Raised by Summon Wraith / Call the Fallen.';
+const _SB_REDCAP='<strong>Redcap</strong> (MPMM, CR 3) · AC 14 · HP 45 · Speed 25. Three sickles +6 (2d4+4 each) <em>plus your +1d6 necrotic</em>. <strong>Ironbound Pursuit</strong>: move full speed and kick — DC 14 DEX or 3d10+4 bludgeoning + prone. Briars regrow each round; hedge-adjacent PCs: DC 14 DEX or 2d6 piercing at end of turn.';
+const _SB_THORNLING='<strong>Twig Blight</strong> (MM 2024, CR 1/8) · AC 14 · HP 7 · Claw +4 (1d4+2). Pack Tactics. <strong>Vulnerable to fire.</strong> Should grapple and body-block, not attack. Standing rule: the arch bleeds 2 more Redcaps at the top of every round until a PC tears the briars out of it.';
+const _SB_SPECTER='<strong>Specter</strong> (MM 2024, CR 1) · AC 12 · HP 22 · Fly 50 (hover), incorporeal. <strong>Life Drain</strong> +4 (2d6 necrotic, HP max drops). Resists all B/P/S + acid/cold/fire/lightning/thunder. <strong>Framed</strong>: can\'t move more than 30 ft from its portrait (replaces Sunlight Sensitivity). On death splits into two 11-HP halves that flee.';
+const _SB_ARMY_KAS='<strong>Kas\'s front line</strong> — 6× Wight (AC 14, HP 82, DC 13 CON Life Drain) + 3× Vampire Spawn (AC 16, HP 90, claws grapple then bite DC 14 CON). Run as ONE block on this initiative; advances 30 ft/round. Attacks Vecna\'s side by default.';
+const _SB_ARMY_VECNA='<strong>Vecna\'s front line</strong> — 8× Ghoul (AC 12, HP 22, claw paralyzes non-elves) + 3× Wraith (AC 13, HP 67, Life Drain +6 for 4d8+3, Create Specter). Run as ONE block on this initiative; advances 30 ft/round. Attacks Kas\'s side by default.';
+const _SB_GRAVECALLER='<strong>Ghast Gravecaller</strong> (MM 2024, CR 6) · AC 16 · HP 97 · <strong>Horrific Necrosis</strong> +7 at <strong>120 ft</strong> (15 necrotic + frightened). Paralyzing claw. Immune necrotic. Track individually — it snipes from across the battlefield and is why the party has to cross.';
+const _SB_NANNY='<strong>Annis Hag</strong> (MPMM, CR 6) · AC 17 · HP 90 · Bite +8 (15) + two Claws +8 (15). <strong>Crushing Hug</strong> +8 (9d6+5) + grapple, escape DC 15. Resists cold. <strong>Lullaby</strong> [homebrew, rech 5–6]: 20-ft radius, DC 16 WIS or incapacitated until end of next turn. <strong>Feeds on the room</strong>: one toy animates each of her turns — alternate Soldier and Doll-swarm. She attacks the songbird (AC 12, 5 HP) once a round. <strong>Refusal</strong>: DC 18 Persuasion unmakes her.';
+const _SB_SOLDIER='<strong>Animated Armor</strong> (MM 2024, CR 1) — the wind-up soldier · AC 18 · HP 33 · Two Slams +4 (5 each). Immune poison, psychic, charmed, frightened, paralyzed. Blindsight 60 ft.';
+const _SB_DOLLSWARM='<strong>Swarm of Insects</strong> (MM 2024, CR 1/2) — the needle-tooth dolls · AC 11 · HP 19 · Bites +3 (2d4+1 poison). Occupies other creatures\' spaces; resists B/P/S.';
+const _SB_WISP='<strong>Will-o\'-Wisp</strong> (MM 2024, CR 2) — reskinned cold · AC 19 · HP 27 · Fly 50 (hover), resists almost everything, invisible at will. <strong>Shock→Cold</strong> +4 (2d8+2). <strong>Consume Life</strong> (bonus action) on a creature at <strong>0 HP</strong> — dive the moment a PC drops. Ticking Floor: on the Knight\'s count-10 turn, non-Knight creatures DC 15 DEX or prone.';
 function loadPreset(type){
 clearInit();
 const pcs=[
@@ -2763,39 +3106,57 @@ initList=[
 ];
 }else if(type==='feywild'){
 initList=[
-{name:'Hour-Frozen Knight (acts on 20 & 10; Rewind 1x)',init:0,hp:207,maxHp:207,ac:18,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_KNIGHT},
-{name:'Clockwork Wisp 1',init:0,hp:22,maxHp:22,ac:19,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WISP},
-{name:'Clockwork Wisp 2',init:0,hp:22,maxHp:22,ac:19,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WISP},
-{name:'Clockwork Wisp 3',init:0,hp:22,maxHp:22,ac:19,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WISP},
+{name:'Hour-Frozen Knight — Death Knight (LR 3/day; Parry +6; Rewind)',init:0,hp:199,maxHp:199,ac:20,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_KNIGHT},
+{name:'Clockwork Wisp 1',init:0,hp:27,maxHp:27,ac:19,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WISP},
+{name:'Clockwork Wisp 2',init:0,hp:27,maxHp:27,ac:19,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WISP},
+{name:'Clockwork Wisp 3',init:0,hp:27,maxHp:27,ac:19,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WISP},
 ...pcs
 ];
 }else if(type==='feywild-briar'){
 initList=[
-{name:'Ashen Redcap 1',init:0,hp:45,maxHp:45,ac:13,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_REDCAP},
-{name:'Ashen Redcap 2',init:0,hp:45,maxHp:45,ac:13,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_REDCAP},
-{name:'Ashen Redcap 3',init:0,hp:45,maxHp:45,ac:13,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_REDCAP},
-{name:'Ashen Redcap 4',init:0,hp:45,maxHp:45,ac:13,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_REDCAP},
-{name:'Thornling 1',init:0,hp:4,maxHp:4,ac:13,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
-{name:'Thornling 2',init:0,hp:4,maxHp:4,ac:13,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
-{name:'Thornling 3',init:0,hp:4,maxHp:4,ac:13,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
-{name:'Thornling 4',init:0,hp:4,maxHp:4,ac:13,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
-{name:'Thornling 5',init:0,hp:4,maxHp:4,ac:13,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
-{name:'Thornling 6',init:0,hp:4,maxHp:4,ac:13,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
+{name:'Ashen Redcap 1',init:0,hp:45,maxHp:45,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_REDCAP},
+{name:'Ashen Redcap 2',init:0,hp:45,maxHp:45,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_REDCAP},
+{name:'Ashen Redcap 3',init:0,hp:45,maxHp:45,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_REDCAP},
+{name:'Ashen Redcap 4',init:0,hp:45,maxHp:45,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_REDCAP},
+{name:'Ashen Redcap 5',init:0,hp:45,maxHp:45,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_REDCAP},
+{name:'Ashen Redcap 6',init:0,hp:45,maxHp:45,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_REDCAP},
+{name:'Thornling 1',init:0,hp:7,maxHp:7,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
+{name:'Thornling 2',init:0,hp:7,maxHp:7,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
+{name:'Thornling 3',init:0,hp:7,maxHp:7,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
+{name:'Thornling 4',init:0,hp:7,maxHp:7,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
+{name:'Thornling 5',init:0,hp:7,maxHp:7,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
+{name:'Thornling 6',init:0,hp:7,maxHp:7,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_THORNLING},
+...pcs
+];
+}else if(type==='feywild-gallery'){
+initList=[
+{name:'Painted Grudge 1 (Framed to its portrait)',init:0,hp:22,maxHp:22,ac:12,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_SPECTER},
+{name:'Painted Grudge 2 (Framed to its portrait)',init:0,hp:22,maxHp:22,ac:12,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_SPECTER},
+{name:'Painted Grudge 3 (Framed to its portrait)',init:0,hp:22,maxHp:22,ac:12,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_SPECTER},
+{name:'Painted Grudge 4 (Framed to its portrait)',init:0,hp:22,maxHp:22,ac:12,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_SPECTER},
+{name:'Painted Grudge 5 (Framed to its portrait)',init:0,hp:22,maxHp:22,ac:12,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_SPECTER},
+...pcs
+];
+}else if(type==='tovag-battlefield'){
+initList=[
+{name:"KAS'S ARMY — 6 Wights + 3 Vampire Spawn (one block)",init:0,hp:0,maxHp:0,ac:0,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_ARMY_KAS},
+{name:"VECNA'S ARMY — 8 Ghouls + 3 Wraiths (one block)",init:0,hp:0,maxHp:0,ac:0,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_ARMY_VECNA},
+{name:'Ghast Gravecaller (snipes from 120 ft)',init:0,hp:97,maxHp:97,ac:16,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_GRAVECALLER},
 ...pcs
 ];
 }else if(type==='feywild-nursery'){
 initList=[
-{name:'The Nanny (hag echo — adds each turn)',init:0,hp:82,maxHp:82,ac:17,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_NANNY},
+{name:'The Nanny — Annis Hag (adds each turn)',init:0,hp:90,maxHp:90,ac:17,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_NANNY},
 {name:'Wind-up Soldier (first add)',init:0,hp:33,maxHp:33,ac:18,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_SOLDIER},
-{name:'Doll-swarm (second add)',init:0,hp:22,maxHp:22,ac:12,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_DOLLSWARM},
+{name:'Doll-swarm (second add)',init:0,hp:19,maxHp:19,ac:11,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_DOLLSWARM},
 ...pcs
 ];
 }else if(type==='tovag'){
 initList=[
-{name:'The Cairn Warden',init:0,hp:264,maxHp:264,ac:18,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WARDEN},
-{name:'Risen Wight 1 (Call the Fallen)',init:0,hp:45,maxHp:45,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WIGHT},
-{name:'Risen Wight 2 (Call the Fallen)',init:0,hp:45,maxHp:45,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WIGHT},
-{name:'Risen Wight 3 (Call the Fallen)',init:0,hp:45,maxHp:45,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WIGHT},
+{name:'The Cairn Warden — Atropal (radiant vuln; DC 21 aura)',init:0,hp:225,maxHp:225,ac:17,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WARDEN},
+{name:'Risen Wight 1 (Call the Fallen)',init:0,hp:82,maxHp:82,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WIGHT},
+{name:'Risen Wight 2 (Call the Fallen)',init:0,hp:82,maxHp:82,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WIGHT},
+{name:'Risen Wight 3 (Call the Fallen)',init:0,hp:82,maxHp:82,ac:14,isPC:false,conditions:{},deathSuccess:0,deathFail:0,showStat:false,statBlock:_SB_WIGHT},
 ...pcs
 ];
 }
