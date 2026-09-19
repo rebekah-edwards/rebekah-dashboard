@@ -117,6 +117,21 @@ small{color:var(--text2)}
 .mon-verdict{border:1px dashed var(--line-gold);background:color-mix(in srgb,var(--gold) 5%,var(--surface));border-radius:9px;padding:12px 15px;margin:12px 0;font-size:.92rem}
 .mon-verdict b:first-child{display:block;font-family:var(--sans);font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);margin-bottom:4px}
 .mon-super{font-size:.82rem;color:var(--text2);border-left:3px solid var(--line);padding-left:10px;margin:14px 0 6px}
+/* ---------- inline editor ---------- */
+body.dash-editing [data-dedit]{outline:1px dashed color-mix(in srgb,var(--purple2) 40%,transparent);outline-offset:3px;border-radius:3px}
+body.dash-editing [data-dedit]:hover{outline-style:solid;outline-color:var(--purple2);background:color-mix(in srgb,var(--purple2) 7%,transparent)}
+body.dash-editing [data-dedit]:focus{outline:2px solid var(--gold);background:color-mix(in srgb,var(--gold) 7%,transparent)}
+body.dash-editing .collapsible-header{cursor:text}
+[data-dedit].dedit-dirty{border-left:3px solid var(--gold);padding-left:8px;margin-left:-11px}
+#dedit-banner{position:sticky;top:0;z-index:300;background:var(--purple);color:#fff;text-align:center;padding:8px 14px;margin:-36px -40px 22px;font-size:.82rem;font-weight:600;letter-spacing:.02em;border-radius:0 0 10px 10px}
+@media(max-width:768px){#dedit-banner{margin:-16px -16px 16px}}
+#dedit-bar{position:fixed;right:20px;bottom:20px;z-index:400;background:var(--bg2);border:1px solid var(--line-gold);border-radius:12px;padding:12px 14px;box-shadow:0 10px 34px rgba(0,0,0,.5);display:flex;flex-direction:column;gap:8px;min-width:210px}
+#dedit-bar .dedit-count{font-family:var(--serif);font-size:1.05rem;color:var(--gold2);font-weight:600}
+#dedit-bar button{padding:6px 10px;border-radius:7px;cursor:pointer;font-size:.78rem;font-weight:600;border:1px solid;text-align:left}
+.dedit-save{background:color-mix(in srgb,var(--green-hp) 16%,transparent);border-color:var(--green-hp)!important;color:var(--green-hp)}
+.dedit-done{background:transparent;border-color:var(--line)!important;color:var(--text2)}
+.dedit-discard{background:color-mix(in srgb,var(--red) 14%,transparent);border-color:var(--red)!important;color:var(--red)}
+@media print{#dedit-bar,#dedit-banner{display:none!important}[data-dedit]{outline:none!important}}
 /* ---------- party grid ---------- */
 .party-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin:12px 0}
 .pc-card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;position:relative}
@@ -241,6 +256,7 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <button onclick="findInPage()" title="Find in page"><svg class="bicon"><use href="#i-search"/></svg>Find</button>
 <button onclick="expandAll()" title="Expand all sections"><svg class="bicon"><use href="#i-expand"/></svg>Expand</button>
 <button onclick="collapseAll()" title="Collapse all sections"><svg class="bicon"><use href="#i-collapse"/></svg>Collapse</button>
+<button onclick="toggleEditMode()" title="Edit text directly on the page" id="dedit-btn"><svg class="bicon"><use href="#i-notes"/></svg>Edit</button>
 </div>
 </div>
 
@@ -3195,7 +3211,7 @@ window.scrollTo(0,0);
 });
 // COLLAPSIBLES
 document.querySelectorAll('.collapsible-header').forEach(h=>{
-h.addEventListener('click',()=>h.parentElement.classList.toggle('open'));
+h.addEventListener('click',()=>{if(document.body.classList.contains('dash-editing'))return;h.parentElement.classList.toggle('open')});
 });
 function toggleTheme(){document.body.classList.toggle('light')}
 function expandAll(){document.querySelectorAll('.collapsible').forEach(c=>c.classList.add('open'))}
@@ -3531,9 +3547,146 @@ function findInPage(){
   if(first) first.scrollIntoView({behavior:'smooth',block:'center'});
 }
 
+// ==================== INLINE EDITOR ====================
+// Edits live in this browser until exported. Export a .json, hand it to Claude,
+// and it gets applied to the committed file. Once merged, applied edits self-clear.
+const DEDIT_KEY='dm-dash-edits';
+const DEDIT_SEL='p,li,h3,h4,th,td,.collapsible-header,.card.read-aloud,.mon-verdict';
+const DEDIT_SKIP='#page-initiative,#page-dice,#notes-history-container,#dedit-bar,#dedit-banner';
+
+function deditLoad(){try{return JSON.parse(localStorage.getItem(DEDIT_KEY)||'[]')}catch(e){return []}}
+function deditStore(list){localStorage.setItem(DEDIT_KEY,JSON.stringify(list))}
+
+function deditTargets(){
+  return [...document.querySelectorAll('#main '+DEDIT_SEL.split(',').join(', #main '))].filter(el=>{
+    if(el.closest(DEDIT_SKIP)) return false;
+    if(el.querySelector(DEDIT_SEL)) return false;      // container of other editables
+    if(el.querySelector('button,input,textarea,select')) return false;
+    return el.textContent.trim().length>0;
+  });
+}
+function deditContext(el){
+  const page=el.closest('.page'); const pageId=page?page.id:'';
+  let sec='';
+  const coll=el.closest('.collapsible');
+  if(coll) sec=(coll.querySelector('.collapsible-header')?.textContent||'').trim();
+  if(!sec){ let s=el.previousElementSibling;
+    while(s){ if(/^H[1-4]$/.test(s.tagName)){sec=s.textContent.trim();break} s=s.previousElementSibling } }
+  return {page:pageId, section:sec.slice(0,90)};
+}
+
+// Re-apply saved edits on load; drop any the committed file already contains.
+function deditApplySaved(){
+  const list=deditLoad(); if(!list.length) return;
+  const keep=[];
+  list.forEach(ed=>{
+    const els=[...document.querySelectorAll('#main '+DEDIT_SEL.split(',').join(', #main '))];
+    const hit=els.find(el=>el.innerHTML.trim()===ed.before.trim());
+    if(hit){ hit.innerHTML=ed.after; hit.dataset.deditOrig=ed.before; hit.classList.add('dedit-dirty'); keep.push(ed); return }
+    const already=els.some(el=>el.innerHTML.trim()===ed.after.trim());
+    if(!already) keep.push(ed);        // couldn't place it — keep so it isn't silently lost
+  });
+  if(keep.length!==list.length) deditStore(keep);
+}
+
+function deditRecord(el){
+  const before=(el.dataset.deditOrig||'').trim(), after=el.innerHTML.trim();
+  const list=deditLoad().filter(e=>e.before.trim()!==before);
+  if(before && after && before!==after){
+    const c=deditContext(el);
+    list.push({page:c.page, section:c.section, before, after, ts:new Date().toISOString()});
+    el.classList.add('dedit-dirty');
+  } else { el.classList.remove('dedit-dirty') }
+  deditStore(list); deditPaint();
+}
+
+function deditPaint(){
+  const c=deditLoad().length, el=document.getElementById('dedit-count');
+  if(el) el.textContent=c+(c===1?' unsaved edit':' unsaved edits');
+}
+
+let _deditOpenState=null;
+function toggleEditMode(){
+  const on=!document.body.classList.contains('dash-editing');
+  if(on){
+    document.querySelectorAll('mark.oc-find').forEach(m=>m.replaceWith(document.createTextNode(m.textContent)));
+    _deditOpenState={coll:[...document.querySelectorAll('.collapsible')].map(c=>c.classList.contains('open')),
+                     sec:[...document.querySelectorAll('.dm-secret-toggle')].map(t=>t.classList.contains('open'))};
+    document.querySelectorAll('.collapsible').forEach(c=>c.classList.add('open'));
+    document.querySelectorAll('.dm-secret-toggle').forEach(t=>t.classList.add('open'));
+    document.body.classList.add('dash-editing');
+    deditTargets().forEach(el=>{
+      el.setAttribute('data-dedit','1'); el.contentEditable='true'; el.spellcheck=true;
+      if(!el.dataset.deditOrig) el.dataset.deditOrig=el.innerHTML.trim();
+      el.addEventListener('blur',el._deditBlur=()=>deditRecord(el));
+      el.addEventListener('paste',el._deditPaste=ev=>{ev.preventDefault();
+        document.execCommand('insertText',false,(ev.clipboardData||window.clipboardData).getData('text'))});
+    });
+    deditBar(true);
+  } else {
+    document.querySelectorAll('[data-dedit]').forEach(el=>{
+      deditRecord(el);
+      el.removeAttribute('contenteditable'); el.removeAttribute('data-dedit');
+      if(el._deditBlur) el.removeEventListener('blur',el._deditBlur);
+      if(el._deditPaste) el.removeEventListener('paste',el._deditPaste);
+    });
+    document.body.classList.remove('dash-editing');
+    if(_deditOpenState){
+      document.querySelectorAll('.collapsible').forEach((c,i)=>c.classList.toggle('open',!!_deditOpenState.coll[i]));
+      document.querySelectorAll('.dm-secret-toggle').forEach((t,i)=>t.classList.toggle('open',!!_deditOpenState.sec[i]));
+      _deditOpenState=null;
+    }
+    deditBar(false);
+  }
+}
+
+function deditBar(show){
+  document.getElementById('dedit-bar')?.remove();
+  document.getElementById('dedit-banner')?.remove();
+  if(!show) return;
+  const b=document.createElement('div'); b.id='dedit-banner';
+  b.textContent='✏️ EDIT MODE — click any text to change it. Edits stay in this browser until you export them.';
+  document.getElementById('main').prepend(b);
+  const bar=document.createElement('div'); bar.id='dedit-bar';
+  bar.innerHTML='<span class="dedit-count" id="dedit-count"></span>'+
+    '<button class="dedit-save" onclick="deditExport()">💾 Export edits (.json)</button>'+
+    '<button class="dedit-done" onclick="toggleEditMode()">✓ Done editing</button>'+
+    '<button class="dedit-discard" onclick="deditDiscard()">↩︎ Discard all edits</button>';
+  document.body.appendChild(bar); deditPaint();
+}
+
+function deditExport(){
+  const list=deditLoad();
+  if(!list.length){alert('No edits to export yet.');return}
+  const payload={dashboard:'dm-dashboard-doomed-forgotten-realms.html',
+    exported:new Date().toISOString(), count:list.length, edits:list};
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}));
+  a.download='dashboard-edits-'+new Date().toISOString().slice(0,10)+'.json'; a.click();
+  alert(list.length+' edit'+(list.length===1?'':'s')+' exported.\n\nSend the .json to Claude to bake them into the committed file. Your edits stay visible here until that lands.');
+}
+
+function deditDiscard(){
+  const list=deditLoad();
+  if(!list.length){alert('Nothing to discard.');return}
+  if(!confirm('Discard all '+list.length+' unsaved edit'+(list.length===1?'':'s')+' and restore the committed text?\n\nThis cannot be undone.'))return;
+  localStorage.removeItem(DEDIT_KEY);
+  if(document.body.classList.contains('dash-editing')) toggleEditMode();
+  location.reload();
+}
+
+// block collapsible/secret toggling while editing (mousedown still sets the caret)
+document.addEventListener('click',e=>{
+  if(!document.body.classList.contains('dash-editing'))return;
+  if(e.target.closest('.dm-secret-toggle,.collapsible-header')){e.stopPropagation();e.preventDefault()}
+},true);
+
+deditApplySaved(); deditPaint();
+
 // ==================== KEYBOARD SHORTCUTS ====================
 document.addEventListener('keydown',e=>{
 if(['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName))return;
+if(e.target.isContentEditable||document.body.classList.contains('dash-editing'))return;
 if(e.key==='n'||e.key==='N')nextTurn();
 if(e.key==='p'||e.key==='P')prevTurn();
 });
