@@ -648,7 +648,7 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 <li><strong>The Bliss-Trap (failure state).</strong> A character who fully accepts what the palace offers (H4) stops trying to leave. Allies can pull them out. If the <strong>whole party</strong> accepts, the palace keeps them — a soft TPK by contentment. This, not monsters, is the real danger.</li>
 </ul>
 <p><strong>Feywild-meets-Vecna (the rot underneath).</strong> The palace is dying, and Vecna's Remaking has infected the dream: fey beauty keeps <em>curdling</em>. A feast of moths under glass; a fountain running with silver that whispers names of the dead; laughter that arrives a half-second before the joke. Roll or pick one curdle per area for texture.</p>
-<p><strong>The palace remembers.</strong> Cruelty here (smashing the songbird H7, forcing a seal H11, robbing the Larder H6) is <em>noticed</em> — each such act imposes a cumulative <strong>−1 (max −3)</strong> on the final H11 seal checks, and Zybilna's first words on waking reflect how they treated her home.</p>
+<p><strong>The palace remembers.</strong> Cruelty here (the songbird destroyed in H7, forcing a seal or triggering a time-lash in H11, robbing the Larder H6) is <em>noticed</em> — track a cumulative <strong>cruelty count (max 3)</strong>. It sets <strong>Zybilna's attitude on waking</strong> (see H11 · <em>How she wakes</em>). <strong>S30: the songbird's destruction counts — the party enters H11 at 1.</strong></p>
 </div>
 
 <div class="collapsible">
@@ -1205,7 +1205,7 @@ Tib pulls his knees up and the motley-bells don't ring — they're frozen too. "
 <p>Freeing Zybilna is the climax — a <strong>puzzle, not a fight.</strong></p>
 <div class="card read-aloud">The hourglass is taller than a person, its glowing sand frozen in the fall. Three seals ring its base — one green as envy, one brown as old blood, one violet as a closed eye. Around them, faint, are scenes: a hoarder's hall, a cruel nursery, a story with no ending. The woman above you is caught turning, mouth open on a word she never finished.</div>
 <div class="card">
-<p><strong>How to pitch it to the players:</strong> "You can't smash your way in — force just resets the sand (and lashes you). The palace has been asking one question the whole way here: <em>will you be greedy, cruel, and force the ending — or generous, kind, and speak the truth?</em> Everything you picked up was a key." Then lay out the three seals; they'll connect Coin→green, songbird→brown, Tib's clue→violet if they explored. Rushers improvise at the cost of the time-lash (DC 16 CON, lose next turn).</p>
+<p><strong>How to pitch it to the players:</strong> "You can't smash your way in — force just resets the sand (and lashes you). The palace has been asking one question the whole way here: <em>will you be greedy, cruel, and force the ending — or generous, kind, and speak the truth?</em> Everything you picked up was a key." Then lay out the three seals; they'll connect Coin→green, songbird→brown, Tib's clue→violet if they explored. Rushers improvise at the cost of the time-lash (DC 18 CON, lose next turn + 1 exhaustion).</p>
 </div>
 <div class="card" style="border:2px solid var(--purple);background:var(--purple-dim)">
 <h4 style="margin-top:0">⏳ The Hourglass — Three Seals (locked solution)</h4>
@@ -1223,10 +1223,41 @@ Tib pulls his knees up and the motley-bells don't ring — they're frozen too. "
 <li>A PC spending their <em>own</em> want on someone else — the wants at H1 are the highest-value currency any of them has.</li>
 <li>Tending <strong>Pemberly</strong> (H2) or Tib, neither of whom can be saved yet, and doing it anyway.</li>
 </ul>
-<p style="margin-top:6px">If they force it instead: <strong>DC 16 CON</strong> time-lash as normal. The destroyed bird makes this the hardest of the three seals — which is correct, because the palace watched it get smashed.</p>
+<p style="margin-top:6px">If they force it instead: <strong>DC 18 CON</strong> time-lash as normal. The destroyed bird makes this the hardest of the three seals — which is correct, because the palace watched it get smashed.</p>
 </div>
 <p>All three open → the sand runs out, time resumes, the palace stops shifting, the three realms lean back together.</p>
-<p style="font-size:.85rem;color:var(--text2)"><strong>Wrong move (time-lash, not a monster):</strong> forcing a seal or a false ending — each creature <strong>DC 16 CON save</strong> or loses its next turn as seconds rewind (and ages a few years, cosmetic).</p>
+<div class="card">
+<h4>⏳ The Time-Lash</h4>
+<p><strong>Trigger:</strong> forcing a seal, striking the hourglass, or offering a false or token act (anything not genuine generosity, kindness, or truth).</p>
+<ul>
+<li>Every creature in the chamber: <strong>DC 18 CON save</strong>. On a fail it <strong>loses its next turn</strong> as seconds rewind and gains <strong>1 level of exhaustion</strong> (2024 rules: −2 per level to d20 tests). Stacks with any exhaustion from the H10 corridor.</li>
+<li>Each lashed creature ages a few years (cosmetic).</li>
+<li>Striking the hourglass also resets the sand — any opened seals stay open, but the act counts.</li>
+<li>Each time-lash adds <strong>+1 cruelty</strong> (max 3).</li>
+<li>Track lashes: <strong>☐ ☐ ☐</strong> — the third one starts <em>the Unwinding</em>.</li>
+</ul>
+</div>
+<div class="card">
+<h4>🌀 The Unwinding (third time-lash)</h4>
+<p>The palace stops testing them and defends Zybilna <em>from</em> them. The seals still open the same way, but each attempt now costs an action mid-fight. The fight ends the moment the third seal opens.</p>
+<ul>
+<li><strong>Sand runs backward.</strong> Initiative 20 each round: roll d6. On 1–2, every creature is rewound to where it stood at the start of its last turn.</li>
+<li><strong>The Knight returns</strong> (H9 stat block), reformed from sand at full HP.</li>
+<li><strong>Time-wisps:</strong> 2d4 arrive at the end of each round until all three seals are open. Use the H9 wisp stat block.</li>
+<li><strong>The freeze spreads.</strong> A creature that ends its turn within 10 ft of the hourglass: <strong>DC 18 CON save</strong> or <strong>restrained</strong> (frozen) until an ally uses an action to break it free.</li>
+<li>Further forced acts during the Unwinding still trigger a time-lash.</li>
+</ul>
+<p><strong>Tactics:</strong> the Knight body-blocks the hourglass; wisps target whoever is mid-seal. Make them choose between surviving and solving.</p>
+</div>
+</div>
+<div class="card">
+<h4>👑 How she wakes (cruelty count)</h4>
+<ul>
+<li><strong>0–1 · Warm.</strong> Run as written: Secret #2 freely given, Feywild boon, children payoff.</li>
+<li><strong>2 · Wary.</strong> Secret #2 freely given, but she names what they did to her home first. Boon is smaller (DM's choice).</li>
+<li><strong>3 · Cold.</strong> She names each cruelty, specifically. <strong>No Feywild boon.</strong> Secret #2 must be bargained for — she wants something of real value (a want, a true name, a favor owed). The rod piece is still given: she wants Vecna stopped more than she wants them punished.</li>
+</ul>
+<p><strong>The rod piece always drops.</strong> Never gate it behind her attitude.</p>
 </div>
 <div class="dm-secret-card">
 <p><strong>🔒 Secret #2 — Iuz's Role.</strong> Zybilna reveals what she carried alone: her son <strong>Iuz</strong> attacked Vecna with a <strong>forged Sword of Kas</strong>; the attack failed and became Vecna's <strong>path to Sigil</strong>, nearly unmaking the multiverse. <strong>Alustriel never knew it was Iuz.</strong> Counts as a secret; major leverage.</p>
@@ -1269,7 +1300,7 @@ If a PC says she looks like Tasha: she tilts her head. "So she told you. Good �
 <div class="card">
 <h4>🗺️ Logical Sequence (not a grid)</h4>
 <p>H1 Gates → H2 Shifting Halls <em>(Pemberly)</em> → H3 Gallery of Small Cruelties <em>(memory-toll)</em> → H4 Hall of Wants <em>(Heart's Shadow)</em> → H5 Briar Court <em>(first fight)</em> → H6 Larder <em>(Magpie + Coin)</em> → H7 Nursery <em>(songbird + the Nanny)</em> → H8 Tib <em>(Secret #1 + clue)</em> → H9 Antechamber <em>(Knight + wisps)</em> → H10 Corridor of Hours <em>(time-loop)</em> → H11 Stopped Clock <em>(3 seals → free Zybilna → Secret #2 → piece → level up)</em>.</p>
-<p style="font-size:.85rem;color:var(--text2)">Seal solutions are seeded earlier on purpose: <strong>Coin→green, Songbird→brown, Tib's clue→violet.</strong> Explorers get an easy finish; rushers improvise at the cost of a time-lash.</p>
+<p style="font-size:.85rem;color:var(--text2)">Seal solutions are seeded earlier on purpose: <strong>Coin→green, Songbird→brown, Tib's clue→violet.</strong> Explorers get an easy finish; rushers improvise at the cost of a time-lash (DC 18 CON, lose turn + exhaustion; third lash starts the Unwinding).</p>
 </div>
 </div>
 
