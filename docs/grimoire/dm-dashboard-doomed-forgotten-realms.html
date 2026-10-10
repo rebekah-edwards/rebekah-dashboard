@@ -151,6 +151,7 @@ tr:hover td{background:color-mix(in srgb,var(--gold) 3%,transparent)}
 .badge-purple{background:color-mix(in srgb,var(--purple2) 16%,transparent);color:var(--purple2)}
 .badge-pink{background:var(--pink-dim);color:var(--pink)}
 .badge-upcoming{background:transparent;color:var(--gold2);border:1px dashed var(--line-gold)}
+.boon-status{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:99px;border:1px dashed var(--line);font-family:var(--sans);font-size:.64rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text2);white-space:nowrap}
 /* ---------- trackers ---------- */
 .tracker{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:8px;margin:12px 0}
 .tracker-piece{text-align:center;padding:12px 8px 10px;border-radius:10px;font-size:.76rem;line-height:1.4;border:1px solid var(--line);background:var(--surface);color:var(--text2)}
@@ -1259,6 +1260,26 @@ Tib pulls his knees up and the motley-bells don't ring — they're frozen too. "
 </ul>
 <p><strong>The rod piece always drops.</strong> Never gate it behind her attitude.</p>
 </div>
+<div class="card" id="feywild-boons">
+<h4>🎁 Feywild Boons</h4>
+<p><strong>How many:</strong> Warm (0–1 cruelty) → pick <strong>1 Major</strong>, and every PC who performed a seal act gets that seal's <strong>Minor</strong>. Wary (2) → <strong>Minors only</strong>. Cold (3) → <strong>none</strong>.</p>
+<p><strong>Chosen:</strong> <span id="boon-chosen">— not yet picked —</span></p>
+
+<p><strong>Major (party, single use unless noted)</strong></p>
+<ul>
+<li><strong>The Unfinished Word.</strong> Zybilna's "no," given to the party. Once, any party member can speak it as a reaction to end every charm, compulsion, possession, or <em>Geas</em> on all allies within 60 ft. <em>DM: this can break a Vecna-sourced compulsion — useful later with Olaf.</em> <span class="boon-status">OPTION</span></li>
+<li><strong>A Grain of Stopped Sand.</strong> Once, at the end of any creature's turn, a party member can rewind that turn. Positions, HP, spell slots, and conditions return to how they were at its start, and the creature takes the turn again. <span class="boon-status">OPTION</span></li>
+<li><strong>Prismeer's Hospitality.</strong> Once, the party can step through any door into the Palace of Heart's Desire, take a full long rest there, and step back out 1 minute later from the same door. Ignores anti-planar and anti-teleport effects. <span class="boon-status">OPTION</span></li>
+<li><strong>The Feywalker's Road.</strong> Once, Zybilna opens a fey road to any place on the Material Plane a party member has stood. Bypasses scrying blocks and teleport wards; Vecna cannot track the trip. <span class="boon-status">OPTION</span></li>
+</ul>
+
+<p><strong>Minor (personal, one use, tied to the seal the PC opened)</strong></p>
+<ul>
+<li>🟢 <strong>Open Hand</strong> (green seal). Once, when an ally within 30 ft fails a saving throw, you give them your luck: they reroll and must use the new roll. <span class="boon-status">OPTION</span></li>
+<li>🟤 <strong>Mender's Touch</strong> (brown seal). Once, as an action, touch a creature: it regains 6d10 HP and one condition of your choice ends (including 1 level of exhaustion). <span class="boon-status">OPTION</span></li>
+<li>🟣 <strong>The True Ending</strong> (violet seal). Once, ask Zybilna one question in a dream. She answers truthfully and as fully as she knows. <span class="boon-status">OPTION</span></li>
+</ul>
+</div>
 <div class="dm-secret-card">
 <p><strong>🔒 Secret #2 — Iuz's Role.</strong> Zybilna reveals what she carried alone: her son <strong>Iuz</strong> attacked Vecna with a <strong>forged Sword of Kas</strong>; the attack failed and became Vecna's <strong>path to Sigil</strong>, nearly unmaking the multiverse. <strong>Alustriel never knew it was Iuz.</strong> Counts as a secret; major leverage.</p>
 <div class="card read-aloud" style="margin-top:8px">
@@ -1287,7 +1308,7 @@ If a PC says she looks like Tasha: she tilts her head. "So she told you. Good �
 </ul>
 <p style="font-size:.85rem;color:var(--text2)"><em>You said you'll likely rewrite this section — this is a starting point, not a lock-in. The only load-bearing part is that Zybilna is the one who answers.</em></p>
 </div>
-<p><strong>Rewards:</strong> the <strong>fifth Rod piece (Find the Path)</strong> — now resolves cleanly (Rod 5/7); a <strong>Feywild boon</strong> of your choosing; <em>(optional, if slow:)</em> Zybilna senses "a new thread among your wizards — small, and very new" (the pregnancy hint). <span class="badge badge-green">LEVEL UP</span></p>
+<p><strong>Rewards:</strong> the <strong>fifth Rod piece (Find the Path)</strong> — now resolves cleanly (Rod 5/7); a <strong>Feywild boon</strong> (see <em>🎁 Feywild Boons</em> — scales with how she wakes); <em>(optional, if slow:)</em> Zybilna senses "a new thread among your wizards — small, and very new" (the pregnancy hint). <span class="badge badge-green">LEVEL UP</span></p>
 <div class="dm-secret-toggle" onclick="this.classList.toggle('open')"><svg class="lock-icon"><use href="#i-lock"/></svg> <span>🩶 Olaf's Flashback — At the Stopped Clock — the peak (private, to Wren)</span></div>
 <div class="dm-secret-body"><div class="dm-secret-card">
 <p>The strongest one, and the cruelest. As the sand runs and <strong>Zybilna's memories come back to her</strong>, Olaf's break in the <em>other</em> direction — for a heartbeat he sees the world that was, whole and continuous, and <strong>it does not contain Vecna at all.</strong></p>
